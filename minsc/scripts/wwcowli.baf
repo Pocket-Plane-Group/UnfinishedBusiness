@@ -1,0 +1,17 @@
+IF
+	Global("WWStartTalkingToElle","LOCALS",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WWStartTalkingToElle","LOCALS",2)
+	StartDialogNoSet("WWElle")
+END
+
+/* Kulyok */
+IF
+Global("WWCowledAppearance","GLOBAL",2)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END

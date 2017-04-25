@@ -1,0 +1,8 @@
+IF
+	Global("AsylumPlot","GLOBAL",55)
+	Global("madeAlly2","AR1515",0)
+	Global("SunaTalkedToValygar","GLOBAL",1)
+THEN RESPONSE #100
+		SetGlobal("madeAlly2","AR1515",1)
+		StartDialogueNoSet(Player1)
+END

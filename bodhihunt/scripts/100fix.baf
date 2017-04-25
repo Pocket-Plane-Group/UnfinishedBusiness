@@ -1,0 +1,6 @@
+IF
+	False()
+THEN
+	RESPONSE #100
+		ActionOverride("ppbodhi4",DestroySelf())
+END

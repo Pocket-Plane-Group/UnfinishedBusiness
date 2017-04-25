@@ -1,0 +1,16 @@
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BValygar4","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BValygar4","LOCALS",90)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("BValygar4","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("BValygar4","LOCALS",0)
+END
+

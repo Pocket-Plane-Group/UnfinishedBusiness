@@ -1,0 +1,43 @@
+IF
+Range(Player1,5)
+See(Player1)
+Global("Spoken","LOCALS",0)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+SetGlobal("Spoken","LOCALS",1)
+END
+
+IF
+See(Player1)
+Global("Spoken","LOCALS",1)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+SetGlobal("Spoken","LOCALS",2)
+END
+
+IF
+HPPercentLT(Myself,20)
+Global("SpokenHurt","LOCALS",0) /* Kulyok */
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+SetGlobal("SpokenHurt","LOCALS",1)
+END
+
+IF
+See(NearestEnemyOf(Myself))
+Global("RakCloud","GLOBAL",0)
+THEN
+RESPONSE #30
+ForceSpell(NearestEnemyOf(Myself),WIZARD_CLOUDKILL)
+SetGlobal("RakCloud","GLOBAL",1)
+RESPONSE #30
+ForceSpell(NearestEnemyOf(Myself),WIZARD_DEATH_FOG)
+SetGlobal("RakCloud","GLOBAL",1)
+RESPONSE #40
+AttackReevaluate(NearestEnemyOf(Myself),10)
+SetGlobal("RakCloud","GLOBAL",1)
+END
+

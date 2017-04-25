@@ -1,0 +1,8 @@
+IF
+  Global("UBGorjeCC","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("GORJE",[304.1366],14)  // ~Gorje Hilldark~
+    SetGlobal("UBGorjeCC","GLOBAL",2)
+END
+

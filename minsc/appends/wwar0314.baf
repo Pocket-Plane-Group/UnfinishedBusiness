@@ -1,0 +1,14 @@
+IF
+	Global("WWThugsExist","AR0314",0)
+	Global("WWBooGone","GLOBAL",1) 
+        InParty("Minsc") 
+	!HasItem("MISC84","Minsc")  /* Kulyok */
+THEN
+	RESPONSE #100
+		SetGlobal("WWThugsExist","AR0314",1)
+		CreateCreature("WWDelag",[698.271],11)          // 8 = NE
+		CreateCreature("WWSten",[745.253],0)           // 7 = NNE
+		CreateCreature("WWEff",[633.324],5)          // 14 = SE
+		CreateCreature("WWVivi",[788.285],2)
+END
+

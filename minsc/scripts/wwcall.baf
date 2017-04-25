@@ -1,0 +1,20 @@
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWElle")
+	SetInterrupt(FALSE)
+	DisplayStringHead(Myself,~Guards!~)
+	RunAwayFrom(NearestEnemyOf(Myself),30)
+	SetGlobal("WWAttackedElly","GLOBAL",1)
+	Face(0)
+	ApplySpell(Myself,CLERIC_HEAL)
+	Wait(1)
+	CreateCreatureObjectOffset("wwfght1",Myself,[0.5])
+	CreateCreatureObjectOffset("wwfght2",Myself,[1.3])
+	Wait(1)
+	CreateCreatureObjectOffScreen("wwarro1",Myself,0,0,0)
+	CreateCreatureObjectOffScreen("wwarro2",Myself,0,0,0)
+	StartCutScene("WWCall2")
+END
+
+

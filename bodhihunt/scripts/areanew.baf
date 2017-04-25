@@ -1,0 +1,17 @@
+IF
+	Global("J#BodhiSpawned","GLOBAL",0)
+	GlobalTimerExpired("BodhiHunts","GLOBAL")
+	GlobalLT("AsylumPlot","GLOBAL",42)
+	!Exists("ppbodhi4")
+	OR(3)
+		AreaCheck("AR1512")
+		AreaCheck("AR1513")
+		AreaCheck("AR1514")
+THEN
+	RESPONSE #100
+//		SetCutSceneLite(TRUE)
+		SetGlobal("J#BodhiSpawned","GLOBAL",1)
+		FadeToColor([40.0],0)
+		SmallWait(15)
+		CreateCreatureObject("ppbodhi4",Player1,0,0,0)
+END

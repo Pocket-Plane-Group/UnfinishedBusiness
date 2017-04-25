@@ -1,0 +1,9 @@
+IF
+  Global("TiiroSpawn","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("TiiroSpawn","GLOBAL",2)
+    CreateCreature("crothf01",[842.335],14)  // ~Tiiro~
+    CreateCreature("crothf02",[874.364],6)  // ~Aulava~
+END
+

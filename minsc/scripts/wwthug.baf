@@ -1,0 +1,120 @@
+IF
+	   Dead("wwvivi")
+	See([PC])
+	Global("WWDiscoverDead","LOCALS",0)
+THEN 
+	RESPONSE #25
+		SetGlobal("WWDiscoverDead","LOCALS",1)
+		Enemy()
+		DisplayStringHead(Myself,@38)
+		EquipMostDamagingMelee()
+		AttackOneRound([PC])
+	RESPONSE #25
+		SetGlobal("WWDiscoverDead","LOCALS",1)
+		Enemy()
+		Wait(1)
+		DisplayStringHead(Myself,@39)
+		EquipMostDamagingMelee()
+		AttackOneRound([PC])
+	RESPONSE #25
+		SetGlobal("WWDiscoverDead","LOCALS",1)
+		Enemy()
+		DisplayStringHead(Myself,@40)
+		EquipMostDamagingMelee()
+		AttackOneRound([PC])
+	RESPONSE #25
+		SetGlobal("WWDiscoverDead","LOCALS",1)
+		Enemy()
+		SmallWait(7)
+		DisplayStringHead(Myself,@41)
+		EquipMostDamagingMelee()
+		AttackOneRound([PC])
+END
+
+IF
+	G("WWFightVivickNow",1)
+	AttackedBy([PC],DEFAULT)
+	G("WWThugFight",0)
+THEN RESPONSE #100
+		ActionOverride("wwvivi",JumpToPoint([642.440]))              // Go back to original points
+		ActionOverride(Player1,JumpToPoint([585.445]))
+		ActionOverride("Minsc",JumpToPoint([629.444]))
+	Enemy()
+	ActionOverride("WWVIVI",Enemy())
+	SG("WWThugFight",1)
+END
+
+IF
+	!G("WWFightVivickNow",1)
+	AttackedBy([PC],DEFAULT)
+	G("WWThugFight",0)
+THEN RESPONSE #100
+	Enemy()
+	ActionOverride("WWVIVI",Enemy())
+	SG("WWThugFight",1)
+END
+
+IF
+	AttackedBy([PC],DEFAULT)
+	G("WWThugFight",0)
+THEN RESPONSE #100
+		ActionOverride("wwvivi",JumpToPoint([642.440]))              // Go back to original points
+		ActionOverride(Player1,JumpToPoint([585.445]))
+		ActionOverride("Minsc",JumpToPoint([629.444]))
+	Enemy()
+	ActionOverride("WWVIVI",Enemy())
+	SG("WWThugFight",1)
+END
+
+IF
+	G("WWThugFight",1)
+	!Allegiance(Myself,[ENEMY])
+	Global("WWAllegianceChange","LOCALS",0)
+THEN
+	RESPONSE #100
+	  	Enemy()
+		SetGlobal("WWAllegianceChange","LOCALS",1)
+		Continue()
+END
+
+IF
+	G("WWThugFight",1)
+	G("WWMovePlayers",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,RestorePartyLocations())
+		SG("WWMovePlayers",0)
+		Continue()
+END
+
+IF
+	OR(2)
+		G("WWThugFight",1)
+		Dead("wwvivi")
+	See([PC])
+	InActiveArea("Minsc")
+THEN RESPONSE #25
+		SG("WWThugFight",1)
+		AttackOneRound(NearestEnemyOf(Myself))
+	RESPONSE #25
+		SG("WWThugFight",1)
+		AttackOneRound(SecondNearestEnemyOf(Myself))
+	RESPONSE #50
+		SG("WWThugFight",1)
+		AttackOneRound("Minsc")
+END
+
+IF
+	OR(2)
+		Global("WWThugFight","GLOBAL",1)
+		Dead("wwvivi")
+	Dead("wwvivi")
+	See([PC])
+	!InActiveArea("Minsc")
+THEN RESPONSE #25
+		AttackOneRound(NearestEnemyOf(Myself))
+	RESPONSE #25
+		AttackOneRound(SecondNearestEnemyOf(Myself))
+	RESPONSE #50
+		AttackOneRound(Player1)
+END

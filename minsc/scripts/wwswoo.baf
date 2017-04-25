@@ -1,0 +1,54 @@
+// Begin conversation with Billy immediately upon
+// entry to store
+IF
+	See("WWBill")
+	Global("WWSwooTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("WWSwooTalk","GLOBAL",1)
+		MoveToObject("WWBill")
+		StartDialogueNoSet("WWBill")
+END
+
+// After Billy leaves
+IF 
+	G("WWChatty",1)
+	!See("WWBill")
+THEN
+	RESPONSE #100
+	SG("WWChatty",2)
+	Dialogue(Player1)
+END
+
+// If attacked for no reason...
+IF
+	Global("WWYouAttackedMeYouBastards","LOCALS",0)
+	AttackedBy([PC],DEFAULT)
+THEN
+	RESPONSE #100
+		SetGlobal("WWYouAttackedMeYouBastards","LOCALS",1)
+		SetGlobal("WWSwooTalk","GLOBAL",99)		// He won't do his normal speech
+		DialogueForceInterrupt(LastAttackerOf(Myself))
+END
+
+
+// After giving Minsc fake Boo
+IF 
+	G("WWWaitForComment",4)
+	Global("WWFakeBoo","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("WWFakeBoo","GLOBAL",1)
+		StartDialogNoSet([PC])
+END
+
+// Second talk after fake Boo
+IF
+	G("WWSmethyChastens",1)
+	Global("WWSwooChastens","GLOBAL",0)
+	!Detect("Minsc")
+THEN
+	RESPONSE #100
+		SetGlobal("WWSwooChastens","GLOBAL",1)
+		StartDialogueNoSet([PC])
+END

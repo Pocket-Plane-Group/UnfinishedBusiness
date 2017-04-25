@@ -1,0 +1,17 @@
+IF
+	Global("DeactivateValCabin","AR1100",0)
+	Global("ToldAboutVal","AR1100",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeactivateValCabin","AR1100",1)
+		TriggerActivation("Tran1101",FALSE)
+END
+
+IF
+	Global("ActivateValCabin","AR1100",0)
+	Global("ToldAboutVal","Global",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ActivateValCabin","AR1100",1)
+		TriggerActivation("Tran1101",TRUE)
+END

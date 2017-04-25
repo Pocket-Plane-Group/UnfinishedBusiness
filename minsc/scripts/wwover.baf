@@ -1,0 +1,41 @@
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWVIVI")
+	NoAction()
+	FadeToColor([20.0],0)
+	Wait(2)
+	JumpToPoint([642.440])
+	MoveViewObject(Myself,INSTANT)
+	Wait(1)
+	FadeFromColor([20.0],0)
+	Wait(2)
+  	SetGlobal("WWStartTalking","LOCALS",1)
+   	ApplySpell(Myself,CLERIC_HEAL)
+	Wait(2)
+	ClearAllActions()
+	EndCutSceneMode()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player1)
+	ClearActions(Myself)
+	NoAction()
+	JumpToPoint([580.330])
+	NoAction()
+	ClearActions(Myself)
+END
+
+IF 
+	True()
+THEN RESPONSE #100
+	CutSceneId("Minsc")
+	ClearActions("Minsc")
+	NoAction()
+	JumpToPoint([397.426])
+	Wait(3)
+	NoAction()
+	ClearActions("Minsc")
+END

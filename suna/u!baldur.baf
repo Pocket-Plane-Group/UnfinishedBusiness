@@ -1,0 +1,8 @@
+IF
+        Global("u!SunaDies","GLOBAL",1)
+THEN
+    RESPONSE #100
+             SetGlobal("u!SunaDies","GLOBAL",2)
+             Wait(5)
+             ActionOverride("Valygar",StartDialogNoSet(Player1))
+END

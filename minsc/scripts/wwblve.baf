@@ -1,0 +1,17 @@
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWBill")
+	ActionOverride("WWSWOO",SetGlobal("WWBillyGone","LOCALS",1))
+	CreateVisualEffectObject("shearth",Myself)
+    DestroySelf()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player1)
+	Wait(3)
+	SG("WWChatty",1)
+	EndCutSceneMode()
+END

@@ -1,0 +1,23 @@
+IF
+	Global("AsylumPlot","GLOBAL",20)
+        Global("PPJonRevealed","GLOBAL",0)
+	InParty("Valygar")
+THEN
+	RESPONSE #0
+		ClearAllActions()
+		SetGlobal("PPJonRevealed","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("u!cut41g")
+END
+
+IF
+	Global("AsylumPlot","GLOBAL",20)
+        Global("PPJonRevealed","GLOBAL",0)
+	!InParty("Valygar")
+THEN
+	RESPONSE #0
+		ClearAllActions()
+		SetGlobal("PPJonRevealed","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("Cut41g")
+END

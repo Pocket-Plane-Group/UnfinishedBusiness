@@ -1,0 +1,43 @@
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWFght1")
+	Wait(4)
+	Enemy()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWFght2")
+	Wait(1)
+	DisplayStringHead(Myself,@35)
+	Wait(4)
+	Enemy()
+	EndCutSceneMode()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWArro1")
+	Wait(4)
+	Enemy()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWArro1")
+	Wait(4)
+	Enemy()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWElle")
+	Wait(4)
+	DisplayStringHead(Myself,49764)
+	EscapeArea()
+END

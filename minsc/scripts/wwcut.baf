@@ -1,0 +1,69 @@
+IF
+	True()
+THEN RESPONSE #100
+		CutSceneId("WWBill")
+		CreateCreature("WWDelag",[698.271],11)       // 8 = NE
+		CreateCreature("WWSten",[745.253],0)         // 7 = NNE
+		CreateCreature("WWEff",[633.324],10)          // 14 = SE
+		CreateCreature("WWVivi",[788.285],2)
+		DisplayStringHead(Myself,44420)
+		SetGlobal("WWMoveToV","LOCALS",1)
+	        MoveToObjectNoInterrupt("wwvivi")
+        	MoveViewObject("WWBill",VERY_FAST)
+		ActionOverride("wwvivi",FaceObject("wwbill")
+END
+
+IF
+	True()
+THEN RESPONSE #100
+		CutSceneId(Player1)
+		Wait(2)
+		MoveToPointNoInterrupt([571.399])
+END
+
+IF
+	InParty(Player2)
+THEN RESPONSE #100
+		CutSceneId(Player2)
+		Wait(2)
+		MoveToPointNoInterrupt([603.435])
+END
+
+IF
+	InParty(Player3)
+THEN RESPONSE #100
+		CutSceneId(Player3)
+		Wait(2)
+		MoveToPointNoInterrupt([524.425])
+END
+
+IF
+	InParty(Player4)
+THEN RESPONSE #100
+		CutSceneId(Player4)
+		Wait(2)
+		MoveToPointNoInterrupt([560.433])
+END
+
+IF
+	InParty(Player5)
+THEN RESPONSE #100
+		CutSceneId(Player5)
+		Wait(2)
+		MoveToPointNoInterrupt([583.461])
+END
+
+IF
+	InParty(Player6)
+THEN RESPONSE #100
+		CutSceneId(Player6)
+		Wait(2)
+		MoveToPoint([531.453])
+END
+
+IF
+	True()
+THEN RESPONSE #100
+		Wait(5)
+        EndCutSceneMode()
+END

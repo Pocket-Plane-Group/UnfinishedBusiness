@@ -1,0 +1,8 @@
+IF
+	Detect([PC])
+	AreaCheck("ar1514")
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(LastSeenBy(Myself))
+END

@@ -1,0 +1,96 @@
+// Billy says "Eek" and runs to Vivick
+// after party enters tavern
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("WWBillySeen","GLOBAL",2)
+	Global("WWMoveToV","LOCALS",0)
+	AreaCheck("AR0314")
+	!Range("wwvivi",4)
+	!Dead("wwvivi")
+    Detect(Player1)
+	See("Minsc")
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("wwcut")
+END
+
+// Make sure PC can see him (is this working?)
+// then when in front of Vivick, begins sob story
+IF
+	Global("WWBooGone","GLOBAL",1)
+    Global("WWMoveToV","LOCALS",1)
+    !Dead("wwvivi")
+    Range("wwvivi",4)
+	InParty("Minsc")
+    Detect([PC])
+THEN
+    RESPONSE #100
+		SetGlobal("WWHelpFindBoo","GLOBAL",10)
+        SetGlobal("WWMoveToV","LOCALS",2)
+		SetGlobal("WWBillyHelp","GLOBAL",1)
+        StartDialogueNoSet(Player1)
+END
+
+// If you attack Billy while quest is running..
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("WWThugFight","GLOBAL",1)
+	AttackedBy([PC],DEFAULT)
+THEN RESPONSE #100
+		ClearAllActions()
+		SetGlobal("WWBillyScared","GLOBAL",1)
+		StartDialogueNoSet(LastAttackerOf(Myself))
+END
+
+// If Minsc is dead, Billy runs away
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Dead("Minsc")
+	InActiveArea(Myself)
+	Global("MinscDead","LOCALS",0)
+THEN RESPONSE #100
+	EscapeArea()
+	SetGlobal("MinscDead","LOCALS",1)
+END
+
+
+// If you've killed off all the thugs
+// Billy will confess.
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("WWBillyScared","GLOBAL",0)
+	InParty("Minsc")
+	Dead("WWVivi")
+	Dead("WWSten")
+	Dead("WWDel")
+	Dead("WWEff")
+	See([PC])
+	InActiveArea("Minsc")
+	!Dead("Minsc")
+THEN
+	RESPONSE #100
+		SetGlobal("WWBillyScared","GLOBAL",1)
+		StartDialogueNoSet([PC])
+END
+
+// If Minsc's left the party, there's no reason Billy should hang around...
+IF 
+   OR(2)
+	G("WWBooGone",4)
+    G("WWBooGone",5)
+   Detect([PC])
+THEN RESPONSE #100
+		DestroySelf()
+END
+
+// If you attack Billy before the quest begins, then it will never begin for you :P
+IF
+	G("WWBooGone",0)
+	AttackedBy([ANYONE],DEFAULT)
+THEN RESPONSE #100
+	SG("WWBooGone",99)
+    EscapeAreaDestroy(5)
+END

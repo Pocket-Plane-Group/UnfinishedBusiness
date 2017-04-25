@@ -1,0 +1,12 @@
+/* Kulyok */
+IF
+OR(2)
+Global("teleka","GLOBAL",1)
+Dead("Kalah")
+InMyArea(Player1) 
+Global("U!KGirlspawn","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("U!Kgirl",[3100.1700],1) 
+SetGlobal("U!KGirlspawn","GLOBAL",1)
+END

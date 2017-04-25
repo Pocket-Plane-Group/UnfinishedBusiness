@@ -1,0 +1,16 @@
+IF
+True()
+THEN RESPONSE #100
+	CutSceneId("WWElle")
+    	ForceSpell([PC],WIZARD_MAGIC_MISSILE)
+		ClearAllActions()
+		ClearActions(LastAttackerOf(Myself))
+		SetInterrupt(FALSE)
+		Wait(1)
+		SetGlobal("WWCowlInterrupt","GLOBAL",1)
+        CreateCreatureDoor("wwcowl1",[1924.2103],12) // Cowled Wizard
+        CreateCreatureDoor("wwcowl2",[1919.2148],11) // Cowled Wizard
+		Wait(4)
+		ActionOverride("wwcowl1",SetGlobal("WWStartTalkingToElle","LOCALS",1))
+		EndCutSceneMode()
+END

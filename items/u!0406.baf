@@ -1,0 +1,7 @@
+IF
+     Global("ubitmbeast","GLOBAL",0)
+THEN
+     RESPONSE #100
+           GiveItemCreate("BAG01","BEAST",1,0,0)
+           SetGlobal("ubitmbeast","GLOBAL",1)
+END

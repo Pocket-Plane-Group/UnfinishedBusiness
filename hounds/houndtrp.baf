@@ -1,0 +1,12 @@
+IF
+	Entered([ANYONE])
+	Global("UnseeingEyeHounds","AR0202",0)
+THEN
+	RESPONSE #100
+		SetGlobal("UnseeingEyeHounds","AR0202",1)
+                CreateCreature("HELLHO01",[3332.704],0)
+		CreateCreature("HELLHO01",[3413.643],0)
+		CreateCreature("HELLHO01",[3638.762],0)
+		CreateCreature("HELLHO01",[3557.831],0)
+END
+

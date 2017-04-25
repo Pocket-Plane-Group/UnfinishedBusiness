@@ -1,0 +1,52 @@
+// Haer'Dalis
+IF
+InParty(Myself)
+GlobalGT("PlanarPrison","GLOBAL",1)
+Global("O#UBHaerDalisQuestStart","GLOBAL",0)
+!Dead("HACTON")
+THEN
+RESPONSE #100
+SetGlobalTimer("O#UBHaerDalisQuestTimer","GLOBAL",THREE_DAYS)
+SetGlobal("O#UBHaerDalisQuestStart","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+GlobalTimerExpired("O#UBHaerDalisQuestTimer","GLOBAL")
+Global("O#UBHaerDalisArrested","GLOBAL",0)
+!Dead("HACTON")
+Detect(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Detect([ENEMY])
+CombatCounter(0)
+OR(5)
+AreaCheck("AR0400")
+AreaCheck("AR0500")
+AreaCheck("AR0700")
+AreaCheck("AR0900")
+AreaCheck("AR1000")
+THEN
+RESPONSE #100
+CreateCreatureObject("O#HALIEU",Myself,0,0,0)
+CreateCreatureObject("O#HALIE1",Myself,0,0,0)
+CreateCreatureObject("O#HALIE2",Myself,0,0,0)
+SetGlobal("O#UBHaerDalisArrested","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+Global("O#UBHaerDalisJanosReward","GLOBAL",0)
+Global("O#UBHaerDalisJanosSaw","GLOBAL",1)
+Detect(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck(Myself,CD_STATE_NOTVALID)
+!Detect([ENEMY])
+CombatCounter(0)
+Dead("O#HAJAN")
+THEN
+RESPONSE #100
+SetGlobal("O#UBHaerDalisJanosSaw","GLOBAL",2)
+StartDialogueNoSet(Player1)
+END
+

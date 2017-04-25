@@ -1,0 +1,7 @@
+IF
+     Global("ubitmderrick","GLOBAL",0)
+THEN
+     RESPONSE #100
+           GiveItemCreate("MISC8J","VALRAN01",1,0,0)
+           SetGlobal("ubitmderrick","GLOBAL",1)
+END

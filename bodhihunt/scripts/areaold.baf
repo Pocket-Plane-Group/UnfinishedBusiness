@@ -1,0 +1,13 @@
+IF
+	GlobalTimerExpired("BodhiHunts","GLOBAL")
+	!Global("AsylumPlot","GLOBAL",100)
+	!Exists("ppbodhi4")
+THEN
+	RESPONSE #100
+		FadeToColor([20.0],0)
+		CreateCreatureObject("ppbodhi4",Player1,0,0,0)
+		CreateCreatureObject("vammat01",Player1,0,0,0)
+		CreateCreatureObject("vammat01",Player1,0,0,0)
+		FadeFromColor([20.0],0)
+		ActionOverride("ppbodhi4",StartDialogueNoSet(Player1))
+END

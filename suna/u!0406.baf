@@ -1,0 +1,7 @@
+IF
+	Global("SpawnSuna","AR0406",0)
+THEN
+	RESPONSE #100
+		CreateCreature("suna",[1504.1802],3)
+		SetGlobal("SpawnSuna","AR0406",1)
+END

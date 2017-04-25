@@ -1,0 +1,30 @@
+// Prison, AR1005
+IF
+Global("O#UBHaerDalisArrested","GLOBAL",2)
+Global("O#UBGuardTalkative","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#HAPRI",[1116.475],3)
+SetGlobal("O#UBGuardTalkative","GLOBAL",1)
+Continue()
+END
+
+IF
+!Global("O#UBHaerDalisInnocent","GLOBAL",1)
+GlobalTimerExpired("O#UBHaerDalisExecuteTimer","GLOBAL")
+Global("O#UBHaerDalisExecuted","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("Haerdalis",DestroySelf())
+AddJournalEntry(@1310,QUEST_DONE)
+EraseJournalEntry(@1301)
+EraseJournalEntry(@1302)
+EraseJournalEntry(@1303)
+EraseJournalEntry(@1304)
+EraseJournalEntry(@1305)
+EraseJournalEntry(@1306)
+EraseJournalEntry(@1307)
+SetGlobal("O#UBHaerDalisExecuted","GLOBAL",1)
+Continue()
+END
+

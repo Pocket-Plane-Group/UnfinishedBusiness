@@ -1,0 +1,432 @@
+// Changing Minsc's soundset depending on
+// i) Missing Boo
+// ii) Fake Boo recovered
+// iii) Real Boo recovered
+
+////////////////////////
+// Missing Boo soundset
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("WWSoundsOff","LOCALS",0)
+THEN
+	RESPONSE #100
+			SetPlayerSound(Myself,@3,HAPPY)
+			SetPlayerSound(Myself,@4,LEADER)
+			SetPlayerSound(Myself,@5,UNHAPPY_ANNOYED)
+			SetPlayerSound(Myself,@6,UNHAPPY_BREAKING_POINT)
+			SetPlayerSound(Myself,@7,TIRED)
+			SetPlayerSound(Myself,@8,BORED)
+			SetPlayerSound(Myself,@9,BATTLE_CRY1)
+			SetPlayerSound(Myself,@10,BATTLE_CRY3)
+			SetPlayerSound(Myself,@11,HURT)
+			SetPlayerSound(Myself,@12,AREA_FOREST)
+			SetPlayerSound(Myself,@13,AREA_DUNGEON)
+			SetPlayerSound(Myself,@14,SELECT_COMMON3)
+			SetPlayerSound(Myself,@15,SELECT_COMMON4)
+			SetPlayerSound(Myself,@16,SELECT_COMMON6)
+			SetPlayerSound(Myself,@17,SELECT_ACTION5)
+			SetPlayerSound(Myself,@18,SELECT_RARE2)
+		 	SetPlayerSound(Myself,@19,EXISTANCE2)
+			SetGlobal("WWSoundsOff","LOCALS",1)
+			Continue()
+END
+
+//////////////////////
+// Fake Boo soundset
+// Although some of the text is the same as his real soundset, we can't use the strrefs in the .tlk file as they contain Boo's squeaks.
+
+IF
+	Global("WWBooGone","GLOBAL",3)
+	Global("WWSoundsOff2","LOCALS",0)
+THEN
+	RESPONSE #100
+			SetPlayerSound(Myself,@20,HAPPY)
+			SetPlayerSound(Myself,@21,LEADER)
+			SetPlayerSound(Myself,@22,UNHAPPY_ANNOYED)
+			SetPlayerSound(Myself,@23,UNHAPPY_BREAKING_POINT)
+			SetPlayerSound(Myself,@24,TIRED)
+			SetPlayerSound(Myself,@25,BORED)
+			SetPlayerSound(Myself,@26,BATTLE_CRY1)
+			SetPlayerSound(Myself,@27,BATTLE_CRY3)
+			SetPlayerSound(Myself,@28,HURT)
+			SetPlayerSound(Myself,@29,AREA_FOREST)
+			SetPlayerSound(Myself,@30,AREA_DUNGEON)
+			SetPlayerSound(Myself,@31,SELECT_COMMON3)
+			SetPlayerSound(Myself,@32,SELECT_COMMON4)
+			SetPlayerSound(Myself,@33,SELECT_COMMON6)
+			SetPlayerSound(Myself,@34,SELECT_ACTION5)
+			SetPlayerSound(Myself,30809,SELECT_RARE2)
+		 	SetPlayerSound(Myself,34381,EXISTANCE2)
+			SetGlobal("WWSoundsOff2","LOCALS",1)
+			Continue()
+END
+
+
+/////////////////////////////////////////
+// Real Boo soundset - oh, joyous day!
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("WWSoundsOff3","LOCALS",0)
+THEN
+	RESPONSE #100
+			SetPlayerSound(Myself,4087,HAPPY)
+			SetPlayerSound(Myself,30790,LEADER)
+			SetPlayerSound(Myself,4088,UNHAPPY_ANNOYED)
+			SetPlayerSound(Myself,4090,UNHAPPY_BREAKING_POINT)
+			SetPlayerSound(Myself,4092,TIRED)   /* Kulyok */
+			SetPlayerSound(Myself,4093,BORED)
+			SetPlayerSound(Myself,4086,BATTLE_CRY1)
+			SetPlayerSound(Myself,30794,BATTLE_CRY3)
+			SetPlayerSound(Myself,4094,HURT)
+			SetPlayerSound(Myself,4095,AREA_FOREST)
+			SetPlayerSound(Myself,4096,AREA_DUNGEON)
+			SetPlayerSound(Myself,4100,SELECT_COMMON3)
+			SetPlayerSound(Myself,30796,SELECT_COMMON4)
+			SetPlayerSound(Myself,30799,SELECT_COMMON6)
+			SetPlayerSound(Myself,30806,SELECT_ACTION5)
+			SetPlayerSound(Myself,30809,SELECT_RARE2)
+		 	SetPlayerSound(Myself,34381,EXISTANCE2)
+			SetGlobal("WWSoundsOff3","LOCALS",1)
+			Continue()
+END
+
+
+//////////////////////////////
+// Turn off all inter-party
+// banters involving Boo
+//////////////////////////////
+
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BMinsc4","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BMinsc4","LOCALS",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+  	Global("MazzyDie","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MazzyDie","LOCALS",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscMazzy","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscMazzy","LOCALS",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscMazzy","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscMazzy","LOCALS",91)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscMazzy","LOCALS",2)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscMazzy","LOCALS",92)
+		Continue()
+END
+
+// So that raising of Aerie won't involve Boo dialog
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("AerieRaised","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("AerieRaised","LOCALS",90)
+		Continue()
+END
+
+// So that beserking won't involve Boo dialog
+IF
+	Global("WWBooGone","GLOBAL",1)
+    Global("MinscBerserker","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscBeserker","GLOBAL",90)
+		Continue()
+END
+
+// No more good rep commments :(
+IF 
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscGoodRep","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscGoodRep","GLOBAL",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscKeldorn3","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscKeldorn3","LOCALS",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("KeldornDie","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("KeldornDie","LOCALS",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscCernd","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscCernd","LOCALS",91)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscCernd","LOCALS",2)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscCernd","LOCALS",92)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BMinsc10","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BMinsc10","LOCALS",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BMinsc12","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BMinsc12","LOCALS",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscGoodRep2","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscGoodRep2","LOCALS",90)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscInjured","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscInjured","LOCALS",90)
+		Continue()
+END
+
+IF 
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscInjured","LOCALS",2)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscInjured","LOCALS",92)
+		Continue()
+END
+
+
+
+/////////////////////////
+// Turn them back on
+/////////////////////////
+
+
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("BMinsc4","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("BMinsc4","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+  	Global("MazzyDie","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("MazzyDie","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscMazzy","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscMazzy","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscMazzy","LOCALS",91)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscMazzy","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscMazzy","LOCALS",92)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscMazzy","LOCALS",2)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("AerieRaised","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("AerieRaised","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+    Global("MinscBerserker","GLOBAL",90)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscBeserker","GLOBAL",0)
+		Continue()
+END
+
+IF 
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscGoodRep","GLOBAL",90)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscGoodRep","GLOBAL",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscKeldorn3","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscKeldorn3","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("KeldornDie","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("KeldornDie","LOCALS",0)
+		Continue()
+END
+
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscCernd","LOCALS",91)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscCernd","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscCernd","LOCALS",92)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscCernd","LOCALS",2)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("BMinsc10","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("BMinsc10","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("BMinsc12","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("BMinsc12","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscGoodRep2","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscGoodRep2","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscInjured","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscInjured","LOCALS",0)
+		Continue()
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("MinscInjured","LOCALS",92)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscInjured","LOCALS",2)
+		Continue()
+END
+
+
+
+//////////////////////////////////////
+// Back to Minsc's ye olde script
+//////////////////////////////////////
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		ChangeAIScript("minsc",OVERRIDE)
+END
+

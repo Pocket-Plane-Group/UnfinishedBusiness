@@ -1,0 +1,28 @@
+IF
+	Global("WWSetTrollAreaOn","GLOBAL",1)
+    Global("WWBanditDelay","AR1900",1)
+THEN
+    RESPONSE #100
+		SetGlobal("WWBanditDelay","ar1900",2)
+		RealSetGlobalTimer("WWBanditDelayTimer","GLOBAL",5)
+END
+
+IF
+	Global("WWSetTrollAreaOn","GLOBAL",1)
+	RealGlobalTimerExpired("WWBanditDelayTimer","GLOBAL")
+	Global("WWLetsLimitTheNumbers","ar1900",0)
+THEN
+	RESPONSE #100
+		SetGlobal("WWLetsLimitTheNumbers","ar1900",1)
+        CreateCreature("wwtrol1",[1039.2644],1)
+		CreateCreature("wwtrol2",[1045.2708],1)
+		CreateCreature("wwtrol3",[1045.2767],1)
+		ActionOverride("wwtrol1",MoveToObject("Minsc"))
+		ActionOverride("wwtrol2",MoveToObject(Player1))
+		ActionOverride("wwtrol3",MoveToObject(Player1))
+		ActionOverride("wwtrol1",Attack("Minsc"))
+		ActionOverride("wwtrol2",Attack(Player1))
+		ActionOverride("wwtrol3",Attack(Player1))
+		SetGlobal("WWSetTrollAreaOn","GLOBAL",2)
+END
+

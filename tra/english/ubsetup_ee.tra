@@ -1,0 +1,277 @@
+@24   = ~Arbane's Sword of Agility
+One of many created in the name of the mage who first discovered how to enchant a blade in this manner, this was the weapon of the outlaw Garno, and many a cleric died at its edge.  Garno became disillusioned with the gods when his family was put to the torch by clerics of Loviatar, and spent his life seeking revenge.  Despite his focussed hatred of the devout, it is thought that one of the gods of chaos had a hand in Garno's acquisition of this sword, delighting in the havoc that followed the young man.
+
+STATISTICS:
+
+Equipped Abilities: Wearer is immune to Hold Person and Stun
+Special Abilities: Once per day can haste the character for 12 seconds
+THAC0:  +3 bonus
+Damage:  1D6 + 3
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength
+~
+@33   = ~Scimitar +1, Shazzellim
+This scimitar is of rather poor quality but beneath its surface lies great power and evil.  Created for the sole purpose of slaying Harpers, Shazzellim is more than capable of that task.  With one strike of the blade a bard must make a saving throw vs. spells or die.  Crafted by a Red Wizard of Thay, the sword also has the ability to vocalize, which is why it was often given to fighter-mages in the service of the Wizards.  Needless to say, possession of this sword would not be looked upon very highly by Harpers.
+
+STATISTICS
+
+Equipped Abilities:
+ Vocalize
+
+Combat Abilities:
+ Any bard hit must make saving throw vs. spells with a -4 penalty or die
+
+Damage:  1D8 + 1
+THAC0: +1 bonus
+Damage type:  slashing
+Weight:  3
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength
+~
+@34   = ~When used, this wand emits a many-layered mass of strong, sticky strands similar to spider webs but far larger and tougher.  Creatures caught within webs, or simply touching them, become stuck among the gluey fibers.
+Anyone in the area when the spell is cast must roll a saving throw vs. spell with a -5 penalty.  If the saving throw is successful, then the creature is free to move out of the area.  A failed saving throw means the creature is stuck in the webs, unable to move.  Each round that a creature remains in the web, he must make a saving throw or be unable to move.
+
+STATISTICS:
+
+Effect:  Hold target unless save vs. spell with -5 penalty
+Range:  60 ft
+Area of Effect: Special
+Saving Throw: Special
+Duration:  1 turn
+~
+@74   = ~Shakti Figurine
+
+There is strong evidence this item was fashioned by a powerful Wu Jen in the mysterious lands to the East of Faerun, as the figurine is an intricately detailed replica of a fierce Kara Tur warrior in full battle dress.
+
+When invoked this statuette causes an amazing metamorphosis in the user, temporarily transforming them into a savage blue armored gladiator wielding a shortsword in each hand.
+
+Whether this wondrous figurine allows the user to channel the spirit of a legendary warrior, or whether it simply unleashes the instinctual primal fury found deep within the possessor's own psyche is unclear.
+
+Statistics:
+
+Usable once per day
+Duration: 4 rounds
+Set AC to -5
+Hastes user
+Attack twice per round with a +4 shortsword as if possessing 2 proficiency slots in shortsword
+~
+@75   = ~Foebane +5
+
+The Archmage Demron crafted this magical bastard sword for the Elven hero Fflar, Captain of Myth Drannor. The most powerful of six such enchanted blades Demron fashioned, Foebane can drain the very essence of life from its opponents with every blow, and bestow that life energy on the wielder. There are those who believe soul stealing capability has cursed the blade, for though fashioned as a weapon of right and justice, Foebane's dark history is one of murder and death. 
+
+Demron's own blood christened the blade, as a would be thief used the newly fashioned sword to bring about the Archmage's untimely death ? though the thief did not survive the encounter, either. In the aftermath of Demron's murder, Foebane was recovered and presented to the hero Fflar to use in the defense of Myth Drannor, greatest of the Elven cities. 
+
+Yet even the power of Foebane was not enough to withstand the dark hordes which overran Myth Drannor. When the elven city fell, Captain Fflar met a grisly, gruesome end and the sword itself was lost beneath the rubble of the once great metropolis. 
+
+Legend holds that Foebane's considerable powers are further augmented when the sword is reunited with the enchanted Scabbard of Fflar, its original owner. 
+
+STATISTICS:
+
+Special Abilities: +1 bonus to all saving throws when equipped
+Combat Abilities: Each successful hit casts Larloch's Minor Drain on the target (no save) 
+
+THACO: +5 bonus
+Damage: 2D4 + 5, +6 damage vs. undead, shapeshifters, and all extra-planar beings (demons, planetars, etc.) 
+Damage type: slashing
+Weight: 5
+Speed Factor: 3
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Requires: 11 Strength
+~
+@76   = ~Ixil's Spike +6
+
+Shortly after the Time of Troubles began the nomadic bandit tribes of the Calimshan desert were united under a single leader; a cruel and brutal giant of a man, the warlord Ixil Xaxsha. From their outposts in the forbidding desert waste, the nomads raided merchant caravans and terrorized travelers who dared journey over the road from Calimport to Myratma. 
+
+Rumors and legends quickly spread about the invincible Ixil, who rode at the head of every raiding party brandishing his infamous magical spear. Some believe he was not truly a man, but a demon in human form, drawn to Faerun by the chaos and confusion of the Time of Troubles. 
+
+Ixil's own sadism and savagery did little to quell these allegations. During battle the head of Ixil's Spike, his mighty spear, would detach to pin opponents to the ground even as a new head magically reformed on the end of the spear. Often in the thick of combat, Ixil would pause to savor the helpless struggles of an enemy impaled by the point of his spear... seeming to delight in the writhing agony of his enemy. 
+
+The warlord was finally defeated when he was lured into attacking a contingent of powerful priests and knights from the Order of the Radiant Heart, posing as simple pilgrims. Witnesses to the battle claim Ixil was not slain, but was in fact banished to some hellish outer plane by the holy magic of the Order. 
+
+Though Ixil's body was never found, Ixil's Spike, his fearsome spear and the symbol of his power, was recovered. In an effort to utterly destroy the artifact, it was shattered into several pieces, which were scattered about the Southlands.
+
+STATISTICS: 
+
+Equipped Abilities: Permanent Free Action 
+Combat Abilities: With each successful hit opponent must save or be pinned for 3 rounds, taking an additional 1D6+5 damage each round. 
+
+THAC0: + 6 bonus 
+Damage: 1D6 + 6 
+Damage type: piercing 
+Weight: 5 
+Speed Factor: 2 
+Proficiency Type: Spear 
+Type: 2-handed 
+Requires: 5 Strength 
+~
+@77   = ~Club of Detonation +5
+
+Amnish fable tells the tale of Nysrogh, a powerful denizen of the lower planes unleashed upon Amn by a careless sorceress named Unileth. 
+
+Completely immune to any and all weapons used against him, Nysrogh rampaged throughout Amn, and Unileth took it upon herself to end the threat she had unleashed. Using her knowledge of the demon's weaknesses, she constructed a great club to defeat Nysrogh, and gave it to a brave but anonymous knight to be her champion. 
+
+Unileth's champion issued a challenge to Nysrogh, which the demon readily accepted, confident it could not be harmed by any weaponry known to the Realms. On the field of battle they met and beneath the fierce gaze of Nysrogh, Unileth's champion promptly dropped his weapon and fled in terror. 
+
+Nysrogh reached out to claim the champion's discarded club as a symbol of his victory. But as the demon's clawed hand touched the surface of the club he unleashed a spell of imprisonment, for which he was completely unprepared. Unileth's trap had worked, and the demon that could not be harmed by any weapon was forever trapped inside the magic club. 
+
+The crude wooden club still burns with the raging spirit of the demon forever trapped within by the powerful enchantments placed on the weapon. Occasionally, however, the demon's wrath manages to escape in a fiery blast. 
+
+STATISTICS:
+
+Combat Abilities:
+30% chance target will take an additional 15 points of fire damage with each successful attack 
+5% chance a fireball will automatically detonate with each successful attack save)
+
+THAC0: +5 bonus
+Damage: 1D6 + 5, +5 fire damage
+Damage type: crushing
+Weight: 1
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+Requires: 5 strength
+~
+@79   = ~Storm Star +5
+
+This magical weapon is of ancient design, which scholars have linked to Netheril itself. Though such electrum plated maces as Storm Star are usually found in the North, there are whispered rumors of this particularly powerful specimen being lost in the Southern reaches of the Realms. 
+
+Storm Star's already formidable abilities have been further enhanced by the addition of the otherworldly Starfall Ore. This strange material comes from the core of a meteorite, which fell from the heavens. The malleable ore is surprisingly strong, and radiates an inner heat. Any item forged from the alien matter would undoubtedly possess mysterious and unearthly properties. 
+
+Despite its massive size, Storm Star is surprisingly light, making it particularly easy to wield in combat. It crackles with spectacular, though harmless, arcs of lightning when wielded ? a visible manifestation of the powerful electrical enchantments infused within the weapon's head. 
+
+
+STATISTICS: 
+
+Equipped Abilities: +20% to electrical resistance 
+Combat Abilities: 5% chance of casting chain lightning on target with each successful attack 
+
+THACO: +5 bonus 
+Damage: 1D6 + 6, +1D6 electrical damage 
+Damage type: crushing 
+Weight: 4 
+Speed Factor: 2 
+Proficiency Type: Mace 
+Type: 1-handed 
+Requires: 10 Strength 
+~
+@80   = ~Darksteel Shield +4
+
+The dwarven clan of Clangeddin were famous for their work in darksteel, a material not to be found anywhere but within the Clangeddin clan homes within the Marching Mountains. In their efforts to find more and more darksteel, the Clangeddin delved ever deeper into the bowels of the earth. 
+
+It was on one such expedition that the seven sons of Argeld Heavyhand, the Clangeddin leader, were lost. The only survivor from the ill-fated expedition was Glimred Heavyhand, youngest son of Argeld. The lad returned with tales of drow and illithid and other darker, nameless horrors the like of which had never before been seen. 
+
+Desperate as he was to avenge his sons, Argeld could not send more of his people down into the depths of the mountain to face such horrors. Glimred himself, however, could not be dissuaded. To aid Glimred in his quest for vengeance, the dwarven smiths set about constructing the Darksteel Shield, a heavily enchanted shield that provides more protection than most suits of armor. 
+
+But Glimred was impatient, his lust for vengeance could not be deferred, and he disappeared into the bowels of the Marching Mountains before the work was completed, never to be seen again. The disappearance and presumed death of his sole surviving son proved too much for Argeld, who died from the grief of a broken heart. 
+
+With their leader dead and their hero Glimred gone, the dwarves knew it was only a matter of time before their clan was overrun by their Underdark enemies. Before dispersing across the face of Faerun, the clan sold the shield to the highest bidder - though the dwarven smiths to this day have refused to divulge the mysterious buyer's identity. 
+
+STATISTICS: 
+
+Abilities: +10% resistance to fire, cold, acid and poison 
+
+Armor Class Bonus: 5 
+Weight: 8 
+Requires: 15 Strength 
+~
+@99  = ~The Holy Avenger: Carsomyr
+Carsomyr is a weapon of legend, perhaps one of the most powerful blades ever forged on Faerun, though its origin and history is thought purposefully forgotten, such that the sword itself never overshadow the importance of the struggles that must be fought today.  It is infused with the very essence of virtue, and requires as much from any paladin that would hope to wield it.  The evils of the Realms must truly stand aside when this weapon is brought to bear, their magic dispelled with a word, steadfastly resisted with ease.  Carsomyr also harbors a special distaste for the forces of evil and chaos, and such creatures must fear additional damage from its touch in battle.
+
+Even a Holy Relic as powerful as Carsomyr is made even greater when combined with the Eye of Tyr.
+
+STATISTICS
+
+Equipped Abilities: 
+    50% Magic Resistance
+    Dispel magic 3 times per day
+Combat Abilities: 
+    +6 damage to chaotic evil opponents in addition to other bonuses.
+    Dispels magic whenever the sword strikes an opponent
+THAC0: +6 bonus
+Damage:  1D12 + 6
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Two-handed sword 
+Type:  2-handed
+Requires: 14 Strength
+~
+@100  = ~This flail has been in the care of Lord de'Arnise for some time, a relic of his adventuring youth. It has been kept disassembled, the individual pieces stored in separate locations, and only used in the direst of emergencies. Lord Arnise was likely concerned about the powerful magic that the weapon radiated when compiled, and rightfully so. A trail of destruction has followed it through history, leading straight back to the original owners. The flail was the creation of the warlike Rakshasa, a race of vengeful spirits that crave human meat, and used as an adaptable weapon that could suit any battle. During a particularly violent hunt the flail was lost, only to be returned when they used their affinity for magic to locate its powerful aura. They discovered that the weapon had found its way into the hands of a great human warrior, and the battle that followed was truly splendid. They have since used the item as bait countless times, 'losing' it again and again. Powerful items gravitate towards powerful people, and powerful people yield the most glorious battles.
+
+With the addition of the fifth and final head to this weapon created by the evil Rakshasa race the true potential of the Flail of Ages is finally realized.
+
+STATISTICS:
+
+Equipped Abilities:
+   Free Action 
+   5% bonus to Magic Resistance
+
+Combat Abilities: 
+   33% chance each hit that target will be slowed (no saving throw)
+
+THAC0:  +5 bonus
+Damage:  1D6 + 6, +2 Acid Damage, +2 Cold Damage, +2 Fire Damage, +2 Poison Damage,  +2 Electrical Damage
+Damage type:  crushing
+Weight: 8
+Speed Factor: 2
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength
+~
+@101  = ~This flail has been in the care of Lord de'Arnise for some time, a relic of his adventuring youth. It has been kept disassembled, the individual pieces stored in separate locations, and only used in the direst of emergencies. Lord Arnise was likely concerned about the powerful magic that the weapon radiated when compiled, and rightfully so. A trail of destruction has followed it through history, leading straight back to the original owners. The flail was the creation of the warlike Rakshasa, a race of vengeful spirits that crave human meat, and used as an adaptable weapon that could suit any battle. During a particularly violent hunt the flail was lost, only to be returned when they used their affinity for magic to locate its powerful aura. They discovered that the weapon had found its way into the hands of a great human warrior, and the battle that followed was truly splendid. They have since used the item as bait countless times, 'losing' it again and again. Powerful items gravitate towards powerful people, and powerful people yield the most glorious battles.
+
+This four-headed flail causes fire, cold, acid and poison damage.  If the fifth head for the Flail of Ages could be found, it would make this awesome weapon even more powerful.
+
+STATISTICS:
+
+Combat Abilities:
+   33% chance with each successful attack that the target is slowed (No Save)
+
+THAC0: +4
+Damage:  1D6 + 5, +1 Fire Damage, +1 Cold Damage, +1 Acid Damage, +1 Poison Damage
+Damage type:  crushing
+Weight: 9
+Speed Factor: 3
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength
+~
+@102  = ~This flail has been in the care of Lord de'Arnise for some time, a relic of his adventuring youth. It has been kept disassembled, the individual pieces stored in separate locations, and only used in the direst of emergencies. Lord Arnise was likely concerned about the powerful magic that the weapon radiated when compiled, and rightfully so. A trail of destruction has followed it through history, leading straight back to the original owners. The flail was the creation of the warlike Rakshasa, a race of vengeful spirits that crave human meat, and used as an adaptable weapon that could suit any battle. During a particularly violent hunt the flail was lost, only to be returned when they used their affinity for magic to locate its powerful aura. They discovered that the weapon had found its way into the hands of a great human warrior, and the battle that followed was truly splendid. They have since used the item as bait countless times, 'losing' it again and again. Powerful items gravitate towards powerful people, and powerful people yield the most glorious battles.
+
+This four-headed flail causes fire, cold, acid and electrical damage.  If the fifth head for the Flail of Ages could be found, it would make this awesome weapon even more powerful.
+
+STATISTICS:
+
+Combat Abilities:
+   33% chance with each successful attack that the target is slowed (No Save)
+
+THAC0: +4
+Damage:  1D6 + 5, +1 Fire Damage, +1 Cold Damage, +1 Acid Damage, +1 Electrical Damage
+Damage type:  crushing
+Weight: 9
+Speed Factor: 3
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength
+~
+ 
+@1005 = ~This short blade, barely a full foot long, looks distinctly Kara-Turan, but it is obviously of poor workmanship.  The balance is slightly off, the silk wound about the handle is coming loose, and the edge is long gone.  Traces of ornate Oriental inscription remain here and there on the guard.
+
+STATISTICS
+
+THAC0: -1
+Damage:  1D8 - 1
+Damage type:  piercing
+Weight:  3
+Speed Factor:  2
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength
+~

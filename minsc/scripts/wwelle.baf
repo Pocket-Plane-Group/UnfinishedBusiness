@@ -1,0 +1,266 @@
+// Questions
+IF
+	Global("WWAskQ2","LOCALS",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WWAskQ2","LOCALS",2)
+	Dialogue(Player1)
+END
+
+IF
+	Global("WWAskQ3","LOCALS",1)
+THEN
+	RESPONSE #100
+	SetGlobal("WWAskQ3","LOCALS",2)
+	Dialogue(Player1)
+END
+
+
+
+// Elly talks after doing her spell thing
+IF
+	Global("WWAfterSpell","LOCALS",1)
+THEN
+    RESPONSE #100
+	SetGlobal("WWAfterSpell","LOCALS",2)
+	Dialogue(Player1)
+END
+
+// Elly leaves after giving Boo back
+IF
+	Global("WWBooGone","GLOBAL",2)
+	See([PC])
+THEN
+	RESPONSE #100
+	EscapeArea()
+END
+
+
+// Name fix
+IF
+	Global("WWWhatever","LOCALS",0)
+THEN RESPONSE #100
+	SetName(123432)
+	SetGlobal("WWWhatever","LOCALS",1)
+END
+
+// Elle will say "As for you..." after the Cowled Wizards leave
+IF
+	Global("WWFightElle","GLOBAL",3)
+THEN RESPONSE #100
+		ClearAllActions()
+		ActionOverride(Player1,NoAction())
+		ActionOverride(Player2,NoAction())
+		ActionOverride(Player3,NoAction())
+		ActionOverride(Player4,NoAction())
+		ActionOverride(Player5,NoAction())
+		ActionOverride(Player6,NoAction())
+		SetInterrupt(FALSE)
+		StartDialogueNoSet(Player1)
+		// Note the GLOBAL value is set to 1 after dialogue
+END
+
+// Attacking Elle for no reason will trigger the fight
+IF
+	Global("WWFightElle","GLOBAL",0)
+	AttackedBy([ANYONE],DEFAULT)
+THEN RESPONSE #100
+	DisplayStringHead(Myself,@0)
+	StartCutScene("wwctel")
+END
+
+// Elle calls for bodyguards...
+IF
+	Global("WWFightElle","GLOBAL",1)
+	Global("WWBodyGuard","LOCALS",0)
+THEN RESPONSE #100
+	SetGlobal("WWBodyGuard","LOCALS",1)
+	ClearAllActions()
+	StartCutSceneMode()
+	StartCutScene("WWCall")
+END
+
+//  Elle will run if she is near death (but shouldn't die)
+IF 
+	HPLT(Myself,5)
+	OR(4)
+	!Dead("wwarro1")
+	!Dead("wwarro2")
+	!Dead("wwfght1")
+	!Dead("wwfght2")
+	Global("WWSoldieron","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WWSoldieron","GLOBAL",1)
+	DisplayStringHead(Myself,@1)
+	EscapeAreaDestroy(5)
+END
+
+// If you've killed the guards and Elle is near death, she will call a stop to the fight.
+
+IF
+	HPLT(Myself,5)
+	Dead("wwarro1")
+	Dead("wwarro2")
+	Dead("wwfght1")
+	Dead("wwfght2")
+	Global("WWCodralInJoke","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WWCodralInJoke","LOCALS",1)
+	SetGlobal("WWAttackedElly","GLOBAL",2)
+	Dialogue("Minsc")
+END
+
+// Crazy fighting script below!
+IF
+	Global("WWFightElle","GLOBAL",1)
+	!HaveSpell(WIZARD_DIRE_CHARM)
+	!HaveSpell(WIZARD_SPOOK)
+	!HaveSpell(WIZARD_MELF_ACID_ARROW)
+	!HaveSpell(WIZARD_SPIDER_SPAWN)
+	!HaveSpell(WIZARD_CONFUSION)
+	!HaveSpell(WIZARD_SLEEP)
+	!HaveSpell(WIZARD_COLOR_SPRAY)
+	!HaveSpell(WIZARD_FLAME_ARROW)
+	OutOfAmmo()
+THEN RESPONSE #100
+	MoveToObject(NearestEnemyOf(Myself))
+	EquipMostDamagingMelee()
+    AttackOneRound(LastAttackerOf(Myself))
+	Continue()
+END
+
+// Cast'n'attack
+IF
+	Global("WWFightElle","GLOBAL",1)
+	GlobalTimerNotExpired("WWElleTimer","LOCALS")
+	OutOfAmmo()
+THEN RESPONSE #75
+        AttackOneRound(LastAttackerOf(Myself))
+	 RESPONSE #25
+		RunAwayFrom(LastAttackerOf(Myself),6)
+END
+
+// Contingency
+IF
+	Global("WWFightElle","GLOBAL",1)
+	Allegiance(Myself,ENEMY)
+	Global("WWContingency","LOCALS",0)
+THEN RESPONSE #100
+	ApplySpell(Myself,WIZARD_ARMOR)
+	SmallWait(5)
+	ApplySpell(Myself,WIZARD_MIRROR_IMAGE)
+	SmallWait(5)
+	ApplySpell(Myself,WIZARD_HASTE)
+	SetGlobal("WWContingency","LOCALS",1)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+// Charms one of ye
+IF
+	Global("WWFightElle","GLOBAL",1)
+	HaveSpell(WIZARD_DIRE_CHARM)
+	GlobalTimerExpired("WWElleTimer","LOCALS")
+THEN RESPONSE #100
+	RunAwayFrom(LastAttackerOf(Myself),10)
+	Spell(StrongestOf(),WIZARD_DIRE_CHARM)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+// Equip that ranged weapon (maybe)
+IF
+	Global("WWFightElle","GLOBAL",1)
+	!OutOfAmmo()
+THEN RESPONSE #100
+	RunAwayFrom(LastAttackerOf(Myself),10)
+	EquipRanged()
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+    AttackReevaluate(LastAttackerOf(Myself),30)
+	Continue()
+END
+
+IF
+	Global("WWFightElle","GLOBAL",1)
+	HaveSpell(WIZARD_SPOOK)
+	GlobalTimerExpired("WWElleTimer","LOCALS")
+THEN RESPONSE #100
+	Spell(LastAttackerOf(Myself),WIZARD_SPOOK)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+IF
+	Global("WWFightElle","GLOBAL",1)
+	HaveSpell(WIZARD_SPIDER_SPAWN)
+	GlobalTimerExpired("WWElleTimer","LOCALS")
+THEN RESPONSE #100
+	Spell(Myself,WIZARD_SPIDER_SPAWN)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+IF
+	Global("WWFightElle","GLOBAL",1)
+	HaveSpell(WIZARD_MELF_ACID_ARROW)
+	See(LastAttackerOf(Myself))
+THEN RESPONSE #100
+	RunAwayFrom(LastAttackerOf(Myself),10)
+	Spell(LastAttackerOf(Myself),WIZARD_MELF_ACID_ARROW)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+IF
+	Global("WWFightElle","GLOBAL",1)
+	Allegiance(Myself,ENEMY)
+	HaveSpell(WIZARD_CONFUSION)
+	GlobalTimerExpired("WWElleTimer","LOCALS")
+THEN RESPONSE #100
+	RunAwayFrom(LastAttackerOf(Myself),10)
+	Spell([PC],WIZARD_CONFUSION)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+
+IF
+	Global("WWFightElle","GLOBAL",1)
+	HaveSpell(WIZARD_SLEEP)
+	See(SecondNearestEnemyOf(Myself))
+	GlobalTimerExpired("WWElleTimer","LOCALS")
+THEN RESPONSE #100
+	MoveToObject(LastAttackerOf(Myself))
+	Spell(SecondNearestEnemyOf(Myself),WIZARD_SLEEP)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+IF
+	Global("WWFightElle","GLOBAL",1)
+	HaveSpell(WIZARD_COLOR_SPRAY)
+	GlobalTimerExpired("WWElleTimer","LOCALS")
+THEN RESPONSE #100
+	MoveToObject(ThirdNearestEnemyOf(Myself))
+	MoveToObject(ThirdNearestEnemyOf(Myself))
+	Spell(ThirdNearestEnemyOf(Myself),WIZARD_SLEEP)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+IF
+	Global("WWFightElle","GLOBAL",1)
+	HaveSpell(WIZARD_FLAME_ARROW)
+	GlobalTimerExpired("WWElleTimer","LOCALS")
+THEN RESPONSE #100
+	RunAwayFrom(LastAttackerOf(Myself),10)
+	Spell(LastAttackerOf(Myself),WIZARD_FLAME_ARROW)
+	SetGlobalTimer("WWElleTimer","LOCALS",6)
+END
+
+
+IF
+	HPPercentLT(Myself,30)
+THEN RESPONSE #70
+	Help()
+	RunAwayFrom(LastAttackerOf(Myself),180)
+	Continue()
+RESPONSE #30
+	Help()
+	AttackOneRound(NearestEnemyOf(Myself))
+	Continue()
+END

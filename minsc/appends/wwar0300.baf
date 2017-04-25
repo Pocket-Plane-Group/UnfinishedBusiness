@@ -1,0 +1,10 @@
+IF
+	Global("WWBillyExists","AR0300",0)
+	Global("WWBooGone","GLOBAL",1)	// Kulyok
+THEN
+	RESPONSE #100
+		SetGlobal("WWBillyExists","AR0300",1)
+		CreateCreature("WWBilly",[2211.2189],5)
+	//	CreateCreature("WWBilly",[2295.2168],5)
+        Continue()
+END

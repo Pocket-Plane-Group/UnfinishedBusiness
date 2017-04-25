@@ -1,0 +1,15 @@
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+	True()
+THEN
+ RESPONSE #50
+      RandomWalk()
+ RESPONSE #50
+      NoAction()
+END

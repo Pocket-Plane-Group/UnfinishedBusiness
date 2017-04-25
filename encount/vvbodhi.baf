@@ -1,0 +1,64 @@
+// Precaution: if Bodhi turns enemy, end the encounter 
+IF
+Global("UBBodhiEncounter","LOCALS",0)/* Kulyok */
+Allegiance(Myself,ENEMY)
+THEN
+RESPONSE #100
+ActionOverride("VVSHAD7",Kill(Myself))
+ActionOverride("VVSHAD8",Kill(Myself))
+ActionOverride("VVSHAD9",Kill(Myself))
+ActionOverride("VVSHAD10",Kill(Myself))
+ActionOverride("VVSHAD11",Kill(Myself))
+ActionOverride("VVSHAD12",Kill(Myself))
+SetGlobal("UBBodhiEncounter","LOCALS",1)
+StartDialogueNoSet([PC])
+END
+
+// Bodhi shouldn't just stand around, she should attack! Boldly!
+IF
+See("VVSHAD7")
+!Dead("VVSHAD7")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+See("VVSHAD8")
+!Dead("VVSHAD8")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+See("VVSHAD9")
+!Dead("VVSHAD9")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+See("VVSHAD10")
+!Dead("VVSHAD10")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+See("VVSHAD11")
+!Dead("VVSHAD11")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+See("VVSHAD12")
+!Dead("VVSHAD12")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END

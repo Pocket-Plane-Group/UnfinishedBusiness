@@ -1,0 +1,26 @@
+IF
+  Global("GamesmenSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("GamesmenSpawn","GLOBAL",1)
+    CreateCreature("crogam01",[548.454],14)  // ~Carmine of the Wheel~
+    CreateCreature("crogam02",[385.576],6)  // ~Andrew of the Dice~
+END
+
+IF
+  Global("ubRilmiSpawn","GLOBAL",0)
+  GlobalTimerExpired("ubcctimer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobal("ubRilmiSpawn","GLOBAL",1)
+    CreateCreature("crthf03",[690.249],14)  // ~Rilmi~
+END
+
+/* IF
+  Global("BonnieClyde","GLOBAL",2)
+  Global("RilmiSpawnAgain","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RilmiSpawnAgain","GLOBAL",1)
+    CreateCreature("crthf03",[690.249],14)  // ~Rilmi~
+END */

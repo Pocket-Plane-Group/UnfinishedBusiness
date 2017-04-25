@@ -1,0 +1,32 @@
+IF
+	Global("SpawnMugger1","AR0400",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SpawnMugger1","AR0400",1)
+		CreateCreature("Mugger1",[1595.2943],8)
+	        Continue()
+END
+
+IF
+	Global("SpawnMugger3","AR0400",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SpawnMugger3","AR0400",1)
+		CreateCreature("mugger3",[2017.708],8)
+	        Continue()
+END
+
+
+IF
+	Global("SlumsMugging","AR0400",0)
+	OR(2)
+	TimeLT(4)
+	TimeGT(22)
+THEN
+	RESPONSE #100
+		SetGlobal("SlumsMugging","AR0400",1)
+		CreateCreature("mugger2",[1435.602],8)
+		CreateCreature("mugger4",[1437.604],8)
+		CreateCreature("Slvic01",[1434.605],8)
+	        Continue()
+END

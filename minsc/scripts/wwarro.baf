@@ -1,0 +1,73 @@
+IF
+	OR(2)
+	See([PC])
+	AttackedBy([PC],DEFAULT)
+	Global("WWSetEnemy","LOCALS",0)
+THEN
+	RESPONSE #100
+	Enemy()
+	EquipRanged()
+	AttackOneRound(LastAttackerOf(Myself))
+	SetGlobal("WWSetEnemy","LOCALS",1)
+END
+
+
+IF
+	See([PC])
+	Global("WWSetWeapon","LOCALS",0)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackOneRound(NearestEnemyOf(Myself))
+		SetGlobal("WWSetWeapons","LOCALS",1)
+END
+
+IF
+	OutOfAmmo()
+	Global("WWBoltOut","LOCALS",0)
+THEN RESPONSE #100
+	EquipMostDamagingMelee()
+	SetGlobal("WWBoltOut","LOCALS",1)
+END
+
+IF
+	HPPercentGT(Myself,75)
+THEN
+	RESPONSE #100
+		AttackOneRound(WorstAC)
+END
+
+IF
+	Range(NearestEnemyOf(Myself),3)
+	Global("WWMelee","LOCALS",0)
+THEN
+	RESPONSE #100
+	EquipMostDamagingMelee()
+	Attack(NearestEnemyOf(Myself))
+	SetGlobal("WWMelee","LOCALS",1)
+END
+
+
+IF
+	!HPPercentGT(Myself,75)
+	HPPercentGT(Myself,30)
+THEN RESPONSE #50
+		AttackOneRound(LastAttackerOf(Myself))
+	RESPONSE #50
+		AttackOneRound(WorstAC)
+END
+
+IF
+	!HPPercentGT(Myself,30)
+	HasItem("Potn08",Myself)
+THEN RESPONSE #100
+		DisplayStringHead(Myself,46150)
+		UseItem("Potn08",Myself)
+END
+
+IF
+	!HPPercentGT(Myself,30)
+	!HasItem("Potn08",Myself)
+THEN RESPONSE #100
+	AttackOneRound(LastAttackerOf(Myself))
+END

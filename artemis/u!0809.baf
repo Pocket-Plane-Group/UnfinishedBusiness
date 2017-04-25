@@ -1,0 +1,9 @@
+IF
+	Global("C6BodhiFight","AR0809",1)
+	Global("DrizztFightBodhi","GLOBAL",1)
+	Global("ArtemisSpawn","AR0809",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ARTEMIS",[1430.362],0)
+		SetGlobal("ArtemisSpawn","AR0809",1)
+END

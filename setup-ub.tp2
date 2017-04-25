@@ -1,0 +1,2116 @@
+/////////////////////////
+/////////////////////////
+// Unfinished Business //
+/////////////////////////
+/////////////////////////
+
+BACKUP ~ub/backup~
+
+// AUTHOR ~Icelus, Andyr, Cliffette, and Barren~
+AUTHOR ~http://forums.pocketplane.net~
+
+README ~ub/readme_ub.html~
+VERSION ~v26~
+
+ASK_EVERY_COMPONENT
+
+ALWAYS
+  // CD_STATE_NOTVALID - custom state from CamDawg
+  // Angel: Moved here so it is no longer needed to include it in every component.
+
+  APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+  UNLESS ~CD_STATE_NOTVALID~
+
+  // Angel: Disable known broken areas and items from chitin.key.
+
+  ACTION_FOR_EACH broken IN xr2400.are xr2600.are iplot01k.itm iplot04g.itm iplot04h.itm iplot04i.itm
+  BEGIN
+    DISABLE_FROM_KEY ~%broken%~
+  END
+
+  APPEND ~ACTION.IDS~
+   ~31 SpellRES(S:RES*,O:Target*)
+    95 SpellPointRES(S:RES*,P:Target*) 
+    113 ForceSpellRES(S:RES*,O:Target)
+    114 ForceSpellPointRES(S:RES*,P:Target)
+    160 ApplySpellRES(S:RES*,O:Target)
+    181 ReallyForceSpellRES(S:RES*,O:Target) 
+    191 SpellNoDecRES(S:RES*,O:Target*)
+    192 SpellPointNoDecRES(S:RES*,P:Target*) 
+    240 ReallyForceSpellDeadRES(S:RES*,O:Target)
+    318 ForceSpellRangeRES(S:RES*,O:Target)
+    319 ForceSpellPointRangeRES(S:RES*,P:Target)
+    337 ReallyForceSpellPointRES(S:RES*,P:Target*)
+    338 SetCutSceneLite(I:BOOL*BOOLEAN)~
+  UNLESS ~SpellRES(S:RES*,O:Target*)~
+  UNLESS ~25POST~
+
+  // Code borrowed from Edwin Romance V206, using the new HANDLE_CHARSETS function. Thanks, Isaya! - Kulyok, v25
+  // Removed by Angel, HANDLE_CHARSETS is now part of the standard functions of WeiDU.
+  //  INCLUDE ~%MOD_FOLDER%/handle_charsets.tpa~
+
+  /*
+   * An array of the TRA files which should not be converted.
+   * The .tra file extension is implied and should not be explicitly added.
+   * The array can be named anything.
+   */
+  // For UB, ubsetup.tra contains in game texts as well as installation texts
+  // and need to be converted, so no exception
+  ACTION_DEFINE_ARRAY ub#noconvert BEGIN END
+
+  /*
+   * An array of the TRA files which should be reloaded after being converted.
+   * These are typically TRA files loaded by LANGUAGE.
+   * The .tra file extension is implied and should not be explicitly added.
+   * The array can be named anything.
+   */
+  // Since ubsetup-ee.tra is not stated in LANGUAGE, it doesn't have to be reloaded
+  // ubsetup is enough
+  ACTION_DEFINE_ARRAY ub#reload BEGIN ubsetup END
+
+  /*
+   * If the game is of an EE-type, this function will convert all
+   * specified or all but the specified TRA files into UTF-8 and
+   * optionally reload some of the TRA files it converted (typically
+   * the same TRA files as loaded by LANGUAGE).
+   *
+   * This function requires that %infer_charset% is set to 1 OR it
+   * requires a valid declaration for %charset_table%.
+   * It additionally requires that %tra_path% is specified such that
+   * %tra_path%/%LANGUAGE% is a valid directory containing TRA files.
+   * Furthermore, if iconv.exe is not located in %tra_path%/iconv, you must
+   * specify the location of iconv.exe with the variable %iconv_path%.
+   *
+   * You can EITHER specify the array %noconvert_array% OR the array
+   * %convert_array%. The former should contain all those TRA files
+   * which should not be converted and the latter should contain all
+   * those TRA files which should be converted. You can optionally
+   * specify %reload_array%, which should contain all those TRA files
+   * that should be reloaded through LOAD_TRA after being converted.
+   * Any TRA file already loaded before being converted would still
+   * contain unconverted text, unless reloaded.
+   */
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charset = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%/tra~
+      // charset_table = ub#charsets // Included for illustrative purposes.
+      noconvert_array = ub#noconvert
+      reload_array = ub#reload
+  END
+END
+
+////////////////////////
+////////////////////////
+// Language Selection //
+////////////////////////
+////////////////////////
+
+// AUTO_TRA ~ub/tra/%s~
+
+LANGUAGE 
+         ~English~
+         ~english~
+         ~ub/tra/english/ubsetup.tra~
+LANGUAGE
+         ~French (graoumf and Les D'Oghmatiques)~
+         ~french~
+         ~ub/tra/french/ubsetup.tra~
+LANGUAGE
+         ~Polski (Yarpen, Cahir)~
+         ~polish~
+         ~ub/tra/polish/ubsetup.tra~
+LANGUAGE
+         ~Deutsch (Rosenranken.de)~
+         ~german~
+         ~ub/tra/german/ubsetup.tra~
+LANGUAGE
+         ~Español (Clan DLAN)~
+         ~spanish~
+         ~ub/tra/spanish/ubsetup.tra~
+LANGUAGE
+         ~Czech (yenn)~
+         ~czech~
+         ~ub/tra/czech/ubsetup.tra~
+LANGUAGE
+         ~Russian (Alex&AERIE.RU, BigMF, Hawkmoon, Regharrr. Updated by Prowler)~
+         ~russian~
+         ~ub/tra/russian/ubsetup.tra~
+LANGUAGE
+         ~Chinese (Scar_kun)~
+         ~chinese~
+         ~ub/tra/chinese/ubsetup.tra~
+
+LANGUAGE
+         ~Italian (Giuseppe Cali, Ilot)~
+         ~italian~
+         ~ub/tra/italian/ubsetup.tra~
+
+/*
+LANGUAGE
+         ~French (graoumf and Les D'Oghmatiques) for ENHANCED EDITION~
+         ~frenchEE~
+         ~ub/tra/frenchEE/ubsetup.tra~
+LANGUAGE
+         ~Polski (Yarpen) for ENHANCED EDITION~
+         ~polishEE~
+         ~ub/tra/polishEE/ubsetup.tra~
+*/
+
+///////////////////////////
+///////////////////////////
+// The Kidnapping of Boo //
+///////////////////////////
+///////////////////////////
+
+/* AUTHOR ~Cliffette, supercliffette@yahoo.com.au~ */
+
+BEGIN @0
+
+COPY ~ub/ubnull.itm~ ~override/ubminsc.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL @69 @84 @102 @465 @671 @687 @697 @727 @729 @751 @754 USING ~ub/tra/%LANGUAGE%/wwminscub.tra~
+  ADD_JOURNAL @469 @480 USING ~ub/tra/%LANGUAGE%/wwminscub.tra~
+  ADD_JOURNAL @477 @788 USING ~ub/tra/%LANGUAGE%/wwminscub.tra~
+  ADD_JOURNAL @638 @644 USING ~ub/tra/%LANGUAGE%/wwminscub.tra~
+END
+
+COPY_EXISTING ~bag02.itm~ ~override/wwbag02.itm~ /* Kulyok */
+COPY_EXISTING ~bag02.sto~ ~override/wwbag02.sto~
+
+/*
+DavidW- this is unused (presumably part of Cliffette's not-quite implemented extra area content)
+COPY_EXISTING ~AR0042.tis~	~Override/arwwbo.tis~
+*/
+
+/*
+DavidW: remove trolls
+COPY ~ub/Minsc/Cre/wwtrolb.cre~	  ~Override/wwtrol1.cre~  WRITE_ASCII ~0x280~	~wwtrol1~
+COPY ~ub/Minsc/Cre/wwtrolb.cre~	  ~Override/wwtrol2.cre~  WRITE_ASCII ~0x280~	~wwtrol2~
+COPY ~ub/Minsc/Cre/wwtrolb.cre~	  ~Override/wwtrol3.cre~  WRITE_ASCII ~0x280~	~wwtrol3~   */
+COPY ~ub/Minsc/Cre/wwbilly.cre~   ~Override/wwbilly.cre~ SAY NAME1 @1  SAY NAME2 @1
+COPY ~ub/Minsc/Cre/wwdelag.cre~   ~Override/wwdelag.cre~ SAY NAME1 @2  SAY NAME2 @2
+COPY ~ub/Minsc/Cre/wweff.cre~ 	  ~Override/wweff.cre~ 	 SAY NAME1 @3  SAY NAME2 @3
+COPY ~ub/Minsc/Cre/wwsten.cre~ 	  ~Override/wwsten.cre~  SAY NAME1 @4  SAY NAME2 @4
+COPY ~ub/Minsc/Cre/wwvivi.cre~ 	  ~Override/wwvivi.cre~  SAY NAME1 @5  SAY NAME2 @5
+COPY ~ub/Minsc/Cre/wwswoo.cre~ 	  ~Override/wwswoo.cre~  SAY NAME1 @6  SAY NAME2 @6
+COPY ~ub/Minsc/Cre/wwelle.cre~ 	  ~Override/wwelle.cre~  SAY NAME1 @7  SAY NAME2 @7 WRITE_BYTE 0x237 2 /* Kulyok v25 */
+COPY ~ub/Minsc/Cre/wwcowl1.cre~   ~Override/wwcowl1.cre~
+     ~ub/Minsc/Cre/wwcowl2.cre~   ~Override/wwcowl2.cre~ SAY NAME1 @8  SAY NAME2 @8
+COPY ~ub/Minsc/Cre/wwfght1.cre~   ~Override/wwfght1.cre~
+     ~ub/Minsc/Cre/wwfght2.cre~   ~Override/wwfght2.cre~
+     ~ub/Minsc/Cre/wwarro1.cre~   ~Override/wwarro1.cre~
+     ~ub/Minsc/Cre/wwarro2.cre~   ~Override/wwarro2.cre~ SAY NAME1 @9  SAY NAME2 @9
+COPY ~ub/Minsc/Cre/wwrati.cre~    ~Override/wwrati.cre~  SAY NAME1 @10 SAY NAME2 @10
+COPY ~ub/Minsc/items~ 		  ~Override~
+
+ACTION_IF GAME_IS ~BG2EE~ BEGIN COPY ~ub/Minsc/itemsEE~ ~Override~ END /* Kulyok v25 */
+
+COPY ~ub/Minsc/Items/wwblet.spl~  ~Override/wwblet.spl~  SAY NAME1 ~Boolets~ SAY NAME2 ~Boolets~ /*No need to translate*/
+COPY ~ub/Minsc/Items/wwboo.spl~   ~Override/wwboo.spl~
+     ~ub/Minsc/Items/wwfboo.spl~  ~Override/wwfboo.spl~
+     ~ub/Minsc/Items/wwnoboo.spl~ ~Override/wwnoboo.spl~ SAY ~0x08~ @12  SAY ~0x50~ @12
+COPY ~ub/Minsc/Items/wwnboo.itm~  ~Override/wwnboo.itm~  SAY NAME1 @13 SAY NAME2 @13 SAY DESC @14
+COPY ~ub/Minsc/Items/wweboo.itm~  ~Override/wweboo.itm~  SAY NAME1 @15 SAY NAME2 @15 SAY DESC @16
+
+
+// Minsc existing dialogue fix
+COMPILE ~ub/Minsc/Dialogue/wwminscub.d~
+USING   ~ub/tra/%s/wwminscub.tra~
+COMPILE ~ub/Minsc/Dialogue/wwswappants.d~
+COMPILE ~ub/Minsc/Dialogue/wwinterj.d~
+USING   ~ub/tra/%s/wwinterj.tra~
+COMPILE ~ub/Minsc/Dialogue/wwunderpants.d~
+        ~ub/Minsc/Scripts~
+USING   ~ub/tra/%s/wwgeneral.tra~
+
+COPY ~override/wwelle.bcs~ ~override/wwelle.bcs~
+REPLACE ~123432~ @7
+
+// Kulyok
+COPY_EXISTING ~delon.bcs~ ~override~ /* Kulyok */
+DECOMPILE_AND_PATCH
+BEGIN
+  REPLACE_TEXTUALLY ~Dialog("Minsc")~ ~Wait(5) Dialog("Minsc")~
+END
+BUT_ONLY
+
+// Append chars scripts
+EXTEND_TOP ~minsc.bcs~   ~ub/Minsc/Appends/wwub_minsc2.baf~
+EXTEND_TOP ~minsc.bcs~   ~ub/Minsc/Appends/wwub_minsc.baf~
+EXTEND_TOP ~edwin.bcs~   ~ub/Minsc/Appends/wwub_edwin.baf~
+EXTEND_TOP ~keldorn.bcs~ ~ub/Minsc/Appends/wwub_kel.baf~
+EXTEND_TOP ~jan.bcs~     ~ub/Minsc/Appends/wwub_jan.baf~
+EXTEND_TOP ~viconia.bcs~ ~ub/Minsc/Appends/wwub_vic.baf~
+EXTEND_TOP ~valygar.bcs~ ~ub/Minsc/Appends/wwub_valy.baf~
+EXTEND_TOP ~yoshimo.bcs~ ~ub/Minsc/Appends/wwub_yosh.baf~
+EXTEND_TOP ~ar0300.bcs~  ~ub/Minsc/Appends/wwar0300.baf~
+// EXTEND_TOP ~ar0314.bcs~  ~ub/Minsc/Appends/wwar0314.baf~ /* Kulyok */
+// EXTEND_TOP ~ar1900.bcs~	~ub/Minsc/Appends/arwwbo.baf~  - commented out by DavidW
+
+// Eggish
+APPEND ~LOADHINT.2DA~ ~UB advert~
+UNLESS ~UB~
+
+COPY_EXISTING ~loadhint.2da~ ~override~
+  REPLACE ~advert~ @19
+IF ~advert~
+
+// DavidW: revert the druid-grove excursion
+
+COPY_EXISTING ~wwgovt.bcs~ ~override~
+  DECOMPILE_AND_PATCH
+  BEGIN
+    REPLACE_TEXTUALLY ~SetGlobal("WWSetTrollAreaOn","GLOBAL",1)~ ~~
+    REPLACE_TEXTUALLY ~\[421.2667\]~ ~[2663.1321]~
+    REPLACE_TEXTUALLY ~\[470.2624\]~ ~[2631.1277]~
+    REPLACE_TEXTUALLY ~\[525.2590\]~ ~[2583.1251]~
+    REPLACE_TEXTUALLY ~\[464.2706\]~ ~[2600.1346]~
+    REPLACE_TEXTUALLY ~\[507.2664\]~ ~[2677.1389]~
+    REPLACE_TEXTUALLY ~\[551.2628\]~ ~[2760.1351]~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~AR1900~ ~AR1000~
+  END
+BUT_ONLY
+
+/* DavidW: the "boo is back" spell is sometimes being applied multiple times, with the result
+that Minsc gets a stacked THAC0 bonus. We edit the spell so that it grants protection from itself 
+and for safety, do this with the other relevant spells ("wwfboo" and "wwnoboo")*/
+
+COPY_EXISTING ~wwboo.spl~ ~override~
+              ~wwfboo.spl~ ~override~
+              ~wwnoboo.spl~ ~override~
+    LPF CLONE_EFFECT
+      INT_VAR
+      check_global	= 0
+      match_opcode	= 54
+      opcode		= 206
+      parameter1	= ~-1~
+      parameter2	= 0
+      STR_VAR
+      resource		= EVALUATE_BUFFER ~%RESOURCE_RES%~
+    END
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+// The Suna Seni/Valygar Relationship //
+////////////////////////////////////////
+////////////////////////////////////////
+
+BEGIN @20
+
+COPY ~ub/ubnull.itm~ ~override/ubsuna.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL EXISTING TITLE (#74367) @211 @213 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
+  ADD_JOURNAL EXISTING TITLE (#74343) @322 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
+END
+
+COMPILE ~ub/suna/CCSUNA.baf~                        /* Suna Seni's script in the Copper Coronet */
+        ~ub/suna/ppsuna.baf~                        /* Suna Seni's script in Spellhold */
+        ~ub/suna/Resuna.baf~                        /* Suna Seni's script in the Slums */
+        ~ub/suna/u!cut41g.baf~                      /* Display Suna in Spellhold Cutscene */
+        ~ub/suna/ppsuna.d~                          /* Suna Seni's dialog in Spellhold */
+        ~ub/suna/SUNA.D~                            /* Suna Seni's dialog in Athkatla */
+        ~ub/suna/u!suna.d~
+        ~ub/suna/u!1101.baf~                        /* Removes Valygar from his cabin if not given the quest */
+USING   ~ub/tra/%s/ubdialog.tra~
+
+EXTEND_TOP    ~ar1101.bcs~  ~override/u!1101.bcs~   /* Removes Valygar from his cabin if not given the quest */
+EXTEND_TOP    ~ar0041.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0042.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0043.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0044.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0045.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0046.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar1516.bcs~  ~ub/suna/u!1516.baf~    /* Spawns Suna in Spellhold */
+EXTEND_TOP    ~ar0300.bcs~  ~ub/suna/u!0300.baf~    /* Spawns Suna in the Docks */
+EXTEND_TOP    ~ppjon.bcs~   ~ub/suna/u!ppjon.baf~   /* Determines whether or not to spawn Suna in the Spellhold cutscene */
+EXTEND_TOP    ~baldur.bcs~  ~ub/suna/u!baldur.baf~  /* Begins Valygar's dialog shortly after Suna's death */ 
+EXTEND_TOP    ~ar0406.bcs~  ~ub/suna/u!0406.baf~    /* Spawns Suna at the Copper Coronet */ /* Kulyok - other mods may add looping scripts to CC and baldur, got a report, so EXTEND_TOP */
+
+COPY_EXISTING ~AR1101.are~  ~override/AR1101.are~   /* Valygar's Cabin */
+WRITE_ASCII   ~0x94~        ~AR1101~
+
+COPY ~ub/suna/ppsuna.cre~   ~override/ppsuna.cre~
+     ~ub/suna/resuna.cre~   ~override/resuna.cre~
+     ~ub/suna/suna.cre~     ~override/suna.cre~     
+SAY NAME1 @21
+SAY NAME2 @21
+REPLACE_TEXTUALLY CASE_INSENSITIVE ~sw1h27~ ~sw1h08~
+
+/* Places Arbane's Sword on Eldarin */
+COPY_EXISTING reeldar.cre override
+  ADD_CRE_ITEM sw1h27 #0 #0 #0 NONE WEAPON2
+BUT_ONLY
+
+
+
+
+////////////////////////////////////
+////////////////////////////////////
+// Kalah and What He Was Promised //
+////////////////////////////////////
+////////////////////////////////////
+
+/* AUTHOR ~Andyr, andyr@gibberlings3.net~ */
+
+BEGIN @47
+
+COPY ~ub/ubnull.itm~ ~override/ubkalah.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL @254 @256 @258 @260 @262 @271 @344 @350 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
+END
+
+COPY_EXISTING ~dlost.cre~ ~override/U!KImoen.cre~
+  WRITE_ASCII   ~0x2cc~     ~U!KImoen~
+  WRITE_ASCII   ~0x280~     ~U!KImoen~
+  SAY NAME1 @67
+  SAY NAME2 @67
+
+COPY ~ub/Kalah/U!KGen.SPL~ ~override/U!KGen.SPL~
+  SAY NAME1 @40
+  SAY NAME2 @40
+
+COPY ~ub/Kalah/U!KGen.EFF~  ~override/U!KGen.EFF~
+COPY ~ub/Kalah/U!KLamp.BAM~ ~override/U!KLamp.BAM~
+
+COPY ~ub/Kalah/U!KBot1.ITM~ ~override/U!KBot1.ITM~
+  SAY NAME1 @41
+  SAY NAME2 @41
+  SAY DESC @42
+
+COPY ~ub/Kalah/U!KBot2.ITM~ ~override/U!KBot2.ITM~
+  SAY NAME1 @41
+  SAY NAME2 @41
+  SAY DESC @43
+
+COPY ~ub/Kalah/U!KGirl.CRE~ ~override/U!KGirl.CRE~
+  SAY NAME1 @44
+  SAY NAME2 @44
+
+COPY ~ub/Kalah/U!KJaf.CRE~  ~override/U!KJaf.CRE~
+  SAY NAME1 @45
+  SAY NAME2 @45
+
+COPY ~ub/Kalah/U!Krais.CRE~ ~override/U!Krais.CRE~
+  SAY NAME1 #9282
+  SAY NAME2 #9282
+
+COPY ~ub/Kalah/U!Kdead.CRE~ ~override/U!Kdead.CRE~
+  SAY NAME1 @46
+  SAY NAME2 @46
+
+COPY ~ub/Kalah/U!Kgen.CRE~  ~override/U!Kgen.CRE~
+  SAY NAME1 #2880
+  SAY NAME2 #2880
+
+COMPILE ~ub/Kalah/U!KGirl.BAF~
+        ~ub/Kalah/U!Ktalk.BAF~
+        ~ub/Kalah/U!Kjaf.BAF~
+        ~ub/Kalah/U!Kdead.BAF~
+        ~ub/Kalah/U!KGirl.D~
+        ~ub/Kalah/U!Kjaf.D~
+        ~ub/Kalah/U!Kgen.D~
+        ~ub/Kalah/U!Kdead.D~
+        ~ub/Kalah/U!Krais.D~
+        ~ub/Kalah/U!KImoen.d~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+EXTEND_TOP ~AR0700.bcs~ ~ub/Kalah/U!K0700.baf~
+EXTEND_TOP ~AR0022.bcs~ ~ub/Kalah/U!K0022.baf~
+
+
+////////////////////////////////
+////////////////////////////////
+// Bodhi's Cat and Mouse Game //
+////////////////////////////////
+////////////////////////////////
+
+/* AUTHOR ~Ghreyfain, ghreyfain@pocketplane.net~ */
+
+BEGIN @25
+
+COPY ~ub/ubnull.itm~ ~override/ubbodhi.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COMPILE ~ub/BodhiHunt/Dialogue~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+COPY_EXISTING ~PPBodhi4.cre~ ~override/ppbodhi4.cre~
+  WRITE_ASCII ~0x268~ ~~ #8
+
+COPY ~ub/BodhiHunt/Sound~ ~Override~
+
+COPY_EXISTING ~AR1501.bcs~ ~override/AR1501.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1502.bcs~ ~override/AR1502.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1503.bcs~ ~override/AR1503.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1504.bcs~ ~override/AR1504.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1505.bcs~ ~override/AR1505.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1506.bcs~ ~override/AR1506.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1507.bcs~ ~override/AR1507.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1508.bcs~ ~override/AR1508.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1509.bcs~ ~override/AR1509.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1510.bcs~ ~override/AR1510.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1511.bcs~ ~override/AR1511.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/100Fix.baf~
+
+COPY_EXISTING ~AR1512.bcs~ ~override/AR1512.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/AreaNew.baf~
+
+COPY_EXISTING ~AR1513.bcs~ ~override/AR1513.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/AreaNew.baf~
+
+COPY_EXISTING ~AR1514.bcs~ ~override/AR1514.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/AreaOld.baf~ ~ub/bodhihunt/scripts/AreaNew2.baf~
+
+COPY_EXISTING ~PPBODHI4.bcs~ ~override/ppbodhi4.bcs~
+  REPLACE_BCS_BLOCK ~ub/bodhihunt/scripts/J#BodhiO.baf~ ~ub/bodhihunt/scripts/J#Bodhi.baf~
+
+EXTEND_TOP ~PPBODHI4.bcs~ ~ub/bodhihunt/scripts/J#BodhiR.baf~
+
+
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+// Gorje Hilldark and the Extended Illithium Quest //
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+BEGIN @26
+
+COPY ~ub/ubnull.itm~ ~override/ubgorje.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL EXISTING TITLE (#74322) @30 @88 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
+END
+
+EXTEND_TOP ~AR1401.bcs~ ~ub/gorje/U!1401.baf~  /* Temple Ruins */
+EXTEND_TOP ~AR0406.bcs~ ~ub/gorje/U!0406.baf~  /* Copper Coronet */
+
+COPY_EXISTING ~gorje.cre~ ~override/gorje.cre~
+  WRITE_BYTE    ~0x2f~      ~0x53~               /* fix hair and skin color */
+  WRITE_BYTE    ~0x32~      ~0x4f~
+  REMOVE_CRE_ITEM ~misc4n~ /* Kulyok */ /* remove dryad's acorns */
+  REPLACE_TEXTUALLY "CHAM01" "CHAN01"
+
+COPY_EXISTING ~scdur.cre~ ~override/scdur.cre~
+  WRITE_BYTE    ~0x2f~      ~0x53~               /* fix hair and skin color */
+  WRITE_BYTE    ~0x32~      ~0x4f~
+
+COMPILE ~ub/gorje/gorje.d~
+        ~ub/gorje/scdur.d~
+        ~ub/gorje/u!dwarvs.d~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+
+////////////////////////////////////
+////////////////////////////////////
+// The Pai'Na/Spider's Bane Quest //
+////////////////////////////////////
+////////////////////////////////////
+
+BEGIN @27
+
+COPY ~ub/ubnull.itm~ ~override/ubpaina.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL @142 @145 @146 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
+END
+
+EXTEND_TOP ~AR0701.bcs~ ~ub/paina/U!0701.baf~     /* Temple District Sewers */
+
+COMPILE ~ub/paina/u!paina.d~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+COPY ~ub/paina/u!spbane.itm~ ~override/u!spbane.itm~
+  SAY NAME1 #10291
+  SAY NAME2 #10291
+  SAY UNIDENTIFIED_DESC @39
+  SAY IDENTIFIED_DESC @39
+
+COPY ~ub/paina/WAND14.ITM~ ~override/WAND14.ITM~       /* Web Sack */
+  SAY IDENTIFIED_DESC @34
+
+//Does not need .TRAifying as only pertinent to English game version.
+STRING_SET ~I here you might have a sword I seek. It should have spider-like patterns on it.~ ~I hear you might have a sword I seek. It should have spider-like patterns on it.~
+
+////////////////////////////////
+////////////////////////////////
+// Restored Crooked Crane Inn //
+////////////////////////////////
+////////////////////////////////
+
+BEGIN @28
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COMPILE ~ub/crane/u!ccrane.d~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+STRING_SET ~We haven't given a thought to that since we talked with you. We realized that we were the only ones that mattered, ~ ~We haven't given a thought to that since we talked with you. We realized that we were the only ones that mattered.~ /* Kulyok */
+
+/* Corrected Crooked Crane, Level One */
+COPY_EXISTING ar0021.are override
+  READ_ASCII 0x94 area_script
+BUT_ONLY
+
+EXTEND_TOP ~%area_script%.bcs~ ~ub/crane/AR0021.baf~
+
+/* Crooked Crane, Level Two */
+EXTEND_TOP ar0022.bcs ~ub/crane/u!0022.baf~
+
+
+
+/////////////////////////
+/////////////////////////
+// Restored Encounters //
+/////////////////////////
+/////////////////////////
+
+BEGIN @29
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+/* Vampire Encounters */
+EXTEND_TOP vampsttp.bcs ~ub/encount/U!vamps.baf~
+
+EXTEND_TOP vvbodhi.bcs ~ub/encount/vvbodhi.baf~ /* Kulyok */
+
+COPY_EXISTING vvbodhi.cre override
+  REPLACE_CRE_ITEM minhp20 #0 #0 #0 NONE RRING
+BUT_ONLY
+
+COMPILE ~ub/encount/ubvv.d~ /* Kulyok */
+
+EXTEND_TOP vvshaesc.bcs ~ub/encount/vvshaesc.baf~ /* Kulyok */
+EXTEND_TOP vvvamesc.bcs ~ub/encount/vvvamesc.baf~ /* Kulyok */
+
+COPY_EXISTING ~vvarkan.bcs~ ~override~ /* Kulyok */
+  DECOMPILE_AND_PATCH
+  BEGIN
+    REPLACE_TEXTUALLY ~Dead("vvfemal3")~ ~Dead("vvfemal3") Global("O#UBArkanTalkVV6Dead","GLOBAL",0)~
+  END
+BUT_ONLY
+
+/* Kulyok */
+COPY_EXISTING vvmale5.cre override
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvmale6.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvmale7.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvfemal1.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvfemal2.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvfemal3.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+/* The Muggers in the Slums */
+COPY_EXISTING mugger3.cre override
+  WRITE_ASCII 0x280 mugger3 #18    /* Correct the death variable */
+BUT_ONLY
+
+/* The Slums */
+EXTEND_TOP ar0400.bcs ~ub/encount/u!0400.baf~
+
+COMPILE ~ub/encount/slumvic.baf~
+
+/* Reputation Trap */
+EXTEND_TOP amntrp01.bcs ~ub/encount/U!gtrap.baf~
+
+COMPILE ~ub/encount/repthf1.d~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+/* Restored Hell Hound Encounters */
+COPY_EXISTING ar0412.are override /* Planar Sphere Elemental Rooms */
+  GET_OFFSET_ARRAY act_array ARE_V10_ACTORS
+  PHP_EACH act_array AS act_num => act_offset
+  BEGIN
+    READ_ASCII act_offset + 0x0080 act_cre
+    PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalcol~ && act_num = 0x0b
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Winter Wolf~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsice03~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalcol~ && act_num = 0x0c
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Snow Troll~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsice01~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalcol~ && act_num = 0x0d
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Snow Troll~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsice01~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalfir~ && act_num = 0x0e
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Hell Hound~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsfir05~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalfir~ && act_num = 0x0f
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Hell Hound~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsfir05~ #8
+    END
+  END
+BUT_ONLY
+
+COMPILE ~ub/hounds/houndtrp.baf~  /* Unseeing Eye Cult area, Hellhound Ambush trigger */
+
+/* The Greyhand Encounter */
+
+/* Kulyok */
+STRING_SET ~Ah yes, the tone is as described. You are <CHARNAME>, aren't you. <CHARNAME> of Baldur's Gate who's father is Gorion.~ ~Ah yes, the tone is as described. You are <CHARNAME>, aren't you. <CHARNAME> of Baldur's Gate whose father is Gorion.~ 
+STRING_SET ~Capture? Noooo, that's not what I intend. And neither will this aid someone else. In fact, this will severly hamper his goals.~ ~Capture? Noooo, that's not what I intend. And neither will this aid someone else. In fact, this will severely hamper his goals.~
+STRING_SET ~I have no master, and the onw I owe does not know of my plan. No, this will not benefit him in the least.~ ~I have no master, and the one I owe does not know of my plan. No, this will not benefit him in the least.~
+STRING_SET ~You, <CHARNAME>, are of great interest. By killing you, I will severly hurt the one I hate. It is my revenge for his... for his treatment!~ ~You, <CHARNAME>, are of great interest. By killing you, I will severely hurt the one I hate. It is my revenge for his... for his treatment!~
+STRING_SET ~Yes, now you look with more interest in me. Well it will not last. I have but one reason for being here; you will not survive my deadly intent.~ ~Yes, now you look with more interest at me. Well it will not last. I have but one reason for being here; you will not survive my deadly intent.~
+STRING_SET ~No one sent me, but I am here because of someone and their interest in you. I owe that someone a debt, and I will pay it thorough you.~ ~No one sent me, but I am here because of someone and their interest in you. I owe that someone a debt, and I will pay it through you.~
+
+COMPILE ~ub/greyhand/u!gryhnd.d~
+        ~ub/greyhand/u!gryhnd.baf~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+COPY ~ub/greyhand/greyhand.cre~ override
+  SAY NAME1 @56
+  SAY NAME2 @56
+
+COPY_EXISTING ar1600.are override /* Adds Greyhand to Brynnlaw */
+  LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 0x0a87
+    fj_loc_y          = 0x00ac
+    fj_dest_x         = 0x0a87
+    fj_dest_y         = 0x00ac
+    fj_animation      = 0x6000
+    fj_orientation    = 0x03
+    STR_VAR
+    fj_structure_type = ~actor~
+    fj_name           = ~Greyhand~
+    fj_cre_resref     = ~greyhand~
+  END
+
+// Restored Olive Jellies in Ust Natha
+COPY_EXISTING jeloch01.cre ~override/jeloli01.cre~
+  SAY NAME1 ~Olive Slime~
+  SAY NAME2 ~Olive Slime~
+  WRITE_LONG  0x014 0x1a4
+  WRITE_SHORT 0x028 0x7901
+  WRITE_BYTE  0x273 0x96
+  WRITE_ASCII 0x280 jeloli01
+  REPLACE_CRE_ITEM jellol1 #0 #0 #0 NONE WEAPON1 EQUIP
+
+COPY_EXISTING ghoul1.itm ~override/jellol1.itm~
+  PATCH_FOR_EACH description IN 0x08 0x0c 0x50 0x54
+  BEGIN
+    WRITE_LONG description 0x286c
+  END
+  WRITE_LONG  0x18 0x20
+  WRITE_ASCII 0x3a ~~ #8
+  LPF ALTER_ITEM_HEADER
+    INT_VAR
+    range	= 0x0014
+    dicesides	= 0x02
+    dicenumber	= 0x00
+    projectile	= 0x006c
+    STR_VAR
+    icon	= ~~
+  END
+
+ACTION_IF MOD_IS_INSTALLED setup-bg2fixpack.tp2 110
+BEGIN
+  COPY_EXISTING ar2200.bcs override
+    DECOMPILE_AND_PATCH
+    BEGIN
+      REPLACE_TEXTUALLY ~CreateCreature("[^"]*",\[4422\.3524\],6)~ ~CreateCreature("jeloli01",[4422.3524],6)~
+      REPLACE_TEXTUALLY ~CreateCreature("[^"]*",\[4052\.3574\],6)~ ~CreateCreature("jeloli01",[4052.3574],6)~
+    END
+  BUT_ONLY
+END
+
+//AR2400 spawns
+COPY_EXISTING ~ar2400.are~ ~override~
+  READ_LONG 0xc0 rest_off
+  WRITE_LONG rest_off + 0x40 0x2796
+  FOR (i1 = 0x48; i1 < 0x78; i1 += 0x08)
+  BEGIN
+    WRITE_ASCII rest_off + i1 umbhul01
+  END
+  WRITE_ASCII rest_off + 0x78 uddwarf #32
+  WRITE_SHORT rest_off + 0x98 0x07
+BUT_ONLY
+
+
+/////////////////////////////////////
+/////////////////////////////////////
+// Artemis Entreri in Bodhi's Lair //
+/////////////////////////////////////
+/////////////////////////////////////
+
+BEGIN @48
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COPY ~ub/ubnull.itm~ ~override/ubartemi.xxx~ //null file to identify this component
+
+COMPILE ~ub/artemis/u!artemis.d~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+EXTEND_TOP ~AR0809.bcs~  ~ub/artemis/U!0809.baf~
+EXTEND_TOP ~artemis.bcs~ ~ub/artemis/U!ARTEMI.baf~
+
+
+//////////////////////////////////
+//////////////////////////////////
+// Corrected "Xzar's Creations" //
+//////////////////////////////////
+//////////////////////////////////
+
+BEGIN @52
+
+COPY ~ub/ubnull.itm~ ~override/ubxzar.xxx~ //null file to identify this component
+
+<<<<<<<<.../ub/ding0/prebek/d0xgolem.baf
+IF
+  !Allegiance("XAPPREN1",ENEMY)
+  !Allegiance("XAPPREN2",ENEMY)
+  !Dead("XAPPREN1")
+  !Dead("XAPPREN2")
+THEN
+  RESPONSE #100
+    NoAction()
+END
+>>>>>>>>
+
+COMPILE ~.../ub/ding0/prebek/d0xgolem.baf~
+
+COPY ~ub/xzar/xgolem1.cre~ override
+  SAY NAME1 #12886
+  SAY NAME2 #12886
+  WRITE_ASCII 0x248 ~d0xgolem~ #8
+  WRITE_ASCII 0x268 ~wtasight~ #8
+
+COPY_EXISTING ar0407.are override
+  GET_OFFSET_ARRAY act_array ARE_V10_ACTORS
+  PHP_EACH act_array AS act_num => act_offset
+  BEGIN
+    READ_ASCII act_offset + 0x0080 act_cre
+    PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icgob01~
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Ghast~ #32
+      WRITE_ASCII act_offset + 0x0080 ~xghast1~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icgob02~
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Flesh Golem~ #32
+      WRITE_ASCII act_offset + 0x0080 ~xgolem~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icgob03~
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Ghast~ #32
+      WRITE_ASCII act_offset + 0x0080 ~xghast2~ #8
+    END
+  END
+BUT_ONLY
+
+
+///////////////////////////
+///////////////////////////
+// Restored Hell Minions //
+///////////////////////////
+///////////////////////////
+
+/* AUTHOR ~SimDing0, simding0@pocketplane.net~ */
+
+BEGIN @66
+DESIGNATED 10
+
+COPY_EXISTING hellslay.cre override
+  WRITE_ASCII 0x250 helljon #8
+BUT_ONLY
+
+COPY_EXISTING jondem01.cre override
+              jondem03.cre override
+  WRITE_ASCIIE 0x248 ~%SOURCE_RES%~ #8
+  WRITE_ASCII  0x250 demgaj #8
+BUT_ONLY
+
+COPY_EXISTING jondem02.cre override
+              jondem04.cre override
+// This originally made the balors into lawful evil pit fiends. But it looks as if this was changed for Blood War reasons,
+// and it breaks compatibility with lots of mods to boot
+//  WRITE_SHORT  0x028 0x7f2e
+//  SAY          NAME1 #39382
+//  SAY          NAME2 #39382
+//  WRITE_BYTE   0x27b 0x13
+  WRITE_ASCIIE 0x248 ~%SOURCE_RES%~ #8
+  WRITE_ASCII  0x250 demptj #8
+BUT_ONLY
+
+ACTION_IF GAME_INCLUDES ~tob~
+BEGIN
+  COPY_EXISTING jondem01.cre override
+                jondem03.cre override
+                jondem05.cre override
+    WRITE_SHORT 0x28 0xe0f1
+  BUT_ONLY
+END
+
+
+///////////////////////////
+///////////////////////////
+// Gorf the Squisher Fix //
+///////////////////////////
+///////////////////////////
+
+/* AUTHOR ~Gebhard Blucher, g_blucher@yahoo.com~ */
+
+BEGIN @71
+
+FORBID_COMPONENT setup-bg2fixpack.tp2 0 ~~
+
+COMPILE ~ub/gorf/gorf.baf~
+
+
+
+///////////////////////
+///////////////////////
+// Item Restorations //
+///////////////////////
+///////////////////////
+
+BEGIN @30
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+/* Prebek's Home */
+COPY_EXISTING ar0407.are override
+  READ_ASCII  0x94 area_script
+  PATCH_IF NOT FILE_EXISTS_IN_GAME ~%area_script%.bcs~
+  BEGIN
+    SPRINT area_script ar0407
+    WRITE_ASCII 0x94 ar0407 #8
+  END
+BUT_ONLY
+
+EXTEND_TOP ~%area_script%.bcs~ ~ub/items/u!0407.baf~ /* Prebek's Home, Shazzellim, Container 3, Item 1 */
+
+
+
+/* Wolfskin Bag */
+COPY_EXISTING bag01.itm override
+  READ_LONG  0x18 flags
+  WRITE_LONG 0x18 flags | 0x01
+  SAY NAME1 @31
+  SAY NAME2 @31
+  SAY UNIDENTIFIED_DESC @32
+  SAY IDENTIFIED_DESC   @32
+BUT_ONLY
+
+/* Wolfskin Bag - related .sto file */
+COPY_EXISTING bag01.sto override
+  WRITE_SHORT 0x22 0x0a          /* Change bag capacity from 5 to 10 */
+  SAY STORE_NAME @31
+BUT_ONLY
+
+/* The Copper Coronet, places the Wolfskin Bag on the Beastmaster */
+COPY_EXISTING beast.cre override
+  ADD_CRE_ITEM bag01 #0 #0 #0 NONE INV1
+
+/* Shazzellim */
+COPY_EXISTING sw1h50.itm  override
+  READ_LONG  0x1e unusability
+  WRITE_LONG 0x1e unusability | 0x04  /* Restrict Good-aligned */
+  SAY IDENTIFIED_DESC @33             /* Altered description for Shazzellim */
+BUT_ONLY
+
+/* Bala's Axe */
+COPY_EXISTING ax1h07.itm override
+  WRITE_SHORT 0x42 0x28
+BUT_ONLY
+
+EXTEND_TOP ar0413.bcs ~ub/items/u!0413.baf~ /* Planar Sphere, Engine Room, Bala's Axe, Container 1 */
+
+/* Wraithform */
+COPY ~ub/items/spwi315.spl~  override /* Wraithform spell file */
+     ~ub/items/u!scrl03.itm~ override /* Wraithform scroll item file */
+  SAY NAME1 #12020
+  SAY NAME2 #12020
+  SAY UNIDENTIFIED_DESC #12144
+  SAY IDENTIFIED_DESC   #12144
+
+COPY_EXISTING scrolls.sto override // The Pen and Parchment Store
+  ADD_STORE_ITEM ~u!scrl03~ BEFORE scrl1t #1 #0 #0 IDENTIFIED #5
+
+/* Boots of the West */
+COPY ~ub/items/misc8j.itm~ override
+  SAY NAME1             #43877
+  SAY NAME2             #43877
+  SAY UNIDENTIFIED_DESC #43878
+  SAY IDENTIFIED_DESC   #43878
+
+/* Umar Hills, places the Boots of the West on Derrick */
+COPY_EXISTING valran01.cre override
+  ADD_CRE_ITEM misc8j #0 #0 #0 NONE BOOTS
+
+/* Boots of Hastened Departure */
+COPY_EXISTING boot09.itm override
+  SAY NAME2           @97
+  SAY IDENTIFIED_DESC @98
+  GET_OFFSET_ARRAY hd_array ITM_V10_HEADERS
+  PHP_EACH hd_array AS int => hd_offset
+  BEGIN
+    READ_ASCII hd_offset + 0x0004 icon
+    PATCH_IF ~%icon%~ STRING_EQUAL ~~ || ~%icon%~ STRING_EQUAL_CASE ~none~
+    BEGIN
+      WRITE_ASCII hd_offset + 0x0004 iboot09 #8
+    END
+  END
+BUT_ONLY
+
+/* Adds the Boots of Hastened Departure to Greyhand */
+ACTION_IF FILE_EXISTS_IN_GAME greyhand.cre THEN BEGIN
+  COPY_EXISTING greyhand.cre override
+    REPLACE_CRE_ITEM boot09 #0 #0 #0 NONE BOOTS
+  BUT_ONLY
+END
+
+ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0 THEN BEGIN
+  // wallag's stuff now available -from fixpack
+  <<<<<<<< .../ub/baf/ar1403.baf
+  IF
+    Global("CDDropStuff","AR1403",0)
+  THEN
+  RESPONSE #100
+    SetGlobal("CDDropStuff","AR1403",1)
+    ActionOverride("shabod01",DropInventory())
+    Continue()
+  END
+  >>>>>>>>
+  EXTEND_TOP ~ar1403.bcs~ ~.../ub/baf/ar1403.baf~
+  
+  // make wallag a permanent corpse
+  COPY_EXISTING shabod01.cre override
+    READ_BYTE  0x10 flags
+    WRITE_BYTE 0x10 flags || 0x04
+  BUT_ONLY
+END
+
+
+/////////////////////////////////
+/////////////////////////////////
+// Yoshimo's Original Portrait //
+/////////////////////////////////
+/////////////////////////////////
+
+BEGIN @70
+
+COPY ~ub/ubnull.itm~ ~override/ubyoshi.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  COPY ~ub/yoshimo/NYOSHIEM.BMP~ ~override/NYOSHIEM.BMP~          
+  COPY ~ub/yoshimo/NYOSHIES.BMP~ ~override/NYOSHIES.BMP~
+END
+ELSE
+BEGIN
+  COPY ~ub/yoshimo/NYOSHIMM.BMP~ ~override/NYOSHIMM.BMP~          
+  COPY ~ub/yoshimo/NYOSHIMS.BMP~ ~override/NYOSHIMS.BMP~
+  COPY ~ub/yoshimo/NYOSHIMM.BMP~ ~portraits/NYOSHIMM.BMP~
+  COPY ~ub/yoshimo/NYOSHIMS.BMP~ ~portraits/NYOSHIMS.BMP~
+END
+
+
+////////////////////////////////
+////////////////////////////////
+// Anomen's Original Portrait //
+////////////////////////////////
+////////////////////////////////
+
+BEGIN @72
+
+COPY ~ub/ubnull.itm~ ~override/ubanomen.xxx~ //null file to identify this component
+
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  COPY ~ub/anomen/NANOMENL.BMP~ ~override/NANOMENL.BMP~  
+  COPY ~ub/anomen/NANOMEEM.BMP~ ~override/NANOMENM.BMP~
+  COPY ~ub/anomen/NANOMEES.BMP~ ~override/NANOMENS.BMP~
+END
+ELSE
+BEGIN
+  COPY ~ub/anomen/NANOMENM.BMP~ ~override/NANOMENM.BMP~
+  COPY ~ub/anomen/NANOMENS.BMP~ ~override/NANOMENS.BMP~
+  COPY ~ub/anomen/NANOMENM.BMP~ ~portraits/NANOMENM.BMP~
+  COPY ~ub/anomen/NANOMENS.BMP~ ~portraits/NANOMENS.BMP~
+  COPY ~ub/anomen/NANOMENL.BMP~ ~override/NANOMENL.BMP~ 
+  COPY ~ub/anomen/NANOMENL.BMP~ ~portraits/NANOMENL.BMP~
+END
+
+
+///////////////////////////////
+///////////////////////////////
+// NPC Portrait Restorations //
+///////////////////////////////
+///////////////////////////////
+
+BEGIN @49
+
+COPY ~ub/ubnull.itm~ ~override/ubports.xxx~ //null file to identify this component
+
+COPY_EXISTING ~KAYL1.CRE~    ~override/KAYL1.CRE~      /* Sir Ryan Trawl */
+              ~KAYL2.CRE~    ~override/KAYL2.CRE~
+  WRITE_ASCII   ~0x34~         ~TESTPOR~
+
+COPY_EXISTING ~C6CORAN.CRE~  ~override/C6CORAN.CRE~    /* Coran */
+  WRITE_ASCII   ~0x34~         ~CORANS~
+
+COPY_EXISTING ~C6SAFA.CRE~   ~override/C6SAFA.CRE~     /* Safana */
+  WRITE_ASCII   ~0x34~         ~SAFANAS~
+
+COPY_EXISTING ~CEFALD01.CRE~ ~override/CEFALD01.CRE~   /* Faldorn */
+              ~CEFALD02.CRE~ ~override/CEFALD02.CRE~
+              ~CEFALD04.CRE~ ~override/CEFALD04.CRE~
+              ~CEFALDOR.CRE~ ~override/CEFALDOR.CRE~
+  WRITE_ASCII   ~0x34~         ~FALDORNS~
+
+COPY_EXISTING ~GARRICK.CRE~  ~override/GARRICK.CRE~    /* Garrick */
+  WRITE_ASCII   ~0x34~         ~GARRICKS~
+
+COPY_EXISTING ~LYROS.CRE~    ~override/LYROS.CRE~      /* Xzar */
+              ~XZAR.CRE~     ~override/XZAR.CRE~
+  WRITE_ASCII   ~0x34~         ~XZARS~
+
+COPY_EXISTING ~PPTIAX.CRE~   ~override/PPTIAX.CRE~     /* Tiax */
+              ~PPTIAX2.CRE~  ~override/PPTIAX2.CRE~
+  WRITE_ASCII   ~0x34~         ~TIAXS~
+
+COPY_EXISTING ~QUAYLE.CRE~   ~override/QUAYLE.CRE~     /* Quayle */
+  WRITE_ASCII   ~0x34~         ~QUAYLES~
+
+ACTION_IF GAME_IS BG2EE
+BEGIN
+  COPY ~ub/suna/SUNAL_EE.BMP~ ~override/SUNAL.BMP~          /* Suna Seni's portraits */
+  COPY ~ub/suna/SUNAS_EE.BMP~ ~override/SUNAS.BMP~
+END
+ELSE
+BEGIN
+  COPY ~ub/suna/SUNAL.BMP~ ~override/SUNAL.BMP~          /* Suna Seni's portraits */
+  COPY ~ub/suna/SUNAS.BMP~ ~override/SUNAS.BMP~
+  COPY ~ub/suna/SUNAL.BMP~ ~portraits/SUNAL.BMP~
+  COPY ~ub/suna/SUNAS.BMP~ ~portraits/SUNAS.BMP~
+END
+
+
+///////////////////////////////
+///////////////////////////////
+// Corrected BAMs and Scripts//
+///////////////////////////////
+///////////////////////////////
+
+BEGIN @50
+
+/* Remove evil-aligned weaponry */
+COPY_EXISTING c6elhan.cre override   /* Remove Elhan's evil-aligned Shazzellim scimitars */
+              suelhan.cre override
+  REPLACE_CRE_ITEM sw1h22 #0 #0 #0 NONE        WEAPON1 EQUIP
+  REPLACE_CRE_ITEM sw1h22 #0 #0 #0 NONE        SHIELD
+  REPLACE_CRE_ITEM amul21 #0 #0 #0 UNSTEALABLE AMULET
+IF sw1h50
+BUT_ONLY
+
+ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
+BEGIN
+  /* Corrected Avatars */
+  COPY_EXISTING clone1.cre override     /* Ellesime clone in Chateau Irenicus */
+    WRITE_LONG 0x28 0x7F31
+  BUT_ONLY
+
+  /* Nilthiri */
+  COPY_EXISTING drshnl01.bcs override
+    DECOMPILE_AND_PATCH
+    BEGIN
+      REPLACE_TEXTUALLY ~HPLT(Myself,10)~ ~False()~
+    END
+  BUT_ONLY
+
+  COPY_EXISTING troll01.bcs ~override/drshnl11.bcs~
+    DECOMPILE_AND_PATCH
+    BEGIN
+      REPLACE_TEXTUALLY ~ChangeAnimationNoEffect("TROLL02")~ 
+~DestroyItem("MONHP1") /* Kulyok */
+ChangeAnimationNoEffect("%DEST_RES%")~
+    END
+
+  EXTEND_TOP drshnl01.bcs ~override/drshnl11.bcs~
+
+  COPY_EXISTING ~drshnl01.cre~ ~override/drshnl21.cre~
+    WRITE_ASCII 0x250 ~~ #8
+    WRITE_BYTE  0x270 0xff
+    WRITE_ASCII 0x2cc ~~ #8
+
+  COPY_EXISTING drshnl01.cre ~override/drshnl11.cre~
+    WRITE_SHORT 0x24  0x01
+    WRITE_SHORT 0x46  0x0a
+    WRITE_SHORT 0x48  0x0a
+    PATCH_FOR_EACH resistance IN 0x5a 0x5b 0x5f 0x60 0x61 0x62 0x63 BEGIN
+      WRITE_BYTE resistance 0x64
+    END
+    WRITE_BYTE  0x23c 0x09
+    WRITE_BYTE  0x270 0xff
+    WRITE_ASCII 0x248 drshnl21
+    WRITE_ASCII 0x250 ~~ #32
+    WRITE_ASCII 0x2cc ~~ #8
+    REPLACE_CRE_ITEM trolldie #0 #0 #0 NONE LRING
+    REPLACE_CRE_ITEM trolldie #0 #0 #0 NONE RRING
+
+  COPY_EXISTING troll02.bcs ~override/drshnl21.bcs~
+    DECOMPILE_AND_PATCH
+    BEGIN
+      REPLACE_TEXTUALLY ~ReallyForceSpell(Myself,TROLL_CHANGE)~ ~ReallyForceSpellRES("drshnl21",Myself)~
+    END
+
+  COPY_EXISTING drshnl01.cre override
+    WRITE_ASCII  0x248 drshnl11
+    WRITE_ASCII  0x258 drshnl01
+    ADD_CRE_ITEM monhp1 #0 #0 #0 NONE AMULET
+
+  COPY_EXISTING spin955.spl ~override/drshnl21.spl~
+    READ_LONG   0x64 ho
+    READ_LONG   0x6a eo
+    LPF ALTER_EFFECT
+      INT_VAR
+      match_opcode	= 0x0097
+      STR_VAR
+      match_resource	= ~troll01~
+      resource		= ~drshnl21~
+    END
+
+  /* Assigns amalas.bcs as his override script */
+  COPY_EXISTING ruffian.cre override
+    WRITE_ASCII 0x248 amalas #8
+  BUT_ONLY
+
+  /* Corrected Inventory BAMs */
+  COPY_EXISTING famfair.itm override    /* Fairy Dragon Familiar */
+                fampsd.itm  override    /* Pseudodragon Familiar */
+    WRITE_ASCII 0x3a fampsd #8
+  BUT_ONLY
+
+  ACTION_IF GAME_INCLUDES ~tob~
+  BEGIN
+    COPY_EXISTING famfai25.itm override /* Fairy Dragon Familiar (ToB) */
+                  fampsd25.itm override /* Pseudodragon Familiar (ToB) */
+      WRITE_ASCII 0x3a fampsd #8
+    BUT_ONLY
+  END
+END
+
+
+///////////////////////////////
+///////////////////////////////
+// Corrected Character Names //
+///////////////////////////////
+///////////////////////////////
+
+BEGIN @53
+
+/* Malaaq, the genie */
+COPY_EXISTING idjinni.cre  override
+  SAY NAME1 @36
+  SAY NAME2 @36
+BUT_ONLY
+
+/* Hendron, Lady Delcia's guard */
+COPY_EXISTING kpsold01.cre override
+  SAY NAME1 @37
+  SAY NAME2 @37
+BUT_ONLY
+
+/* Hannah, the circus attendant */
+COPY_EXISTING kftown01.cre override
+  SAY NAME1 #20626
+  SAY NAME2 #20641
+BUT_ONLY
+
+/* Lellyn, Mazzy's fallen compatriot */
+COPY_EXISTING lellyn.cre   override
+  SAY NAME1 @38
+  SAY NAME2 @38
+BUT_ONLY
+
+/* The omnipresent Town Crier Neckeith */
+/*
+COPY_EXISTING townc01.cre  override
+  SAY NAME1 @57
+  SAY NAME2 @57
+BUT_ONLY
+*/
+
+/* Shadow Thief Assassin */
+COPY_EXISTING stass1.cre   override
+  SAY NAME1 @58
+  SAY NAME2 @58
+BUT_ONLY
+
+/* Shadow Thief Archer */
+COPY_EXISTING starcher.cre override
+              arnfgt03.cre override
+              flyfgt03.cre override
+              arnwar01.cre override
+              irethf04.cre override
+  SAY NAME1 @59
+  SAY NAME2 @59
+BUT_ONLY
+
+/* Shadow Thief Footpad */
+COPY_EXISTING arnwar04.cre override
+  SAY NAME1 @60
+  SAY NAME2 @60
+BUT_ONLY
+
+/* Shadow Thief Thug */
+COPY_EXISTING arnfgt04.cre override
+              arnwar02.cre override
+  SAY NAME1 @61
+  SAY NAME2 @61
+BUT_ONLY
+
+/* Shadow Thief Guard */
+COPY_EXISTING flyfgt02.cre override
+  SAY NAME1 @62
+  SAY NAME2 @62
+BUT_ONLY
+
+/* Shadow Thief Inquisitor */
+COPY_EXISTING flyfgt04.cre override
+  SAY NAME1 @63
+  SAY NAME2 @63
+BUT_ONLY
+
+/* Shadow Thief Battlemage */
+COPY_EXISTING irethf05.cre override
+  SAY NAME1 @64
+  SAY NAME2 @64
+BUT_ONLY
+
+/* Amon of the Purple Brotherhood */
+COPY_EXISTING sevpat02.cre override
+  SAY NAME1 @65
+  SAY NAME2 @65
+BUT_ONLY
+
+/* Alatelo De Bonito */
+COPY_EXISTING sevdru01.cre override
+  WRITE_SHORT 0x273 0x01            /* Changes class from Innocent to Mage */
+BUT_ONLY
+
+ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
+BEGIN
+  /* Apprentice Torturer Douglas */
+  COPY_EXISTING arnboy01.cre override
+    SAY NAME1 #38998
+    SAY NAME2 #38998
+  BUT_ONLY
+
+  /* Crazyface, Korgan's old cohort */
+  COPY_EXISTING korcrazy.cre override
+    SAY NAME1 #30508
+    SAY NAME2 #30509
+  BUT_ONLY
+
+  /* Pimlico Guard */
+  COPY_EXISTING korpimg1.cre override
+    SAY NAME1 #30490
+    SAY NAME2 #30490
+  BUT_ONLY
+
+  /* Maheer, the Blacksmith */
+  COPY_EXISTING shop3.cre override /* Kulyok */
+    SAY NAME1 #23302
+    SAY NAME2 #23303
+  BUT_ONLY
+
+  /* Derrick, the ranger */
+  COPY_EXISTING valran01.cre override
+    SAY NAME1 #2190
+    SAY NAME2 #2190
+  BUT_ONLY
+
+  /* Post Spellhold Imoen Biography */
+  ACTION_FOR_EACH imoen_cre IN imoen211.cre imoen215.cre imoen15.cre BEGIN
+    ACTION_IF FILE_EXISTS_IN_GAME ~%imoen_cre%~ THEN BEGIN
+      COPY_EXISTING ~%imoen_cre%~ override
+        WRITE_LONG 0x1cc 0xb16
+      BUT_ONLY
+    END
+  END
+END
+
+
+////////////////////////////
+////////////////////////////
+// Restored Minor Dialogs //
+////////////////////////////
+////////////////////////////
+
+BEGIN @54
+
+ACTION_IF GAME_IS ~BG2EE~ BEGIN
+LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COMPILE ~ub/dialogs/u!minor.d~
+        ~ub/dialogs/obshal03.d~
+USING   ~ub/tra/%s/ubdialog.tra~
+
+// Added by DavidW - new translation-independent way to restore strings
+
+<<<<<<<< .../ub/davidw/restorestring.2da
+35168  haerda95
+37155  janjan67
+46016  irenic36
+46021  irenic37
+58250  ellesi02
+58266  ellesi17
+17890  valyga01
+>>>>>>>>
+
+<<<<<<<< .../ub/davidw/dw#restorestring.tpa
+>>>>>>>>
+
+COPY ~.../ub/davidw/dw#restorestring.tpa~ ~override~
+
+COPY - ~.../ub/davidw/restorestring.2da~ ~.../ub/davidw/restorestring.2da~
+     READ_2DA_ENTRIES_NOW ~string_entries~ 2
+     FOR (i=0;i<~string_entries~;i=i+1) BEGIN
+        READ_2DA_ENTRY_FORMER ~string_entries~ i 0 ~stringnum~
+        READ_2DA_ENTRY_FORMER ~string_entries~ i 1 ~wavfile~
+        GET_STRREF ~stringnum~ ~stringtext~
+        INNER_ACTION BEGIN
+           APPEND_OUTER ~override/dw#restorestring.tpa~ ~STRING_SET %stringnum% "%stringtext%" [%wavfile%]~
+        END
+     END
+
+REINCLUDE ~override/dw#restorestring.tpa~
+
+COPY_EXISTING obshal04.cre override
+  WRITE_ASCII 0x0250 ~~ #8 // Shouldn't have OBSHAL01 script
+BUT_ONLY
+
+<<<<<<<<.../ub/halflings/fixer.baf
+IF
+  See([2])
+  Global("TALKED","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("TALKED","LOCALS",1)
+    StartDialogueNoSet(LastSeenBy(Myself))
+END
+>>>>>>>>
+
+EXTEND_TOP obshal01.bcs ~.../ub/halflings/fixer.baf~
+
+EXTEND_TOP obshal03.bcs ~.../ub/halflings/fixer.baf~
+
+<<<<<<<<.../ub/halflings/fixer.d
+REPLACE obshal01
+  IF
+    ~~ 1
+  SAY #33115
+    IF
+      ~~ EXIT
+  END
+  IF
+    ~~ 2
+  SAY #33116
+    IF
+      ~~ EXIT
+  END
+  IF
+    ~~ 3
+  SAY #33117
+    IF 
+      ~~ EXIT
+  END
+END
+
+REPLACE obshal03
+  IF 
+    ~NumTimesTalkedTo(0)~ 0
+  SAY #33118
+    + ~~ + #33119 + 2
+    + ~~ + #33120 + 1
+    + ~~ + #33122 + 3
+    + ~InParty("MINSC")~ + #33133 EXTERN ~MINSCJ~ 63
+  END
+  IF
+    ~~ 1
+  SAY #33121
+    IF 
+      ~~ EXIT
+  END
+  IF
+    ~~ 2
+  SAY #33123
+    IF 
+      ~~ EXIT
+  END
+  IF
+    ~~ 3
+  SAY #33124
+    IF 
+      ~~ EXIT
+  END
+  IF
+    ~~ 4
+  SAY #33135
+    IF 
+      ~~ EXIT
+  END
+END
+>>>>>>>>
+
+COMPILE ~.../ub/halflings/fixer.d~
+
+// Replaces duplicate DOCSOL02 with DOCSOL03 in Docks Barracks
+COPY_EXISTING ar0332.are override
+PATCH_IF NOT FILE_CONTAINS_EVALUATED (~%SOURCE_FILE%~ ~docsol03~) BEGIN /* Kulyok */
+  GET_OFFSET_ARRAY act_array ARE_V10_ACTORS
+  PHP_EACH act_array AS act_num => act_offset
+  BEGIN
+    READ_ASCII act_offset + 0x0080 act_cre
+    PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~docsol02~ && act_num == 0x02
+    BEGIN
+      WRITE_ASCII act_offset + 0x0080 ~docsol03~
+    END
+  END
+END
+BUT_ONLY
+
+COPY_EXISTING ~docsol03.bcs~ ~override~ /* Kulyok */
+DECOMPILE_AND_PATCH
+BEGIN
+  REPLACE_TEXTUALLY EXACT_MATCH ~See([PC])~ ~See([PC]) InMyArea("docsol02") !StateCheck("docsol02",CD_STATE_NOTVALID)~
+END
+BUT_ONLY_IF_IT_CHANGES 
+
+//Simyaz and the Silver Sword in the Underdark.
+<<<<<<<<ub/udsimyaz_reaction.d
+REPLACE_TRIGGER_TEXT udsimyaz ~ReactionGT(LastTalkedToBy,FRIENDLY_UPPER)~ ~Reaction(LastTalkedToBy,FRIENDLY_UPPER)~
+>>>>>>>>
+
+COMPILE ~ub/udsimyaz_reaction.d~
+
+ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
+BEGIN
+  //Glaicas Charm bug fix
+  COPY_EXISTING ar1303.bcs override
+    DECOMPILE_AND_PATCH
+    BEGIN
+      REPLACE_TEXTUALLY ~^    \(ActionOverride("kpglai01",\|\)ApplySpell("kpglai01",WIZARD_TRUE_DISPEL_MAGIC)\()\|\)$~ ~    \1ApplySpell("kpglai01",FORCE_DISPEL_MAGIC)\2~
+    END
+  BUT_ONLY
+  
+  //Imoen213 script
+  COPY_EXISTING imoen213.cre override
+     WRITE_ASCII 0x248 ~imoen2~ #8
+  BUT_ONLY
+  
+  // Count Claylan and Lady Alicia
+  COPY_EXISTING wcust01.cre override
+                wcust02.cre override
+    WRITE_ASCIIE 0x280 ~%SOURCE_RES%~ #18
+  BUT_ONLY
+  
+  //devSin's code for load hints
+  ACTION_IF GAME_INCLUDES ~tob~ // ToB-only stuff check
+  BEGIN
+    APPEND loadh25.2da  ~79          34572~
+    UNLESS ~^79[         ]+~
+    APPEND loadhint.2da ~75          34572~
+    UNLESS ~^75[         ]+~
+    APPEND loadhint.2da ~76          72818~
+    UNLESS ~^76[         ]+~
+  END
+END
+
+
+////////////////////////////////
+////////////////////////////////
+// Restored Bhaalspawn Powers //
+////////////////////////////////
+////////////////////////////////
+
+/* AUTHOR ~David Gaider~ */
+
+BEGIN @68
+
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
+
+COPY ~ub/ubnull.itm~ ~override/ubpower.xxx~ //null file to identify this component
+
+EXTEND_TOP ~AR4500.bcs~ ~ub/powers/u!4500.baf~
+
+//Dark Taint fix
+COPY ~ub/bhaalpowers/BHAAL2B.SPL~ ~override/BHAAL2B.SPL~
+
+//Hand of Murder fix
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B1.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B2.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B3.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B4.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B5.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+
+////////////////////////////////////
+////////////////////////////////////
+// Extended ToB Item Descriptions //
+////////////////////////////////////
+////////////////////////////////////
+
+BEGIN @73
+
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
+
+COPY ~ub/ubnull.itm~ ~override/ubtobitm.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COPY_EXISTING ~FIGURE01.itm~ ~override/FIGURE01.itm~
+  SAY IDENTIFIED_DESC @74
+
+COPY_EXISTING ~SW1H63.itm~ ~override/SW1H63.itm~
+  SAY IDENTIFIED_DESC @75
+
+COPY_EXISTING ~SPER12.itm~ ~override/SPER12.itm~
+  SAY IDENTIFIED_DESC @76
+
+COPY_EXISTING ~BLUN27.itm~ ~override/BLUN27.itm~
+  SAY IDENTIFIED_DESC @77
+
+COPY_EXISTING ~QUIVER01.itm~ ~override/QUIVER01.itm~
+  SAY IDENTIFIED_DESC @78
+
+COPY_EXISTING ~BLUN29.itm~ ~override/BLUN29.itm~
+  SAY IDENTIFIED_DESC @79
+
+COPY_EXISTING ~SHLD31.itm~ ~override/SHLD31.itm~
+  SAY IDENTIFIED_DESC @80
+
+COPY_EXISTING ~SW2H19.itm~ ~override/SW2H19.itm~
+  SAY IDENTIFIED_DESC @99
+
+COPY_EXISTING ~BLUN30.itm~ ~override/BLUN30.itm~
+  SAY IDENTIFIED_DESC @100
+
+COPY_EXISTING ~BLUN30C.itm~ ~override/BLUN30C.itm~
+  SAY IDENTIFIED_DESC @101
+
+COPY_EXISTING ~BLUN30D.itm~ ~override/BLUN30D.itm~
+  SAY IDENTIFIED_DESC @102
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+// Throne of Bhaal Minor Restorations //
+////////////////////////////////////////
+////////////////////////////////////////
+
+BEGIN @95
+
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COPY_EXISTING ~sarevok.cre~ ~override~
+  WRITE_LONG 0x260 0x00000000
+  WRITE_LONG 0x264 0x00000000
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~sarev25.bcs~
+BEGIN
+  COPY_EXISTING ~sarevok.bcs~ ~override/sarev25.bcs~
+END
+ELSE
+BEGIN
+  COPY_EXISTING ~inp1ivsg.bcs~ ~override~               
+  EXTEND_TOP ~sarev25.bcs~ ~override/inp1ivsg.bcs~
+END
+
+// Restored Quiver of Plenty icons
+COPY_EXISTING ~QUIVER01.itm~ ~override~
+              ~QUIVER03.itm~ ~override~
+  WRITE_ASCII 0x3a "IQUIVER0" #8
+  WRITE_ASCII 0x44 "GQUIVER0" #8
+
+COPY_EXISTING ~QUIVER02.itm~ ~override~
+              ~QUIVER04.itm~ ~override~
+  WRITE_ASCII 0x44 "GQUIVER0" #8
+
+// Cold Mistress in Saradush
+<<<<<<<< .../ub/ding0/coldmiss/ar0500.baf
+IF
+!Global("D0SpawnCold","AR5000",1)
+THEN
+RESPONSE #100
+SetGlobal("D0SpawnCold","AR5000",1)
+CreateCreature("sarmist",[910.2343],6) // Cold Mistress
+CreateCreature("sarcult",[824.2310],0) // Human Cultist
+CreateCreature("sarcult2",[962.2276],0) // Human Cultist
+CreateCreature("sarculto",[875.2273],0) // Orc Cultist
+Continue()
+END
+>>>>>>>>
+<<<<<<<< .../ub/ding0/coldmiss/dialog.d
+APPEND SARMIST
+IF WEIGHT #-1 ~NumTimesTalkedTo(0)~ THEN BEGIN Embrace1
+SAY @1300
+IF ~~ THEN DO ~SetCutsceneLite(TRUE)
+ForceSpell("sarculto",DO_NOTHING)
+SmallWait(2)
+Kill("sarculto")
+Wait(1)
+StartDialogNoSet(LastTalkedToBy(Myself))~ EXIT
+END
+END
+>>>>>>>>
+
+COPY_EXISTING ~sarmist.cre~ ~override~
+  SAY 0xa4 #61744
+  SAY 0x10c #61744
+  WRITE_ASCII 0x248 "SHOUTDLG"
+
+EXTEND_TOP ~AR5000.BCS~ ~.../ub/ding0/coldmiss/ar0500.baf~
+
+COMPILE ~.../ub/ding0/coldmiss/dialog.d~
+
+
+///////////////////
+///////////////////
+// Justifier Kit //
+///////////////////
+///////////////////
+
+/* AUTHOR   ~andyr@gibberlings3.net~ */
+
+BEGIN @81
+REQUIRE_PREDICATE NOT GAME_IS ~BG2EE~ @1311
+
+/* Kulyok: I'm sometimes using this ubsetup-ee.tra where I shouldn't, but it's harmless and better than forgetting it entirely before v25. :) But don't do that at home. */
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COPY ~ub/rangerkits/A#justif.2DA~ ~override/A#justif.2DA~
+
+COPY_EXISTING ~SPCL331.SPL~ ~override/A#just01.SPL~
+  WRITE_LONG 0x9e 10
+  WRITE_LONG 0xce 10
+
+COPY ~ub/rangerkits/A#just02.SPL~ ~override/A#just02.SPL~
+     ~ub/rangerkits/A#justns.SPL~ ~override/A#justns.SPL~
+  SAY NAME1 #-1
+  SAY NAME2 #-1
+
+COPY_EXISTING ~SPPR103.spl~ ~override/A#justcl.spl~ // Cure Light Wounds
+              ~SPPR111.spl~ ~override/A#justaf.spl~ // Armour of Faith
+              ~SPWI209.spl~ ~override/A#justlu.spl~ // Luck
+              ~SPPR108.spl~ ~override/A#justrf.spl~ // Remove Fear
+  WRITE_SHORT 0x1C 4                        // sets spell type to innate (4)
+  LPF ALTER_SPELL_HEADER
+    INT_VAR
+    location	= 4	// changes ability icon location to innate (4)
+  END
+
+ADD_KIT ~A#JUSTIFIER~
+// CLASWEAP.2DA Weapons class can use.
+~A#JUSTIFIER		1	1	1	1	1	1	1	1~
+// WEAPPROF.2DA, starting with line 3. Proficiencies allowed.
+~A#JUSTIFIER 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+// ABCLASRQ.2DA Stat requirements.
+~A#JUSTIFIER	13	13	14	0	14	0~
+// ABCLSMOD.2DA Stat modifiers.
+~A#JUSTIFIER		0	0	0	0	0	0~
+// ABDCDSRQ.2DA Dualclass requirements.
+~A#JUSTIFIER		17	17	0	0	17	0~
+// ABDCSCRQ.2DA Dualclass requirements.
+~A#JUSTIFIER		15	15	0	0	15	0~
+// ALIGNMNT.2DA Permitted alignments.
+~A#JUSTIFIER		1	0	0	0	0	0	0	0	0~
+// DUALCLAS.2DA Dualclass classes.
+~A#JUSTIFIER		0	0	0	0	0	0~
+// Abilities 2DA file
+~override/A#justif.2DA~
+// KITTABLE.2DA What sort of kit it is. R = ranger.
+~K_R_H K_R_HE K_R_E~
+// KITLIST.2DA  Number is the class it is a kit for. Ranger = 12.
+~0x00004000	12~
+// LUABBR.2DA HLAs.
+~ra0~
+// 25STWEAP.2DA ToB starting equipment.
+~LEAT20 * HELM19 BAG27 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC14 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+// Strings for lower, mixed and help descriptions. First two are names for ingame, the third is the description.
+SAY @82
+SAY @83
+SAY @84
+
+
+/////////////////
+/////////////////
+// Feralan Kit //
+/////////////////
+/////////////////
+
+/* AUTHOR   ~andyr@gibberlings3.net~ */
+
+BEGIN @85
+REQUIRE_PREDICATE NOT GAME_IS ~BG2EE~ @1311
+
+ACTION_IF GAME_IS ~BG2EE~ BEGIN
+LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+  SET "armor_patch" = 0
+  SET "other_patch" = 0
+  READ_BYTE 0x1C "type"
+  READ_BYTE 0x1E "bard"
+  READ_BYTE 0x21 "druid"
+  READ_BYTE 0x29 "shapeshifter"
+  WHILE ("%armor_patch%" = 0) AND
+        (("%shapeshifter%"  BAND 0b00010000) = 0b00000000) AND // if usable by shapeshifters
+        (("%type%" = 2) OR // Armor
+        ("%type%" = 60) OR // Leather Armor
+        ("%type%" = 61) OR // Studded Leather Armor
+        ("%type%" = 62) OR // Chain Mail
+        ("%type%" = 63) OR // Splint Mail
+        ("%type%" = 64) OR // Half plate
+        ("%type%" = 65) OR // Full plate
+        ("%type%" = 67) OR // Robes
+        ("%type%" = 66))   // Hide armor
+  BEGIN
+    WRITE_BYTE 0x29 ("%shapeshifter%" BOR 0b00010000) // making sure that all armor is unusable by shapeshifters
+    SET "armor_patch" = 1
+  END
+  WHILE ("%other_patch%" = 0) AND
+        (("%shapeshifter%" BAND 0b00010000) = 0b00010000) AND // and unusable by shapeshifters
+        (("%druid%" BAND 0b01000000) = 0b01000000) AND NOT    // and unusable by druids
+        (("%type%" = 2)  OR // Armor
+         ("%type%" = 60) OR // Leather Armor
+         ("%type%" = 61) OR // Studded Leather Armor
+         ("%type%" = 62) OR // Chain Mail
+         ("%type%" = 63) OR // Splint Mail
+         ("%type%" = 64) OR // Half plate
+         ("%type%" = 65) OR // Full plate
+         ("%type%" = 67) OR // Robes
+         ("%type%" = 66))   // Hide armor
+  BEGIN
+    WRITE_BYTE 0x29 ("%shapeshifter%" BAND 0b11101111) // make usable by shapeshifters
+    SET "other_patch" = 1
+  END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SPCL331.SPL~ ~override/A#fera01.SPL~
+WRITE_LONG 0x9e 10
+WRITE_LONG 0xce 10
+
+COPY_EXISTING ~SPCL321.SPL~ ~override/A#fera02.SPL~
+SAY NAME1 @86
+
+COPY ~ub/rangerkits/A#fera03.SPL~ ~override/A#fera03.SPL~
+SAY NAME1 @87
+
+COPY ~ub/rangerkits/A#fera01.CRE~ ~override/A#fera01.CRE~
+SAY NAME1 @88
+SAY NAME2 @88
+COPY ~ub/rangerkits/A#fera02.CRE~ ~override/A#fera02.CRE~
+SAY NAME1 @89
+SAY NAME2 @89
+COPY ~ub/rangerkits/A#fera03.CRE~ ~override/A#fera03.CRE~
+SAY NAME1 @90
+SAY NAME2 @90
+COPY ~ub/rangerkits/A#fera04.CRE~ ~override/A#fera04.CRE~
+SAY NAME1 @91
+SAY NAME2 @91
+
+COPY ~ub/rangerkits/A#fera01.EFF~ ~override/A#fera01.EFF~
+COPY ~ub/rangerkits/A#fera02.EFF~ ~override/A#fera02.EFF~
+COPY ~ub/rangerkits/A#fera03.EFF~ ~override/A#fera03.EFF~
+COPY ~ub/rangerkits/A#fera04.EFF~ ~override/A#fera04.EFF~
+
+COPY ~ub/rangerkits/A#feral.2DA~ ~override/A#feral.2DA~
+
+ADD_KIT ~A#FERALAN~
+// CLASWEAP.2DA Weapons class can use.
+~A#FERALAN		1	1	1	1	1	1	1	1~
+// WEAPPROF.2DA, starting with line 3. Proficiencies allowed.
+~A#FERALAN 1 1 2 2 2 1 2 2 1 1 1 2 1 1 1 2 2 2 2 1 1 2 2 1 2 2 2 2 2 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+// ABCLASRQ.2DA Stat requirements.
+~A#FERALAN	13	13	14	0	14	0~
+// ABCLSMOD.2DA Stat modifiers.
+~A#FERALAN		0	0	0	0	0	-2~
+// ABDCDSRQ.2DA Dualclass requirements.
+~A#FERALAN		17	17	0	0	17	0~
+// ABDCSCRQ.2DA Dualclass requirements.
+~A#FERALAN		15	15	0	0	15	0~
+// ALIGNMNT.2DA Permitted alignments.
+~A#FERALAN		0	0	0	1	0	0	1	0	0~
+// DUALCLAS.2DA Dualclass classes.
+~A#FERALAN		0	1	0	0	0	0~
+// Abilities 2DA file
+~override/A#feral.2DA~
+// KITTABLE.2DA What sort of kit it is. R = ranger.
+~K_R_H K_R_HE K_R_E~
+// KITLIST.2DA  Number is the class it is a kit for. Ranger = 12.
+~0x10000000	12~
+// LUABBR.2DA HLAs.
+~ra0~
+// 25STWEAP.2DA ToB starting equipment.
+~* * HELM19 BAG27 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC14 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+// Strings for lower, mixed and help descriptions. First two are names for ingame, the third is the description.
+SAY @92
+SAY @93
+SAY @94
+
+
+///////////////////////
+// Sarevok's Remorse //
+///////////////////////
+
+// Authors:  Sovran      saarenvelho@hotmail.com
+//           Winterine   winterine@gmail.com
+
+BEGIN @1000
+
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COPY ~ub/sarevok/u!sbook0.bam~ ~override/u!sbook0.bam~
+COPY ~ub/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK1.ITM~
+  SAY NAME1 @1004
+  SAY NAME2 @1004
+  SAY DESC @1001
+
+COPY ~ub/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK2.ITM~
+  SAY NAME1 @1004
+  SAY NAME2 @1004
+  SAY DESC @1002
+
+COPY ~ub/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK3.ITM~
+  SAY NAME1 @1004
+  SAY NAME2 @1004
+  SAY DESC @1003
+
+COPY ~ub/sarevok/U!SWAKIZ.ITM~          ~override/U!SWAKIZ.ITM~
+  SAY UNIDENTIFIED_DESC @1005
+
+ACTION_IF NOT FILE_EXISTS ~override/sarev25.bcs~
+BEGIN
+  COPY_EXISTING ~sarevok.bcs~ ~override/sarev25.bcs~
+  EXTEND_TOP ~sarev25.bcs~ ~ub/sarevok/u!sare.baf~
+END
+ELSE
+BEGIN
+  EXTEND_TOP ~sarev25.bcs~ ~ub/sarevok/u!sare.baf~
+END
+
+EXTEND_TOP ~yoshimo.bcs~ ~ub/sarevok/u!syosh.baf~
+
+COPY_EXISTING ~SAREVND.2da~ ~override/SAREVND.2da~
+  SET_2DA_ENTRY 0 0 2 ~U!SARE 0~
+  SET_2DA_ENTRY 2 2 3 ~U!SAREVND~
+  SET_2DA_ENTRY 0 0 3 ~~
+  REPLACE ~U!SAREVND~ @1298
+
+/* Because Fixpack replaces slilmat with wilmat - Kulyok */
+ACTION_IF MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
+BEGIN
+  OUTER_SET actual_wilmat_state = (STATE_WHICH_SAYS #58238 FROM ~wilmat~)
+
+  COMPILE ~ub/sarevok/u!sare1.d~ EVALUATE_BUFFER
+  USING ~ub/tra/%s/u!sare.tra~
+END
+
+COMPILE ~ub/sarevok/u!sare.d~
+USING   ~ub/tra/%s/u!sare.tra~
+
+
+/////////////////////////////////
+/////////////////////////////////
+// The Murder of Acton Balthis //
+/////////////////////////////////
+/////////////////////////////////
+
+BEGIN ~The Murder of Acton Balthis, by Kulyok~
+
+COPY ~ub/ubnull.itm~ ~override/ubhaer.xxx~ //null file to identify this component
+
+ACTION_IF GAME_IS ~BG2EE~
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL @1301 @1302 @1303 @1304 @1305 @1306 @1307 @1308 @1309 @1310
+END
+
+COMPILE ~ub/haer/haer.d~
+USING   ~ub/tra/%s/haer.tra~
+
+COMPILE	~ub/haer/o#halieu.baf~
+	~ub/haer/o#hapri.baf~
+	~ub/haer/o#hajan.baf~
+	~ub/haer/o#hahaer.baf~
+
+REPLACE_TRIGGER_TEXT ~hapip~    ~"haction"~      ~"hacton"~ // Stolen from the Fixpack, yay!
+
+COPY_EXISTING ~ar1005.are~ ~override~
+  WRITE_ASCII 0x94 ~AR1005~
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING haquat.cre override
+  ADD_CRE_ITEM misc6g #0 #0 #0 NONE INV1
+
+EXTEND_TOP ~AR0506.bcs~    ~ub/haer/AR0506.baf~
+EXTEND_TOP ~AR1005.bcs~    ~ub/haer/AR1005.baf~
+EXTEND_TOP ~AR0700.bcs~    ~ub/haer/AR0700.baf~
+EXTEND_TOP ~Haerdali.bcs~  ~ub/haer/Haerdali.baf~
+EXTEND_TOP ~initrg13.bcs~  ~ub/haer/initrg13.baf~
+
+COPY_EXISTING ~amng1.cre~ ~override/o#halie1.cre~
+  WRITE_ASCII 0x248 ~o#halie1~   #8  // override
+  WRITE_ASCII 0x2cc ~o#halie1~   #8  // dialogue
+  WRITE_ASCII 0x280 ~o#halie1~   #32 // death variable
+
+COPY_EXISTING ~amng2.cre~ ~override/o#halie2.cre~
+  WRITE_ASCII 0x248 ~o#halie2~   #8  // override
+  WRITE_ASCII 0x2cc ~o#halie2~   #8  // dialogue
+  WRITE_ASCII 0x280 ~o#halie2~   #32 // death variable
+
+COPY_EXISTING ~amncen1.cre~ ~override/o#halieu.cre~
+  WRITE_ASCII 0x248 ~o#halieu~   #8  // override
+  WRITE_ASCII 0x2cc ~o#halieu~   #8  // dialogue
+  WRITE_ASCII 0x280 ~o#halieu~   #32 // death variable
+  WRITE_BYTE 0x0270 128		   // Neutral
+  // SAY NAME1 ~Amnish Lieutenant~
+  // SAY NAME2 ~Amnish Lieutenant~
+
+COPY_EXISTING ~mage20b.cre~ ~override/o#hajan.cre~
+  WRITE_ASCII 0x248 ~o#hajan~   #8  // override
+  WRITE_ASCII 0x2cc ~o#hajan~   #8  // dialogue
+  WRITE_ASCII 0x280 ~o#hajan~   #32 // death variable
+  SAY NAME1 #25657
+  SAY NAME2 #25657
+
+COPY_EXISTING ~prisong1.cre~ ~override/o#hapri.cre~
+  WRITE_ASCII 0x248 ~o#hapri~   #8  // override
+  WRITE_ASCII 0x2cc ~o#hapri~   #8  // dialogue
+  WRITE_ASCII 0x280 ~o#hapri~   #32 // death variable
+  WRITE_ASCII 0x250 ~SHOUT~     #8   // class script
+  WRITE_ASCII 0x268 ~WTARSGT~   #8   // default script
+        
+COPY_EXISTING ~bodyg2.cre~ ~override/o#habod1.cre~
+  WRITE_ASCII 0x248 ~o#habod1~   #8  // override
+  WRITE_ASCII 0x2cc ~o#habod1~   #8  // dialogue
+  WRITE_ASCII 0x280 ~o#habod1~   #32 // death variable
+  WRITE_BYTE 0x0270 255		   // Enemy
+  WRITE_BYTE 0x273  2		   // fighter
+
+COPY_EXISTING ~bodyg2.cre~ ~override/o#habod2.cre~
+  WRITE_ASCII 0x248 ~o#habod2~   #8  // override
+  WRITE_ASCII 0x2cc ~o#habod2~   #8  // dialogue
+  WRITE_ASCII 0x280 ~o#habod2~   #32 // death variable
+  WRITE_BYTE 0x0270 255		   // Enemy
+  WRITE_BYTE 0x273  2		   // fighter
+
+COPY_EXISTING ~AR0700.are~ ~override~
+  ADD_MAP_NOTE #1414 #2222  ~gray~   #14731
+BUT_ONLY_IF_IT_CHANGES
+
+

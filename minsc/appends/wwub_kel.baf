@@ -1,0 +1,30 @@
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("MinscDies","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("MinscDies","GLOBAL",90)
+END
+
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+    InParty(Myself)
+    InParty("Minsc")
+    Dead("Minsc")
+    Global("MinscDies","GLOBAL",90)
+THEN
+    RESPONSE #100
+        SetGlobal("MinscDies","GLOBAL",91)
+END
+
+IF
+    InParty(Myself)
+    InParty("Minsc")
+    See("Minsc")
+    !Dead("Minsc")
+    Global("MinscDies","GLOBAL",91)
+THEN
+    RESPONSE #100
+        ActionOverride("Minsc",Interact("Keldorn"))
+END

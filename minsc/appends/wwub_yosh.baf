@@ -1,0 +1,15 @@
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BYoshimo13","LOCALS",0)
+THEN
+	RESPONSE #100
+	    SetGlobal("BYoshimo13","LOCALS",90)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("BYoshimo13","LOCALS",90)
+THEN
+	RESPONSE #100
+	    SetGlobal("BYoshimo13","LOCALS",0)
+END

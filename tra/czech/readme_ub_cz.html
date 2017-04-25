@@ -1,0 +1,663 @@
+<HTML>
+<HEAD><TITLE>[Unfinished Business CZ]</TITLE>
+<STYLE>
+<!--
+BODY { background-color:#99CCCC; 
+            color: #FFFFFF; }
+A:link { color: #009999; 
+	text-decoration: none;
+	font-weight: bold;                
+	font-family: Verdana; }
+A:visited { color: #009999;
+	text-decoration: none;
+	font-weight: bold;  
+         font-family: Verdana; }
+A:hover { color: #999999;
+	text-decoration: underline;
+	font-weight: bold;
+         font-family: Verdana; }
+DIV.a {   font-family: Verdana;
+	font-size: 0.7em; 
+	color: #000000; }
+TD {   font-family: Verdana;
+	font-size: 0.7em; 
+	color: #000000; }
+SPAN { color: #FFFFFF; }
+-->
+</STYLE>
+</HEAD>
+
+<body>
+
+<div CLASS="a">
+  <center><b><font SIZE="300em">UB</font><font SIZE="2em">.cz</font></b><br>
+  <a HREF="http://www.pocketplane.net/ub" TARGET="_blank">&quot;Unfinished
+  Business&quot;</a><br>
+  <b>mód pro Baldur's Gate II: Shadows of Amn<br>
+  èeské (a èásteènì anglické) readme pro verzi 13</b>
+  <p>vıvoj: <a HREF="mailto:icelus@pocketplane.net">Icelus</a>, <a HREF="mailto:barren50@hotmail.com">Barren
+  Fischa</a> a <a HREF="mailto:supercliffette@yahoo.com.au">Cliffette</a>
+  <p>podpùrné fórum UB: <a href="http://forums.pocketplane.net/index.php?board=19.0">http://forums.pocketplane.net/index.php?board=19.0</a><br>
+  domovská stránka UB: <a HREF="http://www.pocketplane.net/ub" TARGET="_blank">http://www.pocketplane.net/ub</a></center><br CLEAR="ALL">
+  <a NAME="top">
+  <p>&nbsp;
+  </div>
+  <div CLASS="a">
+    <b>[obsah]</b>
+    <ol>
+      <li TYPE="i"></a><a HREF="#czech">èeština</a>
+      <li TYPE="i"></a><a HREF="#general">obecnı pøehled</a>
+      <ol>
+        <li TYPE="a"><a HREF="#boo">únos Booa, autorka: Cliffette</a>
+        <li TYPE="a"><a HREF="#suna">navrácení vztahu mezi Sunou Seni a Valygarem</a>
+        <li TYPE="a"><a HREF="#kalah">Kalah a to, co mu bylo slíbeno, autor: Andyr</a>
+        <li TYPE="a"><a HREF="#bodhihunt">hra na koèku a myš: Bodhi tì loví v Èarotvrzi, autor: Ghreyfain</a>
+        <li TYPE="a"><a HREF="#gorje">Gorje Hilldark a rozšíøenı úkol s illithiem</a>
+        <li TYPE="a"><a HREF="#paina">úkol s Pai'Nou a Pavouèí zhoubou</a>
+        <li TYPE="a"><a HREF="#crane">navrácení U Køivého jestøába</a>
+        <li TYPE="a"><a HREF="#vampire">navrácení setkání</a>
+        <li TYPE="a"><a HREF="#artemis">Artemis Entreri v Bodhiinì brlohu</a>
+        <li TYPE="a"><a HREF="#xzar">opraveny "Xzarovy vıtvory"</a>
+        <li TYPE="a"><a HREF="#minions">navrácení pekelnıch nohsledù, autor: SimDing0</a>
+        <li TYPE="a"><a HREF="#gorf">oprava Gorfa Drtièe, autor: Gebhard Blucher</a>
+        <li TYPE="a"><a HREF="#items">navrácení pøedmìtù</a>
+		 <li TYPE="a"><a HREF="#yoshimo">Yoshimùv pùvodní portrét</a>
+		 <li TYPE="a"><a HREF="#anomen">Anomenùv pùvodní portrét</a>
+        <li TYPE="a"><a HREF="#portrait">navrácení portrétù npc</a>
+        <li TYPE="a"><a HREF="#bams">opraveny BAMy a skripty</a>         
+        <li TYPE="a"><a HREF="#names">opravena jména postav a ivotopisy</a>
+        <li TYPE="a"><a HREF="#dialogs">navrácení menších rozhovorù</a>
+        <li TYPE="a"><a HREF="#powers">navrácení schopností Bhaalova potomka, autor: David Gaider</a>
+        <li TYPE="a"><a HREF="#tobitem">rozšíøené popisy pøedmìtù z Throne of Bhaal</a>
+        <li TYPE="a"><a HREF="#tobminor">menší obnovy v Throne of Bhaal</a>
+        <li TYPE="a"><a HREF="#justifier">kit Ochránce, autor: Andyr</a>
+        <li TYPE="a"><a HREF="#feralan">kit Divı èlovìk, autor: Andyr</a>
+      </ol>
+    <li TYPE="i"><a HREF="#install">instalace</a>
+    <li TYPE="i"><a HREF="#uninstall">odinstalování</a>
+    <li TYPE="i"><a HREF="#compat">kompatibilita</a>
+    <li TYPE="i"><a HREF="#faqs">èkd [faq] (èást èesky, èást anglicky)</a>
+    <li TYPE="i"><a HREF="#spoilers">kazihøi [spoilery] </a>
+    <li TYPE="i"><a HREF="#legal">ohlednì legálnosti (anglicky)</a>
+    <li TYPE="i"><a HREF="#credit">credits (anglicky)</a>
+    <li TYPE="i"><a HREF="#version">historie verzí (nijak:-))</a>
+  </ol>
+  <p><br CLEAR="ALL">
+  <b>i. <a NAME="czech">èeština</b>
+  <p>Vyvrbil se mi nìjakı ten volnı èas, proèe jsem si øekl, e bych mohl vykonat
+  obecnì prospìšnou práci a pøeloit nìkterı z BG2 módù. Správnì vám došlo, e
+  jako první to odnesl právì Unfinished Business. Vısledek nejen mé práce máte
+  právì pøed sebou. Menším problémem je, e verze èeštiny bude nejspíš o krok
+  pozadu za verzí módu (napø: pøeloím v.178, pøeklad pošlu Icelusovi, ten ho však
+  implentuje a do v.179, v ní se objeví nìkolik novıch questù, které samozøejmì
+  budou v angliètinì).
+  <p>Vy, kdo ètete readme, máte ale monost získávat ji døíve ne s novımi
+  verzemi UB: jednoduše mi napište na mail (<a HREF="mailto:kivan13@seznam.cz">kivan13@seznam.cz</a>, pøedmìt: UB.cz),
+  e o ní máte zájem, a já vám vdy novou verzi pošlu hned, jak ji dokonèím (její
+  implentaci zvládne kadı, kdo ovládá kopírování/vkládání).
+  <p>Ještì jedna vìc: tato èeština obsahuje texty pro obì pohlaví, avšak k tomu,
+  aby dívka mluvila jako dívka a aby na ní bylo mluveno jako na dívku, je tøeba mít
+  v hlavním adresáøi hry soubor dialogF.tlk. Ten však ve verzi BG2 prodávané v ÈR
+  (asi i jinde, ale nám jde o èeštinu, e?:-)) není! Napravit to není obtíné, ale nejdøíve
+  se podívejte, zda jej tam pøeci jen nemáte.
+  Pokud ho máte, mùete vesele hrát i za enu. Pokud ne, zde je pomoc: 1) odinstalujte
+  UB, 2) najdìte v hlavním adresáøi BG2 soubor dialog.tlk a zkopírujte (nepøesunujte!!!)
+  ho kamkoli jinam, 3) pøejmenujte jej na dialogF.tlk a pøesuòte zpátky zpátky do
+  hlavního adresáøe BG2 (v nìm teï máte dialog.tlk i dialogF.tlk), 4) nainstalujte UB.
+  Pozor: dámské texty se tıkají jen questù a replik z UB, v èeštinì od Adama asi nejsou.
+  <p>A kdo všechno za translaci mùe?<br><br>
+  yenn (moje malièkost) »» pøeklad<br>
+  Vlasák »» rady technického rázu, rady k pøekladu<br>
+  Razfallow »» rady obecnì k pøekladùm, rady k pøekladu<br>
+  Finch »» rady k pøekladu<br>
+  <p>Jakékoli pøipomínky a objevené chyby (pøekladové, gramatické, pøeklepy, ena
+  mluvící jako mu (obrácenì je to samozøejmì taky špatnì:-))...) pište <a HREF="mailto:kivan13@seznam.cz">mnì</a> (pøedmìt: UB.cz). U event. chyb uveïte, prosím, celou
+  vìtu, v ní se chyba vyskytuje, kdo ji øíká a komu. Díky.
+ 
+  <p><a HREF="#top">nahoru</a>
+  <p><b>ii. <a NAME="general">obecnı pøehled</b>
+  <p>Unfinished Business (&quot;UB&quot;) je WeiDU mód pro Baldur's Gate
+  II: Shadows of Amn.&nbsp; Je navren, aby obnovil mnoho pøedmìtù, úkolù
+  a náhodnıch setkání odstranìnıch z pùvodní hry, stejnì tak se snaí doøešit
+  nìkteré "otevøené konce". Jako obvykle, mód UB by mìl byt kompatibilní
+  s vìtšinou ostatních WeiDu módù a mìl by bıt instalován a po všech oficiálních
+  patchech a radìji po Baldurdash Fixpacku.&nbsp; UB by mìl pracovat s i bez
+  Throne of Bhaal.</a>
+  <p>Seznam níe vysvìtluje nìkteré souèásti módu:
+  <blockquote>
+  <b>a. </b><a NAME="boo"><b>únos Booa, autorka: Cliffette</b>
+  <p>Minsc je jedna z nejbarvitìjších postav ve høe.&nbsp; O to více pøekvapí,
+  e je jedním z nemnoha NPC, s nimi není spjat ádnı úkol.&nbsp; Odpovìï - 
+  Bioware jej pøed vydáním odstranili.&nbsp; Skuteènì hanebné, protoe jeho
+  quest byl vskutku unikátní - Boo byl unesen!!!&nbsp; Tato souèást byla kódována
+  a skriptována Cliffette (pøièem pouila nìkteré z pùvodních dialogù od Davida
+  Gaidera) a je úasná.&nbsp; Minsc nikdy nebyl tak... éé... roztomilı ;).&nbsp;
+  Pro tento úkol bylo vytvoøeno samostatné </a><a HREF="http://www.icelus.net/ub/readme_minsc_cut_quest.html" TARGET="_blank">
+  readme</a>. [pozn. yenn: pøeklad minulé verze tohoto readme se mi válí nìkde
+  na disku, proèe má-li o nìj nìkdo enormní zájem, napište mi, pošlu vám ho.
+  Ale popravdì øeèeno, nic zásadního se v nìm nedoètete, imho dùleité faqy z
+  nìj jsem dal i sem.]
+  <p><b>b. <a NAME="suna">navrácení vztahu mezi Sunou Seni a Valygarem</b>
+  <p>Valygar dostal opravdu poøádnì na frak, kdy byli Bioware nuceni vyøadit
+  mnoho ze svıch nápadù.&nbsp; Jeden z nejvıznamnìjších se tıkal jeho vztahu
+  se Sunou Seni.&nbsp; Ponìvad je rozpracováno mnoho Valygarovıch romancí,
+  rozhodli jsme se pøidat jeho minulou, ne souèasnou.&nbsp; Snad to pøidá tomu
+  mrzutému hranièáøi na jeho osobnosti.</a>
+  <p><b>c. <a NAME="kalah">Kalah a to, co mu bylo slíbeno, autor: Andyr</b>
+  <p>Co bylo Kalahovi slíbeno a kdo mu to slíbil?&nbsp; Jak náhle získal svou
+  moc?&nbsp; Tento mód se pokouší ukázat jednu z monıch odpovìdí.&nbsp;
+  Aby se tento úkol aktivoval, je tøeba, abys nemìl dokonèen úkol v cirkusovém
+  stanu.&nbsp; Pùvodní quest probíhá normálnì, avšak a opustíš stan, mìl by
+  pak pokraèovat novou èástí.&nbsp; Je to krátkı pøídavek s nìkolika monımi
+  závìry, které závisí na tvıch volbách.</a>
+  <p><b>d. <a NAME="bodhihunt">hra na koèku a myš: Bodhi tì loví v Èarotvrzi, autor:
+  Ghreyfain</b>
+  <p>Pravdìpodobnì ve snaze sníit obtínost BG2 byly jisté èásti odstranìny,
+  jedna z nich je i Bodhiina hrozba lovení hráèe na jeho zoufalém útìku z Èarotvrze.
+  Tato souèást obnovuje její chování a ona se tak objeví po daném èasovém
+  úseku, kterı se pohybuje v rozmezí od nìkolika hodin do dvou dnù v závislosti
+  na obtínosti a hráèovì úrovni. Zvláštní díky zaslouí <a href="http://pocketplane.net/aoe">Ghreyfain</a>
+  za napsání a zapùjèení této èásti.</a>
+  <p><b>e. <a NAME="gorje">Gorje Hilldark a rozšíøenı úkol s illithiem</b>
+  <p>Vzpomínáš si na Ungera Hilldarka, toho duergara, kterı tì navedl, kdy ses
+  pokoušel najít illithium pro chrám?&nbsp; No, jak u to bıvá, Bioware pùvodnì
+  chtìli, aby se hráè dal jinou cestou.&nbsp; Seznam se s Gorjem Hilldarkem,
+  Ungerovım bratrem, kterı je chycen --kdesi-- a má klíè k tvému problému s
+  illithiem.&nbsp; Pokud sis myslel, e Korgan je hrubián, poèkej, a potkáš tuhle
+  dvojku... [pozn. yenn: posuïte sami, jestli to platí i pro pøeklad... imho spíš ne;-)]</a>
+  <p><b>f. <a NAME="paina">úkol s Pai'Nou a Pavouèí zhoubou</b>
+  <p>Tato souèást obnovuje úkol, kterı byl v pùvodní verzi hry odstranìn
+  Bioware.&nbsp; Ten nabízí alternativní monost, jak uspokojit Pai'Nu, drowskou
+  druidku vládnoucí spoleèenstvu, která se nachází v Bodhiinì brlohu.</a>
+  <p><b>g. <a NAME="crane">navrácení U Køivého jestøába</b>
+  <p>S vıjimkou licha-ve-zdi se v hostinci U Køivého jestøába nikdy nevyplatilo
+  déle zdrovat.&nbsp; Pøesto se zdá, e Bioware mìli s tímto hostincem nìjaké
+  plány.&nbsp; Dvojice novıch gamblerù a zakonèení epizody s Aulavou a Tiirem
+  se nerealizovaly kvùli chybì ve skriptu.&nbsp; Hostinec se nyní navrátil ke
+  svému pùvodnímu pojetí.</a>
+  <p><b>h. <a NAME="vampire">navrácení setkání</b>
+  <p>Pùvodnì se pøedpokádalo, e budou pøidána dvì setkání s válèícími gildami.&nbsp;
+  V prvním vystupuje Stínovı zlodìj Arkanis Gath a ve druhém se objevuje sama
+  Bodhi.&nbsp; Pozdìjší zkoumání pøineslo dùkazy o dalších dvou setkáních.&nbsp;
+  Jedno se tıká lupièù v Chudinské ètvrti a druhé tıpkù u Stínovıch zlodìjù v
+  Docích, je-li tvá reputace pøíliš nízká.
+  <p>Tato souèást rovnì ve høe obnovuje dvì setkání s Pekelnımi psy.  Jedno se
+  odehrává v Planární kouli a druhé poblí Kultu Nevidoucího.
+  <p>A nakonec tato souèást vrací Šedorukého, tajuplnou postavu vykonávající
+  osobní krevní mstu. CHARNAME není jedinı, jeho ivot byl ovlivnìn Jonem
+  Irenicem; Šedorukı chce dosáhnout pomsty ujištìním se, e Irenicovy plány
+  se nikdy neuskuteèní, bez ohledu na to, co to mùe vyadovat...</a>
+  <p><b>i. <a NAME="artemis">Artemis Entreri v Bodhiinì brlohu</b>
+  <p>Urèitou dobu Bioware zamıšleli, e se Artemis Entreri objeví v Bodhiinì brlohu
+  (v boji v šesté kapitole), pokud poádáš Drizzta & spol. o pomoc.  Tato souèást takovı
+  scénáø vrací.  Nyní byl oddìlen jako volitelná èást, protoe nìkteøí lidé dávají
+  pøednost tomu, aby Artemis zùstal mimo hru.  Navíc existují další módy, které tento
+  scénáø obnovují.</a>
+  <p><b>j. <a NAME="xzar">opraveny "Xzarovy vıtvory"</b>
+  <p>Kdy vstoupíš do Prebekova sídla (Xzarova laboratoø), seznámíš se s nìkolika
+  skøety.  Nicménì se zdá, e pùvodnì ses jako nekromant mìl støetnout se dvìma
+  ghasty a jedním golem z masa.  Budi...  </a>
+  <p><b>k. <a NAME="minions">navrácení pekelnıch nohsledù, autor: SimDing0</b>
+  <p>Tato souèást obnovuje nìkteré aspekty závìreèného souboje s Irenicem,
+  které byly pøítomny v programu, ale nebyly pouity. To zahrnuje navrácení
+  pøirozenıch schopností jeho démonickıch nohsledù a dovoluje jeho spletenému
+  obrazu, aby fungoval správnì. Bitva se díky tomu stane trochu tìší, ale zdaleka
+  se nedostane na úroveò Vylepšeného Irenica, kterı je souèástí Tactics módu.
+  Kompatibilita s touto sekcí Tactics módu je v souèasné dobì nejistá. Zvláštní díky
+  zaslouí </a><a href="http://pocketplane.net/sim">SimDing0</a> za jeho pøispìní
+  touto souèástí.</a>
+  <p><b>l. <a NAME="gorf">oprava Gorfa Drtièe, autor: Gebhard Blucher</b>
+  <p>Gebhard Blucher: <i>"Náhradní skript pro 'Gorfa Drtièe'. Opravuje obvyklı
+  bug v minizápletce s Gorfem a Mazzy."</i> <br> Pùvodní soubor spolu s dalšími
+  Blucherovımi pracemi neleznete <a href="http://www.fortunecity.com/boozers/winelodge/79/">zde</a>.</a>
+  <p><b>m. <a NAME="items">navrácení pøedmìtù</b>
+  <p>Tato souèást obnoví nìkolik pøedmìtù, které se nikdy nedostaly do hry.&nbsp;
+  Nìkteré moná znáš z Baldur's Gate 1, ale ostatní jsou úplnì nové.</a>
+  <p><b>n. <a NAME="yoshimo">Yoshimùv pùvodní portrét</b>
+  <p>Nìkdy bìhem tvorby hry Bioware zahodili Yoshimùv pùvodní portrét a vytvoøili
+  novı - ten, kterı je ve høe nyní.  Tato souèást ti dovolí vrátit mu jeho originální podobu.
+  <br>(Pokud by ses radìji nejdøíve na portrét podíval, ne ho nainstaluješ, mùeš tak
+  uèinit</a> <a href="http://icelus.net/ub/graphics/NYOSHIMM.png" TARGET="blank">zde</a>.)</a>
+  <p><b>o. <a NAME="anomen">Anomenùv pùvodní portrét</b>
+  <p>Anomen byl další NPC, kterı mìl pøedchozí portrét odlišnı od toho ve finální
+  verzi hry.  Øíká se, e ten pùvodní byl zmìnìn, aby vypadal trochu starší - trochu
+  drsnìjší.  <br>(Pokud by ses radìji nejdøíve na portrét podíval, ne ho nainstaluješ,
+  mùeš tak uèinit </a> <a href="http://icelus.net/ub/graphics/NANOMENL.png" TARGET="blank">zde</a>.)</a>
+  <p><b>p. <a NAME="portrait">navrácení portrétù npc</b>
+  <p>Tato souèást vrací portréty rùznım NPC ve høe.  Konkrétnì jsou nyní vráceny
+  portréty tìmto postavám: Coran, Safana, Faldorn, Garrick, Xzar, Tiax, a Quayle.</a>
+  <p><b>q. <a NAME="bams">opraveny BAMy a skripty</b>
+  <p>Tato souèást obnovuje správné icony pro pøítelíèky pohádkového draka a
+  pseudo-draka a upravuje klon v Irenicovì vìzení, aby pouíval avatara Ellisime
+  (z ní byl klon naklonován).&nbsp; Navíc rùznım stvoøením ve høe byly pøiøazeny
+  chybné skripty (nebo jim nebyly pøiøezeny vùbec ádné).</a>
+  <p><b>r. <a NAME="names">opravena jména postav a ivotopisy</b>
+  <p>Tato souèást obnovuje jména rùznım postavám roztroušenım po Amnu.
+  Konkrétnì jsou obnovena tìmto tvorùm: Cvoksicht (Crazyface), Korganùv starı
+  souputník; Derrick, hranièáø; Malaaq, din; Hendron, strá Lady Delcie; Maheer,
+  kováø; Hannah, návštìvnice cirkusu; a Lellyn, Mazzyin padlı krajan.</a>
+  <p><b>s. <a NAME="dialogs">navrácení menších rozhovorù</b>
+  <p>Tato souèást obnovuje nìkteré menší dialogy.  Patøí sem divocí pùlèíci v
+  Planární kouli a Anomenùv komentáø Ajantisovy smrti.</a>
+  <p><b>t. <a NAME="powers">navrácení schopností Bhaalova potomka, autor: David Gaider</b>
+  <p>David Gaider: <i> "Toto jsou nìkteré speciální schopnosti Bhaalova potomka,
+  které mìl hráè pùvodnì rozvinout, kdy pøekonával zkoušky v kapesní sféøe, ale byly
+  odstranìny ve prospìch schopností získávanıch na vysokıch úrovních všech povolání.
+  Je rozdílná sada pro dobrá a zlé, aèkoliv mnozí hráèi zjistí, e dostávají smìs z obou.
+  Moná jedinı zápor je, e mùe bıt tìké pochopit, co nìkolik z tìchto schopností dìlá,
+  protoe není moné získat popis speciálních dovedností (Lze je nalézt v readme) </i>[pozn.
+  yenn: to je zøejmì myšleno tak, e popis se nevyskytuje nikde ve høe; z onoho readme
+  jsem ho vytáhl a pøeloil - viz níe]<i>. Pro instrukce k instalaci a odinstalaci viz
+  <a href="http://www.planetbaldursgate.com/bg2/media/files/bhaalpowers_read_me.txt">readme
+  </a>."</i> [pozn. yenn: schopnosti se samozøejmì instalují i s UB, readme je pro
+  ty, kdo chtìjí instalovat pouze je]</a>
+  <p>Popis schopností:<p><blockquote><blockquote><blockquote>Uvìdom si, e
+  o tom, jaké schopnosti získáš, rozhodují tvé odpovìdi Solar pøed dokonèením zkoušek.
+  Jsou ètyøi "dobré" a ètyøi "zlé" sady odpovìdí a tedy i schopností.<br>
+  <br>
+  (Schopnost dobrıch za 1. zkoušku)<br>
+  Hromadné léèení (Necromancie)<br>
+  Dosah: dohled sesilatele<br>
+  Trvání: permenentní<br>
+  Doba sesílání: 1<br>
+  Oblast pùsobení: okruh 9 m<br>
+  Záchrannı hod: není<br>
+  Pøi pouití této schopnosti musí Bhaalùv splozenec jasnì vidìt èleny druiny a zamíøit
+  na støed druiny. Po seslání je všem èlenùm druiny v okruhu 9 m od sesilatele
+  vyléèeno 2k8 + 2/úroveò hit bodù. Vyléèeny jsou i další nepøíjemné stavy: únava, jed,
+  nemoc, slepota a hluchota.<br>
+  <br>
+  (Schopnost zlıch za 1. zkoušku)<br>
+  Regenerace (Necromancie)<br>
+  Úroveò: 7<br>
+  Sféra: Léèení<br>
+  Dosah: dotyk<br>
+  Trvání: 1 kolo/2 úrovnì<br>
+  Doba sesílání: 7<br>
+  Oblast pùsobení: dotèenı tvor<br>
+  Záchrannı hod: není<br>
+  Toto mocné kouzlo umoòuje knìzi propùjèit jednomu tvorovi schopnost regenerace.
+  Ta vyléèí jakákoli zranìní a obnoví i ztracené konèetiny. Stvoøení získá 3 hit body
+  za sekundu. Úèinek trvá 1 kolo za kadé dvì úrovnì sesilatele, nebo do odèarování.
+  Napøíklad knìz na 14. úrovni zregeneruje 18 hit bodù za 7 kol.<br>
+  <br>
+  (Schopnost dobrıch za 2. zkoušku)<br>
+  Posílení svatou mocí (Invokace)<br>
+  Dosah: 0<br>
+  Trvání: 1 tah<br>
+  Doba sesílání: 1<br>
+  Oblast pùsobení: sesilatel<br>
+  Záchrannı hod: není<br>
+  Bhaalùv splozenec povolá moc své krve, aby mu na krátkou dobu poskytla sílu. Pøitom
+  se jeho síla, odolnost a obratnost zvıší o 1 bod za kadé 3 úrovnì sesilatele. Sesilatel
+  na 3. úrovni zvıší své statistiky o 1, zatímco sesilatel na 12. úrovni o 4.<br>
+  <br>
+  (Schopnost zlıch za 2. zkoušku)<br>
+  Temná nákaza (Necromancie)<br>
+  Dosah: 20 stop<br>
+  Trvání: 1 tah<br>
+  Doba sesílání: 1<br>
+  Oblast pùsobení: 1 tvor<br>
+  Záchrannı hod: zruší<br>
+  Tímto kouzlem mùe Bhaalùv splozenec vypustit na sbou obì nákazu svého zlého
+  otce, která otráví ty, kdo neuspìjí v záchranném hodu proti smrti (na ten je postih
+  - viz níe). Úèinek závisí na sesilatelovì úrovni:<br>
+  7. - 9. úroveò:  2k8  +  2/kolo, zpomalení na 12 sec, postih na záchranu -2<br>
+  10. - 12. úroveò:  3k8  + 3/kolo, zpomalení na 12 sec, postih na záchranu -2<br>
+  13. - 14. úroveò:  4k8  +  4/kolo, zpomalení na 12 sec, postih na záchranu -2<br>
+  15. - 16. úroveò:  6k8  +  5/kolo, zpomalení na 24 sec, postih na záchranu -2<br>
+  17. - 21. úroveò:  8k8  +  6/kolo, zpomalení na 24 sec, postih na záchranu -4<br>
+  25. úroveò: 8k8 + 6/kolo, zpomalení na 36 sec, postih na záchranu -4, ovlivní skupinu cílù<br>
+  <br>
+  (Schopnost dobrıch za 3. zkoušku)<br>
+  Permanentní Ochrana pøed negativní sférou, + 5% k magické odolnosti<br>
+  <br>
+  (Schopnost zlıch za 3. zkoušku)<br>
+  Vraedné ruce (Necromancie)<br>
+  Dosah: sesilatel<br>
+  Trvání: 1 kolo/5 úrovní<br>
+  Doba sesílání: 1<br>
+  Záchrannı hod: není<br>
+  Bhaalùv splozenec, kterı povolá tuto moc, okamitì zpùsobí zvláštní zranìní kadım
+  zásahem cíle jakoukoli zbraní nablízko (a u to bude pìst nebo meè), jeho temná
+  energie se pøenese skrze zbraò a zasáhne obì... pøitom vstøebá ono zranìní v podobì
+  vlastního vyléèení.<br>
+  Úèinky se liší podle úrovnì sesilatele:<br>
+  10.: 2 kola, 4 hb zranìní navíc, 4 hb vyléèeno<br>
+  15.: 3 kola, 6 hb zranìní navíc, 6 hb vyléèeno<br>
+  20.: 4 kola, 8 hb zranìní navíc, 8 hb vyléèeno<br>
+  25.: 5 kol, 10 hb zranìní navíc, 10 hb vyléèeno<br>
+  30.: 6 kol, 12 hb zranìní navíc, 12 hb vyléèeno<br>
+  <br>
+  (Schonost dobrıch za 4. zkoušku)<br>
+  Vzkøíšení (Necromancie)<br>
+  Dosah: dotyk<br>
+  Trvání: permanentní<br>
+  Doba sesílání: 1<br>
+  Oblast pùsobení: dotèenı tvor<br>
+  Záchrannı hod: není<br>
+  Stejnì jako kouzlo 5. úrovnì Oiv mrtvého vrátí Vzkøíšení postavì ivot. Avšak
+  Vzkøíšení jí také úplnì vyléèí, take je znovu pøipravena na dobrodrunı ivot.<br>
+  <br>
+  (Schopnost zlıch za 4. zkoušku)<br>
+  Permanentní 25% odolnost na fyzická zranìní
+  (seèná/bodná/drtivá/støelná)</blockquote></blockquote></blockquote>
+  <p><b>u. <a NAME="tobitem">rozšíøené popisy pøedmìtù z Throne of Bhaal</b>
+  <p>Kvùli &quot;omezení poètu slov&quot; nemohli Bioware zahrnout úplné popisy
+  pro mnoho pøedmìtù, které se objevují v Throne of Bhaal.&nbsp; Tato èást se
+  pokouší ono pøehlédnutí napravit.</a>
+  <p><b>v. <a NAME="tobminor">menší obnovy v Throne of Bhaal</b>
+  <p>Jak pracujeme, obèas objevíme drobné chyby v Throne of Bhaal, které jsme
+  schopni opravit.&nbsp; Èasem budou shrnuty v této èásti.&nbsp; V souèasné dobì
+  je jedinou opravou pøehlédnutí v Sarevokovì skriptování, které mu zabránilo
+  pouívat vhodnou sadu zvukù.</a>
+  <p><b>w. <a NAME="justifier">kit Ochránce, autor: Andyr</b>
+  <p>Kit Ochránce byl jeden ze dvou hranièáøskıch kitù, které se nedostali do finálního
+  vydání hry.&nbsp; Díky </a> <a href="mailto:andyr@gibberlings3.net">Andyrovi</a>,
+  je toto opomenutí nyní napraveno.<p>Popis kitu
+  Ochránce:<p><blockquote><blockquote><blockquote>OCHRÁNCE: Nìkteré vıpravy
+  jsou jsou natolik nároèné a nìkteøí nepøátelé natolik nebezpeèní, e vyadují pozornost
+  vysoce trénovaného odborníka, jeho bojové schopnosti podstatnì pøevyšují schopnosti
+  bìného hranièáøe. Seznamte se s Ochráncem, mistrem taktiky, jeho váleèné instinkty,
+  bojová mnohostrannost a nervy z oceli jej øadí ke špièèe elitních váleèníkù.<br>
+  <br>
+  Pro odhodlaného Ochránce není ádná práce pøíliš obtíná, ádnı nepøítel pøíliš hrozivı.
+  V boji tìí ze své dovednosti se zbranìmi, avšak drobné nedostatky mají v magickém
+  odvìtví, protoe jeho tréninku vìnují ménì èasu.<br>
+  <br>
+  Musí bıt zákonnì dobrého pøesvìdèení.<br>
+  <br>
+  Vıhody:<br>
+  -  +10% ke schopnosti plíení<br>
+  -  +1 k rychlosti a THAC0 kadıch 10 úrovní<br>
+  <br>
+  Nevıhody:<br>
+  -  Nemají pøístup ke schopnosti Zmámení zvíøete<br>
+  -  Schopnost kouzlení je omezena na:<br>
+  Vyleè lehká zranìní a Brnìní víry jednou dennì od 8. úrovnì<br>
+  Štìstí a Odstraò strach jednou dennì od 10. úrovnì<br>
+  Posílení svatou mocí jednou dennì od 12. úrovnì</blockquote></blockquote></blockquote>
+  <p><b>x. <a NAME="feralan">kit Divı èlovìk, autor: Andyr</b>
+  <p>Druhı hranièáøskı kit, kterı byl ve høe vynechán, kit Divı èlovìk si nyní mùe
+  vychutnat kadı díky tvrdé práci <a href="mailto:andyr@gibberlings3.net">Andyra</a>.<p>
+  Popis kitu Divého èlovìka:<p><blockquote><blockquote><blockquote>DIVİ ÈLOVÌK:
+  Co se stane s dìtmi, které se toulají divoèinou a nikdy nejsou nalezeny? Nebo hùøe, s
+  tìmi, které jsou sem odloeny? Mnoho jich podlehne jejím nebezpeèím, ale o nìkolik
+  šastnıch se postarají zvíøata a ony jsou vychovány jako èlenové lví nebo vlèí smeèky.
+  Oddìleny od civilizace postupnì pøevezmou povahové rysy tvorù, které je adoptovaly,
+  co v nich formuje jistı druh svornosti s duchem divoèiny. Postupem èasu se stávají
+  divımi lidmi, stvoøeními, v nich se snoubí zuøivost zvíøat s rozumem èlovìka.<br>
+  <br>
+  Kvùli své divoké povaze nemohou bıt Diví lidé zákonného pøesvìdèení. Jakoto hranièáøi
+  jsou omezeni na dobrá pøesvìdèení.<br>
+  <br>
+  Vıhody:<br>
+  -  +10% ke schopnosti plíení<br>
+  -  Získává +1 k OÈ na první úrovni a pozdìji bonus +1 k OÈ kadou 5. úroveò<br>
+  -  Jednou dennì za kadıch 10 úrovní mùe propadnout Divošské zuøivosti. Stav
+  zuøivosti trvá 60 sekund a poskytuje bonus +2 k zásahu, zranìní a OÈ, imunitu na
+  zmámení, zadrení, strach,   labyrint, uvìznìní, omráèení a spánek. Rovnì získává
+  15 doèasnıch hit bodù<br>
+  -  Jednou dennì mùe seslat Volání divoèiny. To povolá zvíøecího spoleèníka, kterı
+  bude za sesilatele bojovat 3 kola + 1 kolo za úroveò. Na vyšších úrovních jsou povolávána
+  mocnìjší stvoøení<br>
+  <br>
+  Nevıhody:<br>
+  -  Po vypršení Divošské zuøivosti nemùe popadnout dech. V tu dobu má postih -2 na
+  zásah, zranìní a OÈ<br>
+  -  Je omezen na jeden dovednostní bod v meèi bastardu, dlouhém meèi, krátkém meèi,
+  obouruèním meèi, katanì, scimitaru, halapartnì, cepu a kuši<br>
+  -  Nemùe nosit ádnou zbroj, ani pouívat velké štíty<br>
+  -  Maximální Charisma je o 2 body niší ne u bìnıch èlenù
+  rasy</blockquote></blockquote></blockquote><p>&nbsp;
+  </blockquote>
+  <p><a HREF="#top">nahoru</a>
+  <p><a NAME="install"><b>iii. instalace</b>
+  <ol>
+    <li TYPE="i">Poklepej na soubor unfinishedbusinessXX.exe [XX = èíslo verze;-)] a
+    nainstaluj do adresáøe s BG2
+    <li TYPE="i">A instalace programu skonèí, spustí WeiDU instalátor.  Jednoduše postupuj
+    podle pokynù na obrazovce v novém DOSovském oknì.
+  </ol>
+  <p><b><i>poznámka k instalaci na MacOSX</b></i>
+	<blockquote><blockquote>Pokud u jsi døíve tento mód nainstaloval, <b>musíš</b>
+  jej odinstalovat pøed instalací nové verze.  Pro nainstalování jednoduše vybal obsah
+  módu do svého adresáøe s BG2.  Pokud se vybalí v poøádku, mìl bys mít v adresáøi BG2
+  adresáø "ub" a soubory "setup-ub.tp2", "setup-ub" a "setup-ub.command". Pro nainstalování
+  poklepej na "setup-ub.command" a postupuj podle pokynù na obrazovce.</blockquote>
+  </blockquote>
+  <p>Aèkoli byl tento mód vytvoøen pouitím WeiDU standartu a *mìl* by bıt kompatibilní
+  se všemi ostatními WeiDU módy, vdy existuje monost konfliktù.&nbsp; Doporuèujeme
+  instalovat tento mód PO oficiálních patchech, Baldurdash a TeamBG módech.&nbsp;
+  Narazíš-li na nìjaké problémy s instalací, pošli, prosím tì, soubor SETUP-UB.DEBUG
+  na </a><a HREF="mailto:icelus@pocketplane.net">icelus@pocketplane.net</a>.
+  <p><a HREF="#top">nahoru</a>
+  <p><a NAME="uninstall"><b>iv. odinstalování</b>
+  <p>Odinstalování je jednoduché. Poklepej na setup-ub.exe a vkládej dané pøíkazy pro
+  odinstalaci (Uninstallation).<br>
+  Následnì mùeš smazat následující soubory:
+  <ul>
+    <li>setup-ub.exe
+    <li>setup-ub.tp2
+    <li>setup-ub.debug
+    <li>a adresáø &quot;ub&quot;
+  </ul>
+  <p></a><a HREF="#top">nahoru</a>
+  <p><a NAME="compat"><b>v. kompatibilita</b>
+  <p>Aè jsme se ze všech sil snaili udìlat Unfinished Business kompatibilní s tolika módy,
+  kolik jen bylo moné, vdy je šance, e se objeví neshody. Níe jsou dosud objevené:
+  <ol>
+    <li TYPE="1&quot;">24. a starší verze Weimerova Ease of Use módu zpùsobí konflikty,
+  pokud nainstaluješ jeho bonusové obchodníky *po* nainstalování Unfinished Business
+    <li TYPE="1&quot;">Chceš-li pouít 16. èi starší verzi Weimerova Tactics módu, ujisti
+  se, abys ho nainstaloval *pøed* Unfinished Business. Setkání ve mìstì a v divoèinì z
+  Tactics se nepohodnou s nìkterımi souèástmi UB
+    <li TYPE="1&quot;">Podrobnìjší seznam toho, co je a co není kompatibilní s Unfinished
+  Business, je k vidìní
+    </a><a href="http://forums.pocketplane.net/index.php?topic=33.0">zde</a>
+  </ol>
+  <p></a><a HREF="#top">nahoru</a>
+  <p><a NAME="faqs"><b>vi. èkd [faq]</b>
+  <p>[pozn. yenn: jsou pøeloeny jen imho podstatné a pøidány nìkteré faq z readme k Minscovu questu]
+  <p>Q: Co potøebuji pro pouití tohoto módu?<br>
+  A: Unfinished Business vyaduje Baldur's Gate II: Shadows of Amn s nejnovìjšími
+  Bioware/Interplay patchy. Rovnì silnì doporuèujeme instalaci Baldurdash Fixpacku.
+  <p>Q: Kdo stojí za vıvojem UB? [pozn. yenn: je podstatné vìdìt, komu posílat
+  finanènì vyjádøené díky, ne?:-)]<br>
+  A: Tento mód jsem zaèal já, Erik Manning (a.k.a. icelus). Krátce poté, co jsem oznámil
+  zaèátek prací na nìm, pøipojil se k tımu Guillaume LeBlanc (a.k.a. Barren Fischa),
+  jak sám prohlásil &quot;Bláznivı vızkumník BG2&quot;. Následujíc svou touhu po
+  napsání Minscova úkolu, pøipojila se také Wendy Yung (a.k.a. Cliffette), pøidávající
+  své impozantní øeènické schopnosti. Je tøeba zmínit také mnoho beta testerù a èlenù
+  Forgotten Wars fóra, kteøí dali tomuto projektu hodnì inspirace, informací a pozornosti.
+  <p>---------------------------------------------------------------<br><br>
+  <p>z readme k Minscovu questu<br><br>
+  <p>Q: Jak se k úkolu dostanu?<br>
+  A: Abys tento úkol spustil, bì do Dokù, a a ve høe ubìhnou dva dny, a pokud u
+  úkol nezaèal, vstup do nich znovu. Poté odejdi. Minsc zjistí, e Boo je nezvìstnı. Vìz,
+  e úkol musíš zaèít PØED 4. kapitolou (tzn. pøedtím, ne odjedeš na Brynnlaw).
+  <p>Q: Minsc neustále opouští mou druinu - tvrdí, e mi to trvá pøíliš dlouho. Grr.<br>
+  A: Stıská se mu po Boovi. Buï laskavı. Jinak, chceš-li úkol pozdret, propus Minsca
+  PØEDTÍM, ne ztratí Booa. Je-li u pøíliš pozdì a Boo je ten tam, potuluj se v Docích.
+  Tam si stìovat nebude.
+  <p>Q: Která NPC bych mìl pro tento úkol najmout?<br>
+  A: Kromì Minsca lze doporuèit Aerie, Nalii a Edwina. Obzvláštì Edwina. Jsi-li opravdovı
+  nadšenec, tak Edwinu :). Pokud chceš vidìt špièkování mezi Minscem a Edwinou, potuluj
+  se v Docích poté, co Boo zmizí... Dokud jsi v prùbìhu úkolu v Docích, Minsc neopustí
+  tvou druinu. [pozn. yenn: z kombinace Minsc + Aerie + Jan taky vzejde hodnì dobrı
+  rozhovor]
+  <p>---------------------------------------------------------------<br><br>
+  <p>Q: Where did you find the information on these cut quests?<br>
+  A: Most of our information came from scouring the 'net for any post made by
+  David Gaider or other members of the Bioware BG2 design team. Some of the
+  posts were sketchy, and we had to fill in the details, but hopefully our
+  efforts are not that far off from the vision of the designers. The remainder
+  of the information came from delving deep in the dialog and script files for
+  the game. There are many remnants of creatures and conversations that hint at
+  things that were planned, but never implemented.
+  <p>Q: Will this MOD add new quests to the Throne of Bhaal expansion?<br>
+  A: Currently, no new content has been added to the Throne of Bhaal (ToB)
+  portion of the game. There are several quests that were cut from ToB, and
+  perhaps will be developed for future versions of the MOD. Details about ToB
+  cut components are a bit harder to find, so if you know of any, please post
+  the details at the forum.
+  <p>Q: Why did you decide to develop this MOD?<br>
+  A: The inspiration behind this MOD's development springs from my borderline
+  obsessive-compulsive desire for things to be complete... heh. Seriously,
+  though, I was a bit frustrated after playing the game and seeing so many loose
+  ends, as well as reading posts from the internet describing things that the
+  developers had to cut due to time restraint. Coupled with my desire to learn
+  how to write code, my inspiration turned into action, and the MOD was born.
+  <p>Q: What items have been restored with this mod?<br>
+  A: There were actually less than we initially believed, but as of the current
+  release, the restored items are as follows:
+  <ul>
+    <li>Boots of the West
+    <li>Shazzellim, Scimitar +1
+    <li>Bala's Axe
+    <li>Taragarth, Bastard Sword +1
+    <li>Wolfskin Bag
+    <li>Websack Wand
+    <li>Wraithform spell
+  </ul>
+  <p></a><a HREF="#top">nahoru</a>
+  <p><a NAME="spoilers"><b>vii. kazihøi [spoilery]</b></a>
+  <p>[pozn. yenn: èesk(oslovensk)ı èlovìk je chytrı (proto vy tuto sekci vùbec nepotøebujete) a línı (proto jsem ji já nepøeloil:-))]
+  <p>Not many at the moment... Minsc-specific spoilers are found in the packaged
+  Minsc file.
+  <p>Q: Why isn't Valygar in his cabin?<br>
+  A: Valygar will only appear in his cabin if you have followed one of the two paths to find him. Seek out Suna Seni or Llarsh the tax collector.
+  <p>Q: Where is Unger's lost brother, Gorje, hiding?<br>
+  A: Lost in Shadow, I'm afraid. Perhaps the Sun will light your way...
+  <p>Q: No, really... where is Gorje?!?<br>
+  A: Try the Temple of Amaunator.
+  <p>Q: Where can I find the Restored Items?<br>
+  A: We tried to place the items in places that made at least a little sense.
+  None of them should be too difficult to find. Nevertheless, here is the list:
+  <ul>
+    <li>Boots of the West: Given to Derrick, the ranger outside Valygar's Cabin
+    <li>Shazzellim, Scimitar +1: In the home of Prebek-a notable Zhent-in the
+      Docks District
+    <li>Bala's Axe: In the engine room of the Planar Sphere
+    <li>Taragarth, Bastard Sword +1: On Greyhand's corpse
+    <li>Wolfskin Bag: Given to the Beastmaster of the Copper Coronet
+    <li>Websack Wand: Given as an additional reward for helping Pai'Na (and not
+      by killing her)
+    <li>Wraithform spell: In stock at the Pen and Parchment store in the
+      Adventurer's Mart
+  </ul>
+  <p><a HREF="#top">nahoru</a>
+  <p><b><a NAME="legal">viii. legal matters</a></b><a NAME="legal">
+  <p>Unfinished Business is copyright © 2003, 2004 by Erik Manning (aka
+  Icelus), Guillaume Leblanc (aka Barren Fischa), and Wendy Yung (aka Cliffette).
+  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: ©
+  2000, 2001 Bioware Corp. All Rights Reserved.
+  <p>Unfinished Business is not developed, supported, or endorsed by BioWare or
+  Interplay/Black Isle.<br>
+  All images and contents of this mod are copyright BioWare, Interplay/Black
+  Isle or Wizards of the Coast.
+  <p>REDISTRIBUTION NOTE: Unfinished Business was created to be freely enjoyed
+  by all Baldur's Gate II: Shadows of Amn gamers. Unfinished Business, however,
+  may not be sold, published, compiled or redistributed in any form without the
+  consent of its authors.</a>
+  <p>[pozn. yenn: zkrácenì øeèeno: UB jste nevytvoøili, tak se podle toho chovejte:-)]
+  <p><a HREF="#top">nahoru</a>
+  <p><a NAME="credit"><b>ix. credits</b></a>
+  <p>Many people are to be thanked for their support of this mod.
+  <p>First and foremost, we'd like to thank Bioware and Black Isle for supplying
+  us with such an enjoyble PC game. We would also like to thank the Infinity
+  Engine community as a whole for their ongoing dedication and support of the
+  Baldur's Gate series.
+  <p>On a more personal level, we would like to thank the following individuals
+  for their assistance with this MOD:
+  <p>&nbsp;
+  <ul>
+    <li TYPE="-">Special thanks goes out to Andyr, Ghreyfain, and Gebhard Blucher for their
+      lending us the use of their Kalah, Bodhi Hunt, and Gorf the Squisher Fix components, respectively
+    <li TYPE="-">We'd also like to thank David Gaider for giving us permission to include his Restored Bhaalspawn Powers
+      mini-mod
+    <li TYPE="-">VigaHrolf for his superb ability to write for those dour little
+      buggers, the dwarves
+    <li TYPE="-">NiGHTMARE, Longinus, KL_Poulsen, and many others
+      for their help in uncovering more mysteries for us to solve ;)
+    <li TYPE="-">jcompton, japheth, SimDing0, Ghreyfain, Kismet, hlidskialf, Kish, Andyr, Seifer, Grim Squeaker, MaxTeamBG, Idobek, Bons, Rassadihn, CamDawg, and many others for their patience and assistance with our technical problems
+    <li TYPE="-">Westley Weimer, TeamBG, the DragonLance TC team, Jon Olav
+      Hauglid, and Dmitry Jemerov for the invaluable tools they have
+      developed for the modding community
+    <li TYPE="-">Karsten Soze for lending us the use of Suna Seni's portrait
+    <li TYPE="-">CamDawg, Delvar, Alarielle, and rreinier for their help in beta testing
+    <li TYPE="-">Jason Compton and the Pocket Plane Group for hosting the mod and giving us a forum
+    <li TYPE="-">The witty and knowledgeable posters at the Pocket Plane Group, The Gibberlings Three,
+      and Forgotten Wars Studios for their inspiration
+  </ul>
+  <p>Below are links to community-related sites:
+  <blockquote>
+    <table WIDTH="100%">
+      <tr>
+        <td WIDTH="50%"><a HREF="http://www.baldurdash.org/" TARGET="_blank">http://www.baldurdash.org/</a></td>
+        <td>Baldurdash</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.pocketplane.net">http://www.pocketplane.net/</a></td>
+        <td>The Pocket Plane Group</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://www.gibberlings3.net" TARGET="_blank&quot;">http://www.gibberlings3.net/</a></td>
+        <td>The Gibberlings Three</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://www.forgottenwars.net" TARGET="_blank&quot;">http://www.forgottenwars.net/</a></td>
+        <td>Forgotten Wars Studios</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://www.teambg.com" TARGET="_blank">http://www.teambg.net/</a></td>
+        <td>TeamBG</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://chosenofmystra.db-forge.com/" TARGET="_blank">http://chosenofmystra.db-forge.com/</a></td>
+        <td>The Chosen of Mystra</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://forums.bioware.com/" TARGET="_blank">http://forums.bioware.com/</a></td>
+        <td>Bioware Forums</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://www.ironworksforum.com/" TARGET="_blank">http://www.ironworksforum.com/</a></td>
+        <td>Ironworks Forums</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://www.karwal.dk/portraitportal/" TARGET="_blank">http://www.karwal.dk/portraitportal/</a></td>
+        <td>The Portrait Portal</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://www.idi.ntnu.no/~joh/ni" TARGET="_blank">http://www.idi.ntnu.no/~joh/ni/</a></td>
+        <td>Near Infinity</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://www.WeiDU.org/" TARGET="_blank">http://www.WeiDU.org/</a></td>
+        <td>WeiDU</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://www.dragonlancetc.com/forums/index.php?board=9" TARGET="blank">http://www.dragonlancetc.com/forums/index.php?board=9</a></td>
+        <td>DLTCEP</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://infexp.sourceforge.net/" TARGET="_blank">http://infexp.sourceforge.net/</a></td>
+        <td>Infinity Explorer</td>
+      </tr>
+      <tr>
+        <td><a HREF="http://ire.mainecoon.net/index.php" TARGET="_blank">http://ire.mainecoon.net/index.php</a></td>
+        <td>Balduran's Adventurers' Spa & Grill (makers of WeiDU for Mac OS X)</td>
+      </tr>
+    </table>
+  </blockquote>
+  <p><a HREF="#top">nahoru</a>
+  <p><b><a NAME="version">x. version history</a></b>
+  <p>Pro popis všech verzí UB viz anglické readme.</p>
+  <p><a HREF="#top">nahoru</a>
+  <p>&nbsp;
+</div>
+
+</body>
+
+</html>

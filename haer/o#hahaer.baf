@@ -1,0 +1,20 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+Wait(1)
+AddJournalEntry(@1301,QUEST)
+ActionOverride("HaerDalis",DropInventory())
+ActionOverride("Haerdalis",ChangeAIScript("",DEFAULT))
+ActionOverride("Haerdalis",SetDialog("haerda"))
+ActionOverride("Haerdalis",LeaveParty())
+ActionOverride("Haerdalis",MoveGlobal("AR1005",Myself,[1236.434]))
+SetGlobal("O#UBHaerDalisArrested","GLOBAL",2)
+SetGlobalTimer("O#UBHaerDalisExecuteTimer","GLOBAL",THREE_DAYS)
+ActionOverride("O#HALIE1",DestroySelf())
+ActionOverride("O#HALIE2",DestroySelf())
+ActionOverride("O#HALIEU",DestroySelf())
+Wait(1)
+EndCutSceneMode()
+END

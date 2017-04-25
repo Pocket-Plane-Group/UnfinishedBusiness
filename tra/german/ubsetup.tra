@@ -1,0 +1,890 @@
+@0    = ~Boo's Entführung von Cliffette~
+@1    = ~Billy~ 
+@2    = ~Delag~ 
+@3    = ~Eforf~ 
+@4    = ~Sten~ 
+@5    = ~Vivick~ 
+@6    = ~Smethy~ 
+@7    = ~Eleanya~ 
+@8    = ~Verhüllter Magier~ 
+@9    = ~De'Lyl-Wache~ 
+@10   = ~Kleiner Boo~ 
+@11   = ~Kleinen Boo herbeirufen~ 
+@12   = ~ ~ 
+@13   = ~"Boo"~ 
+@14   = ~Die ist ein kuscheliger kleiner Hamster. Während Minsk glaubt, dass dies der Miniaturriesenweltraumhamster Boo ist, wisst Ihr, dass es nur ein Boo-Ersatz ist, von Euch auf teuflische Weise in Minsks Tasche geschmuggelt.~ 
+@15   = ~Boo's Reste.~ 
+@16   = ~Es gibt hier nichts von Interesse. Ihr findet nur die Reste von Boo's letztem Mahl.~ 
+@17   = ~Boo~ 
+@18   = ~Boo ist ein kuscheliger kleiner Hamster.  Während Minsk glaubt, dass Boo ein Miniaturriesenweltraumhamster ist, seid Ihr Euch ziemlich sicher, dass das winzige Nagetier nur ein normaler Hamster ist. 
+
+Eine Nebenwirkung der kürzlichen Entführung Boos ist es, dass er jetzt auf magische Weise wasserresistent bis zu 50 Fuß ist.~ 
+@19   = ~Habt Ihr Euren Tierbegleiter verloren, oder seid Ihr Eures Vertrauten einfach nur überdrüssig?  Kommt zu "Smethy's Hochwertige Haustiere"!  (Werbeanzeige autorisiert durch Aljaf den Wahnsinnig Originellen.)~ 
+@20   = ~Die Suna Seni/Valygar-Beziehung~ 
+@21   = ~Suna Seni~ 
+@22   = ~Maharadscha~ 
+@23   = ~Arbanes Schwert +3~ 
+@24   = ~Arbanes Schwert der Geschicklichkeit 
+Dies ist nur eines von zahlreichen Schwertern, die den Namen des Magiers tragen, der als erster herausfand, wie man eine Klinge auf diese Art und Weise verzaubern kann. Diese Waffe hier wurde lange Zeit vom Gesetzlosen Garno geführt und bereitete dem Leben von zahlreichen Klerikern ein Ende. Garno wurde zum Gesetzlosen und Götterhasser, als seine Familie von Klerikern Loviatars auf dem Scheiterhaufen verbrannt wurde. Er verbrachte den Rest seines Lebens damit, sich zu rächen. Trotz seines großen Hasses gegen jeden, der ein Anhänger der Götter war, wird spekuliert, dass ihm diese Waffe durch die Taten eines Gottes des Chaos zufiel. Diesem Gott gefiel offenbar die Zerstörung und das Chaos, das der junge Mann anrichtete 
+
+SPEZIFISCHE EIGENSCHAFTEN: 
+
+Besondere Fähigkeiten: Der Träger ist gegen "Personen festhalten" immun und kann man einmal täglich Hast einsetzen (12 Sekunden lang). 
+ETW0: -3 
+Schaden: 1W6+3  
+Gewicht: 2 
+Initiativfaktor: 1 
+Waffenfertigkeit: Kurzschwert 
+Waffentyp: Einhändig 
+Mindeststärke: 5
+Kann nicht verwendet werden von: 
+Druiden
+Klerikern
+Magiern
+Tiermeistern~ 
+@25   = ~"Katz und Maus" (Bodhi jagt euch durch die Zauberfeste) von Ghreyfain~ 
+@26   = ~Gorje Dunkelhügel und die erweiterte Illithium-Quest~ 
+@27   = ~Die Pai'Na/Spinnenfluch-Quest~ 
+@28   = ~Wiederhergestellter "Krummer Kranich"~
+@29   = ~Wiederherstellung: Zufallsbegegnungen~
+@30   = ~Wiederherstellung: Gegenstände~
+@31   = ~Wolfpelztasche~
+@32   = ~Die raue Tasche wurde aus dem Fell eines großen Wolfes geschaffen. In ihr könnt ihr einige Sachen verstauen, die ihr auf euren Reisen gefunden habt. 
+
+SPEZIFISCHE EIGENSCHAFTEN: 
+
+Kapazität: 10 Gegenstände 
+Gewicht: 5~ 
+@33   = ~Krummsäbel +1, Shazzellim
+Dieser Krummsäbel ist von recht schlechter Qualität, aber hinter seinem unscheinbarem Äußeren verbirgt sich eine große, böse Macht. Shazzellim wurde nur zu dem Zweck gefertigt, Harfner zu töten, und ist für diese Aufgabe bestens geeignet. Wird ein Barde von dieser Klinge getroffen, muss er einen Rettungswurf gegen Zauber bestehen oder sterben. Der Krummsäbel wurde von den Roten Magiern von Tay angefertigt und verfügt außerdem über die Fähigkeit Wortloses Zaubern. Deswegen wird er oft an Kriegermagier in den Diensten der Roten Magier vergeben. Es erübrigt sich fast zu sagen, dass man sich als Träger dieser Waffe bei den Harfnern nicht gerade beliebt macht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: er Träger verfügt über die Fähigkeit "Wortloses Zaubern". Wird ein Barde mit dem Krummsäbel getroffen, muss er einen Rettungswurf -4 gegen Zauber bestehen oder sterben.
+ETW0: -1
+Schaden: 1W8+1 (Klingenwaffe)
+Gewicht: 3
+Initiativefaktor: 4
+Waffenfertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: Einhändig
+Kann nicht verwendet werden von:
+Klerikern
+Magiern
+Dieben
+Tiermeistern
+Gut gesinnten Charakteren~
+
+@34   = ~Wenn dieser Stab benutzt wird, werden Gegner von starken Fäden festgehalten, die wie Spinnfäden, aber viel stärker und länger sind.  Wesen, die in ihnen gefangen sind oder sie einfach nur berührt haben, bleiben an den klebrigen Fäden hängen.  Jeder im Gebiet, in dem der Zauber ausgesprochen wurde, muss einen Rettungswurf -5 gegen Zauber bestehen. Wenn der Wurf erfolgreich war, ist das Wesen frei und kann das Gebiet verlassen. Wenn er versagt, ist das Wesen in den Spinnfäden gefangen und kann sich nicht bewegen. 
+In jeder Runde, in der das Wesen in den Spinnfäden gefangen ist, muss es einen Rettungswurf bestehen, oder es kann sich weiterhin nicht bewegen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Effekt:  Hält das Ziel fest, bis ein Rettungswurf -5 gegen Zauber gelungen ist. 
+Reichweite:  60 Fuß
+Gebiet des Effektes: Besonders
+Rettungswurf: Besonders
+Dauer:  1 Runde 
+Benutzbar von: 
+Zauberer
+Barde~
+ 
+@35   = ~Verschiedene Änderungen~
+@36   = ~Malaaq~
+@37   = ~Hendron~
+@38   = ~Lellyn~
+@39   = ~Spinnenfluch
+Das einstmals mächtige Schwert Spinnenfluch liegt jetzt zerbrochen in Euren Händen. Nachdem die städtischen Arbeiter es zweckentfremdet hatten, ist es jetzt nur noch für diejenige Person von Wert, die nach ihm sucht - Pai'Na.~
+@40   = ~Lampe reiben~
+@41   = ~Dschinnenlampe~
+@42   = ~Dies sieht wie eine kleine gewöhnliche Bronzeflasche aus, wie sie für Öl benutzt werden.
+
+Das Mädchen Myara glaubt, dass es in Wirklichkeit eine magische Lampe ist, welche das Geheimnis zu Kalahs Macht birgt. Allerdings scheint es nicht auszureichen, an ihr zu reiben...~
+@43   = ~Dies sieht wie eine kleine gewöhnliche Bronzeflasche aus, wie sie für Öl benutzt werden.
+
+Ihr habt erfahren, dass dies tatsächlich eine magische Flasche ist, die einen mächtigen Dschinn beherbergt, der, wenn Ihr ihn ruft, alles tut, was Ihr von ihm verlangt. Nun, da Ihr das Befehlwort vom Rakshasa Jafir, der die Lampe an Kalah verkauft hatte, bekommen habt, solltet ihr in der Lage sein, den Dschinn zu rufen.
+
+Legt die Lampe in den Quickslot und klickt sie an, um den Dschinn zu rufen.~
+@44   = ~Myara~
+@45   = ~Jafir~
+@46   = ~Kalahs Geist~
+@47   = ~Kalah und was ihm versprochen wurde~
+@48   = ~Artemis Entreri in Bodhis Lager~
+@49   = ~Wiederherstellung von NPC-Porträts~
+@50   = ~Korrigierte BAMs~
+@51   = ~Wiederhergestellte Kämpfe mit Höllenhunden~
+@52   = ~Korrigierte "Schöpfungen" Xzars~
+@53   = ~Korrigierte Namen und Biographien der Charaktere~
+@54   = ~Wiederhergestellte kleinere Dialoge~
+@55   = ~Die Begegnung mit Grauhand~
+@56   = ~Grauhand~
+@57   = ~Neckeith der Ausrufer~
+@58   = ~Schattendieb-Assassine~
+@59   = ~Schattendieb-Bogenschütze~
+@60   = ~Schattendieb-Straßenräuber~
+@61   = ~Schattendieb-Schläger~
+@62   = ~Schattendieb-Wache~
+@63   = ~Schattendieb-Inquisitor~
+@64   = ~Schattendieb-Kampfmagier~
+@65   = ~Amon von der Purpurnen Bruderschaft~
+@66   = ~Wiederhergestellte Höllenkreaturen, von SimDing0~
+@67   = ~Imoen Cartesen~
+@68   = ~Wiederhergestellte Bhaalbrut-Kräfte, von David Gaider~
+@69   = ~Für diese Komponente wird die Erweiterung Thron des Bhaal benötigt.~
+@70   = ~Yoshimos ursprüngliches Porträt~
+@71   = ~Fix für Gorf den Quetscher, von Gebhard Blucher~
+@72   = ~Anomens ursprüngliches Porträt~
+@73   = ~Erweiterte Gegenstandsbeschreibungen für ToB~
+@74   = ~Shakti-Statuette
+
+Es gibt starke Hinweise darauf, dass dieser Gegenstand von einem mächtigen Wu Jen in den geheimnisvollen Landen im Osten Faerûns gefertigt wurde, denn die Statuette ist eine äußerst detaillierte Nachbildung eines wilden Kriegers aus Kara-Tur in voller Kampfkleidung.
+
+Wenn diese Statue angerufen wird, bewirkt sie eine erstaunliche Veränderung im Benutzer: Sie verwandelt ihn zeitweilig in einen wilden Gladiator in blauer Rüstung, je ein Kurzschwert in jeder Hand.
+
+Es ist unklar, ob es diese wundervolle Statuette dem Benutzer erlaubt, den Geist eines legendären Kriegers zu lenken, oder ob sie nur den instinktiven, urtümlichen Zorn in des Besitzers eigener Seele entfesselt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Kann einmal am Tag verwendet werden
+Dauer: 4 Runden
+Setzt die Rüstungsklasse auf -5
+Wirkt Hast auf den Benutzer
+Der Benutzer hat zwei Angriffe pro Runde mit einem Kurzschwert +4, als ob er 2 Punkte in der Waffenfertigkeit Kurzschwert hätte.
+Kann nicht verwendet werden von:
+Kämpfern~
+@75   = ~Feindbann +5
+
+Der Erzmagier Demron schuf dieses magische Bastardschwert für den elfischen Helden Fflar, Hauptmann von Myth Drannor. Feindbann, die mächtigste von sechs auf diese Weise von Demron erschaffenen Klingen, kann mit jedem Schlag seinen Opfern die Lebensessenz entziehen und dieses Leben dem Träger zukommen lassen. Manche glauben, daß die Fähigkeit, Seelen zu stehlen, die Klinge verflucht hat, denn obwohl sie als eine Waffe von Recht und Gerechtigkeit geschaffen wurde, erzählt die Geschichte Feindbanns von Mord und Tod.
+
+Demrons eigenes Blut taufte die Klinge, als ein Möchtegern-Dieb das neugeschaffene Schwert benutzte, um dem Erzmagier einen vorzeitigen Tod zu bereiten; der Dieb überlebte den Kampf ebenfalls nicht. Nach dem Mord an Demron wurde Feindbann geborgen und dem Helden Fflar übergeben, um es zur Verteidigung von Myth Drannor, der größten aller Elfenstädte, einzusetzen.
+
+Doch selbst die Macht Feindbanns war nicht ausreichend, um den dunklen Horden zu widerstehen, die Myth Drannor überrannten. Als die Elfenstadt fiel, erlitt Hauptmann Fflar einen grausamen Tod, und das Schwert ging unter den Ruinen der einstmals großen Metropole verloren.
+
+Die Legende besagt, daß Feindbanns beachtliche Kräfte noch einmal gesteigert werden, wenn das Schwert mit der verzauberten Scheide des ursprünglichen Eigentümers Fflar vereinigt wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Der Träger erhält +1 auf alle Rettungswürfe. Bei jedem Treffer wird Larlochs Geringerer Lebenskraftentzug auf das Ziel gewirkt (kein Rettungswurf).
+ETW0: -5
+Schaden: 2W4+5 (Klingenwaffe), +6 gegen Untote, Gestaltwandler und Externare (Dämonen, Planetare usw.)
+Gewicht: 5
+Initiativefaktor: 3
+Waffenfertigkeit: Bastardschwert
+Waffentyp: Einhändig
+Mindeststärke: 11
+Kann nicht verwendet werden von:
+Dieben
+Druiden
+Klerikern
+Magiern~
+@76   = ~Ixils Dorn +6
+
+Kurz nachdem die Zeit der Sorgen begonnen hatte, wurden die räuberischen Nomadenstämme der Wüste von Calimshan von einem Anführer vereint, einem graumsamen und brutalen Riesen von Mann, dem Kriegsherrn Ixil Xaxsha.
+Von ihren Verstecken in der unerbittlichen Wüste aus überfielen die Nomaden Händlerkarawanen und terrorisierten Reisende, die unvorsichtig genug waren, über die Straße von Calimport nach Myratma zu reisen.
+
+Gerüchte und Legenden erzählen von dem unbesiegbaren Ixil, der an der Spitze seiner Leute ritt, seinen berüchtigen magischen Speer schwingend. Einige glauben, dass er nicht wirklich ein Mensch, sondern ein Dämon in Menschengestalt war, der durch das Chaos und die Verwirrung während der Zeit der Sorgen aufgetaucht war.
+
+Ixils eigene Wildheit und seine sadistische Neigung taten wenig, das zu widerlegen. Während des Kampfes konnte die Spitze von Ixils mächtigem Speer einen Gegner am Boden festnageln, bevor sich auf magische Weise eine neue Speerspitze bildete. Oft legte Ixil im Schlachtgetümmel eine Pause ein, um das Zucken eines von von seinem Speer festgenagelten Opfers zu betrachten ... es schien, als ob ihn die grausame Qual seines Feindes erfreuen schien.
+
+Der Kriegsherr wurde endlich besiegt, als er als einfache Pilger getarnten von einer Einheit mächtiger Priester und Ritter des Ordens des Strahlenden Herzen angelockt worden war. Zeugen bestätigen, dass Ixil während des Kampfes nicht getötet, sondern durch die heilige Magie des Ordens auf eine höllische Ebene verbannt wurde.
+
+Tatsächlich wurde der Körper Ixils nie gefunden. Ixils Dorn, sein gefürchteter Speer und Zeichen seiner Macht, wurde dagegen geborgen. Beim Versuch, dieses unheilige Artefakt zu zerstören, wurde es in mehrere Teile zerschlagen und über die Südlande verteilt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Auf dem Träger der Waffe wirkt permanent Handlungsfreiheit.
+Fähigkeiten im Kampf: Bei jedem Treffer muss dem Gegner ein Rettungswurf gelingen. Scheitert er, wird er drei Runden an der Stelle festgenagelt und erleidet in jeder Runde zusätzliche 1W6+5 Schadenspunkte.
+ETW0: -6
+Schaden: 1W6+6 (Stichwaffe)
+Gewicht: 5
+Initiativefaktor: 2
+Waffenfertigkeit: Speer
+Waffentyp: Beidhändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+Dieben
+Klerikern
+Magiern~
+@77   = ~Keule der Detonation +5
+
+Eine Amnische Sage erzählt von Nysrogh, einem mächtigen Bewohner der unteren Ebenen, der von einer sorglosen Zauberin namens Unileth auf Amn losgelassen wurde.
+
+Da er gegen alle Waffen, die man gegen ihn einsetzte, vollständig immun war, tobte Nysrogh ungehindert durch Amn, und Unileth nahm es auf sich, dem von ihr herbeigerufenen Übel ein Ende zu setzen. Da sie die Schwächen des Dämonen kannte, stellte sie eine große Keule her, um Nysrogh zu besiegen, und gab sie einem mutigen, aber unbekannten Ritter, um sie in ihrem Namen zu führen.
+
+Unileths Champion forderte Nysrogh zum Kampf heraus, und der Dämon nahm bereitwillig an, wohl wissend, dass er von keiner Waffe in den Reichen verletzt werden konnte. Die Gegner trafen sich auf dem Schlachtfeld, und unter dem wilden Blick des Dämonen ließ Unileths verängstigter Champion schnell die Waffe fallen und floh.
+
+Nysrogh griff nach der Keule des Ritters als Symbol seines Sieges. Doch als die Klauen des Dämonen die Waffe berührten, löste er einen Zauber aus, der ihn völlig unvorbereitet traf und einkerkerte. Unileths Falle war zugeschnappt und der Dämon, der von keiner Waffe verletzt werden konnte, wurde für immer in der magischen Keule gefangen.
+
+Die primitive Holzkeule brennt immer noch mit dem wütenden Feuer des Dämonen, der durch die mächtigen Verzauberungen der Waffe auf ewig in ihr gefangen ist. Manchmal kann sich der Zorn des Dämons in Form einer feurigen Entladung manifestieren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: 30% aller Treffer verursachen zusätzlich 15 SP durch Feuer. Bei 5% aller Treffer wird ein Feuerball ausgelöst.
+ETW0: -5
+Schaden: 1W6+5 (Wuchtwaffe), +5 SP durch Feuer
+Gewicht: 3
+Initiativefaktor: 4
+Waffenfertigkeit: Keule
+Waffentyp: Einhändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+Magiern~
+@78   = ~Immervoller Köcher
+
+Eine oft erzählte, aber nie überprüfte Legende berichtet, dass der Köcher einst als Geschenk an Herzog Orin Turgbor gegeben wurde. Orin kümmerte sich wenig um Politik und die alltäglichen Pflichten seines Lehens und verschwand oft wochenlang in die dichten Wälder, die den größten Teil seines Landes ausmachten, und führte dort das Leben eines einsamen Jägers.
+
+Aber so sehr er es auch versuchte, Orin lernte nie die Kunst der Herstellung von Pfeilen, und er war gezwungen, zu seinem Schloß zurückzukehren, wenn ihm die Pfeile ausgingen. Und jedes Mal wurde er bei seiner Rückkehr von diversen Adligen und Kaufleuten und ihren kleinlichen Problemchen überschwemmt, die seine Aufmerksamkeit einforderten.
+
+Wenn man den Geschichten glauben kann, kam eines Tages ein skrupelloser Händler zu Orin, der ihm ein Geschenk anbot, im Austausch gegen die Herrschaft über alles Land, das Orin regierte - einen Köcher, der eine unendliche Zahl magischer Pfeile hervorbrachte. Orin stimmte dem Tausch schnell zu und glaubte, dass seine Probleme für immer gelöst wären.
+
+Der Händler entpuppte sich bald als ein grausamer und unerträglicher Tyrann, und innerhalb eines Monats hatten Orins Untertanen ihren neuen Herrscher abgesetzt, holten Orin aus seinem geliebten Wald zurück und schlossen ihn in seiner eigenen Burg ein - und zwangen ihn, wieder ihr Herrscher zu sein. Um sicherzustellen, dass er nie wieder in die Wälder entkommen konnte, wurde der kostbare Köcher gut verborgen, und seine Erwähnung mit dem Tode bestraft.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Der Köcher enthät eine unbegrenzte Anzahl von Pfeilen +1.~
+@79   = ~Sturmstern +5
+
+Die uralte Machart dieser Waffe haben Gelehrte mit Nesseril selbst in Verbindung gebracht. Normalerweise findet man Streitkolben mit Platten aus Elektrum, wie es Sturmstern einer ist, im Norden; was diese besonders mächtige Waffe aber angeht, so hört man hier und da Gerüchte, sie sei in den südlichen Regionen der Reiche verloren gegangen.
+
+Sturmsterns beeindruckende Fähigkeiten wurden durch das Hinzufügen des außerweltlichen Meteoritenerzes noch verstärkt. Dieses seltsame Material stammt aus dem Kern eines vom Himmel gefallenen Meteoriten. Das verformbare Erz ist überraschend stabil und strömt eine innere Hitze aus. Jedes aus diesem fremdartigen Erz geschmiedete Artefakt dürfte zweifellos geheimnisvolle und überirdische Eigenschaften aufweisen.
+
+Trotz seiner beachtlichen Größe ist Sturmstern überraschend leicht und lässt sich besonders gut im Kampf führen. Eindrucksvolle, wenn auch harmlose Lichtbögen blitzen auf, wenn man ihn führt - ein sichtbares Zeugnis der mächtigen elektrischen Verzauberungen, die in den Kopf der Waffe eingeflossen sind.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger erhält +20% auf Elektrizitätsresistenz. Bei 5% aller Treffer wird Kugelblitz auf das Opfer gewirkt.
+ETW0: -5
+Schaden: 1W6+6 (Wuchtwaffe), +1W6 SP durch Elektrizität
+Gewicht: 4
+Initiativefaktor: 2
+Waffenfertigkeit: Streitkolben
+Waffentyp: Einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+Dieben
+Druiden
+Magiern~
+@80   = ~Schwarzstahlschild +4
+
+Die Zwerge des Clans von Clangeddin waren für ihre Arbeiten mit Schwarzstahl bekannt, einem Material, dass es nirgends gab außer in ihrer Heimat, den Wandernden Bergen. In ihrem Streben, immer mehr davon zu finden, gruben sie immer tiefer in die Haut der Erde hinein.
+
+Bei einer solchen Expedition verschwanden die sieben Söhne von Argeld Schwerhand, dem Clanführer. Der einzige Überlebende der schicksalhaften Expedition war Glimred Schwerhand, der jüngste Sohn von Argeld. Als er zurückkehrte, erzählte er Geschichten von Drow und Illithiden und noch einem anderen dunklen, namenlosen Grauen, das noch niemand zuvor gesehen hatte...
+
+Obwohl er verzweifelt versuchte, seine Söhne zu rächen, konnte Argeld nicht noch mehr seines Volkes nach unten in die Tiefen des Berges schicken, damit sie gegen solches Grauen kämpften. Glimred selbst jedoch konnte nicht untätig bleiben. Um seine Rache zu unterstützen, begannen die Zwergeschmiede, ihm einen Schwarzstahlschild anzufertigen, einen stark verzauberten Schild, der mehr Schutz bot als manche Rüstungen.
+
+Aber Glimred war zu ungeduldig, sein Wunsch nach Vergeltung ließ ihm keine Ruhe, und so brach er in die Tiefe der Wandernden Berge auf, bevor die Arbeit an dem Schild beendet war, und ward nie mehr gesehen. Das Verschwinden und der Tod seines einzigen überlebenden Sohnes waren zu viel für Argeld, und er starb an einem gebrochenen Herzen.
+
+Nach dem Tod ihres Anführers und dem Verschwinden ihres Helden Glimred wussten die Zwerge, dass es nur noch eine Frage der Zeit war, bis ihr Clan von ihren Feinden aus dem Unterreich überrannt würde. Bevor der Clan sich über das Angesichts Faerûns vertreute, verkaufte er diesen Schild an den höchsten Bieter, doch wer ihn von den Zwergenschmiedern erwarb, gaben diese nie preis.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Der Träger erhält +10% Feuer-, Kälte-, Säure- und Giftresistenz.
+RK-Bonus: -5
+Gewicht: 8
+Mindeststärke: 15
+Kann nicht verwendet werden von:
+Barden
+Dieben
+Druiden
+Magiern~
+@81   = ~Kit: Rechtfertiger~
+@82   = ~Rechtfertiger~
+@83   = ~Rechtfertiger~
+@84  = ~RECHTFERTIGER: Es gibt Abenteuer, die so fordernd, und Gegner, die so gefährlich sind, daß jemand gebraucht wird, dessen Kampfkünste die eines normalen Waldläufers bei weitem übertreffen. Ein solcher Mensch ist der Rechtfertiger. Durch die meisterliche Beherrschung militärischer Taktik und der Kampfkünste sowie aufgrund seiner stählernen Nerven kann er sich zur obersten Elite der Krieger zählen.
+
+Für einen entschlossenen Rechtfertiger ist keine Aufgabe zu schwierig, kein Feind zu stark. Seine Fertigkeit im Umgang mit der Waffe verschafft ihm einen Vorteil im Kampf, während seine magischen Fähigkeiten darunter leiden, daß er weniger Zeit auf ihre Übung verwenden kann.
+
+Der Rechtfertiger muß von rechtschaffen guter Gesinnung sein.
+
+Vorteile:
+-  +10% auf die Fähigkeit Schleichen
+-  +1 auf Initiative und ETW0 alle 10 Stufen
+
+Nachteile:
+-  Der Rechtfertiger kann keine Tiere bezaubern.
+-  Die Zauberfertigkeiten sind beschränkt auf:
+-  Kann keine Klassenkombination eingehen.
+Leichte Wunden heilen und Rüstung des Glaubens je einmal pro Tag ab Stufe 8
+Glück und Furcht bannen je einmal pro Tag ab Stufe 10
+Heilige Macht entlehnen einmal pro Tag ab Stufe 12~
+@85   = ~Kit: Wilder~
+@86   = ~Blutrausch~
+@87   = ~Ruf des Wilden~
+@88   = ~Wildhund~
+@89   = ~Wolf~
+@90   = ~Schreckenswolf~
+@91   = ~Führer des Packs~
+@92   = ~Wilder~
+@93   = ~Wilder~
+@94   = ~WILDER: Zuweilen geschieht es, dass ein Kind in den Wald läuft, sich verirrt und niemals zurückfindet. Oder noch schlimmer, daß eine Familie ihr Kind verstößt und allein im Wald aussetzt. Weitaus die meisten dieser so hart vom Schicksal Gestraften fallen den Gefahren der Wildnis anheim. Aber manchmal hat eines von ihnen das Glück, von größeren Tieren, etwa Löwen oder Wölfen, an Kindes Statt angenommen zu werden, und wird zusammen mit den Sprösslingen dieser Tiere aufgezogen. Abgeschnitten von jeglicher Zivilisation, wachsen diese Menschen in der Gesellschaft dieser Tiere auf und nehmen dabei deren Verhaltensmuster an. Im Laufe der Zeit werden sie zu Wilden, Wesen, welche die Wildheit eines Tieres mit der Intelligenz eines Menschen verbinden.
+
+Aufgrund ihrer wilden Natur können Wilde nicht von rechtschaffener Gesinnung sein. Als Waldläufer sind sie auf gute Gesinnungen beschränkt.
+
+Vorteile:
+-  +10% auf die Fähigkeit Schleichen
+-  Erhält einen RK-Bonus von 1 auf der ersten Stufe, und einen weiteren Bonus von 1 alle 5 Stufen
+-  Kann sich einmal am Tag in Blutrausch versetzen, und zusätzlich einmal für jede 10. Stufe. Dieser Zustand dauert 60 Sekunden an und gewährt einen Bonus von +2 auf Trefferwürfe, Schaden und Rüstungsklasse. Außerdem ist der Wilde immun gegen Bezauberung, Festhalten und Furcht sowie Irrgarten, Einkerkerung, Lähmung und Schlaf. Er erhält zudem 15 temporäre Trefferpunkte.
+-  Kann einmal täglich den Ruf des Wilden einsetzen. Dies beschwört einen Tiergefährten, der für 3 Runden + 1 Runde pro Stufe für den Anwender kämpft. Auf höheren Stufen werden mächtigere Gefährten beschworen.
+
+Nachteile:
+-  Ist nach dem Abklingen eines Blutrauschs erschöpft. In diesem Zustand bekommt er einen Malus von -2 auf Trefferwürfe, Schaden und Rüstungsklasse.
+-  Kann in den Waffenkategorien Bastardschwert, Langschwert, Kurzschwert, Zweihänder, Katana, Krummsäbel, Hellebarde, Flegel und Armbrust nur einen Fertigkeitspunkt vergeben.
+-  Darf keine Rüstungen oder Großschilde tragen.
+-  Sein maximaler Charisma-Wert ist 2 Punkte niedriger als der eines normalen Angehörigen seiner Rasse.~
+@95   = ~Thron des Bhaal: Kleine Wiederherstellungen~
+@96   = ~Dieser Schritt kann einen Moment dauern...~
+@97   = ~Stiefel der beschleunigten Abreise~
+@98   = ~Diese Stiefel wurden in längst vergangener Zeit von einer halbelfischen Bannwirkerin hergestellt, die von ihren (wenigen) Freunden "Phenuel die Seherin" genannt wurde, von ihren (vielen) verstimmten Kunden aber "Phaenuel der Scharlatan". Sie trieb sich regelmäßig in Athkatla, Handelstreff und den anderen Handelszentren Amns herum und ging mit ihren Waren hausieren. Sie bot eine Anzahl von Tränken an, die alles mögliche bewirkten: von der Heilung von Warzen an diversen Körperstellen bis zu Liebestränken.
+
+Allerdings war sie unglücklicherweise zwar recht geschickt darin, ihre Waren anzupreisen, ihre Fähigkeiten in der Trankherstellung aber ließen eine Menge zu wünschen übrig, und nach einiger Zeit mußte sie die ein oder andere Stadt meiden, um dem verärgerten Mob zu entgehen. Sie beschloß, daß Schutzmaßnahmen ein kluger Gedanke wären, und stellte diese Stiefel her, die sich als ausgesprochen nützlich erwiesen, um faule Früchte und andere wenig appetitliche Geschosse zu vermeiden, die recht häufig in ihre Richtung unterwegs waren.
+
+Phenuel und ihre Stiefel wurden eines Abends in Nashkell getrennt, als sie sich schon zur Nachtruhe zurückgezogen hatte. Einigen Kunden gelang es, sie ausfindig zu machen, und sie mußte nur mit dem Nachtgewand bekleidet durchs Fenster fliehen. Wenig überraschend, wagte sie es nicht, zurückzukommen und die Stiefel zu holen, und man hat sie seither noch nicht wieder gesehen. Dasselbe galt für die Stiefel - bis jetzt...
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Der Träger kann die Macht der Stiefel aktivieren, wann er will. Sie verleihen 20 Sekunden lang einen Bonus von +6 auf alle Rettungswürfe und verbessern die Rüstungsklasse um 8. Der Träger kann während dieser Zeit jedoch nicht angreifen, keine Zauber wirken, keine Diebesfähigkeiten einsetzen und sich nicht im Schatten verstecken.
+
+Gewicht: 3~
+
+@99  = ~Das Schwert Carsomyr, Der Heilige Rächer
+Carsomyr ist eine Waffe aus Legenden und gehört vielleicht zu den mächtigsten Klingen, die je auf Faerûn geschmiedet wurden. Seine Herkunft und seine Geschichte sind angeblich absichtlich in Vergessenheit geraten. Das Schwert soll auf diesem Weg nie wichtiger werden als sein Zweck: Kämpfe für das Gute, die im Hier und Jetzt ausgetragen werden müssen. Die reine Essenz der Tugendhaftigkeit pulsiert durch das Schwert. Nur ein Paladin, dessen Seele ebenso rein und tugendhaft ist, kann es führen. Die bösen Wesen der Reiche müssen wahrlich erzittern, wenn dieses Schwert gegen sie geschwungen wird. Ihre finsteren Zauber werden mit einem einfachen Wort gebannt und die Auswirkungen ihrer Magie schüttelt der Träger mit Leichtigkeit ab. Carsomyr ist von einem besonderen Hass auf chaotisch böse Wesen erfüllt. Wenn diese zum Opfer seines rechtschaffenen Zorns werden, erleiden sie zusätzlichen Schaden.
+
+Selbst ein mächtiges, heiliges Relikt wie Carsomyr ist durch das heilige Auge Tyrs noch zusätzlich verstärkt worden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Der Träger erhält 50% Magieresistenz und kann dreimal täglich Magie bannen wirken.
+Eigenschaften im Kampf: Wenn das Schwert einen Gegner trifft wirkt es Magie bannen.
+ETW0: -6
+Schaden: 1W10+6 (Klingenwaffe), +6 gegen chaotisch böse Gegner 
+Gewicht: 6
+Initiativefaktor: 4
+Waffenfertigkeit: Zweihänder
+Waffentyp: Beidhändig
+Mindeststärke: 14
+ Kann nur von Paladinen verwendet werden.~
+
+@100  = ~Dieser Flegel hat sich lange Zeit im Besitz von Fürst de'Arnise befunden. Er stellt ein Relikt aus seinen Tagen als junger Abenteurer dar. Der Flegel wurde zerlegt, und die einzelnen Teilen waren an verschiedenen Orten aufbewahrt. Er wurde nur in äußersten Notfällen zusammengesetzt und verwendet. Fürst de'Arnise war über die mächtige Magie besorgt, die diese Waffe ausstrahlt, wenn sie vollständig ist. Seine Sorge war in keiner Weise unberechtigt. Der Flegel hat sozusagen eine Spur der Zerstörung durch die Geschichte gezogen, seit jenen Tagen, in denen er hergestellt wurde. Der Flegel wurde von den kriegerischen Rakshasa hergestellt. Das ist eine Rasse mächtiger und rachsüchtiger Geister, die normalerweise auf anderen Ebenen haust und die Materielle Ebene heimsucht, um Menschen zu jagen und sie zu verschlingen. Dieser Flegel wurde so geschaffen, dass er an die verschiedensten Kampfsituation angepasst werden kann. Während einer besonders wilden Jagd verloren die Rakshasa den Flegel, konnten ihn aber, dank der mächtigen Aura, von der er umgeben ist, wieder aufspüren. Sie stellten fest, dass er inzwischen im Besitz eines mächtigen menschlichen Kriegers war. Die Rakshasa eroberten den Flegel in einem titanischen Kampf zurück. Das brachte die Rakshasa auf eine Idee. Seit jenen Tagen haben sie den Flegel schon oft 'verloren' und dann wieder beschafft. Es ist nämlich so, dass mächtige Gegenstände dazu neigen, in die Hände von mächtigen Wesen zu geraten. Wenn man diese dann stellt, kann man mit den ruhmreichsten aller Schlachten rechnen.
+
+Jetzt, wo der Flegel der Zeitalter mit allen fünf Waffenköpfen versehen ist, ist das Potenzial dieser von den Rakshasa erschaffenen Waffe vollständig ausgeschöpft.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Der Träger erhält 5% Magieresistenz. Außerdem wirkt auf den Träger Handlungsfreiheit. 33% aller Treffer verlangsamen das Ziel (kein Rettungswurf).
+ETW0: -5
+Schaden: 1W6+6 (Wuchtwaffe), +2 SP durch Säure, +2 SP durch Kälte, +2 SP durch Feuer, +2 SP durch Gift, +2 SP durch Elektrizität
+Gewicht: 8
+Initiativefaktor: 2
+Waffenfertigkeit: Flegel/Morgenstern
+Waffentyp: Einhändig
+Mindeststärke: 13
+Kann nicht verwendet werden von:
+ Dieben
+ Druiden
+ Magiern
+ Mönchen
+ Tiermeistern~
+
+@101  = ~Dieser Flegel hat sich lange Zeit im Besitz von Fürst de'Arnise befunden. Er stellt ein Relikt aus seinen Tagen als junger Abenteurer dar. Der Flegel wurde zerlegt, und die einzelnen Teilen waren an verschiedenen Orten aufbewahrt. Er wurde nur in äußersten Notfällen zusammengesetzt und verwendet. Fürst de'Arnise war über die mächtige Magie besorgt, die diese Waffe ausstrahlt, wenn sie vollständig ist. Seine Sorge war in keiner Weise unberechtigt. Der Flegel hat sozusagen eine Spur der Zerstörung durch die Geschichte gezogen, seit jenen Tagen, in denen er hergestellt wurde. Der Flegel wurde von den kriegerischen Rakshasa hergestellt. Das ist eine Rasse mächtiger und rachsüchtiger Geister, die normalerweise auf anderen Ebenen haust und die Materielle Ebene heimsucht, um Menschen zu jagen und sie zu verschlingen. Dieser Flegel wurde so geschaffen, dass er an die verschiedensten Kampfsituation angepasst werden kann. Während einer besonders wilden Jagd verloren die Rakshasa den Flegel, konnten ihn aber, dank der mächtigen Aura, von der er umgeben ist, wieder aufspüren. Sie stellten fest, dass er inzwischen im Besitz eines mächtigen menschlichen Kriegers war. Die Rakshasa eroberten den Flegel in einem titanischen Kampf zurück. Das brachte die Rakshasa auf eine Idee. Seit jenen Tagen haben sie den Flegel schon oft 'verloren' und dann wieder beschafft. Es ist nämlich so, dass mächtige Gegenstände dazu neigen, in die Hände von mächtigen Wesen zu geraten. Wenn man diese dann stellt, kann man mit den ruhmreichsten aller Schlachten rechnen.
+
+Dieser Flegel verfügt über vier Waffenköpfe und verursacht Feuer-, Kälte, Säure- und Giftschaden. Wenn man den fünften Waffenkopf für den Flegel der Zeitalter finden könnte, würde diese beeindruckende Waffe noch mächtiger.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: 33% aller Treffer verlangsamen das Ziel (kein Rettungswurf).
+ETW0: -4
+Schaden: 1W6+5 (Wuchtwaffe), +1 SP durch Feuer, +1 SP durch Kälte, +1 SP durch Säure, +1 SP durch Gift
+Gewicht: 9
+Initiativefaktor: 3
+Waffenfertigkeit: Flegel/Morgenstern
+Waffentyp: Einhändig
+Mindeststärke: 13
+Kann nicht verwendet werden von:
+ Dieben
+ Druiden
+ Magiern
+ Mönchen
+ Tiermeistern~
+
+@102  = ~Dieser Flegel hat sich lange Zeit im Besitz von Fürst de'Arnise befunden. Er stellt ein Relikt aus seinen Tagen als junger Abenteurer dar. Der Flegel wurde zerlegt, und die einzelnen Teilen waren an verschiedenen Orten aufbewahrt. Er wurde nur in äußersten Notfällen zusammengesetzt und verwendet. Fürst de'Arnise war über die mächtige Magie besorgt, die diese Waffe ausstrahlt, wenn sie vollständig ist. Seine Sorge war in keiner Weise unberechtigt. Der Flegel hat sozusagen eine Spur der Zerstörung durch die Geschichte gezogen, seit jenen Tagen, in denen er hergestellt wurde. Der Flegel wurde von den kriegerischen Rakshasa hergestellt. Das ist eine Rasse mächtiger und rachsüchtiger Geister, die normalerweise auf anderen Ebenen haust und die Materielle Ebene heimsucht, um Menschen zu jagen und sie zu verschlingen. Dieser Flegel wurde so geschaffen, dass er an die verschiedensten Kampfsituation angepasst werden kann. Während einer besonders wilden Jagd verloren die Rakshasa den Flegel, konnten ihn aber, dank der mächtigen Aura, von der er umgeben ist, wieder aufspüren. Sie stellten fest, dass er inzwischen im Besitz eines mächtigen menschlichen Kriegers war. Die Rakshasa eroberten den Flegel in einem titanischen Kampf zurück. Das brachte die Rakshasa auf eine Idee. Seit jenen Tagen haben sie den Flegel schon oft 'verloren' und dann wieder beschafft. Es ist nämlich so, dass mächtige Gegenstände dazu neigen, in die Hände von mächtigen Wesen zu geraten. Wenn man diese dann stellt, kann man mit den ruhmreichsten aller Schlachten rechnen.
+
+Dieser Flegel verfügt über vier Waffenköpfe und verursacht Feuer-, Kälte, Säure- und Elektrizitätsschaden. Wenn man den fünften Waffenkopf für den Flegel der Zeitalter finden könnte, würde diese beeindruckende Waffe noch mächtiger.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: 33% aller Treffer verlangsamen das Ziel (kein Rettungswurf).
+ETW0: -4
+Schaden: 1W6+5 (Wuchtwaffe), +1 SP durch Feuer, +1 SP durch Kälte, +1 SP durch Säure, +1 SP durch Elektrizität
+Gewicht: 9
+Initiativefaktor: 3
+Waffenfertigkeit: Flegel/Morgenstern
+Waffentyp: Einhändig
+Mindeststärke: 13
+Kann nicht verwendet werden von:
+ Dieben
+ Druiden
+ Magiern
+ Mönchen
+ Tiermeistern~
+
+//Sarevok stuff
+
+@1000 = ~Sarevoks Reue~
+@1001 = ~Yoshimo hat sein Tagebuch nicht sehr gewissenhaft geführt. Die ersten Seiten sind mit willkürlichen Notizen über erledigte Aufgaben, gesammelte Belohnungen, gewonne Freunde und verdatterte Feinde gefüllt. Einige Briefe, mit eleganter, weiblicher Hand auf Feinpapier geschrieben, sind zwischen die Seiten geklemmt, mit einigen an die Ränder gekritzelte belustigte Bemerkungen.
+
+Obwohl immer noch nicht sehr planmäßig, beginnen regelmäßigere Einträge vor etwas mehr als einem Jahr.
+
+
+"29 Mirtul, 1358
+
+Ging einige alte Briefe durch - sind es drei Jahre her, seit ich Tamoko sah? Das kann nicht wahr sein.
+
+'Die Sanfte' setzte bei Flut Segel. Die Nichte des Kapitäns ist von einem ungewöhnlich starkem Interesse für importierte Waren besessen. Ich nehme an, dass es eine vergebene Hoffnung ist, dass sie keinen Magen für die See hat, so dass ich sie nicht in meiner Kajüte behalten muss, um sie zu meiden. Der zweite Maat scheint ein Falschspieler zu sein.
+
+13 Eleint, 1358
+
+Athkatla ist so angenehm geldgierig wie immer, aber einige gewissenhafte neutrale Schleicher gehen außerhalb meines Gasthofs auf Streife und werfen mir jedes mal, wenn ich vorbeikomme, schmutzige Blicke entgegen. Die Innung der Diebe findet offensichtlich, dass ich ihre Gastfreundschaft wieder überbeansprucht habe. Vielleicht sollte ich mich zur Abwechselung darauf konzentrieren, Tamoko zu finden.
+
+18 Eleint, 1358
+
+Machte keinen Sinn, nachts in die Berge loszuziehen; wartete den rechten Augenblick in Crimmor ab, während ich lauschte, was die Stadt zu sagen hat. Zu meiner Überraschung hörte ich einige Reisende über den Gefährten von Sarevok sprechen, den Tamoko erwähnt hat. Große Erwartungen, Verbindungen zum Eisenthron, gibt eine gute Figur ab, wirft einen dunklen Schatten - derselbe Mann. Klingt, als ob er eine Art Aufregung in Baldurs Tor verursacht hat.
+
+Sie hat häufig von ihm geschrieben, aber wenig. Er klang nach Schwierigkeiten, aber ich glaube, dass sie genug gesunden Verstand gehabt hat, um sich da heraushalten. Sie hörte sich jedoch ihm sehr verpflichtet an.
+
+25 Eleint, 1358
+
+Verbrachte die Nacht im Windigen Schwindler in Beregost. Ein betrunkener Söldner beharrte darauf, meine Katana zu probieren - jedes Ende davon. Lenkte ihn mit einer Bestellung an den Gastwirt ab, um eine Probe von mehreren seiner Fässer zu bringen, und um für Nachschub zu sorgen.
+
+Bevor er irgendwo unter dem Tisch dem verschwand, was, wie ich annehme, der bessere Teil der Woche wäre, lallte der Mann einige beunruhigende Dinge über den Krawall in Baldurs Tor. Ich kann nur hoffen, dass Tamoko nicht beteiligt ist.
+
+Gemäß dem Herrn ist jeder jetzt sehr aufgeregt über jemanden namens <CHARNAME>, und was <PRO_HESHE> diesem Sarevok angetan hat und so. Er ließ sich jedoch weiter darüber aus, dass etwas mit <PRO_HIMHER> nicht stimmt, auch, dass eines Tages dieser neue Stolz der Stadt wie der letzte ausrasten wird. Anscheinend hat er sowohl Sarevok als auch <CHARNAME> einmal von fern gesehen, vielleicht inmitten einer Menge, daher könnte er das wissen.
+
+8 Marpenoth, 1358
+
+Streifte in den letzten paar Tagen und Nächten durch die Straßen von Baldurs Tor. Eisenthron-Hauptquartier in einem Zustand von peinlicher Unordnung. Fand den Gasthof, den Tamoko als ihre letzte Zuflucht erwähnte: schmuddelig, illegal, unter ihrer Würde. Entdeckte sie im Buch des Gastwirts unter einem falschen Namen, mit einer liegen gebliebenen Rechnung vom 12 Flamerule. Schlich mich raus, bevor der Mann auf die Idee kam, mich sofort bezahlen zu lassen.
+
+10 Marpenoth, 1358
+
+Hörte einige Soldaten der Flammenden Faust über <CHARNAME> sprechen, dass <PRO_HESHE> eigenhändig diesen irrenhausreifen Bastard Sarevok und alle seine Anhänger ermordete. Sie fuhren fort, <PRO_HISHER>e leuchtenden Augen, donnernde Stimme und Siebenmeilenschritte zu beschreiben. Ich reiste ab.
+
+11 Marpenoth, 1358
+
+(Ein Zettel, ausgerissen aus einem Rechnungsbuch, gekennzeichnet mit dem Symbol von Kelemvor, ist zwischen den Seiten des Tagebuchs gefaltet:)
+
+MENSCHLICHE FRAU; ALTER ETWA 30; KARA-TURAN?
+- ALLEE NAHE DEM SCHWARZER-DRACHEN-TOR
+- KEINE OFFENENSICHTLICHEN ANZEICHEN VON GEWALT, KRANKHEIT, ODER ZERFALL; MAGISCHE TODESURSACHE?
+- PRUNKHARNISCH MIT EINGRAVIERTEN TYRANNOS ABZEICHEN; FILIGRANE ORIENTALISCHE SCHRIFTZEICHEN IN GOLD ÜBER DEM HERZ; VERKAUFT AN ALLERLEI ZAUBEREI FÜR 17.000
+
+BEGRABEN
+
+13 Marpenoth, 1358
+
+Entweder Sarevok oder <CHARNAME> könnten sie getötet haben. Aber sie glaubte zu jener Zeit an Sarevok, und Sarevok ist außerhalb meiner Rache.
+
+15 Marpenoth, 1358
+
+Das eine oder andere Fest wurde in der Stadt gefeiert, und ich sah <CHARNAME> aus der Ferne in der Nähe des Herzöglichen Palasts - <PRO_HESHE> sah nicht danach aus, als ob <PRO_HESHE> meine Schwester zu töten.
+
+16 Marpenoth, 1358
+
+Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an  den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
+
+18 Marpenoth, 1358
+
+Ich wurde bemerkt. Eine blasse Frau in schwarzem Leder hielt mich heute Abend in der Taverne an, wo ich saß und <CHARNAME> beobachtete.
+
+'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure  leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
+
+Sie bot mir an, ihr in die kühle Nacht zu folgen, und die feuchten Gassen entlang, bis wir zu dem Ort kamen, wo die Stadt ihre namenlosen Toten vergisst. Dort zeigte sie auf ein Grab unter Reihen von Gräbern, jedes wiederverwendet, wenn die alte Einwohner verrottet sind. Dieses eine war ausgehoben. 
+
+Die Frau öffnete den billigen Sarg, und darin lag Tamoko, im Schlaf ausgesteckt wie ein Kind. Tot.
+
+20 Marpenoth, 1358
+
+Bodhi arbeitet für einen maskierten Mann namens Irenicus, zumindest theoretisch. Sie versicherten mir, dass <CHARNAME> meine Schwester tötete. Und dass ich meine Rache bekommen werde - aber zuerst muss <PRO_HESHE> von mir zu Irenicus gebracht werden. Lebendig.
+
+22 Marpenoth, 1358
+
+Ich brauche mich keinen Sinnestäuschungen mehr hinzugeben: ich habe die Wirklichkeit, Tamokos Gesicht in eine unnatürliche Gelassenheit versetzt, die nicht einmal Verwesung stören kann. Sie ist nicht verfault; sie geht nicht weg.
+
+Es gibt nur eine Möglichkeit, sicher zu sein. Und selbst wenn ich mich irre - keiner von uns ist unschuldig. Auf die eine oder andere Art wird sie gerächt.
+
+23 Marpenoth, 1358
+
+Irenicus forderte ein Fluchgelübde von mir - ein Geas - also schwor ich es. Ich fühle es jetzt kaum; es ist nur ein Zwicken an meiner Schädelbasis.
+
+8 Alturiak, 1359
+
+<CHARNAME> und <PRO_HISHER>e Gruppe wurden gefangen genommen. Blut wurde vergossen, aber Irenicus hat mein gejagtes Objekt so weit weg von mir wie möglich eingesperrt und zu versuchen, ihm meinen Standpunkt darzulegen - oder aufzuzwingen - erwies sich als leibhaftig höchst unklug.
+
+Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge  zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
+
+15 Ches, 1359
+
+In Athkatla. Offensichtlich wurde diese unterirdische Festung nicht an einem Tag gebaut.
+
+Seit wir ankamen, war Irenicus beschäftigt, von seinen neuen Gäste ausgiebig Gebrauch zu machen. Er möchte nicht, dass ich ihm bei seiner Arbeit im Weg stehe, und ich habe nicht den Fehler gemacht, nochmal vorbeizuschleichen, um einen flüchtigen Blick zu erhaschen.
+
+Die Schreie gehen mir auf die Nerven, deshalb bin ich durch die Straßen gewandert, um mich davon abzuhalten, darüber nachzudenken, was sich da unten ereignet. Was immer er ihnen antut, ich wünschte, dass er sich beeilen würde.
+
+20 Ches, 1359
+
+Bodhi hat ihre Zeit damit verbracht, sich selbst in den Straßen der Stadt einzurichten und nach den Schattendieben zu jagen. Sie hat jedoch bestimmt auch schon früher mit ihrer Arbeit begonnen.
+
+Ich versuche, einen Bogen um die kurzen, brutalen Auseinandersetzungen zu machen. Ich fühle das Verlangen, sogar einen gewissen Abstand zu bewahren.
+
+26 Ches, 1359
+
+Irenicus widmet mir nicht viel Aufmerksamkeit und ich habe es geschafft, einige seiner Papiere zu studieren, die, wie ich glaube, nie für meine Augen bestimmt waren. Es gibt viele Notizen über <CHARNAME>, und über <PRO_HISHER> 'Potential'. Früher wurde ich zu sehr verrückt gemacht, um mich über seine Motive zu wundern.
+
+27 Ches, 1359
+
+Ein weitere Notiz fand ich: ein abgefangenes Sendschreiben des Eisenthrons, mit Anweisungen an die Beamten in dem Gebiet von Baldurs Tor, alle früheren Anhänger von Sarevok Anchev, denen es gelungen ist <CHARNAME>s Angriff zu überleben, zu finden und hinzurichten. Der Thron duldet kein Doppelspiel.
+
+Die Liste schließt Winski Perorate, Angelo Dosan, Tazok den Oger, einen Beschwörer namens Semaj, Cythandria, und Tamoko ein, ist aber nicht darauf beschränkt.
+
+18 Tarsakh, 1359
+
+Schließlich hat Irenicus Pläne für mich - und <CHARNAME>. Er will <CHARNAME> in einem sinnlosen Unterfangen den ganzen Weg zu seinem nächsten Lager führen, eine Art Test dieses angeblichen Potentials durchführen - und er will, dass ich in <PRO_HISHER>e Gruppe eindringe, so dass ich ihren Fortschritt überwachen kann.
+
+Natürlich muss auch ich zuerst wegen der Vertrauenswürdigkeit eine Zeit lang in einem Käfig liegen.
+
+25 Tarsakh, 1359
+
+Es ist allgemein eine schlechte Idee, einen Geas zu schwören, wenn Ihr anstelle von Knien und Gehirn Kummer habt.
+
+
+(Der folgende Eintrag wurde offensichtlich eilig geschrieben und blieb undatiert:)
+
+Auch wenn die Ereignisse nicht genau so weitergingen, wie Irenicus es geplant hatte, ist der Mann ein Meister. Nach <CHARNAME>s vorzeitiger Flucht und unäbhängig davon hat alles mit furchterregender Genauigkeit Gestalt angenommen.
+
+Ich glaube, dass <CHARNAME> Tamoko tötete. Ich kann nicht sicher sein, aber in <CHARNAME>s Gruppe hatte ich viel Gelegenheit gehabt <PRO_HISHER>e Wege zu bewerten, und es scheint wahrscheinlich. So ist dies meine Rache - sollte diese unsichere, kraftlose Wut nach Sieg schmecken?
+
+Aber wenn ich keinen Triumph fühlen kann, hat das keine Wirkung auf die Dinge, die kommen. Wir segeln heute Abend zur Zauberfeste. Die Quartiere auf dem Schiff sind für Bequemlichkeit viel zu eng, so musste ich diese Beweise am besten beseitigen."
+
+
+Das ist der letzte Eintrag in das Tagebuch. Ungefähr ein Drittel der Seiten bleibt leer.~ 
+@1002 = ~Yoshimo hat sein Tagebuch nicht sehr gewissenhaft geführt. Die ersten Seiten sind mit willkürlichen Notizen über erledigte Aufgaben, gesammelte Belohnungen, gewonne Freunde und verdatterte Feinde gefüllt. Einige Briefe, mit eleganter, weiblicher Hand auf Feinpapier geschrieben, sind zwischen die Seiten geklemmt, mit einigen an die Ränder gekritzelte belustigte Bemerkungen.
+
+Obwohl immer noch nicht sehr planmäßig, beginnen regelmäßigere Einträge vor etwas mehr als einem Jahr.
+
+
+"29 Mirtul, 1358
+
+Ging einige alte Briefe durch - sind es drei Jahre her, seit ich Tamoko sah? Das kann nicht wahr sein.
+
+'Die Sanfte' setzte bei Flut Segel. Die Nichte des Kapitäns ist von einem ungewöhnlich starkem Interesse für importierte Waren besessen. Ich nehme an, dass es eine vergebene Hoffnung ist, dass sie keinen Magen für die See hat, so dass ich sie nicht in meiner Kajüte behalten muss, um sie zu meiden. Der zweite Maat scheint ein Falschspieler zu sein.
+
+13 Eleint, 1358
+
+Athkatla ist so angenehm geldgierig wie immer, aber einige gewissenhafte neutrale Schleicher gehen außerhalb meines Gasthofs auf Streife und werfen mir jedes mal, wenn ich vorbeikomme, schmutzige Blicke entgegen. Die Innung der Diebe findet offensichtlich, dass ich ihre Gastfreundschaft wieder überbeansprucht habe. Vielleicht sollte ich mich zur Abwechselung darauf konzentrieren, Tamoko zu finden.
+
+18 Eleint, 1358
+
+Machte keinen Sinn, nachts in die Berge loszuziehen; wartete den rechten Augenblick in Crimmor ab, während ich lauschte, was die Stadt zu sagen hat. Zu meiner Überraschung hörte ich einige Reisende über den Gefährten von Sarevok sprechen, den Tamoko erwähnt hat. Große Erwartungen, Verbindungen zum Eisenthron, gibt eine gute Figur ab, wirft einen dunklen Schatten - derselbe Mann. Klingt, als ob er eine Art Aufregung in Baldurs Tor verursacht hat.
+
+Sie hat häufig von ihm geschrieben, aber wenig. Er klang nach Schwierigkeiten, aber ich glaube, dass sie genug gesunden Verstand gehabt hat, um sich da heraushalten. Sie hörte sich jedoch ihm sehr verpflichtet an.
+
+25 Eleint, 1358
+
+Verbrachte die Nacht im Windigen Schwindler in Beregost. Ein betrunkener Söldner beharrte darauf, meine Katana zu probieren - jedes Ende davon. Lenkte ihn mit einer Bestellung an den Gastwirt ab, um eine Probe von mehreren seiner Fässer zu bringen, und um für Nachschub zu sorgen.
+
+Bevor er irgendwo unter dem Tisch dem verschwand, was, wie ich annehme, der bessere Teil der Woche wäre, lallte der Mann einige beunruhigende Dinge über den Krawall in Baldurs Tor. Ich kann nur hoffen, dass Tamoko nicht beteiligt ist.
+
+Gemäß dem Herrn ist jeder jetzt sehr aufgeregt über jemanden namens <CHARNAME>, und was <PRO_HESHE> diesem Sarevok angetan hat und so. Er ließ sich jedoch weiter darüber aus, dass etwas mit <PRO_HIMHER> nicht stimmt, auch, dass eines Tages dieser neue Stolz der Stadt wie der letzte ausrasten wird. Anscheinend hat er sowohl Sarevok als auch <CHARNAME> einmal von fern gesehen, vielleicht inmitten einer Menge, daher könnte er das wissen.
+
+8 Marpenoth, 1358
+
+Streifte in den letzten paar Tagen und Nächten durch die Straßen von Baldurs Tor. Eisenthron-Hauptquartier in einem Zustand von peinlicher Unordnung. Fand den Gasthof, den Tamoko als ihre letzte Zuflucht erwähnte: schmuddelig, illegal, unter ihrer Würde. Entdeckte sie im Buch des Gastwirts unter einem falschen Namen, mit einer liegen gebliebenen Rechnung vom 12 Flamerule. Schlich mich raus, bevor der Mann auf die Idee kam, mich sofort bezahlen zu lassen.
+
+10 Marpenoth, 1358
+
+Hörte einige Soldaten der Flammenden Faust über <CHARNAME> sprechen, dass <PRO_HESHE> eigenhändig diesen irrenhausreifen Bastard Sarevok und alle seine Anhänger ermordete. Sie fuhren fort, <PRO_HISHER>e leuchtenden Augen, donnernde Stimme und Siebenmeilenschritte zu beschreiben. Ich reiste ab.
+
+11 Marpenoth, 1358
+
+(Ein Zettel, ausgerissen aus einem Rechnungsbuch, gekennzeichnet mit dem Symbol von Kelemvor, ist zwischen den Seiten des Tagebuchs gefaltet:)
+
+MENSCHLICHE FRAU; ALTER ETWA 30; KARA-TURAN?
+- ALLEE NAHE DEM SCHWARZER-DRACHEN-TOR
+- KEINE OFFENENSICHTLICHEN ANZEICHEN VON GEWALT, KRANKHEIT, ODER ZERFALL; MAGISCHE TODESURSACHE?
+- PRUNKHARNISCH MIT EINGRAVIERTEN TYRANNOS ABZEICHEN; FILIGRANE ORIENTALISCHE SCHRIFTZEICHEN IN GOLD ÜBER DEM HERZ; VERKAUFT AN ALLERLEI ZAUBEREI FÜR 17.000
+
+BEGRABEN
+
+13 Marpenoth, 1358
+
+Entweder Sarevok oder <CHARNAME> könnten sie getötet haben. Aber sie glaubte zu jener Zeit an Sarevok, und Sarevok ist außerhalb meiner Rache.
+
+15 Marpenoth, 1358
+
+Das eine oder andere Fest wurde in der Stadt gefeiert, und ich sah <CHARNAME> aus der Ferne in der Nähe des Herzöglichen Palasts - <PRO_HESHE> sah nicht danach aus, als ob <PRO_HESHE> meine Schwester zu töten.
+
+16 Marpenoth, 1358
+
+Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an  den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
+
+18 Marpenoth, 1358
+
+Ich wurde bemerkt. Eine blasse Frau in schwarzem Leder hielt mich heute Abend in der Taverne an, wo ich saß und <CHARNAME> beobachtete.
+
+'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure  leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
+
+Sie bot mir an, ihr in die kühle Nacht zu folgen, und die feuchten Gassen entlang, bis wir zu dem Ort kamen, wo die Stadt ihre namenlosen Toten vergisst. Dort zeigte sie auf ein Grab unter Reihen von Gräbern, jedes wiederverwendet, wenn die alte Einwohner verrottet sind. Dieses eine war ausgehoben. 
+
+Die Frau öffnete den billigen Sarg, und darin lag Tamoko, im Schlaf ausgesteckt wie ein Kind. Tot.
+
+20 Marpenoth, 1358
+
+Bodhi arbeitet für einen maskierten Mann namens Irenicus, zumindest theoretisch. Sie versicherten mir, dass <CHARNAME> meine Schwester tötete. Und dass ich meine Rache bekommen werde - aber zuerst muss <PRO_HESHE> von mir zu Irenicus gebracht werden. Lebendig.
+
+22 Marpenoth, 1358
+
+Ich brauche mich keinen Sinnestäuschungen mehr hinzugeben: ich habe die Wirklichkeit, Tamokos Gesicht in eine unnatürliche Gelassenheit versetzt, die nicht einmal Verwesung stören kann. Sie ist nicht verfault; sie geht nicht weg.
+
+Es gibt nur eine Möglichkeit, sicher zu sein. Und selbst wenn ich mich irre - keiner von uns ist unschuldig. Auf die eine oder andere Art wird sie gerächt.
+
+23 Marpenoth, 1358
+
+Irenicus forderte ein Fluchgelübde von mir - ein Geas - also schwor ich es. Ich fühle es jetzt kaum; es ist nur ein Zwicken an meiner Schädelbasis.
+
+8 Alturiak, 1359
+
+<CHARNAME> und <PRO_HISHER>e Gruppe wurden gefangen genommen. Blut wurde vergossen, aber Irenicus hat mein gejagtes Objekt so weit weg von mir wie möglich eingesperrt und zu versuchen, ihm meinen Standpunkt darzulegen - oder aufzuzwingen - erwies sich als leibhaftig höchst unklug.
+
+Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge  zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
+
+15 Ches, 1359
+
+In Athkatla. Offensichtlich wurde diese unterirdische Festung nicht an einem Tag gebaut.
+
+Seit wir ankamen, war Irenicus beschäftigt, von seinen neuen Gäste ausgiebig Gebrauch zu machen. Er möchte nicht, dass ich ihm bei seiner Arbeit im Weg stehe, und ich habe nicht den Fehler gemacht, nochmal vorbeizuschleichen, um einen flüchtigen Blick zu erhaschen.
+
+Die Schreie gehen mir auf die Nerven, deshalb bin ich durch die Straßen gewandert, um mich davon abzuhalten, darüber nachzudenken, was sich da unten ereignet. Was immer er ihnen antut, ich wünschte, dass er sich beeilen würde.
+
+20 Ches, 1359
+
+Bodhi hat ihre Zeit damit verbracht, sich selbst in den Straßen der Stadt einzurichten und nach den Schattendieben zu jagen. Sie hat jedoch bestimmt auch schon früher mit ihrer Arbeit begonnen.
+
+Ich versuche, einen Bogen um die kurzen, brutalen Auseinandersetzungen zu machen. Ich fühle das Verlangen, sogar einen gewissen Abstand zu bewahren.
+
+26 Ches, 1359
+
+Irenicus widmet mir nicht viel Aufmerksamkeit und ich habe es geschafft, einige seiner Papiere zu studieren, die, wie ich glaube, nie für meine Augen bestimmt waren. Es gibt viele Notizen über <CHARNAME>, und über <PRO_HISHER> 'Potential'. Früher wurde ich zu sehr verrückt gemacht, um mich über seine Motive zu wundern.
+
+27 Ches, 1359
+
+Ein weitere Notiz fand ich: ein abgefangenes Sendschreiben des Eisenthrons, mit Anweisungen an die Beamten in dem Gebiet von Baldurs Tor, alle früheren Anhänger von Sarevok Anchev, denen es gelungen ist <CHARNAME>s Angriff zu überleben, zu finden und hinzurichten. Der Thron duldet kein Doppelspiel.
+
+Die Liste schließt Winski Perorate, Angelo Dosan, Tazok den Oger, einen Beschwörer namens Semaj, Cythandria, und Tamoko ein, ist aber nicht darauf beschränkt.
+
+18 Tarsakh, 1359
+
+Schließlich hat Irenicus Pläne für mich - und <CHARNAME>. Er will <CHARNAME> in einem sinnlosen Unterfangen den ganzen Weg zu seinem nächsten Lager führen, eine Art Test dieses angeblichen Potentials durchführen - und er will, dass ich in <PRO_HISHER>e Gruppe eindringe, so dass ich ihren Fortschritt überwachen kann.
+
+Natürlich muss auch ich zuerst wegen der Vertrauenswürdigkeit eine Zeit lang in einem Käfig liegen.
+
+25 Tarsakh, 1359
+
+Es ist allgemein eine schlechte Idee, einen Geas zu schwören, wenn Ihr anstelle von Knien und Gehirn Kummer habt.
+
+
+(Der folgende Eintrag wurde offensichtlich eilig geschrieben und blieb undatiert:)
+
+Auch wenn die Ereignisse nicht genau so weitergingen, wie Irenicus es geplant hatte, ist der Mann ein Meister. Nach <CHARNAME>s vorzeitiger Flucht und unäbhängig davon hat alles mit furchterregender Genauigkeit Gestalt angenommen.
+
+Und ich bin nicht weitergekommen, herauszufinden, ob dies meine Rache ist - diese düstere Unklarheit? Ich habe mich tatsächlich in <CHARNAME>s Gruppe eingeschlichen... und ich weiß nicht, ob <PRO_HESHE> Tamoko tötete, ich weiß es nicht. Mögliche Mörder sind im Überfluss vorhanden. Ich schulde einigen von ihnen mein Wort.
+
+Und doch jetzt macht es keinen Unterschied, stimmt's? Wir segeln heute Abend zur Zauberfeste. Aber ich bin verdammt, wenn ich irgendjemanden diesen Beweis meiner Verzweiflung finden ließ."
+
+
+Das ist der letzte Eintrag in das Tagebuch. Ungefähr ein Drittel der Seiten bleibt leer.~
+@1003 = ~Yoshimo hat sein Tagebuch nicht sehr gewissenhaft geführt. Die ersten Seiten sind mit willkürlichen Notizen über erledigte Aufgaben, gesammelte Belohnungen, gewonne Freunde und verdatterte Feinde gefüllt. Einige Briefe, mit eleganter, weiblicher Hand auf Feinpapier geschrieben, sind zwischen die Seiten geklemmt, mit einigen an die Ränder gekritzelte belustigte Bemerkungen.
+
+Obwohl immer noch nicht sehr planmäßig, beginnen regelmäßigere Einträge vor etwas mehr als einem Jahr.
+
+
+"29 Mirtul, 1358
+
+Ging einige alte Briefe durch - sind es drei Jahre her, seit ich Tamoko sah? Das kann nicht wahr sein.
+
+'Die Sanfte' setzte bei Flut Segel. Die Nichte des Kapitäns ist von einem ungewöhnlich starkem Interesse für importierte Waren besessen. Ich nehme an, dass es eine vergebene Hoffnung ist, dass sie keinen Magen für die See hat, so dass ich sie nicht in meiner Kajüte behalten muss, um sie zu meiden. Der zweite Maat scheint ein Falschspieler zu sein.
+
+13 Eleint, 1358
+
+Athkatla ist so angenehm geldgierig wie immer, aber einige gewissenhafte neutrale Schleicher gehen außerhalb meines Gasthofs auf Streife und werfen mir jedes mal, wenn ich vorbeikomme, schmutzige Blicke entgegen. Die Innung der Diebe findet offensichtlich, dass ich ihre Gastfreundschaft wieder überbeansprucht habe. Vielleicht sollte ich mich zur Abwechselung darauf konzentrieren, Tamoko zu finden.
+
+18 Eleint, 1358
+
+Machte keinen Sinn, nachts in die Berge loszuziehen; wartete den rechten Augenblick in Crimmor ab, während ich lauschte, was die Stadt zu sagen hat. Zu meiner Überraschung hörte ich einige Reisende über den Gefährten von Sarevok sprechen, den Tamoko erwähnt hat. Große Erwartungen, Verbindungen zum Eisenthron, gibt eine gute Figur ab, wirft einen dunklen Schatten - derselbe Mann. Klingt, als ob er eine Art Aufregung in Baldurs Tor verursacht hat.
+
+Sie hat häufig von ihm geschrieben, aber wenig. Er klang nach Schwierigkeiten, aber ich glaube, dass sie genug gesunden Verstand gehabt hat, um sich da heraushalten. Sie hörte sich jedoch ihm sehr verpflichtet an.
+
+25 Eleint, 1358
+
+Verbrachte die Nacht im Windigen Schwindler in Beregost. Ein betrunkener Söldner beharrte darauf, meine Katana zu probieren - jedes Ende davon. Lenkte ihn mit einer Bestellung an den Gastwirt ab, um eine Probe von mehreren seiner Fässer zu bringen, und um für Nachschub zu sorgen.
+
+Bevor er irgendwo unter dem Tisch dem verschwand, was, wie ich annehme, der bessere Teil der Woche wäre, lallte der Mann einige beunruhigende Dinge über den Krawall in Baldurs Tor. Ich kann nur hoffen, dass Tamoko nicht beteiligt ist.
+
+Gemäß dem Herrn ist jeder jetzt sehr aufgeregt über jemanden namens <CHARNAME>, und was <PRO_HESHE> diesem Sarevok angetan hat und so. Er ließ sich jedoch weiter darüber aus, dass etwas mit <PRO_HIMHER> nicht stimmt, auch, dass eines Tages dieser neue Stolz der Stadt wie der letzte ausrasten wird. Anscheinend hat er sowohl Sarevok als auch <CHARNAME> einmal von fern gesehen, vielleicht inmitten einer Menge, daher könnte er das wissen.
+
+8 Marpenoth, 1358
+
+Streifte in den letzten paar Tagen und Nächten durch die Straßen von Baldurs Tor. Eisenthron-Hauptquartier in einem Zustand von peinlicher Unordnung. Fand den Gasthof, den Tamoko als ihre letzte Zuflucht erwähnte: schmuddelig, illegal, unter ihrer Würde. Entdeckte sie im Buch des Gastwirts unter einem falschen Namen, mit einer liegen gebliebenen Rechnung vom 12 Flamerule. Schlich mich raus, bevor der Mann auf die Idee kam, mich sofort bezahlen zu lassen.
+
+10 Marpenoth, 1358
+
+Hörte einige Soldaten der Flammenden Faust über <CHARNAME> sprechen, dass <PRO_HESHE> eigenhändig diesen irrenhausreifen Bastard Sarevok und alle seine Anhänger ermordete. Sie fuhren fort, <PRO_HISHER>e leuchtenden Augen, donnernde Stimme und Siebenmeilenschritte zu beschreiben. Ich reiste ab.
+
+11 Marpenoth, 1358
+
+(Ein Zettel, ausgerissen aus einem Rechnungsbuch, gekennzeichnet mit dem Symbol von Kelemvor, ist zwischen den Seiten des Tagebuchs gefaltet:)
+
+MENSCHLICHE FRAU; ALTER ETWA 30; KARA-TURAN?
+- ALLEE NAHE DEM SCHWARZER-DRACHEN-TOR
+- KEINE OFFENENSICHTLICHEN ANZEICHEN VON GEWALT, KRANKHEIT, ODER ZERFALL; MAGISCHE TODESURSACHE?
+- PRUNKHARNISCH MIT EINGRAVIERTEN TYRANNOS ABZEICHEN; FILIGRANE ORIENTALISCHE SCHRIFTZEICHEN IN GOLD ÜBER DEM HERZ; VERKAUFT AN ALLERLEI ZAUBEREI FÜR 17.000
+
+BEGRABEN
+
+13 Marpenoth, 1358
+
+Entweder Sarevok oder <CHARNAME> könnten sie getötet haben. Aber sie glaubte zu jener Zeit an Sarevok, und Sarevok ist außerhalb meiner Rache.
+
+15 Marpenoth, 1358
+
+Das eine oder andere Fest wurde in der Stadt gefeiert, und ich sah <CHARNAME> aus der Ferne in der Nähe des Herzöglichen Palasts - <PRO_HESHE> sah nicht danach aus, als ob <PRO_HESHE> meine Schwester zu töten.
+
+16 Marpenoth, 1358
+
+Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an  den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
+
+18 Marpenoth, 1358
+
+Ich wurde bemerkt. Eine blasse Frau in schwarzem Leder hielt mich heute Abend in der Taverne an, wo ich saß und <CHARNAME> beobachtete.
+
+'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure  leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
+
+Sie bot mir an, ihr in die kühle Nacht zu folgen, und die feuchten Gassen entlang, bis wir zu dem Ort kamen, wo die Stadt ihre namenlosen Toten vergisst. Dort zeigte sie auf ein Grab unter Reihen von Gräbern, jedes wiederverwendet, wenn die alte Einwohner verrottet sind. Dieses eine war ausgehoben. 
+
+Die Frau öffnete den billigen Sarg, und darin lag Tamoko, im Schlaf ausgesteckt wie ein Kind. Tot.
+
+20 Marpenoth, 1358
+
+Bodhi arbeitet für einen maskierten Mann namens Irenicus, zumindest theoretisch. Sie versicherten mir, dass <CHARNAME> meine Schwester tötete. Und dass ich meine Rache bekommen werde - aber zuerst muss <PRO_HESHE> von mir zu Irenicus gebracht werden. Lebendig.
+
+22 Marpenoth, 1358
+
+Ich brauche mich keinen Sinnestäuschungen mehr hinzugeben: ich habe die Wirklichkeit, Tamokos Gesicht in eine unnatürliche Gelassenheit versetzt, die nicht einmal Verwesung stören kann. Sie ist nicht verfault; sie geht nicht weg.
+
+Es gibt nur eine Möglichkeit, sicher zu sein. Und selbst wenn ich mich irre - keiner von uns ist unschuldig. Auf die eine oder andere Art wird sie gerächt.
+
+23 Marpenoth, 1358
+
+Irenicus forderte ein Fluchgelübde von mir - ein Geas - also schwor ich es. Ich fühle es jetzt kaum; es ist nur ein Zwicken an meiner Schädelbasis.
+
+8 Alturiak, 1359
+
+<CHARNAME> und <PRO_HISHER>e Gruppe wurden gefangen genommen. Blut wurde vergossen, aber Irenicus hat mein gejagtes Objekt so weit weg von mir wie möglich eingesperrt und zu versuchen, ihm meinen Standpunkt darzulegen - oder aufzuzwingen - erwies sich als leibhaftig höchst unklug.
+
+Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge  zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
+
+15 Ches, 1359
+
+In Athkatla. Offensichtlich wurde diese unterirdische Festung nicht an einem Tag gebaut.
+
+Seit wir ankamen, war Irenicus beschäftigt, von seinen neuen Gäste ausgiebig Gebrauch zu machen. Er möchte nicht, dass ich ihm bei seiner Arbeit im Weg stehe, und ich habe nicht den Fehler gemacht, nochmal vorbeizuschleichen, um einen flüchtigen Blick zu erhaschen.
+
+Die Schreie gehen mir auf die Nerven, deshalb bin ich durch die Straßen gewandert, um mich davon abzuhalten, darüber nachzudenken, was sich da unten ereignet. Was immer er ihnen antut, ich wünschte, dass er sich beeilen würde.
+
+20 Ches, 1359
+
+Bodhi hat ihre Zeit damit verbracht, sich selbst in den Straßen der Stadt einzurichten und nach den Schattendieben zu jagen. Sie hat jedoch bestimmt auch schon früher mit ihrer Arbeit begonnen.
+
+Ich versuche, einen Bogen um die kurzen, brutalen Auseinandersetzungen zu machen. Ich fühle das Verlangen, sogar einen gewissen Abstand zu bewahren.
+
+26 Ches, 1359
+
+Irenicus widmet mir nicht viel Aufmerksamkeit und ich habe es geschafft, einige seiner Papiere zu studieren, die, wie ich glaube, nie für meine Augen bestimmt waren. Es gibt viele Notizen über <CHARNAME>, und über <PRO_HISHER> 'Potential'. Früher wurde ich zu sehr verrückt gemacht, um mich über seine Motive zu wundern.
+
+27 Ches, 1359
+
+Ein weitere Notiz fand ich: ein abgefangenes Sendschreiben des Eisenthrons, mit Anweisungen an die Beamten in dem Gebiet von Baldurs Tor, alle früheren Anhänger von Sarevok Anchev, denen es gelungen ist <CHARNAME>s Angriff zu überleben, zu finden und hinzurichten. Der Thron duldet kein Doppelspiel.
+
+Die Liste schließt Winski Perorate, Angelo Dosan, Tazok den Oger, einen Beschwörer namens Semaj, Cythandria, und Tamoko ein, ist aber nicht darauf beschränkt.
+
+18 Tarsakh, 1359
+
+Schließlich hat Irenicus Pläne für mich - und <CHARNAME>. Er will <CHARNAME> in einem sinnlosen Unterfangen den ganzen Weg zu seinem nächsten Lager führen, eine Art Test dieses angeblichen Potentials durchführen - und er will, dass ich in <PRO_HISHER>e Gruppe eindringe, so dass ich ihren Fortschritt überwachen kann.
+
+Natürlich muss auch ich zuerst wegen der Vertrauenswürdigkeit eine Zeit lang in einem Käfig liegen.
+
+25 Tarsakh, 1359
+
+Es ist allgemein eine schlechte Idee, einen Geas zu schwören, wenn Ihr anstelle von Knien und Gehirn Kummer habt.
+
+
+(Der folgende Eintrag wurde offensichtlich eilig geschrieben und blieb undatiert:)
+
+Auch wenn die Ereignisse nicht genau so weitergingen, wie Irenicus es geplant hatte, ist der Mann ein Meister. Nach <CHARNAME>s vorzeitiger Flucht und unäbhängig davon hat alles mit furchterregender Genauigkeit Gestalt angenommen.
+
+Ich habe mich in <CHARNAME>s Gruppe und ebenso in <PRO_HISHER>e Gunst eingeschlichen, denke ich. Wir hätten Kameraden sein können. Und es kann gut sein, dass <PRO_HESHE> Tamoko nicht tötete.
+
+Und der Schrecken und die Schande sind, dass jetzt es keinen Unterschied macht. Es gibt keine Möglichkeit, zu beenden, was in Bewegung gesesetzt worden ist, wir segeln heute Abend zur Zauberfeste. Aber ich werde verdammt, wenn ich irgendjemanden diese Chronik meiner Unehre finden ließe... Ilmater helfe mir."
+
+
+Das ist der letzte Eintrag in das Tagebuch. Ungefähr ein Drittel der Seiten bleibt leer.~
+@1004 = ~Yoshimos Tagebuch~
+@1005 = ~Diese kurze Klinge, kaum 30 cm lang, sieht eindeutig nach Kara-Turan aus, ist aber  offensichtlich von schlechter Verarbeitung. Das Gleichgewicht weicht etwas ab, die um den Griff gewickelte Seide ist locker, und die Schneide ist lange stumpf. Spuren einer reich verzierten morgenländischen Inschrift blieben hier und dort auf dem Handschutz.
+
+EIGENSCHAFTEN:
+
+ETW0 :-1
+Schaden: 1W8 -1
+Schadensart: durchbohren
+Gewicht: 3
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Scimitar/Wakizashi/Ninja-To
+Typ: 1-händig
+MIndeststärke: 5
+
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern
+  Tiermeistern~
+
+@1298 = ~In den Jahren im Anschluss an sein Wiederaufleben durch <CHARNAME> ließ sich Sarevok nie an irgendeinem Ort lange nieder. In Berdusk hat er eine Armee einfallender Orks besiegt, wie man sagt, und solch schreckliche Macht und Wut gezeigt, dass verängstigte Ortsansässige nicht sicher waren, vor wem sie sich mehr fürchten sollten. In Westtor kam er als Eroberer an, brutal seinen Willen geltend machend, nur um Monate später auf mysteriöse Weise zu verschwinden. Er handelte wie ein Mann, der sich selbst nicht kannte, und alle Geschichten stimmten darin überein, dass Sarevok eine gequälte Seele war, die zwischen Leben und Tod schwankte und niemals eines von beiden erreichte. Schließlich verschwand er, sagte, er müsse die Abyss selbst angreifen, oder sogar sich selbst das Leben nehmen. In Wahrheit reiste er nach Kara-Tur, um seine wahre Liebe, die Kriegerin Tamoko, an dem Ort zu begraben, den sie einmal gewählt hatte. Er kehrte nie zurück, obwohl die Geschichten fortdauern.~
+@1300 = ~Kommt, Gläubige! Empfangt meine schaurige Umarmung. Umarmt den Tod...~
+// alternative: @1300 = ~Kommt, Gläubige. Fühlt meine eisige Umarmung. Umarmt den Tod...~
+@1301  = ~The Murder of Acton Balthis.
+
+Haer'Dalis has just been charged with murder of Lord Acton Balthis, a prominent member of Amn's society. We need to free him before he is executed. Talking to the Chief Inspector Brega would be a good first step.~
+@1302  = ~The Murder of Acton Balthis.
+
+We visted Haer'Dalis in prison. He advised us to visit Lord Balthis' mansion in the Bridge District and talk to Chief Inspector Brega. In the meantime, the guards are preparing for the execution. We only have three days to prove Haer'Dalis not guilty.~
+@1303  = ~The Murder of Acton Balthis.
+
+Pip, a manservant in Lord Balthis' mansion, told us that Haer'Dalis was very interested in the bust of Sune from the mansion. An art collector from the Promenade, Quataris, may know more about this.~
+@1304  = ~The Murder of Acton Balthis.
+
+Chief Inspector Brega told us that Haer'Dalis was suspected in theft, as well. The bust of Sune was missing from Lord Balthis' mansion in the Bridge District. A local art collector from the Promenade, Quataris, may know more. Haer'Dalis will be executed in three days if we do not hurry!~
+@1305  = ~The Murder of Acton Balthis.
+
+Quataris confessed that he hired a thief to steal the bust of Sune from the mansion. Chief Inspector Brega will need his written confession.~
+@1306 = ~The Murder of Acton Balthis.
+
+I killed Quataris and found a bust of Sune on his corpse. Chief Inspector Brega needs to see this.~
+@1307 = ~The Murder of Acton Balthis.
+
+Chief Inspector Brega signed a writ of innocence for Haer'Dalis. Now I can take him from the prison.~
+@1308 = ~The Murder of Acton Balthis.
+
+Haer'Dalis offered me an idea: to catch the real murderer by luring him to Lord Balthis' estate again. If rumors started by Haer'Dalis have reached his ears already, the thief should be there. Chief Inspector Brega will reward us well afterwards.~
+@1309 = ~The Murder of Acton Balthis.
+
+We delivered the news of the real murderer's demise to Chief Inspector Brega, who was very pleased.~
+@1310 = ~The Murder of Acton Balthis.
+
+Haer'Dalis has been executed.~
+@1311 = ~This component is not available for BG2EE.~

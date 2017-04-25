@@ -1,0 +1,18 @@
+IF
+	AreaCheck("AR0300") /* Kulyok */
+	Delay(10)
+	Range([PC],20)
+	ReputationLT([PC],4)
+	!StateCheck([PC],STATE_INVISIBLE)
+	!StateCheck([PC],STATE_IMPROVEDINVISIBILITY)
+	!GlobalTimerNotExpired("RepTrap","GLOBAL")
+	// !GlobalTimerNotExpired("MostNobleOrder","GLOBAL")
+      AreaCheck("AR0300")
+THEN
+	RESPONSE #100
+		// SetGlobal("MostNobleOrder","GLOBAL",1) /* Kulyok */
+		SetGlobalTimer("RepTrap","GLOBAL",1200)
+		Wait(3)
+		DisplayString(Myself,8205)
+		CreateCreatureObject("REPTHF1",Myself,0,0,0)
+END

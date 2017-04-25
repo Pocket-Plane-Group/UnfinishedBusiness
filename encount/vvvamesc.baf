@@ -1,0 +1,74 @@
+IF
+Global("VampShadWar","GLOBAL",6)
+Global("VampShad6Escape","GLOBAL",1)
+THEN
+RESPONSE #100
+EscapeArea()
+END
+
+IF
+Global("VampShadWar","GLOBAL",6)
+AttackedBy([GOODCUTOFF],DEFAULT)
+!Allegiance(Myself,ENEMY)
+THEN
+RESPONSE #100
+SetGlobal("O#UBVampireHostile6","GLOBAL",1)
+Enemy()
+END
+
+IF
+Global("VampShadWar","GLOBAL",6)
+Global("VampShad6Hostile","GLOBAL",1)
+!Allegiance(Myself,ENEMY)
+THEN
+RESPONSE #100
+Enemy()
+END
+
+IF
+Global("VampShadWar","GLOBAL",6)
+Global("O#UBVampireHostile6","GLOBAL",1)
+!Allegiance(Myself,ENEMY)
+THEN
+RESPONSE #100
+Enemy()
+END
+
+IF
+Global("VampShadWar","GLOBAL",6)
+!Global("AranFleeVamp","GLOBAL",1)
+AttackedBy([ANYONE],DEFAULT)
+THEN
+RESPONSE #100
+Attack(LastAttackerOf(Myself))
+END
+
+IF
+Global("VampShadWar","GLOBAL",6)
+!Global("AranFleeVamp","GLOBAL",1)
+See("VVCAT")
+!Dead("VVCAT")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+Global("VampShadWar","GLOBAL",6)
+!Global("AranFleeVamp","GLOBAL",1)
+See("VVRYOKOI")
+!Dead("VVRYOKOI")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+Global("VampShadWar","GLOBAL",6)
+!Global("AranFleeVamp","GLOBAL",1)
+See("VVARKAN")
+!Dead("VVARKAN")
+THEN
+RESPONSE #100
+AttackReevaluate(LastSeenBy(Myself),15)
+END

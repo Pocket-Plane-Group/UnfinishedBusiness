@@ -1,0 +1,28 @@
+IF
+        Global("UBSunaSuddenlyEnemy","LOCALS",0) /* Kulyok */
+        Allegiance(Myself,ENEMY)
+THEN
+        RESPONSE #100
+        ChangeEnemyAlly(Myself,NEUTRAL)
+        SetGlobal("UBSunaSuddenlyEnemy","LOCALS",1)
+END
+
+IF
+	!Detect("Valygar")
+	InParty("Valygar")
+THEN
+	RESPONSE #100
+		MoveToObject("Valygar")
+END
+
+IF
+	Detect("Valygar")
+	InParty("Valygar")
+	!StateCheck("Valgar",CD_STATE_NOTVALID)
+	Global("SunaTalkedValygar","LOCALS",0)
+THEN
+	RESPONSE #100
+  	SetGlobal("SunaTalkedValygar","LOCALS",1)
+	Dialogue("Valygar")
+END
+

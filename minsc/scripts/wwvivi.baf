@@ -1,0 +1,161 @@
+// Minsc fights Vivick setup
+IF
+	Global("WWFightIsOn","GLOBAL",0)
+	Global("WWFightVivickNow","GLOBAL",1)
+	Global("WWFightVivick","GLOBAL",1)		// Minsc set to fight
+THEN
+	RESPONSE #100
+		SetGlobal("WWFightIsOn","GLOBAL",1)
+	    FadeToColor([20.0],0)
+		JumpToPoint([751.477])                            // ie move vivick and Minsc to
+		ActionOverride("Minsc",JumpToPoint([779.454]))
+		MoveViewObject(Myself,INSTANT) 					  // an impassable point so nobody
+	    FadeFromColor([20.0],0)
+	    Wait(3)                                    // can help :)
+		EquipMostDamagingMelee()
+		FaceObject("Minsc")
+	SetGlobal("WWMovePlayers","GLOBAL",1)
+END
+
+// Minsc fights Vivick
+IF
+	Global("WWFightIsOn","GLOBAL",1)
+	Global("WWFightVivick","GLOBAL",1)		// Minsc set to fight
+	HPPercentGT("WWVivi",50)
+	HPPercentGT("Minsc",50)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackOneRound("Minsc")
+END
+
+
+// Setup for PC fight
+IF
+	Global("WWFightIsOn","GLOBAL",0)
+	Global("WWFightVivickNow","GLOBAL",1)
+	Global("WWFightVivick","GLOBAL",2)		// PC set to fight
+THEN
+	RESPONSE #100
+		SetGlobal("WWFightIsOn","GLOBAL",1)
+	    FadeToColor([20.0],0)
+	// During duel, move other players to an impassable area (no helping!)
+		JumpToPoint([751.477])                            // ie move vivick and Player1 to
+		ActionOverride(Player1,JumpToPoint([779.454]))    // an impassable point so nobody
+		MoveViewObject(Myself,INSTANT)                                           // can help :)
+	    FadeFromColor([20.0],0)
+	    Wait(3)
+		SetGlobal("WWMovePlayers","GLOBAL",1)
+		EquipMostDamagingMelee()
+		FaceObject(Player1)
+END
+
+
+
+// PC fights Vivick
+IF
+	Global("WWFightIsOn","GLOBAL",1)
+	Global("WWFightVivick","GLOBAL",2)		// PC set to fight
+	HPPercentGT("WWVivi",50)
+	HPPercentGT(Player1,50)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackOneRound(Player1)
+END
+
+
+// CONSEQUENCES FOR VIVICK FIGHT
+// For either Minsc or PC beating Vivick
+IF
+	Global("WWFightIsOn","GLOBAL",1)
+	!Global("WWThugFight","GLOBAL",1)
+	HPPercentLT("WWVivi",51)                // Vivick loses
+THEN
+	RESPONSE #100
+		SetGlobal("WWFightIsOn","GLOBAL",2)
+		SetGlobal("WWFightVivickNow","GLOBAL",2)	// Denotes Vivick loses
+  		ClearAllActions()
+		StartCutScene("wwover")
+END
+
+
+// If Vivick beats Minsc or PC
+IF
+	Global("WWFightIsOn","GLOBAL",1)
+	OR(2)
+		HPPercentLT("Minsc",51)
+		HPPercentLT(Player1,51)
+THEN
+	RESPONSE #100
+		SetGlobal("WWFightIsOn","GLOBAL",0)  		// it is possible to restart the fight
+		SetGlobal("WWFightVivickNow","GLOBAL",3)	// Denotes Vivick wins
+  		ClearAllActions()
+		StartCutScene("wwover")
+END
+
+// Dialogue if Vivick loses
+IF 
+		Global("WWFightIsOn","GLOBAL",2)
+		Global("WWFightVivickNow","GLOBAL",2)
+		Global("WWStartTalking","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("WWStartTalking","LOCALS",2)
+		StartDialogueNoSet(Player1)
+END
+
+// Dialogue if Vivick wins
+IF 
+		Global("WWFightIsOn","GLOBAL",0)
+		Global("WWFightVivickNow","GLOBAL",3)
+		Global("WWStartTalking","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("WWStartTalking","LOCALS",2)
+		StartDialogueNoSet(Player1)
+END
+
+
+
+// If you want to fight Vivick anyway
+IF
+	Global("WWFightVivickNow","GLOBAL",0)
+	AttackedBy([PC],DEFAULT)
+THEN
+	RESPONSE #100
+		SetGlobal("WWThugFight","GLOBAL",1)
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,[ENEMY])
+	Global("WWSetAll","LOCALS",0)
+THEN
+	RESPONSE #100
+	DisplayStringHead(Myself,@42)
+	SetGlobal("WWSetAll","LOCALS",1)
+	SetGlobal("WWThugFight","GLOBAL",1)
+	Continue()
+END
+
+// If you attack Vivick needlessly, he'll heal himself where necessary
+IF
+	Global("WWThugFight","GLOBAL",1)
+	HPPercentLT(Myself,25)
+	HasItem("Potn08",Myself)
+THEN
+	RESPONSE #100
+	DisplayStringHead(Myself,46150)
+    UseItem("potn08",Myself)
+	Continue()
+END
+
+IF
+	Global("WWThugFight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackOneRound(NearestEnemyOf(Myself))
+END
+

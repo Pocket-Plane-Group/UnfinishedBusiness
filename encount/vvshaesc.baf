@@ -1,0 +1,35 @@
+IF
+Global("VampShadWar","GLOBAL",6)
+Global("AranFleeVamp","GLOBAL",1)
+THEN
+RESPONSE #100
+EscapeArea()
+END
+
+IF
+Global("VampShadWar","GLOBAL",6)
+AttackedBy([GOODCUTOFF],DEFAULT)
+Global("PlayerAttackedAran","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("PlayerAttackedAran","GLOBAL",1)
+END
+
+IF
+Global("VampShadWar","GLOBAL",7)
+AttackedBy([GOODCUTOFF],DEFAULT)
+!Allegiance(Myself,ENEMY)
+THEN
+RESPONSE #100
+SetGlobal("O#UBShadowThieves7Hostile","GLOBAL",1)
+Enemy()
+END
+
+IF
+Global("VampShadWar","GLOBAL",7)
+Global("O#UBShadowThieves7Hostile","GLOBAL",1)
+!Allegiance(Myself,ENEMY)
+THEN
+RESPONSE #100
+Enemy()
+END

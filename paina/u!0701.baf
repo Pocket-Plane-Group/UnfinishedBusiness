@@ -1,0 +1,10 @@
+IF
+  Global("SewerWorkersExist","AR0701",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SewerWorkersExist","AR0701",1)
+    CreateCreature("SPJEAG",[439.1538],11)  // ~Jeagger~
+    CreateCreature("SPHURG",[461.1448],10)  // ~Hurg~
+    SpawnPtDeactivate("SpawnPoint8")
+END
+

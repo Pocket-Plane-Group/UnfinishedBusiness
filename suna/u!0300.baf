@@ -1,0 +1,23 @@
+IF
+  InParty("Valygar")  // Valygar
+  !StateCheck("Valygar",CD_STATE_NOTVALID)  // Valygar
+  Global("SunaTalkedToValygar","GLOBAL",0)
+  Global("SunaSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreatureObjectOffScreen("resuna",Player1,0,0,0)  // ~Suna Seni~
+    SetGlobal("SunaSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  InParty("Valygar")  // Valygar
+  !StateCheck("Valygar",CD_STATE_NOTVALID)  // Valygar
+  Global("SunaLeaves","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SunaLeaves","GLOBAL",2)
+    StartCutSceneMode()
+    Wait(3)
+    ActionOverride("Valygar",StartDialogNoSet(Player1))
+END

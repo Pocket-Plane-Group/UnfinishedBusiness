@@ -1,0 +1,8 @@
+IF
+  Global("UBAX1H07","AR0413",0)
+THEN
+  RESPONSE #100
+      SetGlobal("UBAX1H07","AR0413",1)
+      ActionOverride("Container 1",CreateItem("AX1H07",0,0,0))
+      Continue()
+END

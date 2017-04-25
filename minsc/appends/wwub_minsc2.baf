@@ -1,0 +1,34 @@
+// If at any time Minsc is near dying while Boo is gone, he will leave the party
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("WWMinscLeavesDying","LOCALS",0)
+	OR(3)
+		HPLT(Myself,5)
+		HPPercentLT(Myself,5)
+		Died(Myself)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SG("WWBooGone",4)
+		ClearActions(Myself)
+		LeaveParty()
+		ApplySpell(Myself,CLERIC_HEAL)
+		SetGlobal("WWMinscLeavesDying","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+
+// If at any time, you chuck Minsc from the party while Boo is gone, he will leave FOREVARR!!11 :)
+IF
+  	HasItem("wweboo","Minsc")
+	!Global("WWBetrayedMinsc","GLOBAL",1)
+    !Global("WWMinscLeavesDying","LOCALS",1)
+	Global("WWMinscLeavesForevar","LOCALS",0)
+	!InParty(Myself)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("WWMinscLeavesForevar","LOCALS",1)
+		SG("WWBooGone",4)
+		Dialogue(Player1)
+END

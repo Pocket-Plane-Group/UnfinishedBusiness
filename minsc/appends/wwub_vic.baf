@@ -1,0 +1,16 @@
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BViconia11d","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BViconia11d","LOCALS",90)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("BViconia11d","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("BViconia11d","LOCALS",0)
+END
+

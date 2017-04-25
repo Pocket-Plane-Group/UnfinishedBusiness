@@ -1,0 +1,11 @@
+IF
+	See("c6drizz2")
+	!Dead("c6drizz2")
+	Global("ArtemisTalk","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ArtemisTalk","LOCALS",1)
+		StartDialogueNoSet(player1)
+END
+
+

@@ -1,0 +1,30 @@
+IF
+InParty(Myself)
+Global("ExpBSarevok10","GLOBAL",1)
+Global("U!SRemorse","GLOBAL",0)
+!AreaCheck("AR4500")
+!CombatCounter(0)
+Detect([ENEMY])
+Died([ENEMY])
+THEN
+    RESPONSE #100
+        SetGlobal("U!SRemorse","GLOBAL",1)
+        Continue()
+END
+
+IF
+InParty(Myself)
+!StateCheck(Myself,STATE_SLEEPING)
+CombatCounter(0)
+!Detect([ENEMY])
+See(Player1)
+!StateCheck(Player1,STATE_SLEEPING)
+Global("U!SRemorse","GLOBAL",1)
+THEN
+    RESPONSE #100
+    SetGlobal("U!SRemorse","GLOBAL",2)
+    SmallWait(1)
+    Interact(Player1)
+END
+
+

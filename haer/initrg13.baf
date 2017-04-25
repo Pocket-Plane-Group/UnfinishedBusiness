@@ -1,0 +1,11 @@
+// Guards in Acton Balthis' estate
+IF
+AreaCheck("AR0506")
+Global("O#UBHaerDalisArrested","GLOBAL",2)
+Global("O#UBHaerDalisDestroyedGuardAR0506","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("O#UBHaerDalisDestroyedGuardAR0506","LOCALS",1)
+DestroySelf()
+END
+

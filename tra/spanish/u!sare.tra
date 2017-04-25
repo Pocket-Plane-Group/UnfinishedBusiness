@@ -1,0 +1,591 @@
+@0   = ~El Remordimiento de Sarevok~ 
+
+@6   = ~<CHARNAME>, ¿os importa si os robo un poco de tiempo? Decidme - ¿cómo fue matar a vuestro hermano?.~
+
+@7   = ~¿Y ahora a qué viene *eso*?.~ 
+
+@8   = ~Violento y desagradable, y me dejó un mal sabor de boca del que aún no me he deshecho. ¿Por qué?.~
+
+@9   = ~Demasiado rápido. La muerte de ese bastardo podría haber sido aún más dolorosa.~ 
+
+@10  = ~En realidad no me detuve a reflexionar. Estaba ocupado llevando la cabeza sobre los hombros, sabéis.~ ~En realidad no me detuve a reflexionar. Estaba ocupada llevando la cabeza sobre los hombros, sabéis.~
+
+@11  = ~Era un lunático que atacaba a cualquier cosa que sangrara, e incluso a algunas que no. Me alegró hacer *justicia* con él.~
+
+@12  = ~No sentí unas punzadas fraternales repentinas, si es eso lo que queréis decir.~ 
+
+@13  = ~No sentí unas punzadas de cariño repentinas, si es eso lo que queréis decir.~
+
+@14  = ~Preferiría no hablar de eso, Yoshimo.~ 
+
+@15  = ~Muy bien. Espero que mi mórbida curiosidad no os haya ofendido.~
+
+@16  = ~Mis disculpas, he sido un poco brusco, ¿verdad? Simplemente me preguntaba cómo os sentisteis cuando descubristeis que Sarevok era sangre de vuestra sangre.~
+
+@17  = ~Ya veo. Entonces, ¿alimentó vuestro odio saber que en realidad era vuestro hermano? ¿O acaso el descubrimiento entristeció vuestro corazón?.~ 
+
+@18  = ~Medio hermano. Y sí, saberlo me molestó.~
+
+@19  = ~No pensaba en él como hermano. No le conocía; no sabía nada de él excepto que estaba loco.~ 
+
+@20  = ~Pese a cualquier vínculo que pudiera tener con Sarevok, vengar a mi padre era lo único que me importaba.~
+
+@21  = ~Me hizo preguntarme qué hubiera pasado si... yo hubiera nacido en su lugar, y él en el mío. Pero eso no me disuadió de hacer lo que debía.~
+
+@22  = ~Supongo que no pudisteis tener una positiva conversación entre hermanos, pero me sorprende que no os importara quién era vuestro adversario. He viajado a lo largo y ancho de este mundo, y la familia parece ser siempre una constante, el vínculo más fuerte. ¿Acaso no os afectó en lo más mínimo descubrir que el hombre que ibais a matar era nada menos que vuestro hermano?.~
+
+@23  = ~Me dio que pensar, pero eso no cambió lo que tenía que hacer.~ 
+
+@24  = ~Cuando alguien empuña una espada de dos metros con mi nombre en ella, no me detengo a preguntarle si quiere que vayamos a tomar algo y hablemos del asunto. Lamento desilusionaros.~
+
+@25  = ~Supongo que no pudisteis tener una positiva conversación entre hermano y hermana, pero me sorprende que no os importara quién era vuestro adversario. He viajado a lo largo y ancho de este mundo, y la familia parece ser siempre una constante, el vínculo más fuerte. ¿Acaso no os afectó en lo más mínimo descubrir que el hombre que ibais a matar era nada menos que vuestro hermano?.~ 
+
+@26  = ~He viajado a lo largo y ancho de este mundo, y la familia parece ser siempre una constante, el vínculo más fuerte. ¿Acaso no os afectó en lo más mínimo descubrir que el hombre que ibais a matar era nada menos que vuestro hermano?.~ 
+
+@27  = ~Gorion e Imoen son la única familia que he tenido. No he conocido otro tipo de vínculos.~
+
+@28  = ~Aunque así fuera, vengar a mi padre era lo que importaba.~ 
+
+@29  = ~Entonces la batalla tuvo un matiz muy personal para vos. Odiáis a vuestro enemigo, y se convierte en vuestra familia. Aunque entiendo que tuvisteis que limpiar vuestro camino de hordas de secuaces leales para enfrentaros finalmente a él.~
+
+@30  = ~Por desgracia, sí. Su carisma era una parte de lo que lo hacía tan peligroso. Podía hacer que la gente muriera por él.~
+
+@31  = ~Bueno, intenté hacer que sus sanguinarias mentes entraran en razón siempre que pude, pero a menudo fue en vano. Aunque tampoco siempre.~
+
+@32  = ~Son gajes del oficio. Pero me estropeó mi túnica favorita.~
+
+@33  = ~Sí. Lo cual lamento. Sarevok ya había mutilado y asesinado a mucha gente; ¿por qué tenía que añadirme yo también a la lista?.~
+
+@34  = ~Eligieron seguirle, por lo que decidieron compartir su destino. Yo hice los honores.~
+
+@35  = ~Y entonces continuasteis con vuestra macabra tarea. Consiguió muchos partidarios, ¿no es eso? Pero vos limpiasteis vuestro camino hasta él eliminando todo obstáculo humano.~
+
+@36  = ~Por desgracia, sí, tuve que hacerlo. Su carisma era una parte de lo que lo hacía tan peligroso. Podía hacer que la gente muriera por él.~
+
+@37  = ~Ya sabéis cómo es, intento evitar el derramamiento de sangre siempre que puedo, incluso aunque a menudo es en vano. Pero en ocasiones puedo, y eso tendrá que ser suficiente.~
+
+@38  = ~Desearía no haber tenido que hacerlo. Sarevok ya había mutilado y asesinado a mucha gente; ¿por qué tenía que añadirme yo también a la lista?.~
+
+@39  = ~Ah. Una familia a vuestra manera puede ser tan fuerte como cualquiera basada en los pecados de vuestro padre.~
+
+@40  = ~Incluso ahora estáis luchando por cumplir con vuestro vínculo con vuestra hermana, ¿me equivoco? Cualquier cosa que os impida liberarla, cualquier persona que tengáis que eliminar, parecerá insignificante en comparación.~
+
+@41  = ~Eso me ha molestado. No voy a usar a Imoen para justificar mis acciones.~
+
+@42  = ~Sí. Así es.~
+
+@43  = ~Por supuesto que quiero liberarla, pero también tengo otros motivos para perseguir a Irenicus.~
+
+@44  = ~Estáis llevando las cosas un poco lejos, ¿no creéis? Puede que la preocupación me ofusque, pero al menos intento actuar racionalmente.~
+
+@45  = ~Haría todo eso por cualquiera de mis amigos. ¿Vos no?.~
+
+@46  = ~Una sentencia severa, pero lógica. Supongo que esas situaciones marcaron un rumbo a vuestra vida - y al final vencisteis. Os felicito.~
+
+@47  = ~Parecéis demasiado cerrado de mente como para tener éxito. Bien, prosigamos con nuestra aventura.~ ~Parecéis demasiada cerrada de mente como para tener éxito. Bien, prosigamos con nuestra aventura.~
+
+@48  = ~Una verdadera lástima. Bien, prosigamos nuestro camino, quizás podamos brindar por vuestra impresionante historia al final del día.~
+
+@49  = ~En absoluto. Por supuesto, vuestra supervivencia es un elogio a vuestro sentido común.~
+
+@50  = ~Las cosas nunca son tan simples como para poder hacer lo que es correcto por quienes os importan, ¿no creéis? Pero eso no debe desviaros de vuestro objetivo. Prosigamos con nuestra aventura.~
+
+@51  = ~Eso creo... lanzaros de cabeza al combate es sorprendentemente tentador, ¿no creéis? Incluso aunque en realidad tampoco sea de ayuda. Así que intentemos centrarnos en nuestra misión.~
+
+@52  = ~Ah, sí. Cuidado con la ceguera de los que desean seguir, y con el detestable carisma de los que desean guiar. Gracias por divertirme de nuevo, <CHARNAME>.~
+
+@53  = ~¿Aún podéis sentir compasión, a pesar de todo por lo que habéis pasado? Eso es sorprendente - muchos hubieran sorteado el camino del cinismo. Gracias por divertirme de nuevo.~
+
+@54  = ~Muy cierto, amigo mío - y si de verdad podéis permanecer sereno estando en apuros, me inclino ante vos. Bien, prosigamos con el rescate de la doncella.~ ~Muy cierto, amiga mía - y si de verdad podéis permanecer serena estando en apuros, me inclino ante vos. Bien, prosigamos con el rescate de la doncella.~
+
+@55  = ~¿Incluso aunque os hubieran dado caza como a un perro, creéis que aún podríais sentir clemencia en vuestro corazón? Un carácter muy interesante, <CHARNAME>, si me permitís decirlo. Gracias por divertirme de nuevo.~
+
+@56  = ~¿Yoshimo, decís? Creo que conozco a ese hombre. Vino hace unas pocas semanas, al anochecer, y parecía estar en grave peligro, pero no me reveló lo que le angustiaba.~
+
+@57  = ~Donó una suma sustancial de oro, y me pidió que le guardara algunos de sus efectos personales - me dijo que prefería que no le cogieran muerto con ellos, o por culpa de ellos.~
+
+@58  = ~Eso no le hizo mucho bien.~
+
+@59  = ~Es exactamente lo mismo. Tuvo lo que se merecía.~
+
+@60  = ~Al menos espero que encuentre la paz en la muerte.~
+
+@61  = ~Ya veo. Los acontecimientos se le escaparon de las manos y sufrió mientras luchaba entre su deber y su conciencia. He visto antes ese tormento en otras almas.~
+
+@62  = ~Muy bien, llevaremos su corazón al seno de Ilmater. El Dios que Llora determinará si le espera o no el tormento. Si ha recibido algún castigo inmerecido, ese Yoshimo encontrará alivio en su descanso eterno.~
+
+@63  = ~Decidme, ¿habéis perdonado a ese hombre por su traición?.~
+
+@64  = ~¡Jamás! ¡Puede que Ilmater sí, pero yo no!.~
+
+@65  = ~Me gustaría, pero... no. Hay demasiado que perdonar.~
+
+@66  = ~Creo si le perdono o no ya no importa, ¿no?.~
+
+@67  = ~Ahora sí. Creo que ha recibido lo que se merecía.~
+
+@68  = ~Sí. Su traición me duele, pero a él también le dolió. Desearía que las cosas hubieran acabado de otra manera.~
+
+@69  = ~Sí. Él también fue una víctima. Todo lo que siento por él es lástima.~
+
+@70  = ~Ya veo. Rezaré porque vuestro sufrimiento se alivie al lado de Ilmater. Id en paz, hermano.~ ~Ya veo. Rezaré porque vuestro sufrimiento se alivie al lado de Ilmater. Id en paz, hermana.~
+
+@71  = ~Esperad... ¿podría echar un vistazo a lo que dejó aquí?.~
+
+@72  = ~No tan rápido. Ese imbécil dejó una deuda de dolor y enfado. Creo que cualquier cosa que escondiera aquí me pertenece.~
+
+@73  = ~Gracias. En ese caso, adiós.~
+
+@74  = ~Ya veo. En ese caso, quizás os gustaría echar un vistazo a lo que dejó aquí.~
+
+@75  = ~Sí, así es, así es. Ahora se encuentra con Ilmater, pero vos sois un asunto distinto. Quizás os gustaría echar un vistazo a lo que dejó aquí.~
+
+@76  = ~Sí, ahora se encuentra con Ilmater. Sin embargo, vos sois un asunto distinto. Quizás os gustaría echar un vistazo a lo que dejó aquí.~
+
+@77  = ~Creo que pensaba volver a por sus cosas si sobrevivía, pero parece ser que vos habéis venido en su lugar. Si aún sentís el dolor de su traición, lo que encontréis podría aportaros cierto consuelo, o al menos respuestas.~
+
+@78  = ~Os lo agradecería. Gracias, hermano.~
+
+@79  = ~¿Traicionar el último deseo de un hombre? ¿Seguro que eso es lo correcto?.~
+
+@80  = ~Gracias, pero no. Estoy hasta las narices de Yoshimo.~
+
+@81  = ~Es inútil. Lo que hizo ahora está en el pasado.~
+
+@82  = ~Si las acciones de este hombre han causado sufrimiento, entonces la voluntad de Ilmater es que al menos pueda aliviarlo tras su muerte. Sí, creo que es así como debe ser.~
+
+@83  = ~Bien, si eso creéis... de acuerdo.~
+
+@84  = ~Gracias, pero preferiría no ver sus efectos personales.~
+
+@85  = ~Lo siento, no me habéis convencido. Me marcho ahora mismo, este vudú me está poniendo los pelos de punta.~
+
+@86  = ~Pero el pasado está con nosotros, especialmente cuando menos lo deseamos. Si tenéis dudas sobre si debéis dejar todos esos sucesos atrás, dadle una oportunidad de explicarse a un hombre que murió sufriendo.~
+
+@87  = ~Entonces muy bien.~
+
+@88  = ~Gracias, pero no.~
+
+@89  = ~Lo siento, aún así no. Me marcho ahora mismo, este vudú me está poniendo los pelos de punta.~
+
+@90  = ~Creo que pensaba volver a por sus cosas si sobrevivía, pero... lo siento, hermano, pero no sé si puedo confiaros las últimas posesiones de un difunto.~ ~Creo que pensaba volver a por sus cosas si sobrevivía, pero... lo siento, hermana, pero no sé si puedo confiaros las últimas posesiones de un difunto.~
+
+@91  = ~¡Oh, vamos! ¡He arrastrado su corazón durante todo este tiempo sorteando atajos de dementes y adoradores de arañas! ¿Qué más pruebas necesitáis?.~
+
+@92  = ~Tendéis a juzgar por las apariencias. Un rasgo impropio de un hombre de dios.~
+
+@93  = ~Su traición aún me duele, hermano. Necesito saber por qué hizo lo que hizo.~
+
+@94  = ~Bien. Quedaos con su oro, asqueroso compasivo hipócrita.~
+
+@95  = ~Vuestras palabras tienen mérito. No debería negaros esa oportunidad sin más. Muy bien, dejadme ir a por sus cosas...~
+
+@96  = ~No juzgo por las apariencias, mi buen hombre, sino por lo que veo. Sin embargo, tenéis razón - no debería negaros esa oportunidad sin más. Muy bien, dejadme ir a por sus cosas...~ ~No juzgo por las apariencias, mi buena mujer, sino por lo que veo. Sin embargo, tenéis razón - no debería negaros esa oportunidad sin más. Muy bien, dejadme ir a por sus cosas...~
+
+@299 = ~Bien. En ese caso, dejadme ir a por sus cosas...~
+
+@97  = ~Tomad. Espero que encontréis lo que buscáis. Hasta pronto.~
+
+@98  = ~Como deseéis, hermano. Adiós.~ ~Como deseéis, hermana. Adiós.~
+
+@99  = ~Claro.~
+
+@100 = ~Realmente impresionante.~
+
+@101 = ~¿El qué?.~
+
+@102 = ~Si estáis hablando de la pelea, a mí no me lo parece.~
+
+@103 = ~¿Hay algo en esta matanza sin sentido que os parece *impresionante*? ¿De qué demonios estáis hablando, Sarevok?.~
+
+@104 = ~Así es. Esta carnicería es un espectáculo digno de ver.~
+
+@105 = ~Sí, la batalla fue memorable.~
+
+@106 = ~Sé lo que queréis decir. No podéis evitar que os sorprenda la estupidez de los que ahora están muertos a nuestro paso.~
+
+@107 = ~Gracias. Estoy orgulloso de mis habilidades.~ ~Gracias. Estoy orgullosa de mis habilidades.~
+
+@108 = ~Hmph. Muy cierto, aunque no era eso en lo que pensaba.~
+
+@109 = ~¡Bah! No me refería a vuestras habilidades, sino a la carnicería y la muerte, y a vuestra conexión con ello.~
+
+@110 = ~Demostráis una y otra vez que de hecho sois un engendro del asesinato. De una manera u otra y sea cual sea la situación, quizás incluso a pesar de vuestra reticencia inicial - eso me parece impresionante. ¿A vos no?.~
+
+@111 = ~No. A veces es necesario matar. Que yo sea un hijo de Bhaal es una simple coincidencia.~ ~No. A veces es necesario matar. Que yo sea una hija de Bhaal es una simple coincidencia.~
+
+@112 = ~Intento que no me domine esa actitud. Podría perjudicarme.~
+
+@113 = ~Sarevok, no es porque no me parezca impresionante, sino porque me doy cuenta de que si no fuera por mí, algunos de los que han muerto podrían haber vivido vidas felices y ordinarias.~
+
+@114 = ~Si lo ponéis así... por qué, sí, así es.~
+
+@115 = ~¿De qué creéis que estoy hablando, estúpido? De vos, abriéndoos camino a vuestro destino sin reparar en las vidas de los demás, impidiendo que nada se interponga en vuestro camino.~ ~¿De qué creéis que estoy hablando, estúpida? De vos, abriéndoos camino a vuestro destino sin reparar en las vidas de los demás, impidiendo que nada se interponga en vuestro camino.~
+
+@116 = ~Demostráis una y otra vez que de hecho sois un engendro del asesinato. De una manera u otra y sea cual sea la situación, quizás incluso a pesar de vuestra reticencia inicial. Eso me parece impresionante. ¿A vos no?.~
+
+@117 = ~Es lógico que penséis así, pero no disfruto con esta matanza.~
+
+@118 = ~Ah, me parece que no os falta razón. Aunque aseguraos de no entrometeros en mi camino. Vuestra conexión conmigo no os salvará.~
+
+@119 = ~Muy cierto. Sois muy perspicaz.~
+
+@120 = ~Hago lo que debo hacer. No hagáis una montaña de un grano de arena.~
+
+@121 = ~Me alegra que os divirtáis. Entonces que continúe el espectáculo.~
+
+@122 = ~¿Y por qué no? ¿No estáis impresionado cada vez que sobrevivís a otra batalla? Es un día triste cuando un campeón como vos no se enorgullece de su poder.~ ~¿Y por qué no? ¿No estáis impresionada cada vez que sobrevivís a otra batalla? Es un día triste cuando una campeona como vos no se enorgullece de su poder.~
+
+@123 = ~¿O acaso no sentís que con cada muerte os acercáis un poco más a vuestro destino? Después de todo, toda muerte es una prueba más de que de hecho sois un hijo del Señor del Asesinato, y no un niño llorica de Candelero.~ ~¿O acaso no sentís que con cada muerte os acercáis un poco más a vuestro destino? Después de todo, toda muerte es una prueba más de que de hecho sois una hija del Señor del Asesinato, y no una niña llorica de Candelero.~
+
+@124 = ~Olvidadlo. A veces es necesario matar. Que yo sea un hijo de Bhaal es una simple coincidencia.~ ~Olvidadlo. A veces es necesario matar. Que yo sea una hija de Bhaal es una simple coincidencia.~
+
+@125 = ~Bueno, si me lo ponéis así... supongo que sí.~
+
+@126 = ~Cumplís con vuestra herencia bastante bien, <CHARNAME>. El futuro parece prometedor.~
+
+@127 = ~No quería decir eso. No intento seguir los pasos de un dios muerto.~
+
+@128 = ~Y yo voy a estar a la altura de esa promesa. He estado esperando mucho tiempo para reclamar mi herencia.~
+
+@129 = ~Si eso es lo que nos depara el futuro... puede que sea impresionante, ¿pero prometedor? No lo creo.~
+
+@130 = ~Quizás. Pero más que a eso, me refiero a vuestra conexión con la carnicería.~
+
+@131 = ~Demostráis una y otra vez que de hecho sois un engendro del asesinato. De una manera u otra y sea cual sea la situación, quizás incluso a pesar de vuestra reticencia inicial - eso me parece impresionante. ¿A vos no?.~
+
+@132 = ~En realidad no. Una pelea puede ser emocionante, y a veces es necesario matar, pero que yo sea un hijo de Bhaal es una simple coincidencia.~ ~En realidad no. Una pelea puede ser emocionante, y a veces es necesario matar, pero que yo sea una hija de Bhaal es una simple coincidencia.~
+
+@133 = ~Eso no me enorgullece precisamente. Si no fuera por mí, algunos de los que han muerto podrían haber vivido vidas felices y ordinarias. No es fácil olvidar eso en el fragor de la batalla.~
+
+@134 = ~(Risita.) Parece ser que después de todo tomé la decisión correcta al unirme a vos.~
+
+@135 = ~Como debe ser. Cumplís con vuestra herencia bastante bien, <CHARNAME>. El futuro parece prometedor.~
+
+@136 = ~Y yo intento estar a la altura de esa promesa. He estado esperando mucho tiempo para reclamar mi herencia.~
+
+@137 = ~Yo no estaría tan seguro... siempre hay una trampa. Un castigo merecido.~ ~Yo no estaría tan segura... siempre hay una trampa. Un castigo merecido.~
+
+@138 = ~No puedo creerlo - ¿es que *aún* os negáis a vos mismo lo que sois? ¡Mirad a vuestro alrededor, insensato! La muerte os persigue como una sombra, incluso aunque tengáis demasiado miedo para enfrentaros a ella.~ ~No puedo creerlo - ¿es que *aún* os negáis a vos misma lo que sois? ¡Mirad a vuestro alrededor, insensata! La muerte os persigue como una sombra, incluso aunque tengáis demasiado miedo para enfrentaros a ella.~
+
+@139 = ~Dejadme en paz, Sarevok, no estoy de humor para hablar con vos.~
+
+@140 = ~Puedo enfrentarme a ella. Mato y me conviene. Vos hicisteis lo mismo - incluso ahora haríais lo mismo, ¿me equivoco?.~
+
+@141 = ~No tengo más derecho que los demás de jugar con la muerte. Siempre hay repercusiones.~
+
+@142 = ~Por una vez, dejad a Bhaal fuera de esto. ¿Es que no habéis lamentado causar tanto dolor? ¿Jamás?.~
+
+@143 = ~Ah sí. El pobre <CHARNAME> huye de nuevo. Aunque no me sorprende.~ ~Ah sí. La pobre <CHARNAME> huye de nuevo. Aunque no me sorprende.~
+
+@144 = ~Por supuesto. Pero creo que vuestras palabras no son del todo sinceras.~
+
+@145 = ~Pues sí. Veréis. Mato a todo lo que se interpone en mi camino. O lo que me molesta. Incluyéndoos a vos.~
+
+@146 = ~Supongo que nada de lo que diga podrá convenceros. Juzgad por vos mismo.~
+
+@147 = ~Pensad lo que queráis. Ahora dejadme en paz.~
+
+@148 = ~Lo haré. Pero de momento os habéis ganado el beneficio de la duda.~
+
+@149 = ~No me digáis que lamentáis vuestra necesidad de matar. ¿O es que os lamentáis por los que *habéis* matado? ¿Una persona específica, quizás, o una selección de ellas, a las que no habéis podido sacar de vuestra mente?.~
+
+@150 = ~Inconveniente, pero comprensible. No os prepararon adecuadamente para vuestra inminente ascensión al poder - supongo que sólo se puede esperar que os aferréis a las normas y relaciones mundanas.~
+
+@151 = ~... ¿Perdonad? ¿¡Me estáis *disculpando* por tener conciencia!?.~
+
+@152 = ~Bueno, no, en realidad no era eso lo que quería decir. Aquellos que han muerto bajo mi mano se lo merecían, de una manera u otra.~
+
+@153 = ~Gracias. No es que necesitéis saberlo, pero sí, me lamento por los que he matado. Por demasiados.~
+
+@154 = ~Mundano o no, lamento tener que matar. Si no por el acto en sí, entonces por las consecuencias de las muertes.~
+
+@155 = ~Toda muerte prematura es una gran tragedia. No necesito saber sus nombres para que me importen.~
+
+@156 = ~Es obvio que intentar haceros ver mi punto de vista es una pérdida de tiempo. Prosigamos nuestro camino.~
+
+@157 = ~Soy consciente de que esas nociones atraen a mucha gente, y que os educaron en ellas. Lo único que quiero es que os deis cuenta de lo impropio que es para alguien de vuestra categoría que alimentéis esos escrúpulos desmesurados.~
+
+@158 = ~¿Y vos no tenéis escrúpulos en seguir el mismo camino que antes?.~
+
+@159 = ~Vaya, gracias. Creo que ya no queda nada más que decirnos.~
+
+@160 = ~¿De verdad aún pensáis así? ¿Aún no habéis aprendido que sólo cosecharéis la misma maldad que sembréis?.~
+
+@161 = ~Sabéis, sé de buena tinta que incluso vos habéis roto esa creencia, en vuestros tiempos, y que en realidad os importaba alguien.~
+
+@162 = ~Bah. Intentad centraros en los hechos, <CHARNAME>. Manchado de sangre y victorioso, ya no os podéis echar atrás.~ ~Bah. Intentad centraros en los hechos, <CHARNAME>. Manchada de sangre y victoriosa, ya no os podéis echar atrás.~
+
+@163 = ~Aparte de vuestra habilidad de eliminar a cualquiera que se oponga a vos, ¿de qué os preocupáis? Tenéis un obstáculo menos en vuestro camino, *esa* es la consecuencia. Así que aseguraos de haber elegido bien el camino.~
+
+@164 = ~Quizás sea un obstáculo menos, pero ¿qué pasa con quienes amaban a los caídos?.~
+
+@165 = ~Si queréis consecuencias, usadme a mí como ejemplo. Nunca hubiera ido a por vos - si no hubierais asesinado a Gorion. Vos mismo propiciasteis vuestra caída.~
+
+@166 = ~Eso es lo que vos pensáis, pero todos tendemos a recibir lo que merecemos al final. Ya lo veréis.~
+
+@167 = ~Esa es una filosofía muy fría, pero supongo que se ajusta a vuestros propósitos.~
+
+@168 = ~No sabéis de qué habláis. Dejadme en paz.~
+
+@169 = ~¿Por qué? ¿Qué os lo impide? Sentís la pasión de la batalla; lo he visto en vos. Y ninguna petición educada apartará los obstáculos de vuestro camino, vos lo sabéis.~
+
+@170 = ~Pues entonces no pensemos en las víctimas. ¿Y qué pasa con quienes amaban a los caídos?.~
+
+@171 = ~Bien, usadme a mí como ejemplo. Nunca hubiera ido a por vos - si no hubierais asesinado a Gorion. Vos mismo propiciasteis vuestra caída.~
+
+@172 = ~Eso es irrelevante.~
+
+@173 = ~Bien. Pues si no las masas sin nombre, ¿qué pasa con los que lo tienen? ¿Es que a vos nunca os ha importado que alguien sufra por vuestra culpa?.~
+
+@174 = ~Fenomenal. Si de verdad eso es lo que pensáis, creo que no tiene sentido continuar con esta conversación.~
+
+@175 = ~¿Eso creéis? Si no hubierais asesinado a Gorion, yo no hubiera ido a por vos. A mí me parece muy relevante.~
+
+@176 = ~No lo creo. Esas cosas se vuelven en vuestra contra de un modo u otro cuando menos os lo esperáis.~
+
+@177 = ~Bien, nos acercamos ligeramente. ¿Hasta dónde creéis que llegaréis?.~
+
+@178 = ~En la mayor parte de las cosas me ha funcionado bien. Y me conocéis bien como para intentar inculcarme vuestro moralismo, <CHARNAME>.~
+
+@179 = ~Ahorráoslo. Si decís que a vos nunca os ha importado que alguien sufra por vuestra culpa, sois un mentiroso.~
+
+@180 = ~Oh, yo no intentaría cambiaros de cara al mundo. Admirablemente, tenéis la convicción de vivir de acuerdo con lo que predicáis.~
+
+@181 = ~Sí, sí, vos estáis más allá de esas trivialidades. ¿Quién sabe? Quizás ese plan funcione mejor *esta* vez.~
+
+@182 = ~(Suspiro) Supongo que sí. Mejor me callo.~
+
+@183 = ~Quizás sí. Siempre supe que erais una amenaza, pero demostrasteis ser imprevisible en más de un sentido.~
+
+@184 = ~Aunque uno de los dos estaba destinado a acabar con el otro. Dudo que vuestra relación con el viejo marcara una gran diferencia en ese aspecto.~
+
+@185 = ~Os lo aseguro. Y si decís que a vos nunca os ha importado que alguien sufra por vuestra culpa, sois un mentiroso.~
+
+@186 = ~Será mejor que lo creáis. Hubiera hecho cualquier cosa para vengarle.~
+
+@187 = ~(Suspiro) Quizás debería callarme. En qué estaba pensando...~
+
+@188 = ~Bueno, parece ser que esto ha hecho milagros para que nos comprendamos. ¿Qué tal si dejamos de hablarnos durante un rato?.~
+
+@189 = ~Esto podría ser interesante. ¿Cómo pudisteis llegar a la conclusión de que soy algo más que un demonio sin piedad?.~
+
+@190 = ~Estoy hablando de Tamoko.~
+
+@191 = ~Alguien hubiera muerto por vos. Creo que ya sabéis a quién me refiero.~
+
+@192 = ~Me habéis entendido mal. Mi conclusión es que sois por completo el demonio sin piedad que parecéis ser. Demuestra que me equivoco.~
+
+@193 = ~Bueno, sólo era... una suposición. Pensé que podríais tener otras facetas.~
+
+@194 = ~Pero por supuesto que sí. Bien, hermano <CHARNAME>, parece ser que esta vez no tenéis pruebas que confirmen vuestra teoría. Aunque sin duda no hace falta que os lo diga.~ ~Pero por supuesto que sí. Bien, hermana <CHARNAME>, parece ser que esta vez no tenéis pruebas que confirmen vuestra teoría. Aunque sin duda no hace falta que os lo diga.~
+
+@195 = ~No lo creo, querido hermano <CHARNAME>. Creo que me preferís de la manera que soy ahora. Sería un lástima poner en peligro la excelente comprensión que existe entre ambos.~ ~No lo creo, querida hermana <CHARNAME>. Creo que me preferís de la manera que soy ahora. Sería un lástima poner en peligro la excelente comprensión que existe entre ambos.~
+
+@196 = ~Hmm. Muy bien, <CHARNAME>. Una buena apuesta, aunque no muy sabia precisamente.~
+
+@197 = ~(Sarevok guarda silencio por un momento.) Lo sepáis o no, estáis hablando de Tamoko. Sé que se enfrentó a vos.~
+
+@198 = ~Así es. Y vos forzasteis ese enfrentamiento. Ahora está muerta, por vuestra culpa. ¿Es eso también irrelevante?.~
+
+@199 = ~Sí. Después de todo, os hubiera defendido hasta la muerte para ganar vuestro favor. Aunque no quise luchar con ella.~
+
+@200 = ~Intentó reclutarme para su plan aunque no pretendía mataros, sino salvaros. Un poco demasiado optimista de su parte... bueno, supongo que ahora es discutible.~
+
+@201 = ~Y yo la maté. Ella también se lo buscó, aunque seguro que vos y vuestra influencia tampoco ayudaron mucho.~
+
+@202 = ~¿Qué, he oído un indicio de emoción? No estáis tan muerto para el mundo como quisierais, ¿hm?.~
+
+@203 = ~Podría ser. Pero ahora eso es agua pasada, ¿no creéis?.~
+
+@204 = ~No sé de qué me estáis hablando.~
+
+@205 = ~(Sarevok guarda silencio por un momento.) Me sorprende que la recordéis. Sé que se enfrentó a vos, pero no la podríais haber conocido mucho antes.~
+
+@206 = ~Tengo buena memoria. Vos forzasteis ese enfrentamiento - ahora está muerta, por vuestra culpa. ¿Es eso también irrelevante?.~
+
+@207 = ~Después de todo, os hubiera defendido hasta la muerte para ganar vuestro favor. Eso me impresionó. Aunque no quise luchar con ella.~
+
+@208 = ~Supongo que estamos de acuerdo en que era memorable. Intentó reclutarme para su plan aunque no pretendía mataros, sino salvaros. Un poco demasiado optimista de su parte... bueno, supongo que ahora es discutible.~
+
+@209 = ~Sí, recuerdo haberla matado. Ella también se lo buscó, aunque seguro que vos y vuestra influencia tampoco ayudaron mucho.~
+
+@210 = ~Oh, de acuerdo, eso es agua pasada, supongo que ya no cambia las cosas. No importa.~
+
+@211 = ~Oh sí, Tamoko, vos forzasteis el enfrentamiento entre ella y yo, sabéis. Ahora está muerta, por vuestra culpa. ¿Es eso también irrelevante?.~
+
+@212 = ~Así es. Después de todo, os hubiera defendido hasta la muerte para ganar vuestro favor. Aunque no quise luchar con ella.~
+
+@213 = ~Sí, recuerdo que intentó reclutarme para su plan aunque no pretendía mataros, sino salvaros. Un poco demasiado optimista de su parte... bueno, supongo que ahora es discutible.~
+
+@214 = ~No supongáis nada sobre ella. Su idea de "salvarme" sería diferente de la que vos pensabais.~
+
+@215 = ~Pero ella estaba absolutamente decidida... por lo que se enfrentó a vos. Y ahora está muerta. Me interesa saber cómo sucedió.~
+
+@216 = ~Creo que ya lo sabéis. Vos forzasteis el enfrentamiento entre ella y yo - está muerta, por vuestra culpa. ¿Es eso también irrelevante?.~
+
+@217 = ~¿Por qué me miráis? No tengo ni idea de cómo murió.~
+
+@218 = ~No lo sé, no quise luchar con ella. Aunque os hubiera defendido hasta la muerte para ganar vuestro favor, después de todo, a pesar de sus planes contra vuestras ambiciones y estratagemas.~
+
+@219 = ~Debería haberme imaginado que no os importaría en lo más mínimo.~
+
+@220 = ~¿Vos qué creéis? La maté. Ella también se lo buscó, aunque seguro que vos y vuestra influencia tampoco ayudaron mucho.~
+
+@221 = ~No tan rápido, hacedme el favor. Tamoko se enfrentó a vos, y ahora está muerta. Tengo el derecho de saberlo. Y me *interesa* saber qué pasó.~
+
+@222 = ~¿No la matasteis?.~
+
+@223 = ~Quizás no. O quizás sí. De todas maneras eso pasó hace mucho tiempo. ¿Es que acaso importa si se encontraba entre la irrelevante masa?.~
+
+@224 = ~No. Y además, ella dijo que vos y yo éramos diferentes. No quise matarla sólo porque se cruzara en mi camino; vos no hubierais tenido esos escrúpulos. Así que volvió la espalda a lo que os habíais convertido. Consintió que os detuviera a cualquier coste.~
+
+@225 = ~"Cuidado con la ceguera de los que desean seguir, y con el detestable carisma de los que desean guiar." Eso es lo que me dijo, antes de dejarme que me ocupara de vos como considerara oportuno.~
+
+@300 = ~Algo extraordinario en vos, ¿no? No sé quién la libró de su desgracia, pero no fui yo.~
+
+@226 = ~No, no la maté. Y si está muerta, hiciera quien lo hiciera, tenéis tanta culpa como si vos mismo hubierais dado el golpe final.~
+
+@227 = ~Ya veo. Ese fue el camino que eligió.~
+
+@228 = ~(Sarevok os mira fijamente durante un rato. Luego, bruscamente, aparta la mirada.) Parece ser que eso le hizo muy poco bien al final.~
+
+@229 = ~Mirad, lo siento si he abierto viejas heridas. Mi punto de vista es que si no lamentáis nada de vuestro pasado, pues bien. Pero si es así, ahora tenéis la oportunidad de ser alguien diferente.~
+
+@230 = ~Hay algo más. ¿El nombre Yoshimo significa algo para vos?.~
+
+@231 = ~¿Es que acaso no os importa nada? ¿Ni siquiera su rechazo os hace desear que pudierais deshacer algunas cosas del pasado?.~
+
+@232 = ~En realidad, quizás sí. Si ella no hubiera muerto, probablemente ahora no tendríamos esta conversación.~
+
+@233 = ~(Sarevok os mira fijamente por un momento, como si midiera vuestras palabras. Veis cómo la ira crece en sus ojos.) Su muerte fue... una desgracia.~
+
+@234 = ~Sí, una desgracia. Así que no seas estúpido y haced que mate a alguien que os importe ahora mismo y os sentiréis mejor.~
+
+@235 = ~Sí, una desgracia. ¿Y si esta vez intentáis proteger a los que os importan?.~
+
+@236 = ~O una suerte, si lo miráis desde otro punto de vista. Si ella no hubiera muerto, lo más probable es que ahora no tendríamos esta conversación.~
+
+@237 = ~Entonces es como supuse. (Sarevok os mira fijamente por un momento, su expresión es insondable.) Su muerte fue... una desgracia.~
+
+@238 = ~Mirad, lo siento si he abierto viejas heridas. Mi punto de vista es que si no lamentáis nada de vuestro pasado, pues bien. Pero si es así, ahora tenéis la oportunidad de cambiar.~
+
+@239 = ~... Por supuesto. El hermano de Tamoko. Lo nombró muchas veces.~
+
+@240 = ~(Sarevok os clava la mirada.) ¿Qué sabéis de él?.~
+
+@241 = ~Yoshimo me vendió a Irenicus para poder vengar a su hermana - aunque fuiste vos el responsable de su muerte. De la muerte de ambos.~
+
+@242 = ~Estaba destrozado por la muerte de su hermana, e intentó vengar su muerte - conmigo, al ser el sospechoso más obvio.~ ~Estaba destrozado por la muerte de su hermana, e intentó vengar su muerte - conmigo, al ser la sospechosa más obvia.~
+
+@243 = ~Me buscó en Athkatla para vengar a su hermana. Ahora él también está muerto, porque ella intentó salvaros de vos mismo.~
+
+@244 = ~Encontré su diario. Aunque no fue tan interesante como leer el vuestro...~
+
+@245 = ~Nunca podéis decir hasta dónde llegarán las repercusiones, ¿no creéis? Él también está muerto, sabéis. Y lo único que quería era encontrar a su hermana.~
+
+@246 = ~*Gracias*. Por supuesto que cayó a vuestras manos, y qué más. (Sarevok hace una ligera mueca.) ¿Qué es una degradación más en este punto?.~
+
+@247 = ~(Sonríe) No deberíais haber confiado en esa zorra para que hiciera guardia adecuadamente. Cythandria, ¿me equivoco?.~
+
+@248 = ~En realidad, creo que explicaba muchas cosas sobre vos. Por no mencionar que vuestras propias palabras fueron unas buenas pruebas en vuestra contra.~
+
+@249 = ~Creo que no fue tan degradante como... curioso. Sobre todo teniendo en cuenta lo mucho que parecéis haber cambiado en estos últimos días.~
+
+@250 = ~Eso apenas es relevante. Me estabais hablando de Yoshimo.~
+
+@251 = ~Sí, Yoshimo... el pobre hombre no tuvo ninguna posibilidad. Me vendió a Irenicus, con la esperanza de poder vengarse de mí por la muerte de su hermana. Poco sabía que erais vos al que debía haber perseguido.~
+
+@252 = ~No queda mucho que decir. Intentó vengar a su hermana en vano.~
+
+@253 = ~Qué sutil. Bien, ahora está muerto - y vuestras maquinaciones tienen la culpa.~
+
+@254 = ~No hace falta que os pongas así. De todas maneras, parece ser que habéis cambiado bastante en estos últimos días.~
+
+@255 = ~Así es.~
+
+@256 = ~Aunque todavía tenéis el mismo carisma. ¿Preferís hablar de Yoshimo?.~
+
+@257 = ~De acuerdo, de acuerdo. Considerad el tema cerrado.~
+
+@258 = ~En ese caso supongo que no. Bien, me ha gustado hablar con vos.~
+
+@259 = ~Sí, volvamos a Yoshimo. Exactamente, ¿cómo conseguisteis su diario?.~
+
+@260 = ~¿Qué importa eso? Él está muerto por vuestra culpa, con que sepáis eso ya es suficiente.~
+
+@261 = ~Él fue quien me vendió a Irenicus. Pero ahora está muerto, y vos, a quien debería haber perseguido, estáis vivo.~
+
+@262 = ~En un templo de Ilmater. Lo cambié por su corazón. Sólo espero que sirviera para algo, ya que seguro que su muerte no.~
+
+@263 = ~Así que incluso estando más allá de la tumba podría daros una bofetada en la cara. Qué apropiado.~
+
+@264 = ~Nuestro reticente parentesco es más fuerte de lo que imaginaba. (Sarevok esboza una sonrisa breve e irónica.) ¿Os molestó enteraros de que vuestro anterior némesis os condujo a las manos del siguiente?.~
+
+@265 = ~Cómo os atrevéis a reíros de eso... Yoshimo está *muerto*, maldito - ¡él es uno de tantos, de tanta gente que no debería haber muerto!.~
+
+@266 = ~Sin comentarios. Entonces, ¿admitís vuestra culpa?.~
+
+@267 = ~Sí. Al igual que la inútil muerte de Yoshimo.~
+
+@268 = ~No os entiendo. Sé que mis aspiraciones han tenido consecuencias de gran importancia; la diferencia es mínima. Ese tipo de... relaciones perdieron el significado para mí hace mucho tiempo.~
+
+@269 = ~Esperaba que... Esperaba que os dierais cuenta.~
+
+@270 = ~Así que vos y vuestras ambiciones acabaron con alguien que os importaba, y con el fuerte vínculo que tenía con su hermano. ¿Eso no os remuerde la conciencia?.~
+
+@271 = ~Quizás debería dejar que reflexionarais sobre eso. ¿No creéis?.~
+
+@272 = ~Si buscaba venganza, era su propio honor el que defendía, no el de ella. Y si cayó por su propia imprudencia o incompetencia, es culpa suya, no mía.~
+
+@273 = ~A veces la muerte no significa nada más, <CHARNAME>. No hay nada que aprender de su error - y si no matasteis a Tamoko, será un misterio quién lo hizo.~
+
+@274 = ~Quizás, aunque sospecho del Trono de Hierro. Parece ser que tras vuestra caída hicieron una lista para dar caza a cualquiera que se hubiera asociado con vos.~
+
+@275 = ~Según lo que sé, podría haberse quitado su propia vida.~
+
+@276 = ~Creo que incluso es posible que Irenicus o Bodhi la mataran, para echarme la culpa y poder controlar a Yoshimo. Al menos, ellos aprovecharon su muerte.~
+
+@277 = ~Y aquí es donde yo quería llegar. Vos y vuestras ambiciones acabaron con alguien que os importaba, y con el fuerte vínculo que tenía con su hermano. ¿Eso no os remuerde la conciencia?.~
+
+@278 = ~No hay nada que aprender de su error. A veces la muerte no significa nada más, <CHARNAME>.~
+
+@279 = ~Sea como fuere, vos y vuestras ambiciones acabaron con alguien que os importaba, y con el fuerte vínculo que tenía con su hermano. ¿Eso no os remuerde la conciencia?.~
+
+@280 = ~¡Ya es suficiente! ¡<CHARNAME>, os sugiero que dejéis de hablarme como si no supiera que las acciones tienen consecuencias! O como si Tamoko no lo supiera. No consentiré que un adolescente me juzgue.~ ~¡Ya es suficiente! ¡<CHARNAME>, os sugiero que dejéis de hablarme como si no supiera que las acciones tienen consecuencias! O como si Tamoko no lo supiera. No consentiré que una adolescente me juzgue.~
+
+@281 = ~Ese no es el tema...~
+
+@282 = ~No pretendía...~
+
+@283 = ~Eso es, Vos...~
+
+@284 = ~Suponéis demasiado. Suponéis que conocéis mi pasado, y que podéis usar mis emociones en mi contra - cuando no las tengo. Esta conversación ha terminado.~
+
+@285 = ~Hmph. Sólo lo usáis como excusa que os conviene. No hubierais querido saber nada de segundas oportunidades.~
+
+@286 = ~Creo que descubriréis que no me importaría matar a nadie, seáis vos o cualquier otro. Pero reflexionaré vuestras palabras.~
+
+@287 = ~Eso tiene sentido. El Trono lo hubiera hecho por mucho menos - mis acciones lo corroboran. En ese caso... sellé su destino.~
+
+@288 = ~Probablemente no. Aunque dudo que lo hubiera visto de esa manera.~
+
+@289 = ~Sí, fuisteis un lamentable estúpido, ¿no creéis? No teníais nada mejor que hacer con vuestra vida que perseguirme, o morir intentándolo. Sin duda no sospeché que caería a *vuestras* manos.~ ~Sí, fuisteis una lamentable estúpida, ¿no creéis? No teníais nada mejor que hacer con vuestra vida que perseguirme, o morir intentándolo. Sin duda no sospeché que caería a *vuestras* manos.~
+
+@290 = ~Sólo quiero recordaros que si me obligáis, provocaré vuestra caída de nuevo.~
+
+@291 = ~Espero que esta vez estéis tomando apuntes. Hay lecciones más valiosas que otras.~
+
+@292 = ~Así son las cosas, querido hermano. Al final uno siempre recibe lo que se merece, incluso si el destino os atrapa en una forma poco habitual.~
+
+@293 = ~Mala suerte. Vamos.~
+
+@294 = ~Eso ya lo sé, querido hermano.~ ~Eso ya lo sé, querida hermana.~
+
+@295 = ~Hmph. Podéis juzgar por vos mismo, <CHARNAME>.~ ~Hmph. Podéis juzgar por vos misma, <CHARNAME>.~
+
+@296 = ~¿No os dais cuenta de lo patético que ha sonado eso? Llevaos vuestro autoengaño a alguna iglesia en quiebra, a mí no me sirve.~
+
+@297 = ~Os agradezco que os guardéis vuestras especulaciones sobre el tema para vos, <CHARNAME>. ¿No deberíamos movernos?.~
+
+

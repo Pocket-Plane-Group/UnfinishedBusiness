@@ -1,0 +1,1805 @@
+@0    = ~El Rapto de Bubu, por Cliffette~ 
+
+@1    = ~Billy~
+
+@2    = ~Delag~ 
+
+@3    = ~Eforf~
+
+@4    = ~Sten~ 
+
+@5    = ~Vivick~
+
+@6    = ~Smethy~
+
+@7    = ~Eleanya~ 
+
+@8    = ~Mago Encapuchado~
+
+@9    = ~Guardián de De'Lyl~ 
+
+@10   = ~Bubú Pequeñito~
+
+@11   = ~Convocar Bubucito~
+
+@12   = ~ ~ 
+
+@13   = ~"Bubú"~
+
+@14   = ~Este es un pequeño hámster peludito. Minsc cree que es Bubú, un hámster espacial gigante en miniatura, pero vos sabéis que es un impostor que diabólicamente pusisteis en la mochila de Minsc.~ 
+
+@15   = ~Migajas de Bubú.~
+
+@16   = ~No hay nada aquí además de las migajas de la última comida de Bubú.~
+
+@17   = ~Bubú~
+
+@18   = ~Bubú es un pequeño hámster peludito. Minsc cree que este es Bubú, un hámster espacial gigante en miniatura, pero vos creéis que es un hámster normal. 
+
+Un efecto secundario de este rapto es que ahora Bubú es inmune al agua.~ 
+
+@19   = ~¿Perdisteis algún compañero animal, o estáis harto de vuestro familiar? ¡Venid a Mascotas Smethy! (Propaganda autorizada por Aljaf el Loco Original.)~
+
+@20   = ~La relación Suna Seni/Valygar~ 
+
+@21   = ~Suna Seni~ 
+
+@22   = ~Maharajah~
+
+@23   = ~Espada Arbane +3~ 
+
+@24   = ~Espada Arbane de Agilidad
+
+
+
+Una de las muchas creadas con el nombre del mago que descubrió como encantar una espada de esta forma, era la espada del forajido Garno, y muchos clérigos murieron por ella. Garno se desilusionó de los dioses cuando su familia fue quemada viva por los clérigos de Loviatar, y pasó su vida buscando venganza. Se cree que uno de los dioses malos tuvo algo que ver en la adquisición de la espada por Garno.
+
+
+
+ESTADÍSTICAS:
+
+
+
+Habilidades Equipadas: Inmunidad a Contener persona y atontar
+
+Habilidades Especiales: Puede dar celeridad por 12 segundos
+
+THAC0: bonificación +3
+
+Daño: 1D6 + 3
+
+Tipo de daño: punzante
+
+Peso: 2
+
+Factor de Velocidad: 1
+
+Tipo de Talento: Espada Corta
+
+Tipo: 1 mano
+
+Requiere: 5 Fuerza
+
+No usable por:
+
+ El Druida
+
+ El Clérigo
+
+ El Mago
+
+ El Señor de las Bestias~
+
+@25   = ~"Gato y ratón" (Bodhi os persigue en la prisión del hechicero) por Ghreyfain~
+
+@26   = ~Gorje Colinaoscura y la quest extendida del Ilitio~
+
+@27   = ~Quest de Pai'Na~
+
+@28   = ~Taberna Grúa Torcida restaurada~
+
+@29   = ~Encuentros Restaurados~
+
+@30   = ~Restauraciones de objetos~
+
+@31   = ~Bolsa de Piel de Lobo~
+
+@32   = ~Creada con la piel de un gran lobo, esta bolsa puede contener objetos que hayáis acumulado en vuestros viajes.
+
+
+
+ESTADÍSTICAS:
+
+
+
+Capacidad: 10 objetos
+
+Peso: 5~
+
+@33   = ~Cimitarra +1, Shazzellim
+
+
+
+Esta cimitarra de poca calidad tiene un poder muy maligno. Creada con el sólo propósito de matar arpistas. Con cada golpe el bardo debe salvar contra conjuros o morir. Creada por un mago rojo de Thay, la espada también tiene la habilidad de vocalizar, por eso siempre era dada a los guerreros-magos.  
+
+
+
+ESTADÍSTICAS
+
+
+
+Habilidades Equipadas:
+
+ Vocalizar
+
+
+
+Habilidades de Combate:
+
+ Cualquier bardo golpeado debe salvar contra conjuros con una penalización de -4 o morir
+
+
+
+Daño: 1D8 + 1
+
+THAC0: bonificación +1
+
+Tipo de daño: cortante
+
+Peso: 3
+
+Factor de Velocidad: 4
+
+Tipo de Talento: Cimitarra/Wakizashi/Ninja-To
+
+Tipo: 1 mano
+
+Requiere: 10 Fuerza
+
+No usable por:
+
+ El Clérigo
+
+ El Mago
+
+ El Señor de las Bestias
+
+ Personajes de alineación buena~
+
+@34   = ~Cuando es usada, esta varita emite cuerdas de seda como las de las telarañas, pero más largas y fuertes. Las criaturas que queden atrapadas o que simplemente toquen las cuerdas quedarán inmovilizadas.
+
+
+
+Todos en el área de la telaraña deberán salvar contra conjuros con una penalización de -5. Si el salvado es satisfactorio entonces la criatura podrá moverse fuera del área. Un salvado no satisfactorio quiere decir que la criatura quedará en la tela sin poder moverse. Durante cada turno que permanezca en la tela tendrá que salvar contra conjuros.
+
+
+
+ESTADÍSTICAS:
+
+
+
+Efecto: Aprisiona al objetivo a menos que salve contra hechizos con una penalización de -5
+
+Rango: 60 pies
+
+Área de Efecto: Especial
+
+Tiro de salvación: Especial
+
+Duración: 1 turno
+
+Usable por:
+
+ El Mago
+
+ El Bardo~
+
+@35   = ~Mejoras Varias~
+
+@36   = ~Malaaq~
+
+@37   = ~Hendron~
+
+@38   = ~Lellyn~
+
+@39   = ~Perdición de la Araña
+
+
+
+Una vez fue una espada poderosa, ahora la Perdición de la Araña yace en vuestras manos, rota. Todo por el mal uso de los trabajadores de la ciudad, ahora ya no tiene valor, excepto para quien la busca -- Pai'Na.~
+
+@40   = ~Frota la lámpara~
+
+@41   = ~Lámpara del Genio~
+
+@42   = ~Esta es una lámpara pequeña de aceite.
+
+
+
+La niña que Myara cree que es la lámpara que contiene el poder de Kalah. Aunque frotéis y frotéis parece que no sucede nada...~
+
+@43   = ~Esta es una lámpara pequeña de aceite.
+
+
+
+Os han dicho que es una lámpara mágica, que contiene un poderoso Djinni que cumplirá vuestros deseos. Al obtener la palabra de comando de Jafir, el rakshasa quién vendió la lámpara a Kalah, deberéis ser capaz de usarla.
+
+
+
+Simplemente colocadla en vuestro inventario y dadle click para usarla.~
+
+@44   = ~Myara~
+
+@45   = ~Jafir~
+
+@46   = ~Espíritu de Kalah~
+
+@47   = ~Kalah y lo que le fue prometido~
+
+@48   = ~Artemis Entreri en la Cripta de Bodhi~
+
+@49   = ~Restauraciones de portraits de NPCs~
+
+@50   = ~BAMs corregidos~
+
+@51   = ~Restauraciones a los encuentros de los Perros del Infierno~
+
+@52   = ~"Creaciones de Xar" Corregidas~
+
+@53   = ~Nombres de Personajes Corregidos~
+
+@54   = ~Diálogos menores corregidos~
+
+@55   = ~El Encuentro de ManoGris~
+
+@56   = ~ManoGris~
+
+@57   = ~Pregonero Neckeith~
+
+@58   = ~Ladrón de las Sombras Asesino~
+
+@59   = ~Ladrón de las Sombras Arquero~
+
+@60   = ~Ladrón de las Sombras Soldado~
+
+@61   = ~Ladrón de las Sombras Matón~
+
+@62   = ~Ladrón de las Sombras Guardia~
+
+@63   = ~Ladrón de las Sombras Inquisidor~
+
+@64   = ~Ladrón de las Sombras Mago de Batalla~
+
+@65   = ~Amon de la Hermandad Púrpura~
+
+@66   = ~Demonios del Infierno restaurados, por SimDing0~
+
+@67   = ~Imoen Cartesen~
+
+@68   = ~Poderes del Hijo de Baal restaurados, por David Gaider~
+
+@69   = ~Se requiere el Trono de Baal para este componente.~
+
+@70   = ~Portrait Original de Yoshimo~
+
+@71   = ~Arreglo de Gorf el Aplastador, por Gebhard Blucher~
+
+@72   = ~Portrait Original de Anomen~
+
+@73   = ~Descripciones de Objetos de ToB Extendidas~
+
+@74   = ~Figurita Shakti
+
+
+
+Las evidencias indican que este artefacto fue creado por un poderoso Wu Jen en las misteriosas tierras del Faerun Oriental. Esta figura es una réplica en miniatura con todo lujo de detalles de un feroz guerrero Kara Tur en traje de batalla.
+
+
+
+Si se invoca su poder, la estatuilla causa una increíble metamorfosis en el usuario, convirtiéndolo en un gladiador salvaje con armadura azul que esgrime una espada corta en cada mano.
+
+ 
+
+No se sabe si esta increíble figurilla canaliza el espíritu de aquellos guerreros de leyenda o si simplemente libera la furia primigenia que se esconde en el fondo del ser que invoca su poder. 
+
+
+
+ESTADÍSTICAS:
+
+
+
+Utilizable una vez al día
+
+Duración: 4 asaltos
+
+Cambia la CA a -5
+
+Acelera la velocidad del usuario
+
+2 Ataques por asalto con +4 a espada corta como si tuviera dos niveles de habilidad en uso de espada corta.
+
+No utilizable por:
+
+Los Guerreros~
+
+@75   = ~Canalizadora +5 
+
+
+
+El archimago Demron forjó esta mágica espada bastarda para Fflar, Capitán de Myth Drannor y renombrado héroe élfico. Es sin duda el más poderoso de todos los aceros que Demron forjara. Canalizadora absorbe la esencia misma de quien se le opone con cada golpe para cedérsela al quien la esgrime. Hay muchos que piensan que esta capacidad vampírica ha maldecido este acero pues aunque fue creada como un arma de luz y justicia, la oscura historia de Canalizadora está llena de muertes y asesinatos. 
+
+
+
+La mismísima sangre de Demron bautizó la hoja de este acero cuando un ladronzuelo utilizó la espada para dar el estoque final al archimago, si bien el ladrón tampoco sobrevivió al encuentro. Tras el asesinato de Demron, Canalizadora fue recuperada y cedida a Fflar, el héroe elfo, para que defendiera Myth Drannor, la más esplendorosa de las ciudadelas élficas. 
+
+
+
+Pero ni siquiera el poder de Foebane pudo detener las oscuras hordas que se echaron sobre Myth Drannor. Cuando la hermosa ciudad élfica cayó, el capitán Fflar sufrió una cruenta y macabra muerte. La espada se perdió entre los escombros de la que fuera la más maravillosa de las metrópolis élficas. 
+
+
+
+Cuenta la leyenda que el poder de Canalizadora aumenta considerablemente cuando la espada descansa en la Vaina Mágica de Fflar, su auténtico dueño.
+
+
+
+
+
+ESTADÍSTICAS:
+
+
+
+Habilidades especiales: bonificación +1 en todos los tiros de salvación.
+
+Habilidades de combate: Cada tirada certera lanza un conjuro de Drenaje Menor de Larloch sobre la víctima que no tiene tiro de salvación.
+
+
+
+THACO: bonificación +5
+
+Daño: 2D4 + 5, +6 daño contra muertos vivientes, transformistas, y todos los demás seres de los planos exteriores (demonios, etc.) 
+
+Tipo de daño: cortante
+
+Peso: 5
+
+Factor de velocidad: 3
+
+Tipo de habilidad: Espada bastarda
+
+Tipo: 1 mano
+
+Requisito/s: Fuerza 11
+
+No utilizable por:
+
+El Druida
+
+El Clérigo
+
+El Mago
+
+El Ladrón~
+
+@76   = ~Púa de Ixil +6
+
+
+
+Poco después de que la Época Tormentosa comenzara, las tribus nómadas de bandidos se unieron bajo un único líder; un gigante cruel y brutal, Ixil Xaxsha, Señor de la Guerra. Desde su puesto fronterizo en las tierras yermas del desierto oscuro, los nómadas saqueaban las caravanas de mercaderes y aterrorizaban a los incautos viajeros que se atrevían a viajar por el camino que une Calimport a Myratma. 
+
+
+
+Desde entonces circulan leyendas y todo tipo de rumores sobre Ixil, el invencible, que cabalgaba a la cabeza de todos los saqueos enarbolando su infame alabarda mágica. Hay quien piensa que no se trataba de un hombre cualquiera, sino de un demonio en forma humana, materializado en Faerun en medio del caos y la confusión reinante durante la Época Tormentosa. 
+
+
+
+El sadismo salvaje de Ixil hizo muy poco para disipar tales alegaciones. Durante la batalla, el cabezal de la Pica de Ixil, la poderosa alabarda, se desprendía para empalar a las víctimas contra el suelo mientras que un nuevo cabezal se materializaba por arte de magia en el extremo de la alabarda. Ixil acostumbraba a detenerse en el fragor de la batalla para saborear el fútil forcejeo de los enemigos brutalmente empalados por la hambrienta hoja... regocijándose con la insoportable agonía de sus víctimas. 
+
+
+
+Este Señor de la Guerra fue finalmente derrotado cuando alguien lo persuadió para atacar un grupo de poderosos Caballeros y Clérigos de la Orden del Poderoso Corazón, que iban disfrazados de peregrinos. Testigos presenciales aseguran que Ixil no murió sino que fue desterrado a uno de los planos más siniestros e infernales de la existencia por el Clérigo Superior de la Orden. 
+
+
+
+Aunque nunca se encontró el cuerpo de Ixil, la Púa de Ixil, la terrible alabarda símbolo de su poder sí pudo ser recuperada. En un intento por destruir tan temible artefacto, se partió en varios trozos que fueron repartidos por todo lo largo y ancho de las tierras Meridionales.
+
+
+
+ESTADÍSTICAS: 
+
+
+
+Habilidades por equipado: Acción libre permanente.
+
+Habilidades de combate: Con cada tirada de dados certera el contrincante debe superar una tirada de salvación o quedará ensartado durante 3 asaltos con un daño adicional de 1D6+5 por asalto. 
+
+
+
+THAC0: bonificación +6 
+
+Daño: 1D6 + 6 
+
+Tipo de daño: Perforante
+
+Peso: 5 
+
+Factor de velocidad: 2 
+
+Talento marcial: Alabarda
+
+Tipo: 2 manos 
+
+Requiere: Fuerza 5
+
+No utilizable por: 
+
+El Clérigo
+
+El Mago
+
+El Ladrón~
+
+@77   = ~Garrote de detonación +5 
+
+
+
+Una de las fábulas de Amn cuenta la Historia de Nysrogh, un poderoso morador de los planos inferiores liberado por una hechicera descuidada llamada Unileth. 
+
+
+
+Siendo completamente inmune a cualquier arma que se utilizara contra él, Nysrogh corría a sus anchas por todo Amn, y Unileth decidió que era responsabilidad suya acabar con aquella amenaza que ella misma había liberado. Haciendo uso de su conocimiento sobre las debilidades de este demonio, concibió este gran garrote para derrotar a Nysrogh, y se la dio a un valiente y anónimo caballero para que fuera su campeón. 
+
+
+
+El caballero retó a Nysrogh a un combate a muerte, el cual fue aceptado con premura por el demonio, seguro de que ninguna de las armas conocidas en los Reinos podría dañarle. Se encontraron en el campo de batalla pero la fiera y hosca mirada de Nysrogh hizo que el anónimo campeón corriera despavorido dejando el garrote a sus pies.
+
+
+
+Nysrogh se inclinó para reclamar la maza del huido campeón como símbolo de su victoria. Pero cuando la demoníaca garra tocó la superficie del garrote activó un hechizo de cautiverio que le cogió totalmente por sorpresa. La trampa de Unileth había funcionado, y aquel demonio, inmune a toda arma, quedó atrapado para siempre dentro del garrote. 
+
+
+
+El burdo garrote de madera todavía brilla con el rabioso espíritu del demonio que se encuentra atrapado para siempre por poderosos conjuros. En ocasiones, sin embargo, la rabia del demonio consigue escapar con una llamarada explosiva. 
+
+
+
+ESTADÍSTICAS:
+
+
+
+Habilidades de combate:
+
+30% de que el contrincante reciba una daño adicional por fuego de 15 puntos.
+
+5% de que una bola de fuego explote tras superar una tirada de salvación. 
+
+
+
+THAC0: bonificación +5
+
+Daño: 1D6 + 5, +5 daño por quemadura
+
+Tipo de daño: contundente
+
+Peso: 1
+
+Factor de velocidad: 4
+
+Talento marcial: Garrote
+
+Tipo: 1 mano
+
+Requiere: Fuerza 5
+
+No utilizable por:
+
+El Mago~
+
+@78   = ~Carcaj de la abundancia
+
+
+
+Esta es una historia muy popular, si bien nunca se ha podido constatar. Dice la leyenda que este carcaj fue entregado al Duque Orin Gastlecate en calidad de regalo. A Orin le importaban bien poco sus quehaceres políticos y la administración del feudo, y se marchaba a menudo a pasar semanas de caza en la espesura de sus bosques. Llevaba la vida de un cazador solitario.
+
+
+
+Pero por más que lo intentaba, nunca pudo aprender el diestro arte del arquero y, a menudo, tenía que volver al castillo por falta de flechas. Y cada vez que volvía le inundaban las peticiones y los nimios problemas de nobles y mercaderes. 
+
+
+
+Si hemos de creer las historias, se cuenta que una vez se le acercó un mercader sin escrúpulos que le ofreció un regalo a cambio del título de propiedad de las tierras de su ducado: un carcaj que generaría infinitas flechas mágicas. Orin no lo dudó un momento y firmó el trato, pensando que era la solución a todos sus problemas. 
+
+
+
+Qué duda cabe que aquel mercader se estableció rápidamente como un tirano insufrible y cruel, y en el transcurso de un mes los súbditos de Orin destituyeron al nuevo regente y, sacándolo a rastras de su bien amado bosque, obligaron a Orin a que fuera su señor feudal, haciéndolo prisionero en su propio castillo. Para asegurarse de que no escapara al bosque nunca más, escondieron el mágico carcaj, y su sola mención se convirtió en una ofensa que se pagaba con la muerte.
+
+
+
+ESTADÍSTICAS: 
+
+
+
+Flechas +1 infinitas~
+
+@79   = ~Estrella Tormentosa +5
+
+
+
+Esta arma mágica tiene un diseño muy antiguo, tanto que muchos académicos se lo atribuyen al mismísimo Netheril. Aunque tales mazas bañadas en metales conductores se suelen encontrar hacia el Norte, hay algunos rumores tácitos que dicen que este artilugio en particular se perdió en el extremo más austral de los Reinos.
+
+
+
+Las formidables características de Estrella Tormentosa aumentan considerablemente por estar forjada con los restos de una estrella caída. Este extraño material proviene del corazón mismo de un meteorito caído del cielo. Este metal es fácilmente maleable y, a la vez, tremendamente resistente, e irradia calor intenso. Cualquier artilugio forjado con materiales extraterrestres posee sin dudad cualidades de otros mundos.
+
+
+
+A pesar de su tamaño descomunal, Estrella Tormentosa es muy ligera, lo que la hace ideal para el combate. Brilla con espectaculares arcos de electricidad cuando se la esgrime, prueba irrefutable de los hechizos eléctricos imbuidos dentro del cabezal. 
+
+
+
+ESTADÍSTICAS: 
+
+
+
+Habilidades especiales: +20% resistencia eléctrica
+
+Habilidades de combate: 5% con cada tirada certera de conjurar rayos concatenados.
+
+
+
+THACO: bonificación +5 
+
+Daño: 1D6 + 6, +1D6 de daño eléctrico
+
+Tipo de daño: contundente
+
+Peso: 4 
+
+Factor de velocidad: 2 
+
+Talento marcial: maza
+
+Tipo: 1 mano
+
+Requiere: Fuerza 10
+
+No utilizable por: 
+
+El Druida
+
+El Mago
+
+El Ladrón~
+
+@80   = ~Escudo Negroacero +4
+
+
+
+El clan enano de los Clangeddin se hizo famoso por especializarse en el negroacero, un mineral que no existe más que en las casas del clan de los Clangeddin, en lo profundo de las Montañas Fronterizas. En su afán por encontrar más negroacero, los Clangeddin profundizaron más y más en las entrañas de la tierra.
+
+
+
+En una de aquellas expediciones, los siete hijos de Argeld Manodura, líder de los Clangeddin, se perdieron. El único superviviente de la desventurada expedición fue Glimred Manodura, el más joven de los hijos de Argeld. El muchacho volvió contando historias sobre drows, ilícidos  y otras oscuras e innombrables criaturas nunca vistas con anterioridad.
+
+
+
+Argeld estaba desesperado por vengar la muerte de sus hijos, pero no podía enviar a ninguno más de sus súbditos a las profundidades de la montaña para enfrentarse a tales horrores. Sin embargo, el mismo Glimred, estaba decidido. Para ayudar al más joven de sus hijos en su sed de venganza, ordenó a sus maestros herreros la forja del Escudo de Negroacero, un escudo con tantos conjuros de defensa que protege mucho más que la mayoría de las armaduras.
+
+
+
+Pero Glimred era joven e impaciente y no pudo controlar su sed de venganza. Un día se adentró en las oscuras grutas de las Montañas Fronterizas antes de que el escudo pudiera ser terminado. Nunca más se supo de él. La desaparición y supuesta muerte del único superviviente de sus hijos fue demasiado para Argeld y murió con el corazón roto por pena.
+
+
+
+Con su líder muerto y su héroe Glimred desaparecido, los enanos sabían que era sólo cuestión de tiempo antes de que su clan fuese derrotado frente a sus enemigos de la Infraoscuridad. Antes de dispersarse sobre las tierras de Faerun, el clan vendió el escudo al mejor comprador - aunque los herreros enanos aún se niegan a dar a conocer el nombre del comprador. 
+
+
+
+ESTADÍSTICAS: 
+
+
+
+Habilidades: +10% resistencia al fuego, hielo, ácido y veneno. 
+
+
+
+CA: +5 
+
+Peso: 8 
+
+Requiere: Fuerza 15
+
+No utilizable por: 
+
+El Bardo
+
+El Druida
+
+El Mago
+
+El Ladrón~
+
+@81   = ~Equipo de Justiciero~
+
+@82   = ~Justiciero~
+
+@83   = ~Justiciero~
+
+@84   = ~JUSTICIERO: Algunas expediciones son tan exigentes y algunos enemigos tan peligrosos que es necesaria la intervención de un maestro especialista cuyas habilidades combativas exceden en todo a las del explorador común. Se trata de un Justiciero. Un maestro táctico cuyo instinto militar, versatilidad combativa y nervios de acero lo sitúan en la primera línea de los guerreros de élite.
+
+
+
+Para un Justiciero no hay empresa demasiado difícil, ni enemigo demasiado formidable. Su maestría con todo tipo de armas le proporciona una segura ventaja en el combate, si bien el escaso tiempo dedicado a las artes mágicas lo relegan a un segundo plano en este aspecto.
+
+
+
+Su alineamiento ha de ser Legal Bueno.
+
+
+
+Ventajas:
+
+-  +10% movimiento silencioso
+
+-  +1 al factor de velocidad y al THACO por cada 10 niveles
+
+
+
+Desventajas:
+
+-  No poseen el conjuro de Encantamiento animal
+
+-  Sólo pueden realizar:
+
+Curación de Heridas Leves y Armadura de Fe una vez por día a partir del nivel 8
+
+Suerte y Quitar Miedo una vez por día a partir del nivel 10
+
+Fuerza divina una vez por día a partir del nivel 12~
+
+@85   = ~Kit de bosquimán~
+
+@86   = ~Rabia bosquimana~
+
+@87   = ~Llamada de la selva~
+
+@88   = ~Perro salvaje~
+
+@89   = ~Lobo~
+
+@90   = ~Lobo salvaje ~
+
+@91   = ~Líder de la manada~
+
+@92   = ~Bosquimano~
+
+@93   = ~Bosquimana~
+
+@94   = ~BOSQUIMANES: ¿Qué les sucede a los niños que se adentran en la espesura del bosque y nunca vuelven a ser vistos? O peor incluso, ¿a aquellos que son allí abandonados? Muchos perecen ante los muchos peligros del bosque, pero unos pocos con suerte son adoptados y criados por animales, en una camada de leones o de lobos. Separados de la civilización desarrollan gradualmente las características de las criaturas que lo adoptaran, estableciendo una especie de comunión con el espíritu de la selva. En este proceso se convierten en bosquimanos, seres que combinan la ferocidad de las bestias con el intelecto humano.
+
+
+
+Dada su naturaleza salvaje, los bosquimanos no pueden tener un alineamiento Legal. Al igual que los exploradores/guardabosques, sólo pueden ser de alineamiento Bueno.
+
+
+
+Ventajas:
+
+-  +10% al movimiento silencioso.
+
+-  +1 CA en primer nivel, y tienen bono adicional +1 a la CA cada 5 niveles.
+
+-  Pueden propiciar ataques de Rabia Bosquimana una vez al día por cada 10 niveles. El acceso de rabia dura 60 segundos, y otorga un bono de +2 al tiro de golpe, al daño y a la CA; Asimismo, también añade +2 a la tirada de inmunidad contra conjuros, paralización y miedo, laberinto, prisión, aturdimiento y sueño. Añade 15 puntos de vida por la duración del conjuro.
+
+-  Puede conjurar la Llamada de la Selva 1 vez al día, convocando a un compañero animal que luche junto a su amigo durante 3 asaltos + 1 asalto/nivel. Las criaturas más poderosas requieren niveles superiores. 
+
+Desventajas:
+
+-  Pierde el aliento después de cada ataque de Rabia Bosquimana. Mientras recupera el aliento sufre -2 a la tirada, -2 al daño y +2 de penalización a la armadura.
+
+-  Sólo admite 1 punto de talento marcial en espada bastarda, espada larga, espada corta, mandobles, katana, cimitarra, alabarda, mayal y ballesta.
+
+-  No puede vestir ningún tipo de armadura ni usar escudos grandes.
+
+-  Su carisma es siempre 2 puntos menor a los demás miembros de su raza.~
+
+@95   = ~Restauración Menor del Trono de Bhaal~
+
+@96   = ~Este paso puede tardar un breve instante...~
+
+@97   = ~Botas de Fuga Precipitada~
+
+@98   = ~Estas botas fueron manufacturadas en tiempos pasados por una abjuradora semi-elfa conocida por sus escasos amigos por el nombre de Phenuel, la vidente; Sus muchos clientes insatisfechos la llamaban Phenuel, la Embaucadora. Era una de las estampas típicas de Athkatla, Mercaderías y otros centros de compra-venta de Amn. Se la podía ver vendiendo de puerta en puerta sus mercancías; una gran variedad de pociones diseñadas para obrar todo tipo de maravillas, desde curar verrugas hasta enamorar a quien las bebiera.
+
+
+
+Por desgracia, y si bien era bastante buena en la promoción y venta de sus productos, sus habilidades alquimistas y de encantación dejaban mucho que desear, y conforme pasaba el tiempo tuvo que empezar a saltarse más y más poblaciones para protegerse de las masas agraviadas. Decidió entonces ser prudente y salvaguardar su persona creando estas botas, que resultaron ser muy útiles sorteando las frutas podridas y los otros proyectiles de mucho menos gusto que solían venir en su dirección con demasiada frecuencia.
+
+
+
+Phenuel se separó de sus botas una noche en Nashkel cuando algunos de sus clientes insatisfechos consiguieron sorprenderla en su alcoba, y tuvo que huir despavorida saltando por la ventana en camisón. No es extraño que nunca se atreviera a volver a por sus botas ni que apenas se la haya visto desde entonces. A decir verdad, tampoco se sabía nada de las botas, hasta ahora.
+
+
+
+ESTADÍSTICAS:
+
+
+
+Aquel que las calce puede activar el poder de estas botas a voluntad. Sus efectos duran 20 segundos y dan al que las viste un bono +6 en todos los tiros de salvación y un +8 a la CA. No obstante, el portador no puede atacar, lanzar conjuros, moverse en silencio o utilizar habilidades de ladrón.
+
+
+
+Peso: 3~
+
+@99   = ~La Vengadora Sagrada: Carsomyr
+
+
+
+Carsomyr es un arma de leyenda, quizás una de las más poderosas hojas jamás forjadas en Faerun, si bien su origen e historia han sido olvidas intencionadamente de modo que la espada no eclipse la importancia de las batallas que deben librarse hoy día.  Ha sido impregnada con la esencia misma de la virtud, y requiere no menor cualidad del paladín que aspire a empuñarla. Los demonios de los Reinos deben hacerse a un lado cuando este acero se esgrime ante ellos, pues disipa su magia con una sola palabra  y otorga protección constante a quien la blande. Carsomyr tiene un odio especial por las fuerzas del mal y el caos, y tales criaturas reciben un daño adicional por miedo con el más mínimo roce.
+
+ 
+
+Incluso una reliquia sagrada tan poderosa como Carsomyr aumenta su poder cuando se combina con el Ojo de Tyr.
+
+
+
+ESTADÍSTICAS:
+
+
+
+Habilidades especiales:
+
+    50% Resistencia a la magia.
+
+    Disipar magia 3 veces al día.
+
+Habilidades de combate:
+
+    +6 al daño a contrincantes de alineamiento caótico malvado, además de las demás bonificaciones.
+
+    Disipa conjuros cuando la espada golpea a un contrincante.
+
+THAC0: bonificación +6
+
+Daño: 1D12 + 6
+
+Tipo de daño: Cortante
+
+Peso: 6
+
+Factor de velocidad: 4
+
+Talento marcial: Mandoble
+
+Requiere: Fuerza 14
+
+Utilizable por:
+
+ Paladines~
+
+@100  = ~Este mayal estuvo al cuidado del Señor de Arnise durante un tiempo, una reliquia de su juventud aventurera. Se ha guardado desmontado, y cada una de las distintas partes se encuentra en lugares separados, para ser usado sólo en la peor de las emergencias. El Señor de Arnise estaba muy preocupado por la poderosa magia que el mayal irradiaba al estar completamente ensamblado, y con toda la razón. Un rastro de destrucción lo ha seguido a lo largo de su historia, desde el primero mismo de sus propietarios. Este mayal fue obra de un pendenciero Rakshasa, raza de espíritus vengativos que se alimentan de carne humana, y se alojan en "armas" para satisfacerse en todo tipo de batallas. El mayal se perdió en una de estas furibundas cazas. Los espíritus utilizaron su poderosa magia para encontrar a alguien de portentosa aura vital. El misterioso mayal se había abierto camino de modo sobrenatural hasta caer en manos de un gran guerrero de raza humana, y la batalla que prosiguió fue sin duda inenarrable. Los Rakshasa han utilizado este ingenio en innumerables ocasiones como cebo, "perdiéndolo" una y otra vez. Los artefactos poderosos gravitan irremediablemente alrededor de seres poderosos, y los poderosos rinden las batallas más gloriosas.
+
+ 
+
+Al acoplar la quinta y última estrella de esta arma creada por la demoníaca raza Rakshasa se desencadena la colosal fuerza de este Mayal de las Edades.
+
+
+
+ESTADÍSTICAS:
+
+
+
+Habilidades por equipado:
+
+   Acción libre
+
+   Bonificación del 5% a la resistencia contra la magia
+
+
+
+Habilidades de combate: 
+
+   33% de retardar al contrincante con cada golpe (no hay tiro de salvación)
+
+
+
+THAC0: bonificación +5
+
+Daño: 1D6 + 6, +2 daño por ácido, +2 daño por frío, +2 daño por fuego, +2 daño por veneno,  +2 daño por electricidad
+
+Tipo de daño: aplastante
+
+Peso: 8
+
+Factor de velocidad: 2
+
+Talento marcial: mayal/estrella del alba
+
+Tipo: 1 mano
+
+Requiere: Fuerza 13
+
+No utilizable por:
+
+ El Druida
+
+ El Mago
+
+ El Ladrón
+
+ El Monje
+
+ El Señor de las bestias~
+
+@101  = ~Este mayal estuvo al cuidado del Señor de Arnise durante un tiempo, una reliquia de su juventud aventurera. Se ha guardado desmontado, y cada una de las distintas partes se encuentra en lugares separados, para ser usado sólo en la peor de las emergencias. El Señor de Arnise estaba muy preocupado por la poderosa magia que el mayal irradiaba al estar completamente ensamblado, y con toda la razón. Un rastro de destrucción lo ha seguido a lo largo de su historia, desde el primero mismo de sus propietarios. Este mayal fue obra de un pendenciero Rakshasa, raza de espíritus vengativos que se alimentan de carne humana, y se alojan en "armas" para satisfacerse en todo tipo de batallas. El mayal se perdió en una de estas furibundas cazas. Los espíritus utilizaron su poderosa magia para encontrar a alguien de portentosa aura vital. El misterioso mayal se había abierto camino de modo sobrenatural hasta caer en manos de un gran guerrero de raza humana, y la batalla que prosiguió fue sin duda inenarrable. Los Rakshasa han utilizado este ingenio en innumerables ocasiones como cebo, "perdiéndolo" una y otra vez. Los artefactos poderosos gravitan irremediablemente alrededor de seres poderosos, y los poderosos rinden las batallas más gloriosas.
+
+
+
+Este mayal de cuatro cabezas inflige daño por fuego, por frío, por ácido y por veneno. Si se pudiera encontrar el quinto cabezal del Mayal de las Edades esta magnífica arma sería incluso más poderosa.
+
+
+
+ESTADÍSTICAS:
+
+
+
+Habilidades de combate: 
+
+   33% de retardar al contrincante con cada golpe (no hay tiro de salvación)
+
+
+
+THAC0: bonificación +4
+
+Daño: 1D6 +5, +1 daño por ácido, +1 daño por frío, +1 daño por fuego, +1 daño por veneno
+
+Tipo de daño: aplastante
+
+Peso: 9
+
+Factor de velocidad: 2
+
+Talento marcial: mayal/estrella del alba
+
+Tipo: 1 mano
+
+Requiere: Fuerza 13
+
+No utilizable por:
+
+ El Druida
+
+ El Mago
+
+ El Ladrón
+
+ El Monje
+
+ El Señor de las bestias~
+
+@102  = ~Este mayal estuvo al cuidado del Señor de Arnise durante un tiempo, una reliquia de su juventud aventurera. Se ha guardado desmontado, y cada una de las distintas partes se encuentra en lugares separados, para ser usado sólo en la peor de las emergencias. El Señor de Arnise estaba muy preocupado por la poderosa magia que el mayal irradiaba al estar completamente ensamblado, y con toda la razón. Un rastro de destrucción lo ha seguido a lo largo de su historia, desde el primero mismo de sus propietarios. Este mayal fue obra de un pendenciero Rakshasa, raza de espíritus vengativos que se alimentan de carne humana, y se alojan en "armas" para satisfacerse en todo tipo de batallas. El mayal se perdió en una de estas furibundas cazas. Los espíritus utilizaron su poderosa magia para encontrar a alguien de portentosa aura vital. El misterioso mayal se había abierto camino de modo sobrenatural hasta caer en manos de un gran guerrero de raza humana, y la batalla que prosiguió fue sin duda inenarrable. Los Rakshasa han utilizado este ingenio en innumerables ocasiones como cebo, "perdiéndolo" una y otra vez. Los artefactos poderosos gravitan irremediablemente alrededor de seres poderosos, y los poderosos rinden las batallas más gloriosas.
+
+
+
+Este mayal de cuatro cabezas inflige daño por fuego, por frío, por ácido y por electricidad. Si se pudiera encontrar el quinto cabezal del Mayal de las Edades esta magnífica arma sería incluso más poderosa.
+
+
+
+ESTADÍSTICAS:
+
+
+
+Habilidades de combate: 
+
+   33% de retardar al contrincante con cada golpe (no hay tiro de salvación)
+
+
+
+THAC0: bonificación +4
+
+Daño: 1D6 +5, +1 daño fuego, +1 daño por frío, +1 daño por ácido, +1 daño eléctrico
+
+Tipo de daño: aplastante
+
+Peso: 9
+
+Factor de velocidad: 3
+
+Talento marcial: mayal/estrella del alba
+
+Tipo: 1 mano
+
+Requiere: Fuerza 13
+
+No utilizable por:
+
+ El Druida
+
+ El Mago
+
+ El Ladrón
+
+ El Monje
+
+ El Señor de las bestias~
+
+@1000 = ~El Remordimiento de Sarevok~
+
+@1001 = ~Yoshimo no ha sido muy concienzudo a la hora de escribir un diario. Las primeras páginas están llenas de notas desordenadas de tareas completadas, botines conseguidos, nuevos amigos y enemigos eludidos. Unas pocas cartas escritas sobre papel fino por una mano femenina y elegante han sido escondidas entre las páginas, con algunos divertidos comentarios garabateados en los márgenes.
+
+
+
+Aunque tampoco están muy ordenadas, hay anotaciones regulares comenzadas hace poco más de un año.
+
+
+
+
+
+"29 Mirtul, 1358
+
+
+
+Repasando algunas cartas de hace tiempo - ¿han pasado ya tres años desde la última vez que vi a Tamoko? No es posible.
+
+
+
+'El Suave' se hará a la mar cuando suba la marea. La sobrina del capitán está poseída por un inoportuno entusiasmo por las mercancías de importación. Supongo que es una vana esperanza que no tenga estómago para navegar por mar, ya que así no necesitaría encerrarme en mi camarote para evitarla. El segundo de abordo parece saber jugar a las cartas bastante bien.
+
+
+
+13 Eleint, 1358
+
+
+
+Athkatla parece tan agradablemente avariciosa como siempre, pero algunos rateros falsamente desinteresados patrullan fuera de mi posada, lanzándome traicioneras miradas. Obviamente, el gremio de los ladrones piensa que he vuelto a abusar de su hospitalidad. Quizás debería centrarme en encontrar a Tamoko, para variar.
+
+
+
+18 Eleint, 1358
+
+
+
+No tenía sentido viajar a las montañas por la noche; esperé el momento propicio en Crimmor escuchando los rumores sobre la ciudad. Para mi sorpresa, oí hablar a unos viajeros del tal Sarevok que Tamoko mencionó. Grandes expectativas, conexiones con el Trono de Hierro, forman una delicada figura, evocan a una oscura sombra - un mismo hombre. Parece que ha causado algún tipo de conmoción en Puerta de Baldur.
+
+
+
+Me ha escrito a menudo sobre él, pero poco. Sonaba a problemas, pero confío en su sentido común para que se mantenga al margen del asunto. Aunque ella parecía bastante vinculada a él.
+
+
+
+25 Eleint, 1358
+
+
+
+Pasé la noche en el Malabarista Jovial, en Beregost. Un mercenario borracho insistió en que le mostrara mi katana - o que lo lamentaría. Lo distraje mandando al posadero que le diera a probar un poco de cada uno de sus muchos barriles, y que persistiera.
+
+
+
+Antes de desaparecer bajo la mesa siendo aquella la mejor parte de la semana, el hombre masculló un par de cosas alarmantes sobre el jaleo sucedido en Puerta de Baldur. Sólo espero que Tamoko no estuviera involucrada.
+
+
+
+Según un noble, ahora mismo todo el mundo está muy excitado por alguien llamado <CHARNAME>, quien ha acabado con Sarevok y sus planes. Empezó a asegurarme, no obstante, que también hay algo extraño en <CHARNAME>, y que algún día este nuevo personaje perderá el juicio al igual que el anterior. Aparentemente ha visto tanto a Sarevok como a <CHARNAME> una vez, desde lejos, entre la multitud, quizás, por lo que él sabrá.
+
+
+
+8 Marpenoth, 1358
+
+
+
+Peiné las calles de Puerta de Baldur durante los últimos días y noches. El cuartel general del Trono de Hierro se encuentra sumido en un vergonzoso caos. Encontré la posada que Tamoko señaló como su último recurso: sombría, indicada para el contrabando, indigna de ella. La reconocí en el libro del posadero bajo un nombre falso, habiendo dejado una factura el día 12 de Flamerule. Huí antes de que el hombre me hiciera pagar.
+
+
+
+10 Marpenoth, 1358
+
+
+
+Oí a un par de soldados del Puño Llameante hablar sobre <CHARNAME>, quien mató sin ayuda a aquel bastardo chiflado de Sarevok y a todos sus seguidores. Describieron sus ojos llameantes, su enérgica voz y sus enormes progresos. Me marché.
+
+
+
+11 Marpenoth, 1358
+
+
+
+(Un pedazo de papel arrancado de un libro de cuentas, marcado con el símbolo de Kelemvor, está plegado entre las páginas del diario:)
+
+
+
+HEMBRA HUMANA; EDAD APROX. 30; ¿DE KARA-TUR?
+
+--  CALLEJÓN CERCA DE LA PUERTA DEL DRAGÓN NEGRO
+
+--  NO SIGNOS DE VIOLENCIA, ENFERMEDAD, O PUTREFACCIÓN MANIFIESTOS; ¿CAUSA DE MUERTE MÁGICA?
+
+--  ARMADURA COMPLETA CON INSIGNIA BANITE; RUNA ORIENTAL GRABADA EN ORO ALREDEDOR DEL CORAZÓN; VENDIDA A ARTÍCULOS HECHIZADOS POR 17,000
+
+
+
+ENTERRADA
+
+
+
+13 Marpenoth, 1358
+
+
+
+Sarevok o <CHARNAME> deben haberla matado. Pero ella creía en Sarevok entonces, y además ahora Sarevok está fuera del alcance de mi venganza.
+
+
+
+15 Marpenoth, 1358
+
+
+
+Se celebraba un festival u otro en la ciudad, y vi a <CHARNAME> desde lejos cerca del Palacio Ducal - no parecía alguien capaz de matar a mi hermana.
+
+
+
+16 Marpenoth, 1358
+
+
+
+Soñé con Tamoko, como suelo hacer ahora, pero recuerdo poco del sueño. Sólo su cara perdura bajo mis párpados después de mirar al sol.
+
+
+
+18 Marpenoth, 1358
+
+
+
+Fui advertido. Una mujer pálida vestida con cuero negro me abordó esta noche en la taberna donde permanecía sentado, mirando a <CHARNAME>.
+
+
+
+'Eres un joven con talento que ha preguntado mucho sobre <CHARNAME>' dijo, y me arrimó su frío escote.  'No os preocupéis, vuestros violentos deseos os serán concedidos dentro de poco. Sólo necesitáis hacer exactamente lo que yo os diga.'
+
+
+
+Me ordenó que la siguiera en la fría noche, y bajamos por húmedas callejuelas hasta que llegamos al lugar donde la ciudad olvida a sus muertos anónimos. Allí me señaló una tumba de entre filas y filas de tumbas, las cuales son recicladas cuando sus habitantes más viejos se descomponen. La que me señaló permanecía abierta. 
+
+
+
+La mujer abrió un ataúd de mala calidad, y en su interior yacía Tamoko, sumida en el sueño como una niña. Muerta.
+
+
+
+20 Marpenoth, 1358
+
+
+
+Bodhi trabaja para un hombre enmascarado llamado Irenicus, al menos en teoría. Ellos me han asegurado que fue <CHARNAME> quien mató a mi hermana. Y que obtendré mi venganza - sólo debo atraerle hasta Irenicus. Con vida.
+
+
+
+22 Marpenoth, 1358
+
+
+
+Ya no necesito soñar con espejismos: tengo la realidad, la cara de Tamoko sujeta a una sobrenatural serenidad que ni siquiera la descomposición podrá perturbar. Ella no se pudrió; ella no ha partido.
+
+
+
+Sólo tengo una manera de asegurarme. E incluso aunque estuviera equivocado, ninguno de nosotros es inocente. De una manera u otra, ella será vengada.
+
+
+
+23 Marpenoth, 1358
+
+
+
+Irenicus me exigió un juramento - un geas - así que lo acepté. Ahora casi no lo noto; es como un pellizco en la base de mi cráneo.
+
+
+
+8 Alturiak, 1359
+
+
+
+<CHARNAME> y su grupo fueron capturados. Se derramó sangre, pero Irenicus ha encerrado a mis presas tan lejos de mí como le ha sido posible, intentando convencerme - o persuadiéndome - de que acercarme sería una imprudencia.
+
+
+
+Irenicus me prometió, sin embargo, que aquella visión volvería a mi ojo derecho en pocos días, y me ordenó que esperara pacientemente mi venganza. Nos dirigimos al sur.
+
+
+
+15 Ches, 1359
+
+
+
+En Athkatla. Obviamente, esta fortaleza subterránea no fue construida en un día.
+
+
+
+Desde que llegamos, Irenicus ha estado ocupado explotando al máximo a sus nuevos invitados. No quiere que me entrometa en su trabajo, y yo no vuelto a cometer el error de echar una ojeada para ver si me entero de algo.
+
+
+
+Los gritos me ponen de los nervios, por lo que paseo por las calles para dejar de pensar en lo que sucede ahí abajo. Espero que se dé prisa con lo que sea que les esté haciendo.
+
+
+
+20 Ches, 1359
+
+
+
+Bodhi ha estado estableciéndose en las calles de la ciudad, cazando Ladrones de las Sombras. Parece ser que ella también ha empezado pronto con su tarea.
+
+
+
+Intento evadirme de las cortas aunque brutales escaramuzas. Siento la necesidad de mantenerme a un lado de estos asuntos.
+
+
+
+26 Ches, 1359
+
+
+
+Irenicus no me presta mucha atención, y he podido estudiar algunos de sus documentos los cuales, creo, nunca fueron ideados para mis ojos. Hay muchas anotaciones sobre <CHARNAME>, y sobre su 'potencial'. Antes estaba demasiado cegado para poder comprender sus motivos.
+
+
+
+27 Ches, 1359
+
+
+
+He encontrado otra nota: una misiva interceptada del Trono de Hierro, con órdenes para los oficiales de la zona de Puerta de Baldur de encontrar y ejecutar a todos los antiguos seguidores de Sarevok Anchev que pudieron sobrevivir al ataque de <CHARNAME>. El Trono no ofrece la posibilidad de arrepentimiento.
+
+
+
+La lista incluye, aunque no está limitada, a Winski Perorate, Angelo Dosan, Tazok el ogro, un conjurador llamado Semaj, Cythandria, y Tamoko.
+
+
+
+18 Tarsakh, 1359
+
+
+
+Finalmente Irenicus tiene planes para mí - y para <CHARNAME>. Quiere conducir a <CHARNAME> en una loca persecución hasta su nueva guarida, algún tipo de prueba para tantear su supuesto potencial - y quiere que me infiltre en su grupo para que pueda controlar sus progresos.
+
+
+
+Por supuesto, yo también debo estar encerrado en una jaula para que sea algo creíble.
+
+
+
+25 Tarsakh, 1359
+
+
+
+Normalmente es una mala idea jurar un geas cuando estás dominado por el dolor.
+
+
+
+
+
+(La siguiente anotación fue escrita con prisa, y no tiene fecha:)
+
+
+
+Aunque las cosas no sucedieron exactamente como Irenicus había planeado, ese hombre es un maestro. Después de que inoportunamente <CHARNAME> se escapara, todo ha sucedido según lo planeado con asombrosa precisión.
+
+
+
+Creo que <CHARNAME> mató a Tamoko. No puedo estar seguro del todo, pero al estar en el grupo de <CHARNAME> he tenido numerosas ocasiones para investigar sus métodos, y parece ser capaz de ello. Entonces esta será mi venganza - ¿será esta incierta e impotente ira el sabor de la victoria?.
+
+
+
+Pero si no puedo sentir el triunfo, ya no tendrán efecto las cosas que están por venir. Partiremos al Sanatorio esta noche. Los camarotes del barco estarán demasiado cercanos para que pueda sentirme tranquilo, así que me desharé de esta prueba."
+
+
+
+
+
+Esta es la última anotación del diario. Un tercio de las páginas están vacías.~
+
+@1002 = ~Yoshimo no ha sido muy concienzudo a la hora de escribir un diario. Las primeras páginas están llenas de notas desordenadas de tareas completadas, botines conseguidos, nuevos amigos y enemigos eludidos. Unas pocas cartas escritas sobre papel fino por una mano femenina y elegante han sido escondidas entre las páginas, con algunos divertidos comentarios garabateados en los márgenes.
+
+
+
+Aunque tampoco están muy ordenadas, hay anotaciones regulares comenzadas hace poco más de un año.
+
+
+
+
+
+"29 Mirtul, 1358
+
+
+
+Repasando algunas cartas de hace tiempo - ¿han pasado ya tres años desde la última vez que vi a Tamoko? No es posible.
+
+
+
+'El Suave' se hará a la mar cuando suba la marea. La sobrina del capitán está poseída por un inoportuno entusiasmo por las mercancías de importación. Supongo que es una vana esperanza que no tenga estómago para navegar por mar, ya que así no necesitaría encerrarme en mi camarote para evitarla. El segundo de abordo parece saber jugar a las cartas bastante bien.
+
+
+
+13 Eleint, 1358
+
+
+
+Athkatla parece tan agradablemente avariciosa como siempre, pero algunos rateros falsamente desinteresados patrullan fuera de mi posada, lanzándome traicioneras miradas cada vez que paso por delante de ellos. Obviamente, el gremio de los ladrones piensa que he vuelto a abusar de su hospitalidad. Quizás debería centrarme en encontrar a Tamoko, para variar.
+
+
+
+18 Eleint, 1358
+
+
+
+No tenía sentido viajar a las montañas por la noche; esperé el momento propicio en Crimmor escuchando los rumores sobre la ciudad. Para mi sorpresa, oí hablar a unos viajeros del tal Sarevok que Tamoko mencionó. Grandes expectativas, conexiones con el Trono de Hierro, forman una delicada figura, evocan a una oscura sombra - un mismo hombre. Parece que ha causado algún tipo de conmoción en Puerta de Baldur.
+
+
+
+Me ha escrito a menudo sobre él, pero poco. Sonaba a problemas, pero confío en su sentido común para que se mantenga al margen del asunto. Aunque ella parecía bastante vinculada a él.
+
+
+
+25 Eleint, 1358
+
+
+
+Pasé la noche en el Malabarista Jovial, en Beregost. Un mercenario borracho insistió en que le mostrara mi katana - o que lo lamentaría. Lo distraje mandando al posadero que le diera a probar un poco de cada uno de sus muchos barriles, y que persistiera.
+
+
+
+Antes de desaparecer bajo la mesa siendo aquella la mejor parte de la semana, el hombre masculló un par de cosas alarmantes sobre el jaleo sucedido en Puerta de Baldur. Sólo espero que Tamoko no estuviera involucrada.
+
+
+
+Según un noble, ahora mismo todo el mundo está muy excitado por alguien llamado <CHARNAME>, quien ha acabado con Sarevok y sus planes. Empezó a asegurarme, no obstante, que también hay algo extraño en <CHARNAME>, y que algún día este nuevo personaje perderá el juicio al igual que el anterior. Aparentemente ha visto tanto a Sarevok como a <CHARNAME> una vez, desde lejos, entre la multitud, quizás, por lo que él sabrá.
+
+
+
+8 Marpenoth, 1358
+
+
+
+Peiné las calles de Puerta de Baldur durante los últimos días y noches. El cuartel general del Trono de Hierro se encuentra sumido en un vergonzoso caos. Encontré la posada que Tamoko señaló como su último recurso: sombría, indicada para el contrabando, indigna de ella. La reconocí en el libro del posadero bajo un nombre falso, habiendo dejado una factura el día 12 de Flamerule. Huí antes de que el hombre me hiciera pagar.
+
+
+
+10 Marpenoth, 1358
+
+
+
+Oí a un par de soldados del Puño Llameante hablar sobre <CHARNAME>, quien mató sin ayuda a aquel bastardo chiflado de Sarevok y a todos sus seguidores. Describieron sus ojos llameantes, su enérgica voz y sus enormes progresos. Me marché.
+
+
+
+11 Marpenoth, 1358
+
+
+
+(Un pedazo de papel arrancado de un libro de cuentas, marcado con el símbolo de Kelemvor, está plegado entre las páginas del diario:)
+
+
+
+HEMBRA HUMANA; EDAD APROX. 30; ¿DE KARA-TUR?
+
+--  CALLEJÓN CERCA DE LA PUERTA DEL DRAGÓN NEGRO
+
+--  NO SIGNOS DE VIOLENCIA O ENFERMEDAD MANIFIESTOS; ¿CAUSA DE MUERTE MÁGICA?
+
+--  ARMADURA COMPLETA CON INSIGNIA BANITE; RUNA ORIENTAL GRABADA EN ORO ALREDEDOR DEL CORAZÓN; VENDIDA A ARTÍCULOS HECHIZADOS POR 17,000
+
+
+
+ENTERRADA
+
+
+
+13 Marpenoth, 1358
+
+
+
+Sarevok o <CHARNAME> deben haberla matado. Pero ella creía en Sarevok entonces, y además ahora Sarevok está fuera del alcance de mi venganza.
+
+
+
+15 Marpenoth, 1358
+
+
+
+Se celebraba un festival u otro en la ciudad, y vi a <CHARNAME> desde lejos cerca del Palacio Ducal - no parecía alguien capaz de matar a mi hermana.
+
+
+
+16 Marpenoth, 1358
+
+
+
+Soñé con Tamoko, como suelo hacer ahora, pero recuerdo poco del sueño. Sólo su cara perdura bajo mis párpados después de mirar al sol.
+
+
+
+18 Marpenoth, 1358
+
+
+
+Fui advertido. Una mujer pálida vestida con cuero negro me abordó esta noche en la taberna donde permanecía sentado, mirando a <CHARNAME>.
+
+
+
+'Sois un joven con talento que ha preguntado mucho sobre <CHARNAME>' dijo, y me arrimó su frío escote.  'No os preocupéis, vuestros violentos deseos os serán concedidos dentro de poco. Sólo necesitáis hacer exactamente lo que yo os diga.'
+
+
+
+Me ordenó que la siguiera en la fría noche, y bajamos por húmedas callejuelas hasta que llegamos al lugar donde la ciudad olvida a sus muertos anónimos. Allí me señaló una tumba de entre filas y filas de tumbas, las cuales son recicladas cuando sus habitantes más viejos se descomponen. La que me señaló permanecía abierta. 
+
+
+
+La mujer abrió un ataúd de mala calidad, y en su interior yacía Tamoko, sumida en el sueño como una niña. Muerta.
+
+
+
+20 Marpenoth, 1358
+
+
+
+Bodhi trabaja para un hombre enmascarado llamado Irenicus, al menos en teoría. Ellos me han asegurado que fue <CHARNAME> quien mató a mi hermana. Y que obtendré mi venganza - sólo debo atraerle hasta Irenicus. Con vida.
+
+
+
+22 Marpenoth, 1358
+
+
+
+Ya no necesito soñar con espejismos: tengo la realidad, la cara de Tamoko sujeta a una sobrenatural serenidad que ni siquiera la descomposición podrá perturbar. Ella no se pudrió; ella no ha partido.
+
+
+
+Sólo tengo una manera de asegurarme. E incluso aunque estuviera equivocado, ninguno de nosotros es inocente. De una manera u otra, ella será vengada.
+
+
+
+23 Marpenoth, 1358
+
+
+
+Irenicus me exigió un juramento - un geas - así que lo acepté. Ahora casi no lo noto; es como un pellizco en la base de mi cráneo.
+
+
+
+8 Alturiak, 1359
+
+
+
+<CHARNAME> y su grupo fueron capturados. Se derramó sangre, pero Irenicus ha encerrado a mis presas tan lejos de mí como le ha sido posible, intentando convencerme - o persuadiéndome - de que acercarme sería una imprudencia.
+
+
+
+Irenicus me prometió, sin embargo, que aquella visión volvería a mi ojo derecho en pocos días, y me ordenó que esperara pacientemente mi venganza. Nos dirigimos al sur.
+
+
+
+15 Ches, 1359
+
+
+
+En Athkatla. Obviamente, esta fortaleza subterránea no fue construida en un día.
+
+
+
+Desde que llegamos, Irenicus ha estado ocupado explotando al máximo a sus nuevos invitados. No quiere que me entrometa en su trabajo, y yo no vuelto a cometer el error de echar una ojeada para ver si me entero de algo.
+
+
+
+Los gritos me ponen de los nervios, por lo que paseo por las calles para dejar de pensar en lo que sucede ahí abajo. Espero que se dé prisa con lo que sea que les esté haciendo.
+
+
+
+20 Ches, 1359
+
+
+
+Bodhi ha estado estableciéndose en las calles de la ciudad, cazando Ladrones de las Sombras. Parece ser que ella también ha empezado pronto con su tarea.
+
+
+
+Intento evadirme de las cortas aunque brutales escaramuzas. Siento la necesidad de mantenerme a un lado de estos asuntos.
+
+
+
+26 Ches, 1359
+
+
+
+Irenicus no me presta mucha atención, y he podido estudiar algunos de sus documentos los cuales, creo, nunca fueron ideados para mis ojos. Hay muchas anotaciones sobre <CHARNAME>, y sobre su 'potencial'. Antes estaba demasiado cegado para poder comprender sus motivos.
+
+
+
+27 Ches, 1359
+
+
+
+He encontrado otra nota: una misiva interceptada del Trono de Hierro, con órdenes para los oficiales de la zona de Puerta de Baldur de encontrar y ejecutar a todos los antiguos seguidores de Sarevok Anchev que pudieron sobrevivir al ataque de <CHARNAME>. El Trono no ofrece la posibilidad de arrepentimiento.
+
+
+
+La lista incluye, aunque no está limitada, a Winski Perorate, Angelo Dosan, Tazok el ogro, un conjurador llamado Semaj, Cythandria, y Tamoko.
+
+
+
+18 Tarsakh, 1359
+
+
+
+Finalmente Irenicus tiene planes para mí - y para <CHARNAME>. Quiere conducir a <CHARNAME> en una loca persecución hasta su nueva guarida, algún tipo de prueba para tantear su supuesto potencial - y quiere que me infiltre en su grupo para que pueda controlar sus progresos.
+
+
+
+Por supuesto, yo también debo estar encerrado en una jaula para que sea algo creíble.
+
+
+
+25 Tarsakh, 1359
+
+
+
+Normalmente es una mala idea jurar un geas cuando estás dominado por el dolor.
+
+
+
+
+
+(La siguiente anotación fue escrita con prisa, y no tiene fecha:)
+
+
+
+Aunque las cosas no sucedieron exactamente como Irenicus había planeado, ese hombre es un maestro. Después de que inoportunamente <CHARNAME> se escapara, todo ha sucedido según lo planeado con asombrosa precisión.
+
+
+
+Y no puedo descubrir si esta es mi venganza - esta triste incertidumbre. He seguido mi camino en compañía de <CHARNAME>, pero de hecho... no sé si mató a Tamoko, no lo sé. Los posibles asesinos abundan. Les debo mi palabra a algunos de ellos.
+
+
+
+Pero no hay diferencia alguna, ¿verdad? Partiremos al Sanatorio esta noche. Pero estaré condenado si dejo que alguien encuentre esta prueba de desesperación en mí."
+
+
+
+
+
+Esta es la última anotación del diario. Un tercio de las páginas están vacías.~
+
+@1003 = ~Yoshimo no ha sido muy concienzudo a la hora de escribir un diario. Las primeras páginas están llenas de notas desordenadas de tareas completadas, botines conseguidos, nuevos amigos y enemigos eludidos. Unas pocas cartas escritas sobre papel fino por una mano femenina y elegante han sido escondidas entre las páginas, con algunos divertidos comentarios garabateados en los márgenes.
+
+
+
+Aunque tampoco están muy ordenadas, hay anotaciones regulares comenzadas hace poco más de un año.
+
+
+
+
+
+"29 Mirtul, 1358
+
+
+
+Repasando algunas cartas de hace tiempo - ¿han pasado ya tres años desde la última vez que vi a Tamoko? No es posible.
+
+
+
+'El Suave' se hará a la mar cuando suba la marea. La sobrina del capitán está poseída por un inoportuno entusiasmo por las mercancías de importación. Supongo que es una vana esperanza que no tenga estómago para navegar por mar, ya que así no necesitaría encerrarme en mi camarote para evitarla. El segundo de abordo parece saber jugar a las cartas bastante bien.
+
+
+
+13 Eleint, 1358
+
+
+
+Athkatla parece tan agradablemente avariciosa como siempre, pero algunos rateros falsamente desinteresados patrullan fuera de mi posada, lanzándome traicioneras miradas cada vez que paso por delante de ellos. Obviamente, el gremio de los ladrones piensa que he vuelto a abusar de su hospitalidad. Quizás debería centrarme en encontrar a Tamoko, para variar.
+
+
+
+18 Eleint, 1358
+
+
+
+No tenía sentido viajar a las montañas por la noche; esperé el momento propicio en Crimmor escuchando los rumores sobre la ciudad. Para mi sorpresa, oí hablar a unos viajeros del tal Sarevok que Tamoko mencionó. Grandes expectativas, conexiones con el Trono de Hierro, forman una delicada figura, evocan a una oscura sombra - un mismo hombre. Parece que ha causado algún tipo de conmoción en Puerta de Baldur.
+
+
+
+Me ha escrito a menudo sobre él, pero poco. Sonaba a problemas, pero confío en su sentido común para que se mantenga al margen del asunto. Aunque ella parecía bastante vinculada a él.
+
+
+
+25 Eleint, 1358
+
+
+
+Pasé la noche en el Malabarista Jovial, en Beregost. Un mercenario borracho insistió en que le mostrara mi katana - o que lo lamentaría. Lo distraje mandando al posadero que le diera a probar un poco de cada uno de sus muchos barriles, y que persistiera.
+
+
+
+Antes de desaparecer bajo la mesa siendo aquella la mejor parte de la semana, el hombre masculló un par de cosas alarmantes sobre el jaleo sucedido en Puerta de Baldur. Sólo espero que Tamoko no estuviera involucrada.
+
+
+
+Según un noble, ahora mismo todo el mundo está muy excitado por alguien llamado <CHARNAME>, quien ha acabado con Sarevok y sus planes. Empezó a asegurarme, no obstante, que también hay algo extraño en  <CHARNAME>, y que algún día este nuevo personaje perderá el juicio al igual que el anterior. Aparentemente ha visto tanto a Sarevok como a <CHARNAME> una vez, desde lejos, entre la multitud, quizás, por lo que él sabrá.
+
+
+
+8 Marpenoth, 1358
+
+
+
+Peiné las calles de Puerta de Baldur durante los últimos días y noches. El cuartel general del Trono de Hierro se encuentra sumido en un vergonzoso caos. Encontré la posada que Tamoko señaló como su último recurso: sombría, indicada para el contrabando, indigna de ella. La reconocí en el libro del posadero bajo un nombre falso, habiendo dejado una factura el día 12 de Flamerule. Huí antes de que el hombre me hiciera pagar.
+
+
+
+10 Marpenoth, 1358
+
+
+
+Oí a un par de soldados del Puño Llameante hablar sobre <CHARNAME>, quien mató sin ayuda a aquel bastardo chiflado de Sarevok y a todos sus seguidores. Describieron sus ojos llameantes, su enérgica voz y sus enormes progresos. Me marché.
+
+
+
+11 Marpenoth, 1358
+
+
+
+(Un pedazo de papel arrancado de un libro de cuentas, marcado con el símbolo de Kelemvor, está plegado entre las páginas del diario:)
+
+
+
+HEMBRA HUMANA; EDAD APROX. 30; ¿DE KARA-TUR?
+
+--  CALLEJÓN CERCA DE LA PUERTA DEL DRAGÓN NEGRO
+
+--  NO SIGNOS DE VIOLENCIA O ENFERMEDAD MANIFIESTOS; ¿CAUSA DE MUERTE MÁGICA?
+
+--  ARMADURA COMPLETA CON INSIGNIA BANITE; RUNA ORIENTAL GRABADA EN ORO ALREDEDOR DEL CORAZÓN; VENDIDA A ARTÍCULOS HECHIZADOS POR 17,000
+
+
+
+ENTERRADA
+
+
+
+13 Marpenoth, 1358
+
+
+
+Sarevok o <CHARNAME> deben haberla matado. Pero ella creía en Sarevok entonces, y además ahora Sarevok está fuera del alcance de mi venganza.
+
+
+
+15 Marpenoth, 1358
+
+
+
+Se celebraba un festival u otro en la ciudad, y vi a <CHARNAME> desde lejos cerca del Palacio Ducal - no parecía alguien capaz de matar a mi hermana.
+
+
+
+16 Marpenoth, 1358
+
+
+
+Soñé con Tamoko, como suelo hacer ahora, pero recuerdo poco del sueño. Sólo su cara perdura bajo mis párpados después de mirar al sol.
+
+
+
+18 Marpenoth, 1358
+
+
+
+Fui advertido. Una mujer pálida vestida con cuero negro me abordó esta noche en la taberna donde permanecía sentado, mirando a <CHARNAME>.
+
+
+
+'Sois un joven con talento que ha preguntado mucho sobre <CHARNAME>' dijo, y me arrimó su frío escote.  'No os preocupéis, vuestros violentos deseos os serán concedidos dentro de poco. Sólo necesitáis hacer exactamente lo que yo os diga.'
+
+
+
+Me ordenó que la siguiera en la fría noche, y bajamos por húmedas callejuelas hasta que llegamos al lugar donde la ciudad olvida a sus muertos anónimos. Allí me señaló una tumba de entre filas y filas de tumbas, las cuales son recicladas cuando sus habitantes más viejos se descomponen. La que me señaló permanecía abierta. 
+
+
+
+La mujer abrió un ataúd de mala calidad, y en su interior yacía Tamoko, sumida en el sueño como una niña. Muerta.
+
+
+
+20 Marpenoth, 1358
+
+
+
+Bodhi trabaja para un hombre enmascarado llamado Irenicus, al menos en teoría. Ellos me han asegurado que fue <CHARNAME> quien mató a mi hermana. Y que obtendré mi venganza - sólo debo atraerle hasta Irenicus. Con vida.
+
+
+
+22 Marpenoth, 1358
+
+
+
+Ya no necesito soñar con espejismos: tengo la realidad, la cara de Tamoko sujeta a una sobrenatural serenidad que ni siquiera la descomposición podrá perturbar. Ella no se pudrió; ella no ha partido.
+
+
+
+Sólo tengo una manera de asegurarme. E incluso aunque estuviera equivocado, ninguno de nosotros es inocente. De una manera u otra, ella será vengada.
+
+
+
+23 Marpenoth, 1358
+
+
+
+Irenicus me exigió un juramento - un geas - así que lo acepté. Ahora casi no lo noto; es como un pellizco en la base de mi cráneo.
+
+
+
+8 Alturiak, 1359
+
+
+
+<CHARNAME> y su grupo fueron capturados. Se derramó sangre, pero Irenicus ha encerrado a mis presas tan lejos de mí como le ha sido posible, intentando convencerme - o persuadiéndome - de que acercarme sería una imprudencia.
+
+
+
+Irenicus me prometió, sin embargo, que aquella visión volvería a mi ojo derecho en pocos días, y me ordenó que esperara pacientemente mi venganza. Nos dirigimos al sur.
+
+
+
+15 Ches, 1359
+
+
+
+En Athkatla. Obviamente, esta fortaleza subterránea no fue construida en un día.
+
+
+
+Desde que llegamos, Irenicus ha estado ocupado explotando al máximo a sus nuevos invitados. No quiere que me entrometa en su trabajo, y yo no vuelto a cometer el error de echar una ojeada para ver si me entero de algo.
+
+
+
+Los gritos me ponen de los nervios, por lo que paseo por las calles para dejar de pensar en lo que sucede ahí abajo. Espero que se dé prisa con lo que sea que les esté haciendo.
+
+
+
+20 Ches, 1359
+
+
+
+Bodhi ha estado estableciéndose en las calles de la ciudad, cazando Ladrones de las Sombras. Parece ser que ella también ha empezado pronto con su tarea.
+
+
+
+Intento evadirme de las cortas aunque brutales escaramuzas. Siento la necesidad de mantenerme a un lado de estos asuntos.
+
+
+
+26 Ches, 1359
+
+
+
+Irenicus no me presta mucha atención, y he podido estudiar algunos de sus documentos los cuales, creo, nunca fueron ideados para mis ojos. Hay muchas anotaciones sobre <CHARNAME>, y sobre su 'potencial'. Antes estaba demasiado cegado para poder comprender sus motivos.
+
+
+
+27 Ches, 1359
+
+
+
+He encontrado otra nota: una misiva interceptada del Trono de Hierro, con órdenes para los oficiales de la zona de Puerta de Baldur de encontrar y ejecutar a todos los antiguos seguidores de Sarevok Anchev que pudieron sobrevivir al ataque de <CHARNAME>. El Trono no ofrece la posibilidad de arrepentimiento.
+
+
+
+La lista incluye, aunque no está limitada, a Winski Perorate, Angelo Dosan, Tazok el ogro, un conjurador llamado Semaj, Cythandria, y Tamoko.
+
+
+
+18 Tarsakh, 1359
+
+
+
+Finalmente Irenicus tiene planes para mí - y para <CHARNAME>. Quiere conducir a <CHARNAME> en una loca persecución hasta su nueva guarida, algún tipo de prueba para tantear su supuesto potencial - y quiere que me infiltre en su grupo para que pueda controlar sus progresos.
+
+
+
+Por supuesto, yo también debo estar encerrado en una jaula para que sea algo creíble.
+
+
+
+25 Tarsakh, 1359
+
+
+
+Normalmente es una mala idea jurar un geas cuando estás dominado por el dolor.
+
+
+
+
+
+(La siguiente anotación fue escrita con prisa, y no tiene fecha:)
+
+
+
+Aunque las cosas no sucedieron exactamente como Irenicus había planeado, ese hombre es un maestro. Después de que inoportunamente <CHARNAME> se escapara, todo ha sucedido según lo planeado con asombrosa precisión.
+
+
+
+He seguido mi camino en compañía de <CHARNAME>, y de sus muchas virtudes, supongo. Podríamos haber sido camaradas. Y además puede que no matara a Tamoko.
+
+
+
+Pero ahora el temor y la vergüenza es que no hay diferencia alguna. No hay manera de detener lo que empezó, partiremos al Sanatorio esta noche. Pero estaré condenado si dejo que alguien encuentre esta crónica del deshonor en mí... Ilmater ayudadme."
+
+
+
+
+
+Esta es la última anotación del diario. Un tercio de las páginas están vacías.~
+
+@1004 = ~Diario de Yoshimo~
+
+@1005 = ~Esta espada corta, que apenas mide un pie de largo, parece ser claramente de Kara-Tur, pero ha sido pobremente elaborada. Está un poco desequilibrada, la seda de la empuñadura está a punto de caerse, y sus bordes se cayeron hace mucho. Aún quedan trazas de inscripciones Orientales aquí y allá, como vigilantes.
+
+
+
+ESTADÍSTICAS
+
+
+
+THAC0: -1
+
+Daño: 1D8 - 1
+
+Tipo de daño: Perforante
+
+Peso: 3
+
+Factor de Velocidad: 2
+
+Tipo de Talento: Cimitarra/Wakizashi/Ninja-To
+
+Tipo: 1 mano
+
+Requiere: 5 Fuerza
+
+No usable por:
+
+  Druida
+
+  Clérigo
+
+  Mago
+
+  Señor de las Bestias~
+
+@1298 = ~En los años siguientes a su resurrección por <CHARNAME>, Sarevok nunca se asentó en ningún lugar por mucho tiempo. En Berdusk se dice que derrotó a un ejército de orcos invasores, mostrando un temible poder y una furia tales que los propios aldeanos atemorizados no estaban seguros de a quién temer más. En Westgate llegó como conquistador, imponiendo brutalmente su voluntad para desaparecer misteriosamente pocos meses después. Actuó como un hombre que no se conocía a sí mismo, y todas las historias coinciden en que Sarevok era un alma torturada, situada entre la vida y la muerte, sin alcanzar nunca ninguna de ellas. Finalmente desapareció, y se dijo que había asaltado el mismo Abismo, o incluso que se suicidó. En realidad, viajó a Kara-Tur para enterrar a su único verdadero amor, la guerrera Tamoko, en el lugar que ella eligió una vez. Él nunca volvió, aunque las historias perduran.~
+@1300  = ~Vamos, creyentes. Sentid mi abrazo escalofriante. Abrazar la muerte...~
+@1301  = ~The Murder of Acton Balthis.
+
+Haer'Dalis has just been charged with murder of Lord Acton Balthis, a prominent member of Amn's society. We need to free him before he is executed. Talking to the Chief Inspector Brega would be a good first step.~
+@1302  = ~The Murder of Acton Balthis.
+
+We visted Haer'Dalis in prison. He advised us to visit Lord Balthis' mansion in the Bridge District and talk to Chief Inspector Brega. In the meantime, the guards are preparing for the execution. We only have three days to prove Haer'Dalis not guilty.~
+@1303  = ~The Murder of Acton Balthis.
+
+Pip, a manservant in Lord Balthis' mansion, told us that Haer'Dalis was very interested in the bust of Sune from the mansion. An art collector from the Promenade, Quataris, may know more about this.~
+@1304  = ~The Murder of Acton Balthis.
+
+Chief Inspector Brega told us that Haer'Dalis was suspected in theft, as well. The bust of Sune was missing from Lord Balthis' mansion in the Bridge District. A local art collector from the Promenade, Quataris, may know more. Haer'Dalis will be executed in three days if we do not hurry!~
+@1305  = ~The Murder of Acton Balthis.
+
+Quataris confessed that he hired a thief to steal the bust of Sune from the mansion. Chief Inspector Brega will need his written confession.~
+@1306 = ~The Murder of Acton Balthis.
+
+I killed Quataris and found a bust of Sune on his corpse. Chief Inspector Brega needs to see this.~
+@1307 = ~The Murder of Acton Balthis.
+
+Chief Inspector Brega signed a writ of innocence for Haer'Dalis. Now I can take him from the prison.~
+@1308 = ~The Murder of Acton Balthis.
+
+Haer'Dalis offered me an idea: to catch the real murderer by luring him to Lord Balthis' estate again. If rumors started by Haer'Dalis have reached his ears already, the thief should be there. Chief Inspector Brega will reward us well afterwards.~
+@1309 = ~The Murder of Acton Balthis.
+
+We delivered the news of the real murderer's demise to Chief Inspector Brega, who was very pleased.~
+@1310 = ~The Murder of Acton Balthis.
+
+Haer'Dalis has been executed.~
+@1311 = ~This component is not available for BG2EE.~

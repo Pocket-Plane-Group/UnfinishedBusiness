@@ -1,0 +1,7 @@
+IF
+	Global("U!SpawnGreyhand","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("U!SpawnGreyhand","GLOBAL",1)
+		CreateCreature("GREYHAND",[2695.172],3)
+END

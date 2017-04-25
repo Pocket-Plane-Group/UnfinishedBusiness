@@ -1,0 +1,18 @@
+IF
+         Global("ToldAboutVal","GLOBAL",0)
+         Global("U!DeactivateVal","GLOBAL",0)
+THEN
+         RESPONSE #100
+                  Deactivate("Valygar")
+                  DisplayStringHead(Player1,@315)
+                  SetGlobal("U!DeactivateVal","GLOBAL",1)
+END
+
+IF
+      Global("ToldAboutVal","GLOBAL",1)
+      Global("U!ReactivateVal","GLOBAL",0)
+THEN
+    RESPONSE #100
+             ActionOverride("valygar",Activate(Myself))
+             SetGlobal("U!ReactivateVal","GLOBAL",1)
+END

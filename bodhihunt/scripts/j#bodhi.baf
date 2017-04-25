@@ -1,0 +1,74 @@
+IF
+	Global("J#FirstBodhiFight","GLOBAL",1)
+	!Detect([EVILCUTOFF])
+	!Global("J#RealBodhi","LOCALS",1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	HPLT(Myself,25)
+	!Global("J#RealBodhi","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("J#FirstBodhiFight","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	!Global("J#RealBodhi","LOCALS",1)
+	Global("J#BodhiSpawned","GLOBAL",1)
+	Global("D0SpawnCREs","LOCALS",0)
+	Global("J#BodhiHunts","GLOBAL",0) // First battle
+THEN
+	RESPONSE #100
+		SetGlobal("D0SpawnCREs","LOCALS",1)
+		CreateCreatureObject("vammat01",Myself,0,0,0)
+		CreateCreatureObject("bodfgt01",Myself,0,0,0)
+		CreateCreatureObject("bodfgt02",Myself,0,0,0)
+		CreateCreatureObject("bodfgt01",Myself,0,0,0)
+		CreateCreatureObject("bodfgt02",Myself,0,0,0)
+		FadeFromColor([40.0],0)
+		IncrementGlobal("J#BodhiHunts","GLOBAL",1)
+		SetCutSceneLite(FALSE)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	!Global("J#RealBodhi","LOCALS",1)
+	Global("J#BodhiSpawned","GLOBAL",1)
+	Global("D0SpawnCREs","LOCALS",0)
+	Global("J#BodhiHunts","GLOBAL",1) // Second battle
+THEN
+	RESPONSE #100
+		SetGlobal("D0SpawnCREs","LOCALS",1)
+		CreateCreatureObject("vammat01",Myself,0,0,0)
+		CreateCreatureObject("vamold01",Myself,0,0,0)
+		CreateCreatureObject("bodfgt02",Myself,0,0,0)
+		CreateCreatureObject("bodfgt02",Myself,0,0,0)
+		FadeFromColor([40.0],0)
+		IncrementGlobal("J#BodhiHunts","GLOBAL",1)
+		SetCutSceneLite(FALSE)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	!Global("J#RealBodhi","LOCALS",1)
+	Global("J#BodhiSpawned","GLOBAL",1)
+	Global("D0SpawnCREs","LOCALS",0)
+	Global("J#BodhiHunts","GLOBAL",2) // Third battle
+THEN
+	RESPONSE #100
+		SetGlobal("D0SpawnCREs","LOCALS",1)
+		CreateCreatureObject("vammat01",Myself,0,0,0)
+		CreateCreatureObject("vamemi01",Myself,0,0,0)
+		CreateCreatureObject("bodfgt01",Myself,0,0,0)
+		CreateCreatureObject("bodfgt02",Myself,0,0,0)
+		CreateCreatureObject("bodfgt02",Myself,0,0,0)
+		CreateCreatureObject("bodfgt01",Myself,0,0,0)
+		CreateCreatureObject("bodfgt02",Myself,0,0,0)
+		FadeFromColor([40.0],0)
+		SetCutSceneLite(FALSE)
+		StartDialogueNoSet(Player1)
+END

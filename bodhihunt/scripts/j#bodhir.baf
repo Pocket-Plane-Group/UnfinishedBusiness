@@ -1,0 +1,11 @@
+IF
+	Detect([PC])
+	AreaCheck("ar1514")
+	Global("J#RealBodhi","LOCALS",1)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		SetGlobal("J#BodhiUltimatum","GLOBAL",1)
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+

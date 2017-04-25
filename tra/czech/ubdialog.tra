@@ -1,0 +1,389 @@
+@1    = ~Nesnesla bych pohled na to, jak unikáš. Byla to zábava, ale nyní je hra u konce. Nech se naše cesty naposledy støetnou v krvi!~ [J#Bodhi]
+@2    = ~Znovu se potkáváme, Bhaalùv Potomku.  Vleèeš své nohy. Moná bych tì mìla povzbudit, aby dosáhl lepšího èasu.~
+@3    = ~Vıbornì, Bhaalùv Potomku.  Pospìš si a moná brzy unikneš!~
+@4    = ~U Abbathorovy nemytı øitì!  Kdo ksakru 'si?~
+@5    = ~Ty musíš bıt ten Gorje, o kterém Unger mluvil.  Pøicházím na ádost tvého bratra.~
+@6    = ~To není tvoje starost.  Nepøibliuj se!~
+@7    = ~Já jsem <GABBER>.  A ty?~
+@8    = ~Ten špinavej idiotskej èmuchal!  Poslal tì, aby 'si mì zachránil?  To na toho tupce sedí!  Nemoh' by vzít sekeru a udìlat špinavou práci sám, musí to nechat na pozemskejch krysách.~
+@9    = ~Ne. Hledám illithium.~
+@10   = ~Uh... jo.~
+@11   = ~Och, myslíš?!  Podivej, ty hromado stromovıho trusu, todle se mì sakra tejká!  Vy mùete akorát vodprejsknout a nakrmit sebou tu bestii pod náma!~
+@12   = ~Bestii?~
+@13   = ~Dobrá.  Odcházím.~
+@14   = ~Díky bohu, e u vypadneš, povrchní špíno!  Mueš si najít novı místo, kde se schovat.  Z tvıho smradu se mi dìlá blbì!~
+@15   = ~Gorje Hilldark, 'méno mé.  Todle místo nám patøí s mym tupym bráchou Ungerem.~
+@16   = ~Take všichni tihle kostlivci a další jsou tvımi sluebníky?~
+@17   = ~Bylo mi potìšením.  Jsem na odchodu.~
+@18   = ~Proè jsi tady?~
+@19   = ~Illithium!!??  Von ti vo nìm øek'??  Ten natøikrát praštìnej blbec!  Ten vychlastanej farmáøskej èerv!  To teplı s drowama vobcující hovado!  Kde je?  Upálim mu tu jeho dutou palici a udìlám si z ní noèník!! (Nezachrání mì, ale øekne bandì ve špínì se rochnících pozemskejch krys, kde najdou todle místo...)~
+@20   = ~Take illithium tady je.  Uklidni se, chci jen trošku a hned pùjdu.~
+@21   = ~Tvùj bratr je v Mìdìné èelence truchlící pro svou ztracenou jeskyni plnou bohatství.  Jak je moné, e ty jsi stále zde se všemi tìmi pøíšerami okolo?~
+@22   = ~'Estli nejseš slepej jako jeskynní krysa a tupej jako ula, musel sis všimnout, e do tìhle trosek vpadla òáká grupa bestií.  Nìco vobrovskıho si pod náma udìlalo bejvák a vovládlo muj dùl.  Tady 'sem, páè 'sem doufal, e najdu cestu ven.  Vyèistils to za sebou?  Mùu tamtudy bezpeènì vypadnout ven?~~'Estli nejseš slepá jako jeskynní krysa a tupá jako ula, musela sis všimnout, e do tìhle trosek vpadla òáká grupa bestií.  Nìco vobrovskıho si pod náma udìlalo bejvák a vovládlo muj dùl.  Tady 'sem, páè 'sem doufal, e najdu cestu ven.  Vyèistilas to za sebou?  Mùu tamtudy bezpeènì vypadnout ven?~
+@23   = ~Co je zaè ta obrovská vìc, o ní jsi mluvil?~
+@24   = ~Promiò.  Sotva jsem se kolem tìch bestií proplíil sám.  Jestli nejsi ochotnı vybojovat si cestu ven, zùstaneš tady.~~Promiò.  Sotva jsem se kolem tìch bestií proplíila sama.  Jestli nejsi ochotnı vybojovat si cestu ven, zùstaneš tady.~
+@25   = ~Cesta je volná.  Mùeš odejít.~
+@26   = ~Nevypadalo to jako tıpek na pokec.  Propálilo si to cestu 'krz samou zem a teï si to z místnosti pod náma udìlalo bejvák.  Radìj' bych to nechal na pokoji.  A teï mi øekni, je tam bezpeèná cesta z tıdle kobky?~
+@27   = ~Ty z toho máš prèu, co, ty pozemská kryso?  Gorje, vydanej na milost a nemilost srabáckı tlupì drowskejch fekálií, která se vydává za jeho bráchu.  Zatracená sranda, ty blbèe.  Moji "sluebníci" 'sou ten dùvod, proè tydle naše jeskynì u nemaj ádnou cenu.  Naše dopravní trasy 'sou zavøenı, 'estli 'si teda nevytesal cestu ke vchodu.~~Ty z toho máš prèu, co, ty pozemská kryso?  Gorje, vydanej na milost a nemilost srabáckı tlupì drowskejch fekálií, která se vydává za jeho bráchu.  Zatracená sranda, ty kozo pitomá.  Moji "sluebníci" 'sou ten dùvod, proè tydle naše jeskynì u nemaj ádnou cenu.  Naše dopravní trasy 'sou zavøenı, 'estli 'si teda nevytesala cestu ke vchodu.~
+@28   = ~Unger je 'eštì vìèí blázen ne ty, dyš si myslí, e neschopná povrchní krysa jako ty by mì mohla zachránit.  Ale 'estli mi teda nehelfneš, to to risknu sám.  Lepší ne vostat tady a èuchat tvuj smrad!~
+@29   = ~Fakt?!  K èertu, muj idiotskej brácha udìlal pro zmìnu nìco správnıho?!  Tak to mizim najít toho podìsa.  A radil by 'sem ti vypadnout z tohodle proketıho místa, ne tì ta bestie dole najde a dá si tì ke sváèe.  Kdo ví, tøebas si potvùrka myslí, e 'si køupavouèkej a dobrej s keèupem.~~Fakt?!  K èertu, muj idiotskej brácha udìlal pro zmìnu nìco správnıho?!  Tak to mizim najít toho podìsa.  A radil by 'sem ti vypadnout z tohodle proketıho místa, ne tì ta bestie dole najde a dá si tì ke sváèe.  Kdo ví, tøebas si potvùrka myslí, e 'si køupavouèká a dobrá s keèupem.~
+@30   = ~Získej pro chrám sluby Sira Sarlese.
+
+Našel jsem Ungerova ztraceného bratra Gorjeho.  Doufejme, e dodrí dohodu a zajistí mi potøebnou rudu.~ ~Získej pro chrám sluby Sira Sarlese.
+
+Našla jsem Ungerova ztraceného bratra Gorjeho.  Doufejme, e dodrí dohodu a zajistí mi potøebnou rudu.~
+@31   = ~Tak to 'deš móc pozdì.  Poslední illithium z tohodle prokletıho místa je v èudu.  Co z tìhle prastarejch zdí nevyplundrovali lupièi, poslal 'sem svımu bláznivımu bráchovi.  Klidnì si tady udìlej prohlídku, ale já 'sem to tu prošmejdil fakt dobøe. Hodnì štìstí!  Já padám najít svıho idiotskıho bráchu.  Radil by 'sem ti zmizet z tohodle prokletıho místa.  Nejspíš tady najdeš akorát exitus v paøátech tı bestie dole.~
+@32   = ~Nevotravuj mì, prcku.  Dneska ráno nemám dobrou náladu.~
+@33   = ~Co na mì tak civíš?  Co 'sem slyšel, bejt trpaslíkem neni nelegální.  Pøesuò svùj pohled na nìjakı bezpeènìjší místo.~
+@34   = ~Áá, ale ty nejsi jen tak obyèejnı trpaslík, viï?  Rozhodnì ne.~
+@35   = ~Není dùvod k nepøátelství. Poslala mì Jerlia. Rád bych si promluvil o illithiu.~~Není dùvod k nepøátelství. Poslala mì Jerlia. Ráda bych si promluvila o illithiu.~
+@36   = ~Omlouvám se za vyrušení, aè se zdá, e jsi ji byl rozrušen.~
+@37   = ~Nelíbí se mi tvuj tón, <GIRLBOY>. Jestli máš co øíc', mìl bys to vyklopit hned, ne strávíš zbytek dne hledánim svejch zubù!~~Nelíbí se mi tvuj tón, <GIRLBOY>. Jestli máš co øíc', mìla bys to vyklopit hned, ne strávíš zbytek dne hledánim svejch zubù!~
+@38   = ~Slyšel jsi, duergare. Mìl bys poslouchat, co ti øíkám. Potøebuju illithium.~
+@39   = ~Nezlob se, nemyslel jsem to zle. Poslala mì Jerlia. Potøebuji illithium.~~Nezlob se, nemyslela jsem to zle. Poslala mì Jerlia. Potøebuji illithium.~
+@40   = ~Moc se omlouvám. U jsem na odchodu.~
+@41   = ~Pokraèuj, 'bratranèe'. Nemám, co bych ti øek', i kdy máš tu správnou vejšku.~
+@42   = ~A já vím proè. Nejsi mım pøíbuznım o nic víc ne drowové.~
+@43   = ~Omlouvám se, e jsem tì obtìoval. Nechám tì naprosto o samotì.~~Omlouvám se, e jsem tì obtìovala. Nechám tì naprosto o samotì.~
+@44   = ~Tvoje kecy jsou nic. Nech si je pro sebe, je to to jedinı, co vode mì dostaneš.~
+@45   = ~Vona tì poslala? K èertu!  Myslim, e si se sleèinkou budu muset popovidat. Vìøim, e 'si jí zaplatil dost, aby nìco mìla z toho, e se vode mì trhne. Pozná, e je to moudrı, jesli ta podrazácká sleèinka ví, co je dobrı pro vobchod.~~Vona tì poslala? K èertu!  Myslim, e si se sleèinkou budu muset popovidat. Vìøim, e 'si jí zaplatila dost, aby nìco mìla z toho, e se vode mì trhne. Pozná, e je to moudrı, jesli ta podrazácká sleèinka ví, co je dobrı pro vobchod.~
+@46   = ~Tak ty hledáš illithium, jo? ádnı nemám a ádnı v dohlednı dobì nedostanu. A teï, kdy u je to vyøízenı, sbohem a u vypadni!~
+@47   = ~Prosím. Obracím se na tebe pro slávu Lathanderovu.~
+@48   = ~Povìøil mì Helm v celé své slávì. Prosím, rozva to ještì jednou.~
+@49   = ~Slouím zbìsilému Talovi. Rozva znovu, jinak nás nakonec oba ztrestá.~
+@50   = ~Poèkej. Mùeš na tom mnoho vydìlat. Nerozmyslíš se to ještì?~
+@51   = ~Myslím, e tady zùstaneš a budeš pìknì zpívat, duergare! Nechtìl bys pøece, abych o tobì všem povìdìl.~~Myslím, e tady zùstaneš a budeš pìknì zpívat, duergare! Nechtìl bys pøece, abych o tobì všem povìdìla.~
+@52   = ~Vo to vùbec nejde, ty kvákající blázne. Já NEMÁM ádnı illithium. ádnı. Je to tak jednoduchı. Muj dodavatel je nedostupnej, a 'dy nemùu dostat adnı sám, nedostanu ho ani pro tebe. Rozèiluj se, jestli chceš, ale budeš z toho mít velkı kulovı.~~Vo to vùbec nejde, ty kejhající huso. Já NEMÁM ádnı illithium. ádnı. Je to tak jednoduchı. Muj dodavatel je nedostupnej, a 'dy nemùu dostat adnı sám, nedostanu ho ani pro tebe. Rozèiluj se, jestli chceš, ale budeš z toho mít velkı kulovı.~
+@53   = ~Mluvíš jako by to byla neèekaná ztráta. V èem je problém?~
+@54   = ~Nedokáeš zacházet s vlastními zásobami? Hádám, e jsi akorát nezodpovìdnı.~
+@55   = ~Tak co by pomohlo? Je to opravdu dùleité.~
+@56   = ~Óóch, pozemskı bohové.  Ty 'sou mi ukradenı. Pro mì, za mì to mùe bejt tøeba pro slávu tıdle idle, na kerı sedim. Moh' by 'sem strávit celej den vodøikávánim dùvodù, proè je mi tvuj osud putna nebo jakıho zmetka uctíváš, ale to je ztráta èasu.  Nedám tomu ani vokamik mezi pùlitrama.~
+@57   = ~Tala znám. Musim uznat, e na pozemskıho boha má pár zajímavejch myšlenek. Já se vo to moc nestarám, ale je to zajímavı.~
+@58   = ~Chceš vyklopit celımu zatracenımu svìtu, e 'sem duergar, páè doufáš, e to zmìní muj postoj? Chceš si najmout mìsckıho vyøvávaèe, aby to za tebe udìlal?  Velkı kulovı s pøehazovaèkou.  Tady proti mnì nikdo nepude, pozemskej èerve, a ty mì voca nikdy ven nedostaneš. Krom toho, furt z toho budeš mít prd.  Akorát moná tvuj vopruzující hlas dostane òákou lekci.~
+@59   = ~Och, tak najednou chceš bejt muj kámoš? I pøes to dobro v tvym srci?  Našel 'si v tom svym velkym promoklym vorgánu místo pro jednoho z mıho druhu?  Proè by 'sem se mìl vùbec vobtìovat tì poslouchat?~~Och, tak najednou chceš bejt moje kámoška? I pøes to dobro v tvym srci?  Našla 'si v tom svym velkym promoklym vorgánu místo pro jednoho z mıho druhu?  Proè by 'sem se mìl vùbec vobtìovat tì poslouchat?~
+@60   = ~Nezajímá mì ubliování prostému obchodníkovi. Kde jinde se ti dostane pomoci?~
+@61   = ~Zøejmì nemùeš vyøešit svùj problém, jinak bys mìl illithium. Co jiného mùeš dìlat?~
+@62   = ~To je monı, ale já s tim nic neudìlám. Nemùu ti vopatøit, co potøebuješ, a nemam jak to zmìnit. Taky nemam jedinej dùvod vìøit ti, e mi helfneš.~
+@63   = ~Slušnost 'si vidìl hodnì z dálky, ty vomezenej lysej vopièáku. Ty nemáš ádnı illithium a já nemám ádnı illithium. Udìlal by 'si líp, kdyby 'si mi helf', ale pak zase já nemám jedinej dùvod vìøit ti, e to fakt udìláš.~~Slušnost 'si vidìla hodnì z dálky, ty vomezená lysá vorangutánko. Ty nemáš ádnı illithium a já nemám ádnı illithium. Udìlala by 'si líp, kdyby 'si mi helfla, ale pak zase já nemám jedinej dùvod vìøit ti, e to fakt udìláš.~
+@64   = ~Øekni mi, proè by 'sem se mìl vobtìovat, aby 'sem se ti svìøil se svejma problémama?~
+@65   = ~Nikde. Todle místo je nepøátelskı i k tìm patetickejm horskejm trpaslikum. Dobrá, povrchòane, chceš sdílet moje problémy, a je po tvym.~~Nikde. Todle místo je nepøátelskı i k tìm patetickejm horskejm trpaslikum. Dobrá, povrchòo, chceš sdílet moje problémy, a je po tvym.~
+@66   = ~Nic. I kdy 'si horskej trpaslik, máš moc málo pøíleitostí vobchodovat. Dobrá, povrchòane, chceš sdílet moje problémy, a je po tvym.~~Nic. I kdy 'si horskej trpaslik, máš moc málo pøíleitostí vobchodovat. Dobrá, povrchòo, chceš sdílet moje problémy, a je po tvym.~
+@67   = ~Chceš illithium, mùeš si na nìj poèkat. Dolujem' ho hluboko v zemi a zaèíná to bejt nebezpeènı. Je dost vzácnı, i kdy je produkce normoš.~
+@68   = ~Tydle všechny informace 'sou ti ale stejnì na prd, páè moje poslední dodávka 'eštì nedorazila! Muj idiotskej brácha, ten vymaštìnej blbec, mìl dohlíet na poslední zásilku sezóny, ale u 'sem vo nìm tejdny neslyšel.  Ten mamlas by mìl bejt raèi tuhej, jináè to zaøídim sám!~
+@69   = ~Tak to bych moná mohl pomoci nám obìma.  Kdy dám souhlas, e najdu tvého ztraceného bratra, a uspìju, zajistíš mi illithium, které ádám?~~Tak to bych moná mohla pomoci nám obìma.  Kdy dám souhlas, e najdu tvého ztraceného bratra, a uspìju, zajistíš mi illithium, které ádám?~
+@70   = ~Pche! Po tobì nebo po tvém bezcenném rodu mi nic není. Najdu si nìjakı jinı zpùsob, jak získat, co potøebuju.~
+@71   = ~Kde mohu najít tvého ztraceného bratra?~
+@72   = ~Jestli ho chceš vodchytit, to je tvoje vìc. Pro mì je u v kadym pøípadì ztracenej. Jak vystrèim nos, mam v patách stráe jenom proto, e 'sem duergar.~
+@73   = ~Nazdar, blbèe. Dr se vode mì dál, jo? Bude to nejlepèí pro nás voba.~  ~Nazdar, huso. Dr se vode mì dál, jo? Bude to nejlepèí pro nás voba.~
+@74   = ~Oslovil jsem tì, abych si s tebou promluvil, duergare.~ ~Oslovila jsem tì, abych si s tebou promluvila, duergare.~
+@75   = ~To je typickı pro todle mìsto. Jsem jen chudej vobchodník, ale pudu do basy jenom kùli svı temnı tváøi. Temten hajzl, co mì vokrad', vypadá jako zatracenej vobyèejnej trpaslik, take je vítanej s votevøenou náruèí.~
+@76   = ~Vùbec netušej, co je to za zmetka. Po tom, co 'sem si ho najmul, zjistil 'sem, co døív dìlal. Myslim, e proto mì podrazil a zdejchnul se.  Zlodìjskej bastard...~
+@77   = ~Nedìlej si starosti. Jen mì nasmìruj.~
+@78   = ~Jistì je strašlivı. Kde je teï?~
+@79   = ~Jo, jo, ivot je pes. Postarám se o nìj.~
+@80   = ~Soudím podle èinù. Ty vypadáš skuteènì neškodnì.~
+@81   = ~Jo, dobroš, 'di po nìm, jestli chceš. Co 'sem naposled' slyšel, byl zalezlej nìkde na Mostì. Na jednom vosamocenym malym místì, koupenym za moje zlato...  Voznaèim ti ho na tvı mapì, tady.~
+@82   = ~Nebude se moc pøesouvat. Kdy 'sem ho potkal, utíkal z Baldurovy Brány. Och, tipuju, e budeš taky chtít jeho 'méno.~
+@83   = ~'Menoval se Neb. Nechal za sebou nìkolik úpících rodin, nebo tak 'sem to slyšel. Øekni jeho zdechlinì, e tì poslal Unger Hilldark.~
+@84   = ~Poèkej, ty 'si ten, co se ptal po Nebovi, e jo. Dobrá práce, vzít si moje illithium a nechat ho upláchnout.~~Poèkej, ty 'si ta, co se ptala po Nebovi, e jo. Dobrá práce, vzít si moje illithium a nechat ho upláchnout.~
+@85   = ~Pøedpokládám, e 'si neslyšel, e v Esmeltaranu zmasakroval hafo dìtí. Je pøesvìdèivej, to jo. Fakt skvìlı, hrdino.  Dostal 'si kov, ale nechal 'si démona, a si dál morduje.  Úasnı.~~Pøedpokládám, e 'si neslyšela, e v Esmeltaranu zmasakroval hafo dìtí. Je pøesvìdèivej, to jo. Fakt skvìlı, hrdinko.  Dostala 'si kov, ale nechala 'si démona, a si dál morduje.  Úasnı.~
+@86   = ~Jestli chceš riskovat svojí kùi za mıho bezcennıho bráchu, klíïo.  Nejspíš èíhá v podzemí òákıho chrámu daleko na vıchodì.  Ten blb moná shodil celı to prokletı místo na svojí tvrdohlavou palici.  Najdi toho hajzla a já ti dam rudu.  Tady, vyznaèil 'sem ti to na tvı mapì.~
+@87   = ~Fajn.  Udìlám vše, co mohu, abych nám obìma pomohl.~~Fajn.  Udìlám vše, co mohu, abych nám obìma pomohla.~
+@88   = ~Získej pro chrám sluby Sira Sarlese.
+
+Unger Hilldark mi øekl, e jeho poslední zásilka illithia ještì nedorazila.  Mìla bıt doruèena Ungerovım bratrem Gorjem, ale po nìm ji nìkolik tıdnù není ani vidu ani slechu.  Dohodli jsme se, e budu Gorjeho hledat v "ruinách chrámu mrtvého boha", a uspìju-li, Unger mi zajistí potøebné illithium.~
+@89   = ~Kdy o tom tak pøemıšlím, mám na práci lepší vìci, ne je hledání ztracenıch trpaslíkù. Odcházím.~
+@90   = ~Nic jinıho 'sem vod tebe neèekal. Vypadni, hovado.~
+@91   = ~Tak tady 'si - muj drahej, roztomilej, tvrdohlavej bratøíèek se vrací.~
+@92   = ~Ja, a bez jakıkoliv tvı pomoci, ty srabáckej pytli drowskıho hnoje.  Musels' najmout tydle zatracenı povrchòáckı "dobrodruhy", aby mì vytáhli ven, zatimco ty 'si si tady døepìl a chlastal ten svuj patok a kvílel jako enská!~
+@93   = ~Ty nevdìènej parchante!  Nemìl 'sem jim vykdákat, kde 'seš!  Mìl 'sem tì nechat shnít v tı bohyzapomenutı díøe!  A teï, kde je to illithium?!~
+@94   = ~To illithium?~
+@95   = ~Joo, to illithium, ty vymaštìnej kobolde!  To illithium!!  Víš, ta poslední zásilku, co 'si slíbil, e dodáš?  Aby 'sme mohli vydìlat drobnı a nahradit si ty zatracenı úplatky?  Tamto illithium!?~
+@96   = ~Och... éé...  illithium.  Ja.  Dobrá, brácha, takhle.  Tam u ádnı nezbylo.  Prohlíd' 'sem ten dùl a nenašel ani jedinou unci.  Nìkdo nám ten dùl vypytlaèil.  Aspoò máš furt tu minulou zásilku.~
+@97   = ~Opravdu nerad pøerušuji vaše rodinné shromádìní, ale co bude s tím illithiem?~~Opravdu nerada pøerušuji vaše rodinné shromádìní, ale co bude s tím illithiem?~
+@98   = ~Take ty ho nemáš a ty ho taky nemáš?  Kde tedy vezmu svoje illithium?~
+@99   = ~Take jsem se trmácel celou tu cestu, nasazoval svùj krk a vy dva duergaøi nemáte illithium, které potøebuju?~~Take jsem se trmácela celou tu cestu, nasazovala svùj krk a vy dva duergaøi nemáte illithium, které potøebuju?~
+@100  = ~ádnı illithium?!  ádnı nezbylo?!  Mam naléhavej vobchod a ty si pøitancuješ bez illithia! Ty hromado trollích fekálií!  Ty mì pøivedeš na mizinu!  Tu zásilku 'sem potøeboval a ty máš tu drzost nechat se zajmout a nìkde zkejsnout, kùli tomu ádám tydle stromy vobjímající pozemskı èervy, aby tì zachránili, a ty 'si nemìl tu slušnost raèi chcípnout ne se vrátit bez òákıho illithia!!~
+@101  = ~Kurnik šopa.  ádnı u tam nezùstalo, abysem ti ho moh' pøinıst.  Ale ty furt máš tu minulou zásilku, e jo?  Tu co 'sem ti poslal nìkolik tejdnù zpátky?~
+@102  = ~Take ty máš illithium?  Ale øíkal jsi, e ne?~
+@103  = ~A kde je tohle illithium?  Øekl jsem ti své poadavky!~~A kde je tohle illithium?  Øekla jsem ti své poadavky!~
+@104  = ~Jak 'sem øek' povrchòane, právì teï nemám ádnı illithium.  Jeho dodávka mìla doplnit moje zásoby.~~Jak 'sem øek' povrchòo, právì teï nemám ádnı illithium.  Jeho dodávka mìla doplnit moje zásoby.~
+@105  = ~Take u 'si dokázal celou tu minulou zásilku støelit?~
+@106  = ~Ééé... Né tak docela.  Ta zásilka tak òák... zmizela.  Ééé, nìkdo jí èórnul.~
+@107  = ~ÈÓRNUL?!!  A to 'si na mì vøískal, e 'sem nic nenašel tam, 'de nic nebylo!  Ty s illithildy vobcující špinavı vemeno!  Ty hromado sukubích fekálií!  Tobì nìkdo ÈÓRNUL 200 liber illithia?!!~
+@108  = ~A mému lidu pøijdou tihle blázni nebezpeèní?  Sotva se dovedou postarat o své milované kovy na jednom jediném místì.~
+@109  = ~Ušetøte mì duergarského bláznovstvé.  Po všem témhle kòúrání potøebuju jedno pivko!~
+@110  = ~Uh.  Courali jsme se všemi tìmi kobkami pro nic!  <CHARNAME>, to je taková ztráta èasu.~
+@111  = ~Nìkdo ji ukradl?  To jsi mi ale neøekl.~
+@112  = ~Take jeden bratr nemùe ádné najít a druhı zbytek ztratí? Co s tím?~
+@113  = ~Jsem tady, páè moje trosky byly pøepadenı a mùj brácha mì nechal, aby 'sem skapal, ta hromada drowskejch fekálií!~
+@114  = ~Dávej si bacha, duergare!~
+@115  = ~Nic proti tvımu drowskımu mazlíèkovi.~
+@116  = ~Nejsem nièí mazlíèek, duergarská špíno.~
+@117  = ~Jak 'sem øek', drowe, nic ve zlym.~
+@118  = ~Na mì to neházej!  Øikal 'sem ti, e tam nic nevostalo.  e nemáš illithium je chyba mıho tupohlavıho bratøíèka.~
+@119  = ~Jak ti ho èórli?  Zapomnìl 'si zaplatit Stínovejm Zlodìjum?  Nebo 'si ho prostì nechal nìkde všem na voèích jako skøetí flusanec, co sám 'seš.~
+@120  = ~Nee, byla to práce zevnitø.  Ten trpaslik, co 'sem ho najal, aby mi to pomoh' pøevízt, celou zásilku votoèil, ten shniloprdelnickej bastard!~
+@121  = ~Von!?  Moh' 'sem ti øíc', e nìco takovıho zkusí!  Poèkat, se mi zdá, e mam vnuknutí!  Boskı pøipomenutí èi co.  Já 'sem ti øikal, e je problémovej.  Moc roztìkanej... na takovou cestu.  Ale ty 'si povidal, e je moc vıhodnej na to, aby 'si ho vodmít'.  Fakt vıhodnej, co?  Zatracenej chmaták se zdejchnul se všim našim zboim!~
+@122  = ~Já tomu nemùu uvìøit.  Ty 'si neuvìøitelnì neschopnej!  Raèi bych hledal kámen v jeskyních klepetnatcù vokrovejch, ne dál spolupracoval s timdle.  Vokradenej vo všechny naše zisky!~
+@123  = ~Zavøi tu svojí rozjetou hubu.  'Dybys' našel lepèí zdroj... peèu na to.  Teï u je to fuk.  Potøebujem' najít novej zdroj a cestu, aby 'sme se k nìmu dostali.  Pokud 'de vo to illithium, povrchòane, myslim, e by 'sem ti moh' furt helfnout a voplatit to tomu hajzlovi... jesli tì to teda zajímá.~~Zavøi tu svojí rozjetou hubu.  'Dybys' našel lepèí zdroj... peèu na to.  Teï u je to fuk.  Potøebujem' najít novej zdroj a cestu, abysme se k nìmu dostali.  Pokud 'de vo to illithium, povrchòo, myslim, e by 'sem ti moh' furt helfnout a voplatit to tomu hajzlovi... jesli tì to teda zajímá.~
+@124  = ~Po tom všem, jasnì, e jo!~
+@125  = ~Souhlasím s tvım bratrem - jsi neschopnı. Najdu si lepšího dodavatele.~
+@126  = ~Nikdo tì nevyvolal. Tak koukej sklapnout!~
+@127  = ~Ne, právì teï ádnı nemám.  Poèítal 'sem s poslední dodávkou vod tohodle trolího mozku.~
+@128  = ~A 'dyby 'sem ti øek', pomoh' by 'si mi?  Ne?  Nemyslim si.~~A 'dyby 'sem ti øek', pomohla by 'si mi?  Ne?  Nemyslim si.~
+@129  = ~Tak vodprejskni.~
+@130  = ~Jo, <GIRLBOY>, tak se znova potkáváme.~
+@131  = ~Nó, samı bestie vokolo a ani památky po mym bráchovy, proto 'sem furt tady.~
+@132  = ~Vlastnì, Unger se ukrıvá v Mìdìné Èelence v Athkatle.  Øekl mi, kde najdu tebe a jeho ztracené illithium.~
+@133  = ~Proè neodejdeš? Cesta ke dveøím je nyní prosta bestií~
+@134  = ~Obávám se, e tu zùstaneš. U takhle jsem se sem sotva dostal ivı.~~Obávám se, e tu zùstaneš. U takhle jsem se sem sotva dostala ivá.~
+@135  = ~Och, myslíš?!  Podivej, ty chodby rabující kamenoroute, todle se mì sakra tejká!  Vy mùete akorát vodprejsknout a nakrmit sebou tu bestii pod náma!~
+@136  = ~Dobrá. Odcházím.~
+@137  = ~Och, myslíš?!  Bì si vobejmout òákej strom, elfe, todle se mì sakra tejká!  Vy mùete akorát vodprejsknout a nakrmit sebou tu bestii pod náma!~
+@138  = ~Øekni si mımu idiotskımu bráchovi.  Já u ti nemám co øíc'.~
+@139  = ~Gorje Hilldark, 'méno mé.  Todle místo nám patøí s mym tupym bráchou Ungerem.~
+@140  = ~Bylo mi potìšením. Jsem na odchodu.~
+@141  = ~Ta èepel je nazıvána Pavouèí zhouba a dlí v rukou tìch, kdo èístí kanály a stoky.  Pracují ve stokách pod Chrámovou ètvrtí.  Bì.~
+@142  = ~Navra Pavouèí zhoubu enì jménem Pai'Na.
+
+Pai'Na, zvláštní druidka vládnoucí spoleèenstvu, ijící v podzemí Høbitova, mì poádala, abych jí vrátil meè známı jako Pavouèí zhouba.  Vìøí, e by jej mohli mít zamìstnanci mìsta, kteøí pracují ve stokách pod Chrámovou ètvrtí.~~Navra Pavouèí zhoubu enì jménem Pai'Na.
+
+Pai'Na, zvláštní druidka vládnoucí spoleèenstvu ijící v podzemí Høbitova, mì poádala, abych jí vrátila meè známı jako Pavouèí zhouba.  Vìøí, e by jej mohli mít zamìstnanci mìsta, kteøí pracují ve stokách pod Chrámovou ètvrtí.~
+@143  = ~Nevracej se bez prokleté èepele Pavouèí zhouby.  Porozhlédni se ve stokách pod Chrámovou ètvrtí.  Úkol je to prostı.~
+@144  = ~Vracíš se a tøímáš tu hrozivou èepel, která toliko zahubila!  Máš mùj bezmeznı vdìk!  Ji nebude více trápit osminohı rod.~
+@145  = ~Navra Pavouèí zhoubu enì jménem Pai'Na.
+
+Vrátil jsem Pai'Nì meè známı jako Pavouèí zhouba.  Nicménì doufám, e mìla pravdu a e navrácení meèe bude ku prospìchu obyvatel Athkatly.~~Navra Pavouèí zhoubu enì jménem Pai'Na.
+
+Vrátila jsem Pai'Nì meè známı jako Pavouèí zhouba.  Nicménì doufám, e mìla pravdu a e navrácení meèe bude ku prospìchu obyvatel Athkatly.~
+@146  = ~Navra Pavouèí zhoubu enì jménem Pai'Na.
+
+Našel jsem pracovníky ve stokách a získal Pavouèí zhoubu.  Musím znovu v podzemí Høbitova vyhledat Pai'Nu.~~Navra Pavouèí zhoubu enì jménem Pai'Na.
+
+Našla jsem pracovníky ve stokách a získala Pavouèí zhoubu.  Musím znovu v podzemí Høbitova vyhledat Pai'Nu.~
+@147  = ~Irenicu, poèkej.  Prosím, neubliuj Valygarovi.  On si neuvìdomuje, jakou hrozbou nyní <CHARNAME> je.~
+@148  = ~Dobrá, pane.  Omlouvám se.~
+@149  = ~Mohu vám s nìèím pomoci, <SIRMAAM>?~
+@150  = ~Co dìlá krásná dáma na místì, jako je tohle? Nedáte si nìco k pití?~
+@151  = ~Zdravím, madam. Copak vás pøivádí do Mìdìné èelenky?~
+@152  = ~Bylo mi øeèeno, e byste mi moná mohla pomoci.  Hledám mue jménem Valygar Corthala.  Jeho vrchní sluha øíkal, e vy byste mohla vìdìt, kde v souèasné dobì pobıvá...~
+@153  = ~Co víte o mui jménem Valygar Corthala?~
+@154  = ~S nièím, díky.  Pùjdu si svou cestou.~
+@155  = ~To tì sem poslal Salvanas, abys mì také obtìoval?  Pøísahám, e vy dobrodruzi jste všichni stejní.  Nech mì na pokoji, ne naservíruji tvou hlavu na tøetí stùl.~
+@156  = ~Musíš-li to vìdìt, zabíjím èas pøed schùzkou se svım zamìstnavatelem.  Jestli ti to nebude vadit, musím si toho ještì mnoho promyslet a ocenila bych trochu samoty.  Pokud hledáš zábavu, moná by ses mìl zeptat barmana.~~Musíš-li to vìdìt, zabíjím èas pøed schùzkou se svım zamìstnavatelem.  Jestli ti to nebude vadit, musím si toho ještì mnoho promyslet a ocenila bych trochu samoty.  Pokud hledáš zábavu, moná by ses mìla zeptat barmana.~
+@157  = ~Budi.~
+@158  = ~To jsi zase ty?  Co chceš?~
+@159  = ~Bylo mi øeèeno, e byste mi moná mohla pomoci.  Hledám mue jménem Valygar Corthala.  Jeho vrchní sluha øíkal, e vy byste mohla vìdìt, kde v souèasné dobì pobıvá...~
+@160  = ~V... Valygar?  Já... nikdy jsem o nìm neslyšela!~
+@161  = ~Opravdu?  Jeho sluha øíkal, e jste ho znala velmi dobøe.  Moc byste mi pomohla.~
+@162  = ~Leš!  Proè zapíráš, e znáš toho mue?~
+@163  = ~Vidím, e tady se odpovìdí nedoèkám.  Sbohem!~
+@164  = ~Dobrá.  Ano, znám Valygara.  Jako zvìdové jsme byli... pøátelé.  Ne, ne... byli jsme víc ne pøátelé.  Milovala jsem ho víc ne kdy kohokoli jiného.  Slyšet znovu jeho jméno je velmi bolestivé...~
+@165  = ~Moná mohu pomoci nám obìma.  Je opravdu dùleité, abych ho našel.  Víš snad, kam mohl prchnout?~~Moná mohu pomoci nám obìma.  Je opravdu dùleité, abych ho našla.  Víš snad, kam mohl prchnout?~
+@166  = ~Jsem dojat.  A kde ho mùu najít?~~Jsem dojata.  A kde ho mùu najít?~
+@167  = ~Jeho rodina vlastní nìjaké pozemky na Umaøinì vrchovinì na vıchodì.  Nevím to jistì, ale øekla bych, e uprchl do tamní divoèiny.~
+@168  = ~Pokud ho uvidíš, prosím tì, øekni mu... Ne.  Omlouvám se, ale u o tom dál nemohu hovoøit.  Mé srdce úpí po mém milovaném Valygarovi.  Prosím, jen se ujisti, e je v poøádku.  Ráda bych teï zùstala o samotì.~
+@169  = ~Valygare?!  Valygare, jsi to skuteènì ty?~
+@170  = ~Suna Seni!  Och, jak jsem touil vidìt opìt tvou nádhernou tváø!  Strašnì jsi mi chybìla od té doby, co jsem utekl z mìsta.  Omlouvám se, e jsem tì musel opustit tak náhle a bez vysvìtlení.  Moc mì trápilo pomyšlení, e jsem tì tøeba ranil.~
+@171  = ~Och, Valygare, na tom u nezáleí.  Chápu to - kdy jsem o tobì nìkolik dní neslyšela, promluvila jsem si s Hervem.  Ti proklatí Èarodìjové!  Jejich politické kejkle jsou nákazou tohoto mìsta.  Jsem tak ráda, e tì vidím v poøádku!~
+@172  = ~Ano, má lásko, jsem iv a zdráv.  <CHARNAME> mì navštívil v mém srubu a nabídl mi pomoc v mém poslání zastavit Lavoka.~~Ano, má lásko, jsem iv a zdráv.  <CHARNAME> mì navštívila v mém srubu a nabídla mi pomoc v mém poslání zastavit Lavoka.~
+@173  = ~Øe... øekl jsi <CHARNAME>?  Valygare, nesmíš se spojit s tímhle <PRO_MANWOMAN>.  Toti, <PRO_HESHE> je zlı - je Bhaalùv splozenec!  Nesmíš <PRO_HIMHER> vìøit!~~Øe... øekl jsi <CHARNAME>?  Valygare, nesmíš se spojit s touhle <PRO_MANWOMAN>.  Toti, <PRO_HESHE> je zlá - Bhaalùv splozenec!  Nesmíš <PRO_HIMHER> vìøit!~
+@174  = ~Suno, dlouho jsem cestoval s <CHARNAME> a vím, e <PRO_HESHE> je potomkem Bhaala, ale svìøil bych <PRO_HIMHER> svùj ivot.~
+@175  = ~Ne!  Valygare, prosím, snanì tì prosím.  Neputuj s tímhle <PRO_MANWOMAN>!~~Ne!  Valygare, prosím, snanì tì prosím.  Neputuj s touhle <PRO_MANWOMAN>!~
+@176  = ~Suno, co se dìje?  Nikdy jsem nezail, e bys nìkoho tak soudila.  Proè tolik nevìøíš <CHARNAME>?~
+@177  = ~Já... nemohu o tom mluvit.  Promiò.  Musím jít.  Moná se zase brzy uvidíme, má lásko.  Sbohem...~
+@178  = ~Suno!  Suno, poèkej!!!~
+@179  = ~<CHARNAME>!  Poèkej, prosím!  Musím s tebou mluvit.~
+@180  = ~Suno Seni, co dìláš na tomhle prokletém místì?  Proè pomáháš tomu èarodìji?~
+@181  = ~To je to, o èem bych si s tebou ráda promluvila.  Já... chci se omluvit za své èiny.~
+@182  = ~Omluvit?!  Jsem okouzlen... pokraèuj, prosím.~~Omluvit?!  Jsem okouzlena... pokraèuj, prosím.~
+@183  = ~Omluvit... ha!  To by zøejmì mìl bıt vtip.~
+@184  = ~Je pravda, e pracuji pro Irenica. Jednoho dne, není to tak dávno, mì vyhledal jakısi posel a oznámil mi, e nìjakı mocnı èarodìj hledá mé sluby. Slyšel o mıch záznamech u vojska a došel k závìru, e bych se mu v tomto úkolu hodila po ruce.~
+@185  = ~Má schùzka s oním èarodìjem byla vskutku neobvyklá.  Øekl mi vše o Bhaalovıch splozencích a o zlu, které je provází.  A po našem setkání v Mìdìné èelence jsem se dozvìdìla o jeho zámìru chytit tì, <CHARNAME>. Radìji bych pátrala na vlastní pìst, ne jen poslouchala jeho historky, ale nabídl mi 50000 zlatıch, uspìju-li, co je víc penìz, ne jsem si kdy dokázala pøedstavit, proto jsem jeho nabídku pøijala.~
+@186  = ~50000?!  Mì jsi øekla, e ti nabídl jen 5000.~
+@187  = ~Lhala jsem ti, Valygare, protoe jsem vìdìla o tvé nedùvìøe k èarodìjùm.  Kdybych ti øekla skuteènou cenu, nedovolil bys mi vzít tu práci.  Pak jsi opustil mìsto a já jsem se ponoøila do své práce.  Irenicus umí bıt velmi pøesvìdèivı...~
+@188  = ~Omlouvám se, e jsem tì opustil, lásko.  Kdybych to jen vìdìl, sám bych toho èarodìje uštval.  Zdá se, e kletba mé rodiny sahá dál, ne jsem se obával.~
+@189  = ~I pro tak zdatného bojovníka, jakım jsi, Valygare, je ten èarodìj pøíliš mocnı.  Zabil by tì, jak by se mu zachtìlo.  Právì jsem se dozvìdìla o jeho plánech a šílenost jim urèitì nechybí.~
+@190  = ~Formuje alianci s drowy z Ust Natha.  Chystá se zaútoèit na povrch - chce rozpoutat válku mezi elfy.~
+@191  = ~U o tom dál nemluv, nebo se s tebou vypoøádám stejnì jako s tìmi Stínovımi zlodìji.~
+@192  = ~Nechápu to, <CHARNAME>.  Znám Sunu Seni u tolik let a nikdy jsem jí nevidìl chovat se takhle.  To vùbec není ona...~
+@193  = ~To je v poøádku, Valygare.  U jsem si zvykl na reakce lidí, kteøí se dozví o mém pùvodu.  Povìz mi, jak jsi poznal Sunu Seni?~~To je v poøádku, Valygare.  U jsem si zvykla na reakce lidí, kteøí se dozví o mém pùvodu.  Povìz mi, jak jsi poznal Sunu Seni?~
+@194  = ~Co o té enì víš?  Mluv, hranièáøi!~
+@195  = ~Seznámili jsme se pøed mnoha lety, ještì ne jsem se stal zvìdem v Amnské armádì.  Jednoho dne jsem se vracel z Umarské vrchoviny do Athkatly.  Ona byla na vızvìdách a spletla si mì s banditou.~
+@196  = ~Kdy zjistila, e jsem jen cestovatel, zaèali jsme si povídat a zjistili, e máme mnoho spoleèného.  Zpáteèní cestu do Athkatly jsme strávili bok po boku stejnì jako mnohı èas ve mìstì.~
+@197  = ~Jednou ji kontaktoval nìjakı mocnı èarodìj, avšak já jsem nevìdìl, jak se jmenuje.  Vlastnì jsem to nikdy nezjistil, ani kdy se zajímal o Sunu, protoe jsem musel uprchnout z mìsta.~
+@198  = ~No, jasnì... Mám lepší vìci na práci ne poslouchání patetickıch starıch milostnıch románkù.  Jdeme.~
+@199  = ~Tøeba ji opìt potkáme a zjistíme pøíèiny jejího jednání.~
+@200  = ~Snad...  Mìli bychom vyrazit.  Obávám se, e je pøed námi ještì dlouhá cesta. ~
+@201  = ~Budi.  Není dobré zaobírat se pøíliš minulostí.  Pojïme odsud.~
+@202  = ~Ne!  Suno Seni, tady u nejsi v bezpeèí.  Irenicus tì okamitì zabije, a zjistí, e jsi ho zradila.  Prosím, moc tì prosím, vra se do bezpeèí Athkatly.~
+@203  = ~Jak strašnì nenávidím další odlouèení od své milované.  Modlím se, a se bezpeènì vrátí do mìsta a Irenicus a je pøíliš zahledìn do svıch plánù na to, aby se jí pomstil.  Pojïme, najdìme toho èarodìje!~
+@204  = ~Suno!  Ty nestvùro!  Èím se provinila?!~
+@205  = ~Elfí mìsto Suldanesselar je jeho hlavním cílem.  Chce se pomstít tamním elfùm, aè mi nikdy neprozradil, proè k nim chová takovou záš.~
+@206  = ~Pøicházím za tebou, abych ti nabídla svou pomoc.  Irenicus musí bıt zastaven!  Kdybys to dovolil, ráda bych se pøidala k tvé druinì a pomstila se tomu mui, jen mi nepodsouval nic jiného ne li!~~Pøicházím za tebou, abych ti nabídla svou pomoc.  Irenicus musí bıt zastaven!  Kdybys to dovolila, ráda bych se pøidala k tvé druinì a pomstila se tomu mui, jen mi nepodsouval nic jiného ne li!~
+@207  = ~Dobrá, má lásko.  Budu na tebe èekat v tvém pøíbytku v docích.  Ale ještì ne odejdu, mohla bych vám pomoci.~
+@208  = ~Zdejší chovanci mají mnoho nevyèerpanıch sil.  Osvoboï je a oni se k tobì pøispojí v boji s Irenicuem.  Mìl bys taky najít toho nevychovance Saemona Havariana.  Èíhá nìkde tady okolo.  Jak je opovreníhodnı, tak ti mùe pomoci ve stíhání Irenica.~~Zdejší chovanci mají mnoho nevyèerpanıch sil.  Osvoboï je a oni se k tobì pøispojí v boji s Irenicuem.  Mìla bys taky najít toho nevychovance Saemona Havariana.  Èíhá nìkde tady okolo.  Jak je opovreníhodnı, tak ti mùe pomoci ve stíhání Irenica.~
+@209  = ~Valygare, vezmi si tento meè, jeho si ze všeho, co mám, cením nejvíce.  Uij jej ve svém poslání porazit toho démona...~
+@210  = ~Musím odejít, ne bude má zrada odhalena.  Valygare, prosím tì, dávej na sebe pozor a vra se brzy do mého èekajícího náruèí.~
+@211  = ~Hon na Valygara Corthalu.
+
+Úøedník Llarsh se zmínil, e rodina Corthalù vlastní pozemky na Umarské vrchovinì.~
+@212  = ~Hm. To jsem z toho jelen. Jeho rodinì patøí nìjaké pozemky na vıchodì, ale obávám se, e nevím kde.  Mìl bys to probrat se Sunou Seni, hranièáøkou, se kterou se pøátelil, kdy byl u zvìdù. Dost èasto navštìvuje Mìdìnou èelenku.  Pomohlo ti to?~~Hm. To jsem z toho jelen. Jeho rodinì patøí nìjaké pozemky na vıchodì, ale obávám se, e nevím kde.  Mìla bys to probrat se Sunou Seni, hranièáøkou, se kterou se pøátelil, kdy byl u zvìdù. Dost èasto navštìvuje Mìdìnou èelenku.  Pomohlo ti to?~
+@213  = ~Hon na Valygara Corthalu.
+
+Hervo se zmínil, e Valygar mìl mnoho pøátel v Amnské armádì, jistou dobu v ní toti pracoval jako zvìd.  Vzpomnìl si zvláštì na jednu pøítelkyni, enu jménem Suna Seni, která by mohla bıt k zastiení v Mìdìné èelence.~
+@214  = ~Vzpomínám si, mezi ostatními, na jeho dobrou pøítelkyni - hranièáøku jménem Suna Seni. Èasto navštìvuje Mìdìnou èelenku... Moná bys to mìl probrat s ní. Pomohlo ti to?~
+@215  = ~Pramálo mì zajímá tvá láska k tomu mui, Suno Seni.  U jednou ovlivnila tvùj úsudek; Nedopustím, aby se to stalo znovu.  Uèinil rozhodnutí a musí zaplatit za následky.~
+@216  = ~Áá, tak pøece jsi pøišel.  Myslel jsem si, e smrt toho blázna tì rozlítí víc ne tohle...~
+@217  = ~Rozlítí?  Ha!  Jenom jsi za mì udìlal špinavou práci.  Suna Seni mì zradila.~
+@218  = ~Suna Seni?  Ty jsi jí zabil?  Proè?~
+@219  = ~Zradila Mistra.  Ty jsi mìl jsi zemøít v Léèebnì, ale ona ti pomohla uniknout.  Tu záleitost jsme teï vyøídili - zrádkynì je mrtvá a ty se k ní co nevidìt pøipojíš...~
+@220  = ~Zase ty... Proè jsi mì povolal?~~Zase ty... Proè jsi mì povolala?~
+@221  = ~Zkusili jsme pouít poslední pøání, abychom tì oivili, ne-~
+@222  = ~Dost! Copak mì nemùete nechat na pokoji ani po smrti?! Znièím vás svou silou!~
+@223  = ~Coe, moje magie vyprchala? To je další z tvıch fíglù? To je jedno, zardousím vás holıma rukama!~
+@224  = ~Áá, ti dobrodruzi ze stanu, aha. Zdravím vás, smrtelníci... Nejste ani Kalah, ani tan odpornı rakshasa, aha, take musím pøedpokládat, e nejménì jeden z nich ji padl.~
+@225  = ~Ano, Kalah je mrtev, nicménì rakshasa unikl.~
+@226  = ~Zmlkni, otroku. Jsi tu abys plnil *moje* pøíkazy. Teï jsem tvım pánem já...~
+@227  = ~Áá, pak tady je ještì poslední pøání, je èeká na vyplnìní.~
+@228  = ~Jedno pøání? Myslel jsem, e dinové mají povolit tøi pøání kadému svému pánovi.~
+@229  = ~Take Kalah u musel dvì vyuít. Co si pøál?~
+@230  = ~Tak pojïme na nìj...~
+@231  = ~Magická formule, která mì povolává z lampy, je úèinná pouze tøikrát, naèe jsem znovu lapen a vrácen do vlastnictví toho ïábelského rakshasy spolu s novou formulí dle jeho volby.~
+@232  = ~Kalah skuteènì dvì pøání pouil, aè se zdá, e mu nepøinesla nic moc dobrého. Škoda. Na Základníka byl zajímavı.~
+@233  = ~Spoleènost asi hledìla na jeho rod skrz prsty, co zpùsobilo jeho neštìstí a nakonec i smrt. Ale to odbíhám. Chtìli jste vìdìt, jaká byla jeho pøání...~
+@234  = ~Nejprve chtìl umìt ovládat pozornost druhıch, proto jsem mu poskytl prsten, kterı jste si ji nejspíš "pøivlastnili".~
+@235  = ~Mìl tedy moc ovlivòovat ostatní, ale nevìdìl jak na to. Lidé mu sice vìnovali více pozornosti, avšak to vedlo pouze k tomu, e se mu více posmívali, kdy jeho kouzla selhala.~
+@236  = ~A tak pøišlo jeho druhé pøání, vyslovené v hnìvu. Chtìl magickou moc, jakou má mocnı zlobr mág. Dal jsem mu tedy moc i tìlo...~
+@237  = ~Ale ani to mu nepomohlo, jak jste vidìli. Popravdì øeèeno, oèekával jsem to, kdy jsem vám prve ve stanu pokládal onu hádanku. To znamená, smrtelníci, e to poslední pøání patøí vám.~
+@238  = ~Co tedy bude vaším pøáním?~
+@239  = ~Kalah si za své chyby smrt nezaslouil. Pøeji si tedy, aby byl oiven, aby se z nich mohl pouèit.~
+@240  = ~Kalah moná nemusel za své zloèiny zemøít. Pøeji si, abys ho pøivedl zpátky z onoho svìta.~
+@241  = ~Øíkáš, e musiš stále slouit tomu rakshasovi? Pak si pøeji, abys byl osvobozen.~
+@242  = ~Pøeji si, abys uvìznil Kalahovu duši... Navdy.~
+@243  = ~Pøeji si, aby Imoen stála zde po mém boku...~
+@244  = ~Pøeji si, aby mág Jon Irenicus byl mrtev.~
+@245  = ~Jafir mi moná unikl, ale já bych mu pøál smrt. Jako poslední pøání ukonèi jeho ivot nìjakım trıznivım zpùsobem.~~Jafir mi moná unikl, ale já bych mu pøála smrt. Jako poslední pøání ukonèi jeho ivot nìjakım trıznivım zpùsobem.~
+@246  = ~Budu si pøát, abych se stal novım vlastníkem lampy, take si budu moci zvolit novou povolávací formuli a mít více pøání!~~Budu si pøát, abych se stala novım vlastníkem lampy, take si budu moci zvolit novou povolávací formuli a mít více pøání!~
+@247  = ~Zvolím si pøání pro sebe.~
+@248  = ~Tvé pøání je mi rozkazem...~
+@249  = ~Poèkat!~
+@250  = ~Interesantní, velmi podivné. Vypadá to, e má moc nestaèí na dokonèení takového pøání.~
+@251  = ~Zdá se, Smrtelníku, e ti musím dát místo nìj jiné.~
+@252  = ~Áá, omlouvám se, smrtelníku! Pøát si více pøání je zakázáno... Pøesto to mnozí stále zkoušejí.~
+@253  = ~Pouiji svou moc k navrácení Kalaha mezi ivé. A nyní sbohem, dobrodruzi!~
+@254  = ~Kalah oiven.
+
+Objevili jsme povolávací formuli k dinovì láhvi a posledním pøáním jsme oivili Kalaha.~
+@255  = ~Pøeješ si, aby Kalah povstal z mrtvıch? Opatrnì, rozzlobenı duch je nebezpeènı... Nejsem si jist, zda právì toto jsi mìl na mysli, ale bylo tak to bylo vysloveno, smrtelníku, a to je dùleité. A nyní sbohem, dobrodruzi!!~~Pøeješ si, aby Kalah povstal z mrtvıch? Opatrnì, rozzlobenı duch je nebezpeènı... Nejsem si jist, zda právì toto jsi mìla na mysli, ale tak to bylo vysloveno, smrtelnice, a to je dùleité. A nyní sbohem, dobrodruzi!!~
+@256  = ~Nemrtvı Kalah?
+
+Objevili jsme povolávací formuli k dinovì láhvi a pokusili jsme se oivit Kalaha. Nicménì jsme nevyslovili náš poadavek správnì, take namísto nìj byl nakonec povolán jeho nemrtvı duch, kterı na nás zaútoèil.~
+@257  = ~Vy byste to pro mì udìlali? Dìkuji vám, smrtelníci... Koneènì se mohu vrátit domù!~
+@258  = ~Osvobození dina.
+
+Objevili jsme povolávací formuli k dinovì láhvi a posledním pøáním jsme osvobodili dina z jeho vìzení v lampì.~
+@259  = ~Strašlivı poadavek, smrtelníci, ale stani se! Nyní vás opustím.~
+@260  = ~Kalahovo prokletí.
+
+Objevili jsme povolávací formuli k dinovì láhvi a posledním pøáním jsme na vìky prokleli Kalahovu duši. Nikdy nespoèine.~
+@261  = ~Nejste jediní, komu tento okamik pøinese potìšení, smrtelníci... Aèkoli já zùstanu spoután s lampou na jeho zdechlinì. Pøesto, pøání je splnìno. Sbohem!~
+@262  = ~Jafirùv skon.
+
+Objevili jsme povolávací formuli k dinovì láhvi a posledním pøáním jsme nechali velmi nepøíjemnım zpùsobem zabít Jafira.~
+@263  = ~Pak vol moudøe, Smrtelníku! Ale dej si pozor, nemoudrá pøání zanechají toho, kdo je vyøkl, v tubách...~~Pak vol moudøe, Smrtelnice! Ale dej si pozor, nemoudrá pøání zanechají toho, kdo je vyøkl, v tubách...~
+@264  = ~Nech mì si to ještì jednou promyslet...~
+@265  = ~H-hej! Lidièky! Vy jste ti dobrodruzi, kteøí zachránili cirkus, e? Poèkejte! Potøebuji s vámi mluvit!~
+@266  = ~Co potøebuješ?~
+@267  = ~Mluv, dítì, ale to, co mi chceš øíct, by se mi mìlo líbit.~
+@268  = ~Nenechám si rozkazovat dìtmi. Táhni!~
+@269  = ~Na tohle nemám èas, promiò...~
+@270  = ~Jistì, tady je! Jsem ráda, e jsem mohla pomoci... Doufám, e zjistíte, co ten Jafir chystal! Chudák Kalah, byl tak milı, chtìl jen mít nìjaké pøátele...~
+@271  = ~Kouzelná lampa?
+
+Poté, co jsme osvobodili cirkusovı stan, pøistoupila k nám dívka Myara. Dala nám lampu, o ní tvrdila, e je kouzelná a e byla zdrojem Kalahovy moci. Kalah ji zøejmì získal od obchodníka jménem Jafir, kterı pøebıvá U Køivého jeøába u mìstskıch bran.~
+@272  = ~Hek! Vy jste taky padouši!~
+@273  = ~Já... cestuji s cirkusem.~
+@274  = ~Jmenuji se Myara. Prosím, nìco vám chci øíct, myslím, e je to dùleité!~
+@275  = ~Vy mì poznáváte, pání Aerie?~
+@276  = ~Nu, ano dítì! <CHARNAME>, tohle je Myara. Co nám musíš povìdìt?~
+@277  = ~Kdy jsme pøišli do Athkatly, pøistihla jsem jednou Kalaha, jak se plíí pryè, zatímco jsme se zabydlovali. Mì, uh, se nechtìlo do mıch povinností, a tak jsem ho sledovala.~
+@278  = ~Pche! To je dneska pracovní morálka.~
+@279  = ~Šel ke Køivému jeøábovi blízko bran a mluvil s obchodníkem Jafirem. Jafir mu prodal kouzelnou lampu a slíbil Kalahovi, e s ní mùe mít vše, co bude chtít!~
+@280  = ~Ja-Jafir se mi nelíbil. Z nìèeho kolem nìho mi vstávaly vlasy hrùzou...~
+@281  = ~Óch, a podívej se, jak se Boovi vlní srst jenom ze zmínky o jménì toho Jafira! <CHARNAME>, jistì je to nìjakı zlı nièema, Boo se v takovıch vìcech nikdy nemılí!~
+@282  = ~A pak, vy pøece víte, co se stalo v cirkuse! Díky, e jste nás zachránili!~
+@283  = ~Stejnì jsem byla zvìdavá, a tak jsem minulou noc šla do Kalahova stanu a ukradla mu tu lampu. Ale je rozbitá, nebo co, nevím, nejde s ní vùbec kouzlit!~
+@284  = ~Mùeš mi tu lampu dát, Myaro? Asi navštívím toho Jafira...~
+@285  = ~Hloupé dìti by se nemìli plést do vìcí, kterım nerozumí. Dej sem tu lampu!~
+@286  = ~Tìší mì. Jsem Jafir, prostı obchodník...~
+@287  = ~Cítím, e máte tu lampu a stále v ní zbıvají nesplnìná pøání. Zajímavé... Take ten hloupı Základník Kalah musel potkat svou smrt, muhahaha!~
+@288  = ~O èem to mluvíš? Ty jsi vìdìl, e se to stane?~
+@289  = ~Nue, èervi, máte nìjaké otázky? Za jistı obnos vám prozradím povolávací formuli. Samozøejmì bych vás všechny mohl jednoduše znièit, ale myslím, e se radìji pokochám pohledem na spouš, jakou by mohlo v takhle zalidnìné oblasti zpùsobit špatnì vyslovené pøání...~
+@290  = ~Proè jsi to udìlal?~
+@291  = ~Dìlá se mi špatnì z obchodování s takovou zkaenou stvùrou, jako jsi ty, ale taková moc by se mohla vyplatit. Kolik chceš?~
+@292  = ~Øekni, kolik chceš, ïáble.~
+@293  = ~Myslím, e tì radìji prostì zabiju. Nejsem zdaleka tak slabı, jak si myslíš...~~Myslím, e tì radìji prostì zabiju. Nejsem zdaleka tak slabá, jak si myslíš...~
+@294  = ~Pche! Stupidní Základníci! Tak dobrá, zde je ta povolávací formule - Markesh, skuteèné jméno dina, kterı je s lampou spoután. Nyní tì opouštím... Doufám, e tvá pošetilost ti pøinese bolestivou smrt!~
+@295  = ~Není to zøejmé? Jsem rakshasa. Malicherné spory takovıch primitivních bytostí, jako jsi ty, <PRO_RACE>, mì velmi baví. Chyby, které dìláte tak rozkošnì, mi pøipomínají mou vlastní nadøazenost.~
+@296  = ~Nabízím ti stejnou dohodu, jakou jsem nabídl Kalahovi, pìt set zlatıch mincí. Ty peníze samozøejmì napotøebuji, ale bude potìšující zpomalit tvùj rozlet tím, e ti je vezmu.~
+@297  = ~Dobrá, zaplatím.~
+@298  = ~Nemám tolik penìz.~
+@299  = ~Vıbornì. To slovo, je má bıt vysloveno je prosté - Markesh, skuteèné jméno dina, ketrı je uvnitø spoután. Nyní tì opouštím, Základníku! Snad bude celı tvùj bezvıznamnı ivot díky našemu setkání mnohem bolestivìjší...~
+@300  = ~To je moc špatné, smrtelníku! Tedy dobrá, budu se muset se svou zábavou pøesunout jinam a ty udìláš toté. Pøiprav se na bolestivou smrt!~
+@301  = ~Áá, vızva! Dobrá, budu se to pro tebe snait udìlat tak bolestivé, jak jen mohu...~
+@302  = ~Tato lest je u konce, smrtelníci. Prodal jsem Kalahovi tu lampu, protoe jsem vìdìl, jakou zkázu zpùsobí jeho bezvıznamná myslièka, kdy bude mít pøístup k její moci.~
+@303  = ~Nyní mi pøinásíš lampu ty a proè? Nevíš, jak odhalit její tajemství. Existuje povolávací formule, Základníku, a *ta* je klíèem k lampì.~
+@304  = ~A v pøípadì, e jsi dost hloupı na to, aby ses mì pokusil zranit, pohleï: má skuteèná podoba!~
+@305  = ~Já... Co se dìje? Já jsem zase ivı?~
+@306  = ~Ano, Kalahu. Posledním pøáním jsme tì nechali oivit v nadìji, e by ses mohl polepšit.~
+@307  = ~Jen jsem chtìl bıt respektován, já... šel jsem na to špatnì. Nyní to chápu. Nevím, jak ti podìkovat... Teï u vidím, kde jsem chyboval.~
+@308  = ~Kadı si zaslouí druhou šanci, Kalahu. Dávej na sebe pozor.~
+@309  = ~Dám, dám... odejdu a zaènu znovu nìkde, kde je mùj druh uznáván. Znovu ti dìkuji, e jsi mi dal ještì šanci.~
+@310  = ~Tak co, našel 'si toho hajzla, co mi èórnul moje illithium?~~Tak co, našla 'si toho hajzla, co mi èórnul moje illithium?~
+@311  = ~Našel jsem ho, ale obávám se, e utekl z mìsta.~~Našla jsem ho, ale obávám se, e utekl z mìsta.~
+@312  = ~Našel jsem ho, ano, a on z toho setkání ivı nevyšel.~~Našla jsem ho, ano, a on z toho setkání ivı nevyšel.~
+@313  = ~Skvìlá práce, vzít moje illithium a nechat ho jít.  Myslim, e pude do Esmeltaranu, nebo nìkam a voddìlá hafo dìtí.  Fakt skvìlı, hrdino.  Je èas, aby 'sme s bráchou vypadli z tohodle ubohıho mìsta.  Padáme, Gorje.~~Skvìlá práce, vzít moje illithium a nechat ho jít.  Myslim, e pude do Esmeltaranu, nebo nìkam a voddìlá hafo dìtí.  Fakt skvìlı, hrdinko.  Je èas, aby 'sme s bráchou vypadli z tohodle ubohıho mìsta.  Padáme, Gorje.~
+@314  = ~Jo, skvìlı.  Koneènì je ten slizkej špinavec v kelu.  Ty teï táhni.  U pro tì nic nemam.  Je èas, aby 'sme s bráchou vypadli z tohodle ubohıho mìsta.  Padáme, Gorje.~
+@315  = ~Zdá se, e tento srub byl nedávno obydlen, ale v souèasné dobì zde není ani památky po jeho obyvateli.~
+@316  = ~Suno... ne.  Suno!!~
+@317  = ~Suna Seni byla stateèná ena, Valygare, pøijmi mou soustrast.  Stejnì tak sdílím tvou touhu po pomstì, proto pojïme najít toho démona, kterı stojí za vším naším utrpením.~
+@318  = ~Tedy, to je ostuda.  Nesnáším pohled na tak tragickı konec, kterı postihl tak krásnou dámu.  Myslím, e to u je moc.  Pojïme dál.~
+@319  = ~Neplaème pro mrtvé, hranièáøi.  Smrt je souèástí ivota - to vše jsem u a moc dobøe nauèil.  Pokraèujme v našem hledání toho ïábla, Irenica.~~Neplaème pro mrtvé, hranièáøi.  Smrt je souèástí ivota - to vše jsem u a moc dobøe nauèila.  Pokraèujme v našem hledání toho ïábla, Irenica.~
+@320  = ~Souhlasím.  Sunina smrt bude tìké bøímì, které budu muset nést, ale nedovolím Irenicovi, aby zlomil mého ducha.  Za své zloèiny musí zaplatit!~
+@321  = ~Tvá necitlivá slova jsou jen malou útìchou pro mé zlomené srdce, <CHARNAME>, ale máš pravdu.  Musíme si pospíšit.  Pojïme pryè.~
+@322  = ~Útìk z Léèebny
+
+Po prùchodu bludištìm jsem opìt potkal Sunu Seni.  Omluvila se za své èiny a uvìdomila si zlo, které se skrıvá za Irenicovım plánem.  Nabídla nám radu: mám-li vyzvat Irenica, budu potøebovat armádu a zde v léèebnì jedna je... ti zajatí mágové.  Samozøejmì bych byl šílenı, kdybych je osvobodil, ale právì to je moná ono.  Suna Seni zemøela, aby nám nabídla svou pomoc a její smrt nesmí pøijít nazmar.~~Útìk z Léèebny
+
+Po prùchodu bludištìm jsem opìt potkala Sunu Seni.  Omluvila se za své èiny a uvìdomila si zlo, které se skrıvá za Irenicovım plánem.  Nabídla nám radu: mám-li vyzvat Irenica, budu potøebovat armádu a zde v léèebnì jedna je... ti zajatí mágové.  Samozøejmì bych byla šílená, kdybych je osvobodila, ale právì to je moná ono.  Suna Seni zemøela, aby nám nabídla svou pomoc a její smrt nesmí pøijít nazmar.~
+@323  = ~Obávám se, e nebudu ít dost dlouho na to, abych vám pomohla v boji s Irenicem...~
+@324  = ~Co tím myslíš?  Co se stalo?~
+@325  = ~Krátce poté, co jsem pøijala Irenicovu práci, jsem se musela nechat proklít.  Byla jsem ujištìna, e ta kletba bude smrtící, pouze pokud ochotnì pomohu <CHARNAME>.~
+@326  = ~Ne!  Suno, proè nám teï pomáháš?  Vdy si tak podepisuješ svùj ortel smrti!~
+@327  = ~Já vím, lásko, ale musela jsem se pøesvìdèit, e uspìjete ve svém boji proti Irenicovi, a bojím se, e by mì beztak zabil pøedtím, ne bych opustila tento ostrov.~
+@328  = ~Kletba zaèíná pùsobit, ale nyní mohu zemøít v míru.  Obejmi mì, má lásko, úplnì naposledy...~
+@329  = ~<CHARNAME>, Irenicus musí bıt zastaven!  Dostanu svou pomstu.  Suna Seni vsadila svùj ivot, aby zachránila ty naše, a její smrt nesmí pøijít vniveè.~
+@330  = ~Za to co jsi udìlal Sunì Seni, Irenicu, jsi propadl ivotem.  Pomstím její smrt!~
+@331  = ~ - øíkala, e mùu...~
+@332  = ~Uh...~
+@333  = ~P-proè jsem tady? Co se stalo?~
+@334  = ~Imoen?~
+@335  = ~J-jak víš, jak se jmenuju? Kdo jsi?~
+@336  = ~Do toho ti nic není, dìvèe. Din zøejmì pøekroutil mé pøání... A teï vypadni!~
+@337  = ~Jmenuji se <CHARNAME>, Imoen. Zkoušel jsem dinovım pøáním pøivolat svou kamarádku Imoen. Namísto toho to pøineslo tebe. Odkud jsi?~~Jmenuji se <CHARNAME>, Imoen. Zkoušela jsem dinovım pøáním pøivolat svou kamarádku Imoen. Namísto toho to pøineslo tebe. Odkud jsi?~
+@338  = ~Od Koeluha, blízko odsud... Já... Mohu teï jít domù?~
+@339  = ~Proè bych se mìl starat, co teï budeš dìlat? Vypadni, zmiz odsud!~~Proè bych se mìla starat, co teï budeš dìlat? Vypadni, zmiz odsud!~
+@340  = ~Omlouvám se, e jsi sem byla pøenesena. Dostaneš se bezpeènì domù?~
+@341  = ~Ano... Zvládnu to. Prosím tì, u to nikdy nedìlej! Maminka by se zlobila...~
+@342  = ~Pøeji si, aby Imoen, má pøítelkynì u od dìtskıch let, stála zde po mém boku...~
+@343  = ~Imoen, øíkáš? Zajímavé jméno... Podívejme se, koho má magie pøinese!~
+@344  = ~Imoen. Dobrá, *jakási* Imoen.
+
+Objevili jsme povolávací formuli k dinovì láhvi a posledním pøáním jsme zkoušeli vrátit k nám Imoen. Nicmìnì namísto mé drahé pøítelkynì kouzlo vyvolalo nìjaké malé dìvèe stejného jména.~
+@345  = ~Potøebuji, abys ji získal a pøinesl ji sem. Zbavím se jí a obnovím rovnováhu pod tímto mìstem. Bude-li málo pavoukù, hmyz se pøemnoí. Ti hubitelé toto neberou v potaz.~
+@346  = ~Nemám ádného pána a ten, jemu jsem zavázána, neví o mém plánu. Ne, on z tohoto ádnı prospìch mít nebude.~
+@350  = ~Osvobození dina.
+
+Objevili jsme povolávací formuli k dinovì láhvi a posledním pøáním.~

@@ -1,0 +1,63 @@
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWBill")
+	Wait(3)
+	MoveBetweenAreas("WWPETS",[234.233],11)
+	Wait(1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player1)
+	FadeToColor([20.0],0)
+	Wait(3)
+	LeaveAreaLUA("WWPETS","",[170.258],11)
+	Wait(1)
+	FadeFromColor([20.0],0)
+	Wait(2)
+	EndCutSceneMode()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player2)
+	Wait(3)
+	LeaveAreaLUA("WWPETS","",[218.292],11)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player3)
+	Wait(3)
+	LeaveAreaLUA("WWPETS","",[249.297],11)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player4)
+	Wait(3)
+	LeaveAreaLUA("WWPETS","",[127.282],11)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player5)
+	Wait(3)
+	LeaveAreaLUA("WWPETS","",[183.310],11)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player6)
+	Wait(3)
+	LeaveAreaLUA("WWPETS","",[218.323],11)
+END
+
+

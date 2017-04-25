@@ -1,0 +1,15 @@
+IF
+	InParty(Myself)
+	!StateCheck(Myself,STATE_SLEEPING)
+	GlobalTimerExpired("U!SYoshimoTalksPC","GLOBAL")
+	See(Player1)
+	!StateCheck(Player1,STATE_SLEEPING)
+	CombatCounter(0)
+	!Detect([ENEMY])
+	Global("U!SYoshimoImpose","LOCALS",0)
+THEN
+	RESPONSE #100
+ 	        SetGlobal("U!SYoshimoImpose","LOCALS",1)
+ 	        SmallWait(1)
+		Interact(Player1)
+END

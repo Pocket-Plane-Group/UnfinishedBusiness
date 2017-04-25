@@ -1,0 +1,21 @@
+// Balthis' home, AR0506
+IF
+Global("O#UBHaerDalisArrested","GLOBAL",2)
+Global("O#UBHaerDalisBalthisDone","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("HACTON",Kill(Myself))
+SetGlobal("O#UBHaerDalisBalthisDone","GLOBAL",1)
+Continue()
+END
+
+IF
+Global("O#UBHaerDalisInnocentTalk","GLOBAL",1)
+Global("O#UBHaerDalisInnocentBadGuy","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("HAPIP",DestroySelf())
+CreateCreature("O#HAJAN",[301.408],14)
+SetGlobal("O#UBHaerDalisInnocentBadGuy","GLOBAL",1)
+Continue()
+END

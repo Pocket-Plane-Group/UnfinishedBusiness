@@ -1,0 +1,62 @@
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("EdwinW2","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EdwinW2","LOCALS",90)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("EdwinW2","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("EdwinW2","LOCALS",0)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BEdwin15","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BEdwin15","LOCALS",90)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("BEdwin15","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("BEdwin15","LOCALS",0)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BEdwin18","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BEdwin18","LOCALS",90)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("BEdwin18","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("BEdwin18","LOCALS",0)
+END
+
+IF
+	G("WWBooGone",1)
+	Global("BEdwin16","LOCALS",0)
+THEN RESPONSE #100
+	SetGlobal("BEdwin16","LOCALS",90)
+END
+ 
+IF
+	G("WWBooGone",2)
+	Global("BEdwin16","LOCALS",90)
+THEN RESPONSE #100
+	SetGlobal("BEdwin16","LOCALS",0)
+END
+

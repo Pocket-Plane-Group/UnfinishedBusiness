@@ -1,0 +1,17 @@
+IF
+See(Player1)
+Global("DeadSpoken","LOCALS",0)
+THEN
+RESPONSE #100
+ReallyForceSpell(Myself,WIZARD_BLUR)
+StartDialogueNoSet(Player1)
+SetGlobal("DeadSpoken","LOCALS",1)
+END
+
+IF
+See(NearestEnemyOf(Myself))
+THEN
+RESPONSE #100
+Attack(Player1)
+END
+

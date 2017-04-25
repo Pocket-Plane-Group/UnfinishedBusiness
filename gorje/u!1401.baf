@@ -1,0 +1,16 @@
+IF
+  Global("UBShadowRemove","AR1401",0)
+THEN
+  RESPONSE #100
+    SetGlobal("UBShadowRemove","AR1401",1)
+    ActionOverride("icbone01",DestroySelf())
+END
+
+IF
+  Global("FindGorje","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("GORJE",[1197.1917],6)  // ~Gorje Hilldark~
+    SetGlobal("FindGorje","GLOBAL",2)
+END
+

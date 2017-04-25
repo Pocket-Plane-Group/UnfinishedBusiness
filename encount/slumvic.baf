@@ -1,0 +1,18 @@
+IF
+	TimeGT(3)
+	TimeLT(23)
+	!See([PC])
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Dead("SlumsMugger2")
+	Dead("SlumsMugger4")
+	See([PC])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+

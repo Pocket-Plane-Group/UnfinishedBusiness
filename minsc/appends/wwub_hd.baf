@@ -1,0 +1,20 @@
+// Turning off Haer'Dalis banters
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("BHaerDalis7","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHaerDalis7","LOCALS",90)
+END
+
+
+// And back on
+
+IF 
+	Global("WWBooGone","GLOBAL",2)
+	Global("BHaerDalis7","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("BHaerDalis7","LOCALS",0)
+END

@@ -1,0 +1,900 @@
+@0    = ~Porwanie Boo zrobione przez Cliffette~ 
+@1    = ~Billy~
+@2    = ~Delag~ 
+@3    = ~Eforf~
+@4    = ~Sten~ 
+@5    = ~Vivick~
+@6    = ~Smethy~
+@7    = ~Eleanya~ 
+@8    = ~Zakapturzony czarodziej~
+@9    = ~Stra¿nik De'Lyl~ 
+@10   = ~Boosiaczek~
+@11   = ~Przyzwany boosiaczek~
+@12   = ~ ~ 
+@13   = ~"Boo"~
+@14   = ~To jest ma³y, puchaty chomik.  Choæ Minsc uwa¿a, ¿e jest to Boo, miniaturka wielkiego kosmicznego chomika, ty wiesz, ¿e to jest zastêpczy Boo, szybko w³o¿ony przez ciebie do skórzanej teczki Minsca.~ 
+@15   = ~Kawa³ki Boo.~
+@16   = ~Nie ma tu nic poza kawa³kami ostatniego posi³ku Boo.~
+@19   = ~Straci³eœ zwierzêcego kompana, czy masz po prostu doœæ swego chowañca? ChodŸ do Presti¿owych Zwierzaków Smethego! (Og³oszenie upowa¿nione przez Aljafa Pierwotnie Ob³¹kanego.)~
+@20   = ~Relacje Suna Seni i Valygara~ 
+@21   = ~Suna Seni~
+@22   = ~Maharajah~ 
+@23   = ~Miecz Arabane'a +3~ 
+@24   = ~Miecz Zwinnoœci Arabane'a
+Jest to jeden z wielu przedmiotów stworzonych na czeœæ maga, który jako pierwszy odkry³ jak umagiczniaæ w ten sposób klingi. By³a to broñ banity Garno i od tego ostrza zginê³o wielu kap³anów. Garno by³ rozwœcieczony na bogów po tym jak jego rodzina zosta³a spalona na stosie przez kap³anów Loviatar i poœwiêci³ swoje ¿ycie zemœcie. Pomimo jego nienawiœci do wszystkiego co œwiête, podejrzewa siê, ¿e jeden z bogów chaosu pomóg³ Garno w zdobyciu tego miecza, rozkoszuj¹c siê zniszczeniami jakie powodowa³ ten m³odzieniec.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Specjalne:
+ Odpornoœæ na Unieruchomienie.
+ Raz dziennie mo¿e przyspieszyæ postaæ na 12 sekund.
+Waga: 2
+OpóŸnienie: 1
+Rodzaj bieg³oœci: krótki miecz
+Typ broni: 1-rêczna
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ W³adca zwierz¹t~
+@25   = ~"Kot i mysz" (Bodhi poluje na ciebie w Czarowiezach) zrobione przez Ghreyfain~ 
+@26   = ~Gorje Ciemne Wzgórze i rozszerzone poszukiwania Ilitu~
+@27   = ~Pai'Na/Zbuga paj¹ka - rozszerzona przygoda~
+@28   = ~Ulepszona tawerna Pod Krzywym Zurawiem~
+@29   = ~Przywrócone losowe spotkania w mieœcie~
+@30   = ~Przywrócone przedmioty~
+@31   = ~Torba z wilczej skóry~
+@32   = ~Stworzona ze skóry du¿ego wilka, ta gruba torba mo¿e przechowywaæ przedmioty, które zgromadzi³eœ w czasie podró¿y.
+
+PARAMETRY:
+
+Pojemnoœæ: 10 przedmiotów
+Waga: 10~
+@33   = ~Shazzellim +1
+Ten sejmitar jest doœæ s³abej jakoœci, ale w jego wnêtrzu czai siê wielka moc i z³o. Zosta³ stworzony do zabijania Harfiarzy i œwietnie nadaje siê do tego celu. Po jednym ciosie tego ostrza bard musi wykonaæ rzut obronny przeciwko czarom albo zginie. Zosta³ stworzony przez Czerwonego Maga z Thay, ma tak¿e zdolnoœæ mówienia, i dlatego tak czêsto dawano go magom-wojownikom s³u¿¹cym Czarodziejom. Nie trzeba mówiæ, ¿e posiadanie tego miecza nie bêdzie podobaæ siê Harfiarzom.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ Ug³osowienie
+ Ka¿dy trafiony bard musi wykonaæ rzut obronny przeciwko czarom z modyfikatorem -4 lub zginie
+Waga: 3
+OpóŸnienie: 4
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 10
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ W³adca zwierz¹t
+ Postaæ o dobrym charakterze~
+@34   = ~Kiedy jest u¿yta, ró¿d¿ka ta emituje wielk¹, mocn¹, lepk¹ masê podobn¹ do pajêczyny, ale o wiele wiêksz¹ i mocniejsz¹. Istoty, które zostan¹ w ni¹ z³apane, lub po prostu dotkn¹ jej zostan¹ zatrzymane przez jej kleiste w³ókna.
+Ka¿dy kto znajdzie siê na obszarze dzia³ania zaklêcia musi wykonaæ rzut obronny przeciw czarow z modyfikatorem -5. Jesli rzut obronny bêdzie udany, istota bêdzie mog³a siê poruszaæ. Negatywny rzut oznacza, ¿e zostanie przyklejona do pajêczyny i bêdzie niezdolna do wykonywania ruchu. W czasie ka¿dej rundy, kiedy istota znajduje siê w pajêczynie musi wykonaæ kolejny rzut obronny lub pozostanie w bezruchu.
+
+PARAMETRY:
+
+Specjalnie: Zatrzymanie istoty chyba, ¿e wykona rzut obronny przeciw czarom z modyfikatorem -5
+Zasiêg: 60 stóp
+Obszar dzia³ania: Specjalny
+Rzut obronny: Specjalny
+Czas trwania: 1 tura
+Mo¿e u¿ywaæ:
+ Mag
+ Bard~
+@35   = ~Roznorodne zmiany~
+@36   = ~Malaaq~
+@37   = ~Hendron~
+@38   = ~Lellyn~
+@39   = ~Zguba Paj¹ka
+Kiedyœ potê¿ny miecz, Zguba Paj¹ka teraz le¿y z³amany w twych rêkach. Rozgnieciony przez niew³aœciwe u¿ywanie przez miejskich robotników, nie ma ¿adnej wartoœci poza tymi, które go poszukuj¹--Pai'Na.~
+@40   = ~Wypolerowana lampa~
+@41   = ~Butla geniusza~
+@42   = ~To wygl¹da jak ma³a, zwyk³a mosiê¿na flaszka taka, której u¿ywa siê do przechowywania oleju.
+
+Dziewczynka o imieniu Myara wierzy, ¿e jest to w istocie magiczna butla, która w jakiœ sposób zawiera tajemicê mocy Kalaha. Niezale¿nie od tego, pocieranie jej nie przynosi ¿adnego efektu...~
+@43   = ~To wygl¹da jak ma³a, zwyk³a mosiê¿na flaszka taka, której u¿ywa siê do przechowywania oleju.
+
+Powiedziano ci, ¿e w istocie jest to magiczna butla, zawieraj¹ca w sobie potê¿nego d¿ina, który wypuszczony mo¿e spe³niæ ka¿de twoje ¿yczenie. Posiadaj¹c wiedzê na temat komedy s³ownej, uzyskanej od Jafira, rakshasza, który sprzeda³ Kalahowi lampê, nieutro bêdzie teraz j¹ u¿yæ.
+
+Po prostu umiejœæ j¹ w ekwipunku podrêcznych przedmiotów i u¿yj.~
+@44   = ~Myara~
+@45   = ~Jafir~
+@46   = ~Duch Kalaha~
+@47   = ~Kalah i To Co Bylo Mu Obiecane~
+@48   = ~Artemis Entreri w Siedzibie Bodhi~
+@49   = ~Przywrocone portrety NPC~
+@50   = ~Poprawione BAMy i Skrypty~
+@51   = ~Przywrocone wyzwania Piekielnych Ogarow~
+@52   = ~Poprawione "Stworzenia Xzara"~
+@53   = ~Poprawione imiona bohaterow~
+@54   = ~Przywrocone pomniejsze dialogi~
+@55   = ~Wyzwanie Szarej Reki~
+@56   = ~Szara Rêka~
+@57   = ~Nawo³ywacz Neckeith~
+@58   = ~Z³odziej Cienia - Zabójca~
+@59   = ~Z³odziej Cienia - £ucznik~
+@60   = ~Z³odziej Cienia - Zbój~
+@61   = ~Z³odziej Cienia - Oprych~
+@62   = ~Z³odziej Cienia - Stra¿nik~
+@63   = ~Z³odziej Cienia - Inkwizytor~
+@64   = ~Z³odziej Cienia - Mag bitewny~
+@65   = ~Amon z Purpurowego Bractwa~
+@66   = ~Przywroceni Piekielni Sludzy, autorstwa SimDing0~
+@67   = ~Imoen Cartesen~
+@68   = ~Przywrocone Moce Bhaala, autorstwa David Gaider~
+@69   = ~Wymagany jest Tron Bhaala do tego komponenta.~
+@70   = ~Oryginalny portret Yoshimo~
+@71   = ~Poprawaka dla Gorfa, autorstwa Gebhard Blucher~
+@72   = ~Oryginalny portret Anomena~
+@73   = ~Rozszerzone opisy przedmiotow z ToB~
+@74   = ~Figurka Shakti
+
+Istniej¹ przekonuj¹ce dowody, ¿e przedmiot ten zosta³ ukszta³towany przez potê¿nego Wu Jena w tajemniczych ziemiach le¿¹cych na wschodzie Faerunu, zw³aszcza, ¿e figurka przedstawia pe³nozbrojnego wojownika z Kara Tur, trzymaj¹cego w obu rêkach miecz.
+
+Budz¹c figurkê, w³aœciciel mo¿e siê sam na pewien czas przeistoczyæ w wojownika w niebieskiej zbroi, w³adaj¹cego magicznym krótkim mieczem.
+
+Niezale¿nie od tego czy figurka pozwala u¿ytkownikowi na po³¹czenie ducha z legendarnym wojonikiem, czy te¿ uwalnia dzik¹ furiê znajduj¹c¹ siê g³êboko w psychice jej w³aœciciela, nie mo¿na niedoceniæ jej w³aœciwoœci bojowych.
+
+PARAMETRY:
+
+Mo¿na jej u¿yæ raz dziennie
+Czas trwania: 4 rundy
+KP przyjmuje wartoœæ -5
+U¿ytkownik podlega Przyœpieszeniu ruchów
+Atak odbywa siê dwa razy na rundê. Miecz to broñ +4, a jego u¿ytkownik walczy nim tak, jak gdyby mia³ dwie gwiazdki bieg³oœci w mieczach krótkich.
+
+Nie mo¿e u¿ywaæ:
+Wojownik~
+@75   = ~Postrach Wrogów +5
+
+Arcymag Demron stworzy³ ten potê¿ny miecz dla kapitana Fflara z Myth Drannor. Najpotê¿niejsze z szeœciu magicznych ostrzy stworzonych przez Demrona, Postrach Wrogów za ka¿dym trafieniem mo¿e wys¹czyæ esencjê ¿ycia z przeciwnika i przekazaæ jej energiê dzier¿¹cej go osobie. S¹ tacy, którzy wierz¹, ¿e umiejêtnoœæ ta przeklnê³a ostrze, mimo ¿e zosta³o ono wykute jako broñ dla prawych i sprawiedliwych, gdy¿ mroczna historia Postrachu Wrogów przepe³niona jest mordem i œmierci¹. 
+
+W³asna krew Demrona ochrzci³a ostrze, kiedy w³amywacz u¿y³ nowo stworzonego miecza by przynieœæ arcymagowi przedwczesn¹ œmieræ, chocia¿ z³odziej równie¿ nie prze¿y³ tego spotkania. Po zamordowaniu Demrona, Postrach Wrogów zosta³ odzyskany i zaprezentowany bohaterowi Fflarowi, który u¿ywa³ go w obronie Myth Drannor, najwspanialszego z elfich miast. 
+
+Jednak nawet moc Postrachu Wrogów nie by³a w stanie oprzeæ siê mrocznych hordom, które najecha³y Myth Drannor. Kiedy elfie miasto upad³o, kapitana Fllara spotka³ okropny, przera¿aj¹cy wrêcz konie, a miecz zgubi³ w ruinach wielkiej metropolii. 
+
+Po³¹czony na nowo z pochw¹ Fflara, Postrach Wrogów jest teraz orê¿em jeszcze bardziej potê¿nym, ni¿ twierdz¹ legendy.
+
+PARAMETRY:
+TraK0: +5
+Obra¿enia: 2k4 +5, +6 obra¿eñ przeciwko nieumar³ym, zmiennokszta³tnym i wszystkim istotom z innych sfer (demonom, planetarom, itd.)
+Specjalne:
+ +1 do rzutów obronnych, kiedy miecz jest w u¿yciu.
+ Ka¿de udane trafienie powoduje rzucenie na wroga czaru Mniejsze dr¹¿enie Larlocha (bez mo¿liwoœci wykonania rzutu obronnego).
+Typ obra¿eñ: sieczne
+Waga: 5
+OpóŸnienie: 3
+Rodzaj bieg³oœci: miecz pó³torarêczny
+Typ: 1-rêczna
+Wymagana si³a: 11
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@76   = ~Kolec Ixila +6
+
+Krótko po Czasie Niepokojów koczownicze bandyckie plemiona z pustyñ Calimshanu zjednoczy³y siê pod przywódctwem jednego cz³owieka; okrutnego i brutalnego Ixila Xaxsha. Ze swoich ja³owych pustyñ, nomadowie naje¿d¿ali kupieckie karawany i terroryzowa³y wêdrowców, którzy oœmielili siê podró¿owaæ drog¹ z Calimportu do Myratmy. 
+
+Szybko rozesz³y siê pog³oski i legendy o niezwyciê¿onym Ixilu, który dowodzi³ ka¿d¹ bandyck¹ dru¿yn¹ dzier¿¹c sw¹ magiczn¹ w³óczniê. Niektórzy wierzyli, ¿e nie jest on naprawdê cz³owiekiem, tylko demonem w ludzkiej formie, sprowadzonym do Faerunu przez chaos i zamêt Czasu Niepokojów. 
+
+Sadyzm i dzikoœæ Ixila zdawa³y siê potwierdzaæ te podejrzenia. Podczas bitew g³ownia Kolca Ixila, jego potê¿nej w³óczni, od³¹cza³a siê i przygwo¿d¿a³a przeciwników do ziemi, a nowa g³ownia magicznie formowa³a siê na koñcu w³óczni. Czêsto w œrodku potyczki, Ixil przestawa³ walczyæ by delektowaæ siê widokiem bezsilnego przeciwnika przebijanego przez jego w³óczniê. 
+
+Zosta³ on w koñcu pokonany, kiedy zosta³ zwabiony w pu³apkê i zaatakowa³ kontyngent potê¿nych kap³anów i rycerzy Zakonu Promiennego Serca, którzy udawali prostych pielgrzymów. Œwiadkowie tej bitwy twierdz¹, ¿e Ixil nie zgin¹³, ale zosta³ w jakiœ sposób wygnany do jakiejœ piekielnej sfery przez œwiêt¹ magiê Zakonu.
+
+Chocia¿ cia³o Ixila nigdy nie zosta³o odnaleziole, Kolec Ixila, jego siej¹ca strach w³ócznia i symbol jego mocy, zosta³ odzyskany. Poniewa¿ artefakt nie móg³ zostaæ zupe³nie zniszczony, zosta³ on podzielony na kilka czêœci, które rozrzucono po Faerunie.
+
+PARAMETRY:
+
+
+Specjalne:
+ Sta³a swoboda dzia³ania
+ Przy ka¿dym udanym trafieniu ofiara musi wykonaæ rzut obronny lub zostanie przygwo¿d¿ona do ziemi na 3 rundy, odnosz¹c w ka¿dej rundzie 1k6+5 obra¿eñ.
+
+TraK0: +6
+Obra¿enia: 1k6 +6
+Rodzaj obra¿eñ: k³ute
+Waga: 5
+OpóŸnienie: 2
+Rodzaj bieg³oœci: w³ócznia
+Typ: 2-rêczna
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Z³odziej~
+@77   = ~Maczuga Wybuchu +5
+
+Jedna z amnijskich baœni mówi o Nysroghcie, potê¿nym mieszkañcu ni¿szych p³aszczyzn, wypuszczonym do Amn przez nieostro¿n¹ czarownicê o imieniu Unileth. 
+
+Ca³kowicie odporny na wszelkie bronie, których u¿yto przeciw niemu, Nysrogh pustoszy³ ca³e Amn, dlatego te¿ Unileth przyrzek³a zakoñczyæ spustoszenie jakie sprowadzi³a. U¿ywaj¹c swej wiedzy o s³aboœciach demonów, skonstruowa³a wielk¹ maczugê by pokonaæ Nysrogha i podarowa³a j¹ dzielnemu, ale nieznanemu z imienia rycerzowi, który mia³ byæ jej czempionem. 
+
+Czempion Unileth rzuci³ wyzwanie Nysroghowi, które to demon natychmiastowo zaakceptowa³, bêd¹c przekonanym, ¿e ¿adna broñ Krain nie mo¿e go skrzywdziæ. Kiedy spotkali siê na polu bitwy, czempion Unileth ujrzawszy dzikie spojrzenie Nysrogha natychmiast upuœci³ sw¹ broñ i uciek³. 
+
+Nysrogh siêgn¹³ po maczugê czempiona, która mia³a byæ symbolem jego zwyciêstwa. Ale kiedy uzbrojona w pazury rêka demona dotknê³a powierzchni maczugi zosta³o uaktywione zaklêcie uwiêzienia, na które by³ zupe³nie nieprzygotowany. Podstêp Unileth powiód³ siê, a demon, którego nie móg³ zostaæ w ¿aden sposób skrzywdzony, zosta³ na zawsze uwiêziony we wnêtrzu maczugi. 
+
+Zaklêcia zawarte w Pierœcieniu odpornoœci na ogieñ sprawiaj¹, ¿e ³atwiej kontrolowaæ demona, uwiêzionego w tej broni - choæ furia potwora wci¹¿ mo¿e byæ od czasu do czasu wyzwalana w postaci wybuchu.
+
+PARAMETRY:
+
+Specjalne:
+ Przy ka¿dym udanym ataku istnieje 30% szans, ¿e ofiara otrzyma 15 dodatkowych punktów obra¿eñ od ognia
+ Przy ka¿dym udanym ataku istnieje 5% szans na wystrzelenie ognistej kuli
+
+TraK0: +5
+Obra¿enia: 1k6 +5, +5 obra¿eñ od ognia
+Typ obra¿eñ: obuchowe
+Waga: 1
+OpóŸnienie: 4
+Rodzaj bieg³oœci: maczuga
+Typ: 1-rêczna
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Mag~
+@78   = ~Ko³czan Obfitoœci +1
+
+Czêsto powtarzana, choæ nigdy nie udowodniona legenda twierdzi, ¿e ko³czan zosta³ podarowany ksiêciu Orinowi Gastlecate. Orin nie dba³ o politykê i swoje codzienne ksi¹¿êce obowi¹zki, a czêsto znika³ w szerokich lasach swych ziem, gdzie wiód³ ¿ycie samotnego myœliwego. 
+
+Ale choæ bardzo siê stara³, Orin nie potrafi³ opanowaæ sztuki robienia strza³ i za ka¿dym razem gdy skoñczy³y mu siê strza³y, musia³ wracaæ do zamku. Za ka¿dym razem zaœ jak wraca³, by³ zasypywany przez szlachciców i kupców oraz ich ¿a³osne problemy. 
+
+Jeœli opowieœci s¹ prawdziwe, Orin spotka³ pozbawionego skrupu³ów kupca, który zaoferowa³ mu ko³czan nigdy nie koñcz¹cych siê strza³ w zamian  za tytu³ w³adcy wszystkich jego ziem. Orin szybko zgodzi³ siê, wyobra¿aj¹c sobie, ¿e jego problemy zosta³y na zawsze rozwi¹zane.
+
+Oczywiœcie kupiec szybko sta³ siê okrutnym i nieznoœnym tyranem, dlatego w przeci¹gu miesi¹ca poddani Orina pozbawili go w³adzy, œci¹gnêli swego starego w³adcê z jego ukochanego lasu i uwiêzili go w zamku, zmuszaj¹c go by raz jeszcze by³ ich w³adc¹. By upewniæ siê, ¿e Orin nie ucieknie do lasu, ukryto jego cenny ko³czan, a wspomnienie o nim by³o karane œmierci¹.
+
+PARAMETRY:
+
+Nieograniczona liczba strza³ +1~
+@79   = ~Gwiazda Burzy +5
+
+Ta magiczna broñ pochodzi z pradawnych czasów. Podobno wyprodukowano j¹ w Netheril. Chocia¿ maczugi takie jak ta znajdowane s¹ zwykle na pó³nocy, istniej¹ pog³oski, ¿e Gwiazda Burzy pochodzi z po³udniowej czêœci Krain.
+
+Teraz niezwyk³e w³aœciwoœci tej groŸnej broni zosta³y jeszcze zwielokrotnione, przez dodanie do niej Rudy z Gwiezdnego Kamienia. Ten dziwny materia³ pochodzi z rdzenia meteorytu, który spad³ z nieba. Ci¹gliwa ruda jest zaskakuj¹co silna i promieniuje wewnêtrznym ciep³em. Ka¿dy przedmiot wykuty z tej obcej substancji bez w¹tpienia bêdzie posiada³ nieziemskie w³aœciwoœci.
+
+Wbrew swej wielkoœci, Gwiazda Burzy jest zaskakuj¹co lekka, dziêki czemu ³atwiej jest siê ni¹ pos³ugiwaæ w walce. Kiedy ktoœ weŸmie tê maczugê do rêki, zaczynaj¹ po niej przebiegaæ widowiskowe, choæ niegroŸne, wy³adowania elektryczne.
+
+
+PARAMETRY:
+
+Specjalne:
+ +20% odpornoœci na elektrycznoœæ
+ Przy ka¿dym udanym ataku 20% szans na rzucenie Wy³adowañ ³añcuchowych
+
+TraK0: +5
+Obra¿enia: 1k6 +6, +1k6 obra¿eñ od elektrycznoœci
+Typ obra¿eñ: obuchowe
+Waga: 4
+OpóŸnienie: 2
+Rodzaj bieg³oœci: maczuga
+Typ: 1-rêczna
+Wymagana si³a: 10
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@80   = ~Tarcza z Mrocznej Stali +4
+
+Krasnoludzki klan Clangeddin s³ynn¹³ ze swych wyrobów z mrocznej stali, materia³u, którego nie mo¿na spotkaæ w innym miejscu ni¿ okolicach siedziby klanu Clangeddin w krêgu Maszeruj¹cych Gór. Aby znaleŸæ jak najwiêcej mrocznej stali, Clangeddinowie dokopali siê prawie do wnêtrza ziemi. 
+
+Na jednej z takich wypraw zaginê³o siedmiu synów Argelda Ciê¿korêkiego, przywódcy Clangeddinów. Jedynym ocala³ym z tej chorej ekspedycji by³ Glimred Ciê¿korêki, najm³odszy syn Argelda. Ch³opiec wróci³, przynosz¹c ze sob¹ opowieœci o drowach, illithidach oraz innych mrocznych, bezimiennych stworów, których œwiat jeszcze nie widzia³. 
+
+Argeld chcia³ pomœciæ œmieræ synów, ale nie móg³ wys³aæ w g³¹b gór wiêcej swych ludzi by zmierzyæ siê z takimi kreaturami. Dlatego te¿ Glimred zdecydowa³ siê udaæ tam samemu. By pomóc mu w jego zemœcie, krasnoludzcy kowale stworzyli Tarczê z Mrocznej Stali, silnie umagicznion¹ tarczê zapewniaj¹c¹ lepsz¹ ochronê swemu posiadaczowi. 
+
+Ale Glimred by³ niecierpliwy, jego ¿¹dza zemsty by³a nie do zniesienia, tak wiêc uda³ siê w czeluœci Maszeruj¹cych Gór zanim prace nad tarcz¹ dobieg³y koñca i nikt go ju¿ potem nie widzia³. Znikniêcie i przypuszczalna œmieræ jedynego ocala³ego syna by³a zbyt du¿ym ciê¿arem dla Argelda, który umar³ z ¿alu i smutku. 
+
+Wraz ze œmierci¹ swego przywódcy i znikniêciem Glimreda, krasnoludowie wiedzieli, ¿e to tylko kwestia czasu nim ich klan zostanie najechany przez wrogów z Podmroku. Wtedy postanowiono sprzedaæ tarczê temu, kto zaoferuje najwy¿sz¹ cenê - jednak krasnoludzcy kowale nie chcieli wyjawiæ to¿samoœci nabywcy, klan zaœ rozproszy³ siê po Faerunie.
+
+PARAMETRY:
+ Zwiêksza o +10% odpornoœæ na ogieñ, zimno, kwas i truciznê
+
+Klasa Pancerza: +5
+Waga: 8
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@81   = ~Podklasa Smialka~
+@82   = ~œmia³ek~
+@83   = ~Œmia³ek~
+@84   = ~ŒMIA£EK: Niektóre wyprawy s¹ tak wymagaj¹ce, a wrogowie tak niebezpieczni, ¿e wymagaj¹ obecnoœci œwietnie wyszkolonego specjalisty, którego bojowe umiejêtnoœci wykraczaj¹ daleko poza te zwyk³ego ³owcy. Wkraczaj¹ wtedy œmia³kowie, mistrzowie taktyki, których wojenne instynkty, wszechstronnoœæ i stalowe nerwy stawiaj¹ w pierwszym szeregu ¿o³nierskiej elity.
+
+Dla zdeterminowanego œmia³ka ¿adne zadanie nie jest zbyt trudne, a ¿aden wróg zbyt straszny. Ich bieg³oœæ z broni¹ daje im przewagê w walce, chocia¿ z tego powodu mniejsz¹ uwagê poœwiêcaj¹ praktykowaniu magii.
+
+Zalety:
+-  +10% do Krycia siê w cieniu
+-  +1 do opóŸnienia i trafienia co 10 poziomów
+
+Wady:
+- Musi byæ praworz¹dny dobry
+- Nie mo¿e zauroczyæ zwierzêcia
+- Rzucanie czarów ograniczone do:
+Leczenie lekkich ran i Zbroja wiary raz dziennie od 8 poziomu
+Szczêœcie i Prze³amanie strachu raz dziennie od 10 poziomu
+Przywo³anie boskiej mocy raz dziennie od 12 poziomu~
+@85   = ~Podklasa Dzikusa~
+@86   = ~Dziki sza³~
+@87   = ~Zew natury~
+@88   = ~Dziki pies~
+@89   = ~Wilk~
+@90   = ~Straszny wilk~
+@91   = ~Przywódca grupy~
+@92   = ~dzikus~
+@93   = ~Dzikus~
+@94   = ~DZIKUS: Co dzieje siê z dzieæmi, które wêdruj¹ samotnie po lesie i nigdy nie zostaj¹ odnalezione? Lub co gorsza z tymi, które zostaj¹ tam porzucone? Wiele z nich ulega niebezpieczeñstwom dziczy, ale kilkoro szczêœliwców jest przygarnianych przez zwierzêta, i wychowywanych jako czêœæ lwiego miotu lub wœród m³odych wilcz¹t. Odciêci od cywilizacji, stopniowo przejmuj¹ cechy stworzeñ, które je wychowa³y tworz¹c pewn¹ wiêŸ zjednoczenia z duchem przyrody. W efekcie staj¹ siê dzikusami, istotami które ³¹cz¹ w sobie dzikoœæ bestii z intelektem cz³owieka.
+
+Ze wzglêdu na ich dzik¹ naturê, Dzikusy nie mog¹ byæ praworz¹dni. Jako ³owcy ograniczeni s¹ do dobrych charakterów.
+
+Zalety:
+-  +10% do Krycia siê w cieniu
+-  Premia +1 do KP na pierwszym poziomie, a nastêpnie dodatkowe +1 do KP co 5 poziomów
+-  Mo¿e wpaœæ w 'Dziki sza³' raz dziennie na 10 poziomów. Rozwœcieczenie trwa 60 sekund, i zapewnia premiê +2 do trafienia, obra¿eñ, KP oraz odpornoœæ na zauroczenia, labirynt, uwiêzienie, unieruchomiania oraz sen. Otrzymuje równie¿ tymczasowe 15 punktów ¿ycia
+-  Mo¿e rzucaæ 'Zew natury' raz dziennie. Dziêki temu przyzywa zwierzêcego towarzysza, który bêdzie walczy³ dla rzucaj¹cego czar przez 3 rundy + 1 rundê/poziom. Wiêcej potê¿nych istot jest przyzywanych na wy¿szych poziomach
+
+Wady:
+-  Po skoñczeniu sza³u jest wyczerpany. W tym stanie otrzymuje -2 do trafienia, -2 do obra¿eñ, oraz +2 do KP
+-  Ograniczenie do jednego punktu bieg³oœci w mieczu pó³torarêcznym, d³ugim mieczu, krótkim mieczu, oburêcznym mieczu, katanie, sejmitarze, halabardzie, cepie bojowym i kuszy
+-  Nie mo¿e nosiæ ¿adnej zbroi ani u¿ywaæ du¿ych tarcz
+-  Podczas tworzenia postaci jego Charyzma zmniejsza siê o 1~
+@95   = ~Pomniejsze przywrocenia do Tronu Bhaala~
+@96   = ~To moze potrwac kilka chwil ...~
+@97   = ~Buty przyspieszonego odejœcia~
+@98   = ~Buty te zosta³y stworzone wieki temu przez elfick¹ zaklinaczkê, która znana by³a jako Phenuel Jasnowidz wœród swych nielicznych przujació³ i jako Phenuel Szarlatanka wœród swych licznych niezadowolonych klientów. Znana kolebka kupiecka w Athkatli, Targowo, i inne kupieckie oœrodki w Amn by³y czêsto przez ni¹ odwiedzane, gdzie sprzedawa³a swe towary, zw³aszcza seriê mikstur, który mog³y uleczyæ wszystko zaczynaj¹c od uszkodzonych czêœci cia³a, a na z³amanym sercu koñcz¹c.
+
+Niestety, choæ by³a bieg³a w sztuce handlu, jej umiejêtnoœci magiczne pozostawia³y wiele do ¿yczenia - dlatego te¿ musia³a czêsto uciekaæ z miasta przed t³umem niezadowolonych klientów. Chc¹c mieæ jak¹œ gwarancjê, ¿e zawsze zd¹¿y uciec, zdecydowa³a siê stworzyæ te buty, które by³y bardzo u¿yteczne przy omijaniu zgni³ych owoców i ró¿nych innych pocisków, które to czêsto by³y rzucane w jej kierunku.
+
+Phenuel i jej buty zosta³y rozdzielone w Nashkel, kiedy zdecydowa³a siê na odpoczynek podczas gdy to gospody wdar³ siê wœciek³y t³um, przez co zosta³a zmuszona do ucieczki przez okno, bêd¹c ubrana tylko w koszulê nocn¹. Co ciekawe nigdy nie odwa¿y³a siê powróciæ po buty i nikt ju¿ jej wiêcej nie widzia³. Buty równie¿ od tamtej pory nie mia³y nowego w³aœciciela, a¿ do teraz ...
+
+PARAMETRY:
+
+U¿ytkownik mo¿e aktywowaæ moc butów za pomoc¹ swojej woli. Kiedy zostanie u¿yta, zdolnoœæ trwa 20 sekund. Daje u¿ytkownikowi premiê +6 do wszystkich rzutów obronnych oraz +8 do KP. Aczkolwiek u¿ytkownik nie mo¿e przez ten czas atakowaæ, rzucaæ czarów i u¿ywaæ zdolnoœci ³otrzyka.
+
+Waga: 3~
+@99   = ~Œwiêty Mœciciel: Karsomir +6
+Karsomir jest legendarn¹ broni¹, byæ mo¿e jedn¹ z najpotê¿niejszych jakie kiedykolwiek powsta³y w Faerunie, choæ jego historia i pochodzenie zosta³y celowo zapomniane, by miecz nigdy nie przyæmi³ teraŸniejszych zmagañ. Jest wype³niony czyst¹ esencj¹ cnoty, i tyle¿ jej wymaga od w³adaj¹cego nim paladyna. Gdy pojawia siê ta broñ, z³o Faerunu musi ust¹piæ, jego magia rozwiewana za pomoc¹ jednego s³owa i odpierana z ³atwoœci¹. Karsomir pa³a wielka nienawiœci¹ do si³ z³a i chaosu, wiêc takie istoty musz¹ obawiaæ siê dodatkowych obra¿eñ, gdy zostan¹ przez niego trafione w walce.
+
+Nawet Œwiêty Relikt tak potê¿ny jak Karsomir nabywa jeszcze wiêkszej mocy, jeœli po³¹czy siê go z Okiem Tyra.
+
+PARAMETRY:
+
+Specjalne:
+ Zapewnia 50% odpornoœci na magiê
+ 3 razy dziennie mo¿na rzucaæ Rozproszenie magii
+ Oprócz innych premii zadaje te¿ dodatkowe +6 obra¿eñ z³ym chaotycznym wrogom
+ Kiedy miecz uderzy ofiarê, powoduje rozproszenie magii
+
+TraK0: +6
+Obra¿enia: 1k12 +6
+Typ obra¿eñ: sieczne
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: miecz oburêczny
+Typ: 2-rêczna
+Wymagana si³a: 14
+Mo¿e u¿ywaæ tylko:
+ Paladyn~
+@100  = ~Ten cep bojowy przez jakiœ czas by³ w³asnoœci¹ Lorda d'Arnise'a, jako pami¹tka jego pe³nej przygód m³odoœci. Trzymano go roz³o¿onego, pojedyncze czêœci przechowywano w osobnych miejscach, a u¿ywano tylko w najwiêkszej potrzebie. Lorda d'Arnise'a niepokoi³a potê¿na magia, która emanowa³a ze z³o¿onej broni, i s³usznie. Szlak zniszczenia ci¹gnie siê za t¹ broni¹ poprzez historiê, prowadz¹c wprost do pierwszych w³aœcicieli. Cep zosta³ stworzony przez wojowniczych Rakshasa, rasê mœciwych duchów ¿ywi¹cych siê ludzkim miêsem, u¿ywano go jako broni do ka¿dego rodzaju potyczki. Cep zosta³ zgubiony podczas szczególnie gwa³townego polowania, ale zosta³ odnaleziony dziêki ich zdolnoœci do wyczuwania magii. Odkryli, ¿e broñ dosta³a siê w rêce wielkiego ludzkiego wojownika, wiêc stoczyli z nim wielk¹ i wspania³¹ bitwê. Od tej pory Rakshasa u¿ywali cepu jako przynêty, "gubi¹c" go raz po raz. Potê¿ne przedmioty przyci¹gaj¹ potê¿nych ludzi, a potê¿ni ludzie staczaj¹ najwspanialsze bitwy.
+
+Teraz, po dodaniu pi¹tej i zarazem ostatniej kuli, wyzwolony zosta³ prawdziwy potencja³ Cepu Bojowego Wieków, broni stworzonej przez z³¹ rasê Rakshasa.
+
+PARAMETRY:
+
+Specjalne:
+ Swoboda dzia³ania
+ Dodatkowe 5% do odpornoœci na magiê
+ Przy ka¿dym udanym ataku 33% szans na spowolnienie ofiary (bez mo¿liwoœci wykonania przez ni¹ rzutu obronnego)
+
+TraK0: +5
+Obra¿enia: 1k6 +6, +2 obra¿eñ od kwasu, +2 obra¿eñ od zimna, +2 obra¿eñ od ognia, +2 obra¿eñ od trucizny, +2 obra¿eñ od elektrycznoœci
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 2
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ: 1-rêczna
+Wymagana si³a: 13
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@101  = ~Ten cep bojowy przez jakiœ czas by³ w³asnoœci¹ Lorda d'Arnise'a, jako pami¹tka jego pe³nej przygód m³odoœci. Trzymano go roz³o¿onego, pojedyncze czêœci przechowywano w osobnych miejscach, a u¿ywano tylko w najwiêkszej potrzebie. Lorda d'Arnise'a niepokoi³a potê¿na magia, która emanowa³a ze z³o¿onej broni, i s³usznie. Szlak zniszczenia ci¹gnie siê za t¹ broni¹ poprzez historiê, prowadz¹c wprost do pierwszych w³aœcicieli. Cep zosta³ stworzony przez wojowniczych Rakshasa, rasê mœciwych duchów ¿ywi¹cych siê ludzkim miêsem, u¿ywano go jako broni do ka¿dego rodzaju potyczki. Cep zosta³ zgubiony podczas szczególnie gwa³townego polowania, ale zosta³ odnaleziony dziêki ich zdolnoœci do wyczuwania magii. Odkryli, ¿e broñ dosta³a siê w rêce wielkiego ludzkiego wojownika, wiêc stoczyli z nim wielk¹ i wspania³¹ bitwê. Od tej pory Rakshasa u¿ywali cepu jako przynêty, "gubi¹c" go raz po raz. Potê¿ne przedmioty przyci¹gaj¹ potê¿nych ludzi, a potê¿ni ludzie staczaj¹ najwspanialsze bitwy.
+
+Ten cep bojowy, wyposa¿ony w cztery kule, powoduje obra¿enia od ognia, zimna, kwasu i trucizny. Gdyby uda³o siê znaleŸæ pi¹t¹ kulê do Cepu Bojowego Wieków, ta niezwykle groŸna broñ sta³aby siê jeszcze bardziej potê¿na.
+
+PARAMETRY:
+
+Specjalne:
+ Przy ka¿dym udanym ataku 33% szans na spowolnienie ofiary (bez mo¿liwoœci wykonania przez ni¹ rzutu obronnego)
+
+TraK0: +4
+Obra¿enia: 1k6 +5, +1 obra¿eñ od ognia, +1 obra¿eñ od zimna, +1 obra¿eñ od kwasu, +1 obra¿eñ od trucizny
+Typ obra¿eñ: obuchowe
+Waga: 9
+OpóŸnienie: 3
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ: 1-rêczna
+Wymagana si³a: 13
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@102  = ~Ten cep bojowy przez jakiœ czas by³ w³asnoœci¹ Lorda d'Arnise'a, jako pami¹tka jego pe³nej przygód m³odoœci. Trzymano go roz³o¿onego, pojedyncze czêœci przechowywano w osobnych miejscach, a u¿ywano tylko w najwiêkszej potrzebie. Lorda d'Arnise'a niepokoi³a potê¿na magia, która emanowa³a ze z³o¿onej broni, i s³usznie. Szlak zniszczenia ci¹gnie siê za t¹ broni¹ poprzez historiê, prowadz¹c wprost do pierwszych w³aœcicieli. Cep zosta³ stworzony przez wojowniczych Rakshasa, rasê mœciwych duchów ¿ywi¹cych siê ludzkim miêsem, u¿ywano go jako broni do ka¿dego rodzaju potyczki. Cep zosta³ zgubiony podczas szczególnie gwa³townego polowania, ale zosta³ odnaleziony dziêki ich zdolnoœci do wyczuwania magii. Odkryli, ¿e broñ dosta³a siê w rêce wielkiego ludzkiego wojownika, wiêc stoczyli z nim wielk¹ i wspania³¹ bitwê. Od tej pory Rakshasa u¿ywali cepu jako przynêty, "gubi¹c" go raz po raz. Potê¿ne przedmioty przyci¹gaj¹ potê¿nych ludzi, a potê¿ni ludzie staczaj¹ najwspanialsze bitwy.
+
+Ten cep bojowy, wyposa¿ony w cztery kule, powoduje obra¿enia od ognia, zimna, kwasu i od elektrycznoœci. Gdyby uda³o siê znaleŸæ pi¹t¹ kulê do Cepu Bojowego Wieków, ta niezwykle groŸna broñ sta³aby siê jeszcze bardziej potê¿na.
+
+PARAMETRY:
+
+Specjalne:
+ Przy ka¿dym udanym ataku 33% szans na spowolnienie ofiary (bez mo¿liwoœci wykonania przez ni¹ rzutu obronnego)
+
+TraK0: +4
+Obra¿enia: 1k6 +5, +1 obra¿eñ od ognia, +1 obra¿eñ od zimna, +1 obra¿eñ od kwasu, +1 obra¿eñ od elektrycznoœci
+Typ obra¿eñ: obuchowe
+Waga: 9
+OpóŸnienie: 3
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ: 1-rêczna
+Wymagana si³a: 13
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@1000 = ~Wyrzuty Sumienia Sarevoka~
+@1001 = ~Yoshimo nie by³ zbyt sumienny w prowadzeniu pamiêtnika. Pierwsze strony wype³niaj¹ notatki z wype³nionych zadañ, zdobytych nagród, pozyskanych przyjació³ i oszukanych wrogów. Pomiêdzy kartkami mo¿na znajduje siê kilka listów pisanych kobiec¹ rêk¹, na marginesach których widniej¹ zabawne uwagi.
+
+Wiêcej regularnych, choæ nadal nie uporz¹dkowanych wpisów pojawi³o siê nieco ponad rok temu.
+
+
+"29 Mirtul, 1358
+
+Przegl¹da³em stare listy - minê³y ju¿ trzy lata odk¹d ostatni raz widzia³em Tamoko? To nie mo¿e byæ prawda.
+
+'Suave' wyp³ywa w morze w czasie przyp³ywu. Siostrzenica kapitana jest w stanie znieœæ wszelkie niewygody dla importowanych dóbr. Przypuszczam, ¿e to tylko pró¿na nadzieja, ¿e nie pop³ynie z nami. NajwyraŸniej bêdê musia³ trzymaæ siê swej kabiny by jej unikaæ.
+
+13 Eleint, 1358
+
+Athkatla jest uroczym miastem jak zwykle, ale kilka osób co jakiœ czas zakrada siê do tawerny, w której siê zatrzyma³em tylko po to by obserwowaæ mnie. Gildia Z³odziei chce mi najwyraŸniej okazaæ, ¿e nie jestem tu mile widziany. Mo¿e dla odmiany powinienem skoncentrowaæ siê na odnalezieniu Tamoko.
+
+18 Eleint, 1358
+
+Nie ma sensu wyruszaæ w góry noc¹; spêdzi³em czas w Crimmor s³uchaj¹c miejscowych opowieœci. Ku mojemu zaskoczeniu, kilku podró¿ników mówi³o o Sarevoku, o którym wczeœniej wspomina³a Tamoko. Wielkie oczekiwania, powi¹zania z ¯elaznym Tronem, ogromna sylwetka rzucaj¹ca mroczny cieñ - to ten sam cz³owiek. Zdaje siê, ¿e wywo³a³ on spore poruszenie we Wrotach Baldura.
+
+Tamoko czêsto o nim pisa³a, choæ niezbyt wiele. Mam nadziejê, ¿e nie wpakowa³a siê w ¿adne k³opoty.
+
+25 Eleint, 1358
+
+Zatrzyma³em siê na noc w Weso³ym ¯onglerze w Beregoœcie. Pijany najemnik nalega³ by wypróbowaæ moj¹ katanê - lub skoñczyæ na jej ostrzu. Odwróci³em jego uwagê zamawiaj¹c u ober¿ysty kilka butelek wina z najlepszych bary³ek.
+
+Przed znikniêciem gdzieœ pod sto³em, mê¿czyzna wybe³kota³ kilka zatrwa¿aj¹cych rzeczy o wydarzeniach we Wrotach Baldura. Mogê mieæ tylko nadziejê, ¿e Tamoko nie by³a w to zamieszana.
+
+Zgodnie z jego s³owami, wszyscy s¹ teraz bardzo podekscytowani kimœ o imieniu <CHARNAME>. Podobno osoba ta zniweczy³a ambitne plany Sarevoka.
+
+8 Marpenoth, 1358
+
+Przez kilka ostatnich dni i nocy przeszukiwa³em ulice Wrót Baldura. W siedzibie ¯elaznego Tronu panowa³ straszny ba³agan. Uda³o mi siê odnaleŸæ gospodê, o której Tamoko wspomina³a jako o swym ostatnim miejscu zatrzymania: obskurna i niegodna jej pobytu. Zauwa¿y³em j¹ w ksi¹¿ce rachunkowej pod fa³szywym nazwiskiem z nieop³aconym rachunkiem. Ulotni³em siê nim ober¿ysta poprosi³ mnie o uregulowanie p³atnoœci.
+
+10 Marpenoth, 1358
+
+S³ysza³em jak kilku najemników opowiada³o, ¿e <CHARNAME>, samodzielnie uœmierci³<PRO_HESHE> tego szalonego drania Sarevoka i jego popleczników. Mówili o j<PRO_HISHER> ognistych oczach, grzmi¹cym g³osie i siedmiomiliowych krokach. Odszed³em.
+
+11 Marpenoth, 1358
+
+(Pomiêdzy kartkami dziennika umieszczony zosta³ œwistek papieru oznaczony symbolem Kelemvora:)
+
+LUDZKA KOBIETA; WIEK OKO£O. 30; POCHODZENIE - KARA-TUR?
+--  ALEJA W POBLI¯U BRAMY CZARNEGO SMOKA
+--  ¯ADNYCH WIDOCZNYCH ŒLADÓW PRZEMOCY, CHOROBY LUB GNICIA; PRZYCZYNA ŒMIERCI - MAGICZNA?
+--  PE£NA ZBROJA P£YTOWA OZNACZONA BANICKIMI INSYGNIAMI O ORIENTALNYM CHARAKTERZE; OZDOBIONA Z£OTYM FILIGRANEM; SPRZEDANA CZARODZIEJSKIM ROZMAITOŒCIOM ZA 17,000 SZTUK Z£OTA
+
+POGRZEBANA
+
+13 Marpenoth, 1358
+
+Jej œmierci mo¿e byæ winny Sarevok albo <CHARNAME>. Mimo wszystko Tamoko ca³y czas wierzy³a w Sarevoka, poza tym na nim ju¿ nie mogê siê zemœciæ.
+
+15 Marpenoth, 1358
+
+W mieœcie obchodzono dziœ jakieœ œwiêto, dziêki czemu w pobli¿u Ksi¹¿êcego Pa³acu mym oczom ukaza³<PRO_HESHE> siê <CHARNAME> - nie wygl¹da³<PRO_HESHE> na kogoœ kto móg³by zabiæ moj¹ siostrê.
+
+16 Marpenoth, 1358
+
+Œni³em o Tamoko, co te¿ ostatnio czêsto mi siê zdarza. Jedyne jednak co pamiêtam ze snu to jej twarz.
+
+18 Marpenoth, 1358
+
+Zosta³em zauwa¿ony. Bladoskóra kobieta w czarnym ubraniu odwiedzi³a mnie w tawernie, w której siê zatrzyma³em.
+
+'Jesteœ utalentowanym m³odym cz³owiekiem, którego bardzo ciekawi <CHARNAME>,' powiedzia³a i spojrza³a na mnie. 'Nie martw siê, twoje proœby zostan¹ wys³uchane. Musisz tylko zrobiæ to co ci powiem.'
+
+Nakaza³a mi iœæ za ni¹. Pod¹¿aj¹c w¹skimi przejœciami dotarliœmy do miejsca gdzie miasto grzebie nieznanych z imienia martwych. Tam wskaza³a mi jedyny odkopany grób poœród wielu innych. 
+
+Wewn¹trz trumny spoczywa³a Tamoko, skulona jak dziecko podczas snu. Martwa.
+
+20 Marpenoth, 1358
+
+Bodhi pracuje dla zamaskowanego cz³owieka o imieniu Irenicus, tak mi siê przynajmniej wydaje. Oboje zapewniaj¹ mnie, ¿e to <CHARNAME> zabi³<PRO_HESHE> moj¹ siostrê. Obiecaj¹ mi te¿ zemstê - muszê jednak sprowadziæ j<PRO_HIMHER> do Irenicusa. ¯yw<PRO_HIMHER>,
+
+22 Marpenoth, 1358
+
+Ju¿ nie muszê wiêcej œniæ: mam przed sob¹ rzeczywistoœæ, twarz Tamoko osadzon¹ w nienaturalny spokój, którego nawet wyniszczanie nie mo¿e zak³óciæ. Jej cia³o nie zgni³o; nie odesz³a w pe³ni.
+
+Jest tylko jeden sposób by byæ pewnym. Nawet jeœli siê mylê - nikt z nas nie jest niewinny. W ten czy inny sposób, zostanie pomszczona.
+
+23 Marpenoth, 1358
+
+Irenicus za¿¹da³ ode mnie przysiêgi - geas - tak wiêc otrzyma³ j¹. Nawet teraz ledwo to czujê.
+
+8 Alturiak, 1359
+
+<CHARNAME> i j<PRO_HISHER> dru¿yna zostali pojmani. Krew zosta³a przelana, ale Irenicus umiejscowi³ moj¹ zdobycz tak daleko ode mnie jak to tylko mo¿liwe. Próba wymuszenia na nim mojego punktu widzenia by³aby co najmniej niem¹dra.
+
+Irenicus obieca³, ¿e w przeci¹gu kilku dni bêdê móg³ znów widzieæ na prawe oko. Nakaza³ mi tak¿e cierpliwie oczekiwaæ na zemstê. Pod¹¿aliœmy na po³udnie.
+
+15 Ches, 1359
+
+Jesteœmy w Athkatli. Oczywiœcie zak³adam, ¿e ta podziemna forteca nie zosta³a zbudowana w przeci¹gu jednego dnia.
+
+Odk¹d tu przybyliœmy, Irenicus stara³ siê maksymalnie wykorzystaæ potencja³ naszych nowych goœci. Nie pozwoli³ mi obserwowaæ swych eksperymentów, ja zaœ nie zamierzam pope³niæ pomy³ki i zakradaæ siê by zobaczyæ co robi.
+
+Krzyki dzia³aj¹ mi na nerwy, tak wiêc wybra³em siê na spacer po ulicach. Cokolwiek zamierza z nimi zrobiæ, mam nadziejê, ¿e siê pospieszy.
+
+20 Ches, 1359
+
+Bodhi spêdza³a czas poluj¹c na Z³odziei Cienia. Tak¿e i ona rozpoczê³a swe dzia³ania du¿o wczeœniej.
+
+Ja zaœ staram siê unikaæ krótkich i brutalnych potyczek. Czujê potrzebê chwilowej dysocjacji.
+
+26 Ches, 1359
+
+Irenicus nie poœwiêca mi zbyt wiele uwagi, dziêki czemu uda³o mi siê przestudiowaæ niektóre jego notatki, które jak s¹dzê nie by³y przeznaczone dla moich oczu. G³ównym ich tematem jest <CHARNAME> i j<PRO_HISHER> 'potencja³'. Wczeœniej by³em zbyt œlepy by zastanawiaæ siê nad jego motywami.
+
+27 Ches, 1359
+
+Znalaz³em jeszcze jedn¹ notatkê: przechwycone pismo ¯elaznego Tronu do w³adz Wrót Baldura, zlecaj¹ce odnalezienie i uœmiercenie wszystkich by³ych sojuszników Sarevoka Ancheva, którzy prze¿yli. ¯elazny Tron nikomu nie daruje zdrady.
+
+Lista nie ogranicza siê do takich nazwisk jak Winski Perorate, Angelo Dosan, ogr Tazok, mistrz przywo³ywañ zwany Semaj, Cythandria oraz Tamoko.
+
+18 Tarsakh, 1359
+
+Nareszcie Irenicus ma dla mnie zadanie, które bêdzie polegaæ na zwabieniu pomiotu Bhaala do jego kolejnej siedziby. Mam wnikn¹æ w szeregi j<PRO_HISHER> dru¿yny, tak bym móg³ obserwowaæ ich postêp.
+
+Oczywiœcie dla wiarygodnoœci ja równie¿ na pewien czas muszê zostaæ uwiêziony.
+
+25 Tarsakh, 1359
+
+To chyba nie by³ najlepszy pomys³ przysiêgaæ geas.
+
+
+(Nastêpuj¹ca wzmianka z nieoznaczon¹ dat¹ zosta³a z ca³¹ pewnoœci¹ zapisana w poœpiechu:)
+
+Chocia¿ wydarzenia nie potoczy³y siê dok³adnie tak jak zaplanowa³ Irenicus, to trzeba mu oddaæ szacunek. Po tym jak <CHARNAME> przedwczeœnie uciek³<PRO_HESHE>, wszystko potoczy³o siê dok³adnie po jego myœli.
+
+Wierzê, ¿e to <CHARNAME> zabi³<PRO_HESHE> Tamoko. Nie jestem ca³kowicie pewny, ale bêd¹c w j<PRO_HISHER> dru¿ynie mia³em okazjê poznaæ j<PRO_HISHER> zwyczaje. Tak wiêc to jest moja zemsta - zastanawiam siê czy nareszcie odczujê smak zwyciêstwa?
+
+Dziœ w nocy wyruszamy do Czarowiêzów. Kwatery na statku bêd¹ zbyt blisko siebie bym móg³ czuæ siê bezpiecznie, najlepiej wiêc bêdzie jeœli pozbêdê siê tego dowodu.
+
+To jest ostatni wpis w dzienniku. Mniej wiêcej jedna trzecia stron pozostaje pusta.~
+@1002 = ~Yoshimo nie by³ zbyt sumienny w prowadzeniu pamiêtnika. Pierwsze strony wype³niaj¹ notatki z wype³nionych zadañ, zdobytych nagród, pozyskanych przyjació³ i oszukanych wrogów. Pomiêdzy kartkami mo¿na znajduje siê kilka listów pisanych kobiec¹ rêk¹, na marginesach których widniej¹ zabawne uwagi.
+
+Wiêcej regularnych, choæ nadal nie uporz¹dkowanych wpisów pojawi³o siê nieco ponad rok temu.
+
+
+"29 Mirtul, 1358
+
+Przegl¹da³em stare listy - minê³y ju¿ trzy lata odk¹d ostatni raz widzia³em Tamoko? To nie mo¿e byæ prawda.
+
+'Suave' wyp³ywa w morze w czasie przyp³ywu. Siostrzenica kapitana jest w stanie znieœæ wszelkie niewygody dla importowanych dóbr. Przypuszczam, ¿e to tylko pró¿na nadzieja, ¿e nie pop³ynie z nami. NajwyraŸniej bêdê musia³ trzymaæ siê swej kabiny by jej unikaæ.
+
+13 Eleint, 1358
+
+Athkatla jest uroczym miastem jak zwykle, ale kilka osób co jakiœ czas zakrada siê do tawerny, w której siê zatrzyma³em tylko po to by obserwowaæ mnie. Gildia Z³odziei chce mi najwyraŸniej okazaæ, ¿e nie jestem tu mile widziany. Mo¿e dla odmiany powinienem skoncentrowaæ siê na odnalezieniu Tamoko.
+
+18 Eleint, 1358
+
+Nie ma sensu wyruszaæ w góry noc¹; spêdzi³em czas w Crimmor s³uchaj¹c miejscowych opowieœci. Ku mojemu zaskoczeniu, kilku podró¿ników mówi³o o Sarevoku, o którym wczeœniej wspomina³a Tamoko. Wielkie oczekiwania, powi¹zania z ¯elaznym Tronem, ogromna sylwetka rzucaj¹ca mroczny cieñ - to ten sam cz³owiek. Zdaje siê, ¿e wywo³a³ on spore poruszenie we Wrotach Baldura.
+
+Tamoko czêsto o nim pisa³a, choæ niezbyt wiele. Mam nadziejê, ¿e nie wpakowa³a siê w ¿adne k³opoty.
+
+25 Eleint, 1358
+
+Zatrzyma³em siê na noc w Weso³ym ¯onglerze w Beregoœcie. Pijany najemnik nalega³ by wypróbowaæ moj¹ katanê - lub skoñczyæ na jej ostrzu. Odwróci³em jego uwagê zamawiaj¹c u ober¿ysty kilka butelek wina z najlepszych bary³ek.
+
+Przed znikniêciem gdzieœ pod sto³em, mê¿czyzna wybe³kota³ kilka zatrwa¿aj¹cych rzeczy o wydarzeniach we Wrotach Baldura. Mogê mieæ tylko nadziejê, ¿e Tamoko nie by³a w to zamieszana.
+
+Zgodnie z jego s³owami, wszyscy s¹ teraz bardzo podekscytowani kimœ o imieniu <CHARNAME>. Podobno osoba ta zniweczy³a ambitne plany Sarevoka.
+
+8 Marpenoth, 1358
+
+Przez kilka ostatnich dni i nocy przeszukiwa³em ulice Wrót Baldura. W siedzibie ¯elaznego Tronu panowa³ straszny ba³agan. Uda³o mi siê odnaleŸæ gospodê, o której Tamoko wspomina³a jako o swym ostatnim miejscu zatrzymania: obskurna i niegodna jej pobytu. Zauwa¿y³em j¹ w ksi¹¿ce rachunkowej pod fa³szywym nazwiskiem z nieop³aconym rachunkiem. Ulotni³em siê nim ober¿ysta poprosi³ mnie o uregulowanie p³atnoœci.
+
+10 Marpenoth, 1358
+
+S³ysza³em jak kilku najemników opowiada³o, ¿e <CHARNAME>, samodzielnie uœmierci³<PRO_HESHE> tego szalonego drania Sarevoka i jego popleczników. Mówili o j<PRO_HISHER> ognistych oczach, grzmi¹cym g³osie i siedmiomiliowych krokach. Odszed³em.
+
+11 Marpenoth, 1358
+
+(Pomiêdzy kartkami dziennika umieszczony zosta³ œwistek papieru oznaczony symbolem Kelemvora:)
+
+LUDZKA KOBIETA; WIEK OKO£O. 30; POCHODZENIE - KARA-TUR?
+--  ALEJA W POBLI¯U BRAMY CZARNEGO SMOKA
+--  ¯ADNYCH WIDOCZNYCH ŒLADÓW PRZEMOCY, CHOROBY LUB GNICIA; PRZYCZYNA ŒMIERCI - MAGICZNA?
+--  PE£NA ZBROJA P£YTOWA OZNACZONA BANICKIMI INSYGNIAMI O ORIENTALNYM CHARAKTERZE; OZDOBIONA Z£OTYM FILIGRANEM; SPRZEDANA CZARODZIEJSKIM ROZMAITOŒCIOM ZA 17,000 SZTUK Z£OTA
+
+POGRZEBANA
+
+13 Marpenoth, 1358
+
+Jej œmierci mo¿e byæ winny Sarevok albo <CHARNAME>. Mimo wszystko Tamoko ca³y czas wierzy³a w Sarevoka, poza tym na nim ju¿ nie mogê siê zemœciæ.
+
+15 Marpenoth, 1358
+
+W mieœcie obchodzono dziœ jakieœ œwiêto, dziêki czemu w pobli¿u Ksi¹¿êcego Pa³acu mym oczom ukaza³<PRO_HESHE> siê <CHARNAME> - nie wygl¹da³<PRO_HESHE> na kogoœ kto móg³by zabiæ moj¹ siostrê.
+
+16 Marpenoth, 1358
+
+Œni³em o Tamoko, co te¿ ostatnio czêsto mi siê zdarza. Jedyne jednak co pamiêtam ze snu to jej twarz.
+
+18 Marpenoth, 1358
+
+Zosta³em zauwa¿ony. Bladoskóra kobieta w czarnym ubraniu odwiedzi³a mnie w tawernie, w której siê zatrzyma³em.
+
+'Jesteœ utalentowanym m³odym cz³owiekiem, którego bardzo ciekawi <CHARNAME>,' powiedzia³a i spojrza³a na mnie. 'Nie martw siê, twoje proœby zostan¹ wys³uchane. Musisz tylko zrobiæ to co ci powiem.'
+
+Nakaza³a mi iœæ za ni¹. Pod¹¿aj¹c w¹skimi przejœciami dotarliœmy do miejsca gdzie miasto grzebie nieznanych z imienia martwych. Tam wskaza³a mi jedyny odkopany grób poœród wielu innych. 
+
+Wewn¹trz trumny spoczywa³a Tamoko, skulona jak dziecko podczas snu. Martwa.
+
+20 Marpenoth, 1358
+
+Bodhi pracuje dla zamaskowanego cz³owieka o imieniu Irenicus, tak mi siê przynajmniej wydaje. Oboje zapewniaj¹ mnie, ¿e to <CHARNAME> zabi³<PRO_HESHE> moj¹ siostrê. Obiecaj¹ mi te¿ zemstê - muszê jednak sprowadziæ j<PRO_HIMHER> do Irenicusa. ¯yw<PRO_HIMHER>,
+
+22 Marpenoth, 1358
+
+Ju¿ nie muszê wiêcej œniæ: mam przed sob¹ rzeczywistoœæ, twarz Tamoko osadzon¹ w nienaturalny spokój, którego nawet wyniszczanie nie mo¿e zak³óciæ. Jej cia³o nie zgni³o; nie odesz³a w pe³ni.
+
+Jest tylko jeden sposób by byæ pewnym. Nawet jeœli siê mylê - nikt z nas nie jest niewinny. W ten czy inny sposób, zostanie pomszczona.
+
+23 Marpenoth, 1358
+
+Irenicus za¿¹da³ ode mnie przysiêgi - geas - tak wiêc otrzyma³ j¹. Nawet teraz ledwo to czujê.
+
+8 Alturiak, 1359
+
+<CHARNAME> i j<PRO_HISHER> dru¿yna zostali pojmani. Krew zosta³a przelana, ale Irenicus umiejscowi³ moj¹ zdobycz tak daleko ode mnie jak to tylko mo¿liwe. Próba wymuszenia na nim mojego punktu widzenia by³aby co najmniej niem¹dra.
+
+Irenicus obieca³, ¿e w przeci¹gu kilku dni bêdê móg³ znów widzieæ na prawe oko. Nakaza³ mi tak¿e cierpliwie oczekiwaæ na zemstê. Pod¹¿aliœmy na po³udnie.
+
+15 Ches, 1359
+
+Jesteœmy w Athkatli. Oczywiœcie zak³adam, ¿e ta podziemna forteca nie zosta³a zbudowana w przeci¹gu jednego dnia.
+
+Odk¹d tu przybyliœmy, Irenicus stara³ siê maksymalnie wykorzystaæ potencja³ naszych nowych goœci. Nie pozwoli³ mi obserwowaæ swych eksperymentów, ja zaœ nie zamierzam pope³niæ pomy³ki i zakradaæ siê by zobaczyæ co robi.
+
+Krzyki dzia³aj¹ mi na nerwy, tak wiêc wybra³em siê na spacer po ulicach. Cokolwiek zamierza z nimi zrobiæ, mam nadziejê, ¿e siê pospieszy.
+
+20 Ches, 1359
+
+Bodhi spêdza³a czas poluj¹c na Z³odziei Cienia. Tak¿e i ona rozpoczê³a swe dzia³ania du¿o wczeœniej.
+
+Ja zaœ staram siê unikaæ krótkich i brutalnych potyczek. Czujê potrzebê chwilowej dysocjacji.
+
+26 Ches, 1359
+
+Irenicus nie poœwiêca mi zbyt wiele uwagi, dziêki czemu uda³o mi siê przestudiowaæ niektóre jego notatki, które jak s¹dzê nie by³y przeznaczone dla moich oczu. G³ównym ich tematem jest <CHARNAME> i j<PRO_HISHER> 'potencja³'. Wczeœniej by³em zbyt œlepy by zastanawiaæ siê nad jego motywami.
+
+27 Ches, 1359
+
+Znalaz³em jeszcze jedn¹ notatkê: przechwycone pismo ¯elaznego Tronu do w³adz Wrót Baldura, zlecaj¹ce odnalezienie i uœmiercenie wszystkich by³ych sojuszników Sarevoka Ancheva, którzy prze¿yli. ¯elazny Tron nikomu nie daruje zdrady.
+
+Lista nie ogranicza siê do takich nazwisk jak Winski Perorate, Angelo Dosan, ogr Tazok, mistrz przywo³ywañ zwany Semaj, Cythandria oraz Tamoko.
+
+18 Tarsakh, 1359
+
+Nareszcie Irenicus ma dla mnie zadanie, które bêdzie polegaæ na zwabieniu pomiotu Bhaala do jego kolejnej siedziby. Mam wnikn¹æ w szeregi j<PRO_HISHER> dru¿yny, tak bym móg³ obserwowaæ ich postêp.
+
+Oczywiœcie dla wiarygodnoœci ja równie¿ na pewien czas muszê zostaæ uwiêziony.
+
+25 Tarsakh, 1359
+
+To chyba nie by³ najlepszy pomys³ przysiêgaæ geas.
+
+
+(Nastêpuj¹ca wzmianka z nieoznaczon¹ dat¹ zosta³a z ca³¹ pewnoœci¹ zapisana w poœpiechu:)
+
+Chocia¿ wydarzenia nie potoczy³y siê dok³adnie tak jak zaplanowa³ Irenicus, to trzeba mu oddaæ szacunek. Po tym jak <CHARNAME> przedwczeœnie uciek³<PRO_HESHE>, wszystko potoczy³o siê dok³adnie po jego myœli.
+
+Czy tak powinna wygl¹daæ moja upragniona zemsta? Zaprawdê odk¹d sta³em siê cz³onkiem tej dru¿yny... nie jestem pewien czy to <CHARNAME> zabi³<PRO_HESHE> Tamoko. Nie wiem. Byæ mo¿e morderc¹ jest ktoœ inny.
+
+Teraz nie ma to jednak ¿adnego znaczenia, czy¿ nie? Dziœ w nocy wyruszamy do Czarowiêzów. Niech bêdê przeklêty jeœli ktoœ odnajdzie ten dowód.
+
+To jest ostatni wpis w dzienniku. Mniej wiêcej jedna trzecia stron pozostaje pusta.~
+@1003 = ~Yoshimo nie by³ zbyt sumienny w prowadzeniu pamiêtnika. Pierwsze strony wype³niaj¹ notatki z wype³nionych zadañ, zdobytych nagród, pozyskanych przyjació³ i oszukanych wrogów. Pomiêdzy kartkami mo¿na znajduje siê kilka listów pisanych kobiec¹ rêk¹, na marginesach których widniej¹ zabawne uwagi.
+
+Wiêcej regularnych, choæ nadal nie uporz¹dkowanych wpisów pojawi³o siê nieco ponad rok temu.
+
+
+"29 Mirtul, 1358
+
+Przegl¹da³em stare listy - minê³y ju¿ trzy lata odk¹d ostatni raz widzia³em Tamoko? To nie mo¿e byæ prawda.
+
+'Suave' wyp³ywa w morze w czasie przyp³ywu. Siostrzenica kapitana jest w stanie znieœæ wszelkie niewygody dla importowanych dóbr. Przypuszczam, ¿e to tylko pró¿na nadzieja, ¿e nie pop³ynie z nami. NajwyraŸniej bêdê musia³ trzymaæ siê swej kabiny by jej unikaæ.
+
+13 Eleint, 1358
+
+Athkatla jest uroczym miastem jak zwykle, ale kilka osób co jakiœ czas zakrada siê do tawerny, w której siê zatrzyma³em tylko po to by obserwowaæ mnie. Gildia Z³odziei chce mi najwyraŸniej okazaæ, ¿e nie jestem tu mile widziany. Mo¿e dla odmiany powinienem skoncentrowaæ siê na odnalezieniu Tamoko.
+
+18 Eleint, 1358
+
+Nie ma sensu wyruszaæ w góry noc¹; spêdzi³em czas w Crimmor s³uchaj¹c miejscowych opowieœci. Ku mojemu zaskoczeniu, kilku podró¿ników mówi³o o Sarevoku, o którym wczeœniej wspomina³a Tamoko. Wielkie oczekiwania, powi¹zania z ¯elaznym Tronem, ogromna sylwetka rzucaj¹ca mroczny cieñ - to ten sam cz³owiek. Zdaje siê, ¿e wywo³a³ on spore poruszenie we Wrotach Baldura.
+
+Tamoko czêsto o nim pisa³a, choæ niezbyt wiele. Mam nadziejê, ¿e nie wpakowa³a siê w ¿adne k³opoty.
+
+25 Eleint, 1358
+
+Zatrzyma³em siê na noc w Weso³ym ¯onglerze w Beregoœcie. Pijany najemnik nalega³ by wypróbowaæ moj¹ katanê - lub skoñczyæ na jej ostrzu. Odwróci³em jego uwagê zamawiaj¹c u ober¿ysty kilka butelek wina z najlepszych bary³ek.
+
+Przed znikniêciem gdzieœ pod sto³em, mê¿czyzna wybe³kota³ kilka zatrwa¿aj¹cych rzeczy o wydarzeniach we Wrotach Baldura. Mogê mieæ tylko nadziejê, ¿e Tamoko nie by³a w to zamieszana.
+
+Zgodnie z jego s³owami, wszyscy s¹ teraz bardzo podekscytowani kimœ o imieniu <CHARNAME>. Podobno osoba ta zniweczy³a ambitne plany Sarevoka.
+
+8 Marpenoth, 1358
+
+Przez kilka ostatnich dni i nocy przeszukiwa³em ulice Wrót Baldura. W siedzibie ¯elaznego Tronu panowa³ straszny ba³agan. Uda³o mi siê odnaleŸæ gospodê, o której Tamoko wspomina³a jako o swym ostatnim miejscu zatrzymania: obskurna i niegodna jej pobytu. Zauwa¿y³em j¹ w ksi¹¿ce rachunkowej pod fa³szywym nazwiskiem z nieop³aconym rachunkiem. Ulotni³em siê nim ober¿ysta poprosi³ mnie o uregulowanie p³atnoœci.
+
+10 Marpenoth, 1358
+
+S³ysza³em jak kilku najemników opowiada³o, ¿e <CHARNAME>, samodzielnie uœmierci³<PRO_HESHE> tego szalonego drania Sarevoka i jego popleczników. Mówili o j<PRO_HISHER> ognistych oczach, grzmi¹cym g³osie i siedmiomiliowych krokach. Odszed³em.
+
+11 Marpenoth, 1358
+
+(Pomiêdzy kartkami dziennika umieszczony zosta³ œwistek papieru oznaczony symbolem Kelemvora:)
+
+LUDZKA KOBIETA; WIEK OKO£O. 30; POCHODZENIE - KARA-TUR?
+--  ALEJA W POBLI¯U BRAMY CZARNEGO SMOKA
+--  ¯ADNYCH WIDOCZNYCH ŒLADÓW PRZEMOCY, CHOROBY LUB GNICIA; PRZYCZYNA ŒMIERCI - MAGICZNA?
+--  PE£NA ZBROJA P£YTOWA OZNACZONA BANICKIMI INSYGNIAMI O ORIENTALNYM CHARAKTERZE; OZDOBIONA Z£OTYM FILIGRANEM; SPRZEDANA CZARODZIEJSKIM ROZMAITOŒCIOM ZA 17,000 SZTUK Z£OTA
+
+POGRZEBANA
+
+13 Marpenoth, 1358
+
+Jej œmierci mo¿e byæ winny Sarevok albo <CHARNAME>. Mimo wszystko Tamoko ca³y czas wierzy³a w Sarevoka, poza tym na nim ju¿ nie mogê siê zemœciæ.
+
+15 Marpenoth, 1358
+
+W mieœcie obchodzono dziœ jakieœ œwiêto, dziêki czemu w pobli¿u Ksi¹¿êcego Pa³acu mym oczom ukaza³<PRO_HESHE> siê <CHARNAME> - nie wygl¹da³<PRO_HESHE> na kogoœ kto móg³by zabiæ moj¹ siostrê.
+
+16 Marpenoth, 1358
+
+Œni³em o Tamoko, co te¿ ostatnio czêsto mi siê zdarza. Jedyne jednak co pamiêtam ze snu to jej twarz.
+
+18 Marpenoth, 1358
+
+Zosta³em zauwa¿ony. Bladoskóra kobieta w czarnym ubraniu odwiedzi³a mnie w tawernie, w której siê zatrzyma³em.
+
+'Jesteœ utalentowanym m³odym cz³owiekiem, którego bardzo ciekawi <CHARNAME>,' powiedzia³a i spojrza³a na mnie. 'Nie martw siê, twoje proœby zostan¹ wys³uchane. Musisz tylko zrobiæ to co ci powiem.'
+
+Nakaza³a mi iœæ za ni¹. Pod¹¿aj¹c w¹skimi przejœciami dotarliœmy do miejsca gdzie miasto grzebie nieznanych z imienia martwych. Tam wskaza³a mi jedyny odkopany grób poœród wielu innych. 
+
+Wewn¹trz trumny spoczywa³a Tamoko, skulona jak dziecko podczas snu. Martwa.
+
+20 Marpenoth, 1358
+
+Bodhi pracuje dla zamaskowanego cz³owieka o imieniu Irenicus, tak mi siê przynajmniej wydaje. Oboje zapewniaj¹ mnie, ¿e to <CHARNAME> zabi³<PRO_HESHE> moj¹ siostrê. Obiecaj¹ mi te¿ zemstê - muszê jednak sprowadziæ j<PRO_HIMHER> do Irenicusa. ¯yw<PRO_HIMHER>,
+
+22 Marpenoth, 1358
+
+Ju¿ nie muszê wiêcej œniæ: mam przed sob¹ rzeczywistoœæ, twarz Tamoko osadzon¹ w nienaturalny spokój, którego nawet wyniszczanie nie mo¿e zak³óciæ. Jej cia³o nie zgni³o; nie odesz³a w pe³ni.
+
+Jest tylko jeden sposób by byæ pewnym. Nawet jeœli siê mylê - nikt z nas nie jest niewinny. W ten czy inny sposób, zostanie pomszczona.
+
+23 Marpenoth, 1358
+
+Irenicus za¿¹da³ ode mnie przysiêgi - geas - tak wiêc otrzyma³ j¹. Nawet teraz ledwo to czujê.
+
+8 Alturiak, 1359
+
+<CHARNAME> i j<PRO_HISHER> dru¿yna zostali pojmani. Krew zosta³a przelana, ale Irenicus umiejscowi³ moj¹ zdobycz tak daleko ode mnie jak to tylko mo¿liwe. Próba wymuszenia na nim mojego punktu widzenia by³aby co najmniej niem¹dra.
+
+Irenicus obieca³, ¿e w przeci¹gu kilku dni bêdê móg³ znów widzieæ na prawe oko. Nakaza³ mi tak¿e cierpliwie oczekiwaæ na zemstê. Pod¹¿aliœmy na po³udnie.
+
+15 Ches, 1359
+
+Jesteœmy w Athkatli. Oczywiœcie zak³adam, ¿e ta podziemna forteca nie zosta³a zbudowana w przeci¹gu jednego dnia.
+
+Odk¹d tu przybyliœmy, Irenicus stara³ siê maksymalnie wykorzystaæ potencja³ naszych nowych goœci. Nie pozwoli³ mi obserwowaæ swych eksperymentów, ja zaœ nie zamierzam pope³niæ pomy³ki i zakradaæ siê by zobaczyæ co robi.
+
+Krzyki dzia³aj¹ mi na nerwy, tak wiêc wybra³em siê na spacer po ulicach. Cokolwiek zamierza z nimi zrobiæ, mam nadziejê, ¿e siê pospieszy.
+
+20 Ches, 1359
+
+Bodhi spêdza³a czas poluj¹c na Z³odziei Cienia. Tak¿e i ona rozpoczê³a swe dzia³ania du¿o wczeœniej.
+
+Ja zaœ staram siê unikaæ krótkich i brutalnych potyczek. Czujê potrzebê chwilowej dysocjacji.
+
+26 Ches, 1359
+
+Irenicus nie poœwiêca mi zbyt wiele uwagi, dziêki czemu uda³o mi siê przestudiowaæ niektóre jego notatki, które jak s¹dzê nie by³y przeznaczone dla moich oczu. G³ównym ich tematem jest <CHARNAME> i j<PRO_HISHER> 'potencja³'. Wczeœniej by³em zbyt œlepy by zastanawiaæ siê nad jego motywami.
+
+27 Ches, 1359
+
+Znalaz³em jeszcze jedn¹ notatkê: przechwycone pismo ¯elaznego Tronu do w³adz Wrót Baldura, zlecaj¹ce odnalezienie i uœmiercenie wszystkich by³ych sojuszników Sarevoka Ancheva, którzy prze¿yli. ¯elazny Tron nikomu nie daruje zdrady.
+
+Lista nie ogranicza siê do takich nazwisk jak Winski Perorate, Angelo Dosan, ogr Tazok, mistrz przywo³ywañ zwany Semaj, Cythandria oraz Tamoko.
+
+18 Tarsakh, 1359
+
+Nareszcie Irenicus ma dla mnie zadanie, które bêdzie polegaæ na zwabieniu pomiotu Bhaala do jego kolejnej siedziby. Mam wnikn¹æ w szeregi j<PRO_HISHER> dru¿yny, tak bym móg³ obserwowaæ ich postêp.
+
+Oczywiœcie dla wiarygodnoœci ja równie¿ na pewien czas muszê zostaæ uwiêziony.
+
+25 Tarsakh, 1359
+
+To chyba nie by³ najlepszy pomys³ przysiêgaæ geas.
+
+
+(Nastêpuj¹ca wzmianka z nieoznaczon¹ dat¹ zosta³a z ca³¹ pewnoœci¹ zapisana w poœpiechu:)
+
+Chocia¿ wydarzenia nie potoczy³y siê dok³adnie tak jak zaplanowa³ Irenicus, to trzeba mu oddaæ szacunek. Po tym jak <CHARNAME> przedwczeœnie uciek³<PRO_HESHE>, wszystko potoczy³o siê dok³adnie po jego myœli.
+
+Znalaz³em sposób by staæ siê cz³onkiem tej dru¿yny, s¹dzê równie¿, ¿e <CHARNAME> uwa¿a mnie za przyjaciela. Moglibyœmy byæ wspania³ymi towarzyszami. Byæ mo¿e nawet to nie on<PRO_HESHE> zabi³<PRO_HESHE> Tamoko.
+
+Wstyd mi jednak mówiæ, ¿e teraz nie to ¿adnego znaczenia. Nie mo¿na tego ju¿ zatrzymaæ, chocia¿by dlatego, ¿e dziœ w nocy wyruszamy do Czarowiêzów. Niech bêdê przeklêty jeœli ktoœ odnajdzie ten dziennik... Ilmaterze pomó¿ mi.
+
+To jest ostatni wpis w dzienniku. Mniej wiêcej jedna trzecia stron pozostaje pusta.~
+@1004 = ~Dziennik Yoshimo~
+@1005 = ~Wygl¹d tego krótkiego ostrza wyraŸnie œwiadczy, ¿e pochodzi ono z Kara-Tur, nie jest to jednak najlepiej wykonane. Broñ ta zosta³a Ÿle wywa¿ona, rêkojeœæ jest luŸna, ostrze dawno zosta³o stêpione. Widoczne s¹ na nim œlady ozdobnej orientalnej inskrypcji.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 -1
+TraK0: -1
+Rodzaj obra¿eñ: k³ute
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@1298 = ~Po tym jak wskrzesi³<PRO_HESHE> go <CHARNAME>, Sarevok nie osiedli³ siê na d³ugo w jednym miejscu i spêdzi³ wiele lat na podró¿owaniu po Krainach. Powiadaj¹, ¿e w Berdusk walczy³ z armi¹ orków, wykazuj¹c siê przy tym tak wielk¹ moc¹ i okazuj¹c tak¹ wœciek³oœæ, ¿e przera¿eni mieszkañcy nie wiedzieli, kogo siê maj¹ bardziej obawiaæ, najeŸdŸców czy swojego obroñcy. Do Westgate przyby³ jako zdobywca, brutalnie narzuci³ mieszkañcom swoje rz¹dy, tylko po ty, by kilka miesiêcy potem znikn¹æ bez wieœci. Sarevok zachowywa³ siê jak ktoœ kto nie zna siebie, a wszystkie opowieœci o nim ³¹czy jedno - by³ on dusz¹ prze¿ywaj¹c¹ katusze, balansuj¹c¹ na granicy ¿ycia i œmierci, ale skazan¹ na to, by nigdy nie osi¹gn¹æ ani jednego, ani drugiego. W koñcu Sarevok znikn¹³. Powiadaj¹, ¿e odwa¿y³ siê zaatakowaæ sam¹ Otch³añ, a mo¿e nawet targn¹³ siê na w³asne ¿ycie. Prawda jest taka, ¿e wyruszy³ w podró¿ do Kara-Tur, by pogrzebaæ jedyn¹ mi³oœæ swojego ¿ycia, wojowniczkê Tamoko. Sarevok nigdy stamt¹d nie powróci³, choæ opowieœci o nim pozostaj¹ wiecznie ¿ywe.~
+@1300  = ~Zbli¿cie siê moi wierni. Zanurzcie siê w mych upiornych objêciach. Przyjmijcie œmieræ...~
+@1301  = ~Morderstwo Actona Balthisa.
+
+W³aœnie oskar¿ono Haer'Dalisa o zamordowanie Lorda Actona Balthisa, prominentnego cz³onka amnijskich elit. Musimy uwolniæ go zanim dojdzie do egzkucji. Najlepiej by³oby zacz¹æ od rozmowy z G³ównym Inspektorem Breg¹.~
+@1302  = ~Morderstwo Actona Balthisa.
+
+Odwiedziliœmy Haer'Dalisa w wiêzieniu. Doradzi³ nam, abyœmy rozejrzeli siê po posiad³oœci Lorda Balthisa w Dzielnicy Mostów i porozmawiali z G³ównym Inspektorem Breg¹. Tymczasem stra¿nicy przygotowuj¹ siê do egzekucji. Mamy tylko trzy dni, by dowieœæ niewinnoœci Haer'Dalisa.~
+@1303  = ~Morderstwo Actona Balthisa.
+
+Pip, s³u¿¹cy w posiad³oœci Lorda Balthisa, powiedzia³ nam, ¿e Haer'Dalis by³ ¿ywo zainteresowany popiersiem Sune znajduj¹cym siê na terenie rezydencji. Kolekcjoner sztuki Quataris z Promenady mo¿e wiedzieæ coœ wiêcej na ten temat.~
+@1304  = ~Morderstwo Actona Balthisa.
+
+G³ówny Inspektor Brega powiedzia³ nam, ¿e Haer'Dalis jest równie¿ podejrzany o kradzie¿. Z rezydencji Lorda Balthisa w Dzielnicy Doków zniknê³o bowiem popiersie Sune. Miejscowy kolekcjoner sztuki Quataris z Promenady mo¿e wiedzieæ coœ wiêcej na ten temat. Jeœli siê nie pospieszymy, Haer'Dalis zostanie stracony za trzy dni!~
+@1305  = ~Morderstwo Actona Balthisa.
+
+Quataris wyzna³, i¿ wynaj¹³ z³odzieja do kradzie¿y popiersia Sune z posiad³oœci. G³ówny Inspektor Brega bêdzie potrzebowa³ jego pisemnego przyznania siê do winy.~
+@1306 = ~Morderstwo Actona Balthisa.
+
+Zabi³em Quatarisa, znajduj¹c przy jego martwym ciele popiersie Sune. G³ówny Inspektor Brega bêdzie musia³ to zobaczyæ.~ ~Zabi³am Quatarisa, znajduj¹c przy jego martwym ciele popiersie Sune. G³ówny Inspektor Brega bêdzie musia³ to zobaczyæ.~
+@1307 = ~Morderstwo Actona Balthisa.
+
+G³ówny Inspektor Brega podpisa³ nakaz uwolnienia Haer'Dalisa, potwierdzaj¹cy jego niewinnoœæ. Mogê go w koñcu zabraæ z wiêzienia.~
+@1308 = ~Morderstwo Actona Balthisa.
+
+Haer'Dalis podsun¹³ mi pomys³, ¿e najlepszym sposobem na schwytanie prawdziwego mordercy, jest zwabienie go po raz kolejny do posiad³oœci Lorda Balthisa. Je¿eli rozpuszczone przez Haer'Dalisa pog³oski siêgnê³y ju¿ uszu z³odzieja, ten powinien ju¿ tam byæ. Gdy bêdzie ju¿ po wszystkim, G³ówny Inspektor Brega sowicie nas wynagrodzi.~
+@1309 = ~Morderstwo Actona Balthisa.
+
+Przekazaliœmy G³ównemu Inspektorowi Bredze wieœci o œmierci prawdziwego mordercy. By³ bardzo zadowolony.~
+@1310 = ~Morderstwo Actona Balthisa.
+
+Haer'Dalis zosta³ stracony.~
+@1311 = ~Komponent ten jest niedostepny dla BG2EE.~

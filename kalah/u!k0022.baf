@@ -1,0 +1,9 @@
+IF
+PartyHasItem("U!KBot1")
+Global("U!ReadyJafir","GLOBAL",1)
+THEN
+RESPONSE #100
+CreateCreature("U!KJaf",[272.450],1)
+SetGlobal("U!ReadyJafir","GLOBAL",2)
+END
+

@@ -1,0 +1,274 @@
+@24   = ~Miecz Zwinnoœci Arabane'a
+Jest to jeden z wielu przedmiotów stworzonych na czeœæ maga, który jako pierwszy odkry³ jak umagiczniaæ w ten sposób klingi. By³a to broñ banity Garno i od tego ostrza zginê³o wielu kap³anów. Garno by³ rozwœcieczony na bogów po tym jak jego rodzina zosta³a spalona na stosie przez kap³anów Loviatar i poœwiêci³ swoje ¿ycie zemœcie. Pomimo jego nienawiœci do wszystkiego co œwiête, podejrzewa siê, ¿e jeden z bogów chaosu pomóg³ Garno w zdobyciu tego miecza, rozkoszuj¹c siê zniszczeniami jakie powodowa³ ten m³odzieniec.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Specjalne:
+ Odpornoœæ na Unieruchomienie.
+ Raz dziennie mo¿e przyspieszyæ postaæ na 12 sekund.
+Waga: 2
+OpóŸnienie: 1
+Rodzaj bieg³oœci: krótki miecz
+Typ broni: 1-rêczna
+Wymagana si³a: 5
+~
+@33   = ~Shazzellim +1
+Ten sejmitar jest doœæ s³abej jakoœci, ale w jego wnêtrzu czai siê wielka moc i z³o. Zosta³ stworzony do zabijania Harfiarzy i œwietnie nadaje siê do tego celu. Po jednym ciosie tego ostrza bard musi wykonaæ rzut obronny przeciwko czarom albo zginie. Zosta³ stworzony przez Czerwonego Maga z Thay, ma tak¿e zdolnoœæ mówienia, i dlatego tak czêsto dawano go magom-wojownikom s³u¿¹cym Czarodziejom. Nie trzeba mówiæ, ¿e posiadanie tego miecza nie bêdzie podobaæ siê Harfiarzom.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ Ug³osowienie
+ Ka¿dy trafiony bard musi wykonaæ rzut obronny przeciwko czarom z modyfikatorem -4 lub zginie
+Waga: 3
+OpóŸnienie: 4
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 10
+~
+@34   = ~Kiedy jest u¿yta, ró¿d¿ka ta emituje wielk¹, mocn¹, lepk¹ masê podobn¹ do pajêczyny, ale o wiele wiêksz¹ i mocniejsz¹. Istoty, które zostan¹ w ni¹ z³apane, lub po prostu dotkn¹ jej zostan¹ zatrzymane przez jej kleiste w³ókna.
+Ka¿dy kto znajdzie siê na obszarze dzia³ania zaklêcia musi wykonaæ rzut obronny przeciw czarow z modyfikatorem -5. Jesli rzut obronny bêdzie udany, istota bêdzie mog³a siê poruszaæ. Negatywny rzut oznacza, ¿e zostanie przyklejona do pajêczyny i bêdzie niezdolna do wykonywania ruchu. W czasie ka¿dej rundy, kiedy istota znajduje siê w pajêczynie musi wykonaæ kolejny rzut obronny lub pozostanie w bezruchu.
+
+PARAMETRY:
+
+Specjalnie: Zatrzymanie istoty chyba, ¿e wykona rzut obronny przeciw czarom z modyfikatorem -5
+Zasiêg: 60 stóp
+Obszar dzia³ania: Specjalny
+Rzut obronny: Specjalny
+Czas trwania: 1 tura
+~
+@74   = ~Figurka Shakti
+
+Istniej¹ przekonuj¹ce dowody, ¿e przedmiot ten zosta³ ukszta³towany przez potê¿nego Wu Jena w tajemniczych ziemiach le¿¹cych na wschodzie Faerunu, zw³aszcza, ¿e figurka przedstawia pe³nozbrojnego wojownika z Kara Tur, trzymaj¹cego w obu rêkach miecz.
+
+Budz¹c figurkê, w³aœciciel mo¿e siê sam na pewien czas przeistoczyæ w wojownika w niebieskiej zbroi, w³adaj¹cego magicznym krótkim mieczem.
+
+Niezale¿nie od tego czy figurka pozwala u¿ytkownikowi na po³¹czenie ducha z legendarnym wojonikiem, czy te¿ uwalnia dzik¹ furiê znajduj¹c¹ siê g³êboko w psychice jej w³aœciciela, nie mo¿na niedoceniæ jej w³aœciwoœci bojowych.
+
+PARAMETRY:
+
+Mo¿na jej u¿yæ raz dziennie
+Czas trwania: 4 rundy
+KP przyjmuje wartoœæ -5
+U¿ytkownik podlega Przyœpieszeniu ruchów
+Atak odbywa siê dwa razy na rundê. Miecz to broñ +4, a jego u¿ytkownik walczy nim tak, jak gdyby mia³ dwie gwiazdki bieg³oœci w mieczach krótkich.
+
+~
+@75   = ~Postrach Wrogów +5
+
+Arcymag Demron stworzy³ ten potê¿ny miecz dla kapitana Fflara z Myth Drannor. Najpotê¿niejsze z szeœciu magicznych ostrzy stworzonych przez Demrona, Postrach Wrogów za ka¿dym trafieniem mo¿e wys¹czyæ esencjê ¿ycia z przeciwnika i przekazaæ jej energiê dzier¿¹cej go osobie. S¹ tacy, którzy wierz¹, ¿e umiejêtnoœæ ta przeklnê³a ostrze, mimo ¿e zosta³o ono wykute jako broñ dla prawych i sprawiedliwych, gdy¿ mroczna historia Postrachu Wrogów przepe³niona jest mordem i œmierci¹. 
+
+W³asna krew Demrona ochrzci³a ostrze, kiedy w³amywacz u¿y³ nowo stworzonego miecza by przynieœæ arcymagowi przedwczesn¹ œmieræ, chocia¿ z³odziej równie¿ nie prze¿y³ tego spotkania. Po zamordowaniu Demrona, Postrach Wrogów zosta³ odzyskany i zaprezentowany bohaterowi Fflarowi, który u¿ywa³ go w obronie Myth Drannor, najwspanialszego z elfich miast. 
+
+Jednak nawet moc Postrachu Wrogów nie by³a w stanie oprzeæ siê mrocznych hordom, które najecha³y Myth Drannor. Kiedy elfie miasto upad³o, kapitana Fllara spotka³ okropny, przera¿aj¹cy wrêcz konie, a miecz zgubi³ w ruinach wielkiej metropolii. 
+
+Po³¹czony na nowo z pochw¹ Fflara, Postrach Wrogów jest teraz orê¿em jeszcze bardziej potê¿nym, ni¿ twierdz¹ legendy.
+
+PARAMETRY:
+TraK0: +5
+Obra¿enia: 2k4 +5, +6 obra¿eñ przeciwko nieumar³ym, zmiennokszta³tnym i wszystkim istotom z innych sfer (demonom, planetarom, itd.)
+Specjalne:
+ +1 do rzutów obronnych, kiedy miecz jest w u¿yciu.
+ Ka¿de udane trafienie powoduje rzucenie na wroga czaru Mniejsze dr¹¿enie Larlocha (bez mo¿liwoœci wykonania rzutu obronnego).
+Typ obra¿eñ: sieczne
+Waga: 5
+OpóŸnienie: 3
+Rodzaj bieg³oœci: miecz pó³torarêczny
+Typ: 1-rêczna
+Wymagana si³a: 11
+~
+@76   = ~Kolec Ixila +6
+
+Krótko po Czasie Niepokojów koczownicze bandyckie plemiona z pustyñ Calimshanu zjednoczy³y siê pod przywódctwem jednego cz³owieka; okrutnego i brutalnego Ixila Xaxsha. Ze swoich ja³owych pustyñ, nomadowie naje¿d¿ali kupieckie karawany i terroryzowa³y wêdrowców, którzy oœmielili siê podró¿owaæ drog¹ z Calimportu do Myratmy. 
+
+Szybko rozesz³y siê pog³oski i legendy o niezwyciê¿onym Ixilu, który dowodzi³ ka¿d¹ bandyck¹ dru¿yn¹ dzier¿¹c sw¹ magiczn¹ w³óczniê. Niektórzy wierzyli, ¿e nie jest on naprawdê cz³owiekiem, tylko demonem w ludzkiej formie, sprowadzonym do Faerunu przez chaos i zamêt Czasu Niepokojów. 
+
+Sadyzm i dzikoœæ Ixila zdawa³y siê potwierdzaæ te podejrzenia. Podczas bitew g³ownia Kolca Ixila, jego potê¿nej w³óczni, od³¹cza³a siê i przygwo¿d¿a³a przeciwników do ziemi, a nowa g³ownia magicznie formowa³a siê na koñcu w³óczni. Czêsto w œrodku potyczki, Ixil przestawa³ walczyæ by delektowaæ siê widokiem bezsilnego przeciwnika przebijanego przez jego w³óczniê. 
+
+Zosta³ on w koñcu pokonany, kiedy zosta³ zwabiony w pu³apkê i zaatakowa³ kontyngent potê¿nych kap³anów i rycerzy Zakonu Promiennego Serca, którzy udawali prostych pielgrzymów. Œwiadkowie tej bitwy twierdz¹, ¿e Ixil nie zgin¹³, ale zosta³ w jakiœ sposób wygnany do jakiejœ piekielnej sfery przez œwiêt¹ magiê Zakonu.
+
+Chocia¿ cia³o Ixila nigdy nie zosta³o odnaleziole, Kolec Ixila, jego siej¹ca strach w³ócznia i symbol jego mocy, zosta³ odzyskany. Poniewa¿ artefakt nie móg³ zostaæ zupe³nie zniszczony, zosta³ on podzielony na kilka czêœci, które rozrzucono po Faerunie.
+
+PARAMETRY:
+
+
+Specjalne:
+ Sta³a swoboda dzia³ania
+ Przy ka¿dym udanym trafieniu ofiara musi wykonaæ rzut obronny lub zostanie przygwo¿d¿ona do ziemi na 3 rundy, odnosz¹c w ka¿dej rundzie 1k6+5 obra¿eñ.
+
+TraK0: +6
+Obra¿enia: 1k6 +6
+Rodzaj obra¿eñ: k³ute
+Waga: 5
+OpóŸnienie: 2
+Rodzaj bieg³oœci: w³ócznia
+Typ: 2-rêczna
+Wymagana si³a: 5
+~
+@77   = ~Maczuga Wybuchu +5
+
+Jedna z amnijskich baœni mówi o Nysroghcie, potê¿nym mieszkañcu ni¿szych p³aszczyzn, wypuszczonym do Amn przez nieostro¿n¹ czarownicê o imieniu Unileth. 
+
+Ca³kowicie odporny na wszelkie bronie, których u¿yto przeciw niemu, Nysrogh pustoszy³ ca³e Amn, dlatego te¿ Unileth przyrzek³a zakoñczyæ spustoszenie jakie sprowadzi³a. U¿ywaj¹c swej wiedzy o s³aboœciach demonów, skonstruowa³a wielk¹ maczugê by pokonaæ Nysrogha i podarowa³a j¹ dzielnemu, ale nieznanemu z imienia rycerzowi, który mia³ byæ jej czempionem. 
+
+Czempion Unileth rzuci³ wyzwanie Nysroghowi, które to demon natychmiastowo zaakceptowa³, bêd¹c przekonanym, ¿e ¿adna broñ Krain nie mo¿e go skrzywdziæ. Kiedy spotkali siê na polu bitwy, czempion Unileth ujrzawszy dzikie spojrzenie Nysrogha natychmiast upuœci³ sw¹ broñ i uciek³. 
+
+Nysrogh siêgn¹³ po maczugê czempiona, która mia³a byæ symbolem jego zwyciêstwa. Ale kiedy uzbrojona w pazury rêka demona dotknê³a powierzchni maczugi zosta³o uaktywione zaklêcie uwiêzienia, na które by³ zupe³nie nieprzygotowany. Podstêp Unileth powiód³ siê, a demon, którego nie móg³ zostaæ w ¿aden sposób skrzywdzony, zosta³ na zawsze uwiêziony we wnêtrzu maczugi. 
+
+Zaklêcia zawarte w Pierœcieniu odpornoœci na ogieñ sprawiaj¹, ¿e ³atwiej kontrolowaæ demona, uwiêzionego w tej broni - choæ furia potwora wci¹¿ mo¿e byæ od czasu do czasu wyzwalana w postaci wybuchu.
+
+PARAMETRY:
+
+Specjalne:
+ Przy ka¿dym udanym ataku istnieje 30% szans, ¿e ofiara otrzyma 15 dodatkowych punktów obra¿eñ od ognia
+ Przy ka¿dym udanym ataku istnieje 5% szans na wystrzelenie ognistej kuli
+
+TraK0: +5
+Obra¿enia: 1k6 +5, +5 obra¿eñ od ognia
+Typ obra¿eñ: obuchowe
+Waga: 1
+OpóŸnienie: 4
+Rodzaj bieg³oœci: maczuga
+Typ: 1-rêczna
+Wymagana si³a: 5
+~
+@79   = ~Gwiazda Burzy +5
+
+Ta magiczna broñ pochodzi z pradawnych czasów. Podobno wyprodukowano j¹ w Netheril. Chocia¿ maczugi takie jak ta znajdowane s¹ zwykle na pó³nocy, istniej¹ pog³oski, ¿e Gwiazda Burzy pochodzi z po³udniowej czêœci Krain.
+
+Teraz niezwyk³e w³aœciwoœci tej groŸnej broni zosta³y jeszcze zwielokrotnione, przez dodanie do niej Rudy z Gwiezdnego Kamienia. Ten dziwny materia³ pochodzi z rdzenia meteorytu, który spad³ z nieba. Ci¹gliwa ruda jest zaskakuj¹co silna i promieniuje wewnêtrznym ciep³em. Ka¿dy przedmiot wykuty z tej obcej substancji bez w¹tpienia bêdzie posiada³ nieziemskie w³aœciwoœci.
+
+Wbrew swej wielkoœci, Gwiazda Burzy jest zaskakuj¹co lekka, dziêki czemu ³atwiej jest siê ni¹ pos³ugiwaæ w walce. Kiedy ktoœ weŸmie tê maczugê do rêki, zaczynaj¹ po niej przebiegaæ widowiskowe, choæ niegroŸne, wy³adowania elektryczne.
+
+
+PARAMETRY:
+
+Specjalne:
+ +20% odpornoœci na elektrycznoœæ
+ Przy ka¿dym udanym ataku 20% szans na rzucenie Wy³adowañ ³añcuchowych
+
+TraK0: +5
+Obra¿enia: 1k6 +6, +1k6 obra¿eñ od elektrycznoœci
+Typ obra¿eñ: obuchowe
+Waga: 4
+OpóŸnienie: 2
+Rodzaj bieg³oœci: maczuga
+Typ: 1-rêczna
+Wymagana si³a: 10
+~
+@80   = ~Tarcza z Mrocznej Stali +4
+
+Krasnoludzki klan Clangeddin s³ynn¹³ ze swych wyrobów z mrocznej stali, materia³u, którego nie mo¿na spotkaæ w innym miejscu ni¿ okolicach siedziby klanu Clangeddin w krêgu Maszeruj¹cych Gór. Aby znaleŸæ jak najwiêcej mrocznej stali, Clangeddinowie dokopali siê prawie do wnêtrza ziemi. 
+
+Na jednej z takich wypraw zaginê³o siedmiu synów Argelda Ciê¿korêkiego, przywódcy Clangeddinów. Jedynym ocala³ym z tej chorej ekspedycji by³ Glimred Ciê¿korêki, najm³odszy syn Argelda. Ch³opiec wróci³, przynosz¹c ze sob¹ opowieœci o drowach, illithidach oraz innych mrocznych, bezimiennych stworów, których œwiat jeszcze nie widzia³. 
+
+Argeld chcia³ pomœciæ œmieræ synów, ale nie móg³ wys³aæ w g³¹b gór wiêcej swych ludzi by zmierzyæ siê z takimi kreaturami. Dlatego te¿ Glimred zdecydowa³ siê udaæ tam samemu. By pomóc mu w jego zemœcie, krasnoludzcy kowale stworzyli Tarczê z Mrocznej Stali, silnie umagicznion¹ tarczê zapewniaj¹c¹ lepsz¹ ochronê swemu posiadaczowi. 
+
+Ale Glimred by³ niecierpliwy, jego ¿¹dza zemsty by³a nie do zniesienia, tak wiêc uda³ siê w czeluœci Maszeruj¹cych Gór zanim prace nad tarcz¹ dobieg³y koñca i nikt go ju¿ potem nie widzia³. Znikniêcie i przypuszczalna œmieræ jedynego ocala³ego syna by³a zbyt du¿ym ciê¿arem dla Argelda, który umar³ z ¿alu i smutku. 
+
+Wraz ze œmierci¹ swego przywódcy i znikniêciem Glimreda, krasnoludowie wiedzieli, ¿e to tylko kwestia czasu nim ich klan zostanie najechany przez wrogów z Podmroku. Wtedy postanowiono sprzedaæ tarczê temu, kto zaoferuje najwy¿sz¹ cenê - jednak krasnoludzcy kowale nie chcieli wyjawiæ to¿samoœci nabywcy, klan zaœ rozproszy³ siê po Faerunie.
+
+PARAMETRY:
+ Zwiêksza o +10% odpornoœæ na ogieñ, zimno, kwas i truciznê
+
+Klasa Pancerza: +5
+Waga: 8
+Wymagana si³a: 15
+~
+@99   = ~Œwiêty Mœciciel: Karsomir +6
+Karsomir jest legendarn¹ broni¹, byæ mo¿e jedn¹ z najpotê¿niejszych jakie kiedykolwiek powsta³y w Faerunie, choæ jego historia i pochodzenie zosta³y celowo zapomniane, by miecz nigdy nie przyæmi³ teraŸniejszych zmagañ. Jest wype³niony czyst¹ esencj¹ cnoty, i tyle¿ jej wymaga od w³adaj¹cego nim paladyna. Gdy pojawia siê ta broñ, z³o Faerunu musi ust¹piæ, jego magia rozwiewana za pomoc¹ jednego s³owa i odpierana z ³atwoœci¹. Karsomir pa³a wielka nienawiœci¹ do si³ z³a i chaosu, wiêc takie istoty musz¹ obawiaæ siê dodatkowych obra¿eñ, gdy zostan¹ przez niego trafione w walce.
+
+Nawet Œwiêty Relikt tak potê¿ny jak Karsomir nabywa jeszcze wiêkszej mocy, jeœli po³¹czy siê go z Okiem Tyra.
+
+PARAMETRY:
+
+Specjalne:
+ Zapewnia 50% odpornoœci na magiê
+ 3 razy dziennie mo¿na rzucaæ Rozproszenie magii
+ Oprócz innych premii zadaje te¿ dodatkowe +6 obra¿eñ z³ym chaotycznym wrogom
+ Kiedy miecz uderzy ofiarê, powoduje rozproszenie magii
+
+TraK0: +6
+Obra¿enia: 1k12 +6
+Typ obra¿eñ: sieczne
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: miecz oburêczny
+Typ: 2-rêczna
+Wymagana si³a: 14
+~
+@100  = ~Ten cep bojowy przez jakiœ czas by³ w³asnoœci¹ Lorda d'Arnise'a, jako pami¹tka jego pe³nej przygód m³odoœci. Trzymano go roz³o¿onego, pojedyncze czêœci przechowywano w osobnych miejscach, a u¿ywano tylko w najwiêkszej potrzebie. Lorda d'Arnise'a niepokoi³a potê¿na magia, która emanowa³a ze z³o¿onej broni, i s³usznie. Szlak zniszczenia ci¹gnie siê za t¹ broni¹ poprzez historiê, prowadz¹c wprost do pierwszych w³aœcicieli. Cep zosta³ stworzony przez wojowniczych Rakshasa, rasê mœciwych duchów ¿ywi¹cych siê ludzkim miêsem, u¿ywano go jako broni do ka¿dego rodzaju potyczki. Cep zosta³ zgubiony podczas szczególnie gwa³townego polowania, ale zosta³ odnaleziony dziêki ich zdolnoœci do wyczuwania magii. Odkryli, ¿e broñ dosta³a siê w rêce wielkiego ludzkiego wojownika, wiêc stoczyli z nim wielk¹ i wspania³¹ bitwê. Od tej pory Rakshasa u¿ywali cepu jako przynêty, "gubi¹c" go raz po raz. Potê¿ne przedmioty przyci¹gaj¹ potê¿nych ludzi, a potê¿ni ludzie staczaj¹ najwspanialsze bitwy.
+
+Teraz, po dodaniu pi¹tej i zarazem ostatniej kuli, wyzwolony zosta³ prawdziwy potencja³ Cepu Bojowego Wieków, broni stworzonej przez z³¹ rasê Rakshasa.
+
+PARAMETRY:
+
+Specjalne:
+ Swoboda dzia³ania
+ Dodatkowe 5% do odpornoœci na magiê
+ Przy ka¿dym udanym ataku 33% szans na spowolnienie ofiary (bez mo¿liwoœci wykonania przez ni¹ rzutu obronnego)
+
+TraK0: +5
+Obra¿enia: 1k6 +6, +2 obra¿eñ od kwasu, +2 obra¿eñ od zimna, +2 obra¿eñ od ognia, +2 obra¿eñ od trucizny, +2 obra¿eñ od elektrycznoœci
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 2
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ: 1-rêczna
+Wymagana si³a: 13
+~
+@101  = ~Ten cep bojowy przez jakiœ czas by³ w³asnoœci¹ Lorda d'Arnise'a, jako pami¹tka jego pe³nej przygód m³odoœci. Trzymano go roz³o¿onego, pojedyncze czêœci przechowywano w osobnych miejscach, a u¿ywano tylko w najwiêkszej potrzebie. Lorda d'Arnise'a niepokoi³a potê¿na magia, która emanowa³a ze z³o¿onej broni, i s³usznie. Szlak zniszczenia ci¹gnie siê za t¹ broni¹ poprzez historiê, prowadz¹c wprost do pierwszych w³aœcicieli. Cep zosta³ stworzony przez wojowniczych Rakshasa, rasê mœciwych duchów ¿ywi¹cych siê ludzkim miêsem, u¿ywano go jako broni do ka¿dego rodzaju potyczki. Cep zosta³ zgubiony podczas szczególnie gwa³townego polowania, ale zosta³ odnaleziony dziêki ich zdolnoœci do wyczuwania magii. Odkryli, ¿e broñ dosta³a siê w rêce wielkiego ludzkiego wojownika, wiêc stoczyli z nim wielk¹ i wspania³¹ bitwê. Od tej pory Rakshasa u¿ywali cepu jako przynêty, "gubi¹c" go raz po raz. Potê¿ne przedmioty przyci¹gaj¹ potê¿nych ludzi, a potê¿ni ludzie staczaj¹ najwspanialsze bitwy.
+
+Ten cep bojowy, wyposa¿ony w cztery kule, powoduje obra¿enia od ognia, zimna, kwasu i trucizny. Gdyby uda³o siê znaleŸæ pi¹t¹ kulê do Cepu Bojowego Wieków, ta niezwykle groŸna broñ sta³aby siê jeszcze bardziej potê¿na.
+
+PARAMETRY:
+
+Specjalne:
+ Przy ka¿dym udanym ataku 33% szans na spowolnienie ofiary (bez mo¿liwoœci wykonania przez ni¹ rzutu obronnego)
+
+TraK0: +4
+Obra¿enia: 1k6 +5, +1 obra¿eñ od ognia, +1 obra¿eñ od zimna, +1 obra¿eñ od kwasu, +1 obra¿eñ od trucizny
+Typ obra¿eñ: obuchowe
+Waga: 9
+OpóŸnienie: 3
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ: 1-rêczna
+Wymagana si³a: 13
+~
+@102  = ~Ten cep bojowy przez jakiœ czas by³ w³asnoœci¹ Lorda d'Arnise'a, jako pami¹tka jego pe³nej przygód m³odoœci. Trzymano go roz³o¿onego, pojedyncze czêœci przechowywano w osobnych miejscach, a u¿ywano tylko w najwiêkszej potrzebie. Lorda d'Arnise'a niepokoi³a potê¿na magia, która emanowa³a ze z³o¿onej broni, i s³usznie. Szlak zniszczenia ci¹gnie siê za t¹ broni¹ poprzez historiê, prowadz¹c wprost do pierwszych w³aœcicieli. Cep zosta³ stworzony przez wojowniczych Rakshasa, rasê mœciwych duchów ¿ywi¹cych siê ludzkim miêsem, u¿ywano go jako broni do ka¿dego rodzaju potyczki. Cep zosta³ zgubiony podczas szczególnie gwa³townego polowania, ale zosta³ odnaleziony dziêki ich zdolnoœci do wyczuwania magii. Odkryli, ¿e broñ dosta³a siê w rêce wielkiego ludzkiego wojownika, wiêc stoczyli z nim wielk¹ i wspania³¹ bitwê. Od tej pory Rakshasa u¿ywali cepu jako przynêty, "gubi¹c" go raz po raz. Potê¿ne przedmioty przyci¹gaj¹ potê¿nych ludzi, a potê¿ni ludzie staczaj¹ najwspanialsze bitwy.
+
+Ten cep bojowy, wyposa¿ony w cztery kule, powoduje obra¿enia od ognia, zimna, kwasu i od elektrycznoœci. Gdyby uda³o siê znaleŸæ pi¹t¹ kulê do Cepu Bojowego Wieków, ta niezwykle groŸna broñ sta³aby siê jeszcze bardziej potê¿na.
+
+PARAMETRY:
+
+Specjalne:
+ Przy ka¿dym udanym ataku 33% szans na spowolnienie ofiary (bez mo¿liwoœci wykonania przez ni¹ rzutu obronnego)
+
+TraK0: +4
+Obra¿enia: 1k6 +5, +1 obra¿eñ od ognia, +1 obra¿eñ od zimna, +1 obra¿eñ od kwasu, +1 obra¿eñ od elektrycznoœci
+Typ obra¿eñ: obuchowe
+Waga: 9
+OpóŸnienie: 3
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ: 1-rêczna
+Wymagana si³a: 13
+~
+@1005 = ~Wygl¹d tego krótkiego ostrza wyraŸnie œwiadczy, ¿e pochodzi ono z Kara-Tur, nie jest to jednak najlepiej wykonane. Broñ ta zosta³a Ÿle wywa¿ona, rêkojeœæ jest luŸna, ostrze dawno zosta³o stêpione. Widoczne s¹ na nim œlady ozdobnej orientalnej inskrypcji.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 -1
+TraK0: -1
+Rodzaj obra¿eñ: k³ute
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+Wymagana si³a: 5
+~

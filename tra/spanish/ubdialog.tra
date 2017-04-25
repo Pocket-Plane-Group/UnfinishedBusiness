@@ -1,0 +1,759 @@
+@1   = ~No podía soportar el veros partir. Fuisteis muy divertido, pero el juego se ha terminado. Una vez más, ¡qué nuestros caminos se junten en sangre!.~ [J#Bodhi] ~No podía soportar el veros partir. Fuisteis muy divertida, pero el juego se ha terminado. Una vez más, ¡qué nuestros caminos se junten en sangre!.~ [J#Bodhi] 
+
+@2   = ~Nos vemos otra vez, Hijo de Bhaal. Arrastráis vuestros pies. ¿Tal vez pueda hacer que os apuréis?.~ ~Nos vemos otra vez, Hija de Bhaal. Arrastráis vuestros pies. ¿Tal vez pueda hacer que os apuréis?.~
+
+@3   = ~Bien hecho, Hijo de Bhaal. ¡Corred más rápido! ¡Tal vez os escapéis dentro de poco!.~ ~Bien hecho, Hija de Bhaal. ¡Corred más rápido! ¡Tal vez os escapéis dentro de poco!.~ 
+
+@4   = ~¡Por el culo de Abbathor! ¿Quién coño sois?.~
+
+@5   = ~Debéis ser Gorje. Vine aquí a pedido de vuestro hermano.~ 
+
+@6   = ~Esto no os importa. ¡Moveos!.~
+
+@7   = ~Lo soy <GABBER>. ¿Quién sois vos?.~
+
+@8   = ~¡Este sucio idiota! ¿Os envió a que me rescatarais? ¡Imbécil como él! No podía coger un hacha y hacer el trabajo sucio por el mismo, tuvo que enviar a los de la superficie.~ 
+
+@9   = ~No. Estoy buscando ilitio.~
+
+@10  = ~Uh... sí.~ 
+
+@11  = ~¿¡Creéis eso!? ¡Mirad, pila de mierda, esto es mío! ¡Ya podéis iros yendo a que os coma la bestia de abajo!.~
+
+@12  = ~¿La bestia?.~
+
+@13  = ~Vale. Me voy.~ 
+
+@14  = ~¡Buena suerte, basura! Id a buscar algún lugar donde esconderos. ¡Vuestro hedor me pone malo!.~
+
+@15  = ~Gorje Colinaoscura es el nombre. Soy dueño de este lugar junto con el basura de mi hermano, Unger.~ 
+
+@16  = ~¿Así que todos estos esqueletos son vuestros sirvientes?.~
+
+@17  = ~Un placer conoceros. Me voy.~
+
+@18  = ~¿Por qué estáis aquí?.~
+
+@19  = ~¿¿¿¡
+Ilitio!!!??! ¿¿¿Os dijo??? ¡Ese imbécil! ¡Ese gusano! ¡Ese idiota! ¿Dónde está? ¡¡¡Le arrancaré la cabeza y la usaré de maceta!!! (No me rescata, pero le dice a un montón de idiotas de la superficie donde encontrarme...).~ 
+
+@20  = ~Así que el ilitio está aquí. Relajaos, sólo quiero un poquito y me iré.~
+
+@21  = ~Vuestro hermano está en la Corona de Cobre llorando por su caverna llena de riquezas perdidas. ¿Cómo es que vos seguís aquí?.~ 
+
+@22  = ~A menos que seáis ciego como una rata y duro como el granito, habréis notado que estas cavernas tienen un problemita con algunas bestias. Algo muy grande ha hecho su casa debajo de nosotros y ha tomado el control de la mina.  He estado intentando buscar una salida. ¿Está el camino libre detrás de vos? ¿Hay alguna salida segura?.~ 
+
+@23  = ~¿Qué es esa cosa enorme de la que habláis?.~
+
+@24  = ~Lo siento. Por poco me escapé de las bestias. A menos que queráis luchar para salir, os quedaréis aquí.~ 
+
+@25  = ~El camino es seguro. Podéis escapar.~
+
+@26  = ~No parecía que fuera del tipo conversador. Hizo su camino quemando la tierra misma y ahora ha hecho su hogar debajo de nosotros. Le dejo estar. Ahora decidme, ¿hay alguna forma segura de salir de aquí?.~
+
+@27  = ~¿Esta situación os parece graciosa, eh? Gorje, abandonado por la pila de mierda drow que es su hermano. Me cago de risa, imbécil. Mis "sirvientes" son la razón del por qué la cueva en la que estamos ya no tiene valor. Nuestras rutas están cerradas a menos que encontremos la salida.~
+
+@28  = ~Unger es más idiota aún al creer que alguien de la superficie podría salvarme. Si no queréis ayudar me arriesgaré solo. ¡Mejor que quedarme oliendo vuestra peste!.~
+
+@29  = ~¿¡En serio!? ¿¡Joder, el idiota de mi hermano hizo algo bien al fin!? En ese caso me voy a buscarlo. Y recomiendo que vos también os vayáis antes de que la bestia de abajo os encuentre y os coma.~
+
+@30  = ~Gana los servicios de Sir Sarles para el templo.
+
+
+
+He encontrado al hermano perdido de Unger, Gorje. Espero que le sea fiel a su promesa y que podamos encontrar el ilitio.~
+
+@31  = ~Entonces habéis tardado demasiado. El último cargamento de ilitio ya se ha ido. Lo que los ladrones no se robaron de aquí, se lo envié al imbécil de mi hermano. Si queréis haceros un tour, pero he revisado yo todos los rincones. ¡Buena Suerte! Me voy a buscar a mi hermano. Os aconsejo que también os vayáis a menos que queráis encontraros con la bestia de abajo.~
+
+@32  = ~No me molestéis, pequeñajo. Ando de mala hostia.~ ~No me molestéis, pequeñaja. Ando de mala hostia.~
+
+@33  = ~¿Qué miráis? No es ilegal ser un enano. Quitadme vuestros ojos de encima y guardáoslos.~
+
+@34  = ~¿Ahh, pero vos no sois un enano ordinario eh? Ni por asomo.~
+
+@35  = ~No hace falta ser hostil. Jerlia me ha enviado. Quiero hablar sobre el ilitio.~
+
+@36  = ~Lamento molestarle, aunque parece que ya estaba molesto antes.~
+
+@37  = ~No me gusta vuestro tono, chico. ¡Si tenéis algo que decir es mejor que lo digáis antes de que os meta la mirada por los dientes!.~ ~No me gusta vuestro tono, chica. ¡Si tenéis algo que decir es mejor que lo digáis antes de que os meta la mirada por los dientes!.~
+
+@38  = ~Ya me escuchasteis, duergar. Deberíais escuchar cuando os hablo. Quiero ilitio.~
+
+@39  = ~No hace falta que os pongáis así. Jerlia me envió. Necesito ilitio.~
+
+@40  = ~Lo siento muchísimo. Ya me voy.~
+
+@41  = ~Moveos, pariente. No tengo nada que deciros.~
+
+@42  = ~Y sé por qué. Sois tan pariente mío como un drow.~
+
+@43  = ~Lamento haberle molestado, le dejaré solo.~
+
+@44  = ~Vuestras palabras son nada. Guardáoslas. No me quitaréis información.~
+
+@45  = ~¿En serio? ¿¿En serio?? ¡Mierda! Creo que tendré que hablar con esa chica. Seguro que le pagasteis bien por esta información.~
+
+@46  = ~¿Así que ilitio eh? ¡No tengo y no tendré, así que podéis dejarme en paz!.~
+
+@47  = ~Por favor. Es por la gloria de Lathander.~
+
+@48  = ~Hablo por la gloria de Helm. Por favor reconsiderad.~
+
+@49  = ~Sirvo a Talos, reconsiderad antes de que nos castigue a los dos al final.~
+
+@50  = ~Esperad. Esto puede daros un buen negocio. ¿Lo reconsideraréis?.~
+
+@51  = ~¡Creo que os quedaréis y hablaréis, duergar! No querréis que os grite.~
+
+@52  = ~No importa imbécil. NO TENGO ilitio. Nada. Así de simple, mi fuente está inaccesible, y si no puedo tenerlo para mí, no puedo para vos tampoco. Cabreaos si queréis pero no solucionaréis nada.~
+
+@53  = ~Parece que esto no ha sido planeado. ¿Cuál es el problema?.~
+
+@54  = ~¿Así que no podéis manejar vuestro propio negocio eh? Creo que no sois de confiar.~
+
+@55  = ~¿Entonces que podría ayudar? Esto es importante.~
+
+@56  = ~Oooh, dioses de la superficie. Poco me importan. Me da igual si es por la gloria de la silla donde estoy sentado. Podría pasarme horas maldiciendo a vuestros dioses, pero no tiene sentido.~
+
+@57  = ~Conozco a Talos. Debo decir que para un dios de la superficie, tiene ideas interesantes. No me importa en el fondo, pero es interesante.~
+
+@58  = ~¿Planeáis gritarle a todo el mundo que soy un duergar para que cambie mi tono? ¿Planeáis contratar un pregonero para que lo haga por vos?  No os hará nada bien. Nadie de aquí hará nada contra mí, y no saldré a la luz. No, no os hará nada bien, sólo ejercicio a vuestra voz.~
+
+@59  = ~¿Oh, así que ahora queréis ser mi amigo? ¿Por qué sois tan bueno? ¿Habéis encontrado un lugar para uno de los míos en vuestro corazón? ¿Por qué me gasto en escucharos?.~ ~¿Oh, así que ahora queréis ser mi amiga? ¿Por qué sois tan buena? ¿Habéis encontrado un lugar para uno de los míos en vuestro corazón? ¿Por qué me gasto en escucharos?.~
+
+@60  = ~No tengo interés en lastimar a un simple mercader. ¿Dónde más podéis conseguir ayuda?.~
+
+@61  = ~No podéis solucionar vuestro problema, sino tendríais ilitio. ¿Qué más podéis hacer?.~
+
+@62  = ~Puede ser verdad, pero no puedo hacer nada. No puedo daros lo que queréis y no puedo cambiarlo. Tampoco tengo ninguna razón para creer que me ayudaréis.~
+
+@63  = ~La adulación no os llevará a ningún sitio, simio. No tenéis ilitio, y no tengo ilitio. Mejor será que me ayudéis, pero claro, no tengo razón para creer que lo haréis.~
+
+@64  = ~¿Decidme por qué debería confiaros mis problemas?.~
+
+@65  = ~En ningún sitio. Este lugar es malo incluso para los enanos de monte y montaña. Vale, queréis compartir mis problemas, os los dejo.~
+
+@66  = ~Nada. Es muy difícil el comercio incluso para enanos de montaña y monte. Vale, queréis compartir mis problemas, os los dejo.~
+
+@67  = ~¿Queréis ilitio? Podéis esperar por él. Lo minamos desde las profundidades de la tierra, y es peligroso ir. Es muy raro incluso cuando la producción es normal.~
+
+@68  = ~Esta información es inútil, sin embargo, ¡porque mi último encargo aún no ha llegado! El imbécil de mi hermano, estaba controlando el último envío de la temporada, pero no he oído de él en semanas. ¡Mejor que el imbécil esté muerto o le mataré yo mismo!.~
+
+@69  = ~Tal vez pueda ayudarnos a los dos entonces. Si encuentro a vuestro hermano perdido, ¿me daréis el ilitio que necesito?.~
+
+@70  = ~¡Bah! Me importáis una mierda vos y vuestro hermano. Buscaré otra forma de obtener lo que necesito.~
+
+@71  = ~¿Dónde encontraré a vuestro hermano?.~
+
+@72  = ~Si queréis ir a buscarle es cosa vuestra. Está perdido para mí. Yo muestro mi cara y me llevan los guardias por ser duergar.~
+
+@73  = ~Hola, imbécil. Fuera de mi camino, ¿vale? Será lo mejor para los dos.~
+
+@74  = ~Me dijeron que hablara con vos, duergar.~
+
+@75  = ~Típico de esta ciudad. Soy sólo un pobre mercader, pero seré encarcelado por mostrar mi cara. El joputa que me robó parecía un enano de las colinas, así que será bienvenido con las manos abiertas.~
+
+@76  = ~No sabéis que amigo que es. Luego de contratarle me enteré de lo que hizo. Me supongo que fue por eso que me engañó y se fue. Jodido ladrón...~
+
+@77  = ~No os preocupéis. Sólo decidme la dirección que debo tomar.~
+
+@78  = ~Seguro que es horrible. ¿Ahora, dónde está?.~
+
+@79  = ~Sí, sí, la vida es injusta. Me haré cargo de él.~
+
+@80  = ~Juzgo las acciones. Os veis bastante inofensivo.~
+
+@81  = ~Sí, bueno, podéis ir por él si queréis. Lo último que sé es que estaba encarcelado en el distrito del Puente. Vaya casa se compró con mi oro...  Mirad, os lo marco en el mapa, ahí.~
+
+@82  = ~No se moverá demasiado. Estaba escapando de la Puerta de Baldur cuando le vi. Oh, supongo que también querréis su nombre.~
+
+@83  = ~Era Neb. Dejó a algunas familias llorando, o eso escuché. Decidle a su cadáver que os envió Unger Colinaoscura.~
+
+@84  = ~Esperad, ¿vos sois el que preguntaba por Neb, no? Buen trabajo, tomando mi ilitio y dejándolo ir.~ ~Esperad, ¿vos sois la que preguntaba por Neb, no? Buen trabajo, tomando mi ilitio y dejándolo ir.~
+
+@85  = ~Supongo que no sabíais que había matado niños en Esmeltaran. Se mueve rápido. Buen trabajo, héroe. Cogéis el metal pero dejáis escapar a un asesino. Brillante.~ ~Supongo que no sabíais que había matado niños en Esmeltaran. Se mueve rápido. Buen trabajo, heroína. Cogéis el metal pero dejáis escapar a un asesino. Brillante.~
+
+@86  = ~Si queréis jugaros el cuero por el inútil de mi hermano, vale. Estará por ahí debajo de un templo muy lejos al este. El imbécil habrá cavado todo ese lugar con su propia cabeza dura. Encontrad al bastardo y os daré el ilitio. Ahí os lo marco en el mapa.~
+
+@87  = ~Vale. Haré lo que pueda para ayudarnos a los dos.~
+
+@88  = ~Gana los servicios de Sir Sarles para el templo.
+
+
+
+Unger Colinaoscura me dijo que el último embarque de ilitio no ha llegado. Tenía que ser entregado por su hermano, Gorje, pero ha estado perdido durante semanas. Iré a buscar a Gorje en un templo arruinado de un dios muerto, y si tengo éxito, Unger me dará ilitio.~
+
+@89  = ~Pensándolo dos veces, tengo mejores cosas que hacer que buscar enanos perdidos. Me voy.~
+
+@90  = ~Me vale, imbécil.~
+
+@91  = ~Así que ahí está. Mi dulce, lerdo hermano regresa.~
+
+@92  = ~Sí, y no con vuestra ayuda, cobarde bolsa de mierda drow. ¡Tuvisteis que contratar a estos "aventureros" para sacarme de ahí, mientras vos bebíais cerveza y llorabais como una mujer!.~
+
+@93  = ~¡Bastardo malagradecido! ¡No les dije dónde estabais! ¡Debería haberos dejado ahí para que os pudrierais! ¿¡Dónde está el ilitio!?.~
+
+@94  = ~¿El ilitio?.~
+
+@95  = ~¡Sí, el ilitio, kóbold sin cerebro! ¡El ilitio!! ¿El último cargamento que prometisteis entregar? ¿¡Ese ilitio!?.~
+
+@96  = ~Oh... er... ilitio. Sí. Bueno, hermano, es así. No había más. Busqué en toda la mina y no había nada. Alguien ya había vaciado la mina. Pero al menos tenemos el último cargamento.~
+
+@97  = ~Lamento interrumpir esta reunión familiar, ¿pero qué pasa con el ilitio?.~
+
+@98  = ~¿Así que vos no lo tenéis, y vos tampoco? ¿Ahora de dónde lo saco?.~
+
+@99  = ~¿Así que hice todo lo que hice, arriesgué mi cuello, y no tenéis el ilitio?.~
+
+@100 = ~¿¡Nada de ilitio!? ¿¡Nada!? ¡Me vais a arruinar! ¡Necesitaba ese cargamento! ¡¡Hacéis que envíe a estos de la superficie, y ni siquiera habéis tenido la decencia de moriros antes de regresar sin ilitio!!.~
+
+@101 = ~¡Joder! No había nada para traeros. ¿Aún tenéis el cargamento, no? ¿El que envié hace unas semanas?.~
+
+@102 = ~Así que lo tenéis... ¿o no lo tenéis?.~
+
+@103 = ~¿Y dónde está? ¡Os dije que lo necesitaba!.~
+
+@104 = ~Ya os dije, no tengo ilitio ahora.  Este envío tenía que llenar mi stock.~
+
+@105 = ~¿Así que ya lograsteis venderlo todo?.~
+
+@106 = ~Er... no exactamente. Es que... se ha perdido. Err, robado.~
+
+@107 = ~¿¡¡ROBADO!!? ¡Y vos me gritáis porque no he encontrado más donde no había! ¡Vos, imbécil! ¡Idiota! ¿¡¡Teníais 100 kilos de ilitio que os ROBARON!!?.~
+
+@108 = ~¿Y mi gente considera a estos como amenaza? Ni siquiera pueden hacerse cargo del metal.~
+
+@109 = ~Dejaros de estupideces de duergar. ¡Necesito una cerveza!.~
+
+@110 = ~Ugh. ¡Nos recorrimos todo el templo por nada!. <CHARNAME>, esto es una pérdida de tiempo.~
+
+@111 = ~¿Robado? No me dijisteis que le había pasado eso al último cargamento.~
+
+@112 = ~Así que un hermano no encuentra nada y el otro pierde el resto. ¿Ahora qué hago?.~
+
+@113 = ~¡Estoy aquí porque mis minas están llenas de monstruos y mi hermano me ha dejado aquí a morir!.~
+
+@114 = ~¡Cuidado, duergar!.~
+
+@115 = ~No quería ofenderos, pedazo de marioneta drow.~
+
+@116 = ~No soy marioneta de nadie, pedazo de marioneta duergar.~
+
+@117 = ~Como ya os dije, drow, no quiero ofenderos.~
+
+@118 = ~¡No me culpéis por esto!  Yo os dije que no quedaba nada.  El que falte es la culpa del imbécil de mi hermano.~
+
+@119 = ~¿Cómo os lo robaron? ¿Os olvidasteis de pagarles a los Ladrones de las Sombras? ¿O lo dejasteis ahí todo a la vista?.~
+
+@120 = ~¡No, ese enano que contraté para ayudarme se lo llevó todo!.~
+
+@121 = ~¿¡ESE!?  ¡Yo os podría haber dicho eso! ¡Esperad, creo que tengo una revelación! Yo os dije que no era de fiar.  Pero vos dijisteis que nos convenía porque no cobraba mucho. ¡Vaya que cobró!.~
+
+@122 = ~No me lo creo. ¡Vuestra incompetencia es increíble!.~
+
+@123 = ~¡Callaos ya! Que si hubierais sido una mejor fuente... joder. No importa ya. Pues oíd vos, creo que igual puedo ayudaros a encontrar vuestro ilitio, si aún os interesa.~
+
+@124 = ~¡Luego de todo esto, sí!.~
+
+@125 = ~Estoy de acuerdo con vuestro hermano, sois un incompetente. Me voy a buscar otra fuente.~
+
+@126 = ~¡Nadie os invitó, así que cerrad esa mandíbula!.~
+
+@127 = ~No, no tengo nada ahora, estaba contando con este imbécil.~
+
+@128 = ~¿Y si os hubiera dicho, me hubierais ayudado? ¿No? Pues no lo creo.~
+
+@129 = ~Dejadme en paz.~
+
+@130 = ~Ay, <GIRLBOY>, así que nos vemos otra vez.~
+
+@131 = ~Con todos estos bichos, y sin señas de mi hermano, aún sigo aquí.~
+
+@132 = ~Pues, Unger está escondiéndose en la Corona de Cobre en Athkatla. Me dijo donde encontrarte a vos y a su ilitio perdido.~
+
+@133 = ~¿Por qué no os vais? El camino es seguro.~
+
+@134 = ~Creo que estáis atrapado. Casi ni llego hasta aquí.~
+
+@135 = ~¿¡Eso creéis!? ¡Pues ya podéis iros a ser la cena de los monstruos de debajo!.~
+
+@136 = ~Vale. Me voy.~
+
+@137 = ~¿¡Eso creéis!? ¡Pues ya podéis iros a ser la cena de los monstruos de debajo!.~
+
+@138 = ~Hablad con el imbécil de mi hermano. Yo ya no tengo nada más que deciros.~
+
+@139 = ~Gorje Colinaoscura es el nombre. Soy el dueño de esto, junto con mi hermano, Unger.~
+
+@140 = ~Muy bien. Me voy.~
+
+@141 = ~La espada de llama Perdición de la Araña, y está a manos de los trabajadores que limpian las cloacas. Debajo del distrito del Puente. Id.~
+
+@142 = ~Recuperar la Perdición de la Araña para Pai'Na.
+
+
+
+Pai'Na, una extraña druida apicultora que vive bajo el Distrito del Cementerio, me ha pedido que recupere una espada llamada la Perdición de la Araña. Cree que podrían tenerla los empleados de la ciudad que trabajan en las alcantarillas bajo el Distrito del Templo.~
+
+@143 = ~No regreséis sin la espada maldita conocida como la Perdición de la Araña. Buscad en las alcantarillas bajo el Distrito del Templo. Es una tarea sencilla.~
+
+@144 = ~¡Regresáis, y lo hacéis con la hoja que a tantos ha vencido! ¡Tenéis mi gratitud! Nunca volverá a molestar a la familia de las ocho patas.~
+
+@145 = ~Recuperar la Perdición de la Araña para Pai'Na.
+
+
+
+He devuelto a Pai'Na la espada conocida como la Perdición de la Araña. Sin embargo, espero que ella esté en lo cierto, y que la devolución de la espada sea beneficiosa para los habitantes de Athkatla.~
+
+@146 = ~Recuperar la Perdición de la Araña para Pai'Na.
+
+
+
+He encontrado a los trabajadores de las alcantarillas y recuperado la Perdición de la Araña. Debo encontrar de nuevo a Pai'Na, en su colmena bajo el Distrito del Cementerio.~
+
+@147 = ~Irenicus, esperad. Por favor, no hagáis daño a Valygar. No se da cuenta de la amenaza en la que <CHARNAME> se ha convertido.~
+
+@148 = ~Muy bien, señor. Haré lo que desea.~
+
+@149 = ~¿Puedo ayudarle en algo, señor?.~ ~¿Puedo ayudarle en algo, señora?.~
+
+@150 = ~¿Qué hace una mujer tan bonita en un sitio como éste? Quizá pueda invitarle a una copa.~
+
+@151 = ~Saludos, señora. ¿Qué le trae por la Corona de Cobre?.~
+
+@152 = ~Me dijeron que me podría ayudar. Busco a un hombre llamado Valygar Corthala. Su mayordomo me ha dicho que podríais conocer su paradero...~
+
+@153 = ~¿Qué sabe de un hombre llamado Valygar Corthala?.~
+
+@154 = ~No, gracias. Ya me voy.~
+
+@155 = ~¿Le envió Salvanas por aquí para seguir molestándome? Lo juro, todos los aventureros sois iguales. Idos antes de que sirva vuestra cabeza en la mesa tres.~
+
+@156 = ~Si os interesa saberlo, estoy esperando para reunirme con mi patrón.  Si no os importa, tengo mucho en lo que pensar, y me gustaría estar sola un rato.  Si buscáis divertimento, deberíais hablar con el tabernero.~
+
+@157 = ~Que así sea.~
+
+@158 = ~¿Vos otra vez? ¿Qué es lo que queréis?.~
+
+@159 = ~Me dijeron que podríais ayudarme. Busco a un hombre llamado Valygar Corthala. Su mayordomo me ha dicho que podríais conocer su paradero...~
+
+@160 = ~¿Va... Valygar? ¡Yo... Yo nunca he oído hablar de él!.~
+
+@161 = ~¿Estáis segura? Su mayordomo dijo que lo conocíais bien. Vuestra ayuda sería muy bienvenida.~
+
+@162 = ~¡Mentís! ¿Por qué negáis que conocíais a este hombre?.~
+
+@163 = ~Ya pensaba yo que no obtendría ninguna respuesta. ¡Qué tengáis un buen día!.~
+
+@164 = ~Muy bien.  Sí, sé algo de Valygar.  Éramos... amigos en los exploradores. No, no... éramos más que amigos. Lo amé más que nunca he amado a otro. Sólo oír su nombre me hiere el alma...~
+
+@165 = ~Quizá nos sea de provecho a los dos.  Es muy importante que lo encuentre. ¿Sabríais decirme adónde podría haber huido?.~
+
+@166 = ~Lo que decís me conmueve. ¿Dónde puedo encontrarlo?.~
+
+@167 = ~Su familia posee algunas tierras en las Colinas Umar, hacia el este. No lo sé seguro, pero creo que se escondería allí, en las tierras salvajes.~
+
+@168 = ~Si lo veis, por favor, decidle... No. Lo siento, no puedo seguir hablando de esto. Mi corazón me duele por mi amado Valygar. Por favor, sólo aseguraos de que está bien. Ahora me gustaría estar sola.~
+
+@169 = ~¿¡¡Valygar!!? ¿Valygar, de verdad sois vos?.~
+
+@170 = ~¡Suna Seni! ¡Oh, cómo he ansiado ver vuestro precioso rostro de nuevo! Os he echado tanto de menos desde que huí de la ciudad... Siento de veras tener que haberos dejado tan repentinamente, y sin ninguna explicación. Saber que podía haceros daño me atormentaba el alma.~
+
+@171 = ~Oh, Valygar, eso ya no me importa. Ahora entiendo... Hablé con Hervo después de varios días sin tener noticias vuestras. ¡Esos malditos Magos! Su brujería política es una plaga para esta ciudad. ¡Estoy tan contenta de ver que estáis bien!.~
+
+@172 = ~Sí, mi amor, estoy bien. <CHARNAME> me visitó y se ofreció para ayudarme a detener a Lavok.~
+
+@173 = ~¿Habéis... habéis dicho <CHARNAME>? Valygar, no debéis aliaros con una persona así, tan malvada... ¡un vástago de Bhaal! ¡No debéis hacer eso!.~
+
+@174 = ~Suna, he viajado lejos con <CHARNAME>, y, sabiendo que es un vástago de Bhaal, mi confianza nunca se debilitará.~
+
+@175 = ~¡No! Valygar, por favor os lo pido. ¡No sigáis en su compañía!.~
+
+@176 = ~¿Suna, qué os ocurre? Nunca creí que fuerais tan crítica con otra persona. ¿Por qué desconfiáis tanto de <CHARNAME>?.~
+
+@177 = ~Yo... Lo siento, pero no puedo hablar de eso. Debo irme. Quizá volvamos a vernos pronto, amor mío. Adiós...~
+
+@178 = ~¡Suna! ¡¡¡Suna, esperad!!!.~
+
+@179 = ~¡<CHARNAME>! ¡Esperad, por favor! Tengo que hablar con vos.~
+
+@180 = ~¿Suna Seni, qué estáis haciendo en este lugar maldito? ¿Por qué ayudáis a este mago?.~
+
+@181 = ~De eso es de lo que quería hablar con vos. Yo... Yo quiero disculparme por mis actos.~
+
+@182 = ~¿¿¿Disculparos???  Eso me intriga... continuad, por favor.~
+
+@183 = ~¡Disculparos... ja! Qué gracia me hace la idea.~
+
+@184 = ~Es cierto que he estado trabajando para Irenicus. Un día, no hace mucho, vino a buscarme un mensajero, diciéndome que un poderoso mago requería mis servicios. Había oído hablar de mi expediente militar, y creía que yo era la persona adecuada para el puesto.~
+
+@185 = ~Mi reunión con el mago fue ciertamente extraña. Me habló sin tapujos de los vástagos de Bhaal y del mal que los persigue. No fue hasta que nos encontramos en la Corona de Cobre que tuve noticia de que intentaba capturaros, <CHARNAME>. Debí haberme informado yo misma, en vez de aceptar su historia como cierta, pero me prometió 50.000 monedas de oro si tenía éxito, más dinero del que podía haber incluso soñado, así que acepté su oferta.~
+
+@186 = ~¿¿¿¡
+50.000!!!??? Me dijisteis que sólo os había ofrecido 5.000.~
+
+@187 = ~Os mentí, Valygar, porque sabía de vuestra desconfianza hacia los magos. Si os hubiese contado la verdad, habríais impedido que aceptase el trabajo. Entonces abandonasteis la ciudad, y yo me concentré en mi trabajo. Irenicus puede llegar a ser muy persuasivo...~
+
+@188 = ~Siento mucho haberos dejado, mi amor. Si lo hubiese sabido, yo mismo habría perseguido a ese mago. Parece que la maldición de mi familia es más fuerte de lo que yo pensaba.~
+
+@189 = ~Sois un guerrero poderoso, Valygar, pero este mago lo es más aún. Os habría derrotado sin despeinarse. Sólo ahora me he dado cuenta de sus planes, los planes de un maníaco.~
+
+@190 = ~Ha estado formalizando una alianza con los drow de Ust Natha. Planea una invasión de la superficie, una guerra entre elfos.~
+
+@191 = ~No volváis a hablar de eso, o me desharé de vos como me deshice de los Ladrones de las Sombras.~
+
+@192 = ~No lo entiendo, <CHARNAME>. Conozco a Suna Seni desde hace años, y nunca la he visto comportarse como ahora.  Ella no era así...~
+
+@193 = ~No os preocupéis, Valygar. Me he acostumbrado a la reacción de la gente cuando se entera de mi herencia. ¿Decidme, cómo conocisteis a Suna Seni?.~
+
+@194 = ~¿Qué sabéis de esta mujer? ¡Hablad, explorador!.~
+
+@195 = ~Nos conocimos hace muchos años, antes de convertirme en explorador en la milicia de Amn. Un día, yo volvía a Athkatla desde las Colinas de Umar. Ella estaba en una misión de exploración, y me confundió con un bandido.~
+
+@196 = ~Cuando se dio cuenta de que sólo era un viajero, empezamos a hablar y nos dimos cuenta de que teníamos muchas cosas en común. Hicimos juntos el resto del camino hasta Athkatla, y nos vimos a menudo en la ciudad.~
+
+@197 = ~Un día, la contrató un mago poderoso, aunque yo no sabía su nombre. De hecho, nunca supe ni su nombre ni por qué estaba interesado en Suna, porque tuve que huir de la ciudad.~
+
+@198 = ~Lo que sea... Tengo mejores cosas que hacer que escuchar patéticas historias de amor. Nos vamos.~
+
+@199 = ~Quizá volvamos a verla, y nos cuente por qué actúa así.~
+
+@200 = ~Quizá... Debemos movernos ya. Me temo que nuestro camino aún es largo.~
+
+@201 = ~Que así sea. No es bueno vivir del pasado. Abandonemos este lugar.~
+
+@202 = ~¡No! Suna Seni, este lugar ya no es seguro para vos. Irenicus os matará en cuanto descubra que lo habéis traicionado. Os pido por favor que regreséis a Athkatla. Allí estaréis más segura.~
+
+@203 = ~Cómo odio tener que volver a abandonar a mi amada. Rezo porque regrese a salvo a la ciudad, y porque Irenicus esté demasiado ocupado con sus planes como para vengarse de ella. ¡Vamos, busquemos al mago!.~
+
+@204 = ~¡Suna! ¡Vos, monstruo! ¿¡Cuál fue su crimen!?.~
+
+@205 = ~La ciudad élfica de Suldanesselar es su último objetivo. Quiere vengarse de los elfos de esa ciudad, aunque nunca me ha dicho por qué los odia tanto.~
+
+@206 = ~Vengo a ofreceros mi ayuda. ¡Debemos detener a Irenicus! Si vos queréis, ¡me gustaría unirme a vosotros y vengarme del hombre que no me ha contado más que mentiras!.~
+
+@207 = ~Muy bien, mi amor. Os esperaré en vuestra casa de los muelles. Pero, antes de irme, aún podría ayudaros a salir.~
+
+@208 = ~Los residentes de este lugar tienen mucho poder sin explotar. Liberadlos, y se os unirán en vuestra lucha contra Irenicus. También deberíais buscar a ese patán, Saemon Havarian. Acecha en algún lugar de estas estancias. Aún siendo despreciable como es, puede ayudaros a encontrar a Irenicus.~
+
+@209 = ~Valygar, tomad esta espada, mi posesión más preciosa. Usadla para derrotar a este demonio...~
+
+@210 = ~Debo irme antes de que se descubra mi traición. Valygar, cuidaos, y volved pronto a mis brazos.~
+
+@211 = ~La caza de Valygar Corthala.
+
+
+
+El dependiente Llarsh, mencionó que la familia Corthala posee terrenos en las Colinas de Umar.~
+
+@212 = ~Hmmm. Realmente me desconcierta. Su familia posee terrenos hacia el este, pero me temo que no sé dónde. Deberíais preguntar a Suna Seni, la exploradora que era su amiga cuando ambos eran guardabosques. Se deja caer por la Corona de Cobre con bastante frecuencia. ¿Os es esto útil?.~
+
+@213 = ~La caza de Valygar Corthala.
+
+
+
+Hervo mencionó que Valygar tenía muchos amigos en la milicia de Amn, ya que trabajó para ellos como explorador.  Recordaba uno en particular, una mujer llamada Suna Seni, a la que probablemente encontraremos en la Corona de Cobre.~
+
+@214 = ~Recuerdo, entre otros, una buena amiga suya, una exploradora llamada Suna Seni. Ella frecuenta la Corona de Cobre... Quizá deberíais hablar con ella. ¿Os es esto útil?.~
+
+@215 = ~Poco me importa vuestro amor por este hombre, Suna Seni. Ya ha afectado vuestro juicio una vez; no dejaré que ocurra de nuevo. El tomó su decisión, y ahora debe aceptar las consecuencias.~
+
+@216 = ~Ah, aquí estáis a pesar de todo. Creía que la muerte de este loco os importaría más que esto...~
+
+@217 = ~¿Importarme? ¡Ja! Sólo hicisteis el trabajo sucio por mí. Suna Seni me traicionó.~
+
+@218 = ~¿Suna Seni? ¿La habéis matado? ¿Por qué?.~
+
+@219 = ~Traicionó al Maestro. Se suponía que moriríais en el Asilo, pero ella os ayudó a escapar. Pero, mientras hablamos, nos estamos ocupando del asunto: la traidora ha muerto, y vos estáis a punto de seguir el mismo camino...~
+
+@220 = ~Vos otra vez... ¿Por qué me habéis invocado?.~
+
+@221 = ~Intentamos usar el último deseo para volveros a la vida, no-~
+
+@222 = ~¡Suficiente! ¡Ni en la muerte me dejáis en paz! ¡Os destruiré con mis poderes!.~
+
+@223 = ~¿Qué, mi magia se extingue? ¿Es éste otro de vuestros trucos? ¡No importa, os destruiré con mis manos desnudas!.~
+
+@224 = ~Ah, ya veo, los aventureros de la tienda. Saludos, mortales... No sois ni Kalah ni ese despreciable rakshasa, ya veo, así que interpretaré que al menos uno ha caído.~
+
+@225 = ~Sí, Kalah ha muerto, aunque el rakshasa huyó.~
+
+@226 = ~Silencio, esclavo. Estáis aquí para hacer lo que *yo* ordene. Ahora yo os comando...~
+
+@227 = ~Ah, entonces sólo queda por tratar el asunto del último deseo.~
+
+@228 = ~¿Un deseo? Creía que los genios debían conceder tres a cada uno de sus amos.~
+
+@229 = ~Kalah debe haber usado dos para él. ¿Qué fue lo que deseó?.~
+
+@230 = ~Hagámoslo entonces...~
+
+@231 = ~La palabra mágica que me invoca en la lámpara funciona sólo tres veces, después de las cuales vuelvo a estar atrapado y bajo las órdenes del rakshasa, y bajo una nueva palabra de su elección.~
+
+@232 = ~Kalah formuló dos deseos, aunque parece que no le hicieron mucho bien. Una pena. Para ser un Primario, era interesante.~
+
+@233 = ~La sociedad hizo una excepción con los de su especie, causando su infelicidad y su muerte final. Pero estoy divagando. ¿Queréis saber qué fue lo que deseó...?.~
+
+@234 = ~Su primer deseo fue ser capaz de manipular el respeto de los demás, así que le concedí un anillo, el cual probablemente ya le hayáis hurtado.~
+
+@235 = ~Tenía el poder de influir en los demás pero no sabía cómo hacerlo. La gente le prestaba más atención, pero eso sólo servía para que rieran más fuerte cuando sus hechizos fallaban.~
+
+@236 = ~Así que formuló su segundo deseo ciego de rabia. Quería poderes mágicos como los de un poderoso mago ogro, y yo le concedí tanto los poderes como la apariencia física...~
+
+@237 = ~Pero eso tampoco sirvió, como habéis visto. La verdad sea dicha, esperaba otro tanto cuando os planteé el acertijo en la tienda. Lo que significa, mortales, que el último deseo es vuestro.~
+
+@238 = ~¿Cuál, entonces, será vuestro deseo?.~
+
+@239 = ~Kalah no merecía la muerte por sus errores. Mi deseo es que sea devuelto a la vida, para que aprenda de ellos.~
+
+@240 = ~Kalah no tenía que morir por sus crímenes. Mi deseo es que lo traigáis de vuelta de entre los muertos.~
+
+@241 = ~¿Decís que tenéis que seguir sirviendo a este rakshasa? Entonces mi deseo es vuestra libertad.~
+
+@242 = ~Deseo que encerréis el alma de Kalah... Para siempre.~
+
+@243 = ~Me gustaría que Imoen estuviera a mi lado...~
+
+@244 = ~Me gustaría que el mago Jon Irenicus estuviera muerto.~
+
+@245 = ~Puede que Jafir haya escapado de mí, pero me gustaría verlo muerto. Mi último deseo es que pongáis fin a su vida de una manera terrible.~
+
+@246 = ~¡Me gustaría que me hicierais dueño de la lámpara, así podría elegir una nueva palabra, y pedir más deseos!.~ ~¡Me gustaría que me hicierais dueña de la lámpara, así podría elegir una nueva palabra, y pedir más deseos!.~
+
+@247 = ~Elegiré algo para mí.~
+
+@248 = ~Vuestros deseos son órdenes para mí...~
+
+@249 = ~¡Esperad!.~
+
+@250 = ~Extraño, muy extraño. Mis poderes no parecen poder cumplir ese deseo.~
+
+@251 = ~Parece, mortal, que tendré que concederos otro deseo a cambio.~
+
+@252 = ~¡Ah, lo siento, mortal! Pedir más deseos está prohibido... Aunque sin embargo muchos lo han intentado.~
+
+@253 = ~Mi poder será usado para devolver a Kalah a la vida. ¡Adiós entonces, aventureros!.~
+
+@254 = ~Kalah resucitado.
+
+
+
+Descubrimos la palabra mágica de la lámpara del genio, y usamos el último deseo para devolver a la vida a Kalah.~
+
+@255 = ~¿Deseáis que Kalah sea traído de entre los muertos? Cuidado, un espíritu enfadado puede ser peligroso... No estoy seguro de que esto sea lo que queréis, pero es cómo lo decís, mortal, lo que es importante. ¡Adiós entonces, aventureros!.~
+
+@256 = ~¿Kalah muerto viviente?
+
+
+
+Descubrimos la palabra mágica de la lámpara del genio, y tratamos de devolverlo a la vida. No expresamos bien nuestro deseo, así que acabamos invocando su espíritu muerto viviente, que nos atacó.~
+
+@257 = ~¿Haríais esto por mí? Os doy las gracias, mortales... ¡Por fin podré regresar a mi hogar!.~
+
+@258 = ~Genio liberado.
+
+
+
+Descubrimos la palabra mágica de la lámpara del genio, para liberar al Genio de su encarcelamiento en la lámpara.~
+
+@259 = ~¡Un deseo escalofriante, mortales, pero está hecho! Ahora tengo que dejaros.~
+
+@260 = ~Maldición de Kalah.
+
+
+
+Descubrimos la palabra mágica de la lámpara del genio, y usamos el último deseo para maldecir el alma de Kalah para toda la eternidad. Nunca tendrá reposo.~
+
+@261 = ~No sois los únicos que disfrutaréis de este momento, mortales... Aunque yo permaneceré ligado a esta lámpara. De todas formas, el deseo se ha cumplido. ¡Adiós!.~
+
+@262 = ~Muerte de Jafir.
+
+
+
+Descubrimos la palabra mágica de la lámpara del genio, y usamos el deseo final para matar a Jafir de una forma muy poco agradable...~
+
+@263 = ~¡Escoged sabiamente, mortal! Y guardaos deseos poco sensatos dejan al lanzador queriendo...~
+
+@264 = ~Dejadme volver a pensármelo...~
+
+@265 = ~¡O-oíd! ¡Chicos! ¿Sois los aventureros que salvasteis al circo, no? ¡Esperad! ¡Tengo que hablar con vosotros!.~
+
+@266 = ~¿Qué es lo que queréis?.~
+
+@267 = ~Hablad, chaval, pero mejor será que me interese lo que tengáis que decir.~
+
+@268 = ~Un niño nunca me dará órdenes. ¡Idos!.~
+
+@269 = ~No tengo tiempo para esto, lo siento.~
+
+@270 = ~¡Seguro, allá vamos! Me encanta poder ayudar... ¡Espero que averigüéis lo que tramaba ese Jafir! Pobre Kalah, era tan agradable, sólo quería tener amigos...~
+
+@271 = ~¿Una lámpara mágica?
+
+
+
+Después de liberar la tienda del circo, se nos acercó una mujer llamada Myara. Nos entregó una lámpara que dijo que era mágica, la fuente del poder de Kalah. Kalah parece ser que la obtuvo de un mercader llamado Jafir que se hospedaba en la Grúa Retorcida.~
+
+@272 = ~¡Oíd! ¡Vosotros también sois unos villanos!.~
+
+@273 = ~Yo... Yo viajo con el circo.~
+
+@274 = ~Me llamo Myara. ¡Por favor, tengo algo que contaros, creo que es importante!.~
+
+@275 = ~¿Me reconoce, señorita Aerie?.~
+
+@276 = ~¡Ah, pues sí! <CHARNAME>, ésta es Myara. ¿Qué es lo que tenéis que decirnos?.~
+
+@277 = ~Mientras veníamos a Athkatla, descubrí a Kalah escabulléndose mientras montábamos el campamento. Yo, eh, no quería practicar mis coros, así que lo seguí.~
+
+@278 = ~¡Bah! Esa es la ética del trabajo de hoy.~
+
+@279 = ~¡Fue a la Grúa Retorcida, cerca de las puertas, y habló con un mercader llamado Jafir. Jafir le vendió una lámpara mágica, y le aseguró que con ella podría conseguir lo que quisiera!.~
+
+@280 = ~A-A mí no me gusta Jafir. Había algo en él que hacía que se me erizaran los cabellos del cuello...~
+
+@281 = ~¡Ooh, siento cómo se eriza la piel de Bubú con la sola mención del nombre de este Jafir! ¡<CHARNAME>, seguro que es un villano malvado, Bubú nunca se equivoca en estas cosas!~
+
+@282 = ~¡Y luego, bien, ya sabéis lo que pasó en el circo! ¡Gracias por salvarnos!.~
+
+@283 = ~De todas formas, tenía curiosidad, así que anoche fui y robé la lámpara de la tienda de Kalah. ¡Pero debe de estar rota o algo, no sé, porque no puedo hacer ninguna magia!.~
+
+@284 = ~¿Me dais la lámpara, Myara? Puede que vaya a hacer una visita a este Jafir...~
+
+@285 = ~Los niños imprudentes no deberían mezclarse en cosas que no entienden. ¡Traed aquí esa lámpara!.~
+
+@286 = ~Saludos. Soy Jafir, un sencillo mercader...~
+
+@287 = ~Siento que tenéis la lámpara, y que aún tiene deseos por conceder. Intrigante... ¡Así que ese loco Primario Kalah debe haber encontrado su fin, muajajajajaja!.~
+
+@288 = ~¿De qué habláis? ¿Sabíais que esto pasaría?.~
+
+@289 = ~Así que, gusanos, ¿tenéis más preguntas? Os revelaré, a su justo precio, la palabra mágica. Podría, por supuesto, mataros a todos, pero creo que prefiero ver el desastre que causará un deseo mal formulado en un lugar tan poblado...~
+
+@290 = ~¿Por qué lo hicisteis?.~
+
+@291 = ~Me enferma tratar con una criatura tan trastornada como vos, pero podría hacer muchas cosas con ese poder. ¿Cuánto pedís?.~
+
+@292 = ~Decid lo que queráis, demonio.~
+
+@293 = ~Creo que simplemente os mataré. No soy tan débil como os pensáis...~
+
+@294 = ~¡Gaah! ¡Primarios estúpidos! Muy bien, esta es la palabra mágica- Markesh, el verdadero nombre del genio atrapado en la lámpara. Ahora me iré... ¡Espero que vuestra estupidez os provoque una muerte dolorosa!.~
+
+@295 = ~¿No es eso obvio? Soy un rakshasa. Las pequeñas riñas de seres tan mezquinos como vosotros me divierten. Los errores que cometéis me recuerdan que mi superioridad es abrumadora.~
+
+@296 = ~Os ofrezco el mismo trato que ofrecí a Kalah, 500 piezas de oro. No es que necesite el dinero, pero gastarlo entorpecerá vuestros progresos, y eso será una satisfacción para mí.~
+
+@297 = ~Muy bien, pagaré.~
+
+@298 = ~No tengo tanto dinero.~
+
+@299 = ~Excelente. La palabra que hay que pronunciar es sencilla- Markesh, el nombre verdadero del genio que hay dentro. ¡Ahora me voy, Primario! Que vuestra insignificante existencia sea más dolorosa a causa de este encuentro...~ ~Excelente. La palabra que hay que pronunciar es sencilla- Markesh, el nombre verdadero del genio que hay dentro. ¡Ahora me voy, Primaria! Que vuestra insignificante existencia sea más dolorosa a causa de este encuentro...~
+
+@300 = ~¡Muy mal, mortal! Bien, entonces tendré que irme con la música a otra parte, y vos tendréis que conformaros. ¡Preparaos para una muerte dolorosa!.~
+
+@301 = ~¡Ah, un desafío! Muy bien, pondré todo mi empeño en hacer que esto sea lo más doloroso posible para vosotros...~
+
+@302 = ~No tiene sentido continuar esta treta, mortales. Le vendí la lámpara a Kalah sabiendo la destrucción que su mezquina mente causaría cuando tuviera acceso a estos poderes.~
+
+@303 = ~Y ahora me traéis la lámpara, ¿por qué? No sabéis cómo descubrir sus secretos. Hay una palabra mágica, Primario, y *esa* es la llave de la lámpara.~ ~Y ahora me traéis la lámpara, ¿por qué? No sabéis cómo descubrir sus secretos. Hay una palabra mágica, Primaria, y *esa* es la llave de la lámpara.~
+
+@304 = ~¡Y por si sois lo suficientemente estúpidos como para hacerme daño por esto, contemplad: mi forma verdadera!.~
+
+@305 = ~Yo... ¿Qué es esto? ¿Estoy vivo otra vez?.~
+
+@306 = ~Sí, Kalah. Usamos el último deseo para devolveros a la vida, con la esperanza de que fuerais una persona mejor.~
+
+@307 = ~Sólo quería que me respetaran. Yo... lo intenté de la manera equivocada. Ahora me doy cuenta. No sé cómo daros las gracias... He visto los errores de mis acciones.~
+
+@308 = ~Todo el mundo merece una segunda oportunidad, Kalah. Cuidaos.~
+
+@309 = ~Lo haré, lo haré... Me iré, empezaré de nuevo, en algún lugar en el que mi especie sea aceptada. Gracias, otra vez, por darme otra oportunidad.~
+
+@310 = ~¿Así que, encontrasteis al bastardo que robó mi ilitio?.~
+
+@311 = ~Sí, pero me temo que escapó de la ciudad.~
+
+@312 = ~Sí, pero no sobrevivió a nuestro encuentro.~
+
+@313 = ~Buen trabajo, coger el ilitio y dejarlo ir. Supongo que irá a Esmeltaran o por ahí y matará niños. Bien hecho, héroe. Es tiempo que mi hermano y yo nos vayamos de esta ciudad. Vamos, Gorje.~ ~Buen trabajo, coger el ilitio y dejarlo ir. Supongo que irá a Esmeltaran o por ahí y matará niños. Bien hecho, heroína. Es tiempo que mi hermano y yo nos vayamos de esta ciudad. Vamos, Gorje.~
+
+@314 = ~Bien hecho, inútil. Ahora idos. No tengo nada más para vos. Es tiempo que mi hermano y yo nos vayamos de esta ciudad. Vamos, Gorje.~
+
+@315 = ~Esta casa parece haber estado ocupada hace poco, pero no hay ni rastro de sus ocupantes.~
+
+@316 = ~Suna... no. ¡¡Suna!!.~
+
+@317 = ~Suna Seni fue una mujer valiente, Valygar, y comparto vuestro dolor. También vuestro deseo de venganza, así que encontremos al maldito que hizo esto.~
+
+@318 = ~Vaya, que lástima. Lamento ver tal fin para una mujer tan guapa. En fin, sigamos.~
+
+@319 = ~No lloremos por los muertos. Eso es parte de la vida, yo sé mucho sobre eso ya. Sigamos buscando a Irenicus.~
+
+@320 = ~De acuerdo. La muerte de Suna me pesa demasiado, pero no dejaré que Irenicus me gane por eso. ¡Pagará por sus crímenes!.~
+
+@321 = ~Vuestras palabras hacen poco por sanar mi corazón roto, <CHARNAME>, pero tenéis razón. Debemos seguir. Vámonos.~
+
+@322 = ~Escapando del Asilo
+
+
+
+Luego del laberinto me encontré otra vez con Suna Seni. Ella pidió perdón por sus acciones y reconoció al verdadero mal, Irenicus. Me dio un aviso: Necesitaré un ejército, los magos encerrados aquí. Claro que sería una locura liberarlos, pero puede que tenga razón. Suna Seni murió por darnos su ayuda, espero que no sea en vano.~
+
+@323 = ~Creo que no viviré lo suficiente como para ayudaros en la batalla contra Irenicus...~
+
+@324 = ~¿Qué queréis decir? ¿Qué ha pasado?.~
+
+@325 = ~Luego de aceptar el trabajar para Irenicus, me fui obligada a aceptar un trato. Me dijeron que sólo sería mortal si lo rompía, <CHARNAME>.~
+
+@326 = ~¡No! ¿Suna, por qué nos ayudáis ahora? ¡Acabáis de firmar vuestra sentencia de muerte!.~
+
+@327 = ~Lo sé, mi amor, pero tengo que estar segura de que ganaréis en vuestra batalla contra Irenicus, y creo que de todas formas, él me hubiera matado antes de que pudiera salir de esta isla.~
+
+@328 = ~El trato está roto. Abrazadme una última vez, mi amor...~
+
+@329 = ~¡<CHARNAME>, Irenicus debe ser detenido! Me vengaré. Suna Seni arriesgó su vida por salvarnos, y su muerte no debe ser en vano.~
+
+@330 = ~Vuestra vida se acabará pronto, Irenicus, por lo que habéis hecho a Suna Seni. ¡Me vengaré!.~
+
+@331 = ~ - dice que puedo...~
+
+@332 = ~Uh...~
+
+@333 = ~¿Q - Qué hago aquí? ¿Qué pasa?.~
+
+@334 = ~¿Imoen?.~
+
+@335 = ~¿C-cómo sabéis mi nombre? ¿Quién sois?.~
+
+@336 = ~¡Eso no os importa, chica, evidentemente el genio os ha vuelto loca!.~
+
+@337 = ~Soy <CHARNAME>, Imoen. Intenté usar la ayuda de un genio para que os trajera a mí. ¿De dónde sois?.~
+
+@338 = ~Tanner Row, cerca de aquí... Yo... ¿Puedo irme?.~
+
+@339 = ~¡Y a mí qué me importa lo que hagáis ahora! ¡Idos de aquí!.~
+
+@340 = ~Siento el haberos traído hasta aquí. ¿Podéis llegar a vuestra casa a salvo?.~
+
+@341 = ~Sí... estaré bien. ¡Por favor no lo hagáis otra vez! Mamá se preocupará mucho...~
+
+@342 = ~Ojalá mi amiga de la infancia Imoen estuviera aquí ahora...~
+
+@343 = ~¿Imoen, decís? Un nombre interesante... ¡Veamos a quién trae mi magia!.~
+
+@344 = ~Imoen. Bueno, *una* Imoen.
+
+
+
+Hemos encontrado un comando en la botella del Genio y hemos usado nuestro último deseo para traer a Imoen a nosotros. Aunque en lugar de traer a mi amiga, la botella a traído a una niña que por casualidad tenía su mismo nombre.~
+
+@345 = ~Necesito que lo encontréis y que lo traigáis aquí. Me desharé de él y restableceremos el balance de la ciudad. Si hay pocas arañas, entonces las alimañas saldrán también. Los exterminadores no se lo esperan.~
+
+@346 = ~No tengo amo, y a quién le debo no sabe de mis planes. No, esto no le beneficiará en lo más mínimo.~
+
+@350 = ~Genio liberado.
+
+
+
+Descubrimos la palabra mágica de la lámpara del genio.~

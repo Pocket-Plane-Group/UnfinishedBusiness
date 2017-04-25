@@ -1,0 +1,16 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Global("Attacked","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Attacked","LOCALS",1)
+		DisplayStringHead(Myself,"Ugh, is there no place to be alone in this city?")
+		ForceSpell(Myself,DRYAD_TELEPORT)
+END
+
+IF
+	Global("SunaTalkedToValygar","GLOABAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END

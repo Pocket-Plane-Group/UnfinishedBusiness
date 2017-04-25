@@ -1,0 +1,72 @@
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWSwoo")
+	SetGlobal("WWSetTrollAreaOn","GLOBAL",1)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(1)
+//	DisplayStringHead(Myself,1450) 
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player1)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(2)
+	FadeToColor([20.0],0)
+	Wait(2)
+	LeaveAreaLUA("ar1900","",[421.2667],1)
+	Wait(1)
+	FadeFromColor([20.0],0)
+	EndCutSceneMode()
+	SaveGame(0)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player2)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1900","",[470.2624],1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player3)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1900","",[525.2590],1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player4)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1900","",[464.2706],1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player5)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1900","",[507.2664],1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player6)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1900","",[551.2628],1)
+END
+
+

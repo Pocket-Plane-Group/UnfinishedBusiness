@@ -1,0 +1,71 @@
+// This script isn't actually used, but might come in handy if 
+// ever I decide to send the players straight to govt district
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWSwoo")
+	CreateVisualEffectObject("SHWATER",Myself)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player1)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(2)
+	FadeToColor([20.0],0)
+	Wait(2)
+	LeaveAreaLUA("ar1100","",[4921.3367],1)
+	Wait(1)
+	FadeFromColor([20.0],0)
+	EndCutSceneMode()
+	SaveGame(0)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player2)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1100","",[4981.3346],1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player3)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1100","",[4937.3427],1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player4)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1100","",[5005.3411],1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player5)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1100","",[4962.3489],1)
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId(Player6)
+	CreateVisualEffectObject("SHWATER",Myself)
+	Wait(4)
+	LeaveAreaLUA("ar1100","",[5015.3478],1)
+END
+
+

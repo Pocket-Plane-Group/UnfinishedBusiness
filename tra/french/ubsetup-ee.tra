@@ -1,0 +1,279 @@
+@24   = ~Epée d'agilité d'Arbane
+Une des nombreuses armes portant le nom du premier magicien ayant découvert comment enchanter une lame de cette manière. Celle-ci était l'arme du hors-la-loi Garno, et nombre de clercs moururent par le fil de cette épée. Garno perdit toute foi en les divinités lorsque sa propre famille fut brûlée sur le bûcher par des clercs de Loviatar, et il passa sa vie à chercher sa vengeance. En dépit de sa haine concentrée sur les dévôts, on pense que c'est à l'initiative d'un dieu du chaos que Garno a acquis cette arme, enchanté par les ravages que causa le jeune homme.
+
+PARAMETRES :
+
+Capacité d'équipement : Le porteur est immunisé à l'immobilisation des personnes et à l'étourdissement
+Capacité Spéciale : Une fois par jour, le porteur peut utiliser hâte pendant douze secondes.
+
+TAC0 : +3
+Dégâts : 1D6 +3
+Type de dégâts : perforant
+Poids : 2
+Facteur de vitesse : 1
+Type de compétence : Epée courte
+Type : arme à 1 main
+Force Requise: 5
+~
+@33   = ~Cimeterre +1, Shazzelim
+Ce cimeterre est plutôt de mauvaise qualité mais sous sa surface sommeille un grand pouvoir maléfique. Créé dans le but unique de tuer des ménestrels, Shazzelim est plus que capable de remplir sa tâche. A chaque coup de la lame, un barde doit réussir un jet de sauvegarde contre les sorts sous peine de mourir. Forgée par les sorciers rouges de Thay, l'épée a aussi la capacité de vocalise, et c'est pour cette raison qu'elle a souvent été laissée entre les mains des guerriers-mages au service des sorciers. Inutile de dire que la possession d'un tel objet risque de rendre son propriétaire plutôt mal vu des ménestrels.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Vocalisé
+
+Capacités de combat :
+ Les bardes doivent réussir un jet de sauvegarde contre les sorts s'ils sont touchés ou bien mourir
+
+TAC0 : +1
+Dégâts : 1D8 +1
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 4
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à 1 main
+Force Requise : 10
+~
+@34   = ~Quand on l'utilise, cette baguette émet une nasse de fils longs et gluants comme ceux d'une toile d'araignée, mais en beaucoup plus résistants. Les créatures prises dans ce filet infernal ou qui le touchent tout simplement sont collées par les fibres gluantes du réseau.
+Tous ceux qui passent dans la zone d'effet doivent effectuer un jet de sauvegarde contre les sorts avec un malus de -5. Si le jet de sauvegarde est réussi, la créature peut se mouvoir comme elle le désire dans la zone d'effet. En cas d'échec, la créature est collée à la toile et ne peut plus se mouvoir. Ce test doit être effectué à chaque round tant que dure la toile d'araignée.
+
+PARAMETRES :
+
+Effet : Immobilise les créatures qui manquent leur jet de sauvegarde contre les sorts à -5.
+Portée : 20 mètres
+Zone d'effet : Spécial
+Jet de sauvegarde : Spécial
+Durée : 1 tour
+~
+@74   = ~Figurine de Shakti 
+
+Il existe de fortes raisons de croire que cet objet fut façonné par un puissant Wu Jen dans les terres mystérieuses de l'Est de Féerune, car la figurine est une réplique finement ouvragée d'un féroce guerrier de Kara-Tur en tenue complète de bataille.
+
+Quand cette statuette est utilisée, elle provoque une métamorphose étonnante chez l'utilisateur, le transformant temporairement en un gladiateur en armure bleue brandissant une épée courte dans chaque main.
+
+On ne sait si cette figurine merveilleuse permet à l'utilisateur de canaliser l'esprit d'un légendaire guerrier, ou si elle déchaîne simplement la furie primaire instinctive se trouvant dans l'esprit de l'utilisateur.
+
+PARAMETRES :
+
+Utilisable une fois par jour
+ Durée : 4 rounds
+ Classe d'Armure : -5
+ Hâte sur l'utilisateur 
+ Deux attaques par round avec une épée courte +4 comme si l' utilisateur possèdait deux points dans la compétence du maniement de l'épée courte.
+~
+@75   = ~Fléau de l'adversaire +5
+
+L'Archimage Demron conçut cette épée bâtarde magique pour le héros elfe Fflar, Commandant de Myth Drannor. La plus puissante des six lames enchantées de la sorte par Demron, le Fléau de l'adversaire, peut drainer l'essence vitale de ses adversaires à chaque attaque, et rendre cette énergie vitale à celui qui la manie. Certains pensent que cette épée a été maudite de façon à voler les âmes, car bien que conçue comme une arme du bien et de la justice, la sombre histoire du Fléau de l'adversaire est faite de meurtre et de mort. 
+
+Le propre sang de Demron étrenna l'épée, quand un voleur utilisa la lame nouvellement façonnée pour provoquer la mort prématurée de l'Archimage et ce, bien que le voleur n'ait pas survécu à la rencontre. Après le meurtre de Demron, le Fléau de l'adversaire fut retrouvée et présentée au héros Fflar dans le but de défendre Myth Drannor, la plus grande des cités elfiques. 
+
+Cependant le pouvoir du Fléau de l'adversaire ne suffit pas à contenir les sombres hordes qui submergèrent Myth Drannor. Quand la cité elfe tomba, le commandant Fflar connut une fin horrible et macabre et l'épée elle-même fut perdue sous les décombres de la grande métropole. 
+
+La légende soutient que les pouvoirs considérables du Fléau de l'adversaire sont fortement accrus quand l'épée est unie au Fourreau enchanté de Fflar, son propriétaire d'origine. 
+
+PARAMETRES :
+
+Capacité d'équipement : +1 à tous les jets de sauvegarde
+Capacité de combat : chaque attaque réussie lance une Absorbtion Mineure de Larloch sur la cible (pas de jet de sauvegarde) 
+
+TAC0 : +5
+Dégâts : 2D4 +5, +6 aux dégâts contre les morts-vivants, les métamorphes, et toutes les créatures extra-planaires (démons, planétaires, etc) 
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 3
+Type de compétence : Epée bâtarde
+Type : arme à 1 main
+Force nécessaire : 11
+~
+@76   = ~Pointe d'Ixil +6
+
+Peu après que le Temps des Troubles eut commencé, les tribus de bandits nomades du désert de Calimshan s'unirent sous un chef unique ; un homme géant, cruel et brutal, le Seigneur de guerre Ixil Xaxsha. Depuis leurs avant-postes situés dans l'étendue du désert inhospitalier, les nomades s'aventurèrent contre les caravanes de marchands et terrorisèrent ceux qui osaient voyager sur la route entre Calimport et Myratma. 
+
+Les rumeurs et les légendes se répandirent rapidement au sujet de l'invincible Ixil, qui chevauchait à la tête de chaque expédition de raid en brandissant son infâme lance magique. Certains pensent qu'il n'était pas un homme, mais plutôt un démon sous une forme humaine, attiré en Féérune par le chaos et la confusion du Temps des Troubles. 
+
+Le sadisme d'Ixil et sa sauvagerie contribuèrent à soutenir ces allégations. On racontait que pendant la bataille, le fer de la Pointe d'Ixil, sa puissante lance, se détachait pour clouer ses adversaires au sol et qu'un nouveau fer se reformait par magie au bout de la lance. Souvent au cours du combat, Ixil se serait arrêté pour savourer les débattements impuissants d'un ennemi empalé par la pointe de la lance... semblant se délecter de l'horrible agonie de son ennemi. 
+
+Le Seigneur de Guerre fut finalement défait quand il fut pris au piège en attaquant un contingent de puissants clercs et de Chevaliers de l'Ordre du Coeur Radieux se faisant passer pour de simples pélerins. Les témoins de la bataille affirmèrent qu'Ixil n'avait pas été tué, mais avait en réalité été banni vers un plan extérieur des Enfers grâce à la magie divine de l'Ordre. 
+
+Bien que le corps d'Ixil n'ait jamais été retrouvé, la Pointe d'Ixil, sa lance effrayante, symbole de sa puissance, fut récupérée. Dans le but de détruire l'artefact, elle fut brisée en plusieurs morceaux, qui furent dispersés dans les Terres du Sud.
+
+PARAMETRES : 
+
+Capacité d'équipement : action libre permanente 
+Capacité de combat : la victime doit réussir un jet de sauvegarde à chaque attaque réussie, ou être immobilisée pendant 3 rounds en subissant 1D6 +5 de dégâts supplémentaires par round. 
+
+TAC0 : + 6 
+Dégâts : 1D6 +6 
+Type de dégâts : perforant 
+Poids : 5 
+Facteur de vitesse : 2 
+Type de compétence : Lance 
+Type : arme à 2 mains 
+Force nécessaire : 5 
+~
+@77   = ~Gourdin de détonation +5
+
+Les légendes d'Amn racontent l'histoire de Nysrogh, un puissant habitant des Plans inférieurs libéré sur la surface d'Amn par une sorcière inconsciente nommée Unileth. 
+
+Complètement immunisé à toutes les armes utilisées contre lui, Nysrogh ravagea Amn, et Unileth prit sur elle d'éradiquer la menace qu'elle avait libérée. Utilisant ses connaissances sur les faiblesses des démons, elle conçut un grand gourdin pour défaire Nysrogh, et le donna à un chevalier courageux mais anonyme pour qu'il soit son champion. 
+
+Le champion d'Unileth lança un défi à Nysrogh, que le démon accepta immédiatement, pensant qu'il ne pouvait être atteint par aucune arme connue dans les Royaumes. Ils se rencontrèrent sur le champ de bataille et sous le regard féroce de Nysrogh, le champion d'Unileth lâcha son arme et s'enfuit de terreur. 
+
+Nysrogh s'avança pour s'approprier le gourdin dont le champion s'était délesté pour symboliser sa victoire. Mais quand la main griffue du démon toucha la surface du gourdin, il déclencha un sort d'emprisonnement, auquel il n'était absolument pas préparé. Le piège d'Unileth avait fonctionné, et le démon qui ne pouvait être blessé par aucune arme fut emprisonné pour toujours dans le gourdin magique. 
+
+Le gourdin de bois non taillé brûle encore de l'esprit enragé du démon éternellement piégé par les puissants enchantements placés sur l'arme. Parfois cependant, le courroux du démon parvient à s'échapper dans une violente explosion. 
+
+PARAMETRES :
+
+Capacités de combat :
+ 30% de chances que la cible subisse 15 points supplémentaires de dégâts de feu quand l'attaque porte 
+ 5% de chances qu'une boule de feu explose automatiquement à chaque attaque réussie 
+
+TAC0 : +5 
+Dégâts : 1D6 +5, +5 de dégâts de feu
+Type de dégâts : contondant
+Poids : 1
+Facteur de vitesse : 4
+Type de compétence : Gourdin
+Type : arme à 1 main
+Force nécessaire : 5
+~
+@79   = ~Etoile des tempêtes +5
+
+Cette arme magique est d'ancienne facture, et les érudits la font remonter à Néthéril. Bien que les masses plaquées d'électrum comme l'Etoile des tempêtes sont d'habitude trouvées dans le Nord, des rumeurs rapportent que cet exemplaire particulièrement puissant aurait été perdu dans les extrémités méridionales des Royaumes. 
+
+L'Etoile des tempêtes possède déjà de formidables capacités qui ont été améliorées par l'ajout de minerai de l'Etoile déchue. Cet étrange matériau d'un autre monde provient du noyau d'une météorite qui tomba des cieux. Le minerai malléable est étonnamment résistant, et dégage une chaleur intérieure. Un objet forgé dans cette matière possède sans nul doute des propriétés mystérieuses et extra-terrestres. 
+
+Malgré sa taille massive, l'Etoile des tempêtes est curieusement légère, la rendant particulièrement facile à manier pendant un combat. Elle crépite d'arcs d'électricité spectaculaires bien qu'inoffensifs quand elle est brandie : une manifestation visible des puissants enchantements électriques contenus dans la tête de l'arme. 
+
+
+PARAMETRES : 
+
+Capacité d'équipement : +20% de résistance à l'électricité 
+Capacité de combat : 5% de chances de lancer Chaîne d'Eclairs sur la cible à chaque attaque réussie 
+
+TACO : +5 
+Dégâts : 1D6 +6, +1D6 de dommages électriques 
+Type de dégâts : contondant 
+Poids : 4 
+Facteur de vitesse : 2 
+Type de compétence : Masse
+Type : arme à 1 main 
+Force nécessaire : 10 
+~
+@80   = ~Bouclier Sombracier +4
+
+Les nains du clan de Clangeddin étaient réputés pour savoir travailler le sombracier, un matériau qui ne pouvait être trouvé que dans leurs demeures au cœur des Montagnes de la Marche. Dans leurs efforts pour trouver davantage de sombracier, ils creusèrent plus profondément dans les entrailles de la terre. 
+
+C'est au cours d'une telle expédition que les sept fils d'Argeld Mainlourde, le chef des Clangeddin, disparurent. Le seul survivant de la malheureuse expédition fut Glimred Mainlourde, le plus jeune fils d'Argeld. Le jeune garçon revint avec des histoires de Drows et d'Illithids et d'autres horreurs encore plus sombres et sans nom, comme on n'en avait jamais entendu de semblables. 
+
+Désespérant de venger ses fils, Argeld ne pouvait pourtant pas envoyer davantage de ses hommes pour faire face à de telles horreurs dans les pronfondeurs de la montagne. Glimred lui-même ne put cependant en être dissuadé. Pour l'aider dans sa quête de vengeance, les forgerons nains construisirent le Bouclier Sombracier, un bouclier puissamment enchanté qui fournissaient plus de protections que la plupart des armures. 
+
+Mais Glimred était impatient, sa soif de vengeance ne pouvait pas être retardée, et il disparut dans les pronfondeurs des Montagnes de la Marche avant que le travail ne soit achevé. Personne ne le revit. Le désespoir et la mort présumée de son seul fils survivant furent de trop pour Argeld, qui eut le cœur brisé et mourut de chagrin. 
+
+Leur chef mort et leur héros Glimred disparu, les nains surent qu'il ne restait que peu de temps avant que leur clan ne fût submergé par leurs ennemis de l'Ombreterre. Avant de disparaître de la surface de Féérune, le clan vendit le bouclier au plus offrant - bien que les forgerons nains aient toujours refusé de divulguer le nom du mystérieux acheteur. 
+
+PARAMETRES : 
+
+Capacités : +10% de résistance au feu, au froid, à l'acide et au poison 
+
+Bonus à la Classe d'Armure : 5 
+Poids : 8 
+Force nécessaire : 10 
+~
+@99  = ~Epée Sainte Lame : Carsomyr
+Carsomyr est une arme légendaire, sans doute l'une des lames les plus puissantes jamais forgées dans Féérune, mais les détails de son origine et de son histoire ont été intentionnellement perdus, pour que ceux-ci ne fassent pas oublier l'importance des conflits actuels. Cette épée contient l'essence même de la vertu, et en exige autant du paladin qui souhaite la faire sienne. Les pouvoirs maléfiques dans les Royaumes craignent réellement cette arme qui peut résister sans effort à leurs magies, et d'un mot les dissiper. Carsomyr a aussi une inimitié particulière pour les forces du mal et du chaos, qui doivent craindre des dégâts supplémentaires si elles la croisent en combat.
+
+Même une Sainte Lame comme Carsomyr devient encore plus puissante combinée à l'Oeil de Tyr.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ 50 % de résistance à la magie
+ Dissipation de la magie 3 fois par jour
+
+Capacités de combat :
+ +6 points de dégâts supplémentaires contre les adversaires chaotiques mauvais, en plus des autres bonus
+ Dissipation de la magie chaque fois que l'épée touche un adversaire
+
+TAC0 : +6
+Dégâts : 1D12 +6
+Type de dégâts : tranchant
+Poids : 6
+Facteur de Vitesse : 4
+Compétence : Epée à 2 mains
+Type : arme à 2 mains
+Force nécessaire : 14
+~
+@100  = ~Ce fléau, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a été démonté, chaque pièce rangée dans un lieu différent, pour n'être utilisé qu'en cas d'extrême urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui émanait de l'arme une fois assemblée, et il avait raison. Cette arme a laissé dans l'histoire une trace sanglante, qui remonte à ses premiers possesseurs. Ce fléau a été créé par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter à tous les combats. Le fléau fut perdu au cours d'une chasse particulièrement violente, puis récupéré quand ils utilisèrent leur affinité avec la magie pour localiser son aura. Ils découvrirent alors que l'arme était tombée entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisé cet objet comme appât, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est à eux qu'on doit les plus grandes batailles.
+
+L'ajout de la cinquième et dernière tête à ce fléau créé par les maléfiques Rakshasas lui permet d'atteindre enfin son potentiel ultime de destruction.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ Action libre
+ Bonus de 5 % de Résistance magique
+
+Capacité de combat :
+ 33 % de chances par coup réussi de ralentir la cible (pas de jet de sauvegarde)
+
+TAC0 : +5
+Dégâts : 1D6 +6, +2 d'acide, +2 de froid, +2 de feu, +2 de poison, +2 d'électricité
+Type de dégâts : contondant
+Poids : 8
+Facteur de Vitesse : 2
+Type de compétence : Fléau/Etoile du matin
+Type : arme à 1 main
+Force nécessaire : 13
+~
+@101  = ~Ce fléau, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a été démonté, chaque pièce rangée dans un lieu différent, pour n'être utilisé qu'en cas d'extrême urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui émanait de l'arme une fois assemblée, et il avait raison. Cette arme a laissé dans l'histoire une trace sanglante, qui remonte à ses premiers possesseurs. Ce fléau a été créé par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter à tous les combats. Le fléau fut perdu au cours d'une chasse particulièrement violente, puis récupéré quand ils utilisèrent leur affinité avec la magie pour localiser son aura. Ils découvrirent alors que l'arme était tombée entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisé cet objet comme appât, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est à eux qu'on doit les plus grandes batailles.
+
+Ce fléau à quatre têtes inflige des dégâts de poison, de feu, de froid et d'acide. Si la cinquième tête du Fléau de l'Eternité venait à être retrouvée, qui pourrait prévoir les pouvoirs extraordinaires qui seraient déchaînés ?
+
+PARAMETRES :
+
+Capacité de combat :
+ 33 % de chances à chaque coup réussi de ralentir la cible (pas de jet de sauvegarde)
+
+TAC0 : +4
+Dégâts : 1D6 +5, +1 de feu, +1 de froid, +1 d'acide, +1 de poison
+Type de dégâts : contondant
+Poids : 9
+Facteur de Vitesse : 3
+Type de compétence : Fléau/Etoile du matin
+Type : arme à 1 main
+Force nécessaire : 13
+~
+@102  = ~Ce fléau, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a été démonté, chaque pièce rangée dans un lieu différent, pour n'être utilisé qu'en cas d'extrême urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui émanait de l'arme une fois assemblée, et il avait raison. Cette arme a laissé dans l'histoire une trace sanglante, qui remonte à ses premiers possesseurs. Ce fléau a été créé par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter à tous les combats. Le fléau fut perdu au cours d'une chasse particulièrement violente, puis récupéré quand ils utilisèrent leur affinité avec la magie pour localiser son aura. Ils découvrirent alors que l'arme était tombée entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisé cet objet comme appât, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est à eux qu'on doit les plus grandes batailles.
+
+Ce fléau à quatre têtes inflige des dégâts d'électricité, de feu, de froid et d'acide. Si la cinquième tête du Fléau de l'Eternité venait à être retrouvée, qui pourrait prévoir les pouvoirs extraordinaires qui seraient déchaînés ?
+
+PARAMETRES :
+
+Capacité de combat :
+ 33 % de chances à chaque coup réussi de ralentir la cible (pas de jet de sauvegarde)
+
+TAC0 : +4
+Dégâts : 1D6 +5, +1 de feu, +1 de froid, +1 d'acide, +1 d'électricité
+Type de dégâts : contondant
+Poids : 9
+Facteur de Vitesse : 3
+Type de compétence : Fléau/Etoile du matin
+Type : arme à 1 main
+Force nécessaire : 13
+~
+@1005 = ~Cette lame courte, d'à peine un plein pied de long, semble distinctement Kara-Turane mais elle est manifestement de mauvaise qualité. L'équilibre est légèrement faussé, la soie enroulée autour de la poignée commence à se détacher, et le fil s'est émoussé depuis longtemps. Des traces d'inscriptions ornementales orientales demeurent ici et là sur la garde.
+
+PARAMETRES :
+
+TAC0 : -1
+Dégâts : 1D8 - 1
+Type de dégâts : perforant
+Poids : 3
+Facteur de Vitesse : 2
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à 1 main
+Force nécessaire : 5
+~

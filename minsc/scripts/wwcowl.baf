@@ -1,0 +1,33 @@
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWCowl1")
+	SetInterrupt(FALSE)
+	Wait(2)
+	CreateVisualEffectObject("SPDIMNDR",Myself)
+	Wait(2)
+	DestroySelf()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWCowl2")
+	SetInterrupt(FALSE)
+	Wait(2)
+	CreateVisualEffectObject("SPDIMNDR",Myself)
+	Wait(2)
+	DestroySelf()
+END
+
+IF
+	True()
+THEN RESPONSE #100
+	CutSceneId("WWElle")
+	SetInterrupt(FALSE)
+	Wait(3)
+	SmallWait(2)
+	SetGlobal("WWFightElle","GLOBAL",3)
+	Wait(2)
+    EndCutSceneMode()
+END

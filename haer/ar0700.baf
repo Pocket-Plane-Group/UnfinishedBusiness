@@ -1,0 +1,12 @@
+// The Promenade
+IF
+!Global("O#UBHaerDalisQuatarisTalk","GLOBAL",5)
+PartyHasItem("misc6g")
+Dead("HAQUAT")
+Global("O#UBHaerDalisQuadMurder","GLOBAL",0)
+THEN
+RESPONSE #100
+AddJournalEntry(@1306,QUEST)
+SetGlobal("O#UBHaerDalisQuadMurder","GLOBAL",1)
+Continue()
+END

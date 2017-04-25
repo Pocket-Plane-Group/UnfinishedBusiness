@@ -1,0 +1,28 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+	CutSceneId("WWElle")
+	ReallyForceSpell(Myself,CLERIC_HEAL)
+        DestroyItem("wweboo")  /* Kulyok v25 */
+	Wait(1)
+	MoveToObject("Minsc")
+	DisplayStringHead(Myself,@36)
+	ForceSpell(Myself,FLASHY_1)
+	Wait(2)
+	DisplayStringHead(Myself,@37)
+	Wait(2)
+	ForceSpell(Myself,CLERIC_CALL_LIGHTNING)
+	DisplayStringHead(Myself,~Ouch!~)
+	Wait(2)
+	ForceSpell("Minsc",FLASHY_2)
+	Wait(1)
+	DisplayStringHead(Myself,~That's it!~)
+	ReallyForceSpell(Myself,CLERIC_HEAL)
+	ReallyForceSpell(Myself,WIZARD_FLAME_ARROW)
+	Wait(2)
+        SetGlobal("WWAfterSpell","LOCALS",1)
+	EndCutSceneMode()
+END
+
+

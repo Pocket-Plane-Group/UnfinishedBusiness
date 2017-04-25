@@ -1,0 +1,37 @@
+// Grrr... must turn off stupid Jan's banters. 
+// Cursed banters that involve Boo!!
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("JanMinsc","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JanMinsc","LOCALS",90)
+END
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("JanMinsc","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JanMinsc","LOCALS",91)
+END
+
+// Turn them back on afterwards
+// ONLY if you gave Minsc the real Boo!
+
+IF
+	  Global("WWBooGone","GLOBAL",2)
+	  Global("JanMinsc","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("JanMinsc","LOCALS",0)
+END
+
+IF
+	  Global("WWBooGone","GLOBAL",2)
+	  Global("JanMinsc","LOCALS",90)
+THEN
+	RESPONSE #100
+		SetGlobal("JanMinsc","LOCALS",1)
+END
+

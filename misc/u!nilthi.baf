@@ -1,0 +1,18 @@
+IF
+        Global("UBNilthiri","Global",0)
+        See([PC])
+THEN
+        RESPONSE #100
+                SetGlobal("UBNilthiri","GLOBAL",1)
+		DestroyItem("MONHP1") // Kulyok
+                StartDialogueNoSet([PC])
+END
+
+IF
+        Global("UBNilthiri","Global",2)
+THEN
+        RESPONSE #100
+                SetGlobal("UBNilthiri","GLOBAL",1)
+		DestroyItem("MONHP1") // Kulyok
+                Enemy()
+END
