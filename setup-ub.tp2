@@ -6,7 +6,6 @@
 
 BACKUP ~ub/backup~
 
-// AUTHOR ~Icelus, Andyr, Cliffette, and Barren~
 AUTHOR ~http://forums.pocketplane.net~
 
 README ~ub/readme_ub.html~
@@ -15,11 +14,27 @@ VERSION ~v26~
 ASK_EVERY_COMPONENT
 
 ALWAYS
+  // Generate chapter number constants for EET compatibility
+
+  OUTER_FOR (i = 1; i <= 10; ++i)
+  BEGIN
+    ACTION_IF GAME_IS "eet"
+    BEGIN
+      OUTER_SET EVAL "bg2_chapter_%i%" = i + 12
+    END
+    ELSE
+    BEGIN
+      OUTER_SET EVAL "bg2_chapter_%i%" = i
+    END
+  END
+
+
   // CD_STATE_NOTVALID - custom state from CamDawg
   // Angel: Moved here so it is no longer needed to include it in every component.
 
   APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
   UNLESS ~CD_STATE_NOTVALID~
+
 
   // Angel: Disable known broken areas and items from chitin.key.
 
@@ -28,26 +43,21 @@ ALWAYS
     DISABLE_FROM_KEY ~%broken%~
   END
 
-  APPEND ~ACTION.IDS~
-   ~31 SpellRES(S:RES*,O:Target*)
-    95 SpellPointRES(S:RES*,P:Target*) 
-    113 ForceSpellRES(S:RES*,O:Target)
-    114 ForceSpellPointRES(S:RES*,P:Target)
-    160 ApplySpellRES(S:RES*,O:Target)
-    181 ReallyForceSpellRES(S:RES*,O:Target) 
-    191 SpellNoDecRES(S:RES*,O:Target*)
-    192 SpellPointNoDecRES(S:RES*,P:Target*) 
-    240 ReallyForceSpellDeadRES(S:RES*,O:Target)
-    318 ForceSpellRangeRES(S:RES*,O:Target)
-    319 ForceSpellPointRangeRES(S:RES*,P:Target)
-    337 ReallyForceSpellPointRES(S:RES*,P:Target*)
-    338 SetCutSceneLite(I:BOOL*BOOLEAN)~
-  UNLESS ~SpellRES(S:RES*,O:Target*)~
-  UNLESS ~25POST~
 
-  // Code borrowed from Edwin Romance V206, using the new HANDLE_CHARSETS function. Thanks, Isaya! - Kulyok, v25
-  // Removed by Angel, HANDLE_CHARSETS is now part of the standard functions of WeiDU.
-  //  INCLUDE ~%MOD_FOLDER%/handle_charsets.tpa~
+  APPEND "action.ids" "31 SpellRES(S:RES*,O:Target*)" UNLESS "SpellRES(S:RES\*,O:Target\*)"
+  APPEND "action.ids" "95 SpellPointRES(S:RES*,P:Target*)" UNLESS "SpellPointRES(S:RES\*,P:Target\*)"
+  APPEND "action.ids" "113 ForceSpellRES(S:RES*,O:Target)" UNLESS "ForceSpellRES(S:RES\*,O:Target)"
+  APPEND "action.ids" "114 ForceSpellPointRES(S:RES*,P:Target)" UNLESS "ForceSpellPointRES(S:RES\*,P:Target)"
+  APPEND "action.ids" "160 ApplySpellRES(S:RES*,O:Target)" UNLESS "ApplySpellRES(S:RES\*,O:Target)"
+  APPEND "action.ids" "181 ReallyForceSpellRES(S:RES*,O:Target)" UNLESS "ReallyForceSpellRES(S:RES\*,O:Target)"
+  APPEND "action.ids" "191 SpellNoDecRES(S:RES*,O:Target*)" UNLESS "SpellPointNoDecRES(S:RES\*,P:Target\*)"
+  APPEND "action.ids" "192 SpellPointNoDecRES(S:RES*,P:Target*)" UNLESS "SpellPointNoDecRES(S:RES\*,P:Target\*)"
+  APPEND "action.ids" "240 ReallyForceSpellDeadRES(S:RES*,O:Target)" UNLESS "ReallyForceSpellDeadRES(S:RES\*,O:Target)"
+  APPEND "action.ids" "318 ForceSpellRangeRES(S:RES*,O:Target)" UNLESS "ForceSpellRangeRES(S:RES\*,O:Target)"
+  APPEND "action.ids" "319 ForceSpellPointRangeRES(S:RES*,P:Target)" UNLESS "ForceSpellPointRangeRES(S:RES\*,P:Target)"
+  APPEND "action.ids" "337 ReallyForceSpellPointRES(S:RES*,P:Target*)" UNLESS "ReallyForceSpellPointRES(S:RES\*,P:Target\*)"
+  APPEND "action.ids" "338 SetCutSceneLite(I:BOOL*BOOLEAN)" UNLESS "SetCutSceneLite(I:BOOL\*BOOLEAN)"
+
 
   /*
    * An array of the TRA files which should not be converted.
@@ -170,7 +180,7 @@ BEGIN @0
 
 COPY ~ub/ubnull.itm~ ~override/ubminsc.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
   ADD_JOURNAL @69 @84 @102 @465 @671 @687 @697 @727 @729 @751 @754 USING ~ub/tra/%LANGUAGE%/wwminscub.tra~
@@ -208,7 +218,7 @@ COPY ~ub/Minsc/Cre/wwfght1.cre~   ~Override/wwfght1.cre~
 COPY ~ub/Minsc/Cre/wwrati.cre~    ~Override/wwrati.cre~  SAY NAME1 @10 SAY NAME2 @10
 COPY ~ub/Minsc/items~ 		  ~Override~
 
-ACTION_IF GAME_IS ~BG2EE~ BEGIN COPY ~ub/Minsc/itemsEE~ ~Override~ END /* Kulyok v25 */
+ACTION_IF ENGINE_IS "bg2ee" BEGIN COPY ~ub/Minsc/itemsEE~ ~Override~ END /* Kulyok v25 */
 
 COPY ~ub/Minsc/Items/wwblet.spl~  ~Override/wwblet.spl~  SAY NAME1 ~Boolets~ SAY NAME2 ~Boolets~ /*No need to translate*/
 COPY ~ub/Minsc/Items/wwboo.spl~   ~Override/wwboo.spl~
@@ -219,7 +229,7 @@ COPY ~ub/Minsc/Items/wweboo.itm~  ~Override/wweboo.itm~  SAY NAME1 @15 SAY NAME2
 
 
 // Minsc existing dialogue fix
-COMPILE ~ub/Minsc/Dialogue/wwminscub.d~
+COMPILE EVALUATE_BUFFER ~ub/Minsc/Dialogue/wwminscub.d~
 USING   ~ub/tra/%s/wwminscub.tra~
 COMPILE ~ub/Minsc/Dialogue/wwswappants.d~
 COMPILE ~ub/Minsc/Dialogue/wwinterj.d~
@@ -241,7 +251,7 @@ BUT_ONLY
 
 // Append chars scripts
 EXTEND_TOP ~minsc.bcs~   ~ub/Minsc/Appends/wwub_minsc2.baf~
-EXTEND_TOP ~minsc.bcs~   ~ub/Minsc/Appends/wwub_minsc.baf~
+EXTEND_TOP ~minsc.bcs~   ~ub/Minsc/Appends/wwub_minsc.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~edwin.bcs~   ~ub/Minsc/Appends/wwub_edwin.baf~
 EXTEND_TOP ~keldorn.bcs~ ~ub/Minsc/Appends/wwub_kel.baf~
 EXTEND_TOP ~jan.bcs~     ~ub/Minsc/Appends/wwub_jan.baf~
@@ -305,7 +315,7 @@ BEGIN @20
 
 COPY ~ub/ubnull.itm~ ~override/ubsuna.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
   ADD_JOURNAL EXISTING TITLE (#74367) @211 @213 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
@@ -323,12 +333,12 @@ COMPILE ~ub/suna/CCSUNA.baf~                        /* Suna Seni's script in the
 USING   ~ub/tra/%s/ubdialog.tra~
 
 EXTEND_TOP    ~ar1101.bcs~  ~override/u!1101.bcs~   /* Removes Valygar from his cabin if not given the quest */
-EXTEND_TOP    ~ar0041.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
-EXTEND_TOP    ~ar0042.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
-EXTEND_TOP    ~ar0043.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
-EXTEND_TOP    ~ar0044.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
-EXTEND_TOP    ~ar0045.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
-EXTEND_TOP    ~ar0046.bcs~  ~ub/suna/u!sunare.baf~  /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0041.bcs~  ~ub/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0042.bcs~  ~ub/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0043.bcs~  ~ub/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0044.bcs~  ~ub/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0045.bcs~  ~ub/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0046.bcs~  ~ub/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
 EXTEND_TOP    ~ar1516.bcs~  ~ub/suna/u!1516.baf~    /* Spawns Suna in Spellhold */
 EXTEND_TOP    ~ar0300.bcs~  ~ub/suna/u!0300.baf~    /* Spawns Suna in the Docks */
 EXTEND_TOP    ~ppjon.bcs~   ~ub/suna/u!ppjon.baf~   /* Determines whether or not to spawn Suna in the Spellhold cutscene */
@@ -365,7 +375,7 @@ BEGIN @47
 
 COPY ~ub/ubnull.itm~ ~override/ubkalah.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
   ADD_JOURNAL @254 @256 @258 @260 @262 @271 @344 @350 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
@@ -442,7 +452,7 @@ BEGIN @25
 
 COPY ~ub/ubnull.itm~ ~override/ubbodhi.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
@@ -513,7 +523,7 @@ BEGIN @26
 
 COPY ~ub/ubnull.itm~ ~override/ubgorje.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
   ADD_JOURNAL EXISTING TITLE (#74322) @30 @88 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
@@ -548,7 +558,7 @@ BEGIN @27
 
 COPY ~ub/ubnull.itm~ ~override/ubpaina.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
   ADD_JOURNAL @142 @145 @146 USING ~ub/tra/%LANGUAGE%/ubdialog.tra~
@@ -579,7 +589,7 @@ STRING_SET ~I here you might have a sword I seek. It should have spider-like pat
 
 BEGIN @28
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
@@ -609,13 +619,13 @@ EXTEND_TOP ar0022.bcs ~ub/crane/u!0022.baf~
 
 BEGIN @29
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
 
 /* Vampire Encounters */
-EXTEND_TOP vampsttp.bcs ~ub/encount/U!vamps.baf~
+EXTEND_TOP vampsttp.bcs ~ub/encount/U!vamps.baf~ EVALUATE_BUFFER
 
 EXTEND_TOP vvbodhi.bcs ~ub/encount/vvbodhi.baf~ /* Kulyok */
 
@@ -809,7 +819,7 @@ BUT_ONLY
 
 BEGIN @48
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
@@ -944,7 +954,7 @@ COMPILE ~ub/gorf/gorf.baf~
 
 BEGIN @30
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
@@ -1073,7 +1083,7 @@ BEGIN @70
 
 COPY ~ub/ubnull.itm~ ~override/ubyoshi.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   COPY ~ub/yoshimo/NYOSHIEM.BMP~ ~override/NYOSHIEM.BMP~          
   COPY ~ub/yoshimo/NYOSHIES.BMP~ ~override/NYOSHIES.BMP~
@@ -1098,7 +1108,7 @@ BEGIN @72
 COPY ~ub/ubnull.itm~ ~override/ubanomen.xxx~ //null file to identify this component
 
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   COPY ~ub/anomen/NANOMENL.BMP~ ~override/NANOMENL.BMP~  
   COPY ~ub/anomen/NANOMEEM.BMP~ ~override/NANOMENM.BMP~
@@ -1155,7 +1165,7 @@ COPY_EXISTING ~PPTIAX.CRE~   ~override/PPTIAX.CRE~     /* Tiax */
 COPY_EXISTING ~QUAYLE.CRE~   ~override/QUAYLE.CRE~     /* Quayle */
   WRITE_ASCII   ~0x34~         ~QUAYLES~
 
-ACTION_IF GAME_IS BG2EE
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   COPY ~ub/suna/SUNAL_EE.BMP~ ~override/SUNAL.BMP~          /* Suna Seni's portraits */
   COPY ~ub/suna/SUNAS_EE.BMP~ ~override/SUNAS.BMP~
@@ -1423,8 +1433,9 @@ END
 
 BEGIN @54
 
-ACTION_IF GAME_IS ~BG2EE~ BEGIN
-LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
 
 COMPILE ~ub/dialogs/u!minor.d~
@@ -1651,7 +1662,7 @@ REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
 
 COPY ~ub/ubnull.itm~ ~override/ubtobitm.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
@@ -1700,7 +1711,7 @@ BEGIN @95
 
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
@@ -1776,10 +1787,10 @@ COMPILE ~.../ub/ding0/coldmiss/dialog.d~
 /* AUTHOR   ~andyr@gibberlings3.net~ */
 
 BEGIN @81
-REQUIRE_PREDICATE NOT GAME_IS ~BG2EE~ @1311
+REQUIRE_PREDICATE NOT ENGINE_IS "bg2ee" @1311
 
 /* Kulyok: I'm sometimes using this ubsetup-ee.tra where I shouldn't, but it's harmless and better than forgetting it entirely before v25. :) But don't do that at home. */
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
@@ -1847,10 +1858,11 @@ SAY @84
 /* AUTHOR   ~andyr@gibberlings3.net~ */
 
 BEGIN @85
-REQUIRE_PREDICATE NOT GAME_IS ~BG2EE~ @1311
+REQUIRE_PREDICATE NOT ENGINE_IS "bg2ee" @1311
 
-ACTION_IF GAME_IS ~BG2EE~ BEGIN
-LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
 
 COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
@@ -1969,7 +1981,7 @@ BEGIN @1000
 
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
 END
@@ -2034,7 +2046,7 @@ BEGIN ~The Murder of Acton Balthis, by Kulyok~
 
 COPY ~ub/ubnull.itm~ ~override/ubhaer.xxx~ //null file to identify this component
 
-ACTION_IF GAME_IS ~BG2EE~
+ACTION_IF ENGINE_IS "bg2ee"
 BEGIN
   LOAD_TRA ~ub/tra/%LANGUAGE%/ubsetup-ee.tra~
   ADD_JOURNAL @1301 @1302 @1303 @1304 @1305 @1306 @1307 @1308 @1309 @1310

@@ -1,7 +1,7 @@
 IF
   Global("U!RakshasaAmbush","GLOBAL",0)
   Global("U!SunaLeaveSpellhold","GLOBAL",1)
-  GlobalGT("Chapter","GLOBAL",4)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_4%)
 THEN
   RESPONSE #100
     CreateCreature("VARAKMAH",[475.268],0)  // ~Maharadjah~

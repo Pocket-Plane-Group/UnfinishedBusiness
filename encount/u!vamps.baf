@@ -6,7 +6,7 @@ IF
     Dead("shthass1")  // ~Ama~
     !AreaCheck("AR0700")
   CombatCounter(0)
-  GlobalLT("Chapter","GLOBAL",4)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
   Global("VampShadWar","GLOBAL",5)
   GlobalTimerExpired("VampShadTimer","GLOBAL")
   OR(2)
@@ -44,7 +44,7 @@ IF
     Dead("shthass1")  // ~Ama~
     !AreaCheck("AR0700")
   CombatCounter(0)
-  GlobalLT("Chapter","GLOBAL",4)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
   Global("VampShadWar","GLOBAL",6)
   GlobalTimerExpired("VampShadTimer","GLOBAL")
   OR(2)

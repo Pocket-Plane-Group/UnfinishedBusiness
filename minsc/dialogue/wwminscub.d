@@ -1903,8 +1903,8 @@ END
 IF WEIGHT #-45 ~Global("WWFakeBoo","GLOBAL",1)
 				GlobalTimerExpired("WWFakeBooTimer","GLOBAL")~ THEN FakeBooComment1
 SAY @674
-+ ~GLT("Chapter",5)~ + @675 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + MeanChar
-+ ~!GLT("Chapter",5)~ + @675 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + MeanChar6
++ ~GLT("Chapter",%bg2_chapter_5%)~ + @675 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + MeanChar
++ ~!GLT("Chapter",%bg2_chapter_5%)~ + @675 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + MeanChar6
 ++ @676 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + Confession
 END
 
@@ -1934,7 +1934,7 @@ END
 
 IF ~Global("WWMinscInBrynnlaw","LOCALS",1)
 	G("WWBooGone",1)
-	G("Chapter",4)
+	G("Chapter",%bg2_chapter_4%)
 	AreaCheck("AR1600")~ THEN MinscMadInBrynnlaw
 SAY @688
 ++ @689 + TrustMe

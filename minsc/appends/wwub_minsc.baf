@@ -53,7 +53,7 @@ IF
 	InParty(Myself)
 	Global("WWBooGone","GLOBAL",0)
 	Global("WWMinscInDocks","LOCALS",2)
-	GLT("Chapter",4)
+	GLT("Chapter",%bg2_chapter_4%)
 	CombatCounter(0)
 	!AreaCheck("ar0300")   			// Area exits as listed in ar0300, x-referenced to IESDP
 	!AreaCheck("ar0301")
@@ -328,7 +328,7 @@ END
 
 // Entering Chapter 4, Boo missing
 IF
-	G("Chapter",4)
+	G("Chapter",%bg2_chapter_4%)
 	G("WWBooGone",1)
 	AreaCheck("AR1600")
 	CombatCounter(0)

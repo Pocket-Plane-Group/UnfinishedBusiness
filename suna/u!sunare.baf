@@ -1,6 +1,6 @@
 IF
   Global("RandomEncounters","GLOBAL",0)
-  GlobalLT("Chapter","GLOBAL",4)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
 THEN
   RESPONSE #100
     SetGlobal("RandomEncounters","GLOBAL",1)
