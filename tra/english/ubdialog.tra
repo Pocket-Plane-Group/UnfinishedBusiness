@@ -376,6 +376,7 @@ We discovered the command word to the genie's flask, and tried to use the final 
 @346  = ~I have no master, and the one I owe does not know of my plan. No, this will not benefit him in the least.~
 /* @347  = ~Ah yes, the tone is as described. You are <CHARNAME>, aren't you. <CHARNAME> of Baldur's Gate whose father is Gorion.~
 @348  = ~No one sent me, but I am here because of someone and their interest in you. I owe that someone a debt, and I will pay it through you.~ */
+@349  = ~Ugh, is there no place to be alone in this city?~
 @350  = ~Freed a Djinn.
 
 We discovered the command word to the genie's flask, and used the final wish.~
