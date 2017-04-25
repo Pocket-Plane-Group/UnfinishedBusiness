@@ -917,7 +917,13 @@ Nous avons annoncé la mort du véritable meurtrier à l'inspecteur-chef Brega, qui
 Haer'Dalis a été exécuté.~ 
 
 @1311 = ~Ce composant n'est pas disponible pour BG2EE.~
+@1312 = ~La Mère Matrone a été d'une grande aide pour l'instant, bien que ce soit uniquement parce que c'est dans son propre intérêt, je suis sûr. Quoi qu'il en soit elle n'est qu'un moyen pour parvenir à mes fins. Lorsque j'aurai atteint mon but, ils pourront moisir dans leurs trous souterrains jusqu'à la fin de temps, je m'en fiche. Le portail est en place et je pourrai aller là-bas dès que je me serai occupé de quelques petits détails ici.
 
+Saemon Havarian s'est déjà enfui, comme prévu. Il ne s'est sans doute pas senti en sécurité ici maintenant qu'il ne m'était plus utile. Ma soeur était déçue, elle était impatiente de donner la chasse à cet imbécile dès qu'elle en aurait terminé avec <CHARNAME>. C'est vraiment intéressant de voir à quel point sa soif de sang a grandi. Elle a exprimé le désir de retourner dans son ancien repaire d'Athkatla maintenant que le cas de <CHARNAME> est réglé et j'ai accepté de la laisser partir dès que nos affaires avec les drows seront achevées. Plus loin cet objet maudit sera de mon ancien foyer, le mieux ce sera pour mes plans et il n'y a personne d'autre à qui je peux le confier. Ce serait un vrai problème si cet idiot d'Elhan venait à mettre la main dessus. J'aurais souhaité pouvoir simplement le détruire mais les choses ne sont jamais aussi simples avec ces vieux artefacts.
+
+Mes négociations avec les rakshasa se sont bien passées, même s'ils ne vont probablement pas se montrer plus fiables que les drows dès que ce ne sera plus dans leur intérêt. Maintenant que j'y pense, c'est amusant qu'en dehors de Bodhi, mon seul allié véritablement fiable se soit avéré être ce Nizidramanii'yt. Il semble vraiment se préoccuper uniquement de nourriture et de trésors et il va probablement faire tout ce que je lui demande aussi longtemps que les récompenses arriveront. Un esprit si simple pour une si grande bête, mais il s'est montré très utile pour moi en effet.
+
+Assez perdu de temps avec ces pensées sans suite. Bodhi devrait en avoir terminé là-bas maintenant et le moment de quitter ce lieu de folie est proche. Bientôt j'aurai ce qui aurait dû me revenir il y a longtemps !~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

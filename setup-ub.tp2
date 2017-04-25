@@ -1073,6 +1073,34 @@ ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0 THEN BEGIN
 END
 
 
+// Third journal of Irenicus
+// by Angel
+
+// Proper text
+COPY_EXISTING "misc9k.itm" "override"
+  SAY UNIDENTIFIED_DESC @1312
+
+// Description bam is way off center,
+// provide a properly centered one.
+COPY_LARGE "ub/items/cmisc9k.bam" "override"
+
+// Add to other journals on desk.
+COPY_EXISTING "ar1515.are" "override"
+  LAUNCH_PATCH_FUNCTION ADD_AREA_ITEM
+    INT_VAR
+    container_to_add_to	= 5
+    STR_VAR
+    item_to_add		= "misc9k"
+  END
+
+// Remove extra copy of first journal.
+COPY_EXISTING "ar1516.are" "override"
+  LAUNCH_PATCH_FUNCTION DELETE_AREA_ITEM
+    STR_VAR
+    item_to_delete	= "misc9i"
+  END
+
+
 /////////////////////////////////
 /////////////////////////////////
 // Yoshimo's Original Portrait //
