@@ -1,0 +1,45 @@
+// restored Yoshimo-Minsc banter
+
+IF
+  InParty(Myself)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InParty("Minsc")
+  See("Minsc")
+  HPLT("Minsc",20)
+  !StateCheck("Minsc",CD_STATE_NOTVALID)
+  CombatCounter(0)
+  Global("BYoshimo13","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BYoshimo13","LOCALS",1)
+    Interact("Minsc")
+END
+
+
+// restored Yoshimo-Aerie banter
+
+IF
+  InParty(Myself)
+  InParty("Aerie")
+  Dead("Aerie")
+  Global("CDYoshimoAerieBanter","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDYoshimoAerieBanter","LOCALS",1)
+END
+
+IF
+  InParty(Myself)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InParty("Aerie")
+  See("Aerie")
+  !StateCheck("Aerie",CD_STATE_NOTVALID)
+  !Dead("Aerie")
+  Global("CDYoshimoAerieBanter","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CDYoshimoAerieBanter","LOCALS",2)
+    Interact("Aerie")
+END
+
+

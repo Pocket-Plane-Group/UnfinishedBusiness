@@ -1,0 +1,27 @@
+// restored Minsc-Mazzy banter
+
+IF
+  InParty(Myself)
+  InParty("Mazzy")
+  Dead("Mazzy")
+  Global("CDMinscMazzyBanter","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDMinscMazzyBanter","LOCALS",1)
+END
+
+IF
+  InParty(Myself)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  InParty("Mazzy")
+  See("Mazzy")
+  !StateCheck("Mazzy",CD_STATE_NOTVALID)
+  !Dead("Mazzy")
+  Global("CDMinscMazzyBanter","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CDMinscMazzyBanter","LOCALS",2)
+    Interact("Mazzy")
+END
+
+

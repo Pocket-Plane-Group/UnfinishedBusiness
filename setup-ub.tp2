@@ -2154,3 +2154,23 @@ COPY_EXISTING ~AR0700.are~ ~override~
 BUT_ONLY_IF_IT_CHANGES
 
 
+//////////////////////
+//////////////////////
+// Restored Banters //
+//////////////////////
+//////////////////////
+
+BEGIN ~Restored Banters, by Camdawg and Angel~
+
+COPY ~ub/ubnull.itm~ ~override/ubbanter.xxx~ //null file to identify this component
+
+COMPILE ~ub/banter/dialog_fixes.d~
+USING   ~ub/tra/%s/ubbanter.tra~
+
+EXTEND_BOTTOM ~minsc.bcs~ ~ub/banter/minsc_additions.baf~
+USING         ~ub/tra/%s/ubbanter.tra~
+
+EXTEND_BOTTOM ~yoshimo.bcs~ ~ub/banter/yoshimo_additions.baf~
+USING         ~ub/tra/%s/ubbanter.tra~
+
+
