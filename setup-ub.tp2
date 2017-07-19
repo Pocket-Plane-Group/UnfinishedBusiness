@@ -916,11 +916,16 @@ COPY_EXISTING sw1h50.itm  override
 BUT_ONLY
 
 /* Bala's Axe */
-COPY_EXISTING ax1h07.itm override
-  WRITE_SHORT 0x42 0x28
-BUT_ONLY
 
-EXTEND_TOP ar0413.bcs ~%MOD_FOLDER%/items/u!0413.baf~ /* Planar Sphere, Engine Room, Bala's Axe, Container 1 */
+// On bg2ee, this gets imported already, as per CamDawg's report.
+ACTION_IF NOT ENGINE_IS "bg2ee"
+BEGIN
+  COPY_EXISTING ax1h07.itm override
+    WRITE_SHORT 0x42 0x28
+  BUT_ONLY
+
+  EXTEND_TOP ar0413.bcs ~%MOD_FOLDER%/items/u!0413.baf~ /* Planar Sphere, Engine Room, Bala's Axe, Container 1 */
+END
 
 /* Wraithform */
 COPY ~%MOD_FOLDER%/items/spwi315.spl~  override /* Wraithform spell file */
