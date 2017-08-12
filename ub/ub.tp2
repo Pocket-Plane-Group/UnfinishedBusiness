@@ -1990,7 +1990,7 @@ USING   ~%MOD_FOLDER%/tra/%s/u!sare.tra~
 /////////////////////////////////
 /////////////////////////////////
 
-BEGIN ~The Murder of Acton Balthis, by Kulyok~
+BEGIN @1313
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubhaer.xxx~ //null file to identify this component
 
@@ -2080,7 +2080,7 @@ BUT_ONLY_IF_IT_CHANGES
 //////////////////////
 //////////////////////
 
-BEGIN ~Restored Banters, by Camdawg and Angel~
+BEGIN @1314
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubbanter.xxx~ //null file to identify this component
 
