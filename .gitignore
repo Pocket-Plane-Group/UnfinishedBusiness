@@ -42,3 +42,18 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.bak
+
+# Binary installer files
+*.7z
+*.rar
+*.zip
+*.tar.gz
+*.exe
+!iconv.exe
+!oggdec.exe
+!tisunpack.exe
+!TobExLoader.exe
+setup-ub
+setup-ub.command
+
+
