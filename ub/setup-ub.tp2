@@ -855,10 +855,7 @@ END
 
 BEGIN @71
 
-FORBID_COMPONENT setup-bg2fixpack.tp2 0 ~~
-
-COMPILE ~%MOD_FOLDER%/gorf/gorf.baf~
-
+DEPRECATED ~Not needed for BG2EE.  For vanilla BG2, use the G3 Fixpack instead.~
 
 
 ///////////////////////
