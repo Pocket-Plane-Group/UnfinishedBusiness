@@ -1,0 +1,342 @@
+/*************** Beginning of Minsc's Unfinished Business code **************/
+// To be APPENDed into Minsc's .bcs
+// NB: 	WWBooGone GLOBAL = 0, pre-quest
+//      WWBooGone GLOBAL = 1, Not found Boo
+//		WWBooGone GLOBAL = 2, Found real Boo
+//		WWBooGone GLOBAL = 3, Found fake Boo
+//      WWBooGone GLOBAL = 4, Left in anger?
+//  	WWBooGone GLOBAL = 5, Minsc has left in anger over Pseudo-Boo (may be used in future if Minsc comes back...)
+//		WWFakeBooTimer lasts ONE DAY
+
+// Extra fighty bit: If in new arwwbo area, Minsc will say something
+IF
+	AreaCheck("AR1900")
+	Global("WWSetTrollAreaOn","GLOBAL",1)
+	Global("WWNotMeanToBeHere","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("WWNotMeanToBeHere","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+
+// Start timer after first arrival at Docks if Minsc is in party
+IF
+	InParty(Myself)
+    Global("WWMinscInDocks","LOCALS",0)
+	AreaCheck("AR0300")
+THEN
+	RESPONSE #100
+		SetGlobal("WWMinscInDocks","LOCALS",1)
+		SetGlobalTimer("WWWhereIsBoo","GLOBAL",TWO_DAYS)  // Set to two days- hopefully by this time you have a chance to 
+														  // and Aerie has become Minsc's witch
+END
+
+// After timer expires (two ingame days), the next visit to the Docks
+// (or being there already) will set the Global to 2
+IF
+	InParty(Myself)
+	Global("WWBooGone","GLOBAL",0)
+	Global("WWMinscInDocks","LOCALS",1)
+	GlobalTimerExpired("WWWhereIsBoo","GLOBAL")
+	AreaCheck("AR0300")
+THEN
+	RESPONSE #100
+	  	SetGlobal("WWMinscInDocks","LOCALS",2)
+END
+
+// If the global is set to 2, moving to a non-Docks area
+// (and without enemies in sight) will trigger the removal of Boo
+// and Minsc's discovery
+IF
+	!See([ENEMY])
+	InParty(Myself)
+	Global("WWBooGone","GLOBAL",0)
+	Global("WWMinscInDocks","LOCALS",2)
+	GLT("Chapter",%bg2_chapter_4%)
+	CombatCounter(0)
+	!AreaCheck("ar0300")   			// Area exits as listed in ar0300, x-referenced to IESDP
+	!AreaCheck("ar0301")
+	!AreaCheck("ar0302")
+	!AreaCheck("ar0303")
+	!AreaCheck("ar0304")
+	!AreaCheck("ar0305")
+	!AreaCheck("ar0306")
+	!AreaCheck("ar0307")
+	!AreaCheck("ar0308")
+	!AreaCheck("ar0309")
+	!AreaCheck("ar0310")
+	!AreaCheck("ar0311")
+	!AreaCheck("ar0312")
+	!AreaCheck("ar0313")
+	!AreaCheck("ar0314")
+	!AreaCheck("ar0315")
+	!AreaCheck("ar0316")
+	!AreaCheck("ar0317")
+	!AreaCheck("ar0318")
+	!AreaCheck("ar0319")
+	!AreaCheck("ar0321")
+	!AreaCheck("ar0322")
+	!AreaCheck("ar0323")
+	!AreaCheck("ar0324")
+	!AreaCheck("ar0325")
+	!AreaCheck("ar0326")
+	!AreaCheck("ar0327")
+	!AreaCheck("ar0328")
+	!AreaCheck("ar0329")
+	!AreaCheck("ar0330")
+	!AreaCheck("ar0331")
+	!AreaCheck("ar0332")
+	!AreaCheck("ar0333")
+	!AreaCheck("ar0334")
+	!AreaCheck("ar0335")
+	!AreaCheck("ar0415")
+	!AreaCheck("wwpets")
+	Global("WWMinscHorror","LOCALS",0)
+THEN
+	RESPONSE #100
+		DestroyItem("misc84")
+		ReallyForceSpellRES("wwnoboo",Myself)
+		SetGlobal("WWBooGone","GLOBAL",1)
+		SetGlobal("WWMinscHorror","LOCALS",1)
+		ChangeAIScript("wwbant",OVERRIDE)
+		StartDialogueNoSet(Player1)
+END
+
+
+
+// The complaint timers (part 1):
+// Minsc complains every day until you find Boo.
+// This section sets the timer and resets it after each complaint
+// Timer is called "WWFindBooTimer". Note that the last timer reset
+// (when WWHelpFindBoo global = 5) is done in the .d file!
+
+IF
+	Global("WWBooGone","GLOBAL",1)
+	OR(2)
+		Global("WWHelpFindBoo","GLOBAL",1)
+		Global("WWHelpFindBoo","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("WWFindBooTimer","GLOBAL",ONE_DAY)
+		IncrementGlobal("WWHelpFindBoo","GLOBAL",1)
+END
+
+// The complaint timers (part 2):
+// Triggers the actual complaint dialogue when "WWFindBooTimer:
+// hits 0, and you're not in the Docks area
+IF
+	Global("WWBooGone","GLOBAL",1)
+	GlobalTimerExpired("WWFindBooTimer","GLOBAL")
+	!AreaCheck("ar0300")   			// Area exits as listed in ar0300, x-referenced to IESDP
+	!AreaCheck("ar0301")
+	!AreaCheck("ar0302")
+	!AreaCheck("ar0303")
+	!AreaCheck("ar0304")
+	!AreaCheck("ar0305")
+	!AreaCheck("ar0306")
+	!AreaCheck("ar0307")
+	!AreaCheck("ar0308")
+	!AreaCheck("ar0309")
+	!AreaCheck("ar0310")
+	!AreaCheck("ar0311")
+	!AreaCheck("ar0312")
+	!AreaCheck("ar0313")
+	!AreaCheck("ar0314")
+	!AreaCheck("ar0315")
+	!AreaCheck("ar0316")
+	!AreaCheck("ar0317")
+	!AreaCheck("ar0318")
+	!AreaCheck("ar0319")
+	!AreaCheck("ar0321")
+	!AreaCheck("ar0322")
+	!AreaCheck("ar0323")
+	!AreaCheck("ar0324")
+	!AreaCheck("ar0325")
+	!AreaCheck("ar0326")
+	!AreaCheck("ar0327")
+	!AreaCheck("ar0328")
+	!AreaCheck("ar0329")
+	!AreaCheck("ar0330")
+	!AreaCheck("ar0331")
+	!AreaCheck("ar0332")
+	!AreaCheck("ar0333")
+	!AreaCheck("ar0334")
+	!AreaCheck("ar0335")
+	!AreaCheck("ar0415")
+	!AreaCheck("wwpets")
+	!AreaCheck("ar1000")
+	OR(3)
+		Global("WWHelpFindBoo","GLOBAL",2)
+		Global("WWHelpFindBoo","GLOBAL",4)
+		Global("WWHelpFindBoo","GLOBAL",6)
+THEN
+	RESPONSE #100
+		IncrementGlobal("WWHelpFindBoo","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+
+// Triggers Minsc's dialogue upon Docks entry
+// after discovering Boo is gone
+IF
+	Global("WWBooGone","GLOBAL",1)
+	AreaCheck("AR0300")
+	Global("WWDocksComment","LOCALS",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+// Minsc accuses Billy
+IF
+	AreaCheck("AR0300")
+	G("WWBooGone",1)
+	G("WWBillySeen",0)
+	See("wwbill")
+THEN
+	RESPONSE #100
+		SG("WWBillySeen",1)
+		StartDialogueNoSet("WWBill")
+END
+
+// If you gave Minsc fake Boo,
+// it's just a matter of time before he finds out
+// (ONE_DAY) set in the .d file
+IF
+	Global("WWBooGone","GLOBAL",3)
+	GlobalTimerExpired("WWFakeBooTimer","GLOBAL")
+	Global("WWThisTrigger","LOCALS",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("WWFakeBoo","GLOBAL",1)
+		SetGlobal("WWThisTrigger","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+// Minsc discovers that Boo isn't exactly Boo...
+IF
+	Global("WWBooGone","GLOBAL",3)
+	GlobalTimerExpired("WWFakeBooTimer","GLOBAL")
+   	Global("WWBooLie","LOCALS",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("WWBooLie","LOCALS",2)
+		StartDialogueNoSet(Player1)
+END
+
+// Minsc's comment immediately after entering
+// Government District (Smethy has pointed you there)
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("WWInspectFountain","GLOBAL",1)
+	AreaCheck("AR1000")
+	Global("WWMinscFountain","LOCALS",0)
+THEN
+	RESPONSE #100
+		CreateCreature("WWElle",[2184.2234],7)
+		SG("WWBillyHelp",9)            // turns back on thug talks ;)
+		SetGlobal("WWMinscFountain","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+/*
+// See Elly near the fountain and will begin talk
+IF
+	See("WWElle")
+	Range("WWElle",9)
+	Global("WWMinscFountain","LOCALS",1)
+	G("WWTalkedEleanyaAlready",0)
+THEN
+	RESPONSE #100
+		SetGlobal("WWMinscFountain","LOCALS",2)
+		SetGabber(Player1)
+		StartDialogueNoSet("WWElle")
+END
+*/
+
+// Get Boo back by killing Elly (though this shouldn't be possible) But no reward...
+IF
+	Dead("WWElle")
+	Global("WWBooGone","GLOBAL",1)
+	Global("WWBooEllyDead","LOCALS",0)
+THEN
+	RESPONSE #100
+ 		SetGlobal("WWBooEllyDead","LOCALS",1)
+		SetGlobal("WWBooVictory","LOCALS",1)
+		ReallyForceSpellRES("wwboo",Myself)
+		ChangeAIScript("wwbant",OVERRIDE)
+		StartDialogueNoSet(Player1)
+END
+
+// If you've killed off the bodyguards, and Elly's run away, she will reappear
+IF
+	Global("WWBooGone","GLOBAL",1)
+	Global("WWAttackedElly","GLOBAL",1)
+	Dead("WWfght1")
+	Dead("WWfght2")
+	Dead("WWArro1")
+	Dead("WWArro2")
+THEN RESPONSE #100
+	SetGlobal("WWAttackedElly","GLOBAL",2)
+	ClearAllActions()
+	SetInterrupt(FALSE)
+	CreateCreatureOffScreen("WWElle",1)
+	ActionOverride("WWElle",Dialogue("Minsc"))
+END
+
+// Got Boo back by killing guardsmen
+IF
+	Global("WWBooGone","GLOBAL",2)
+	Global("WWAttackedElly","GLOBAL",3)
+	Global("WWBooVictory","LOCALS",0)
+	!Detect("wwelle")
+THEN
+	RESPONSE #100
+	SetGlobal("WWBooVictory","LOCALS",2)
+	StartDialogueNoSet(Player1)
+END
+
+// Got Boo back the best way
+IF
+	G("WWBooGone",2)
+	!G("WWAttackedElly",3)
+	Global("WWBooVictory","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("WWBooVictory","LOCALS",1)
+	StartDialogueNoSet(Player1)
+END
+
+// Final rewards
+IF
+	G("WWBooGone",2)
+	G("WWCowledAppearance",1)
+THEN
+	RESPONSE #100
+     	ClearAllActions()
+		SetGlobal("WWCowledAppearance","GLOBAL",2)
+        CreateCreatureObjectDoor("wwcowl1",Player1,0,0,0) // Cowled Wizard
+        CreateCreatureObjectDoor("wwcowl2",Player1,0,0,0) // Cowled Wizard
+/*		Wait(3)
+		Smallwait(9)  
+		ActionOverride("wwcowl1",StartDialogueNoSet(Player1)) - Kulyok - this didn't always trigger, let's do it via an actor's script. */
+END
+
+// Entering Chapter 4, Boo missing
+IF
+	G("Chapter",%bg2_chapter_4%)
+	G("WWBooGone",1)
+	AreaCheck("AR1600")
+	CombatCounter(0)
+	Global("WWMinscInBrynnlaw","LOCALS",0)
+THEN RESPONSE #100
+	ClearActions(Myself)
+	SetGlobal("WWMinscInBrynnlaw","LOCALS",1)
+	Dialogue(Player1)
+END
+
+/***************** End of Minsc's Unfinished Business Code *******************/

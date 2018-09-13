@@ -1,0 +1,13 @@
+IF
+  Global("U!RakshasaAmbush","GLOBAL",0)
+  Global("U!SunaLeaveSpellhold","GLOBAL",1)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_4%)
+THEN
+  RESPONSE #100
+    CreateCreature("VARAKMAH",[475.268],0)  // ~Maharadjah~
+    CreateCreature("RAKSHA01",[558.330],0)  // ~Rakshasa~
+    CreateCreature("RAKSHA01",[390.231],0)  // ~Rakshasa~
+    CreateCreature("DEADSUNA",[568.340],0)  // ~Suna Seni~
+    SetGlobal("U!RakshasaAmbush","GLOBAL",1)
+END
+

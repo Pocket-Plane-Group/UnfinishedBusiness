@@ -1,0 +1,24 @@
+IF
+  Global("RandomEncounters","GLOBAL",0)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomEncounters","GLOBAL",1)
+    CreateCreature("REELDAR",[500.454],10)
+    CreateCreature("REFIGH01",[552.476],10)
+    CreateCreature("REMAGE01",[427.548],10)
+    CreateCreature("RECLER01",[525.591],10)
+    CreateCreature("RETHIE01",[585.542],10)
+END
+
+/* Because people are still getting Suna with SCS installed - Kulyok */
+
+IF
+  Exists("RESUNA")
+  Global("UBRandomEncountersSunaDel","MYAREA",0)
+THEN
+  RESPONSE #100
+  ActionOverride("RESUNA",DestroySelf())
+  SetGlobal("UBRandomEncountersSunaDel","MYAREA",1)
+  Continue()
+END

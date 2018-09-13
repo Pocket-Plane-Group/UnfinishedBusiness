@@ -1,0 +1,8 @@
+IF
+  Global("UBImoenBio","GLOBAL",0)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_1%)
+THEN
+  RESPONSE #100
+    SetPlayerSound(Myself,2838,EXISTANCE5)
+    SetGlobal("UBImoenBio","GLOBAL",1)
+END

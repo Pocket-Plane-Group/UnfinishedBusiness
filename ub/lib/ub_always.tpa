@@ -1,0 +1,93 @@
+ACTION_IF NOT VARIABLE_IS_SET ub_always
+BEGIN
+  OUTER_SET ub_always = 1	// just do this once per install
+
+
+  // Generate chapter number constants for EET compatibility
+
+  OUTER_FOR (i = 1; i <= 10; ++i)
+  BEGIN
+    ACTION_IF GAME_IS "eet"
+    BEGIN
+      OUTER_SET EVAL "bg2_chapter_%i%" = i + 12
+    END
+    ELSE
+    BEGIN
+      OUTER_SET EVAL "bg2_chapter_%i%" = i
+    END
+  END
+
+
+  // CD_STATE_NOTVALID - custom state from CamDawg
+  // Angel: Moved here so it is no longer needed to include it in every component.
+
+  APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+  UNLESS ~CD_STATE_NOTVALID~
+
+
+  // Angel: Disable known broken areas and items from chitin.key.
+
+  ACTION_FOR_EACH broken IN xr2400.are xr2600.are iplot01k.itm iplot04g.itm iplot04h.itm iplot04i.itm
+  BEGIN
+    DISABLE_FROM_KEY ~%broken%~
+  END
+
+
+  // Include action.ids library
+
+  INCLUDE "%MOD_FOLDER%/lib/tob2soa.tph"
+
+
+  /*
+   * An array of the TRA files which should not be converted.
+   * The .tra file extension is implied and should not be explicitly added.
+   * The array can be named anything.
+   */
+  // For UB, ubsetup.tra contains in game texts as well as installation texts
+  // and need to be converted, so no exception
+  ACTION_DEFINE_ARRAY ub#noconvert BEGIN END
+
+  /*
+   * An array of the TRA files which should be reloaded after being converted.
+   * These are typically TRA files loaded by LANGUAGE.
+   * The .tra file extension is implied and should not be explicitly added.
+   * The array can be named anything.
+   */
+  // Since ubsetup-ee.tra is not stated in LANGUAGE, it doesn't have to be reloaded
+  // ubsetup is enough
+  ACTION_DEFINE_ARRAY ub#reload BEGIN ubsetup END
+
+  /*
+   * If the game is of an EE-type, this function will convert all
+   * specified or all but the specified TRA files into UTF-8 and
+   * optionally reload some of the TRA files it converted (typically
+   * the same TRA files as loaded by LANGUAGE).
+   *
+   * This function requires that %infer_charset% is set to 1 OR it
+   * requires a valid declaration for %charset_table%.
+   * It additionally requires that %tra_path% is specified such that
+   * %tra_path%/%LANGUAGE% is a valid directory containing TRA files.
+   * Furthermore, if iconv.exe is not located in %tra_path%/iconv, you must
+   * specify the location of iconv.exe with the variable %iconv_path%.
+   *
+   * You can EITHER specify the array %noconvert_array% OR the array
+   * %convert_array%. The former should contain all those TRA files
+   * which should not be converted and the latter should contain all
+   * those TRA files which should be converted. You can optionally
+   * specify %reload_array%, which should contain all those TRA files
+   * that should be reloaded through LOAD_TRA after being converted.
+   * Any TRA file already loaded before being converted would still
+   * contain unconverted text, unless reloaded.
+   */
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charset = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%/tra~
+      // charset_table = ub#charsets // Included for illustrative purposes.
+      noconvert_array = ub#noconvert
+      reload_array = ub#reload
+  END
+END
+
+

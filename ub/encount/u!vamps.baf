@@ -1,0 +1,71 @@
+IF
+  Detect([PC])
+  Range([PC],20)
+  OR(3)
+    Global("AmaWaukeen","GLOBAL",0)
+    Dead("shthass1")  // ~Ama~
+    !AreaCheck("AR0700")
+  CombatCounter(0)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+  Global("VampShadWar","GLOBAL",5)
+  GlobalTimerExpired("VampShadTimer","GLOBAL")
+  OR(2)
+    TimeGT(24)
+    TimeLT(DAWN_START)
+THEN
+  RESPONSE #100
+    SetGlobal("VampShadWar","GLOBAL",6)
+    SetGlobalTimer("VampShadTimer","GLOBAL",3600)
+    CreateCreatureObject("VVRYOKOI",Myself,0,0,0)  // ~Ryokoi~
+    CreateCreatureObject("VVMALE5",Myself,0,0,0)  // ~Vampire~
+    CreateCreatureObject("VVMALE6",Myself,0,0,0)  // ~Vampire~
+    CreateCreatureObject("VVMALE7",Myself,0,0,0)  // ~Vampire~
+    CreateCreatureObject("VVFEMAL1",Myself,0,0,0)  // ~Vampire~
+    CreateCreatureObject("VVFEMAL2",Myself,0,0,0)  // ~Vampire~
+    CreateCreatureObject("VVFEMAL3",Myself,0,0,0)  // ~Vampire~
+    CreateCreatureObject("VVARKAN",Myself,0,0,0)  // ~Arkanis Gath~
+    CreateCreatureObject("VVCAT",Myself,0,0,0)  // ~Shadow Thief~
+    ActionOverride("VVRYOKOI",FaceObject("VVMALE5"))
+    ActionOverride("VVARKAN",FaceObject("VVMALE5"))
+    ActionOverride("VVCAT",FaceObject("VVMALE5"))
+    ActionOverride("VVMALE5",FaceObject("VVARKAN"))
+    ActionOverride("VVMALE6",FaceObject("VVARKAN"))
+    ActionOverride("VVMALE7",FaceObject("VVARKAN"))
+    ActionOverride("VVFEMAL1",FaceObject("VVARKAN"))
+    ActionOverride("VVFEMAL2",FaceObject("VVARKAN"))
+    ActionOverride("VVFEMAL3",FaceObject("VVARKAN"))
+END
+
+IF
+  Detect([PC])
+  Range([PC],20)
+  OR(3)
+    Global("AmaWaukeen","GLOBAL",0)
+    Dead("shthass1")  // ~Ama~
+    !AreaCheck("AR0700")
+  CombatCounter(0)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+  Global("VampShadWar","GLOBAL",6)
+  GlobalTimerExpired("VampShadTimer","GLOBAL")
+  OR(2)
+    TimeGT(24)
+    TimeLT(DAWN_START)
+THEN
+  RESPONSE #100
+    SetGlobal("VampShadWar","GLOBAL",7)
+    SetGlobalTimer("VampShadTimer","GLOBAL",3600)
+    CreateCreatureObject("VVBODHI",Myself,0,0,0)  // ~Bodhi~
+    CreateCreatureObject("VVSHAD7",Myself,0,0,0)  // ~Shadow Thief~
+    CreateCreatureObject("VVSHAD8",Myself,0,0,0)  // ~Shadow Thief~
+    CreateCreatureObject("VVSHAD9",Myself,0,0,0)  // ~Shadow Thief~
+    CreateCreatureObject("VVSHAD10",Myself,0,0,0)  // ~Shadow Thief~
+    CreateCreatureObject("VVSHAD11",Myself,0,0,0)  // ~Shadow Thief~
+    CreateCreatureObject("VVSHAD12",Myself,0,0,0)  // ~Shadow Thief~
+    ActionOverride("VVBODHI",FaceObject("VVSHAD7"))
+    ActionOverride("VVSHAD7",FaceObject("VVBODHI"))
+    ActionOverride("VVSHAD8",FaceObject("VVBODHI"))
+    ActionOverride("VVSHAD9",FaceObject("VVBODHI"))
+    ActionOverride("VVSHAD10",FaceObject("VVBODHI"))
+    ActionOverride("VVSHAD11",FaceObject("VVBODHI"))
+    ActionOverride("VVSHAD12",FaceObject("VVBODHI"))
+END
