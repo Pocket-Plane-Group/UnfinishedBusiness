@@ -1,8 +1,0 @@
-IF
-  Global("iiGbGStart","GLOBAL",0)
-THEN
-  RESPONSE #100
-    SetGlobal("iiGbGDemo","GLOBAL",1)
-    SetGlobal("iiGbGStart","GLOBAL",1)
-    SetGlobal("iiGbGEnd","GLOBAL",1)
-END
