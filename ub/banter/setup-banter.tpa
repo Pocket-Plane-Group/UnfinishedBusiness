@@ -1,0 +1,18 @@
+//////////////////////
+//////////////////////
+// Restored Banters //
+//////////////////////
+//////////////////////
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubbanter.xxx~ //null file to identify this component
+
+COMPILE ~%MOD_FOLDER%/banter/dialog_fixes.d~
+USING   ~%MOD_FOLDER%/tra/%s/ubbanter.tra~
+
+EXTEND_BOTTOM ~minsc.bcs~ ~%MOD_FOLDER%/banter/minsc_additions.baf~
+USING         ~%MOD_FOLDER%/tra/%s/ubbanter.tra~
+
+EXTEND_BOTTOM ~yoshimo.bcs~ ~%MOD_FOLDER%/banter/yoshimo_additions.baf~
+USING         ~%MOD_FOLDER%/tra/%s/ubbanter.tra~
+
+

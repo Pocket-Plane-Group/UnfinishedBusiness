@@ -1,0 +1,62 @@
+///////////////////////
+// Sarevok's Remorse //
+///////////////////////
+
+// Authors:  Sovran      saarenvelho@hotmail.com
+//           Winterine   winterine@gmail.com
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COPY ~%MOD_FOLDER%/sarevok/u!sbook0.bam~ ~override/u!sbook0.bam~
+COPY ~%MOD_FOLDER%/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK1.ITM~
+  SAY NAME1 @1004
+  SAY NAME2 @1004
+  SAY DESC @1001
+
+COPY ~%MOD_FOLDER%/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK2.ITM~
+  SAY NAME1 @1004
+  SAY NAME2 @1004
+  SAY DESC @1002
+
+COPY ~%MOD_FOLDER%/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK3.ITM~
+  SAY NAME1 @1004
+  SAY NAME2 @1004
+  SAY DESC @1003
+
+COPY ~%MOD_FOLDER%/sarevok/U!SWAKIZ.ITM~          ~override/U!SWAKIZ.ITM~
+  SAY UNIDENTIFIED_DESC @1005
+
+ACTION_IF NOT FILE_EXISTS ~override/sarev25.bcs~
+BEGIN
+  COPY_EXISTING ~sarevok.bcs~ ~override/sarev25.bcs~
+  EXTEND_TOP ~sarev25.bcs~ ~%MOD_FOLDER%/sarevok/u!sare.baf~
+END
+ELSE
+BEGIN
+  EXTEND_TOP ~sarev25.bcs~ ~%MOD_FOLDER%/sarevok/u!sare.baf~
+END
+
+EXTEND_TOP ~yoshimo.bcs~ ~%MOD_FOLDER%/sarevok/u!syosh.baf~
+
+COPY_EXISTING ~SAREVND.2da~ ~override/SAREVND.2da~
+  SET_2DA_ENTRY 0 0 2 ~U!SARE 0~
+  SET_2DA_ENTRY 2 2 3 ~U!SAREVND~
+  SET_2DA_ENTRY 0 0 3 ~~
+  REPLACE ~U!SAREVND~ @1298
+
+/* Because Fixpack replaces slilmat with wilmat - Kulyok */
+ACTION_IF MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
+BEGIN
+  OUTER_SET actual_wilmat_state = (STATE_WHICH_SAYS #58238 FROM ~wilmat~)
+
+  COMPILE ~%MOD_FOLDER%/sarevok/u!sare1.d~ EVALUATE_BUFFER
+  USING ~%MOD_FOLDER%/tra/%s/u!sare.tra~
+END
+
+COMPILE ~%MOD_FOLDER%/sarevok/u!sare.d~
+USING   ~%MOD_FOLDER%/tra/%s/u!sare.tra~
+
+

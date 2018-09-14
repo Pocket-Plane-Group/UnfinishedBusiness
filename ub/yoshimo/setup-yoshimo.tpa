@@ -1,0 +1,22 @@
+/////////////////////////////////
+/////////////////////////////////
+// Yoshimo's Original Portrait //
+/////////////////////////////////
+/////////////////////////////////
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubyoshi.xxx~ //null file to identify this component
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  COPY ~%MOD_FOLDER%/yoshimo/NYOSHIEM.BMP~ ~override/NYOSHIEM.BMP~          
+  COPY ~%MOD_FOLDER%/yoshimo/NYOSHIES.BMP~ ~override/NYOSHIES.BMP~
+END
+ELSE
+BEGIN
+  COPY ~%MOD_FOLDER%/yoshimo/NYOSHIMM.BMP~ ~override/NYOSHIMM.BMP~          
+  COPY ~%MOD_FOLDER%/yoshimo/NYOSHIMS.BMP~ ~override/NYOSHIMS.BMP~
+  COPY ~%MOD_FOLDER%/yoshimo/NYOSHIMM.BMP~ ~portraits/NYOSHIMM.BMP~
+  COPY ~%MOD_FOLDER%/yoshimo/NYOSHIMS.BMP~ ~portraits/NYOSHIMS.BMP~
+END
+
+

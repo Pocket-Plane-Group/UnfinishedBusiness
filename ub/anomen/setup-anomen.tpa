@@ -1,0 +1,26 @@
+////////////////////////////////
+////////////////////////////////
+// Anomen's Original Portrait //
+////////////////////////////////
+////////////////////////////////
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubanomen.xxx~ //null file to identify this component
+
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  COPY ~%MOD_FOLDER%/anomen/NANOMENL.BMP~ ~override/NANOMENL.BMP~  
+  COPY ~%MOD_FOLDER%/anomen/NANOMEEM.BMP~ ~override/NANOMENM.BMP~
+  COPY ~%MOD_FOLDER%/anomen/NANOMEES.BMP~ ~override/NANOMENS.BMP~
+END
+ELSE
+BEGIN
+  COPY ~%MOD_FOLDER%/anomen/NANOMENM.BMP~ ~override/NANOMENM.BMP~
+  COPY ~%MOD_FOLDER%/anomen/NANOMENS.BMP~ ~override/NANOMENS.BMP~
+  COPY ~%MOD_FOLDER%/anomen/NANOMENM.BMP~ ~portraits/NANOMENM.BMP~
+  COPY ~%MOD_FOLDER%/anomen/NANOMENS.BMP~ ~portraits/NANOMENS.BMP~
+  COPY ~%MOD_FOLDER%/anomen/NANOMENL.BMP~ ~override/NANOMENL.BMP~ 
+  COPY ~%MOD_FOLDER%/anomen/NANOMENL.BMP~ ~portraits/NANOMENL.BMP~
+END
+
+

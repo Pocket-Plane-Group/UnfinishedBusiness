@@ -1,0 +1,32 @@
+////////////////////////////////////
+////////////////////////////////////
+// The Pai'Na/Spider's Bane Quest //
+////////////////////////////////////
+////////////////////////////////////
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubpaina.xxx~ //null file to identify this component
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL @142 @145 @146 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
+END
+
+EXTEND_TOP ~AR0701.bcs~ ~%MOD_FOLDER%/paina/U!0701.baf~     /* Temple District Sewers */
+
+COMPILE ~%MOD_FOLDER%/paina/u!paina.d~
+USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
+
+COPY ~%MOD_FOLDER%/paina/u!spbane.itm~ ~override/u!spbane.itm~
+  SAY NAME1 #10291
+  SAY NAME2 #10291
+  SAY UNIDENTIFIED_DESC @39
+  SAY IDENTIFIED_DESC @39
+
+COPY ~%MOD_FOLDER%/paina/WAND14.ITM~ ~override/WAND14.ITM~       /* Web Sack */
+  SAY IDENTIFIED_DESC @34
+
+//Does not need .TRAifying as only pertinent to English game version.
+STRING_SET ~I here you might have a sword I seek. It should have spider-like patterns on it.~ ~I hear you might have a sword I seek. It should have spider-like patterns on it.~
+
+

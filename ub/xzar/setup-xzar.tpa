@@ -1,0 +1,52 @@
+//////////////////////////////////
+//////////////////////////////////
+// Corrected "Xzar's Creations" //
+//////////////////////////////////
+//////////////////////////////////
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubxzar.xxx~ //null file to identify this component
+
+<<<<<<<<.../ub/ding0/prebek/d0xgolem.baf
+IF
+  !Allegiance("XAPPREN1",ENEMY)
+  !Allegiance("XAPPREN2",ENEMY)
+  !Dead("XAPPREN1")
+  !Dead("XAPPREN2")
+THEN
+  RESPONSE #100
+    NoAction()
+END
+>>>>>>>>
+
+COMPILE ~.../ub/ding0/prebek/d0xgolem.baf~
+
+COPY ~%MOD_FOLDER%/xzar/xgolem1.cre~ override
+  SAY NAME1 #12886
+  SAY NAME2 #12886
+  WRITE_ASCII 0x248 ~d0xgolem~ #8
+  WRITE_ASCII 0x268 ~wtasight~ #8
+
+COPY_EXISTING ar0407.are override
+  GET_OFFSET_ARRAY act_array ARE_V10_ACTORS
+  PHP_EACH act_array AS act_num => act_offset
+  BEGIN
+    READ_ASCII act_offset + 0x0080 act_cre
+    PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icgob01~
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Ghast~ #32
+      WRITE_ASCII act_offset + 0x0080 ~xghast1~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icgob02~
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Flesh Golem~ #32
+      WRITE_ASCII act_offset + 0x0080 ~xgolem~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icgob03~
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Ghast~ #32
+      WRITE_ASCII act_offset + 0x0080 ~xghast2~ #8
+    END
+  END
+BUT_ONLY
+
+

@@ -1,0 +1,20 @@
+/////////////////////////////////////
+/////////////////////////////////////
+// Artemis Entreri in Bodhi's Lair //
+/////////////////////////////////////
+/////////////////////////////////////
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubartemi.xxx~ //null file to identify this component
+
+COMPILE ~%MOD_FOLDER%/artemis/u!artemis.d~
+USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
+
+EXTEND_TOP ~AR0809.bcs~  ~%MOD_FOLDER%/artemis/U!0809.baf~
+EXTEND_TOP ~artemis.bcs~ ~%MOD_FOLDER%/artemis/U!ARTEMI.baf~
+
+

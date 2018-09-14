@@ -1,0 +1,54 @@
+////////////////////////////////////////
+////////////////////////////////////////
+// The Suna Seni/Valygar Relationship //
+////////////////////////////////////////
+////////////////////////////////////////
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubsuna.xxx~ //null file to identify this component
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL EXISTING TITLE (#74367) @211 @213 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
+  ADD_JOURNAL EXISTING TITLE (#74343) @322 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
+END
+
+COMPILE ~%MOD_FOLDER%/suna/CCSUNA.baf~                        /* Suna Seni's script in the Copper Coronet */
+        ~%MOD_FOLDER%/suna/ppsuna.baf~                        /* Suna Seni's script in Spellhold */
+        ~%MOD_FOLDER%/suna/Resuna.baf~                        /* Suna Seni's script in the Slums */
+        ~%MOD_FOLDER%/suna/u!cut41g.baf~                      /* Display Suna in Spellhold Cutscene */
+        ~%MOD_FOLDER%/suna/ppsuna.d~                          /* Suna Seni's dialog in Spellhold */
+        ~%MOD_FOLDER%/suna/SUNA.D~                            /* Suna Seni's dialog in Athkatla */
+        ~%MOD_FOLDER%/suna/u!suna.d~
+        ~%MOD_FOLDER%/suna/u!1101.baf~                        /* Removes Valygar from his cabin if not given the quest */
+USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
+
+EXTEND_TOP    ~ar1101.bcs~  ~override/u!1101.bcs~   /* Removes Valygar from his cabin if not given the quest */
+EXTEND_TOP    ~ar0041.bcs~  ~%MOD_FOLDER%/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0042.bcs~  ~%MOD_FOLDER%/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0043.bcs~  ~%MOD_FOLDER%/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0044.bcs~  ~%MOD_FOLDER%/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0045.bcs~  ~%MOD_FOLDER%/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar0046.bcs~  ~%MOD_FOLDER%/suna/u!sunare.baf~ EVALUATE_BUFFER /* Removes Suna Seni from the Random Encounters */
+EXTEND_TOP    ~ar1516.bcs~  ~%MOD_FOLDER%/suna/u!1516.baf~    /* Spawns Suna in Spellhold */
+EXTEND_TOP    ~ar0300.bcs~  ~%MOD_FOLDER%/suna/u!0300.baf~    /* Spawns Suna in the Docks */
+EXTEND_TOP    ~ppjon.bcs~   ~%MOD_FOLDER%/suna/u!ppjon.baf~   /* Determines whether or not to spawn Suna in the Spellhold cutscene */
+EXTEND_TOP    ~baldur.bcs~  ~%MOD_FOLDER%/suna/u!baldur.baf~  /* Begins Valygar's dialog shortly after Suna's death */ 
+EXTEND_TOP    ~ar0406.bcs~  ~%MOD_FOLDER%/suna/u!0406.baf~    /* Spawns Suna at the Copper Coronet */ /* Kulyok - other mods may add looping scripts to CC and baldur, got a report, so EXTEND_TOP */
+
+COPY_EXISTING ~AR1101.are~  ~override/AR1101.are~   /* Valygar's Cabin */
+WRITE_ASCII   ~0x94~        ~AR1101~
+
+COPY ~%MOD_FOLDER%/suna/ppsuna.cre~   ~override/ppsuna.cre~
+     ~%MOD_FOLDER%/suna/resuna.cre~   ~override/resuna.cre~
+     ~%MOD_FOLDER%/suna/suna.cre~     ~override/suna.cre~     
+SAY NAME1 @21
+SAY NAME2 @21
+REPLACE_TEXTUALLY CASE_INSENSITIVE ~sw1h27~ ~sw1h08~
+
+/* Places Arbane's Sword on Eldarin */
+COPY_EXISTING reeldar.cre override
+  ADD_CRE_ITEM sw1h27 #0 #0 #0 NONE WEAPON2
+BUT_ONLY
+
+

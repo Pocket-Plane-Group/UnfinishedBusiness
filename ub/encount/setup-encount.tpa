@@ -1,0 +1,198 @@
+/////////////////////////
+/////////////////////////
+// Restored Encounters //
+/////////////////////////
+/////////////////////////
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+/* Vampire Encounters */
+EXTEND_TOP vampsttp.bcs ~%MOD_FOLDER%/encount/U!vamps.baf~ EVALUATE_BUFFER
+
+EXTEND_TOP vvbodhi.bcs ~%MOD_FOLDER%/encount/vvbodhi.baf~ /* Kulyok */
+
+COPY_EXISTING vvbodhi.cre override
+  REPLACE_CRE_ITEM minhp20 #0 #0 #0 NONE RRING
+BUT_ONLY
+
+COMPILE ~%MOD_FOLDER%/encount/ubvv.d~ /* Kulyok */
+
+EXTEND_TOP vvshaesc.bcs ~%MOD_FOLDER%/encount/vvshaesc.baf~ /* Kulyok */
+EXTEND_TOP vvvamesc.bcs ~%MOD_FOLDER%/encount/vvvamesc.baf~ /* Kulyok */
+
+COPY_EXISTING ~vvarkan.bcs~ ~override~ /* Kulyok */
+  DECOMPILE_AND_PATCH
+  BEGIN
+    REPLACE_TEXTUALLY ~Dead("vvfemal3")~ ~Dead("vvfemal3") Global("O#UBArkanTalkVV6Dead","GLOBAL",0)~
+  END
+BUT_ONLY
+
+/* Kulyok */
+COPY_EXISTING vvmale5.cre override
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvmale6.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvmale7.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvfemal1.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvfemal2.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+COPY_EXISTING vvfemal3.cre override
+  WRITE_ASCII 0x2cc ~vvmale5~  #8  // dialogue
+  WRITE_ASCII 0x268 ~~ #8	 // default script
+BUT_ONLY
+
+/* The Muggers in the Slums */
+COPY_EXISTING mugger3.cre override
+  WRITE_ASCII 0x280 mugger3 #18    /* Correct the death variable */
+BUT_ONLY
+
+/* The Slums */
+EXTEND_TOP ar0400.bcs ~%MOD_FOLDER%/encount/u!0400.baf~
+
+COMPILE ~%MOD_FOLDER%/encount/slumvic.baf~
+
+/* Reputation Trap */
+EXTEND_TOP amntrp01.bcs ~%MOD_FOLDER%/encount/U!gtrap.baf~
+
+COMPILE ~%MOD_FOLDER%/encount/repthf1.d~
+USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
+
+/* Restored Hell Hound Encounters */
+COPY_EXISTING ar0412.are override /* Planar Sphere Elemental Rooms */
+  GET_OFFSET_ARRAY act_array ARE_V10_ACTORS
+  PHP_EACH act_array AS act_num => act_offset
+  BEGIN
+    READ_ASCII act_offset + 0x0080 act_cre
+    PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalcol~ && act_num = 0x0b
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Winter Wolf~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsice03~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalcol~ && act_num = 0x0c
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Snow Troll~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsice01~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalcol~ && act_num = 0x0d
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Snow Troll~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsice01~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalfir~ && act_num = 0x0e
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Hell Hound~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsfir05~ #8
+    END
+    ELSE PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~icsalfir~ && act_num = 0x0f
+    BEGIN
+      WRITE_ASCII act_offset + 0x0000 ~Hell Hound~ #32
+      WRITE_ASCII act_offset + 0x0080 ~obsfir05~ #8
+    END
+  END
+BUT_ONLY
+
+COMPILE ~%MOD_FOLDER%/encount/houndtrp.baf~  /* Unseeing Eye Cult area, Hellhound Ambush trigger */
+
+/* The Greyhand Encounter */
+
+/* Kulyok */
+STRING_SET ~Ah yes, the tone is as described. You are <CHARNAME>, aren't you. <CHARNAME> of Baldur's Gate who's father is Gorion.~ ~Ah yes, the tone is as described. You are <CHARNAME>, aren't you. <CHARNAME> of Baldur's Gate whose father is Gorion.~ 
+STRING_SET ~Capture? Noooo, that's not what I intend. And neither will this aid someone else. In fact, this will severly hamper his goals.~ ~Capture? Noooo, that's not what I intend. And neither will this aid someone else. In fact, this will severely hamper his goals.~
+STRING_SET ~I have no master, and the onw I owe does not know of my plan. No, this will not benefit him in the least.~ ~I have no master, and the one I owe does not know of my plan. No, this will not benefit him in the least.~
+STRING_SET ~You, <CHARNAME>, are of great interest. By killing you, I will severly hurt the one I hate. It is my revenge for his... for his treatment!~ ~You, <CHARNAME>, are of great interest. By killing you, I will severely hurt the one I hate. It is my revenge for his... for his treatment!~
+STRING_SET ~Yes, now you look with more interest in me. Well it will not last. I have but one reason for being here; you will not survive my deadly intent.~ ~Yes, now you look with more interest at me. Well it will not last. I have but one reason for being here; you will not survive my deadly intent.~
+STRING_SET ~No one sent me, but I am here because of someone and their interest in you. I owe that someone a debt, and I will pay it thorough you.~ ~No one sent me, but I am here because of someone and their interest in you. I owe that someone a debt, and I will pay it through you.~
+
+COMPILE ~%MOD_FOLDER%/encount/u!gryhnd.d~
+        ~%MOD_FOLDER%/encount/u!gryhnd.baf~
+USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
+
+COPY ~%MOD_FOLDER%/encount/greyhand.cre~ override
+  SAY NAME1 @56
+  SAY NAME2 @56
+
+COPY_EXISTING ar1600.are override /* Adds Greyhand to Brynnlaw */
+  LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 0x0a87
+    fj_loc_y          = 0x00ac
+    fj_dest_x         = 0x0a87
+    fj_dest_y         = 0x00ac
+    fj_animation      = 0x6000
+    fj_orientation    = 0x03
+    STR_VAR
+    fj_structure_type = ~actor~
+    fj_name           = ~Greyhand~
+    fj_cre_resref     = ~greyhand~
+  END
+
+// Restored Olive Jellies in Ust Natha
+COPY_EXISTING jeloch01.cre ~override/jeloli01.cre~
+  SAY NAME1 ~Olive Slime~
+  SAY NAME2 ~Olive Slime~
+  WRITE_LONG  0x014 0x1a4
+  WRITE_SHORT 0x028 0x7901
+  WRITE_BYTE  0x273 0x96
+  WRITE_ASCII 0x280 jeloli01
+  REPLACE_CRE_ITEM jellol1 #0 #0 #0 NONE WEAPON1 EQUIP
+
+COPY_EXISTING ghoul1.itm ~override/jellol1.itm~
+  PATCH_FOR_EACH description IN 0x08 0x0c 0x50 0x54
+  BEGIN
+    WRITE_LONG description 0x286c
+  END
+  WRITE_LONG  0x18 0x20
+  WRITE_ASCII 0x3a ~~ #8
+  LPF ALTER_ITEM_HEADER
+    INT_VAR
+    range	= 0x0014
+    dicesides	= 0x02
+    dicenumber	= 0x00
+    projectile	= 0x006c
+    STR_VAR
+    icon	= ~~
+  END
+
+ACTION_IF MOD_IS_INSTALLED setup-bg2fixpack.tp2 110
+BEGIN
+  COPY_EXISTING ar2200.bcs override
+    DECOMPILE_AND_PATCH
+    BEGIN
+      REPLACE_TEXTUALLY ~CreateCreature("[^"]*",\[4422\.3524\],6)~ ~CreateCreature("jeloli01",[4422.3524],6)~
+      REPLACE_TEXTUALLY ~CreateCreature("[^"]*",\[4052\.3574\],6)~ ~CreateCreature("jeloli01",[4052.3574],6)~
+    END
+  BUT_ONLY
+END
+
+//AR2400 spawns
+COPY_EXISTING ~ar2400.are~ ~override~
+  READ_LONG 0xc0 rest_off
+  WRITE_LONG rest_off + 0x40 0x2796
+  FOR (i1 = 0x48; i1 < 0x78; i1 += 0x08)
+  BEGIN
+    WRITE_ASCII rest_off + i1 umbhul01
+  END
+  WRITE_ASCII rest_off + 0x78 uddwarf #32
+  WRITE_SHORT rest_off + 0x98 0x07
+BUT_ONLY
+
+

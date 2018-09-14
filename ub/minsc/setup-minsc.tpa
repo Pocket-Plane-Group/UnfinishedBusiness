@@ -1,0 +1,135 @@
+///////////////////////////
+///////////////////////////
+// The Kidnapping of Boo //
+///////////////////////////
+///////////////////////////
+
+/* AUTHOR ~Cliffette, supercliffette@yahoo.com.au~ */
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubminsc.xxx~ //null file to identify this component
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+  ADD_JOURNAL @69 @84 @102 @465 @671 @687 @697 @727 @729 @751 @754 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
+  ADD_JOURNAL @469 @480 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
+  ADD_JOURNAL @477 @788 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
+  ADD_JOURNAL @638 @644 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
+END
+
+COPY_EXISTING ~bag02.itm~ ~override/wwbag02.itm~ /* Kulyok */
+COPY_EXISTING ~bag02.sto~ ~override/wwbag02.sto~
+
+/*
+DavidW- this is unused (presumably part of Cliffette's not-quite implemented extra area content)
+COPY_EXISTING ~AR0042.tis~	~Override/arwwbo.tis~
+*/
+
+/*
+DavidW: remove trolls
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwtrolb.cre~	  ~Override/wwtrol1.cre~  WRITE_ASCII ~0x280~	~wwtrol1~
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwtrolb.cre~	  ~Override/wwtrol2.cre~  WRITE_ASCII ~0x280~	~wwtrol2~
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwtrolb.cre~	  ~Override/wwtrol3.cre~  WRITE_ASCII ~0x280~	~wwtrol3~   */
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwbilly.cre~   ~Override/wwbilly.cre~ SAY NAME1 @1  SAY NAME2 @1
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwdelag.cre~   ~Override/wwdelag.cre~ SAY NAME1 @2  SAY NAME2 @2
+COPY ~%MOD_FOLDER%/Minsc/Cre/wweff.cre~ 	  ~Override/wweff.cre~ 	 SAY NAME1 @3  SAY NAME2 @3
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwsten.cre~ 	  ~Override/wwsten.cre~  SAY NAME1 @4  SAY NAME2 @4
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwvivi.cre~ 	  ~Override/wwvivi.cre~  SAY NAME1 @5  SAY NAME2 @5
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwswoo.cre~ 	  ~Override/wwswoo.cre~  SAY NAME1 @6  SAY NAME2 @6
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwelle.cre~ 	  ~Override/wwelle.cre~  SAY NAME1 @7  SAY NAME2 @7 WRITE_BYTE 0x237 2 /* Kulyok v25 */
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwcowl1.cre~   ~Override/wwcowl1.cre~
+     ~%MOD_FOLDER%/Minsc/Cre/wwcowl2.cre~   ~Override/wwcowl2.cre~ SAY NAME1 @8  SAY NAME2 @8
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwfght1.cre~   ~Override/wwfght1.cre~
+     ~%MOD_FOLDER%/Minsc/Cre/wwfght2.cre~   ~Override/wwfght2.cre~
+     ~%MOD_FOLDER%/Minsc/Cre/wwarro1.cre~   ~Override/wwarro1.cre~
+     ~%MOD_FOLDER%/Minsc/Cre/wwarro2.cre~   ~Override/wwarro2.cre~ SAY NAME1 @9  SAY NAME2 @9
+COPY ~%MOD_FOLDER%/Minsc/Cre/wwrati.cre~    ~Override/wwrati.cre~  SAY NAME1 @10 SAY NAME2 @10
+COPY ~%MOD_FOLDER%/Minsc/items~ 		  ~Override~
+
+ACTION_IF ENGINE_IS "bg2ee" BEGIN COPY ~%MOD_FOLDER%/Minsc/itemsEE~ ~Override~ END /* Kulyok v25 */
+
+COPY ~%MOD_FOLDER%/Minsc/Items/wwblet.spl~  ~Override/wwblet.spl~  SAY NAME1 ~Boolets~ SAY NAME2 ~Boolets~ /*No need to translate*/
+COPY ~%MOD_FOLDER%/Minsc/Items/wwboo.spl~   ~Override/wwboo.spl~
+     ~%MOD_FOLDER%/Minsc/Items/wwfboo.spl~  ~Override/wwfboo.spl~
+     ~%MOD_FOLDER%/Minsc/Items/wwnoboo.spl~ ~Override/wwnoboo.spl~ SAY ~0x08~ @12  SAY ~0x50~ @12
+COPY ~%MOD_FOLDER%/Minsc/Items/wwnboo.itm~  ~Override/wwnboo.itm~  SAY NAME1 @13 SAY NAME2 @13 SAY DESC @14
+COPY ~%MOD_FOLDER%/Minsc/Items/wweboo.itm~  ~Override/wweboo.itm~  SAY NAME1 @15 SAY NAME2 @15 SAY DESC @16
+
+
+// Minsc existing dialogue fix
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/Minsc/Dialogue/wwminscub.d~
+USING   ~%MOD_FOLDER%/tra/%s/wwminscub.tra~
+COMPILE ~%MOD_FOLDER%/Minsc/Dialogue/wwswappants.d~
+COMPILE ~%MOD_FOLDER%/Minsc/Dialogue/wwinterj.d~
+USING   ~%MOD_FOLDER%/tra/%s/wwinterj.tra~
+COMPILE ~%MOD_FOLDER%/Minsc/Dialogue/wwunderpants.d~
+        ~%MOD_FOLDER%/Minsc/Scripts~
+USING   ~%MOD_FOLDER%/tra/%s/wwgeneral.tra~
+
+COPY ~override/wwelle.bcs~ ~override/wwelle.bcs~
+REPLACE ~123432~ @7
+
+// Kulyok
+COPY_EXISTING ~delon.bcs~ ~override~ /* Kulyok */
+DECOMPILE_AND_PATCH
+BEGIN
+  REPLACE_TEXTUALLY ~Dialog("Minsc")~ ~Wait(5) Dialog("Minsc")~
+END
+BUT_ONLY
+
+// Append chars scripts
+EXTEND_TOP ~minsc.bcs~   ~%MOD_FOLDER%/Minsc/Appends/wwub_minsc2.baf~
+EXTEND_TOP ~minsc.bcs~   ~%MOD_FOLDER%/Minsc/Appends/wwub_minsc.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~edwin.bcs~   ~%MOD_FOLDER%/Minsc/Appends/wwub_edwin.baf~
+EXTEND_TOP ~keldorn.bcs~ ~%MOD_FOLDER%/Minsc/Appends/wwub_kel.baf~
+EXTEND_TOP ~jan.bcs~     ~%MOD_FOLDER%/Minsc/Appends/wwub_jan.baf~
+EXTEND_TOP ~viconia.bcs~ ~%MOD_FOLDER%/Minsc/Appends/wwub_vic.baf~
+EXTEND_TOP ~valygar.bcs~ ~%MOD_FOLDER%/Minsc/Appends/wwub_valy.baf~
+EXTEND_TOP ~yoshimo.bcs~ ~%MOD_FOLDER%/Minsc/Appends/wwub_yosh.baf~
+EXTEND_TOP ~ar0300.bcs~  ~%MOD_FOLDER%/Minsc/Appends/wwar0300.baf~
+// EXTEND_TOP ~ar0314.bcs~  ~%MOD_FOLDER%/Minsc/Appends/wwar0314.baf~ /* Kulyok */
+// EXTEND_TOP ~ar1900.bcs~	~%MOD_FOLDER%/Minsc/Appends/arwwbo.baf~  - commented out by DavidW
+
+// Eggish
+APPEND ~LOADHINT.2DA~ ~UB advert~
+UNLESS ~UB~
+
+COPY_EXISTING ~loadhint.2da~ ~override~
+  REPLACE ~advert~ @19
+IF ~advert~
+
+// DavidW: revert the druid-grove excursion
+
+COPY_EXISTING ~wwgovt.bcs~ ~override~
+  DECOMPILE_AND_PATCH
+  BEGIN
+    REPLACE_TEXTUALLY ~SetGlobal("WWSetTrollAreaOn","GLOBAL",1)~ ~~
+    REPLACE_TEXTUALLY ~\[421.2667\]~ ~[2663.1321]~
+    REPLACE_TEXTUALLY ~\[470.2624\]~ ~[2631.1277]~
+    REPLACE_TEXTUALLY ~\[525.2590\]~ ~[2583.1251]~
+    REPLACE_TEXTUALLY ~\[464.2706\]~ ~[2600.1346]~
+    REPLACE_TEXTUALLY ~\[507.2664\]~ ~[2677.1389]~
+    REPLACE_TEXTUALLY ~\[551.2628\]~ ~[2760.1351]~
+    REPLACE_TEXTUALLY CASE_INSENSITIVE ~AR1900~ ~AR1000~
+  END
+BUT_ONLY
+
+/* DavidW: the "boo is back" spell is sometimes being applied multiple times, with the result
+that Minsc gets a stacked THAC0 bonus. We edit the spell so that it grants protection from itself 
+and for safety, do this with the other relevant spells ("wwfboo" and "wwnoboo")*/
+
+COPY_EXISTING ~wwboo.spl~ ~override~
+              ~wwfboo.spl~ ~override~
+              ~wwnoboo.spl~ ~override~
+    LPF CLONE_EFFECT
+      INT_VAR
+      check_global	= 0
+      match_opcode	= 54
+      opcode		= 206
+      parameter1	= ~-1~
+      parameter2	= 0
+      STR_VAR
+      resource		= EVALUATE_BUFFER ~%RESOURCE_RES%~
+    END
+
+

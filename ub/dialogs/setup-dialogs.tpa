@@ -1,0 +1,187 @@
+////////////////////////////
+////////////////////////////
+// Restored Minor Dialogs //
+////////////////////////////
+////////////////////////////
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+COMPILE ~%MOD_FOLDER%/dialogs/u!minor.d~
+        ~%MOD_FOLDER%/dialogs/obshal03.d~
+USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
+
+// Added by DavidW - new translation-independent way to restore strings
+
+<<<<<<<< .../ub/davidw/restorestring.2da
+35168  haerda95
+37155  janjan67
+46016  irenic36
+46021  irenic37
+58250  ellesi02
+58266  ellesi17
+17890  valyga01
+>>>>>>>>
+
+<<<<<<<< .../ub/davidw/dw#restorestring.tpa
+>>>>>>>>
+
+COPY ~.../ub/davidw/dw#restorestring.tpa~ ~override~
+
+COPY - ~.../ub/davidw/restorestring.2da~ ~.../ub/davidw/restorestring.2da~
+     READ_2DA_ENTRIES_NOW ~string_entries~ 2
+     FOR (i=0;i<~string_entries~;i=i+1) BEGIN
+        READ_2DA_ENTRY_FORMER ~string_entries~ i 0 ~stringnum~
+        READ_2DA_ENTRY_FORMER ~string_entries~ i 1 ~wavfile~
+        GET_STRREF ~stringnum~ ~stringtext~
+        INNER_ACTION BEGIN
+           APPEND_OUTER ~override/dw#restorestring.tpa~ ~STRING_SET %stringnum% "%stringtext%" [%wavfile%]~
+        END
+     END
+
+REINCLUDE ~override/dw#restorestring.tpa~
+
+COPY_EXISTING obshal04.cre override
+  WRITE_ASCII 0x0250 ~~ #8 // Shouldn't have OBSHAL01 script
+BUT_ONLY
+
+<<<<<<<<.../ub/halflings/fixer.baf
+IF
+  See([2])
+  Global("TALKED","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("TALKED","LOCALS",1)
+    StartDialogueNoSet(LastSeenBy(Myself))
+END
+>>>>>>>>
+
+EXTEND_TOP obshal01.bcs ~.../ub/halflings/fixer.baf~
+
+EXTEND_TOP obshal03.bcs ~.../ub/halflings/fixer.baf~
+
+<<<<<<<<.../ub/halflings/fixer.d
+REPLACE obshal01
+  IF
+    ~~ 1
+  SAY #33115
+    IF
+      ~~ EXIT
+  END
+  IF
+    ~~ 2
+  SAY #33116
+    IF
+      ~~ EXIT
+  END
+  IF
+    ~~ 3
+  SAY #33117
+    IF 
+      ~~ EXIT
+  END
+END
+
+REPLACE obshal03
+  IF 
+    ~NumTimesTalkedTo(0)~ 0
+  SAY #33118
+    + ~~ + #33119 + 2
+    + ~~ + #33120 + 1
+    + ~~ + #33122 + 3
+    + ~InParty("MINSC")~ + #33133 EXTERN ~MINSCJ~ 63
+  END
+  IF
+    ~~ 1
+  SAY #33121
+    IF 
+      ~~ EXIT
+  END
+  IF
+    ~~ 2
+  SAY #33123
+    IF 
+      ~~ EXIT
+  END
+  IF
+    ~~ 3
+  SAY #33124
+    IF 
+      ~~ EXIT
+  END
+  IF
+    ~~ 4
+  SAY #33135
+    IF 
+      ~~ EXIT
+  END
+END
+>>>>>>>>
+
+COMPILE ~.../ub/halflings/fixer.d~
+
+// Replaces duplicate DOCSOL02 with DOCSOL03 in Docks Barracks
+COPY_EXISTING ar0332.are override
+PATCH_IF NOT FILE_CONTAINS_EVALUATED (~%SOURCE_FILE%~ ~docsol03~) BEGIN /* Kulyok */
+  GET_OFFSET_ARRAY act_array ARE_V10_ACTORS
+  PHP_EACH act_array AS act_num => act_offset
+  BEGIN
+    READ_ASCII act_offset + 0x0080 act_cre
+    PATCH_IF ~%act_cre%~ STRING_EQUAL_CASE ~docsol02~ && act_num == 0x02
+    BEGIN
+      WRITE_ASCII act_offset + 0x0080 ~docsol03~
+    END
+  END
+END
+BUT_ONLY
+
+COPY_EXISTING ~docsol03.bcs~ ~override~ /* Kulyok */
+DECOMPILE_AND_PATCH
+BEGIN
+  REPLACE_TEXTUALLY EXACT_MATCH ~See([PC])~ ~See([PC]) InMyArea("docsol02") !StateCheck("docsol02",CD_STATE_NOTVALID)~
+END
+BUT_ONLY_IF_IT_CHANGES 
+
+//Simyaz and the Silver Sword in the Underdark.
+<<<<<<<<ub/udsimyaz_reaction.d
+REPLACE_TRIGGER_TEXT udsimyaz ~ReactionGT(LastTalkedToBy,FRIENDLY_UPPER)~ ~Reaction(LastTalkedToBy,FRIENDLY_UPPER)~
+>>>>>>>>
+
+COMPILE ~%MOD_FOLDER%/udsimyaz_reaction.d~
+
+ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
+BEGIN
+  //Glaicas Charm bug fix
+  COPY_EXISTING ar1303.bcs override
+    DECOMPILE_AND_PATCH
+    BEGIN
+      REPLACE_TEXTUALLY ~^    \(ActionOverride("kpglai01",\|\)ApplySpell("kpglai01",WIZARD_TRUE_DISPEL_MAGIC)\()\|\)$~ ~    \1ApplySpell("kpglai01",FORCE_DISPEL_MAGIC)\2~
+    END
+  BUT_ONLY
+  
+  //Imoen213 script
+  COPY_EXISTING imoen213.cre override
+     WRITE_ASCII 0x248 ~imoen2~ #8
+  BUT_ONLY
+  
+  // Count Claylan and Lady Alicia
+  COPY_EXISTING wcust01.cre override
+                wcust02.cre override
+    WRITE_ASCIIE 0x280 ~%SOURCE_RES%~ #18
+  BUT_ONLY
+  
+  //devSin's code for load hints
+  ACTION_IF GAME_INCLUDES ~tob~ // ToB-only stuff check
+  BEGIN
+    APPEND loadh25.2da  ~79          34572~
+    UNLESS ~^79[         ]+~
+    APPEND loadhint.2da ~75          34572~
+    UNLESS ~^75[         ]+~
+    APPEND loadhint.2da ~76          72818~
+    UNLESS ~^76[         ]+~
+  END
+END
+
+

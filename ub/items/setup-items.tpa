@@ -1,0 +1,158 @@
+///////////////////////
+///////////////////////
+// Item Restorations //
+///////////////////////
+///////////////////////
+
+ACTION_IF ENGINE_IS "bg2ee"
+BEGIN
+  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+/* Prebek's Home */
+COPY_EXISTING ar0407.are override
+  READ_ASCII  0x94 area_script
+  PATCH_IF NOT FILE_EXISTS_IN_GAME ~%area_script%.bcs~
+  BEGIN
+    SPRINT area_script ar0407
+    WRITE_ASCII 0x94 ar0407 #8
+  END
+BUT_ONLY
+
+EXTEND_TOP ~%area_script%.bcs~ ~%MOD_FOLDER%/items/u!0407.baf~ /* Prebek's Home, Shazzellim, Container 3, Item 1 */
+
+
+
+/* Wolfskin Bag */
+COPY_EXISTING bag01.itm override
+  READ_LONG  0x18 flags
+  WRITE_LONG 0x18 flags | 0x01
+  SAY NAME1 @31
+  SAY NAME2 @31
+  SAY UNIDENTIFIED_DESC @32
+  SAY IDENTIFIED_DESC   @32
+BUT_ONLY
+
+/* Wolfskin Bag - related .sto file */
+COPY_EXISTING bag01.sto override
+  WRITE_SHORT 0x22 0x0a          /* Change bag capacity from 5 to 10 */
+  SAY STORE_NAME @31
+BUT_ONLY
+
+/* The Copper Coronet, places the Wolfskin Bag on the Beastmaster */
+COPY_EXISTING beast.cre override
+  ADD_CRE_ITEM bag01 #0 #0 #0 NONE INV1
+
+/* Shazzellim */
+COPY_EXISTING sw1h50.itm  override
+  READ_LONG  0x1e unusability
+  WRITE_LONG 0x1e unusability | 0x04  /* Restrict Good-aligned */
+  SAY IDENTIFIED_DESC @33             /* Altered description for Shazzellim */
+BUT_ONLY
+
+/* Bala's Axe */
+
+// On bg2ee, this gets imported already, as per CamDawg's report.
+ACTION_IF NOT ENGINE_IS "bg2ee"
+BEGIN
+  COPY_EXISTING ax1h07.itm override
+    WRITE_SHORT 0x42 0x28
+  BUT_ONLY
+
+  EXTEND_TOP ar0413.bcs ~%MOD_FOLDER%/items/u!0413.baf~ /* Planar Sphere, Engine Room, Bala's Axe, Container 1 */
+END
+
+/* Wraithform */
+COPY ~%MOD_FOLDER%/items/spwi315.spl~  override /* Wraithform spell file */
+     ~%MOD_FOLDER%/items/u!scrl03.itm~ override /* Wraithform scroll item file */
+  SAY NAME1 #12020
+  SAY NAME2 #12020
+  SAY UNIDENTIFIED_DESC #12144
+  SAY IDENTIFIED_DESC   #12144
+
+COPY_EXISTING scrolls.sto override // The Pen and Parchment Store
+  ADD_STORE_ITEM ~u!scrl03~ BEFORE scrl1t #1 #0 #0 IDENTIFIED #5
+
+/* Boots of the West */
+COPY ~%MOD_FOLDER%/items/misc8j.itm~ override
+  SAY NAME1             #43877
+  SAY NAME2             #43877
+  SAY UNIDENTIFIED_DESC #43878
+  SAY IDENTIFIED_DESC   #43878
+
+/* Umar Hills, places the Boots of the West on Derrick */
+COPY_EXISTING valran01.cre override
+  ADD_CRE_ITEM misc8j #0 #0 #0 NONE BOOTS
+
+/* Boots of Hastened Departure */
+COPY_EXISTING boot09.itm override
+  SAY NAME2           @97
+  SAY IDENTIFIED_DESC @98
+  GET_OFFSET_ARRAY hd_array ITM_V10_HEADERS
+  PHP_EACH hd_array AS int => hd_offset
+  BEGIN
+    READ_ASCII hd_offset + 0x0004 icon
+    PATCH_IF ~%icon%~ STRING_EQUAL ~~ || ~%icon%~ STRING_EQUAL_CASE ~none~
+    BEGIN
+      WRITE_ASCII hd_offset + 0x0004 iboot09 #8
+    END
+  END
+BUT_ONLY
+
+/* Adds the Boots of Hastened Departure to Greyhand */
+ACTION_IF FILE_EXISTS_IN_GAME greyhand.cre THEN BEGIN
+  COPY_EXISTING greyhand.cre override
+    REPLACE_CRE_ITEM boot09 #0 #0 #0 NONE BOOTS
+  BUT_ONLY
+END
+
+ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0 THEN BEGIN
+  // wallag's stuff now available -from fixpack
+  <<<<<<<< .../ub/baf/ar1403.baf
+  IF
+    Global("CDDropStuff","AR1403",0)
+  THEN
+  RESPONSE #100
+    SetGlobal("CDDropStuff","AR1403",1)
+    ActionOverride("shabod01",DropInventory())
+    Continue()
+  END
+  >>>>>>>>
+  EXTEND_TOP ~ar1403.bcs~ ~.../ub/baf/ar1403.baf~
+  
+  // make wallag a permanent corpse
+  COPY_EXISTING shabod01.cre override
+    READ_BYTE  0x10 flags
+    WRITE_BYTE 0x10 flags || 0x04
+  BUT_ONLY
+END
+
+
+// Third journal of Irenicus
+// by Angel
+
+// Proper text
+COPY_EXISTING "misc9k.itm" "override"
+  SAY UNIDENTIFIED_DESC @1312
+
+// Description bam is way off center,
+// provide a properly centered one.
+COPY_LARGE "ub/items/cmisc9k.bam" "override"
+
+// Add to other journals on desk.
+COPY_EXISTING "ar1515.are" "override"
+  LAUNCH_PATCH_FUNCTION ADD_AREA_ITEM
+    INT_VAR
+    container_to_add_to	= 5
+    STR_VAR
+    item_to_add		= "misc9k"
+  END
+
+// Remove extra copy of first journal.
+COPY_EXISTING "ar1516.are" "override"
+  LAUNCH_PATCH_FUNCTION DELETE_AREA_ITEM
+    STR_VAR
+    item_to_delete	= "misc9i"
+  END
+
+

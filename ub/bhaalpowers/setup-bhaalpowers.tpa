@@ -1,0 +1,32 @@
+////////////////////////////////
+////////////////////////////////
+// Restored Bhaalspawn Powers //
+////////////////////////////////
+////////////////////////////////
+
+/* AUTHOR ~David Gaider~ */
+
+COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubpower.xxx~ //null file to identify this component
+
+EXTEND_TOP ~AR4500.bcs~ ~%MOD_FOLDER%/powers/u!4500.baf~
+
+//Dark Taint fix
+COPY ~%MOD_FOLDER%/bhaalpowers/BHAAL2B.SPL~ ~override/BHAAL2B.SPL~
+
+//Hand of Murder fix
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B1.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B2.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B3.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B4.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+COPY_EXISTING ~SAREVEFF.EFF~ ~override/BH3B5.EFF~
+  WRITE_EVALUATED_ASCII 0x30 ~%DEST_RES%~ #8
+
+
