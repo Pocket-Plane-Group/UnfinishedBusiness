@@ -1,7 +1,0 @@
-IF
-  Global("UBSW1H50","AR0407",0)
-THEN
-  RESPONSE #100
-      SetGlobal("UBSW1H50","AR0407",1)
-      ActionOverride("Container 2",CreateItem("SW1H50",0,0,0))
-END

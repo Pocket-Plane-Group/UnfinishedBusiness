@@ -1,7 +1,0 @@
-IF
-     Global("ubitmanishai","GLOBAL",0)
-THEN
-     RESPONSE #100
-           GiveItemCreate("BRAC18","THIEF7",1,0,0)
-           SetGlobal("ubitmanishai","GLOBAL",1)
-END

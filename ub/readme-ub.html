@@ -91,8 +91,7 @@ UB Homepage: <a HREF="http://www.pocketplane.net/ub" TARGET="_blank">http://www.
   <p>This component restores some of the aspects of the final fight with Irenicus that were present in the coding but unassigned. This includes restoring innate abilities to his demon minions, and allowing his mislead image to function correctly. The battle will become slightly harder as a result, but nowhere near the level of the Improved Irenicus component of the Tactics mod. Compatibility with this Tactics component is currently undetermined. Special thanks to
   </a><a href="http://pocketplane.net/sim">SimDing0</a> for his contribution of this component.
   <p><b>L. <a NAME="gorf"></a>Gorf the Squisher Fix, by Gebhard Blucher</b>
-  <p>Quote Gebhard Blucher: <i>"A replacement script for 'Gorf the Squisher'. This fixes a common bug with the Gorf/Mazzy sub-plot."</i> <br> The original file, along with more of Blucher's work, can be found
-  <a href="http://www.fortunecity.com/boozers/winelodge/79/">here</a>. (As of version 18, this component will only be installed if the BG2 Fixpack is not installed.) 
+  <p>DEPRECATED.  BG2Fixpack has a superior version of this, and BG2EE already has this fix by default.
   <p><b>M. <a NAME="items"></a>Item Restorations</b>
   <p>This component will restore several items that never made it into the game.&nbsp; Some you may recognize from Baldur's Gate 1, while others are completely new.
   <p><b>N. <a NAME="yoshimo"></a>Yoshimo's Original Portrait</b>
@@ -102,7 +101,7 @@ UB Homepage: <a HREF="http://www.pocketplane.net/ub" TARGET="_blank">http://www.
   <p><b>P. <a NAME="portrait"></a>NPC Portrait Restorations</b>
   <p>This component restores the portraits to the various NPCs found throughout the game.  Specifically, character portraits have now been restored to Coran, Safana, Faldorn, Garrick, Xzar, Tiax, and Quayle.
   <p><b>Q. <a NAME="bams"></a>Corrected BAMs and scripts</b>
-  <p>This component restores the corrected inventory icon for the fairy dragon and pseudodragaon familiars, and alters the clone in Irenicus' dungeon to use Ellisime's avatar (of whom the clone is cloned).&nbsp; Furthermore, various creatures and characters throughout the game were assigned faulty scripts (or not assigned them at all).
+  <p>DEPRECATED.  BG2Fixpack has a superior version of this, and BG2EE already has these fixes by default.
   <p><b>R. <a NAME="names"></a>Corrected Character Names</b>
   <p>This component restores creature names to various characters scattered across Amn.  Specifically, names have been restored for Crazyface, Korgan's old cohort; Derrick, the ranger; Malaaq, the genie; Hendron, Lady Delcia's Guard; Maheer, the Blacksmith; Hannah, the Circus attendant; and Lellyn, Mazzy's fallen compatriot.
   <p><b>S. <a NAME="dialogs"></a>Restored Minor Dialogs</b>
@@ -238,13 +237,21 @@ UB Homepage: <a HREF="http://www.pocketplane.net/ub" TARGET="_blank">http://www.
   <ul>
     <li>Boots of the West
     <li>Boots of Hastened Departure
+    <li>Gloves of Missile Snaring
     <li>Shazzellim, Scimitar +1
-    <li>Bala's Axe
     <li>Taragarth, Bastard Sword +1
     <li>Wolfskin Bag
     <li>Websack Wand
     <li>Wraithform spell
   </ul>
+  In addition, in non-EE games a dummied-out import function has been restored, which will give the player one of the following items in Irenicus' dungeon:
+  <ul>
+    <li>Varcona, Long Sword +2
+    <li>Bala's Axe
+    <li>Krotan's Skullcrusher, Mace +2
+    <li>Surya's Blade, Halberd +2
+  </ul>
+  BG2EE already has a fancier version of this built in, which can get the player an even greater selection of BG1 items.
   <p><a HREF="#top">Back to top</a>
   <p><a NAME="spoilers"><b>VI. SPOILERS</b></a>
   <p>Not many at the moment... Minsc-specific spoilers are found in the packaged
@@ -261,10 +268,10 @@ UB Homepage: <a HREF="http://www.pocketplane.net/ub" TARGET="_blank">http://www.
   <ul>
     <li>Boots of the West: Given to Derrick, the ranger outside Valygar's Cabin
     <li>Boots of Hastened Departure: On the body of Greyhand, *if* the Restored Encounters component is installed
-    <li>Shazzellim, Scimitar +1: In the home of Prebek-a notable Zhent-in the
+    <li>Gloves of Missile Snaring: On one of the Shadow Thief assassins near the end of Irenicus' dungeon
+    <li>Shazzellim, Scimitar +1: In the home of Prebek -a notable Zhent- in the
       Docks District
-    <li>Bala's Axe: In the engine room of the Planar Sphere
-    <li>Taragarth, Bastard Sword +1: On Greyhand's corpse
+    <li>Taragarth, Bastard Sword +1: In the ranger cabin in the Umar Hills
     <li>Wolfskin Bag: Given to the Beastmaster of the Copper Coronet
     <li>Websack Wand: Given as an additional reward for helping Pai'Na (and not
       by killing her)
@@ -793,9 +800,11 @@ UB Homepage: <a HREF="http://www.pocketplane.net/ub" TARGET="_blank">http://www.
   <li>Updated WeiDU to version 246.</li>
   <li>Externalized components for easier maintenance</li>
   <li>Added EET compatibility fixes from the Big World Project.</li>
-  <li>New restored item: Irenicus' Third Journal in Spellhold.</li>
+  <li>New restored items: Irenicus' Third Journal in Spellhold.</li>
+  <li>Item Restorations will now restore import02.2da in non-EE games.</li>
   <li>Updated Polish translation, thanks to Big World Project.</li>
   <li>Deprecated "Gorf the Squisher Fix" component.</li>
+  <li>Deprecated "Corrected BAMs and Scripts" component.</li>
   </ul>
 
     <p><a HREF="#top">Back to top</a>
