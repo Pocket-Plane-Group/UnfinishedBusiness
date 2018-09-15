@@ -916,4 +916,107 @@ We delivered the news of the real murderer's demise to Chief Inspector Brega, wh
 @1310 = ~The Murder of Acton Balthis.
 
 Haer'Dalis has been executed.~
-@1311 = ~This component is not available for BG2EE.~
+@1311 = ~This component is not available for BG2EE.~@2000 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
+
+Hromadné léèení 
+(Nekromancie)
+
+Dosah: dohled sesilatele
+Trvání: trvale 
+Doba sesílání: 1
+Oblast pùsobení: polomìr 30 m
+Záchrannı hod: není 
+
+Pøi pouití této schopnosti si musí Bhaalùv zplozenec jasnì pøedstavit tváøe svıch spoleèníkù a soustøedit se na jednotu druiny.
+Po dokonèení jsou všichni èlenové druiny v okruhu 30 metrù od sesílajícího uzdraveni o 2k8 + 2/úroveò ivotù.  Jsou vyléèeny i další nepøíjemnosti: únava, otrava, nákaza, slepota a hluchota.~
+@2001 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
+
+Regenerace 
+(Nekromancie) 
+
+Dosah: dotyk
+Trvání: 1 kolo/2 úrovnì
+Doba sesílání: 7
+Oblast pùsobení: dotknutá bytost
+Záchrannı hod: není 
+
+Tato mocná schopnost umoòuje Bhaalovu zplozenci pøedat 1 bytosti schopnost regenerace.  Tato regenerace zahojí rány a vdy obnoví ztracené konèetiny.  Ovlivnìná bytost získá 3 ivoty za sekundu.  Úèinek trvá 1 kolo za kadé 2 úrovnì sesilatele, nebo do rozptılení kouzla.  Napøíklad postava 14. úrovnì regeneruje 18 ivotù za kolo po dobu 7 kol.~
+@2002 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
+
+Posílení svatou mocí 
+(Vzıvání) 
+
+Dosah: 0 
+Trvání: 1 tah
+Doba sesílání: 1
+Oblast pùsobení: sesilatel 
+Záchrannı hod: není 
+
+Bhaalùv zplozenec povolá moc své krve, aby mu poskytla na krátkou dobu moc.  Kdy tak uèiní, jeho síla, odolnost a obratnost se zvıší o 1 bod za kadé 3 úrovnì sesilatele.  Sesilateli na 3. úrovni se zvıší schopnosti o 1, zatímco sesilateli na 12. úrovni se zvıší schopnosti o 4.~
+@2003 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
+
+Temná poskvrna 
+(Nekromancie)
+
+Dosah: 20 m
+Trvání: 1 tah
+Doba sesílání: 1
+Oblast pùsobení: 1 bytost
+Záchrannı hod: zrušení
+
+Tímto kouzlem mùe Bhaalùv zplozenec vypustit na obì poskvrnu svého zlého otce, a otrávit tak ty, kteøí neuspìjí v záchranì proti smrti.  Úèinky závisí na úrovni sesilatele:
+7-9. úroveò: 2k8 + 2/kolo, zpomalení po 12 vteøin, záchrana s postihem -2
+10-12. úroveò: 3k8 + 3/kolo, zpomalení po 12 vteøin, záchrana s postihem -2
+13-14. úroveò: 4k8 + 4/kolo, zpomalení po 12 vteøin, záchrana s postihem -2
+15-16. úroveò: 6k8 + 5/kolo, zpomalení po 24 vteøin, záchrana s postihem -2
+17-21. úroveò: 8k8 + 6/kolo, zpomalení po 24 vteøin, záchrana s postihem -4
+25. úroveò: 8k8 + 6/kolo, zpomalení po 36 vteøin, záchrana s postihem -4, ovlivní skupinu cílù~
+@2004 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má trvalou ochranu pøed negativní sférou (jinımi slovy: <CHARNAME> nemùe bıt vysáta úroveò) a 5% magické odolnosti.~
+@2005 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
+
+Ruka zabíjení 
+(Nekromancie) 
+
+Dosah: sesilatel
+Trvání: 1 kolo/5 úrovní
+Doba sesílání: 1
+Záchrannı hod: není 
+
+Kdy Bhaalùv zplozenec povolá tuto sílu, s kadım zásahem a jakoukoliv zbraní na blízko (a u se jedná o pìst nebo meè), okamitì zpùsobí cíli zranìní navíc.  
+Jeho temná energie prochází zbraní a napadne obì... a vstøebá toto zranìní v podobì vyléèení sesilatele.
+Úèinky se liší dle úrovnì a jsou následující:
+10.: 2 kola, 4 ivoty zranìní navíc, vyléèí 4 ivoty
+15.: 3 kola, 6 ivotù zranìní navíc, vyléèí 6 ivotù
+20.: 4 kola, 8 ivotù zranìní navíc, vyléèí 8 ivotù
+25.: 5 kol, 10 ivotù zranìní navíc, vyléèí 10 ivotù
+30.: 6 kol, 12 ivotù zranìní navíc, vyléèí 12 ivotù~
+@2006 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
+
+Vzkøíšení 
+(Nekromancie)
+
+Dosah: dotyk
+Trvání: trvale
+Doba sesílání: 1
+Oblast pùsobení: dotknutá bytost
+Záchrannı hod: není
+
+Podobnì jako kouzlo 5. úrovnì Oiv mrtvého, i Vzkøíšení vrátí ivot jedné postavì.  Avšak Vzkøíšení ji také vyléèí, take je pøipravena na další dobrodruství.~
+@2007 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má 25% odolnost na fyzická zranìní (seèná, bodná, drtivá a støelná).~
+

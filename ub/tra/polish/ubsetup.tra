@@ -897,4 +897,94 @@ Przekazaliœmy G³ównemu Inspektorowi Bredze wieœci o œmierci prawdziwego mordercy
 @1310 = ~Morderstwo Actona Balthisa.
 
 Haer'Dalis zosta³ stracony.~
-@1311 = ~Komponent ten jest niedostepny dla BG2EE.~
+@1311 = ~Komponent ten jest niedostepny dla BG2EE.~@2000 = ~Moce Bhaala
+
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
+
+Grupowe leczenie (Nekromancja)
+Zasiêg: pole widzenia rzucaj¹cego czar
+Czas dzia³ania: sta³y
+Czas rzucania: 1
+Obszar dzia³ania: w promieniu 10 metrów
+Rzut obronny: brak
+
+U¿ywaj¹c tej zdolnoœci, Dziecko Bhaala musi wyobraziæ sobie dok³adnie oblicza swych towarzyszy i skupiæ siê na jednoœci ca³ej dru¿yny. Kiedy ca³y rytua³ dobiegnie koñca, wszyscy cz³onkowie dru¿yny, znajduj¹cy siê w promieniu 10 metrów odzyskuj¹ 2k8 + 2 punkty ¿ycia/poziom. Uleczone zostaj¹ tak¿e inne negatywne efekty: zmêczenie, otrucie, choroba, œlepota i g³uchota.~
+@2001 = ~Moce Bhaala
+
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
+
+Regeneracja (Nekromancja)
+Poziom: 4
+Sfera: Leczenie
+Zasiêg: dotyk
+Czas dzia³ania: 1 runda/2 poziomy
+Czas rzucania: 7
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Ten potê¿ny czar umo¿liwia osobie go rzucaj¹cej nadanie wybranej istocie zdolnoœci regeneracyjnych, dziêki czemu mo¿e ona uleczyæ rany, a nawet zregenerowaæ stracone koñczyny. Istota pod wp³ywem czaru odzyskuje 3 punkty ¿ycia na sekundê. Efekt utrzymuje siê przez jedn¹ rundê na ka¿de dwa poziomy rzucaj¹cego czar lub do momentu rozproszenia. Dla przyk³adu, kap³an 14. poziomu odzyskiwa³by 18 punktów ¿ycia na rundê przez siedem rund.~
+@2002 = ~Moce Bhaala
+
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
+
+Przywo³anie boskiej mocy (Inwokacja)
+Zasiêg: 0
+Czas dzia³ania: 1 tura
+Czas rzucania: 1
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: brak
+
+Dziecko Bhaala przywo³ujê potêgê zaklêt¹ w swojej krwi, dziêki czemu otrzymuje na krótki czas cz¹stk¹ niebiañskiej mocy. Po rzuceniu tego czaru jego Si³a, Kondycja i Zrêcznoœæ wzrastaj¹ o 1 na ka¿de trzy poziomy. Tak wiêc cechy rzucaj¹cego z 3. poziomu zwiêksz¹ siê o 1, a postaci z 12. poziomu o 4.~
+@2003 = ~Moce Bhaala
+
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, mog¹c jej u¿ywaæ raz dziennie: 
+
+Mroczna skaza (Nekromancja)
+Zasiêg: 6 metrów
+Czas dzia³ania: 1 tura
+Czas rzucania: 1
+Obszar dzia³ania: 1 istota
+Rzut obronny: neguje
+
+Za pomoc¹ tego zaklêcia, Dziecko Bhaala mo¿e przelaæ na wybran¹ ofiarê mroczn¹ skazê swego z³ego ojca, zatruwaj¹c tych przeciwników, którym nie uda siê wykonaæ rzutu obronnego przeciwko œmierci. Efekty zale¿¹ od poziomu rzucaj¹cego i zosta³y opisane poni¿ej:
+7-9. poziom: 2k8 + 2/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
+10-12. poziom: 3k8 + 3/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
+13-14. poziom: 4k8 + 4/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
+15-16. poziom: 6k8 + 5/rundê, spowolnienie na 24 sekundy, rzut obronny z mod. -2
+17-21. poziom: 8k8 + 6/rundê, spowolnienie na 24 sekundy, rzut obronny z mod. -2
+25. poziom: 8k8 + 6/rundê, spowolnienie na 36 sekund, rzut obronny z mod. -4, dotyczy grupy ofiar~
+@2004 = ~Moce Bhaala
+
+<CHARNAME> uzyska³<PRO_HESHE> permanentn¹ ochronê przed negatywn¹ energi¹ i 5% odpornoœci na magiê.~
+@2005 = ~Moce Bhaala
+
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, mog¹c jej u¿ywaæ raz dziennie: 
+
+Rêka mordu (Nekromancja)
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 runda/5 poziomów
+Czas rzucania: 1
+Rzut obronny: brak
+
+Jeœli Dziecko Bhaala przywo³a tê moc, to ka¿de jego uderzenie, zadane nieprzyjacielowi dowoln¹ broni¹ do walki bezpoœredniej (bez wzglêdu na to, czy jest to piêœæ, czy miecz), wyrz¹dza mu dodatkowe obra¿enia. Dzieje siê tak, poniewa¿ mroczna energia Bhaala przenika broñ i dodatkowo atakuje przeciwnika... przy czym zadane obra¿enia s¹ potem dodawane do liczby punktów ¿ycia jako uleczenie. Efekty tej zdolnoœci ró¿ni¹ siê w zale¿noœci od poziomu:
+10. poziom: 2 rundy, 4 dodatkowe obra¿enia, leczy 4 punkty ¿ycia
+15. poziom: 3 rundy, 6 dodatkowych obra¿eñ, leczy 6 punktów ¿ycia
+20. poziom: 4 rundy, 8 dodatkowych obra¿eñ, leczy 8 punktów ¿ycia
+25. poziom: 5 rund, 10 dodatkowych obra¿eñ, leczy 10 punktów ¿ycia
+30. poziom: 6 rund, 12 dodatkowych obra¿eñ, leczy 12 punktów ¿ycia~
+@2006 = ~Moce Bhaala
+
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, mog¹c jej u¿ywaæ raz dziennie: 
+
+Zmartwychwstanie (Nekromancja)
+Zasiêg: dotyk
+Czas dzia³ania: sta³y
+Czas rzucania: 1
+Obszar dzia³ania: dotkniêta istota
+Rzut obronny: brak
+
+Podobnie jak czar 5. poziomu o nazwie Wskrzeszenie, zaklêcie to mo¿e przywróciæ dan¹ istotê do ¿ycia. Jednak w tym przypadku istota ta odzyskuje dodatkowo pe³niê punktów ¿ycia i gotowa jest na dalsze przygody.~
+@2007 = ~Moce Bhaala
+
+<CHARNAME> uzyska³<PRO_HESHE> 25% odpornoœci na obra¿enia fizyczne (np. sieczne, k³ute, obuchowe oraz pociski).~
+

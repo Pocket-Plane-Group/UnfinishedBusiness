@@ -1016,3 +1016,93 @@ Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe c
 @-1061= "
 Utilisation de"
 @-1062= " et "
+@2000 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
+Soin de masse (Nécromancie)
+
+Portée : Champ visuel du lanceur
+Durée : permanente 
+Temps d'incantation : 1
+Zone d'effet : rayon de 6 m
+Jet de Sauvegarde : Aucun 
+
+Lorsqu'il utilise cette capacité, l'enfant de Bhaal doit se concentrer sur les visages de ses compagnons et sur l'unité du groupe. Une fois l'incantation achevée, tous les membres du groupe dans un rayon de 6 m reçoivent 2d8 points de vie + 2 / niveau. Ce soin concerne également : la fatigue, le poison, la maladie, la cécité et la surdité.~
+@2001 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
+Régénération (Nécromancie)
+
+Portée : Contact
+Durée : 1 round par tranche de 2 niveaux
+Temps d'incantation : 7
+Zone d'effet : Créature ciblée
+Jet de Sauvegarde : Aucun 
+
+Cette puissante capacité permet à l'Enfant de Bhaal de prodiguer la capacité de régénération à une créature. Toutes ses blessures seront guéries et même les membres sectionnés repousseront grâce à ce sort. Le bénéficiaire récupérera 3 points de vie par seconde. La durée du sort est fixée à un nombre maximum de rounds égal à la moitié du niveau du lanceur. Par exemple, un prêtre de 14ème niveau régénérera ainsi 18 points de vie par round pendant 7 rounds.~
+@2002 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
+Puiser dans la puissance divine (Invocation)
+
+Portée : 0 
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : lanceur
+Jet de Sauvegarde : Aucun 
+
+L'enfant de Bhaal sollicite l'essence de son père pour augmenter ses pouvoirs pendant une courte durée. Sa Force, sa Constitution et sa Dextérité gagnent alors 1 point par 3 niveaux du lanceur. Un lanceur du 3ème niveau verra ainsi ses caractéristiques gagner 1 point, alors qu'un lanceur du 12ème niveau les verra augmenter de +4.~
+@2003 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
+Souffle de Bhaal (Nécromancie)
+
+Portée : 7 mètres
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de Sauvegarde : Annule
+
+Cette capacité permet à l'enfant de Bhaal d'envelopper la victime dans le souffle vicié de son père. Cette dernière peut échapper à l'empoisonnement si elle réussit un jet de sauvegarde contre la mort. Les effets dépendent du niveau du lanceur :
+
+Niveaux 7 à 9 : 2D8 +2 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
+Niveaux 10 à 12 : 3D8 +3 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
+Niveaux 13 à 14 : 4D8 +4 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
+Niveaux 15 à 16 : 6D8 +5 / round, lenteur pendant 24 secondes, -2 au jet de sauvegarde
+Niveaux 17 à 21 : 8D8 +6 / round, lenteur pendant 24 secondes, -4 au jet de sauvegarde
+Niveau 25 et plus : 8D8 +6 / round, lenteur pendant 36 secondes, -4 au jet de sauvegarde, un groupe entier de cibles est affecté~
+@2004 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME> a gagné la Protection Permanente Contre le Plan Négatif (par exemple, <CHARNAME> ne peut se faire drainer ses niveaux) et 5% de résistance magique.~
+@2005 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME>  a acquis la capacité, utilisable une fois par jour : 
+Main de Bhaal (Nécromancie)
+
+Portée : lanceur
+Durée : 1 round par tranche de 5 niveaux
+Temps d'incantation : 1
+Jet de Sauvegarde : Aucun 
+
+Cette capacité permet à l'Enfant de Bhaal d'infliger des dégâts supplémentaires en mêlée avec l'arme de son choix (mains nues, épée, etc...) et d'absorber une partie de l'énergie vitale volée à la cible. L'effet varie en fonction du niveau du lanceur :
+Niveau 10 : 2 rounds, 4 points de dégâts supplémentaires, 4 points de vie guéris
+Niveau 15 : 3 rounds, 6 points de dégâts supplémentaires, 6 points de vie guéris
+Niveau 20 : 4 rounds, 8 points de dégâts supplémentaires, 8 points de vie guéris
+Niveau 25 : 5 rounds, 10 points de dégâts supplémentaires, 10 points de vie guéris
+Niveau 30 : 6 rounds, 12 points de dégâts supplémentaires, 12 points de vie guéris~
+@2006 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME>  a acquis la capacité, utilisable une fois par jour : 
+Résurrection (Nécromancie)
+
+Portée : Contact
+Durée : permanent
+Temps d'incantation : 1
+Zone d'effet : Créature ciblée
+Jet de Sauvegarde : Aucun
+
+Tout comme le sort de 5ème niveau de prêtre Rappel à la vie, Résurrection ramène un personnage à la vie. Il est cependant ressuscité avec le maximum de ses points de vie.~
+@2007 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME> a gagné 25% de résistance aux dégâts physiques (par exemple aux dégâts tranchants, perforants, contondants et aux Projectiles).~
+

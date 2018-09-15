@@ -1,0 +1,115 @@
+IF
+  Global("DetectableSpells","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DetectableSpells","GLOBAL",1)
+    ApplySpellRES("SPDETECT",Player1)
+END
+
+IF
+  GlobalGT("Bhaal25Dream1","GLOBAL",0)
+  Dead("chalpc01")
+  Dead("chtaz01")
+  Dead("chang01")
+  Dead("chsam01")
+  Global("AscBhaal1","AR4500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("AscBhaal1","AR4500",1)
+    CreateVisualEffectObject("SPSTRENH",Player1)
+    AddJournalEntry(@2000,INFO)
+    ActionOverride(Player1,AddSpecialAbility("BHAAL1A"))
+END
+
+IF
+  !GlobalGT("Bhaal25Dream1","GLOBAL",0)
+  Dead("chalpc01")
+  Dead("chtaz01")
+  Dead("chang01")
+  Dead("chsam01")
+  Global("AscBhaal1","AR4500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("AscBhaal1","AR4500",1)
+    CreateVisualEffectObject("SPSTRENH",Player1)
+    AddJournalEntry(@2001,INFO)
+    ActionOverride(Player1,AddSpecialAbility("BHAAL1B"))
+END
+
+IF
+  Dead("chalslay")
+  Global("AscBhaal2","AR4500",0)
+  GlobalGT("Bhaal25Dream2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("AscBhaal2","AR4500",1)
+    CreateVisualEffectObject("SPSTRENH",Player1)
+    AddJournalEntry(@2002,INFO)
+    ActionOverride(Player1,AddSpecialAbility("BHAAL2A"))
+END
+
+IF
+  Dead("chalslay")
+  Global("AscBhaal2","AR4500",0)
+  !GlobalGT("Bhaal25Dream2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("AscBhaal2","AR4500",1)
+    CreateVisualEffectObject("SPSTRENH",Player1)
+    AddJournalEntry(@2003,INFO)
+    ActionOverride(Player1,AddSpecialAbility("BHAAL2B"))
+END
+
+IF
+  Global("AscBhaal3","AR4500",0)
+  GlobalGT("Bhaal25Dream3","GLOBAL",0)
+  NumDead("chalcy02",3)
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("AscBhaal3","AR4500",1)
+    CreateVisualEffectObject("SPSTRENH",Player1)
+    AddJournalEntry(@2004,INFO)
+    ActionOverride(Player1,ApplySpellRES("BHAAL3A",[ANYONE]))
+END
+
+IF
+  Global("AscBhaal3","AR4500",0)
+  !GlobalGT("Bhaal25Dream3","GLOBAL",0)
+  NumDead("chalcy02",3)
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("AscBhaal3","AR4500",1)
+    CreateVisualEffectObject("SPSTRENH",Player1)
+    AddJournalEntry(@2005,INFO)
+    ActionOverride(Player1,AddSpecialAbility("BHAAL3B"))
+END
+
+IF
+  GlobalGT("Bhaal25Dream5","GLOBAL",0)
+  Dead("chalrv01")
+  Global("AscBhaal4","AR4500",0)
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("AscBhaal4","AR4500",1)
+    CreateVisualEffectObject("SPSTRENH",Player1)
+    AddJournalEntry(@2006,INFO)
+    ActionOverride(Player1,AddSpecialAbility("BHAAL4A"))
+END
+
+IF
+  !GlobalGT("Bhaal25Dream5","GLOBAL",0)
+  Dead("chalrv01")
+  Global("AscBhaal4","AR4500",0)
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("AscBhaal4","AR4500",1)
+    CreateVisualEffectObject("SPSTRENH",Player1)
+    AddJournalEntry(@2007,INFO)
+    ActionOverride(Player1,ApplySpellRES("BHAAL4B",[ANYONE]))
+END
+
+

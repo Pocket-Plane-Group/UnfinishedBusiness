@@ -887,4 +887,93 @@ We delivered the news of the real murderer's demise to Chief Inspector Brega, wh
 @1310 = ~The Murder of Acton Balthis.
 
 Haer'Dalis has been executed.~
-@1311 = ~This component is not available for BG2EE.~
+@1311 = ~This component is not available for BG2EE.~@2000 = ~Bhaalspross-Fähigkeiten
+
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+
+Gruppenheilung (Nekromantie)
+Reichweite: Sichtweite des Zaubernden
+Wirkungsdauer: Permanent
+Zeitaufwand: 5
+Wirkungsbereich: 9 m Radius
+Rettungswurf: Nein
+
+Wenn das Kind Bhaals diese Fähigkeit einsetzt, stellt es sich die Gesichter seiner Gruppenmitglieder vor und konzentriert sich auf die Einheit in der Gruppe. Sobald der Zauber gewirkt wurde, erhält jedes Gruppenmitglied innerhalb 9 m Radius 2W8 +2 Trefferpunkte pro Stufe des Zaubernden zurück. Der Zauber heilt außerdem Erschöpfung, Vergiftung, Krankheiten, Blindheit und Taubheit.~
+@2001 = ~Bhaalspross-Fähigkeiten
+
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+
+Regeneration (Nekromantie)
+Reichweite: Berührung
+Wirkungsdauer: 1 Runde pro 2 Stufen
+Zeitaufwand: 7
+Wirkungsbereich: Das berührte Wesen
+Rettungswurf: Nein
+
+Mit Hilfe dieser mächtigen Fähigkeit verleiht das Bhaalkind einem Wesen die Fähigkeit, zu regenerieren. Erlittene Verletzungen heilen, und selbst verlorene Gliedmassen bilden sich neu. Die Fähigkeit regeneriert 3 Trefferpunkte pro Sekunde.   Die Wirkung hält an für eine Runde pro zwei Stufen des Bhaalsprosses oder bis sie gebannt wird.  Auf Stufe 14 regeneriert ein Charakter beispielsweise sieben Runden lang jeweils 18 Trefferpunkte.~
+@2002 = ~Bhaalspross-Fähigkeiten
+
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+
+Heilige Macht entlehnen (Anrufung)
+Reichweite: 0
+Wirkungsdauer: 1 Phase
+Zeitaufwand: 1
+Wirkungsbereich: Der Zaubernde
+Rettungswurf: Nein
+
+Das Kind Bhaals zapft die Energien seines mächtigen Blutes an, um so für kurze Zeit außergewöhnliche Macht zu erlangen. Das Kind Bhaals erhält dadurch für je 3 Stufen +1 auf Stärke, Geschicklichkeit und Konstitution. Bei einem Zaubernden der 3. Stufe würden diese Attribute beispielsweise um +1 erhöht werden, während bei einem Zaubernden der 12. Stufe die Attributwerte um +4 erhöht werden würden.~
+@2003 = ~Bhaalspross-Fähigkeiten
+
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+
+Dunkle Essenz aussenden (Nekromantie)
+Reichweite: 6 m
+Wirkungsdauer: 1 Phase
+Zeitaufwand: 1
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Keine Wirkung
+
+Mit Hilfe dieses Zaubers kann das Kind Bhaals die dunkle Essenz seines bösen Vaters aus seinem Körper strömen lassen und dadurch ein Ziel vergiften, wenn diesem ein Rettungswurf gegen Tod misslingt. Die Auswirkungen hängen von der Zauberstufe ab und sind wie folgt:
+7. bis 9. Stufe: 2W8 +2 Schadenspunkte pro Runde, Verlangsamung für 12 Sekunden, Rettungswurf -2
+10. bis 12. Stufe: 3W8 + 3 Schadenspunkte pro Runde, Verlangsamung für 12 Sekunden, Rettungswurf -2
+13. bis 14. Stufe: 4W8 + 4 Schadenspunkte pro Runde, Verlangsamung für 12 Sekunden, Rettungswurf -2
+15. bis 16. Stufe: 6W8 + 5 Schadenspunkte pro Runde, Verlangsamung für 24 Sekunden, Rettungswurf -2
+17. bis 21. Stufe: 8W8 + 6 Schadenspunkte pro Runde, Verlangsamung für 24 Sekunden, Rettungswurf -4
+25. Stufe: 8W8 + 6 Schadenspunkte pro Runde, Verlangsamung für 36 Sekunden, Rettungswurf -4, betrifft eine ganze Gruppe von Gegnern~
+@2004 = ~Bhaalspross-Fähigkeiten
+
+<CHARNAME> hat einen permanenten Schutz vor Lebenskraftentzug sowie 5% Magieresistenz erhalten.~
+@2005 = ~Bhaalspross-Fähigkeiten
+
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+
+Hand des Mordes (Nekromantie)
+Reichweite: Zaubernder
+Wirkungsdauer: 1 Runde pro 5 Stufen
+Zeitaufwand: 1
+Wirkungsbereich: Der Zaubernde
+Rettungswurf: Keiner
+
+Wenn ein Kind Bhaals diese Fähigkeit einsetzt, erhöht sich der Schaden, den es im Nahkampf anrichtet, egal mit welcher Waffe es zuschlägt (beispielsweise mit Schwert oder Faust). Die dunkle Energie des Kindes von Bhaal strömt durch die Waffe in den Gegner und entreißt ihm Lebenskraft. So richtet jeder Schlag zusätzlichen Schaden an und heilt das Kind Bhaals.
+Die Auswirkungen hängen von der Stufe ab:
+Ab der 10. Stufe: 2 Runden, +4 Schadenspunkte pro Schlag, Kind Bhaals heilt 4 Trefferpunkte
+Ab der 15. Stufe: 3 Runden, +6 Schadenspunkte pro Schlag, Kind Bhaals heilt 6 Trefferpunkte
+Ab der 20. Stufe: 4 Runden, +8 Schadenspunkte pro Schlag, Kind Bhaals heilt 8 Trefferpunkte
+Ab der 25. Stufe: 5 Runden, +10 Schadenspunkte pro Schlag, Kind Bhaals heilt 10 Trefferpunkte
+Ab der 30. Stufe: 6 Runden, +12 Schadenspunkte pro Schlag, Kind Bhaals heilt 12 Trefferpunkte~
+@2006 = ~Bhaalspross-Fähigkeiten
+
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+
+Auferstehung (Nekromantie)
+Reichweite: Berührung
+Wirkungsdauer: Permanent
+Zeitaufwand: 1 Phase
+Wirkungsbereich: Das berührte Wesen
+Rettungswurf: Nein
+Dieser Zauber ähnelt dem Zauber des 5. Grades, Tote erwecken. Allerdings heilt Auferstehung den wiederbelebten Charakter auch gleich vollständig, so dass er sich sofort wieder ins Abenteuer stürzen kann.~
+@2007 = ~Bhaalspross-Fähigkeiten
+
+<CHARNAME> hat eine 25%ige Resistenz gegenüber physikalischen Schaden (also Schaden durch Stich-, Hieb-, Wucht- und Geschosswaffen) erhalten.~
+
