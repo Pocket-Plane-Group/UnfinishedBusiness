@@ -172,16 +172,13 @@ COPY_EXISTING ghoul1.itm ~override/jellol1.itm~
     icon	= ~~
   END
 
-ACTION_IF MOD_IS_INSTALLED setup-bg2fixpack.tp2 110
-BEGIN
-  COPY_EXISTING ar2200.bcs override
-    DECOMPILE_AND_PATCH
-    BEGIN
-      REPLACE_TEXTUALLY ~CreateCreature("[^"]*",\[4422\.3524\],6)~ ~CreateCreature("jeloli01",[4422.3524],6)~
-      REPLACE_TEXTUALLY ~CreateCreature("[^"]*",\[4052\.3574\],6)~ ~CreateCreature("jeloli01",[4052.3574],6)~
-    END
-  BUT_ONLY
-END
+COPY_EXISTING ar2200.bcs override
+  DECOMPILE_AND_PATCH
+  BEGIN
+    REPLACE_TEXTUALLY ~CreateCreature("[^"]*",\[4422\.3524\],6)~ ~CreateCreature("jeloli01",[4422.3524],6)~
+    REPLACE_TEXTUALLY ~CreateCreature("[^"]*",\[4052\.3574\],6)~ ~CreateCreature("jeloli01",[4052.3574],6)~
+  END
+BUT_ONLY
 
 //AR2400 spawns
 COPY_EXISTING ~ar2400.are~ ~override~

@@ -47,14 +47,10 @@ COPY_EXISTING ~SAREVND.2da~ ~override/SAREVND.2da~
   SET_2DA_ENTRY 0 0 3 ~~
   REPLACE ~U!SAREVND~ @1298
 
-/* Because Fixpack replaces slilmat with wilmat - Kulyok */
-ACTION_IF MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
-BEGIN
-  OUTER_SET actual_wilmat_state = (STATE_WHICH_SAYS #58238 FROM ~wilmat~)
+OUTER_SET actual_wilmat_state = (STATE_WHICH_SAYS #58238 FROM ~wilmat~)
 
-  COMPILE ~%MOD_FOLDER%/sarevok/u!sare1.d~ EVALUATE_BUFFER
-  USING ~%MOD_FOLDER%/tra/%s/u!sare.tra~
-END
+COMPILE ~%MOD_FOLDER%/sarevok/u!sare1.d~ EVALUATE_BUFFER
+USING ~%MOD_FOLDER%/tra/%s/u!sare.tra~
 
 COMPILE ~%MOD_FOLDER%/sarevok/u!sare.d~
 USING   ~%MOD_FOLDER%/tra/%s/u!sare.tra~

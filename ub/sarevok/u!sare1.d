@@ -4,7 +4,7 @@
 
 REPLACE WILMAT
 
-IF ~~ %actual_wilmat_state% // 4 // temp_wilmat_state
+IF ~~ 4
 SAY @56
 IF ~~ GOTO DONATED
 END
