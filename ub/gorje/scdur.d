@@ -195,7 +195,7 @@ END
 IF ~~ THEN BEGIN 28 // from: 18.0
   SAY @86
   IF ~Global("ShadowLordDead","GLOBAL",1)~ THEN REPLY @87 DO ~SetGlobal("FindGorje","GLOBAL",1) RevealAreaOnMap("AR1400")~ UNSOLVED_JOURNAL @88 EXIT
-  IF ~Global("ShadowLordDead","GLOBAL",0)~ THEN REPLY @87 DO ~SetGlobal("FindGorje","GLOBAL",1) RevealAreaOnMap("AR1404")~ UNSOLVED_JOURNAL @88 EXIT
+  IF ~Global("ShadowLordDead","GLOBAL",0)~ THEN REPLY @87 DO ~SetGlobal("FindGorje","GLOBAL",1) RevealAreaOnMap("AR1100")~ UNSOLVED_JOURNAL @88 EXIT
   IF ~~ THEN REPLY @89 GOTO 29
 END
 

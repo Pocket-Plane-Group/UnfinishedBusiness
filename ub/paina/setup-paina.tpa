@@ -14,7 +14,7 @@ END
 
 EXTEND_TOP ~AR0701.bcs~ ~%MOD_FOLDER%/paina/U!0701.baf~     /* Temple District Sewers */
 
-COMPILE ~%MOD_FOLDER%/paina/u!paina.d~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/paina/u!paina.d~
 USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
 
 COPY ~%MOD_FOLDER%/paina/u!spbane.itm~ ~override/u!spbane.itm~

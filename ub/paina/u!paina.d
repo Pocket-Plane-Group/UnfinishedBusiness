@@ -46,6 +46,14 @@ REPLACE_STATE_TRIGGER SPTREDD 0 ~True()~
 
 REPLACE_SAY SPPAIN 12 @345
 
+ALTER_TRANS SPPAIN
+BEGIN 0 END	// State
+BEGIN 1 END	// Transaction
+BEGIN
+  "TRIGGER"	~GlobalGT("Chapter", "GLOBALS", %bg2_chapter_2%)~
+END
+
+
 /////////////
 /* EXTENDs */
 /////////////
