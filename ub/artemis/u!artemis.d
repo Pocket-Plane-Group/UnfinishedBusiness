@@ -1,6 +1,6 @@
 BEGIN ~ARTEMIS~
 
-IF ~~ THEN BEGIN ArtemisOne // from:
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN ArtemisOne // from:
   SAY #55646
   IF ~~ THEN EXTERN ~C6DRIZZ2~ DrizztOne
 
