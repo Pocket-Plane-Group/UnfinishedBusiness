@@ -527,14 +527,3 @@ BEGIN @1313
 INCLUDE "%MOD_FOLDER%/haer/setup-haer.tpa"
 
 
-//////////////////////
-//////////////////////
-// Restored Banters //
-//////////////////////
-//////////////////////
-
-BEGIN @1314
-
-INCLUDE "%MOD_FOLDER%/banter/setup-banter.tpa"
-
-

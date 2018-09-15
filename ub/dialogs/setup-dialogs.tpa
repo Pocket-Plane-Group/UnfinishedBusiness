@@ -151,37 +151,14 @@ REPLACE_TRIGGER_TEXT udsimyaz ~ReactionGT(LastTalkedToBy,FRIENDLY_UPPER)~ ~React
 
 COMPILE ~%MOD_FOLDER%/udsimyaz_reaction.d~
 
-ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
-BEGIN
-  //Glaicas Charm bug fix
-  COPY_EXISTING ar1303.bcs override
-    DECOMPILE_AND_PATCH
-    BEGIN
-      REPLACE_TEXTUALLY ~^    \(ActionOverride("kpglai01",\|\)ApplySpell("kpglai01",WIZARD_TRUE_DISPEL_MAGIC)\()\|\)$~ ~    \1ApplySpell("kpglai01",FORCE_DISPEL_MAGIC)\2~
-    END
-  BUT_ONLY
-  
-  //Imoen213 script
-  COPY_EXISTING imoen213.cre override
-     WRITE_ASCII 0x248 ~imoen2~ #8
-  BUT_ONLY
-  
-  // Count Claylan and Lady Alicia
-  COPY_EXISTING wcust01.cre override
-                wcust02.cre override
-    WRITE_ASCIIE 0x280 ~%SOURCE_RES%~ #18
-  BUT_ONLY
-  
-  //devSin's code for load hints
-  ACTION_IF GAME_INCLUDES ~tob~ // ToB-only stuff check
-  BEGIN
-    APPEND loadh25.2da  ~79          34572~
-    UNLESS ~^79[         ]+~
-    APPEND loadhint.2da ~75          34572~
-    UNLESS ~^75[         ]+~
-    APPEND loadhint.2da ~76          72818~
-    UNLESS ~^76[         ]+~
-  END
-END
+
+// Restored Banters
+// Note: These were uncovered by Calawen at Beamdog forums
+
+COMPILE ~%MOD_FOLDER%/dialogs/banter_restorations.d~
+
+EXTEND_BOTTOM ~minsc.bcs~ ~%MOD_FOLDER%/dialogs/minsc_additions.baf~
+
+EXTEND_BOTTOM ~yoshimo.bcs~ ~%MOD_FOLDER%/dialogs/yoshimo_additions.baf~
 
 
