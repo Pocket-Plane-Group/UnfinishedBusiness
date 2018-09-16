@@ -2,6 +2,13 @@ ACTION_IF NOT VARIABLE_IS_SET ub_always
 BEGIN
   OUTER_SET ub_always = 1	// just do this once per install
 
+  // Load EE-specific translation strings if needed.
+
+  ACTION_IF ENGINE_IS "bgee bg2ee"
+  BEGIN
+    LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
+  END
+
 
   // Generate chapter number constants for EET compatibility
 

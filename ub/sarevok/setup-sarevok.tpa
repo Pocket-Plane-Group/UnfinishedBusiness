@@ -5,11 +5,6 @@
 // Authors:  Sovran      saarenvelho@hotmail.com
 //           Winterine   winterine@gmail.com
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 COPY ~%MOD_FOLDER%/sarevok/u!sbook0.bam~ ~override/u!sbook0.bam~
 COPY ~%MOD_FOLDER%/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK1.ITM~
   SAY NAME1 @1004

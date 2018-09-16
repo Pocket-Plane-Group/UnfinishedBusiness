@@ -4,11 +4,6 @@
 ////////////////////////////////////////
 ////////////////////////////////////////
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 COPY_EXISTING ~sarevok.cre~ ~override~
   WRITE_LONG 0x260 0x00000000
   WRITE_LONG 0x264 0x00000000

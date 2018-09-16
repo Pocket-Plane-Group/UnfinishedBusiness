@@ -6,11 +6,7 @@
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubpaina.xxx~ //null file to identify this component
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-  ADD_JOURNAL @142 @145 @146 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
-END
+ADD_JOURNAL @142 @145 @146 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
 
 EXTEND_TOP ~AR0701.bcs~ ~%MOD_FOLDER%/paina/U!0701.baf~     /* Temple District Sewers */
 

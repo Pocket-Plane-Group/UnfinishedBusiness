@@ -6,12 +6,8 @@
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubsuna.xxx~ //null file to identify this component
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-  ADD_JOURNAL EXISTING TITLE (#74367) @211 @213 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
-  ADD_JOURNAL EXISTING TITLE (#74343) @322 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
-END
+ADD_JOURNAL EXISTING TITLE (#74367) @211 @213 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
+ADD_JOURNAL EXISTING TITLE (#74343) @322 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
 
 COMPILE ~%MOD_FOLDER%/suna/CCSUNA.baf~                        /* Suna Seni's script in the Copper Coronet */
         ~%MOD_FOLDER%/suna/ppsuna.baf~                        /* Suna Seni's script in Spellhold */

@@ -4,11 +4,6 @@
 /////////////////////////
 /////////////////////////
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 /* Vampire Encounters */
 EXTEND_TOP vampsttp.bcs ~%MOD_FOLDER%/encount/U!vamps.baf~ EVALUATE_BUFFER
 

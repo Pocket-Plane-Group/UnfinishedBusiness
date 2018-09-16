@@ -4,11 +4,6 @@
 ////////////////////////////
 ////////////////////////////
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 COMPILE ~%MOD_FOLDER%/dialogs/u!minor.d~
         ~%MOD_FOLDER%/dialogs/obshal03.d~
 USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~

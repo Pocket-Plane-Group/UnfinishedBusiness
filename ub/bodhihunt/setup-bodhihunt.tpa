@@ -8,11 +8,6 @@
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubbodhi.xxx~ //null file to identify this component
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 COMPILE ~%MOD_FOLDER%/BodhiHunt/Dialogue~
 USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
 

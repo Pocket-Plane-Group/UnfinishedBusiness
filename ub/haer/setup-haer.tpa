@@ -6,11 +6,7 @@
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubhaer.xxx~ //null file to identify this component
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-  ADD_JOURNAL @1301 @1302 @1303 @1304 @1305 @1306 @1307 @1308 @1309 @1310
-END
+ADD_JOURNAL @1301 @1302 @1303 @1304 @1305 @1306 @1307 @1308 @1309 @1310
 
 COMPILE ~%MOD_FOLDER%/haer/haer.d~
 USING   ~%MOD_FOLDER%/tra/%s/haer.tra~

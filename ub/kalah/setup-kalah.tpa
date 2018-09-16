@@ -8,11 +8,7 @@
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubkalah.xxx~ //null file to identify this component
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-  ADD_JOURNAL @254 @256 @258 @260 @262 @271 @344 @350 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
-END
+ADD_JOURNAL @254 @256 @258 @260 @262 @271 @344 @350 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/ubdialog.tra~
 
 COPY_EXISTING ~dlost.cre~ ~override/U!KImoen.cre~
   WRITE_ASCII   ~0x2cc~     ~U!KImoen~

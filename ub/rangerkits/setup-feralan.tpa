@@ -6,11 +6,6 @@
 
 /* AUTHOR   ~andyr@gibberlings3.net~ */
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
   PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
   SET "armor_patch" = 0

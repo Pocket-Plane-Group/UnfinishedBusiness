@@ -4,11 +4,6 @@
 ////////////////////////////////
 ////////////////////////////////
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 COMPILE ~%MOD_FOLDER%/crane/u!ccrane.d~
 USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
 

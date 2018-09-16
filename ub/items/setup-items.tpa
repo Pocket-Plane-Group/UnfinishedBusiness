@@ -4,11 +4,6 @@
 ///////////////////////
 ///////////////////////
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 /* Gloves of Missile Snaring */
 COPY_EXISTING "brac18.itm" "override"
   WRITE_LONG 0x001e 0	// Remove undocumented unusabilities

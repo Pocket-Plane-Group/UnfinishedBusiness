@@ -6,11 +6,6 @@
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubtobitm.xxx~ //null file to identify this component
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 COPY_EXISTING ~FIGURE01.itm~ ~override/FIGURE01.itm~
   SAY IDENTIFIED_DESC @74
 

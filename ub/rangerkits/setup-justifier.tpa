@@ -6,12 +6,6 @@
 
 /* AUTHOR   ~andyr@gibberlings3.net~ */
 
-/* Kulyok: I'm sometimes using this ubsetup-ee.tra where I shouldn't, but it's harmless and better than forgetting it entirely before v25. :) But don't do that at home. */
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-END
-
 COPY ~%MOD_FOLDER%/rangerkits/A#justif.2DA~ ~override/A#justif.2DA~
 
 COPY_EXISTING ~SPCL331.SPL~ ~override/A#just01.SPL~

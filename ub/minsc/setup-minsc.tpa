@@ -8,14 +8,10 @@
 
 COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubminsc.xxx~ //null file to identify this component
 
-ACTION_IF ENGINE_IS "bg2ee"
-BEGIN
-  LOAD_TRA ~%MOD_FOLDER%/tra/%LANGUAGE%/ubsetup-ee.tra~
-  ADD_JOURNAL @69 @84 @102 @465 @671 @687 @697 @727 @729 @751 @754 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
-  ADD_JOURNAL @469 @480 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
-  ADD_JOURNAL @477 @788 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
-  ADD_JOURNAL @638 @644 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
-END
+ADD_JOURNAL @69 @84 @102 @465 @671 @687 @697 @727 @729 @751 @754 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
+ADD_JOURNAL @469 @480 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
+ADD_JOURNAL @477 @788 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
+ADD_JOURNAL @638 @644 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/wwminscub.tra~
 
 COPY_EXISTING ~bag02.itm~ ~override/wwbag02.itm~ /* Kulyok */
 COPY_EXISTING ~bag02.sto~ ~override/wwbag02.sto~
