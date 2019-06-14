@@ -351,7 +351,7 @@ END
 
 IF ~Global("u!SunaDies","GLOBAL",2)~ THEN BEGIN ValSunaSHBye1
   SAY @316
-  IF ~~ THEN GOTO ValSunaDead
+  IF ~~ THEN DO ~SetGlobal("u!SunaDies","GLOBAL",3)~ GOTO ValSunaDead
 END
 
 /*IF ~~ THEN BEGIN SunaKilled
