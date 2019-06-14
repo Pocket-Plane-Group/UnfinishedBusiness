@@ -9,7 +9,7 @@ BACKUP ~ub/backup~
 AUTHOR ~http://forums.pocketplane.net~
 
 README ~%MOD_FOLDER%/readme-ub.html~
-VERSION ~v27rc1~
+VERSION ~v27~
 
 ASK_EVERY_COMPONENT
 
