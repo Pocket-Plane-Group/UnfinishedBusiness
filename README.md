@@ -8,6 +8,9 @@ The Unfinished Business mod is one of the oldest mods for Baldur's Gate 2 and re
 
 ## Version History
 
+Version 28
+- Updated Russian translation, thanks to yota13 & Arcanecoast Team
+
 Version 27
 - Updated WeiDU to version 246.
 - Added EET compatibility fixes from the Big World Project.

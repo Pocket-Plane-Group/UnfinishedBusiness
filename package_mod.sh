@@ -5,7 +5,7 @@ bash "../ModPackaging/utilities/ie_games.sh"
 
 # /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 export mod_name="Unfinished Business"
-export mod_version="v27"
+export mod_version="v28"
 export mod_folder="ub"
 
 # /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
