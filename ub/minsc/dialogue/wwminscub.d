@@ -652,7 +652,7 @@ IF ~~ Niceish
 SAY @182
 = @183
 = @184
-IF ~~ THEN DO ~GiveItemCreate("MISC3F","Minsc",0,1,1)~ EXTERN WWELLE Compliment
+IF ~~ THEN DO ~GiveItemCreate("MISC3F","Minsc",1,0,0)~ EXTERN WWELLE Compliment
 END
 
 IF ~~ Minor

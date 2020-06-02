@@ -18,30 +18,36 @@ COPY_EXISTING "trthf01.cre" "override"
 
 
 /* Shazzellim */
-COPY_EXISTING sw1h50.itm  override
-  READ_LONG  0x1e unusability
-  WRITE_LONG 0x1e unusability | 0x04  /* Restrict Good-aligned */
-  SAY IDENTIFIED_DESC @33             /* Altered description for Shazzellim */
-BUT_ONLY
 
-/* Prebek's Home, put Shazzellim in container #2 */
-COPY_EXISTING ar0407.are override
-  LAUNCH_PATCH_FUNCTION ADD_AREA_ITEM
-    INT_VAR
-    container_to_add_to	= 2
-    STR_VAR
-    item_to_add		= "sw1h50"
-  END
-BUT_ONLY
+/* QuestPack has a similar component in Alternative Harpers/Xzar Plot,	*/
+/* so making sure not to do this twice.					*/
 
-/* Remove Elhan's evil-aligned Shazzellim scimitars */
-COPY_EXISTING c6elhan.cre override
-              suelhan.cre override
-  REPLACE_CRE_ITEM sw1h22 #0 #0 #0 NONE        WEAPON1 EQUIP
-  REPLACE_CRE_ITEM sw1h22 #0 #0 #0 NONE        SHIELD
-  REPLACE_CRE_ITEM amul21 #0 #0 #0 UNSTEALABLE AMULET
-IF sw1h50
-BUT_ONLY
+ACTION_IF NOT MOD_IS_INSTALLED "setup-d0questpack" 2
+BEGIN
+  COPY_EXISTING sw1h50.itm  override
+    WRITE_LONG 0x1e (THIS | BIT2)  /* Restrict Good-aligned */
+    SAY IDENTIFIED_DESC @33             /* Altered description for Shazzellim */
+  BUT_ONLY
+
+  /* Prebek's Home, put Shazzellim in container #2 */
+  COPY_EXISTING ar0407.are override
+    LAUNCH_PATCH_FUNCTION ADD_AREA_ITEM
+      INT_VAR
+      container_to_add_to	= 2
+      STR_VAR
+      item_to_add		= "sw1h50"
+    END
+    BUT_ONLY
+
+  /* Remove Elhan's evil-aligned Shazzellim scimitars */
+  COPY_EXISTING c6elhan.cre override
+                suelhan.cre override
+    REPLACE_CRE_ITEM sw1h22 #0 #0 #0 NONE        WEAPON1 EQUIP
+    REPLACE_CRE_ITEM sw1h22 #0 #0 #0 NONE        SHIELD
+    REPLACE_CRE_ITEM amul21 #0 #0 #0 UNSTEALABLE AMULET
+  IF sw1h50
+  BUT_ONLY
+END	// NOT MOD_IS_INSTALLED "setup-d0questpack" 2
 
 
 /* Wolfskin Bag */
@@ -161,24 +167,9 @@ BEGIN
 
   // Restore proper name and description to Krotan's Skullcrusher
   COPY_EXISTING "blun11.itm" "override"
-    SAY NAME2 ~Krotan's Skullcrusher~
-    SAY IDENTIFIED_DESC ~Mace +2: "Krotan's Skullcrusher"
-
-Even the hordes have their heroes, and while they are vilified in civilized company, their deeds are sometimes impressive nonetheless.  Krotan was an exceptionally intelligent orc, as far as orcs go, who commanded an ever-shifting legion of ogres, orcs, hobgoblins, and other assorted beasties during the Year of the Lost Lady, 1241DR. It was in this year that a group of orc bandits allegedly kidnapped and killed a Tethyrian noblewoman, and the response from authorities was a genocidal slaughter of orcs throughout the south in her memory. Krotan mounted a defense that ensured his people were not entirely destroyed; though they were displaced. Krotan himself fell near the end of the conflict, and his head was mounted outside the graveyard where the young lady was buried. As a point of interest, orcs called this time the "Year of Pushing Too Far."
-
-STATISTICS:
-
-Damage: 1D6 + 3
-Damage Type: Crushing
-THAC0: +2
-Weight: 7
-Speed Factor: 5
-Proficiency Type: Blunt Weapons
-Type: 1-handed
-Not Usable by:
- Druid
- Mage
- Thief~
+    SAY NAME2 #103012
+    SAY IDENTIFIED_DESC #103013
+    BUT_ONLY_IF_IT_CHANGES
 
   // Add import02 to Chateau Irenicus
   COPY_EXISTING "ar0602.bcs" "override"
