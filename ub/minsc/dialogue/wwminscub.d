@@ -885,7 +885,7 @@ END
 ++ @291 EXTERN WWCOWL1 givemoney
 ++ @292 EXTERN WWCOWL1 asyouwish2
 ++ @293 EXTERN WWCOWL1 irenicus2
-++ @294  EXTERN WWCOWL1 irenicus2
++ ~!Global("C#IM_ImoenStays","GLOBAL",1)~ + @294  EXTERN WWCOWL1 irenicus2
 ++ @295 EXTERN WWCOWL1 asyouwish
 
 CHAIN
@@ -895,7 +895,7 @@ END
 ++ @291 EXTERN WWCOWL1 givelicense
 ++ @292 EXTERN WWCOWL1 asyouwish2
 ++ @293 EXTERN WWCOWL1 irenicus
-++ @294  EXTERN WWCOWL1 irenicus
++ ~!Global("C#IM_ImoenStays","GLOBAL",1)~ + @294  EXTERN WWCOWL1 irenicus
 ++ @295 EXTERN WWCOWL1 asyouwish
 
 CHAIN
@@ -1903,8 +1903,8 @@ END
 IF WEIGHT #-45 ~Global("WWFakeBoo","GLOBAL",1)
 				GlobalTimerExpired("WWFakeBooTimer","GLOBAL")~ THEN FakeBooComment1
 SAY @674
-+ ~GLT("Chapter",%bg2_chapter_5%)~ + @675 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + MeanChar
-+ ~!GLT("Chapter",%bg2_chapter_5%)~ + @675 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + MeanChar6
++ ~GLT("Chapter",%bg2_chapter_5%) !Global("C#IM_ImoenStays","GLOBAL",1)~ + @675 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + MeanChar
++ ~Or(2) GGT("Chapter",%bg2_chapter_4%) Global("C#IM_ImoenStays","GLOBAL",1)~ + @675 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + MeanChar6
 ++ @676 DO ~SetGlobal("WWFakeBoo","GLOBAL",2)~ + Confession
 END
 
@@ -2112,7 +2112,7 @@ SAY @739
 = @740
 ++ @741 + SadMinsc
 ++ @742 + HelpFindBoo
-++ @743 + SadMinsc
++ ~!Global("C#IM_ImoenStays","GLOBAL",1)~ + @743 + SadMinsc
 END
 
 IF ~~ HelpFindBoo

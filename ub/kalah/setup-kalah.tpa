@@ -53,16 +53,16 @@ COPY ~%MOD_FOLDER%/Kalah/U!Kgen.CRE~  ~override/U!Kgen.CRE~
   SAY NAME1 #2880
   SAY NAME2 #2880
 
-COMPILE ~%MOD_FOLDER%/Kalah/U!KGirl.BAF~
-        ~%MOD_FOLDER%/Kalah/U!Ktalk.BAF~
-        ~%MOD_FOLDER%/Kalah/U!Kjaf.BAF~
-        ~%MOD_FOLDER%/Kalah/U!Kdead.BAF~
-        ~%MOD_FOLDER%/Kalah/U!KGirl.D~
-        ~%MOD_FOLDER%/Kalah/U!Kjaf.D~
-        ~%MOD_FOLDER%/Kalah/U!Kgen.D~
-        ~%MOD_FOLDER%/Kalah/U!Kdead.D~
-        ~%MOD_FOLDER%/Kalah/U!Krais.D~
-        ~%MOD_FOLDER%/Kalah/U!KImoen.d~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/Kalah/U!KGirl.BAF~
+                        ~%MOD_FOLDER%/Kalah/U!Ktalk.BAF~
+                        ~%MOD_FOLDER%/Kalah/U!Kjaf.BAF~
+                        ~%MOD_FOLDER%/Kalah/U!Kdead.BAF~
+                        ~%MOD_FOLDER%/Kalah/U!KGirl.D~
+                        ~%MOD_FOLDER%/Kalah/U!Kjaf.D~
+                        ~%MOD_FOLDER%/Kalah/U!Kgen.D~
+                        ~%MOD_FOLDER%/Kalah/U!Kdead.D~
+                        ~%MOD_FOLDER%/Kalah/U!Krais.D~
+                        ~%MOD_FOLDER%/Kalah/U!KImoen.d~
 USING   ~%MOD_FOLDER%/tra/%s/ubdialog.tra~
 
 EXTEND_TOP ~AR0700.bcs~ ~%MOD_FOLDER%/Kalah/U!K0700.baf~

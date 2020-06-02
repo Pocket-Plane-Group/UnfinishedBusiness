@@ -30,8 +30,8 @@ IF ~OR(2) CheckStatGT(LastTalkedToBy,12,WIS) CheckStatGT(LastTalkedToBy,12,INT)~
 IF ~OR(2) CheckStatLT(LastTalkedToBy,13,WIS) CheckStatLT(LastTalkedToBy,13,INT)~ THEN REPLY @240 GOTO DeadKalah
 IF ~~ THEN REPLY @241 GOTO FreeGenie
 IF ~~ THEN REPLY @242 GOTO SoulKalah
-IF ~!InParty("Imoen2") OR(2) CheckStatGT(LastTalkedToBy,12,WIS) CheckStatGT(LastTalkedToBy,12,INT)~ THEN REPLY @342 GOTO Failed
-IF ~!InParty("Imoen2") OR(2) CheckStatLT(LastTalkedToBy,13,WIS) CheckStatLT(LastTalkedToBy,13,INT)~ THEN REPLY @243 GOTO WrongImoen
+IF ~GlobalLT("Chapter","GLOBAL", %bg2_chapter_4%) !Global("C#IM_ImoenStays","GLOBAL",1) OR(2) CheckStatGT(LastTalkedToBy,12,WIS) CheckStatGT(LastTalkedToBy,12,INT)~ THEN REPLY @342 GOTO Failed
+IF ~GlobalLT("Chapter","GLOBAL", %bg2_chapter_4%) !Global("C#IM_ImoenStays","GLOBAL",1) CheckStatLT(LastTalkedToBy,13,WIS) CheckStatLT(LastTalkedToBy,13,INT)~ THEN REPLY @243 GOTO WrongImoen
 IF ~~ THEN REPLY @244 GOTO Failed
 IF ~~ THEN REPLY @245 GOTO JafirKill
 IF ~~ THEN REPLY @246 GOTO NoMoreWishes

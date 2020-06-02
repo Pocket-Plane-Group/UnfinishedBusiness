@@ -12,6 +12,7 @@ Version 28
 - Updated Russian translation, thanks to yota13 & Arcanecoast Team.
 - The Jade Hound Figurine from Minsc's quest has a charge when you get it.
 - UB will no longer restore Shazzellim +1 if QuestPack has already done so.
+- Added content compatibility with Imoen 4 Ever mod.
 
 Version 27
 - Updated WeiDU to version 246.
