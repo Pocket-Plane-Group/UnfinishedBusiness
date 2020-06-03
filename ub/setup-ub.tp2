@@ -106,6 +106,8 @@ LANGUAGE
 
 BEGIN @0
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_kidnapping_of_boo"
@@ -120,6 +122,8 @@ END
 ////////////////////////////////////////
 
 BEGIN @20
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -138,6 +142,8 @@ END
 
 BEGIN @47
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_kalah_what_he_was_promised"
@@ -155,6 +161,8 @@ END
 
 BEGIN @25
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_bodhi_cat_and_mouse"
@@ -169,6 +177,8 @@ END
 /////////////////////////////////////////////////////
 
 BEGIN @26
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -185,6 +195,8 @@ END
 
 BEGIN @27
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_spiders_bane_quest"
@@ -199,6 +211,8 @@ END
 ////////////////////////////////
 
 BEGIN @28
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -215,6 +229,8 @@ END
 
 BEGIN @29
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_encounters"
@@ -230,6 +246,8 @@ END
 
 BEGIN @48
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_artemis_entreri"
@@ -244,6 +262,8 @@ END
 //////////////////////////////////
 
 BEGIN @52
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -262,6 +282,8 @@ END
 
 BEGIN @66
 DESIGNATED 10
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -291,6 +313,8 @@ DEPRECATED ~Not needed for BG2EE.  For vanilla BG2, use the G3 Fixpack instead.~
 
 BEGIN @30
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_item_restorations"
@@ -305,6 +329,8 @@ END
 /////////////////////////////////
 
 BEGIN @70
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -321,6 +347,8 @@ END
 
 BEGIN @72
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_original_anomen_portrait"
@@ -335,6 +363,8 @@ END
 ///////////////////////////////
 
 BEGIN @49
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -362,6 +392,8 @@ DEPRECATED ~Not needed for BG2EE.  For vanilla BG2, use the G3 Fixpack instead.~
 
 BEGIN @53
 
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
+
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
   file = "setup_names_and_biographies"
@@ -376,6 +408,8 @@ END
 ////////////////////////////
 
 BEGIN @54
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -446,7 +480,7 @@ END
 /* AUTHOR   ~andyr@gibberlings3.net~ */
 
 BEGIN @81
-REQUIRE_PREDICATE NOT ENGINE_IS "bg2ee" @1311
+REQUIRE_PREDICATE NOT ENGINE_IS "bgee bg2ee" @1311
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -464,7 +498,7 @@ END
 /* AUTHOR   ~andyr@gibberlings3.net~ */
 
 BEGIN @85
-REQUIRE_PREDICATE NOT ENGINE_IS "bg2ee" @1311
+REQUIRE_PREDICATE NOT ENGINE_IS "bgee bg2ee" @1311
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -498,6 +532,8 @@ END
 /////////////////////////////////
 
 BEGIN @1313
+
+REQUIRE_PREDICATE GAME_INCLUDES "bg2" @102
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR

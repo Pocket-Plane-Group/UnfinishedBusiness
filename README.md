@@ -15,6 +15,7 @@ Version 28
 - Added content compatibility with Imoen 4 Ever mod.
 - Added file ub.ini with mod metadata.
 - Implemented encapsulation and immutabilty.
+- Added conditions to ensure components only get installed on compatible games.
 
 Version 27
 - Updated WeiDU to version 246.
