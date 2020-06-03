@@ -480,7 +480,6 @@ END
 /* AUTHOR   ~andyr@gibberlings3.net~ */
 
 BEGIN @81
-REQUIRE_PREDICATE NOT ENGINE_IS "bgee bg2ee" @1311
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR
@@ -498,7 +497,6 @@ END
 /* AUTHOR   ~andyr@gibberlings3.net~ */
 
 BEGIN @85
-REQUIRE_PREDICATE NOT ENGINE_IS "bgee bg2ee" @1311
 
 LAUNCH_ACTION_FUNCTION run
   STR_VAR

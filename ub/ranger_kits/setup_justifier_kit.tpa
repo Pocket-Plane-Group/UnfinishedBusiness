@@ -60,6 +60,12 @@ BEGIN
   SAY @82
   SAY @83
   SAY @84
+
+  LAUNCH_ACTION_FUNCTION fl#add_kit_ee
+    STR_VAR
+    kit_name	= "A#JUSTIFIER"
+    hpclass	= "hpwar"
+  END
 END	// setup_justifier_kit
 
 

@@ -36,6 +36,7 @@ BEGIN
   // Include other needed stuff
 
   INCLUDE "%mod_root%/lib/tob2soa.tph"
+  INCLUDE "%mod_root%/lib/fl#add_kit_ee.tph"
 END
 
 

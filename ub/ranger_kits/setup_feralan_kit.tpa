@@ -111,6 +111,12 @@ BEGIN
   SAY @92
   SAY @93
   SAY @94
+
+  LAUNCH_ACTION_FUNCTION fl#add_kit_ee
+    STR_VAR
+    kit_name	= "A#FERALAN"
+    hpclass	= "hpwar"
+  END
 END	// setup_feralan_kit
 
 

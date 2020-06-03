@@ -16,6 +16,7 @@ Version 28
 - Added file ub.ini with mod metadata.
 - Implemented encapsulation and immutabilty.
 - Added conditions to ensure components only get installed on compatible games.
+- The restored ranger kits are now compatible with EE games.
 
 Version 27
 - Updated WeiDU to version 246.
