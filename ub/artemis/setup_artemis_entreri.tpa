@@ -1,0 +1,18 @@
+DEFINE_ACTION_FUNCTION setup_artemis_entreri
+BEGIN
+  /////////////////////////////////////
+  /////////////////////////////////////
+  // Artemis Entreri in Bodhi's Lair //
+  /////////////////////////////////////
+  /////////////////////////////////////
+
+  COPY ~%mod_root%/ubnull.itm~ ~override/ubartemi.xxx~ //null file to identify this component
+
+  COMPILE ~%mod_root%/artemis/u!artemis.d~
+  USING   ~%tra_loc%/%s/ubdialog.tra~
+
+  EXTEND_TOP ~AR0809.bcs~  ~%mod_root%/artemis/U!0809.baf~
+  EXTEND_TOP ~artemis.bcs~ ~%mod_root%/artemis/U!ARTEMI.baf~
+END	// setup_artemis_entreri
+
+

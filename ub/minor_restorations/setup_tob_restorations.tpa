@@ -1,0 +1,71 @@
+DEFINE_ACTION_FUNCTION setup_tob_restorations
+BEGIN
+  ////////////////////////////////////////
+  ////////////////////////////////////////
+  // Throne of Bhaal Minor Restorations //
+  ////////////////////////////////////////
+  ////////////////////////////////////////
+
+  COPY_EXISTING ~sarevok.cre~ ~override~
+    WRITE_LONG 0x260 0x00000000
+    WRITE_LONG 0x264 0x00000000
+
+  ACTION_IF NOT FILE_EXISTS_IN_GAME ~sarev25.bcs~
+  BEGIN
+    COPY_EXISTING ~sarevok.bcs~ ~override/sarev25.bcs~
+  END
+  ELSE
+  BEGIN
+    COPY_EXISTING ~inp1ivsg.bcs~ ~override~               
+    EXTEND_TOP ~sarev25.bcs~ ~override/inp1ivsg.bcs~
+  END
+
+  // Restored Quiver of Plenty icons
+  COPY_EXISTING ~QUIVER01.itm~ ~override~
+                ~QUIVER03.itm~ ~override~
+    WRITE_ASCII 0x3a "IQUIVER0" #8
+    WRITE_ASCII 0x44 "GQUIVER0" #8
+
+  COPY_EXISTING ~QUIVER02.itm~ ~override~
+                ~QUIVER04.itm~ ~override~
+    WRITE_ASCII 0x44 "GQUIVER0" #8
+
+  // Cold Mistress in Saradush
+  <<<<<<<< .../ub/ding0/coldmiss/ar0500.baf
+  IF
+  !Global("D0SpawnCold","AR5000",1)
+  THEN
+  RESPONSE #100
+  SetGlobal("D0SpawnCold","AR5000",1)
+  CreateCreature("sarmist",[910.2343],6) // Cold Mistress
+  CreateCreature("sarcult",[824.2310],0) // Human Cultist
+  CreateCreature("sarcult2",[962.2276],0) // Human Cultist
+  CreateCreature("sarculto",[875.2273],0) // Orc Cultist
+  Continue()
+  END
+  >>>>>>>>
+  <<<<<<<< .../ub/ding0/coldmiss/dialog.d
+  APPEND SARMIST
+  IF WEIGHT #-1 ~NumTimesTalkedTo(0)~ THEN BEGIN Embrace1
+  SAY @1300
+  IF ~~ THEN DO ~SetCutsceneLite(TRUE)
+  ForceSpell("sarculto",DO_NOTHING)
+  SmallWait(2)
+  Kill("sarculto")
+  Wait(1)
+  StartDialogNoSet(LastTalkedToBy(Myself))~ EXIT
+  END
+  END
+  >>>>>>>>
+
+  COPY_EXISTING ~sarmist.cre~ ~override~
+    SAY 0xa4 #61744
+    SAY 0x10c #61744
+    WRITE_ASCII 0x248 "SHOUTDLG"
+
+  EXTEND_TOP ~AR5000.BCS~ ~.../ub/ding0/coldmiss/ar0500.baf~
+
+  COMPILE ~.../ub/ding0/coldmiss/dialog.d~
+END	// setup_tob_restorations
+
+

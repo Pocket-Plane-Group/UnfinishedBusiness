@@ -1,0 +1,57 @@
+ACTION_IF NOT VARIABLE_IS_SET ub_always
+BEGIN
+  OUTER_SET ub_always = 1
+
+
+  // Generate chapter number constants for EET compatibility
+
+  OUTER_FOR (i = 1; i <= 10; ++i)
+  BEGIN
+    ACTION_IF GAME_IS "eet"
+    BEGIN
+      OUTER_SET EVAL "bg2_chapter_%i%" = i + 12
+    END
+    ELSE
+    BEGIN
+      OUTER_SET EVAL "bg2_chapter_%i%" = i
+    END
+  END
+
+
+  // CD_STATE_NOTVALID - custom state from CamDawg
+  // Angel: Moved here so it is no longer needed to include it in every component.
+
+  APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+  UNLESS ~CD_STATE_NOTVALID~
+
+
+  // Angel: Disable known broken areas and items from chitin.key.
+
+  ACTION_FOR_EACH broken IN xr2400.are xr2600.are iplot01k.itm iplot04g.itm iplot04h.itm iplot04i.itm
+  BEGIN
+    DISABLE_FROM_KEY ~%broken%~
+  END
+
+
+  // Include other needed stuff
+
+  INCLUDE "%mod_root%/lib/tob2soa.tph"
+END
+
+
+// Handle charsets for EE games
+
+LAUNCH_ACTION_FUNCTION handle_charsets_immutably
+  RET	tra_loc
+END
+
+
+// Load EE-specific translation strings if needed.
+
+ACTION_IF ENGINE_IS "bgee bg2ee"
+BEGIN
+  LOAD_TRA ~%tra_loc%/%base_lang%/ubsetup-ee.tra~
+  LOAD_TRA ~%tra_loc%/%LANGUAGE%/ubsetup-ee.tra~
+END
+
+

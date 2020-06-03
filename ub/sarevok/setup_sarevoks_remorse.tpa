@@ -1,0 +1,56 @@
+DEFINE_ACTION_FUNCTION setup_sarevoks_remorse
+BEGIN
+  ///////////////////////
+  // Sarevok's Remorse //
+  ///////////////////////
+
+  // Authors:  Sovran      saarenvelho@hotmail.com
+  //           Winterine   winterine@gmail.com
+
+  COPY ~%mod_root%/sarevok/u!sbook0.bam~ ~override/u!sbook0.bam~
+  COPY ~%mod_root%/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK1.ITM~
+    SAY NAME1 @1004
+    SAY NAME2 @1004
+    SAY DESC @1001
+
+  COPY ~%mod_root%/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK2.ITM~
+    SAY NAME1 @1004
+    SAY NAME2 @1004
+    SAY DESC @1002
+
+  COPY ~%mod_root%/sarevok/U!SBOOK0.ITM~          ~override/U!SBOOK3.ITM~
+    SAY NAME1 @1004
+    SAY NAME2 @1004
+    SAY DESC @1003
+
+  COPY ~%mod_root%/sarevok/U!SWAKIZ.ITM~          ~override/U!SWAKIZ.ITM~
+    SAY UNIDENTIFIED_DESC @1005
+
+  ACTION_IF NOT FILE_EXISTS ~override/sarev25.bcs~
+  BEGIN
+    COPY_EXISTING ~sarevok.bcs~ ~override/sarev25.bcs~
+    EXTEND_TOP ~sarev25.bcs~ ~%mod_root%/sarevok/u!sare.baf~
+  END
+  ELSE
+  BEGIN
+    EXTEND_TOP ~sarev25.bcs~ ~%mod_root%/sarevok/u!sare.baf~
+  END
+
+  EXTEND_TOP ~yoshimo.bcs~ ~%mod_root%/sarevok/u!syosh.baf~
+
+  COPY_EXISTING ~SAREVND.2da~ ~override/SAREVND.2da~
+    SET_2DA_ENTRY 0 0 2 ~U!SARE 0~
+    SET_2DA_ENTRY 2 2 3 ~U!SAREVND~
+    SET_2DA_ENTRY 0 0 3 ~~
+    REPLACE ~U!SAREVND~ @1298
+
+  OUTER_SET actual_wilmat_state = (STATE_WHICH_SAYS #58238 FROM ~wilmat~)
+
+  COMPILE ~%mod_root%/sarevok/u!sare1.d~ EVALUATE_BUFFER
+  USING ~%tra_loc%/%s/u!sare.tra~
+
+  COMPILE ~%mod_root%/sarevok/u!sare.d~
+  USING   ~%tra_loc%/%s/u!sare.tra~
+END	// setup_sarevoks_remorse
+
+

@@ -4,19 +4,26 @@
 /////////////////////////
 /////////////////////////
 
-BACKUP ~ub/backup~
+BACKUP ~weidu_external/backup/ub~
 
-AUTHOR ~http://forums.pocketplane.net~
+SUPPORT ~http://forums.pocketplane.net~
 
-README ~%MOD_FOLDER%/docs/readme-ub.html~
 VERSION ~v28~
+README ~ub/docs/readme-ub.html~
 
 ASK_EVERY_COMPONENT
+AUTO_EVAL_STRINGS
 
 ALWAYS
-  // ALWAYS block externalized to lib/ub_always.tpa
+  OUTER_SPRINT mod_root "ub"
+  OUTER_SPRINT external_loc "weidu_external"
+  OUTER_SPRINT tra_base "lang"
+  OUTER_SPRINT tra_setup "ubsetup"
+  OUTER_SPRINT ini_file "ub"
 
-  INCLUDE ~%MOD_FOLDER%/lib/ub_always.tpa~
+  INCLUDE "%mod_root%/lib/sfo_immutable.tph"
+
+  INCLUDE "%mod_root%/lib/always.tpa"
 END
 
 ////////////////////////
@@ -25,63 +32,69 @@ END
 ////////////////////////
 ////////////////////////
 
-// AUTO_TRA ~%MOD_FOLDER%/tra/%s~
-
 LANGUAGE 
          ~English~
          ~english~
-         ~%MOD_FOLDER%/tra/english/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
 LANGUAGE
          ~French (graoumf and Les D'Oghmatiques)~
          ~french~
-         ~%MOD_FOLDER%/tra/english/ubsetup.tra~
-         ~%MOD_FOLDER%/tra/french/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
+         ~ub/lang/french/ubsetup.tra~
+         ~weidu_external/lang/french/ubsetup.tra~
 LANGUAGE
          ~Polski (Yarpen, Cahir)~
          ~polish~
-         ~%MOD_FOLDER%/tra/english/ubsetup.tra~
-         ~%MOD_FOLDER%/tra/polish/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
+         ~ub/lang/polish/ubsetup.tra~
+         ~weidu_external/lang/polish/ubsetup.tra~
 LANGUAGE
          ~Deutsch (Rosenranken.de)~
          ~german~
-         ~%MOD_FOLDER%/tra/english/ubsetup.tra~
-         ~%MOD_FOLDER%/tra/german/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
+         ~ub/lang/german/ubsetup.tra~
+         ~weidu_external/lang/german/ubsetup.tra~
 LANGUAGE
          ~Español (Clan DLAN)~
          ~spanish~
-         ~%MOD_FOLDER%/tra/english/ubsetup.tra~
-         ~%MOD_FOLDER%/tra/spanish/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
+         ~ub/lang/spanish/ubsetup.tra~
+         ~weidu_external/lang/spanish/ubsetup.tra~
 LANGUAGE
          ~Czech (yenn)~
          ~czech~
-         ~%MOD_FOLDER%/tra/english/ubsetup.tra~
-         ~%MOD_FOLDER%/tra/czech/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
+         ~ub/lang/czech/ubsetup.tra~
+         ~weidu_external/lang/czech/ubsetup.tra~
 LANGUAGE
          ~Russian (Alex&AERIE.RU, BigMF, Hawkmoon, Regharrr. Updated by Prowler)~
          ~russian~
-         ~%MOD_FOLDER%/tra/russian/ubsetup.tra~
-         ~%MOD_FOLDER%/tra/english/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
+         ~ub/lang/russian/ubsetup.tra~
+         ~weidu_external/lang/russian/ubsetup.tra~
 LANGUAGE
          ~Chinese (Scar_kun)~
          ~chinese~
-         ~%MOD_FOLDER%/tra/english/ubsetup.tra~
-         ~%MOD_FOLDER%/tra/chinese/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
+         ~ub/lang/chinese/ubsetup.tra~
+         ~weidu_external/lang/chinese/ubsetup.tra~
 
 LANGUAGE
          ~Italian (Giuseppe Cali, Ilot)~
          ~italian~
-         ~%MOD_FOLDER%/tra/italian/ubsetup.tra~
+         ~ub/lang/english/ubsetup.tra~
+         ~weidu_external/lang/english/ubsetup.tra~
+         ~ub/lang/italian/ubsetup.tra~
+         ~weidu_external/lang/italian/ubsetup.tra~
 
-/*
-LANGUAGE
-         ~French (graoumf and Les D'Oghmatiques) for ENHANCED EDITION~
-         ~frenchEE~
-         ~%MOD_FOLDER%/tra/frenchEE/ubsetup.tra~
-LANGUAGE
-         ~Polski (Yarpen) for ENHANCED EDITION~
-         ~polishEE~
-         ~%MOD_FOLDER%/tra/polishEE/ubsetup.tra~
-*/
 
 ///////////////////////////
 ///////////////////////////
@@ -93,7 +106,11 @@ LANGUAGE
 
 BEGIN @0
 
-INCLUDE "%MOD_FOLDER%/minsc/setup-minsc.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_kidnapping_of_boo"
+  file_loc = "minsc"
+END
 
 
 ////////////////////////////////////////
@@ -104,7 +121,11 @@ INCLUDE "%MOD_FOLDER%/minsc/setup-minsc.tpa"
 
 BEGIN @20
 
-INCLUDE "%MOD_FOLDER%/suna/setup-suna.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_suna_seni_valygar"
+  file_loc = "suna"
+END
 
 
 ////////////////////////////////////
@@ -117,7 +138,11 @@ INCLUDE "%MOD_FOLDER%/suna/setup-suna.tpa"
 
 BEGIN @47
 
-INCLUDE "%MOD_FOLDER%/kalah/setup-kalah.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_kalah_what_he_was_promised"
+  file_loc = "kalah"
+END
 
 
 ////////////////////////////////
@@ -130,7 +155,11 @@ INCLUDE "%MOD_FOLDER%/kalah/setup-kalah.tpa"
 
 BEGIN @25
 
-INCLUDE "%MOD_FOLDER%/bodhihunt/setup-bodhihunt.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_bodhi_cat_and_mouse"
+  file_loc = "bodhihunt"
+END
 
 
 /////////////////////////////////////////////////////
@@ -141,7 +170,11 @@ INCLUDE "%MOD_FOLDER%/bodhihunt/setup-bodhihunt.tpa"
 
 BEGIN @26
 
-INCLUDE "%MOD_FOLDER%/gorje/setup-gorje.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_extended_illithium_quest"
+  file_loc = "gorje"
+END
 
 
 ////////////////////////////////////
@@ -152,7 +185,11 @@ INCLUDE "%MOD_FOLDER%/gorje/setup-gorje.tpa"
 
 BEGIN @27
 
-INCLUDE "%MOD_FOLDER%/paina/setup-paina.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_spiders_bane_quest"
+  file_loc = "paina"
+END
 
 
 ////////////////////////////////
@@ -163,7 +200,11 @@ INCLUDE "%MOD_FOLDER%/paina/setup-paina.tpa"
 
 BEGIN @28
 
-INCLUDE "%MOD_FOLDER%/crane/setup-crane.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_crooked_crane"
+  file_loc = "crane"
+END
 
 
 /////////////////////////
@@ -174,7 +215,11 @@ INCLUDE "%MOD_FOLDER%/crane/setup-crane.tpa"
 
 BEGIN @29
 
-INCLUDE "%MOD_FOLDER%/encount/setup-encount.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_encounters"
+  file_loc = "encounters"
+END
 
 
 /////////////////////////////////////
@@ -185,7 +230,11 @@ INCLUDE "%MOD_FOLDER%/encount/setup-encount.tpa"
 
 BEGIN @48
 
-INCLUDE "%MOD_FOLDER%/artemis/setup-artemis.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_artemis_entreri"
+  file_loc = "artemis"
+END
 
 
 //////////////////////////////////
@@ -196,7 +245,11 @@ INCLUDE "%MOD_FOLDER%/artemis/setup-artemis.tpa"
 
 BEGIN @52
 
-INCLUDE "%MOD_FOLDER%/xzar/setup-xzar.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_xzars_creations"
+  file_loc = "xzar"
+END
 
 
 ///////////////////////////
@@ -210,7 +263,11 @@ INCLUDE "%MOD_FOLDER%/xzar/setup-xzar.tpa"
 BEGIN @66
 DESIGNATED 10
 
-INCLUDE "%MOD_FOLDER%/hell/setup-hell.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_hell_minions"
+  file_loc = "hell"
+END
 
 
 ///////////////////////////
@@ -234,7 +291,11 @@ DEPRECATED ~Not needed for BG2EE.  For vanilla BG2, use the G3 Fixpack instead.~
 
 BEGIN @30
 
-INCLUDE "%MOD_FOLDER%/items/setup-items.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_item_restorations"
+  file_loc = "items"
+END
 
 
 /////////////////////////////////
@@ -245,7 +306,11 @@ INCLUDE "%MOD_FOLDER%/items/setup-items.tpa"
 
 BEGIN @70
 
-INCLUDE "%MOD_FOLDER%/yoshimo/setup-yoshimo.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_original_yoshimo_portrait"
+  file_loc = "portraits"
+END
 
 
 ////////////////////////////////
@@ -256,7 +321,11 @@ INCLUDE "%MOD_FOLDER%/yoshimo/setup-yoshimo.tpa"
 
 BEGIN @72
 
-INCLUDE "%MOD_FOLDER%/anomen/setup-anomen.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_original_anomen_portrait"
+  file_loc = "portraits"
+END
 
 
 ///////////////////////////////
@@ -267,7 +336,11 @@ INCLUDE "%MOD_FOLDER%/anomen/setup-anomen.tpa"
 
 BEGIN @49
 
-INCLUDE "%MOD_FOLDER%/npcportraits/setup-npcportraits.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_npc_portraits"
+  file_loc = "portraits"
+END
 
 
 ///////////////////////////////
@@ -289,136 +362,10 @@ DEPRECATED ~Not needed for BG2EE.  For vanilla BG2, use the G3 Fixpack instead.~
 
 BEGIN @53
 
-/* Malaaq, the genie */
-COPY_EXISTING idjinni.cre  override
-  SAY NAME1 @36
-  SAY NAME2 @36
-BUT_ONLY
-
-/* Hendron, Lady Delcia's guard */
-COPY_EXISTING kpsold01.cre override
-  SAY NAME1 @37
-  SAY NAME2 @37
-BUT_ONLY
-
-/* Hannah, the circus attendant */
-COPY_EXISTING kftown01.cre override
-  SAY NAME1 #20626
-  SAY NAME2 #20641
-BUT_ONLY
-
-/* Lellyn, Mazzy's fallen compatriot */
-COPY_EXISTING lellyn.cre   override
-  SAY NAME1 @38
-  SAY NAME2 @38
-BUT_ONLY
-
-/* The omnipresent Town Crier Neckeith */
-/*
-COPY_EXISTING townc01.cre  override
-  SAY NAME1 @57
-  SAY NAME2 @57
-BUT_ONLY
-*/
-
-/* Shadow Thief Assassin */
-COPY_EXISTING stass1.cre   override
-  SAY NAME1 @58
-  SAY NAME2 @58
-BUT_ONLY
-
-/* Shadow Thief Archer */
-COPY_EXISTING starcher.cre override
-              arnfgt03.cre override
-              flyfgt03.cre override
-              arnwar01.cre override
-              irethf04.cre override
-  SAY NAME1 @59
-  SAY NAME2 @59
-BUT_ONLY
-
-/* Shadow Thief Footpad */
-COPY_EXISTING arnwar04.cre override
-  SAY NAME1 @60
-  SAY NAME2 @60
-BUT_ONLY
-
-/* Shadow Thief Thug */
-COPY_EXISTING arnfgt04.cre override
-              arnwar02.cre override
-  SAY NAME1 @61
-  SAY NAME2 @61
-BUT_ONLY
-
-/* Shadow Thief Guard */
-COPY_EXISTING flyfgt02.cre override
-  SAY NAME1 @62
-  SAY NAME2 @62
-BUT_ONLY
-
-/* Shadow Thief Inquisitor */
-COPY_EXISTING flyfgt04.cre override
-  SAY NAME1 @63
-  SAY NAME2 @63
-BUT_ONLY
-
-/* Shadow Thief Battlemage */
-COPY_EXISTING irethf05.cre override
-  SAY NAME1 @64
-  SAY NAME2 @64
-BUT_ONLY
-
-/* Amon of the Purple Brotherhood */
-COPY_EXISTING sevpat02.cre override
-  SAY NAME1 @65
-  SAY NAME2 @65
-BUT_ONLY
-
-/* Alatelo De Bonito */
-COPY_EXISTING sevdru01.cre override
-  WRITE_SHORT 0x273 0x01            /* Changes class from Innocent to Mage */
-BUT_ONLY
-
-ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
-BEGIN
-  /* Apprentice Torturer Douglas */
-  COPY_EXISTING arnboy01.cre override
-    SAY NAME1 #38998
-    SAY NAME2 #38998
-  BUT_ONLY
-
-  /* Crazyface, Korgan's old cohort */
-  COPY_EXISTING korcrazy.cre override
-    SAY NAME1 #30508
-    SAY NAME2 #30509
-  BUT_ONLY
-
-  /* Pimlico Guard */
-  COPY_EXISTING korpimg1.cre override
-    SAY NAME1 #30490
-    SAY NAME2 #30490
-  BUT_ONLY
-
-  /* Maheer, the Blacksmith */
-  COPY_EXISTING shop3.cre override /* Kulyok */
-    SAY NAME1 #23302
-    SAY NAME2 #23303
-  BUT_ONLY
-
-  /* Derrick, the ranger */
-  COPY_EXISTING valran01.cre override
-    SAY NAME1 #2190
-    SAY NAME2 #2190
-  BUT_ONLY
-
-  /* Post Spellhold Imoen Biography */
-  ACTION_FOR_EACH imoen_cre IN imoen211.cre imoen215.cre imoen15.cre BEGIN
-    ACTION_IF FILE_EXISTS_IN_GAME ~%imoen_cre%~ THEN BEGIN
-      COPY_EXISTING ~%imoen_cre%~ override
-        WRITE_LONG 0x1cc 0xb16
-      BUT_ONLY
-    END
-  END
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_names_and_biographies"
+  file_loc = "minor_restorations"
 END
 
 
@@ -430,7 +377,11 @@ END
 
 BEGIN @54
 
-INCLUDE "%MOD_FOLDER%/dialogs/setup-dialogs.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_dialog_restorations"
+  file_loc = "dialogs"
+END
 
 
 ////////////////////////////////
@@ -445,7 +396,11 @@ BEGIN @68
 
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
 
-INCLUDE "%MOD_FOLDER%/bhaalpowers/setup-bhaalpowers.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_bhaalpowers"
+  file_loc = "bhaalpowers"
+END
 
 
 ////////////////////////////////////
@@ -458,7 +413,11 @@ BEGIN @73
 
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
 
-INCLUDE "%MOD_FOLDER%/tobdesc/setup-tobdesc.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_tob_descriptions"
+  file_loc = "minor_restorations"
+END
 
 
 ////////////////////////////////////////
@@ -471,7 +430,11 @@ BEGIN @95
 
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
 
-INCLUDE "%MOD_FOLDER%/tobminor/setup-tobminor.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_tob_restorations"
+  file_loc = "minor_restorations"
+END
 
 
 ///////////////////
@@ -485,7 +448,11 @@ INCLUDE "%MOD_FOLDER%/tobminor/setup-tobminor.tpa"
 BEGIN @81
 REQUIRE_PREDICATE NOT ENGINE_IS "bg2ee" @1311
 
-INCLUDE "%MOD_FOLDER%/rangerkits/setup-justifier.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_justifier_kit"
+  file_loc = "ranger_kits"
+END
 
 
 /////////////////
@@ -499,7 +466,11 @@ INCLUDE "%MOD_FOLDER%/rangerkits/setup-justifier.tpa"
 BEGIN @85
 REQUIRE_PREDICATE NOT ENGINE_IS "bg2ee" @1311
 
-INCLUDE "%MOD_FOLDER%/rangerkits/setup-feralan.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_feralan_kit"
+  file_loc = "ranger_kits"
+END
 
 
 ///////////////////////
@@ -513,7 +484,11 @@ BEGIN @1000
 
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @69
 
-INCLUDE "%MOD_FOLDER%/sarevok/setup-sarevok.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_sarevoks_remorse"
+  file_loc = "sarevok"
+END
 
 
 /////////////////////////////////
@@ -524,6 +499,10 @@ INCLUDE "%MOD_FOLDER%/sarevok/setup-sarevok.tpa"
 
 BEGIN @1313
 
-INCLUDE "%MOD_FOLDER%/haer/setup-haer.tpa"
+LAUNCH_ACTION_FUNCTION run
+  STR_VAR
+  file = "setup_murder_of_acton_balthis"
+  file_loc = "haerdalis"
+END
 
 

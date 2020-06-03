@@ -1,0 +1,29 @@
+DEFINE_ACTION_FUNCTION setup_original_anomen_portrait
+BEGIN
+  ////////////////////////////////
+  ////////////////////////////////
+  // Anomen's Original Portrait //
+  ////////////////////////////////
+  ////////////////////////////////
+
+  COPY ~%mod_root%/ubnull.itm~ ~override/ubanomen.xxx~ //null file to identify this component
+
+
+  ACTION_IF ENGINE_IS "bg2ee"
+  BEGIN
+    COPY ~%mod_root%/portraits/NANOMENL.BMP~ ~override/NANOMENL.BMP~  
+    COPY ~%mod_root%/portraits/NANOMEEM.BMP~ ~override/NANOMENM.BMP~
+    COPY ~%mod_root%/portraits/NANOMEES.BMP~ ~override/NANOMENS.BMP~
+  END
+  ELSE
+  BEGIN
+    COPY ~%mod_root%/portraits/NANOMENM.BMP~ ~override/NANOMENM.BMP~
+    COPY ~%mod_root%/portraits/NANOMENS.BMP~ ~override/NANOMENS.BMP~
+    COPY ~%mod_root%/portraits/NANOMENM.BMP~ ~portraits/NANOMENM.BMP~
+    COPY ~%mod_root%/portraits/NANOMENS.BMP~ ~portraits/NANOMENS.BMP~
+    COPY ~%mod_root%/portraits/NANOMENL.BMP~ ~override/NANOMENL.BMP~ 
+    COPY ~%mod_root%/portraits/NANOMENL.BMP~ ~portraits/NANOMENL.BMP~
+  END
+END	// setup_original_anomen_portrait
+
+

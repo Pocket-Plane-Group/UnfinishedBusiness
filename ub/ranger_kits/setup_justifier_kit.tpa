@@ -1,0 +1,65 @@
+DEFINE_ACTION_FUNCTION setup_justifier_kit
+BEGIN
+  ///////////////////
+  ///////////////////
+  // Justifier Kit //
+  ///////////////////
+  ///////////////////
+
+  /* AUTHOR   ~andyr@gibberlings3.net~ */
+
+  COPY ~%mod_root%/ranger_kits/A#justif.2DA~ ~override/A#justif.2DA~
+
+  COPY_EXISTING ~SPCL331.SPL~ ~override/A#just01.SPL~
+    WRITE_LONG 0x9e 10
+    WRITE_LONG 0xce 10
+
+  COPY ~%mod_root%/ranger_kits/A#just02.SPL~ ~override/A#just02.SPL~
+       ~%mod_root%/ranger_kits/A#justns.SPL~ ~override/A#justns.SPL~
+    SAY NAME1 #-1
+    SAY NAME2 #-1
+
+  COPY_EXISTING ~SPPR103.spl~ ~override/A#justcl.spl~ // Cure Light Wounds
+                ~SPPR111.spl~ ~override/A#justaf.spl~ // Armour of Faith
+                ~SPWI209.spl~ ~override/A#justlu.spl~ // Luck
+                ~SPPR108.spl~ ~override/A#justrf.spl~ // Remove Fear
+    WRITE_SHORT 0x1C 4                        // sets spell type to innate (4)
+    LPF ALTER_SPELL_HEADER
+      INT_VAR
+      location	= 4	// changes ability icon location to innate (4)
+    END
+
+  ADD_KIT ~A#JUSTIFIER~
+  // CLASWEAP.2DA Weapons class can use.
+  ~A#JUSTIFIER		1	1	1	1	1	1	1	1~
+  // WEAPPROF.2DA, starting with line 3. Proficiencies allowed.
+  ~A#JUSTIFIER 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+  // ABCLASRQ.2DA Stat requirements.
+  ~A#JUSTIFIER	13	13	14	0	14	0~
+  // ABCLSMOD.2DA Stat modifiers.
+  ~A#JUSTIFIER		0	0	0	0	0	0~
+  // ABDCDSRQ.2DA Dualclass requirements.
+  ~A#JUSTIFIER		17	17	0	0	17	0~
+  // ABDCSCRQ.2DA Dualclass requirements.
+  ~A#JUSTIFIER		15	15	0	0	15	0~
+  // ALIGNMNT.2DA Permitted alignments.
+  ~A#JUSTIFIER		1	0	0	0	0	0	0	0	0~
+  // DUALCLAS.2DA Dualclass classes.
+  ~A#JUSTIFIER		0	0	0	0	0	0~
+  // Abilities 2DA file
+  ~override/A#justif.2DA~
+  // KITTABLE.2DA What sort of kit it is. R = ranger.
+  ~K_R_H K_R_HE K_R_E~
+  // KITLIST.2DA  Number is the class it is a kit for. Ranger = 12.
+  ~0x00004000	12~
+  // LUABBR.2DA HLAs.
+  ~ra0~
+  // 25STWEAP.2DA ToB starting equipment.
+  ~LEAT20 * HELM19 BAG27 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC14 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+  // Strings for lower, mixed and help descriptions. First two are names for ingame, the third is the description.
+  SAY @82
+  SAY @83
+  SAY @84
+END	// setup_justifier_kit
+
+

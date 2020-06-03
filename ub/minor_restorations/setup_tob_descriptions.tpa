@@ -1,0 +1,45 @@
+DEFINE_ACTION_FUNCTION setup_tob_descriptions
+BEGIN
+  ////////////////////////////////////
+  ////////////////////////////////////
+  // Extended ToB Item Descriptions //
+  ////////////////////////////////////
+  ////////////////////////////////////
+
+  COPY ~%mod_root%/ubnull.itm~ ~override/ubtobitm.xxx~ //null file to identify this component
+
+  COPY_EXISTING ~FIGURE01.itm~ ~override/FIGURE01.itm~
+    SAY IDENTIFIED_DESC @74
+
+  COPY_EXISTING ~SW1H63.itm~ ~override/SW1H63.itm~
+    SAY IDENTIFIED_DESC @75
+
+  COPY_EXISTING ~SPER12.itm~ ~override/SPER12.itm~
+    SAY IDENTIFIED_DESC @76
+
+  COPY_EXISTING ~BLUN27.itm~ ~override/BLUN27.itm~
+    SAY IDENTIFIED_DESC @77
+
+  COPY_EXISTING ~QUIVER01.itm~ ~override/QUIVER01.itm~
+    SAY IDENTIFIED_DESC @78
+
+  COPY_EXISTING ~BLUN29.itm~ ~override/BLUN29.itm~
+    SAY IDENTIFIED_DESC @79
+
+  COPY_EXISTING ~SHLD31.itm~ ~override/SHLD31.itm~
+    SAY IDENTIFIED_DESC @80
+
+  COPY_EXISTING ~SW2H19.itm~ ~override/SW2H19.itm~
+    SAY IDENTIFIED_DESC @99
+
+  COPY_EXISTING ~BLUN30.itm~ ~override/BLUN30.itm~
+    SAY IDENTIFIED_DESC @100
+
+  COPY_EXISTING ~BLUN30C.itm~ ~override/BLUN30C.itm~
+    SAY IDENTIFIED_DESC @101
+
+  COPY_EXISTING ~BLUN30D.itm~ ~override/BLUN30D.itm~
+    SAY IDENTIFIED_DESC @102
+END	// setup_tob_descriptions
+
+

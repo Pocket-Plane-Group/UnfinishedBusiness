@@ -1,0 +1,87 @@
+DEFINE_ACTION_FUNCTION setup_murder_of_acton_balthis
+BEGIN
+  /////////////////////////////////
+  /////////////////////////////////
+  // The Murder of Acton Balthis //
+  /////////////////////////////////
+  /////////////////////////////////
+
+  COPY ~%mod_root%/ubnull.itm~ ~override/ubhaer.xxx~ //null file to identify this component
+
+  ADD_JOURNAL @1301 @1302 @1303 @1304 @1305 @1306 @1307 @1308 @1309 @1310
+
+  COMPILE ~%mod_root%/haerdalis/haerdalis.d~
+  USING   ~%tra_loc%/%s/haerdalis.tra~
+
+  COMPILE	~%mod_root%/haerdalis/o#halieu.baf~
+  	~%mod_root%/haerdalis/o#hapri.baf~
+  	~%mod_root%/haerdalis/o#hajan.baf~
+  	~%mod_root%/haerdalis/o#hahaer.baf~
+
+  REPLACE_TRIGGER_TEXT ~hapip~    ~"haction"~      ~"hacton"~ // Stolen from the Fixpack, yay!
+
+  COPY_EXISTING ~ar1005.are~ ~override~
+    WRITE_ASCII 0x94 ~AR1005~
+  BUT_ONLY_IF_IT_CHANGES
+
+  COPY_EXISTING haquat.cre override
+    ADD_CRE_ITEM misc6g #0 #0 #0 NONE INV1
+
+  EXTEND_TOP ~AR0506.bcs~    ~%mod_root%/haerdalis/AR0506.baf~
+  EXTEND_TOP ~AR1005.bcs~    ~%mod_root%/haerdalis/AR1005.baf~
+  EXTEND_TOP ~AR0700.bcs~    ~%mod_root%/haerdalis/AR0700.baf~
+  EXTEND_TOP ~Haerdali.bcs~  ~%mod_root%/haerdalis/Haerdali.baf~
+  EXTEND_TOP ~initrg13.bcs~  ~%mod_root%/haerdalis/initrg13.baf~
+
+  COPY_EXISTING ~amng1.cre~ ~override/o#halie1.cre~
+    WRITE_ASCII 0x248 ~o#halie1~   #8  // override
+    WRITE_ASCII 0x2cc ~o#halie1~   #8  // dialogue
+    WRITE_ASCII 0x280 ~o#halie1~   #32 // death variable
+
+  COPY_EXISTING ~amng2.cre~ ~override/o#halie2.cre~
+    WRITE_ASCII 0x248 ~o#halie2~   #8  // override
+    WRITE_ASCII 0x2cc ~o#halie2~   #8  // dialogue
+    WRITE_ASCII 0x280 ~o#halie2~   #32 // death variable
+
+  COPY_EXISTING ~amncen1.cre~ ~override/o#halieu.cre~
+    WRITE_ASCII 0x248 ~o#halieu~   #8  // override
+    WRITE_ASCII 0x2cc ~o#halieu~   #8  // dialogue
+    WRITE_ASCII 0x280 ~o#halieu~   #32 // death variable
+    WRITE_BYTE 0x0270 128		   // Neutral
+    // SAY NAME1 ~Amnish Lieutenant~
+    // SAY NAME2 ~Amnish Lieutenant~
+
+  COPY_EXISTING ~mage20b.cre~ ~override/o#hajan.cre~
+    WRITE_ASCII 0x248 ~o#hajan~   #8  // override
+    WRITE_ASCII 0x2cc ~o#hajan~   #8  // dialogue
+    WRITE_ASCII 0x280 ~o#hajan~   #32 // death variable
+    SAY NAME1 #25657
+    SAY NAME2 #25657
+
+  COPY_EXISTING ~prisong1.cre~ ~override/o#hapri.cre~
+    WRITE_ASCII 0x248 ~o#hapri~   #8  // override
+    WRITE_ASCII 0x2cc ~o#hapri~   #8  // dialogue
+    WRITE_ASCII 0x280 ~o#hapri~   #32 // death variable
+    WRITE_ASCII 0x250 ~SHOUT~     #8   // class script
+    WRITE_ASCII 0x268 ~WTARSGT~   #8   // default script
+          
+  COPY_EXISTING ~bodyg2.cre~ ~override/o#habod1.cre~
+    WRITE_ASCII 0x248 ~o#habod1~   #8  // override
+    WRITE_ASCII 0x2cc ~o#habod1~   #8  // dialogue
+    WRITE_ASCII 0x280 ~o#habod1~   #32 // death variable
+    WRITE_BYTE 0x0270 255		   // Enemy
+    WRITE_BYTE 0x273  2		   // fighter
+
+  COPY_EXISTING ~bodyg2.cre~ ~override/o#habod2.cre~
+    WRITE_ASCII 0x248 ~o#habod2~   #8  // override
+    WRITE_ASCII 0x2cc ~o#habod2~   #8  // dialogue
+    WRITE_ASCII 0x280 ~o#habod2~   #32 // death variable
+    WRITE_BYTE 0x0270 255		   // Enemy
+    WRITE_BYTE 0x273  2		   // fighter
+
+  COPY_EXISTING ~AR0700.are~ ~override~
+    ADD_MAP_NOTE #1414 #2222  ~gray~   #14731
+  BUT_ONLY_IF_IT_CHANGES
+END	// setup_murder_of_acton_balthis
+
+

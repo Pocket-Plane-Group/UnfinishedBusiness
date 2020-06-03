@@ -1,0 +1,25 @@
+DEFINE_ACTION_FUNCTION setup_original_yoshimo_portrait
+BEGIN
+  /////////////////////////////////
+  /////////////////////////////////
+  // Yoshimo's Original Portrait //
+  /////////////////////////////////
+  /////////////////////////////////
+
+  COPY ~%mod_root%/ubnull.itm~ ~override/ubyoshi.xxx~ //null file to identify this component
+
+  ACTION_IF ENGINE_IS "bg2ee"
+  BEGIN
+    COPY ~%mod_root%/portraits/NYOSHIEM.BMP~ ~override/NYOSHIEM.BMP~          
+    COPY ~%mod_root%/portraits/NYOSHIES.BMP~ ~override/NYOSHIES.BMP~
+  END
+  ELSE
+  BEGIN
+    COPY ~%mod_root%/portraits/NYOSHIMM.BMP~ ~override/NYOSHIMM.BMP~          
+    COPY ~%mod_root%/portraits/NYOSHIMS.BMP~ ~override/NYOSHIMS.BMP~
+    COPY ~%mod_root%/portraits/NYOSHIMM.BMP~ ~portraits/NYOSHIMM.BMP~
+    COPY ~%mod_root%/portraits/NYOSHIMS.BMP~ ~portraits/NYOSHIMS.BMP~
+  END
+END	// setup_original_yoshimo_portrait
+
+

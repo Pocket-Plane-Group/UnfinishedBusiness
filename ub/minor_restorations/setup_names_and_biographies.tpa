@@ -1,0 +1,142 @@
+DEFINE_ACTION_FUNCTION setup_names_and_biographies
+BEGIN
+  ///////////////////////////////
+  ///////////////////////////////
+  // Corrected Character Names //
+  ///////////////////////////////
+  ///////////////////////////////
+
+  /* Malaaq, the genie */
+  COPY_EXISTING idjinni.cre  override
+    SAY NAME1 @36
+    SAY NAME2 @36
+  BUT_ONLY
+
+  /* Hendron, Lady Delcia's guard */
+  COPY_EXISTING kpsold01.cre override
+    SAY NAME1 @37
+    SAY NAME2 @37
+  BUT_ONLY
+
+  /* Hannah, the circus attendant */
+  COPY_EXISTING kftown01.cre override
+    SAY NAME1 #20626
+    SAY NAME2 #20641
+  BUT_ONLY
+
+  /* Lellyn, Mazzy's fallen compatriot */
+  COPY_EXISTING lellyn.cre   override
+    SAY NAME1 @38
+    SAY NAME2 @38
+  BUT_ONLY
+
+  /* The omnipresent Town Crier Neckeith */
+  /*
+  COPY_EXISTING townc01.cre  override
+    SAY NAME1 @57
+    SAY NAME2 @57
+  BUT_ONLY
+  */
+
+  /* Shadow Thief Assassin */
+  COPY_EXISTING stass1.cre   override
+    SAY NAME1 @58
+    SAY NAME2 @58
+  BUT_ONLY
+
+  /* Shadow Thief Archer */
+  COPY_EXISTING starcher.cre override
+                arnfgt03.cre override
+                flyfgt03.cre override
+                arnwar01.cre override
+                irethf04.cre override
+    SAY NAME1 @59
+    SAY NAME2 @59
+  BUT_ONLY
+
+  /* Shadow Thief Footpad */
+  COPY_EXISTING arnwar04.cre override
+    SAY NAME1 @60
+    SAY NAME2 @60
+  BUT_ONLY
+
+  /* Shadow Thief Thug */
+  COPY_EXISTING arnfgt04.cre override
+                arnwar02.cre override
+    SAY NAME1 @61
+    SAY NAME2 @61
+  BUT_ONLY
+
+  /* Shadow Thief Guard */
+  COPY_EXISTING flyfgt02.cre override
+    SAY NAME1 @62
+    SAY NAME2 @62
+  BUT_ONLY
+
+  /* Shadow Thief Inquisitor */
+  COPY_EXISTING flyfgt04.cre override
+    SAY NAME1 @63
+    SAY NAME2 @63
+  BUT_ONLY
+
+  /* Shadow Thief Battlemage */
+  COPY_EXISTING irethf05.cre override
+    SAY NAME1 @64
+    SAY NAME2 @64
+  BUT_ONLY
+
+  /* Amon of the Purple Brotherhood */
+  COPY_EXISTING sevpat02.cre override
+    SAY NAME1 @65
+    SAY NAME2 @65
+  BUT_ONLY
+
+  /* Alatelo De Bonito */
+  COPY_EXISTING sevdru01.cre override
+    WRITE_SHORT 0x273 0x01            /* Changes class from Innocent to Mage */
+  BUT_ONLY
+
+  ACTION_IF NOT MOD_IS_INSTALLED setup-bg2fixpack.tp2 0
+  BEGIN
+    /* Apprentice Torturer Douglas */
+    COPY_EXISTING arnboy01.cre override
+      SAY NAME1 #38998
+      SAY NAME2 #38998
+    BUT_ONLY
+
+    /* Crazyface, Korgan's old cohort */
+    COPY_EXISTING korcrazy.cre override
+      SAY NAME1 #30508
+      SAY NAME2 #30509
+    BUT_ONLY
+
+    /* Pimlico Guard */
+    COPY_EXISTING korpimg1.cre override
+      SAY NAME1 #30490
+      SAY NAME2 #30490
+    BUT_ONLY
+
+    /* Maheer, the Blacksmith */
+    COPY_EXISTING shop3.cre override /* Kulyok */
+      SAY NAME1 #23302
+      SAY NAME2 #23303
+    BUT_ONLY
+
+    /* Derrick, the ranger */
+    COPY_EXISTING valran01.cre override
+      SAY NAME1 #2190
+      SAY NAME2 #2190
+    BUT_ONLY
+
+    /* Post Spellhold Imoen Biography */
+    ACTION_FOR_EACH imoen_cre IN imoen211.cre imoen215.cre imoen15.cre BEGIN
+      ACTION_IF FILE_EXISTS_IN_GAME ~%imoen_cre%~ THEN BEGIN
+        COPY_EXISTING ~%imoen_cre%~ override
+          WRITE_LONG 0x1cc 0xb16
+        BUT_ONLY
+      END
+    END
+  END
+END	// setup_names_and_biographies
+
+
