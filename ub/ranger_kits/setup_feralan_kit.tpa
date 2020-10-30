@@ -57,28 +57,28 @@ BEGIN
   COPY_EXISTING ~SPCL321.SPL~ ~override/A#fera02.SPL~
   SAY NAME1 @86
 
-  COPY ~%mod_root%/ranger_kits/A#fera03.SPL~ ~override/A#fera03.SPL~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera03.SPL~ ~override/A#fera03.SPL~
   SAY NAME1 @87
 
-  COPY ~%mod_root%/ranger_kits/A#fera01.CRE~ ~override/A#fera01.CRE~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera01.CRE~ ~override/A#fera01.CRE~
   SAY NAME1 @88
   SAY NAME2 @88
-  COPY ~%mod_root%/ranger_kits/A#fera02.CRE~ ~override/A#fera02.CRE~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera02.CRE~ ~override/A#fera02.CRE~
   SAY NAME1 @89
   SAY NAME2 @89
-  COPY ~%mod_root%/ranger_kits/A#fera03.CRE~ ~override/A#fera03.CRE~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera03.CRE~ ~override/A#fera03.CRE~
   SAY NAME1 @90
   SAY NAME2 @90
-  COPY ~%mod_root%/ranger_kits/A#fera04.CRE~ ~override/A#fera04.CRE~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera04.CRE~ ~override/A#fera04.CRE~
   SAY NAME1 @91
   SAY NAME2 @91
 
-  COPY ~%mod_root%/ranger_kits/A#fera01.EFF~ ~override/A#fera01.EFF~
-  COPY ~%mod_root%/ranger_kits/A#fera02.EFF~ ~override/A#fera02.EFF~
-  COPY ~%mod_root%/ranger_kits/A#fera03.EFF~ ~override/A#fera03.EFF~
-  COPY ~%mod_root%/ranger_kits/A#fera04.EFF~ ~override/A#fera04.EFF~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera01.EFF~ ~override/A#fera01.EFF~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera02.EFF~ ~override/A#fera02.EFF~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera03.EFF~ ~override/A#fera03.EFF~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#fera04.EFF~ ~override/A#fera04.EFF~
 
-  COPY ~%mod_root%/ranger_kits/A#feral.2DA~ ~override/A#feral.2DA~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#feral.2DA~ ~override/A#feral.2DA~
 
   ADD_KIT ~A#FERALAN~
   // CLASWEAP.2DA Weapons class can use.

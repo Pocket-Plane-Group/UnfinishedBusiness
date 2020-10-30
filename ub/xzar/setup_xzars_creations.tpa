@@ -6,7 +6,7 @@ BEGIN
   //////////////////////////////////
   //////////////////////////////////
 
-  COPY ~%mod_root%/ubnull.itm~ ~override/ubxzar.xxx~ //null file to identify this component
+  COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubxzar.xxx~ //null file to identify this component
 
   <<<<<<<<.../ub/ding0/prebek/d0xgolem.baf
   IF
@@ -22,7 +22,7 @@ BEGIN
 
   COMPILE ~.../ub/ding0/prebek/d0xgolem.baf~
 
-  COPY ~%mod_root%/xzar/xgolem1.cre~ override
+  COPY ~%MOD_FOLDER%/xzar/xgolem1.cre~ override
     SAY NAME1 #12886
     SAY NAME2 #12886
     WRITE_ASCII 0x248 ~d0xgolem~ #8

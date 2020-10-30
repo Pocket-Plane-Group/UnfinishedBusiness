@@ -39,27 +39,31 @@ DEFINE_ACTION_FUNCTION handle_charsets_immutably
 BEGIN
    // do conversions (ee only)
    ACTION_IF enhanced_edition BEGIN
-       OUTER_SPRINT tra_loc "%external_loc%/lang/%mod_root%"
+       OUTER_SPRINT tra_loc "%external_loc%/lang/%MOD_FOLDER%"
        ACTION_IF (!FILE_EXISTS "%tra_loc%/languages_installed.mrk"  || force_tra_rebuild) BEGIN
           COPY ".../stratagems-inline/blank" "%tra_loc%/languages_installed.mrk"
           MKDIR "%tra_loc%/%base_language%"
           MKDIR "%tra_loc%/%LANGUAGE%"
-          ACTION_BASH_FOR "%mod_root%/%tra_base%/%LANGUAGE%" ".*\.tra" BEGIN
+          ACTION_BASH_FOR "%MOD_FOLDER%/%tra_base%/%LANGUAGE%" ".*\.tra" BEGIN
              COPY "%BASH_FOR_FILESPEC%" "%tra_loc%/%LANGUAGE%"
           END
           ACTION_MATCH "%LANGUAGE%" WITH
           "%base_language%" BEGIN END
           DEFAULT
-            ACTION_BASH_FOR "%mod_root%/%tra_base%/%base_language%" ".*\.tra" BEGIN
+            ACTION_BASH_FOR "%MOD_FOLDER%/%tra_base%/%base_language%" ".*\.tra" BEGIN
                 COPY "%BASH_FOR_FILESPEC%" "%tra_loc%/%base_language%"
             END
           END
-          OUTER_SPRINT iconv_path "%mod_root%/%rel_iconv_path%"
+          OUTER_SPRINT iconv_path "%MOD_FOLDER%/%rel_iconv_path%"
           LAF HANDLE_CHARSETS INT_VAR infer_charsets = 1 STR_VAR iconv_path  tra_path = ~%tra_loc%~  END
+	  
+	  ACTION_IF "%LANGUAGE%" STRING_COMPARE_CASE "%base_language%" BEGIN
+		LAF HANDLE_CHARSETS INT_VAR infer_charsets=1 STR_VAR language="%base_language%" tra_path="%MOD_FOLDER%/%tra_base%" out_path="%scs_tra_loc%" END		
+	  END
        END
    END ELSE BEGIN
       // on non-EE, just set the tra loc
-      OUTER_SPRINT tra_loc "%mod_root%/%tra_base%"
+      OUTER_SPRINT tra_loc "%MOD_FOLDER%/%tra_base%"
    END
 END
 
@@ -115,7 +119,7 @@ END
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 DEFINE_ACTION_MACRO SFO_read_ini_file
-BEGIN 
+BEGIN
     LOCAL_SPRINT key ""
     ACTION_IF FILE_EXISTS "%ini_to_read%.ini" BEGIN
        COPY - "%ini_to_read%.ini" "%workspace%"
@@ -167,9 +171,9 @@ DEFINE_ACTION_FUNCTION run
                 version=""
 BEGIN
        ACTION_IF "%file_loc%" STRING_EQUAL "" BEGIN
-          OUTER_SPRINT filespec "%mod_root%/%file%.tpa"
+          OUTER_SPRINT filespec "%MOD_FOLDER%/%file%.tpa"
        END ELSE BEGIN
-          OUTER_SPRINT filespec "%mod_root%/%file_loc%/%file%.tpa"
+          OUTER_SPRINT filespec "%MOD_FOLDER%/%file_loc%/%file%.tpa"
        END
        ACTION_IF !FILE_EXISTS "%filespec%" BEGIN
           FAIL "You have tried to run '%file%', but '%filespec%' doesn't exist"
@@ -205,8 +209,8 @@ ACTION_IF !VARIABLE_IS_SET SFO_reserved_immutable_initialise BEGIN // only do th
    /// set the default variables if they're not set already
    //////////////////////////////////////////////////////////////
 
-   ACTION_IF !VARIABLE_IS_SET mod_root BEGIN
-      OUTER_SPRINT mod_root "%TP2_NAME%"
+   ACTION_IF !VARIABLE_IS_SET MOD_FOLDER BEGIN
+      OUTER_SPRINT MOD_FOLDER "%TP2_NAME%"
    END
 
    ACTION_IF !VARIABLE_IS_SET external_loc BEGIN
@@ -231,7 +235,7 @@ ACTION_IF !VARIABLE_IS_SET SFO_reserved_immutable_initialise BEGIN // only do th
 
    MKDIR "%external_loc%"
    MKDIR "%external_loc%/workspace"
-   MKDIR "%external_loc%/data/%mod_root%"
+   MKDIR "%external_loc%/data/%MOD_FOLDER%"
    MKDIR "%external_loc%/markers"
    MKDIR "%external_loc%/lang"
 
@@ -240,7 +244,7 @@ ACTION_IF !VARIABLE_IS_SET SFO_reserved_immutable_initialise BEGIN // only do th
    //////////////////////////////////////////////////////////////
 
    OUTER_SPRINT workspace "%external_loc%/workspace"
-   OUTER_SPRINT external_data "%external_loc%/data/%mod_root%"
+   OUTER_SPRINT external_data "%external_loc%/data/%MOD_FOLDER%"
    OUTER_SPRINT marker_loc "%external_loc%/markers"
 
    //////////////////////////////////////////////////////////////
@@ -248,12 +252,12 @@ ACTION_IF !VARIABLE_IS_SET SFO_reserved_immutable_initialise BEGIN // only do th
    //////////////////////////////////////////////////////////////
 
    ACTION_IF VARIABLE_IS_SET ini_file BEGIN
-      OUTER_SPRINT ini_to_read "%mod_root%/%ini_file%"
+      OUTER_SPRINT ini_to_read "%MOD_FOLDER%/%ini_file%"
       LAM SFO_read_ini_file
    END
 
    ACTION_IF VARIABLE_IS_SET user_ini_file BEGIN
-      OUTER_SPRINT ini_to_read "%mod_root%/%user_ini_file%"
+      OUTER_SPRINT ini_to_read "%MOD_FOLDER%/%user_ini_file%"
       LAM SFO_read_ini_file
    END
 

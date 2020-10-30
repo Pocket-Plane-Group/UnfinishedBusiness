@@ -6,22 +6,22 @@ BEGIN
   ////////////////////////////////////
   ////////////////////////////////////
 
-  COPY ~%mod_root%/ubnull.itm~ ~override/ubpaina.xxx~ //null file to identify this component
+  COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubpaina.xxx~ //null file to identify this component
 
   ADD_JOURNAL @142 @145 @146 USING ~%tra_loc%/%LANGUAGE%/ubdialog.tra~
 
-  EXTEND_TOP ~AR0701.bcs~ ~%mod_root%/paina/U!0701.baf~     /* Temple District Sewers */
+  EXTEND_TOP ~AR0701.bcs~ ~%MOD_FOLDER%/paina/U!0701.baf~     /* Temple District Sewers */
 
-  COMPILE EVALUATE_BUFFER ~%mod_root%/paina/u!paina.d~
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/paina/u!paina.d~
   USING   ~%tra_loc%/%s/ubdialog.tra~
 
-  COPY ~%mod_root%/paina/u!spbane.itm~ ~override/u!spbane.itm~
+  COPY ~%MOD_FOLDER%/paina/u!spbane.itm~ ~override/u!spbane.itm~
     SAY NAME1 #10291
     SAY NAME2 #10291
     SAY UNIDENTIFIED_DESC @39
     SAY IDENTIFIED_DESC @39
 
-  COPY ~%mod_root%/paina/WAND14.ITM~ ~override/WAND14.ITM~       /* Web Sack */
+  COPY ~%MOD_FOLDER%/paina/WAND14.ITM~ ~override/WAND14.ITM~       /* Web Sack */
     SAY IDENTIFIED_DESC @34
 
   //Does not need .TRAifying as only pertinent to English game version.

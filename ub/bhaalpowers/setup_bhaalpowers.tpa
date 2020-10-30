@@ -3,7 +3,7 @@ BEGIN
   //Script Extension
   ADD_JOURNAL @2000 @2001 @2002 @2003 @2004 @2005 @2006 @2007
 
-  EXTEND_TOP ~ar4500.bcs~ ~%mod_root%/bhaalpowers/ar4500.baf~
+  EXTEND_TOP ~ar4500.bcs~ ~%MOD_FOLDER%/bhaalpowers/ar4500.baf~
 
 
   //SPL Patching - Dark Taint
@@ -36,15 +36,15 @@ BEGIN
   BUT_ONLY
 
   //COPY FILES - Hand of Murder Installation, original Ascension NOTE: For time's sake, the original effect was copied and namechanged to match references from the vanilla implementation of Hand of Murder, rather than patching the Hand of Murder spell headers to all use the original effect. Laziness, basically, but harmless laziness.
-  COPY ~%mod_root%/bhaalpowers/bh3b1.eff~  ~override/bh3b2.eff~
+  COPY ~%MOD_FOLDER%/bhaalpowers/bh3b1.eff~  ~override/bh3b2.eff~
     WRITE_ASCII   0x30 "BH3B2" #8
-  COPY ~%mod_root%/bhaalpowers/bh3b1.eff~  ~override/bh3b3.eff~
+  COPY ~%MOD_FOLDER%/bhaalpowers/bh3b1.eff~  ~override/bh3b3.eff~
     WRITE_ASCII   0x30 "BH3B3" #8
-  COPY ~%mod_root%/bhaalpowers/bh3b1.eff~  ~override/bh3b4.eff~
+  COPY ~%MOD_FOLDER%/bhaalpowers/bh3b1.eff~  ~override/bh3b4.eff~
     WRITE_ASCII   0x30 "BH3B4" #8
-  COPY ~%mod_root%/bhaalpowers/bh3b1.eff~  ~override/bh3b5.eff~
+  COPY ~%MOD_FOLDER%/bhaalpowers/bh3b1.eff~  ~override/bh3b5.eff~
     WRITE_ASCII   0x30 "BH3B5" #8
-  COPY ~%mod_root%/bhaalpowers/bh3b1.eff~  ~override/balth01a.eff~ //Balthazar can now have Hand of Murder?
+  COPY ~%MOD_FOLDER%/bhaalpowers/bh3b1.eff~  ~override/balth01a.eff~ //Balthazar can now have Hand of Murder?
     WRITE_ASCII   0x30 "BALTH01A" #8
 END	// setup_bhaalpowers
 

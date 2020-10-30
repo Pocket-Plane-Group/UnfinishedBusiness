@@ -7,18 +7,18 @@ BEGIN
   /////////////////////////
 
   /* Vampire Encounters */
-  EXTEND_TOP vampsttp.bcs ~%mod_root%/encounters/U!vamps.baf~ EVALUATE_BUFFER
+  EXTEND_TOP vampsttp.bcs ~%MOD_FOLDER%/encounters/U!vamps.baf~ EVALUATE_BUFFER
 
-  EXTEND_TOP vvbodhi.bcs ~%mod_root%/encounters/vvbodhi.baf~ /* Kulyok */
+  EXTEND_TOP vvbodhi.bcs ~%MOD_FOLDER%/encounters/vvbodhi.baf~ /* Kulyok */
 
   COPY_EXISTING vvbodhi.cre override
     REPLACE_CRE_ITEM minhp20 #0 #0 #0 NONE RRING
   BUT_ONLY
 
-  COMPILE ~%mod_root%/encounters/ubvv.d~ /* Kulyok */
+  COMPILE ~%MOD_FOLDER%/encounters/ubvv.d~ /* Kulyok */
 
-  EXTEND_TOP vvshaesc.bcs ~%mod_root%/encounters/vvshaesc.baf~ /* Kulyok */
-  EXTEND_TOP vvvamesc.bcs ~%mod_root%/encounters/vvvamesc.baf~ /* Kulyok */
+  EXTEND_TOP vvshaesc.bcs ~%MOD_FOLDER%/encounters/vvshaesc.baf~ /* Kulyok */
+  EXTEND_TOP vvvamesc.bcs ~%MOD_FOLDER%/encounters/vvvamesc.baf~ /* Kulyok */
 
   COPY_EXISTING ~vvarkan.bcs~ ~override~ /* Kulyok */
     DECOMPILE_AND_PATCH
@@ -63,14 +63,14 @@ BEGIN
   BUT_ONLY
 
   /* The Slums */
-  EXTEND_TOP ar0400.bcs ~%mod_root%/encounters/u!0400.baf~
+  EXTEND_TOP ar0400.bcs ~%MOD_FOLDER%/encounters/u!0400.baf~
 
-  COMPILE ~%mod_root%/encounters/slumvic.baf~
+  COMPILE ~%MOD_FOLDER%/encounters/slumvic.baf~
 
   /* Reputation Trap */
-  EXTEND_TOP amntrp01.bcs ~%mod_root%/encounters/U!gtrap.baf~
+  EXTEND_TOP amntrp01.bcs ~%MOD_FOLDER%/encounters/U!gtrap.baf~
 
-  COMPILE ~%mod_root%/encounters/repthf1.d~
+  COMPILE ~%MOD_FOLDER%/encounters/repthf1.d~
   USING   ~%tra_loc%/%s/ubdialog.tra~
 
   /* Restored Hell Hound Encounters */
@@ -107,7 +107,7 @@ BEGIN
     END
   BUT_ONLY
 
-  COMPILE ~%mod_root%/encounters/houndtrp.baf~  /* Unseeing Eye Cult area, Hellhound Ambush trigger */
+  COMPILE ~%MOD_FOLDER%/encounters/houndtrp.baf~  /* Unseeing Eye Cult area, Hellhound Ambush trigger */
 
   /* The Greyhand Encounter */
 
@@ -119,11 +119,11 @@ BEGIN
   STRING_SET ~Yes, now you look with more interest in me. Well it will not last. I have but one reason for being here; you will not survive my deadly intent.~ ~Yes, now you look with more interest at me. Well it will not last. I have but one reason for being here; you will not survive my deadly intent.~
   STRING_SET ~No one sent me, but I am here because of someone and their interest in you. I owe that someone a debt, and I will pay it thorough you.~ ~No one sent me, but I am here because of someone and their interest in you. I owe that someone a debt, and I will pay it through you.~
 
-  COMPILE ~%mod_root%/encounters/u!gryhnd.d~
-          ~%mod_root%/encounters/u!gryhnd.baf~
+  COMPILE ~%MOD_FOLDER%/encounters/u!gryhnd.d~
+          ~%MOD_FOLDER%/encounters/u!gryhnd.baf~
   USING   ~%tra_loc%/%s/ubdialog.tra~
 
-  COPY ~%mod_root%/encounters/greyhand.cre~ override
+  COPY ~%MOD_FOLDER%/encounters/greyhand.cre~ override
     SAY NAME1 @56
     SAY NAME2 @56
 
