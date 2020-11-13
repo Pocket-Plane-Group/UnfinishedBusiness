@@ -10,8 +10,9 @@ BEGIN
 
   ACTION_IF ENGINE_IS "bg2ee"
   BEGIN
-    COPY ~%mod_root%/portraits/NYOSHIEM.BMP~ ~override/NYOSHIEM.BMP~          
-    COPY ~%mod_root%/portraits/NYOSHIES.BMP~ ~override/NYOSHIES.BMP~
+	COPY ~%mod_root%/portraits/NYOSHIML.BMP~ ~override/NYOSHIML.BMP~ 
+    COPY ~%mod_root%/portraits/NYOSHIMM.BMP~ ~override/NYOSHIMM.BMP~          
+    COPY ~%mod_root%/portraits/NYOSHIMS.BMP~ ~override/NYOSHIMS.BMP~
   END
   ELSE
   BEGIN
@@ -19,6 +20,8 @@ BEGIN
     COPY ~%mod_root%/portraits/NYOSHIMS.BMP~ ~override/NYOSHIMS.BMP~
     COPY ~%mod_root%/portraits/NYOSHIMM.BMP~ ~portraits/NYOSHIMM.BMP~
     COPY ~%mod_root%/portraits/NYOSHIMS.BMP~ ~portraits/NYOSHIMS.BMP~
+	COPY ~%mod_root%/portraits/NYOSHIML.BMP~ ~override/NYOSHIML.BMP~ 
+	COPY ~%mod_root%/portraits/NYOSHIML.BMP~ ~portraits/NYOSHIML.BMP~ 
   END
 END	// setup_original_yoshimo_portrait
 
