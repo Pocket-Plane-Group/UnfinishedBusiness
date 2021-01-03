@@ -8,6 +8,10 @@ The Unfinished Business mod is one of the oldest mods for Baldur's Gate 2 and re
 
 ## Version History
 
+Version 28.1
+- Updated French translation, thanks to Jazira
+- Fix Yoshimo's original portrait not being displayed
+
 Version 28
 - Updated Russian translation, thanks to yota13 & Arcanecoast Team.
 - The Jade Hound Figurine from Minsc's quest has a charge when you get it.

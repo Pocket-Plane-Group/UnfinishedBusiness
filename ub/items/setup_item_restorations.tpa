@@ -74,13 +74,13 @@ BEGIN
 
 
   /* Wraithform */
-  COPY ~%mod_root%/items/spwi315.spl~  override /* Wraithform spell file */
+  COPY ~%MOD_FOLDER%/items/spwi315.spl~  override /* Wraithform spell file */
     SAY NAME1 #12020
     SAY UNIDENTIFIED_DESC #12144
 
   ACTION_IF NOT FILE_EXISTS_IN_GAME ~scrl1r.itm~
   BEGIN
-    COPY ~%mod_root%/items/scrl1r.itm~ override /* Wraithform scroll item file */
+    COPY ~%MOD_FOLDER%/items/scrl1r.itm~ override /* Wraithform scroll item file */
     SAY NAME2 #13065
     SAY IDENTIFIED_DESC   #12144
   END
@@ -89,7 +89,7 @@ BEGIN
     ADD_STORE_ITEM ~scrl1r~ BEFORE scrl1t #1 #0 #0 IDENTIFIED #5
 
   /* Boots of the West */
-  COPY ~%mod_root%/items/misc8j.itm~ override
+  COPY ~%MOD_FOLDER%/items/misc8j.itm~ override
     SAY NAME1             #43877
     SAY NAME2             #43877
     SAY UNIDENTIFIED_DESC #43878
@@ -165,7 +165,7 @@ BEGIN
   ACTION_IF ENGINE_IS "bg2 tob"
   BEGIN
     // Sanitized import list with items not already in BG2.
-    COPY "%mod_root%/items/import02.2da" "override"
+    COPY "%MOD_FOLDER%/items/import02.2da" "override"
 
     // Restore proper name and description to Krotan's Skullcrusher
     COPY_EXISTING "blun11.itm" "override"

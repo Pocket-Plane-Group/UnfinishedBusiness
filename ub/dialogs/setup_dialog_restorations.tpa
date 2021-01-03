@@ -6,8 +6,8 @@ BEGIN
   ////////////////////////////
   ////////////////////////////
 
-  COMPILE ~%mod_root%/dialogs/u!minor.d~
-          ~%mod_root%/dialogs/obshal03.d~
+  COMPILE ~%MOD_FOLDER%/dialogs/u!minor.d~
+          ~%MOD_FOLDER%/dialogs/obshal03.d~
   USING   ~%tra_loc%/%s/ubdialog.tra~
 
   // Added by DavidW - new translation-independent way to restore strings
@@ -118,7 +118,7 @@ BEGIN
   >>>>>>>>
 
   COMPILE ~.../ub/halflings/fixer.d~
-  USING   ~%mod_root%/ubnull.tra~
+  USING   ~%MOD_FOLDER%/ubnull.tra~
 
   // Replaces duplicate DOCSOL02 with DOCSOL03 in Docks Barracks
   COPY_EXISTING ar0332.are override
@@ -147,19 +147,19 @@ BEGIN
   REPLACE_TRIGGER_TEXT udsimyaz ~ReactionGT(LastTalkedToBy,FRIENDLY_UPPER)~ ~Reaction(LastTalkedToBy,FRIENDLY_UPPER)~
   >>>>>>>>
 
-  COMPILE ~%mod_root%/udsimyaz_reaction.d~
-  USING   ~%mod_root%/ubnull.tra~
+  COMPILE ~%MOD_FOLDER%/udsimyaz_reaction.d~
+  USING   ~%MOD_FOLDER%/ubnull.tra~
 
 
   // Restored Banters
   // Note: These were uncovered by Calawen at Beamdog forums
 
-  COMPILE ~%mod_root%/dialogs/banter_restorations.d~
-  USING   ~%mod_root%/ubnull.tra~
+  COMPILE ~%MOD_FOLDER%/dialogs/banter_restorations.d~
+  USING   ~%MOD_FOLDER%/ubnull.tra~
 
-  EXTEND_BOTTOM ~minsc.bcs~ ~%mod_root%/dialogs/minsc_additions.baf~
+  EXTEND_BOTTOM ~minsc.bcs~ ~%MOD_FOLDER%/dialogs/minsc_additions.baf~
 
-  EXTEND_BOTTOM ~yoshimo.bcs~ ~%mod_root%/dialogs/yoshimo_additions.baf~
+  EXTEND_BOTTOM ~yoshimo.bcs~ ~%MOD_FOLDER%/dialogs/yoshimo_additions.baf~
 END	// setup_dialog_restorations
 
 

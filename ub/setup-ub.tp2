@@ -15,15 +15,14 @@ ASK_EVERY_COMPONENT
 AUTO_EVAL_STRINGS
 
 ALWAYS
-  OUTER_SPRINT mod_root "ub"
   OUTER_SPRINT external_loc "weidu_external"
   OUTER_SPRINT tra_base "lang"
   OUTER_SPRINT tra_setup "ubsetup"
   OUTER_SPRINT ini_file "ub"
 
-  INCLUDE "%mod_root%/lib/sfo_immutable.tph"
+  INCLUDE "%MOD_FOLDER%/lib/sfo_immutable.tph"
 
-  INCLUDE "%mod_root%/lib/always.tpa"
+  INCLUDE "%MOD_FOLDER%/lib/always.tpa"
 END
 
 ////////////////////////

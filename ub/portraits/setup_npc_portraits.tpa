@@ -6,7 +6,7 @@ BEGIN
   ///////////////////////////////
   ///////////////////////////////
 
-  COPY ~%mod_root%/ubnull.itm~ ~override/ubports.xxx~ //null file to identify this component
+  COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubports.xxx~ //null file to identify this component
 
   COPY_EXISTING ~KAYL1.CRE~    ~override/KAYL1.CRE~      /* Sir Ryan Trawl */
                 ~KAYL2.CRE~    ~override/KAYL2.CRE~
@@ -40,15 +40,15 @@ BEGIN
 
   ACTION_IF ENGINE_IS "bg2ee"
   BEGIN
-    COPY ~%mod_root%/suna/SUNAL_EE.BMP~ ~override/SUNAL.BMP~          /* Suna Seni's portraits */
-    COPY ~%mod_root%/suna/SUNAS_EE.BMP~ ~override/SUNAS.BMP~
+    COPY ~%MOD_FOLDER%/suna/SUNAL_EE.BMP~ ~override/SUNAL.BMP~          /* Suna Seni's portraits */
+    COPY ~%MOD_FOLDER%/suna/SUNAS_EE.BMP~ ~override/SUNAS.BMP~
   END
   ELSE
   BEGIN
-    COPY ~%mod_root%/suna/SUNAL.BMP~ ~override/SUNAL.BMP~          /* Suna Seni's portraits */
-    COPY ~%mod_root%/suna/SUNAS.BMP~ ~override/SUNAS.BMP~
-    COPY ~%mod_root%/suna/SUNAL.BMP~ ~portraits/SUNAL.BMP~
-    COPY ~%mod_root%/suna/SUNAS.BMP~ ~portraits/SUNAS.BMP~
+    COPY ~%MOD_FOLDER%/suna/SUNAL.BMP~ ~override/SUNAL.BMP~          /* Suna Seni's portraits */
+    COPY ~%MOD_FOLDER%/suna/SUNAS.BMP~ ~override/SUNAS.BMP~
+    COPY ~%MOD_FOLDER%/suna/SUNAL.BMP~ ~portraits/SUNAL.BMP~
+    COPY ~%MOD_FOLDER%/suna/SUNAS.BMP~ ~portraits/SUNAS.BMP~
   END
 END	// setup_npc_portraits
 
