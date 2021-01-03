@@ -6,35 +6,35 @@
 @5    = ~Vivick~
 @6    = ~Smethy~
 @7    = ~Eleanya~
-@8    = ~Renfort Cagoulé~
+@8    = ~Renfort CagoulÃ©~
 @9    = ~Gardes De'Lyl~
 @10   = ~Boolet~
 @11   = ~Invoquer Boolet~
 @12   = ~ ~
 @13   = ~"Bouh"~
-@14   = ~Bouh est un petit hamster hirsute, tout ce qu'il y a de plus ordinaire (en apparence tout du moins). Mais Minsc est persuadé qu'il s'agit d'un hamster de l'espace géant-miniature. Vous savez qu'il s'agit d'un remplacement de Bouh, diaboliquement glissé par vous-même dans les affaires de Minsc.~
+@14   = ~Bouh est un petit hamster hirsute, tout ce qu'il y a de plus ordinaire (en apparence tout du moins). Mais Minsc est persuadÃ© qu'il s'agit d'un hamster de l'espace gÃ©ant-miniature. Vous savez qu'il s'agit d'un remplacement de Bouh, diaboliquement glissÃ© par vous-mÃªme dans les affaires de Minsc.~
 @15   = ~Les restes de Bouh.~
 @16   = ~Il n'y a plus rien ici, sinon les restes du dernier repas de Bouh.~
-@19   = ~Vous avez perdu votre compagnon animal, ou bien vous êtes en manque de votre familier ? Venez chez Smethy, animaux de compagnie de prestige ! (Publicité autorisée par Aljaf l'Original Aliéné.)~
+@19   = ~Vous avez perdu votre compagnon animal, ou bien vous Ãªtes en manque de votre familier ? Venez chez Smethy, animaux de compagnie de prestige ! (PublicitÃ© autorisÃ©e par Aljaf l'Original AliÃ©nÃ©.)~
 @20   = ~Les relations Suna Seni/Valygar~
 @21   = ~Suna Seni~
 @22   = ~Maharajah~
-@23   = ~Epée d'Arbane +3~
-@24   = ~Epée d'agilité d'Arbane
-Une des nombreuses armes portant le nom du premier magicien ayant découvert comment enchanter une lame de cette manière. Celle-ci était l'arme du hors-la-loi Garno, et nombre de clercs moururent par le fil de cette épée. Garno perdit toute foi en les divinités lorsque sa propre famille fut brûlée sur le bûcher par des clercs de Loviatar, et il passa sa vie à chercher sa vengeance. En dépit de sa haine concentrée sur les dévôts, on pense que c'est à l'initiative d'un dieu du chaos que Garno a acquis cette arme, enchanté par les ravages que causa le jeune homme.
+@23   = ~EpÃ©e d'Arbane +3~
+@24   = ~EpÃ©e d'agilitÃ© d'Arbane
+Une des nombreuses armes portant le nom du premier magicien ayant dÃ©couvert comment enchanter une lame de cette maniÃ¨re. Celle-ci Ã©tait l'arme du hors-la-loi Garno, et nombre de clercs moururent par le fil de cette Ã©pÃ©e. Garno perdit toute foi en les divinitÃ©s lorsque sa propre famille fut brÃ»lÃ©e sur le bÃ»cher par des clercs de Loviatar, et il passa sa vie Ã  chercher sa vengeance. En dÃ©pit de sa haine concentrÃ©e sur les dÃ©vÃ´ts, on pense que c'est Ã  l'initiative d'un dieu du chaos que Garno a acquis cette arme, enchantÃ© par les ravages que causa le jeune homme.
 
 PARAMETRES :
 
-Capacité d'équipement : Le porteur est immunisé à l'immobilisation des personnes et à l'étourdissement
-Capacité Spéciale : Une fois par jour, le porteur peut utiliser hâte pendant douze secondes.
+CapacitÃ© d'Ã©quipement : Le porteur est immunisÃ© Ã  l'immobilisation des personnes et Ã  l'Ã©tourdissement
+CapacitÃ© SpÃ©ciale : Une fois par jour, le porteur peut utiliser hÃ¢te pendant douze secondes.
 
 TAC0 : +3
-Dégâts : 1D6 +3
-Type de dégâts : perforant
+DÃ©gÃ¢ts : 1D6 +3
+Type de dÃ©gÃ¢ts : perforant
 Poids : 2
 Facteur de vitesse : 1
-Type de compétence : Epée courte
-Type : arme à 1 main
+Type de compÃ©tence : EpÃ©e courte
+Type : arme Ã  1 main
 Force Requise: 5
 Non utilisable par :
  Druide
@@ -48,46 +48,46 @@ Non utilisable par :
 @29   = ~Restaure diverses rencontres~
 @30   = ~Restaure certains objets~
 @31   = ~Besace du Loup~
-@32   = ~Créé à partir du pelage d'un loup imposant, ce sac rugueux pourra contenir les objets que vous avez accumulé au cours de vos voyages.
+@32   = ~CrÃ©Ã© Ã  partir du pelage d'un loup imposant, ce sac rugueux pourra contenir les objets que vous avez accumulÃ© au cours de vos voyages.
 
 PARAMETRES :
 
-Capacité : 10 objets
+CapacitÃ© : 10 objets
 Poids : 10~
 @33   = ~Cimeterre +1, Shazzelim
-Ce cimeterre est plutôt de mauvaise qualité mais sous sa surface sommeille un grand pouvoir maléfique. Créé dans le but unique de tuer des ménestrels, Shazzelim est plus que capable de remplir sa tâche. A chaque coup de la lame, un barde doit réussir un jet de sauvegarde contre les sorts sous peine de mourir. Forgée par les sorciers rouges de Thay, l'épée a aussi la capacité de vocalise, et c'est pour cette raison qu'elle a souvent été laissée entre les mains des guerriers-mages au service des sorciers. Inutile de dire que la possession d'un tel objet risque de rendre son propriétaire plutôt mal vu des ménestrels.
+Ce cimeterre est plutÃ´t de mauvaise qualitÃ© mais sous sa surface sommeille un grand pouvoir malÃ©fique. CrÃ©Ã© dans le but unique de tuer des mÃ©nestrels, Shazzelim est plus que capable de remplir sa tÃ¢che. A chaque coup de la lame, un barde doit rÃ©ussir un jet de sauvegarde contre les sorts sous peine de mourir. ForgÃ©e par les sorciers rouges de Thay, l'Ã©pÃ©e a aussi la capacitÃ© de vocalise, et c'est pour cette raison qu'elle a souvent Ã©tÃ© laissÃ©e entre les mains des guerriers-mages au service des sorciers. Inutile de dire que la possession d'un tel objet risque de rendre son propriÃ©taire plutÃ´t mal vu des mÃ©nestrels.
 
 PARAMETRES :
 
-Capacité d'équipement :
- Vocalisé
+CapacitÃ© d'Ã©quipement :
+ VocalisÃ©
 
-Capacités de combat :
- Les bardes doivent réussir un jet de sauvegarde contre les sorts s'ils sont touchés ou bien mourir
+CapacitÃ©s de combat :
+ Les bardes doivent rÃ©ussir un jet de sauvegarde contre les sorts s'ils sont touchÃ©s ou bien mourir
 
 TAC0 : +1
-Dégâts : 1D8 +1
-Type de dégâts : tranchant
+DÃ©gÃ¢ts : 1D8 +1
+Type de dÃ©gÃ¢ts : tranchant
 Poids : 3
 Facteur de vitesse : 4
-Type de compétence : Cimeterre/Wakizashi/Ninja-To
-Type : arme à 1 main
+Type de compÃ©tence : Cimeterre/Wakizashi/Ninja-To
+Type : arme Ã  1 main
 Force Requise : 10
 Inutilisable par :
  Clerc
  Mage
  Belluaire
  Personnage bon~
-@34   = ~Quand on l'utilise, cette baguette émet une nasse de fils longs et gluants comme ceux d'une toile d'araignée, mais en beaucoup plus résistants. Les créatures prises dans ce filet infernal ou qui le touchent tout simplement sont collées par les fibres gluantes du réseau.
-Tous ceux qui passent dans la zone d'effet doivent effectuer un jet de sauvegarde contre les sorts avec un malus de -5. Si le jet de sauvegarde est réussi, la créature peut se mouvoir comme elle le désire dans la zone d'effet. En cas d'échec, la créature est collée à la toile et ne peut plus se mouvoir. Ce test doit être effectué à chaque round tant que dure la toile d'araignée.
+@34   = ~Quand on l'utilise, cette baguette Ã©met une nasse de fils longs et gluants comme ceux d'une toile d'araignÃ©e, mais en beaucoup plus rÃ©sistants. Les crÃ©atures prises dans ce filet infernal ou qui le touchent tout simplement sont collÃ©es par les fibres gluantes du rÃ©seau.
+Tous ceux qui passent dans la zone d'effet doivent effectuer un jet de sauvegarde contre les sorts avec un malus de -5. Si le jet de sauvegarde est rÃ©ussi, la crÃ©ature peut se mouvoir comme elle le dÃ©sire dans la zone d'effet. En cas d'Ã©chec, la crÃ©ature est collÃ©e Ã  la toile et ne peut plus se mouvoir. Ce test doit Ãªtre effectuÃ© Ã  chaque round tant que dure la toile d'araignÃ©e.
 
 PARAMETRES :
 
-Effet : Immobilise les créatures qui manquent leur jet de sauvegarde contre les sorts à -5.
-Portée : 20 mètres
-Zone d'effet : Spécial
-Jet de sauvegarde : Spécial
-Durée : 1 tour
+Effet : Immobilise les crÃ©atures qui manquent leur jet de sauvegarde contre les sorts Ã  -5.
+PortÃ©e : 20 mÃ¨tres
+Zone d'effet : SpÃ©cial
+Jet de sauvegarde : SpÃ©cial
+DurÃ©e : 1 tour
 Utilisable par:
  Mage
  Barde~
@@ -95,16 +95,16 @@ Utilisable par:
 @36   = ~Malaaq~
 @37   = ~Hendron~
 @38   = ~Lellyn~
-@39   = ~Le fléau des araignées
-Le fléau des araignées, qui fut autrefois une puissante épée, se trouve maintenant brisé entre vos mains. Détruit par les mauvais traitements des ouvriers de la ville, il n'a plus guère de valeur pour personne, à l'exception de celle qui le cherche... Pai'Na.~
+@39   = ~Le flÃ©au des araignÃ©es
+Le flÃ©au des araignÃ©es, qui fut autrefois une puissante Ã©pÃ©e, se trouve maintenant brisÃ© entre vos mains. DÃ©truit par les mauvais traitements des ouvriers de la ville, il n'a plus guÃ¨re de valeur pour personne, Ã  l'exception de celle qui le cherche... Pai'Na.~
 @40   = ~La vieille lampe~
-@41   = ~La fiole du génie~
-@42   = ~Cela ressemble à une fiole toute simple servant à conserver de l'huile.
+@41   = ~La fiole du gÃ©nie~
+@42   = ~Cela ressemble Ã  une fiole toute simple servant Ã  conserver de l'huile.
 
-Myara la petite fille pense qu'en réalité, il s'agit d'une bouteille magique, qui pourrait contenir le secret du pouvoir de Kalah. Malheureusement, toutes les frictions exercées sur sa surface semblent rester vaines...~
-@43   = ~Cela ressemble à une fiole toute simple servant à conserver de l'huile.
+Myara la petite fille pense qu'en rÃ©alitÃ©, il s'agit d'une bouteille magique, qui pourrait contenir le secret du pouvoir de Kalah. Malheureusement, toutes les frictions exercÃ©es sur sa surface semblent rester vaines...~
+@43   = ~Cela ressemble Ã  une fiole toute simple servant Ã  conserver de l'huile.
 
-On vous a cependant dit qu'il s'agissait en fait d'une bouteille magique contenant un puissant génie qui pourrait exaucer vos caprices s'il était libéré. Ayant obtenu le mot de commande de la part de Jafir, le Rakshasa qui a vendu l'objet à Kalah, vous êtes à présent en mesure de l'utiliser.
+On vous a cependant dit qu'il s'agissait en fait d'une bouteille magique contenant un puissant gÃ©nie qui pourrait exaucer vos caprices s'il Ã©tait libÃ©rÃ©. Ayant obtenu le mot de commande de la part de Jafir, le Rakshasa qui a vendu l'objet Ã  Kalah, vous Ãªtes Ã  prÃ©sent en mesure de l'utiliser.
 
 Equipez simplement la fiole dans votre inventaire et cliquez pour l'utiliser.~
 @44   = ~Myara~
@@ -128,7 +128,7 @@ Equipez simplement la fiole dans votre inventaire et cliquez pour l'utiliser.~
 @62   = ~Garde des Voleurs de l'Ombre~
 @63   = ~Inquisiteur des Voleurs de l'Ombre~
 @64   = ~Mage de bataille des Voleurs de l'Ombre~
-@65   = ~Amon de la Confrérie Pourpre~
+@65   = ~Amon de la ConfrÃ©rie Pourpre~
 @66   = ~Serviteurs des Enfers restaures, par SimDing0~
 @67   = ~Imoen Cartesen~
 @68   = ~Pouvoirs de Bhaal restaures, par David Gaider~
@@ -139,44 +139,44 @@ Equipez simplement la fiole dans votre inventaire et cliquez pour l'utiliser.~
 @73   = ~Descriptions etendues des objets de ToB~
 @74   = ~Figurine de Shakti 
 
-Il existe de fortes raisons de croire que cet objet fut façonné par un puissant Wu Jen dans les terres mystérieuses de l'Est de Féerune, car la figurine est une réplique finement ouvragée d'un féroce guerrier de Kara-Tur en tenue complète de bataille.
+Il existe de fortes raisons de croire que cet objet fut faÃ§onnÃ© par un puissant Wu Jen dans les terres mystÃ©rieuses de l'Est de FÃ©erune, car la figurine est une rÃ©plique finement ouvragÃ©e d'un fÃ©roce guerrier de Kara-Tur en tenue complÃ¨te de bataille.
 
-Quand cette statuette est utilisée, elle provoque une métamorphose étonnante chez l'utilisateur, le transformant temporairement en un gladiateur en armure bleue brandissant une épée courte dans chaque main.
+Quand cette statuette est utilisÃ©e, elle provoque une mÃ©tamorphose Ã©tonnante chez l'utilisateur, le transformant temporairement en un gladiateur en armure bleue brandissant une Ã©pÃ©e courte dans chaque main.
 
-On ne sait si cette figurine merveilleuse permet à l'utilisateur de canaliser l'esprit d'un légendaire guerrier, ou si elle déchaîne simplement la furie primaire instinctive se trouvant dans l'esprit de l'utilisateur.
+On ne sait si cette figurine merveilleuse permet Ã  l'utilisateur de canaliser l'esprit d'un lÃ©gendaire guerrier, ou si elle dÃ©chaÃ®ne simplement la furie primaire instinctive se trouvant dans l'esprit de l'utilisateur.
 
 PARAMETRES :
 
 Utilisable une fois par jour
- Durée : 4 rounds
+ DurÃ©e : 4 rounds
  Classe d'Armure : -5
- Hâte sur l'utilisateur 
- Deux attaques par round avec une épée courte +4 comme si l' utilisateur possèdait deux points dans la compétence du maniement de l'épée courte.
+ HÃ¢te sur l'utilisateur 
+ Deux attaques par round avec une Ã©pÃ©e courte +4 comme si l' utilisateur possÃ¨dait deux points dans la compÃ©tence du maniement de l'Ã©pÃ©e courte.
 Non utilisable par :
  Guerriers~
-@75   = ~Fléau de l'adversaire +5
+@75   = ~FlÃ©au de l'adversaire +5
 
-L'Archimage Demron conçut cette épée bâtarde magique pour le héros elfe Fflar, Commandant de Myth Drannor. La plus puissante des six lames enchantées de la sorte par Demron, le Fléau de l'adversaire, peut drainer l'essence vitale de ses adversaires à chaque attaque, et rendre cette énergie vitale à celui qui la manie. Certains pensent que cette épée a été maudite de façon à voler les âmes, car bien que conçue comme une arme du bien et de la justice, la sombre histoire du Fléau de l'adversaire est faite de meurtre et de mort. 
+L'Archimage Demron conÃ§ut cette Ã©pÃ©e bÃ¢tarde magique pour le hÃ©ros elfe Fflar, Commandant de Myth Drannor. La plus puissante des six lames enchantÃ©es de la sorte par Demron, le FlÃ©au de l'adversaire, peut drainer l'essence vitale de ses adversaires Ã  chaque attaque, et rendre cette Ã©nergie vitale Ã  celui qui la manie. Certains pensent que cette Ã©pÃ©e a Ã©tÃ© maudite de faÃ§on Ã  voler les Ã¢mes, car bien que conÃ§ue comme une arme du bien et de la justice, la sombre histoire du FlÃ©au de l'adversaire est faite de meurtre et de mort. 
 
-Le propre sang de Demron étrenna l'épée, quand un voleur utilisa la lame nouvellement façonnée pour provoquer la mort prématurée de l'Archimage et ce, bien que le voleur n'ait pas survécu à la rencontre. Après le meurtre de Demron, le Fléau de l'adversaire fut retrouvée et présentée au héros Fflar dans le but de défendre Myth Drannor, la plus grande des cités elfiques. 
+Le propre sang de Demron Ã©trenna l'Ã©pÃ©e, quand un voleur utilisa la lame nouvellement faÃ§onnÃ©e pour provoquer la mort prÃ©maturÃ©e de l'Archimage et ce, bien que le voleur n'ait pas survÃ©cu Ã  la rencontre. AprÃ¨s le meurtre de Demron, le FlÃ©au de l'adversaire fut retrouvÃ©e et prÃ©sentÃ©e au hÃ©ros Fflar dans le but de dÃ©fendre Myth Drannor, la plus grande des citÃ©s elfiques. 
 
-Cependant le pouvoir du Fléau de l'adversaire ne suffit pas à contenir les sombres hordes qui submergèrent Myth Drannor. Quand la cité elfe tomba, le commandant Fflar connut une fin horrible et macabre et l'épée elle-même fut perdue sous les décombres de la grande métropole. 
+Cependant le pouvoir du FlÃ©au de l'adversaire ne suffit pas Ã  contenir les sombres hordes qui submergÃ¨rent Myth Drannor. Quand la citÃ© elfe tomba, le commandant Fflar connut une fin horrible et macabre et l'Ã©pÃ©e elle-mÃªme fut perdue sous les dÃ©combres de la grande mÃ©tropole. 
 
-La légende soutient que les pouvoirs considérables du Fléau de l'adversaire sont fortement accrus quand l'épée est unie au Fourreau enchanté de Fflar, son propriétaire d'origine. 
+La lÃ©gende soutient que les pouvoirs considÃ©rables du FlÃ©au de l'adversaire sont fortement accrus quand l'Ã©pÃ©e est unie au Fourreau enchantÃ© de Fflar, son propriÃ©taire d'origine. 
 
 PARAMETRES :
 
-Capacité d'équipement : +1 à tous les jets de sauvegarde
-Capacité de combat : chaque attaque réussie lance une Absorbtion Mineure de Larloch sur la cible (pas de jet de sauvegarde) 
+CapacitÃ© d'Ã©quipement : +1 Ã  tous les jets de sauvegarde
+CapacitÃ© de combat : chaque attaque rÃ©ussie lance une Absorbtion Mineure de Larloch sur la cible (pas de jet de sauvegarde) 
 
 TAC0 : +5
-Dégâts : 2D4 +5, +6 aux dégâts contre les morts-vivants, les métamorphes, et toutes les créatures extra-planaires (démons, planétaires, etc) 
-Type de dégâts : tranchant
+DÃ©gÃ¢ts : 2D4 +5, +6 aux dÃ©gÃ¢ts contre les morts-vivants, les mÃ©tamorphes, et toutes les crÃ©atures extra-planaires (dÃ©mons, planÃ©taires, etc) 
+Type de dÃ©gÃ¢ts : tranchant
 Poids : 5
 Facteur de vitesse : 3
-Type de compétence : Epée bâtarde
-Type : arme à 1 main
-Force nécessaire : 11
+Type de compÃ©tence : EpÃ©e bÃ¢tarde
+Type : arme Ã  1 main
+Force nÃ©cessaire : 11
 Inutilisable par :
  Druide
  Clerc
@@ -184,119 +184,119 @@ Inutilisable par :
  Voleur~
 @76   = ~Pointe d'Ixil +6
 
-Peu après que le Temps des Troubles eut commencé, les tribus de bandits nomades du désert de Calimshan s'unirent sous un chef unique ; un homme géant, cruel et brutal, le Seigneur de guerre Ixil Xaxsha. Depuis leurs avant-postes situés dans l'étendue du désert inhospitalier, les nomades s'aventurèrent contre les caravanes de marchands et terrorisèrent ceux qui osaient voyager sur la route entre Calimport et Myratma. 
+Peu aprÃ¨s que le Temps des Troubles eut commencÃ©, les tribus de bandits nomades du dÃ©sert de Calimshan s'unirent sous un chef unique ; un homme gÃ©ant, cruel et brutal, le Seigneur de guerre Ixil Xaxsha. Depuis leurs avant-postes situÃ©s dans l'Ã©tendue du dÃ©sert inhospitalier, les nomades s'aventurÃ¨rent contre les caravanes de marchands et terrorisÃ¨rent ceux qui osaient voyager sur la route entre Calimport et Myratma. 
 
-Les rumeurs et les légendes se répandirent rapidement au sujet de l'invincible Ixil, qui chevauchait à la tête de chaque expédition de raid en brandissant son infâme lance magique. Certains pensent qu'il n'était pas un homme, mais plutôt un démon sous une forme humaine, attiré en Féérune par le chaos et la confusion du Temps des Troubles. 
+Les rumeurs et les lÃ©gendes se rÃ©pandirent rapidement au sujet de l'invincible Ixil, qui chevauchait Ã  la tÃªte de chaque expÃ©dition de raid en brandissant son infÃ¢me lance magique. Certains pensent qu'il n'Ã©tait pas un homme, mais plutÃ´t un dÃ©mon sous une forme humaine, attirÃ© en FÃ©Ã©rune par le chaos et la confusion du Temps des Troubles. 
 
-Le sadisme d'Ixil et sa sauvagerie contribuèrent à soutenir ces allégations. On racontait que pendant la bataille, le fer de la Pointe d'Ixil, sa puissante lance, se détachait pour clouer ses adversaires au sol et qu'un nouveau fer se reformait par magie au bout de la lance. Souvent au cours du combat, Ixil se serait arrêté pour savourer les débattements impuissants d'un ennemi empalé par la pointe de la lance... semblant se délecter de l'horrible agonie de son ennemi. 
+Le sadisme d'Ixil et sa sauvagerie contribuÃ¨rent Ã  soutenir ces allÃ©gations. On racontait que pendant la bataille, le fer de la Pointe d'Ixil, sa puissante lance, se dÃ©tachait pour clouer ses adversaires au sol et qu'un nouveau fer se reformait par magie au bout de la lance. Souvent au cours du combat, Ixil se serait arrÃªtÃ© pour savourer les dÃ©battements impuissants d'un ennemi empalÃ© par la pointe de la lance... semblant se dÃ©lecter de l'horrible agonie de son ennemi. 
 
-Le Seigneur de Guerre fut finalement défait quand il fut pris au piège en attaquant un contingent de puissants clercs et de Chevaliers de l'Ordre du Coeur Radieux se faisant passer pour de simples pélerins. Les témoins de la bataille affirmèrent qu'Ixil n'avait pas été tué, mais avait en réalité été banni vers un plan extérieur des Enfers grâce à la magie divine de l'Ordre. 
+Le Seigneur de Guerre fut finalement dÃ©fait quand il fut pris au piÃ¨ge en attaquant un contingent de puissants clercs et de Chevaliers de l'Ordre du Coeur Radieux se faisant passer pour de simples pÃ©lerins. Les tÃ©moins de la bataille affirmÃ¨rent qu'Ixil n'avait pas Ã©tÃ© tuÃ©, mais avait en rÃ©alitÃ© Ã©tÃ© banni vers un plan extÃ©rieur des Enfers grÃ¢ce Ã  la magie divine de l'Ordre. 
 
-Bien que le corps d'Ixil n'ait jamais été retrouvé, la Pointe d'Ixil, sa lance effrayante, symbole de sa puissance, fut récupérée. Dans le but de détruire l'artefact, elle fut brisée en plusieurs morceaux, qui furent dispersés dans les Terres du Sud.
+Bien que le corps d'Ixil n'ait jamais Ã©tÃ© retrouvÃ©, la Pointe d'Ixil, sa lance effrayante, symbole de sa puissance, fut rÃ©cupÃ©rÃ©e. Dans le but de dÃ©truire l'artefact, elle fut brisÃ©e en plusieurs morceaux, qui furent dispersÃ©s dans les Terres du Sud.
 
 PARAMETRES : 
 
-Capacité d'équipement : action libre permanente 
-Capacité de combat : la victime doit réussir un jet de sauvegarde à chaque attaque réussie, ou être immobilisée pendant 3 rounds en subissant 1D6 +5 de dégâts supplémentaires par round. 
+CapacitÃ© d'Ã©quipement : action libre permanente 
+CapacitÃ© de combat : la victime doit rÃ©ussir un jet de sauvegarde Ã  chaque attaque rÃ©ussie, ou Ãªtre immobilisÃ©e pendant 3 rounds en subissant 1D6 +5 de dÃ©gÃ¢ts supplÃ©mentaires par round. 
 
 TAC0 : + 6 
-Dégâts : 1D6 +6 
-Type de dégâts : perforant 
+DÃ©gÃ¢ts : 1D6 +6 
+Type de dÃ©gÃ¢ts : perforant 
 Poids : 5 
 Facteur de vitesse : 2 
-Type de compétence : Lance 
-Type : arme à 2 mains 
-Force nécessaire : 5 
+Type de compÃ©tence : Lance 
+Type : arme Ã  2 mains 
+Force nÃ©cessaire : 5 
 Inutilisable par : 
  Clerc 
  Mage 
  Voleur~
-@77   = ~Gourdin de détonation +5
+@77   = ~Gourdin de dÃ©tonation +5
 
-Les légendes d'Amn racontent l'histoire de Nysrogh, un puissant habitant des Plans inférieurs libéré sur la surface d'Amn par une sorcière inconsciente nommée Unileth. 
+Les lÃ©gendes d'Amn racontent l'histoire de Nysrogh, un puissant habitant des Plans infÃ©rieurs libÃ©rÃ© sur la surface d'Amn par une sorciÃ¨re inconsciente nommÃ©e Unileth. 
 
-Complètement immunisé à toutes les armes utilisées contre lui, Nysrogh ravagea Amn, et Unileth prit sur elle d'éradiquer la menace qu'elle avait libérée. Utilisant ses connaissances sur les faiblesses des démons, elle conçut un grand gourdin pour défaire Nysrogh, et le donna à un chevalier courageux mais anonyme pour qu'il soit son champion. 
+ComplÃ¨tement immunisÃ© Ã  toutes les armes utilisÃ©es contre lui, Nysrogh ravagea Amn, et Unileth prit sur elle d'Ã©radiquer la menace qu'elle avait libÃ©rÃ©e. Utilisant ses connaissances sur les faiblesses des dÃ©mons, elle conÃ§ut un grand gourdin pour dÃ©faire Nysrogh, et le donna Ã  un chevalier courageux mais anonyme pour qu'il soit son champion. 
 
-Le champion d'Unileth lança un défi à Nysrogh, que le démon accepta immédiatement, pensant qu'il ne pouvait être atteint par aucune arme connue dans les Royaumes. Ils se rencontrèrent sur le champ de bataille et sous le regard féroce de Nysrogh, le champion d'Unileth lâcha son arme et s'enfuit de terreur. 
+Le champion d'Unileth lanÃ§a un dÃ©fi Ã  Nysrogh, que le dÃ©mon accepta immÃ©diatement, pensant qu'il ne pouvait Ãªtre atteint par aucune arme connue dans les Royaumes. Ils se rencontrÃ¨rent sur le champ de bataille et sous le regard fÃ©roce de Nysrogh, le champion d'Unileth lÃ¢cha son arme et s'enfuit de terreur. 
 
-Nysrogh s'avança pour s'approprier le gourdin dont le champion s'était délesté pour symboliser sa victoire. Mais quand la main griffue du démon toucha la surface du gourdin, il déclencha un sort d'emprisonnement, auquel il n'était absolument pas préparé. Le piège d'Unileth avait fonctionné, et le démon qui ne pouvait être blessé par aucune arme fut emprisonné pour toujours dans le gourdin magique. 
+Nysrogh s'avanÃ§a pour s'approprier le gourdin dont le champion s'Ã©tait dÃ©lestÃ© pour symboliser sa victoire. Mais quand la main griffue du dÃ©mon toucha la surface du gourdin, il dÃ©clencha un sort d'emprisonnement, auquel il n'Ã©tait absolument pas prÃ©parÃ©. Le piÃ¨ge d'Unileth avait fonctionnÃ©, et le dÃ©mon qui ne pouvait Ãªtre blessÃ© par aucune arme fut emprisonnÃ© pour toujours dans le gourdin magique. 
 
-Le gourdin de bois non taillé brûle encore de l'esprit enragé du démon éternellement piégé par les puissants enchantements placés sur l'arme. Parfois cependant, le courroux du démon parvient à s'échapper dans une violente explosion. 
+Le gourdin de bois non taillÃ© brÃ»le encore de l'esprit enragÃ© du dÃ©mon Ã©ternellement piÃ©gÃ© par les puissants enchantements placÃ©s sur l'arme. Parfois cependant, le courroux du dÃ©mon parvient Ã  s'Ã©chapper dans une violente explosion. 
 
 PARAMETRES :
 
-Capacités de combat :
- 30% de chances que la cible subisse 15 points supplémentaires de dégâts de feu quand l'attaque porte 
- 5% de chances qu'une boule de feu explose automatiquement à chaque attaque réussie 
+CapacitÃ©s de combat :
+ 30% de chances que la cible subisse 15 points supplÃ©mentaires de dÃ©gÃ¢ts de feu quand l'attaque porte 
+ 5% de chances qu'une boule de feu explose automatiquement Ã  chaque attaque rÃ©ussie 
 
 TAC0 : +5 
-Dégâts : 1D6 +5, +5 de dégâts de feu
-Type de dégâts : contondant
+DÃ©gÃ¢ts : 1D6 +5, +5 de dÃ©gÃ¢ts de feu
+Type de dÃ©gÃ¢ts : contondant
 Poids : 1
 Facteur de vitesse : 4
-Type de compétence : Gourdin
-Type : arme à 1 main
-Force nécessaire : 5
+Type de compÃ©tence : Gourdin
+Type : arme Ã  1 main
+Force nÃ©cessaire : 5
 Inutilisable par :
  Mage~
 @78   = ~Carquois d'abondance
 
-Une légende souvent racontée, bien que jamais étayée, soutient que le carquois fut offert un jour en cadeau au Duc Orin Gastlecate. Orin se souciait peu de politique et, les jours où il devait affronter les responsabilités de son fief, il disparaissait souvent pendant des semaines dans les denses forêts qui recouvraient la plus grande partie de ses terres, pour y mener la vie d'un chasseur solitaire. 
+Une lÃ©gende souvent racontÃ©e, bien que jamais Ã©tayÃ©e, soutient que le carquois fut offert un jour en cadeau au Duc Orin Gastlecate. Orin se souciait peu de politique et, les jours oÃ¹ il devait affronter les responsabilitÃ©s de son fief, il disparaissait souvent pendant des semaines dans les denses forÃªts qui recouvraient la plus grande partie de ses terres, pour y mener la vie d'un chasseur solitaire. 
 
-Cependant même en s'y escrimant, Orin ne fut jamais capable d'apprendre l'art subtil de la fabrication des flèches et était donc obligé de revenir à son château quand il n'en avait plus. A chaque fois qu'il revenait, il était submergé par les nobles, les marchands et tous leurs petits problèmes qui réclamaient son attention. 
+Cependant mÃªme en s'y escrimant, Orin ne fut jamais capable d'apprendre l'art subtil de la fabrication des flÃ¨ches et Ã©tait donc obligÃ© de revenir Ã  son chÃ¢teau quand il n'en avait plus. A chaque fois qu'il revenait, il Ã©tait submergÃ© par les nobles, les marchands et tous leurs petits problÃ¨mes qui rÃ©clamaient son attention. 
 
-Si on en croit les histoires, Orin fut un jour abordé par un marchand sans scrupule qui lui offrit un don en échange de son titre sur la totalité ses terres : un carquois qui produisait une quantité illimitée de flèches magiques. Orin s'empressa d'accepter le marché, s'imaginant que ses problèmes seraient résolus pour toujours. 
+Si on en croit les histoires, Orin fut un jour abordÃ© par un marchand sans scrupule qui lui offrit un don en Ã©change de son titre sur la totalitÃ© ses terres : un carquois qui produisait une quantitÃ© illimitÃ©e de flÃ¨ches magiques. Orin s'empressa d'accepter le marchÃ©, s'imaginant que ses problÃ¨mes seraient rÃ©solus pour toujours. 
 
-Bien sûr le marchand devint rapidement un tyran cruel et insupportable, et en l'espace d'un mois les sujets d'Orin renversèrent leur nouveau gouverneur, tirèrent Orin de sa forêt bien aimée et l'enfermèrent dans son propre château, l'obligeant à redevenir leur seigneur. Pour s'assurer qu'il ne s'échapperait plus jamais dans les bois, le précieux carquois d'Orin fut dissumulé au loin, et en faire mention devint un crime passible de mort.
-
-PARAMETRES : 
-
-Flèches +1 illimitées~
-@79   = ~Etoile des tempêtes +5
-
-Cette arme magique est d'ancienne facture, et les érudits la font remonter à Néthéril. Bien que les masses plaquées d'électrum comme l'Etoile des tempêtes sont d'habitude trouvées dans le Nord, des rumeurs rapportent que cet exemplaire particulièrement puissant aurait été perdu dans les extrémités méridionales des Royaumes. 
-
-L'Etoile des tempêtes possède déjà de formidables capacités qui ont été améliorées par l'ajout de minerai de l'Etoile déchue. Cet étrange matériau d'un autre monde provient du noyau d'une météorite qui tomba des cieux. Le minerai malléable est étonnamment résistant, et dégage une chaleur intérieure. Un objet forgé dans cette matière possède sans nul doute des propriétés mystérieuses et extra-terrestres. 
-
-Malgré sa taille massive, l'Etoile des tempêtes est curieusement légère, la rendant particulièrement facile à manier pendant un combat. Elle crépite d'arcs d'électricité spectaculaires bien qu'inoffensifs quand elle est brandie : une manifestation visible des puissants enchantements électriques contenus dans la tête de l'arme. 
-
+Bien sÃ»r le marchand devint rapidement un tyran cruel et insupportable, et en l'espace d'un mois les sujets d'Orin renversÃ¨rent leur nouveau gouverneur, tirÃ¨rent Orin de sa forÃªt bien aimÃ©e et l'enfermÃ¨rent dans son propre chÃ¢teau, l'obligeant Ã  redevenir leur seigneur. Pour s'assurer qu'il ne s'Ã©chapperait plus jamais dans les bois, le prÃ©cieux carquois d'Orin fut dissumulÃ© au loin, et en faire mention devint un crime passible de mort.
 
 PARAMETRES : 
 
-Capacité d'équipement : +20% de résistance à l'électricité 
-Capacité de combat : 5% de chances de lancer Chaîne d'Eclairs sur la cible à chaque attaque réussie 
+FlÃ¨ches +1 illimitÃ©es~
+@79   = ~Etoile des tempÃªtes +5
+
+Cette arme magique est d'ancienne facture, et les Ã©rudits la font remonter Ã  NÃ©thÃ©ril. Bien que les masses plaquÃ©es d'Ã©lectrum comme l'Etoile des tempÃªtes sont d'habitude trouvÃ©es dans le Nord, des rumeurs rapportent que cet exemplaire particuliÃ¨rement puissant aurait Ã©tÃ© perdu dans les extrÃ©mitÃ©s mÃ©ridionales des Royaumes. 
+
+L'Etoile des tempÃªtes possÃ¨de dÃ©jÃ  de formidables capacitÃ©s qui ont Ã©tÃ© amÃ©liorÃ©es par l'ajout de minerai de l'Etoile dÃ©chue. Cet Ã©trange matÃ©riau d'un autre monde provient du noyau d'une mÃ©tÃ©orite qui tomba des cieux. Le minerai mallÃ©able est Ã©tonnamment rÃ©sistant, et dÃ©gage une chaleur intÃ©rieure. Un objet forgÃ© dans cette matiÃ¨re possÃ¨de sans nul doute des propriÃ©tÃ©s mystÃ©rieuses et extra-terrestres. 
+
+MalgrÃ© sa taille massive, l'Etoile des tempÃªtes est curieusement lÃ©gÃ¨re, la rendant particuliÃ¨rement facile Ã  manier pendant un combat. Elle crÃ©pite d'arcs d'Ã©lectricitÃ© spectaculaires bien qu'inoffensifs quand elle est brandie : une manifestation visible des puissants enchantements Ã©lectriques contenus dans la tÃªte de l'arme. 
+
+
+PARAMETRES : 
+
+CapacitÃ© d'Ã©quipement : +20% de rÃ©sistance Ã  l'Ã©lectricitÃ© 
+CapacitÃ© de combat : 5% de chances de lancer ChaÃ®ne d'Eclairs sur la cible Ã  chaque attaque rÃ©ussie 
 
 TACO : +5 
-Dégâts : 1D6 +6, +1D6 de dommages électriques 
-Type de dégâts : contondant 
+DÃ©gÃ¢ts : 1D6 +6, +1D6 de dommages Ã©lectriques 
+Type de dÃ©gÃ¢ts : contondant 
 Poids : 4 
 Facteur de vitesse : 2 
-Type de compétence : Masse
-Type : arme à 1 main 
-Force nécessaire : 10 
+Type de compÃ©tence : Masse
+Type : arme Ã  1 main 
+Force nÃ©cessaire : 10 
 Inutilisable par : 
  Druide 
  Mage 
  Voleur~
 @80   = ~Bouclier Sombracier +4
 
-Les nains du clan de Clangeddin étaient réputés pour savoir travailler le sombracier, un matériau qui ne pouvait être trouvé que dans leurs demeures au cœur des Montagnes de la Marche. Dans leurs efforts pour trouver davantage de sombracier, ils creusèrent plus profondément dans les entrailles de la terre. 
+Les nains du clan de Clangeddin Ã©taient rÃ©putÃ©s pour savoir travailler le sombracier, un matÃ©riau qui ne pouvait Ãªtre trouvÃ© que dans leurs demeures au cÂœur des Montagnes de la Marche. Dans leurs efforts pour trouver davantage de sombracier, ils creusÃ¨rent plus profondÃ©ment dans les entrailles de la terre. 
 
-C'est au cours d'une telle expédition que les sept fils d'Argeld Mainlourde, le chef des Clangeddin, disparurent. Le seul survivant de la malheureuse expédition fut Glimred Mainlourde, le plus jeune fils d'Argeld. Le jeune garçon revint avec des histoires de Drows et d'Illithids et d'autres horreurs encore plus sombres et sans nom, comme on n'en avait jamais entendu de semblables. 
+C'est au cours d'une telle expÃ©dition que les sept fils d'Argeld Mainlourde, le chef des Clangeddin, disparurent. Le seul survivant de la malheureuse expÃ©dition fut Glimred Mainlourde, le plus jeune fils d'Argeld. Le jeune garÃ§on revint avec des histoires de Drows et d'Illithids et d'autres horreurs encore plus sombres et sans nom, comme on n'en avait jamais entendu de semblables. 
 
-Désespérant de venger ses fils, Argeld ne pouvait pourtant pas envoyer davantage de ses hommes pour faire face à de telles horreurs dans les pronfondeurs de la montagne. Glimred lui-même ne put cependant en être dissuadé. Pour l'aider dans sa quête de vengeance, les forgerons nains construisirent le Bouclier Sombracier, un bouclier puissamment enchanté qui fournissaient plus de protections que la plupart des armures. 
+DÃ©sespÃ©rant de venger ses fils, Argeld ne pouvait pourtant pas envoyer davantage de ses hommes pour faire face Ã  de telles horreurs dans les pronfondeurs de la montagne. Glimred lui-mÃªme ne put cependant en Ãªtre dissuadÃ©. Pour l'aider dans sa quÃªte de vengeance, les forgerons nains construisirent le Bouclier Sombracier, un bouclier puissamment enchantÃ© qui fournissaient plus de protections que la plupart des armures. 
 
-Mais Glimred était impatient, sa soif de vengeance ne pouvait pas être retardée, et il disparut dans les pronfondeurs des Montagnes de la Marche avant que le travail ne soit achevé. Personne ne le revit. Le désespoir et la mort présumée de son seul fils survivant furent de trop pour Argeld, qui eut le cœur brisé et mourut de chagrin. 
+Mais Glimred Ã©tait impatient, sa soif de vengeance ne pouvait pas Ãªtre retardÃ©e, et il disparut dans les pronfondeurs des Montagnes de la Marche avant que le travail ne soit achevÃ©. Personne ne le revit. Le dÃ©sespoir et la mort prÃ©sumÃ©e de son seul fils survivant furent de trop pour Argeld, qui eut le cÂœur brisÃ© et mourut de chagrin. 
 
-Leur chef mort et leur héros Glimred disparu, les nains surent qu'il ne restait que peu de temps avant que leur clan ne fût submergé par leurs ennemis de l'Ombreterre. Avant de disparaître de la surface de Féérune, le clan vendit le bouclier au plus offrant - bien que les forgerons nains aient toujours refusé de divulguer le nom du mystérieux acheteur. 
+Leur chef mort et leur hÃ©ros Glimred disparu, les nains surent qu'il ne restait que peu de temps avant que leur clan ne fÃ»t submergÃ© par leurs ennemis de l'Ombreterre. Avant de disparaÃ®tre de la surface de FÃ©Ã©rune, le clan vendit le bouclier au plus offrant - bien que les forgerons nains aient toujours refusÃ© de divulguer le nom du mystÃ©rieux acheteur. 
 
 PARAMETRES : 
 
-Capacités : +10% de résistance au feu, au froid, à l'acide et au poison 
+CapacitÃ©s : +10% de rÃ©sistance au feu, au froid, Ã  l'acide et au poison 
 
-Bonus à la Classe d'Armure : 5 
+Bonus Ã  la Classe d'Armure : 5 
 Poids : 8 
-Force nécessaire : 10 
+Force nÃ©cessaire : 10 
 Inutilisable par : 
  Barde
  Druide 
@@ -305,23 +305,23 @@ Inutilisable par :
 @81  = ~Classe de justicier~
 @82  = ~justicier~
 @83  = ~justicier~
-@84  = ~JUSTICIER : Certaines expéditions sont si difficiles et certains adversaires si dangereux qu'ils requièrent l'attention d'un spécialiste hautement entraîné dont les talents au combat surpassent de loin ceux d'un rôdeur classique. Entre alors en scène le justicier, un maître tacticien que son instinct militaire, son aptitude au combat, et ses nerfs d'acier placent au premier rang des guerriers d'élite.
+@84  = ~JUSTICIER : Certaines expÃ©ditions sont si difficiles et certains adversaires si dangereux qu'ils requiÃ¨rent l'attention d'un spÃ©cialiste hautement entraÃ®nÃ© dont les talents au combat surpassent de loin ceux d'un rÃ´deur classique. Entre alors en scÃ¨ne le justicier, un maÃ®tre tacticien que son instinct militaire, son aptitude au combat, et ses nerfs d'acier placent au premier rang des guerriers d'Ã©lite.
 
-Pour un justicier déterminé, aucune tâche n'est trop difficile, aucun ennemi trop formidable. Ses aptitudes avec les armes lui donnent un avantage au combat, bien que le peu de temps consacré à la pratique de la magie les laissent un peu démunis dans ce domaine.
+Pour un justicier dÃ©terminÃ©, aucune tÃ¢che n'est trop difficile, aucun ennemi trop formidable. Ses aptitudes avec les armes lui donnent un avantage au combat, bien que le peu de temps consacrÃ© Ã  la pratique de la magie les laissent un peu dÃ©munis dans ce domaine.
 
-Ils doivent être d'alignement Loyal bon.
+Ils doivent Ãªtre d'alignement Loyal bon.
 
 Avantages :
-- Bonus de furtivité : 10%
+- Bonus de furtivitÃ© : 10%
 - +1 au facteur de vitesse et au TAC0 tous les 10 niveaux
 
-Inconvénients :
-- Ne peut utiliser la compétence Charme-animal
-- Ne peut pas choisir de classe jumelée
-– Lancement de sorts limité à :
-Soin des blessures légères et Armure de la foi une fois par jour chacun à partir du niveau 8
-Chance et Apaisement une fois par jour chacun à partir du niveau 10
-Puiser dans la puissance divine une fois par jour à partir du niveau 12~
+InconvÃ©nients :
+- Ne peut utiliser la compÃ©tence Charme-animal
+- Ne peut pas choisir de classe jumelÃ©e
+Â– Lancement de sorts limitÃ© Ã  :
+Soin des blessures lÃ©gÃ¨res et Armure de la foi une fois par jour chacun Ã  partir du niveau 8
+Chance et Apaisement une fois par jour chacun Ã  partir du niveau 10
+Puiser dans la puissance divine une fois par jour Ã  partir du niveau 12~
 @85  = ~Classe de Sanguinaire~
 @86  = ~Rage sanguinaire~
 @87  = ~Appel d'animaux sauvages~
@@ -331,127 +331,127 @@ Puiser dans la puissance divine une fois par jour à partir du niveau 12~
 @91  = ~Chef de meute~
 @92  = ~Sanguinaire~
 @93  = ~Sanguinaire~
-@94  = ~SANGUINAIRE : Qu'arrive-t-il aux enfants qui errent dans la nature et ne sont jamais retrouvés ? Ou pire, qui y ont été abandonnés ? Beaucoup succombent aux dangers sauvages, mais quelques chanceux sont adoptés par les animaux, élevés comme la progéniture d'un lion, ou comme la portée d'un loup. Coupés de la civilisation, ils acquièrent progressivement les aptitudes des animaux qui les ont recueillis, formant une sorte d'unité avec l'esprit de la nature. Ils deviennent ainsi des Sanguinaires, des êtres qui combinent la sauvagerie des animaux et l'intelligence de l'homme.
+@94  = ~SANGUINAIRE : Qu'arrive-t-il aux enfants qui errent dans la nature et ne sont jamais retrouvÃ©s ? Ou pire, qui y ont Ã©tÃ© abandonnÃ©s ? Beaucoup succombent aux dangers sauvages, mais quelques chanceux sont adoptÃ©s par les animaux, Ã©levÃ©s comme la progÃ©niture d'un lion, ou comme la portÃ©e d'un loup. CoupÃ©s de la civilisation, ils acquiÃ¨rent progressivement les aptitudes des animaux qui les ont recueillis, formant une sorte d'unitÃ© avec l'esprit de la nature. Ils deviennent ainsi des Sanguinaires, des Ãªtres qui combinent la sauvagerie des animaux et l'intelligence de l'homme.
 
-A cause de leur nature sauvage, les Sanguinaires ne peuvent être d'alignement Loyal. Comme les rôdeurs, ils ne peuvent être que d'alignement bon.
+A cause de leur nature sauvage, les Sanguinaires ne peuvent Ãªtre d'alignement Loyal. Comme les rÃ´deurs, ils ne peuvent Ãªtre que d'alignement bon.
 
 Avantages:
-- Bonus de furtivité : 10%
-– Bonus de +1 à la CA au premier niveau, et un bonus de +1 à la CA tous les 5 niveaux.
-– Peut devenir enragé une fois par jour tous les 10 niveaux. La rage dure 60 secondes, donne un bonus de +2 au toucher, aux dégâts et à la CA, et immunise aux charmes, à la domination, à la confusion et au sommeil. Elle lui confère aussi 15 points de vie supplémentaires (temporairement).
-- Peut jeter Appel d'animaux sauvages une fois par jour. Cela convoque un animal qui combattra pour le lanceur pendant 3 rounds + 1 par niveau de lanceur. Des créatures plus puissantes sont invoquées aux niveaux supérieurs.
+- Bonus de furtivitÃ© : 10%
+Â– Bonus de +1 Ã  la CA au premier niveau, et un bonus de +1 Ã  la CA tous les 5 niveaux.
+Â– Peut devenir enragÃ© une fois par jour tous les 10 niveaux. La rage dure 60 secondes, donne un bonus de +2 au toucher, aux dÃ©gÃ¢ts et Ã  la CA, et immunise aux charmes, Ã  la domination, Ã  la confusion et au sommeil. Elle lui confÃ¨re aussi 15 points de vie supplÃ©mentaires (temporairement).
+- Peut jeter Appel d'animaux sauvages une fois par jour. Cela convoque un animal qui combattra pour le lanceur pendant 3 rounds + 1 par niveau de lanceur. Des crÃ©atures plus puissantes sont invoquÃ©es aux niveaux supÃ©rieurs.
 
-Inconvénients :
-- Devient épuisé après s'être mis en rage sanguinaire. A ce moment-là, il souffre d'une pénalité de -2 au toucher, -2 aux dégâts et –2 à sa Classe d'Armure.
-– Limité à un degré de compétence dans le maniement des épées bâtardes, des épées longues, des épées courtes, des épées à deux mains, des katanas, des cimeterres, des hallebardes, des fléaux et des arbalètes.
-– Ne peut pas porter d'armure ou utiliser de grand bouclier.
-– le Charisme maximum est inférieur de 2 points à celui d'un membre normal de la même race.~
+InconvÃ©nients :
+- Devient Ã©puisÃ© aprÃ¨s s'Ãªtre mis en rage sanguinaire. A ce moment-lÃ , il souffre d'une pÃ©nalitÃ© de -2 au toucher, -2 aux dÃ©gÃ¢ts et Â–2 Ã  sa Classe d'Armure.
+Â– LimitÃ© Ã  un degrÃ© de compÃ©tence dans le maniement des Ã©pÃ©es bÃ¢tardes, des Ã©pÃ©es longues, des Ã©pÃ©es courtes, des Ã©pÃ©es Ã  deux mains, des katanas, des cimeterres, des hallebardes, des flÃ©aux et des arbalÃ¨tes.
+Â– Ne peut pas porter d'armure ou utiliser de grand bouclier.
+Â– le Charisme maximum est infÃ©rieur de 2 points Ã  celui d'un membre normal de la mÃªme race.~
 @95  = ~Corrections mineures de Throne of Bhaal~
 @96  = ~Il se peut que cette etape dure un petit moment...~
-@97  = ~Bottes de Départ Précipité~
-@98  = ~Ces bottes furent confectionnées dans un lointain passé par l'abjuratrice demi-elfe connue sous le nom de Phenuel la Prophétesse par ses (rares) amis et Phenuel la Charlatan par ses (nombreux) clients mécontents. Une habituée d'Athkatla, de Franc-Marché et des autres carrefours commerciaux d'Amn, elle était une colporteuse ordinaire de marchandises : une série de potions à tout faire depuis soigner les verrues sur diverses parties du corps jusqu'à faire tomber amoureux celui qui la buvait.
+@97  = ~Bottes de DÃ©part PrÃ©cipitÃ©~
+@98  = ~Ces bottes furent confectionnÃ©es dans un lointain passÃ© par l'abjuratrice demi-elfe connue sous le nom de Phenuel la ProphÃ©tesse par ses (rares) amis et Phenuel la Charlatan par ses (nombreux) clients mÃ©contents. Une habituÃ©e d'Athkatla, de Franc-MarchÃ© et des autres carrefours commerciaux d'Amn, elle Ã©tait une colporteuse ordinaire de marchandises : une sÃ©rie de potions Ã  tout faire depuis soigner les verrues sur diverses parties du corps jusqu'Ã  faire tomber amoureux celui qui la buvait.
 
-Malheureusement, bien qu'elle soit plutôt compétente pour la commercialisation, ses talents dans le domaine de l'enchantement des potions laissaient beaucoup à désirer et, au fil du temps, elle se trouva obligée d'éviter des villes de plus en plus souvent pour se tenir à l'écart de la foule en colère. Ayant décidé de prendre des mesures de prudence elle fabriqua ces bottes, qui s'avérèrent très utiles pour éviter les fruits pourris et autres projectiles moins appétissants qu'elle ne croisait que trop fréquemment.
+Malheureusement, bien qu'elle soit plutÃ´t compÃ©tente pour la commercialisation, ses talents dans le domaine de l'enchantement des potions laissaient beaucoup Ã  dÃ©sirer et, au fil du temps, elle se trouva obligÃ©e d'Ã©viter des villes de plus en plus souvent pour se tenir Ã  l'Ã©cart de la foule en colÃ¨re. Ayant dÃ©cidÃ© de prendre des mesures de prudence elle fabriqua ces bottes, qui s'avÃ©rÃ¨rent trÃ¨s utiles pour Ã©viter les fruits pourris et autres projectiles moins appÃ©tissants qu'elle ne croisait que trop frÃ©quemment.
 
-Phenuel et ses bottes se séparèrent un soir à Nashkel lorsque, après qu'elle se soit retirée pour la soirée, des clients parvinrent à la rattraper et qu'elle soit forcée de fuir par la fenêtre, portant seulement une chemise de nuit. Comme on peut s'y attendre, elle n'osa pas retourner chercher ses bottes et on ne l'a plus beaucoup revue dans le coin depuis. Pas plus que ses bottes, d'ailleurs, jusqu'à aujourd'hui...
+Phenuel et ses bottes se sÃ©parÃ¨rent un soir Ã  Nashkel lorsque, aprÃ¨s qu'elle se soit retirÃ©e pour la soirÃ©e, des clients parvinrent Ã  la rattraper et qu'elle soit forcÃ©e de fuir par la fenÃªtre, portant seulement une chemise de nuit. Comme on peut s'y attendre, elle n'osa pas retourner chercher ses bottes et on ne l'a plus beaucoup revue dans le coin depuis. Pas plus que ses bottes, d'ailleurs, jusqu'Ã  aujourd'hui...
 
 PARAMETRES :
 
-Le porteur peut activer le pouvoir des bottes à volonté. A chaque utilisation son pouvoir dure 20 secondes. Il accorde au porteur un bonus de +6 à tous ses jets de sauvegarde et de +8 à sa classe d'armure. En contrepartie le porteur ne peut pas porter d'attaque, lancer de sort, utiliser ses capacités de vol ou de furtivité tant que le pouvoir perdure.
+Le porteur peut activer le pouvoir des bottes Ã  volontÃ©. A chaque utilisation son pouvoir dure 20 secondes. Il accorde au porteur un bonus de +6 Ã  tous ses jets de sauvegarde et de +8 Ã  sa classe d'armure. En contrepartie le porteur ne peut pas porter d'attaque, lancer de sort, utiliser ses capacitÃ©s de vol ou de furtivitÃ© tant que le pouvoir perdure.
 
 Poids : 3~
-@99  = ~Epée Sainte Lame : Carsomyr
-Carsomyr est une arme légendaire, sans doute l'une des lames les plus puissantes jamais forgées dans Féérune, mais les détails de son origine et de son histoire ont été intentionnellement perdus, pour que ceux-ci ne fassent pas oublier l'importance des conflits actuels. Cette épée contient l'essence même de la vertu, et en exige autant du paladin qui souhaite la faire sienne. Les pouvoirs maléfiques dans les Royaumes craignent réellement cette arme qui peut résister sans effort à leurs magies, et d'un mot les dissiper. Carsomyr a aussi une inimitié particulière pour les forces du mal et du chaos, qui doivent craindre des dégâts supplémentaires si elles la croisent en combat.
+@99  = ~EpÃ©e Sainte Lame : Carsomyr
+Carsomyr est une arme lÃ©gendaire, sans doute l'une des lames les plus puissantes jamais forgÃ©es dans FÃ©Ã©rune, mais les dÃ©tails de son origine et de son histoire ont Ã©tÃ© intentionnellement perdus, pour que ceux-ci ne fassent pas oublier l'importance des conflits actuels. Cette Ã©pÃ©e contient l'essence mÃªme de la vertu, et en exige autant du paladin qui souhaite la faire sienne. Les pouvoirs malÃ©fiques dans les Royaumes craignent rÃ©ellement cette arme qui peut rÃ©sister sans effort Ã  leurs magies, et d'un mot les dissiper. Carsomyr a aussi une inimitiÃ© particuliÃ¨re pour les forces du mal et du chaos, qui doivent craindre des dÃ©gÃ¢ts supplÃ©mentaires si elles la croisent en combat.
 
-Même une Sainte Lame comme Carsomyr devient encore plus puissante combinée à l'Oeil de Tyr.
+MÃªme une Sainte Lame comme Carsomyr devient encore plus puissante combinÃ©e Ã  l'Oeil de Tyr.
 
 PARAMETRES :
 
-Capacités d'équipement :
- 50 % de résistance à la magie
+CapacitÃ©s d'Ã©quipement :
+ 50 % de rÃ©sistance Ã  la magie
  Dissipation de la magie 3 fois par jour
 
-Capacités de combat :
- +6 points de dégâts supplémentaires contre les adversaires chaotiques mauvais, en plus des autres bonus
- Dissipation de la magie chaque fois que l'épée touche un adversaire
+CapacitÃ©s de combat :
+ +6 points de dÃ©gÃ¢ts supplÃ©mentaires contre les adversaires chaotiques mauvais, en plus des autres bonus
+ Dissipation de la magie chaque fois que l'Ã©pÃ©e touche un adversaire
 
 TAC0 : +6
-Dégâts : 1D12 +6
-Type de dégâts : tranchant
+DÃ©gÃ¢ts : 1D12 +6
+Type de dÃ©gÃ¢ts : tranchant
 Poids : 6
 Facteur de Vitesse : 4
-Compétence : Epée à 2 mains
-Type : arme à 2 mains
-Force nécessaire : 14
+CompÃ©tence : EpÃ©e Ã  2 mains
+Type : arme Ã  2 mains
+Force nÃ©cessaire : 14
 Utilisable uniquement par :
 Paladin~
-@100  = ~Ce fléau, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a été démonté, chaque pièce rangée dans un lieu différent, pour n'être utilisé qu'en cas d'extrême urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui émanait de l'arme une fois assemblée, et il avait raison. Cette arme a laissé dans l'histoire une trace sanglante, qui remonte à ses premiers possesseurs. Ce fléau a été créé par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter à tous les combats. Le fléau fut perdu au cours d'une chasse particulièrement violente, puis récupéré quand ils utilisèrent leur affinité avec la magie pour localiser son aura. Ils découvrirent alors que l'arme était tombée entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisé cet objet comme appât, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est à eux qu'on doit les plus grandes batailles.
+@100  = ~Ce flÃ©au, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a Ã©tÃ© dÃ©montÃ©, chaque piÃ¨ce rangÃ©e dans un lieu diffÃ©rent, pour n'Ãªtre utilisÃ© qu'en cas d'extrÃªme urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui Ã©manait de l'arme une fois assemblÃ©e, et il avait raison. Cette arme a laissÃ© dans l'histoire une trace sanglante, qui remonte Ã  ses premiers possesseurs. Ce flÃ©au a Ã©tÃ© crÃ©Ã© par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter Ã  tous les combats. Le flÃ©au fut perdu au cours d'une chasse particuliÃ¨rement violente, puis rÃ©cupÃ©rÃ© quand ils utilisÃ¨rent leur affinitÃ© avec la magie pour localiser son aura. Ils dÃ©couvrirent alors que l'arme Ã©tait tombÃ©e entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisÃ© cet objet comme appÃ¢t, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est Ã  eux qu'on doit les plus grandes batailles.
 
-L'ajout de la cinquième et dernière tête à ce fléau créé par les maléfiques Rakshasas lui permet d'atteindre enfin son potentiel ultime de destruction.
+L'ajout de la cinquiÃ¨me et derniÃ¨re tÃªte Ã  ce flÃ©au crÃ©Ã© par les malÃ©fiques Rakshasas lui permet d'atteindre enfin son potentiel ultime de destruction.
 
 PARAMETRES :
 
-Capacités d'équipement :
+CapacitÃ©s d'Ã©quipement :
  Action libre
- Bonus de 5 % de Résistance magique
+ Bonus de 5 % de RÃ©sistance magique
 
-Capacité de combat :
- 33 % de chances par coup réussi de ralentir la cible (pas de jet de sauvegarde)
+CapacitÃ© de combat :
+ 33 % de chances par coup rÃ©ussi de ralentir la cible (pas de jet de sauvegarde)
 
 TAC0 : +5
-Dégâts : 1D6 +6, +2 d'acide, +2 de froid, +2 de feu, +2 de poison, +2 d'électricité
-Type de dégâts : contondant
+DÃ©gÃ¢ts : 1D6 +6, +2 d'acide, +2 de froid, +2 de feu, +2 de poison, +2 d'Ã©lectricitÃ©
+Type de dÃ©gÃ¢ts : contondant
 Poids : 8
 Facteur de Vitesse : 2
-Type de compétence : Fléau/Etoile du matin
-Type : arme à 1 main
-Force nécessaire : 13
+Type de compÃ©tence : FlÃ©au/Etoile du matin
+Type : arme Ã  1 main
+Force nÃ©cessaire : 13
 Inutilisable par :
 Druide
 Mage
 Voleur
 Moine
 Belluaire~
-@101  = ~Ce fléau, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a été démonté, chaque pièce rangée dans un lieu différent, pour n'être utilisé qu'en cas d'extrême urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui émanait de l'arme une fois assemblée, et il avait raison. Cette arme a laissé dans l'histoire une trace sanglante, qui remonte à ses premiers possesseurs. Ce fléau a été créé par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter à tous les combats. Le fléau fut perdu au cours d'une chasse particulièrement violente, puis récupéré quand ils utilisèrent leur affinité avec la magie pour localiser son aura. Ils découvrirent alors que l'arme était tombée entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisé cet objet comme appât, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est à eux qu'on doit les plus grandes batailles.
+@101  = ~Ce flÃ©au, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a Ã©tÃ© dÃ©montÃ©, chaque piÃ¨ce rangÃ©e dans un lieu diffÃ©rent, pour n'Ãªtre utilisÃ© qu'en cas d'extrÃªme urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui Ã©manait de l'arme une fois assemblÃ©e, et il avait raison. Cette arme a laissÃ© dans l'histoire une trace sanglante, qui remonte Ã  ses premiers possesseurs. Ce flÃ©au a Ã©tÃ© crÃ©Ã© par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter Ã  tous les combats. Le flÃ©au fut perdu au cours d'une chasse particuliÃ¨rement violente, puis rÃ©cupÃ©rÃ© quand ils utilisÃ¨rent leur affinitÃ© avec la magie pour localiser son aura. Ils dÃ©couvrirent alors que l'arme Ã©tait tombÃ©e entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisÃ© cet objet comme appÃ¢t, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est Ã  eux qu'on doit les plus grandes batailles.
 
-Ce fléau à quatre têtes inflige des dégâts de poison, de feu, de froid et d'acide. Si la cinquième tête du Fléau de l'Eternité venait à être retrouvée, qui pourrait prévoir les pouvoirs extraordinaires qui seraient déchaînés ?
+Ce flÃ©au Ã  quatre tÃªtes inflige des dÃ©gÃ¢ts de poison, de feu, de froid et d'acide. Si la cinquiÃ¨me tÃªte du FlÃ©au de l'EternitÃ© venait Ã  Ãªtre retrouvÃ©e, qui pourrait prÃ©voir les pouvoirs extraordinaires qui seraient dÃ©chaÃ®nÃ©s ?
 
 PARAMETRES :
 
-Capacité de combat :
- 33 % de chances à chaque coup réussi de ralentir la cible (pas de jet de sauvegarde)
+CapacitÃ© de combat :
+ 33 % de chances Ã  chaque coup rÃ©ussi de ralentir la cible (pas de jet de sauvegarde)
 
 TAC0 : +4
-Dégâts : 1D6 +5, +1 de feu, +1 de froid, +1 d'acide, +1 de poison
-Type de dégâts : contondant
+DÃ©gÃ¢ts : 1D6 +5, +1 de feu, +1 de froid, +1 d'acide, +1 de poison
+Type de dÃ©gÃ¢ts : contondant
 Poids : 9
 Facteur de Vitesse : 3
-Type de compétence : Fléau/Etoile du matin
-Type : arme à 1 main
-Force nécessaire : 13
+Type de compÃ©tence : FlÃ©au/Etoile du matin
+Type : arme Ã  1 main
+Force nÃ©cessaire : 13
 Inutilisable par :
 Druide
 Mage
 Voleur
 Moine
 Belluaire~
-@102  = ~Ce fléau, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a été démonté, chaque pièce rangée dans un lieu différent, pour n'être utilisé qu'en cas d'extrême urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui émanait de l'arme une fois assemblée, et il avait raison. Cette arme a laissé dans l'histoire une trace sanglante, qui remonte à ses premiers possesseurs. Ce fléau a été créé par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter à tous les combats. Le fléau fut perdu au cours d'une chasse particulièrement violente, puis récupéré quand ils utilisèrent leur affinité avec la magie pour localiser son aura. Ils découvrirent alors que l'arme était tombée entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisé cet objet comme appât, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est à eux qu'on doit les plus grandes batailles.
+@102  = ~Ce flÃ©au, souvenir de la jeunesse aventureuse du Seigneur Arnise, est depuis en sa possession. Il a Ã©tÃ© dÃ©montÃ©, chaque piÃ¨ce rangÃ©e dans un lieu diffÃ©rent, pour n'Ãªtre utilisÃ© qu'en cas d'extrÃªme urgence. Le Seigneur Arnise semblait inquiet de l'aura magique qui Ã©manait de l'arme une fois assemblÃ©e, et il avait raison. Cette arme a laissÃ© dans l'histoire une trace sanglante, qui remonte Ã  ses premiers possesseurs. Ce flÃ©au a Ã©tÃ© crÃ©Ã© par les belliqueux Rakshasas, un peuple d'esprits vengeurs friands de chair humaine, qui s'en servait comme d'une arme capable de s'adapter Ã  tous les combats. Le flÃ©au fut perdu au cours d'une chasse particuliÃ¨rement violente, puis rÃ©cupÃ©rÃ© quand ils utilisÃ¨rent leur affinitÃ© avec la magie pour localiser son aura. Ils dÃ©couvrirent alors que l'arme Ã©tait tombÃ©e entre les mains d'un grand guerrier humain, et la bataille qui s'ensuivit fut vraiment splendide. Ils ont depuis utilisÃ© cet objet comme appÃ¢t, le 'perdant' encore et encore. Les objets de pouvoir attirent des gens puissants, et c'est Ã  eux qu'on doit les plus grandes batailles.
 
-Ce fléau à quatre têtes inflige des dégâts d'électricité, de feu, de froid et d'acide. Si la cinquième tête du Fléau de l'Eternité venait à être retrouvée, qui pourrait prévoir les pouvoirs extraordinaires qui seraient déchaînés ?
+Ce flÃ©au Ã  quatre tÃªtes inflige des dÃ©gÃ¢ts d'Ã©lectricitÃ©, de feu, de froid et d'acide. Si la cinquiÃ¨me tÃªte du FlÃ©au de l'EternitÃ© venait Ã  Ãªtre retrouvÃ©e, qui pourrait prÃ©voir les pouvoirs extraordinaires qui seraient dÃ©chaÃ®nÃ©s ?
 
 PARAMETRES :
 
-Capacité de combat :
- 33 % de chances à chaque coup réussi de ralentir la cible (pas de jet de sauvegarde)
+CapacitÃ© de combat :
+ 33 % de chances Ã  chaque coup rÃ©ussi de ralentir la cible (pas de jet de sauvegarde)
 
 TAC0 : +4
-Dégâts : 1D6 +5, +1 de feu, +1 de froid, +1 d'acide, +1 d'électricité
-Type de dégâts : contondant
+DÃ©gÃ¢ts : 1D6 +5, +1 de feu, +1 de froid, +1 d'acide, +1 d'Ã©lectricitÃ©
+Type de dÃ©gÃ¢ts : contondant
 Poids : 9
 Facteur de Vitesse : 3
-Type de compétence : Fléau/Etoile du matin
-Type : arme à 1 main
-Force nécessaire : 13
+Type de compÃ©tence : FlÃ©au/Etoile du matin
+Type : arme Ã  1 main
+Force nÃ©cessaire : 13
 Inutilisable par :
 Druide
 Mage
@@ -462,45 +462,45 @@ Belluaire~
 //Sarevok stuff
 
 @1000 = ~Les remords de Sarevok~
-@1001 = ~Yoshimo n'a pas été très consciencieux dans la tenue d'un journal. Les premières pages sont remplies de notes fortuites sur des tâches accomplies, des récompenses obtenues, des amitiés acquises et des ennemis embrouillés. Entre les pages sont rangées quelques lettres, écrites sur du beau papier d'une main féminine et élégante, accompagnées de remarques amusées griffonnées dans les marges.
+@1001 = ~Yoshimo n'a pas Ã©tÃ© trÃ¨s consciencieux dans la tenue d'un journal. Les premiÃ¨res pages sont remplies de notes fortuites sur des tÃ¢ches accomplies, des rÃ©compenses obtenues, des amitiÃ©s acquises et des ennemis embrouillÃ©s. Entre les pages sont rangÃ©es quelques lettres, Ã©crites sur du beau papier d'une main fÃ©minine et Ã©lÃ©gante, accompagnÃ©es de remarques amusÃ©es griffonnÃ©es dans les marges.
 
-Des inscriptions plus régulières, bien que toujours peu ordonnées, commencent il y a un peu plus d'un an.
+Des inscriptions plus rÃ©guliÃ¨res, bien que toujours peu ordonnÃ©es, commencent il y a un peu plus d'un an.
 
 "29 Mirtul 1358
 
-J'ai relu quelques vieilles lettres ; il y a trois ans que je n'ai pas vu Tamoko ? Ca ne peut pas être vrai.
+J'ai relu quelques vieilles lettres ; il y a trois ans que je n'ai pas vu Tamoko ? Ca ne peut pas Ãªtre vrai.
 
-'L'Affable' prendra la mer à marée haute. La nièce du capitaine est dotée d'un enthousiasme très gênant pour les articles importés. Je suppose qu'il est vain d'espérer qu'elle n'ait pas le pied marin et que je n'aie pas à rester dans ma cabine pour l'éviter. L'officier en second semble être un tricheur professionnel.
+'L'Affable' prendra la mer Ã  marÃ©e haute. La niÃ¨ce du capitaine est dotÃ©e d'un enthousiasme trÃ¨s gÃªnant pour les articles importÃ©s. Je suppose qu'il est vain d'espÃ©rer qu'elle n'ait pas le pied marin et que je n'aie pas Ã  rester dans ma cabine pour l'Ã©viter. L'officier en second semble Ãªtre un tricheur professionnel.
 
 13 Eleinte 1358
 
-Athkatla est toujours aussi agréablement cupide mais des mouchards minutieusement désintéressés patrouillent autour de mon auberge en lançant de sales regards dans ma direction. La guilde des voleurs juge manifestement que j'ai de nouveau abusé de son hospitalité. Peut-être devrais-je m'appliquer à trouver Tamoko, pour une fois.
+Athkatla est toujours aussi agrÃ©ablement cupide mais des mouchards minutieusement dÃ©sintÃ©ressÃ©s patrouillent autour de mon auberge en lanÃ§ant de sales regards dans ma direction. La guilde des voleurs juge manifestement que j'ai de nouveau abusÃ© de son hospitalitÃ©. Peut-Ãªtre devrais-je m'appliquer Ã  trouver Tamoko, pour une fois.
 
 18 Eleinte 1358
 
-Il est insensé de se diriger vers les montages de nuit ; j'ai donc attendu le bon moment à Crimmor en écoutant les bavardages en ville. A ma surprise, j'ai entendu quelques voyageurs parler de ce Sarevok que Tamoko a mentionné. De grandes espérances, des connexions avec le Trône de Fer, un beau personnage, ayant un côté sombre - le même homme. On dirait qu'il a causé une sorte d'émoi à la Porte de Baldur.
+Il est insensÃ© de se diriger vers les montages de nuit ; j'ai donc attendu le bon moment Ã  Crimmor en Ã©coutant les bavardages en ville. A ma surprise, j'ai entendu quelques voyageurs parler de ce Sarevok que Tamoko a mentionnÃ©. De grandes espÃ©rances, des connexions avec le TrÃ´ne de Fer, un beau personnage, ayant un cÃ´tÃ© sombre - le mÃªme homme. On dirait qu'il a causÃ© une sorte d'Ã©moi Ã  la Porte de Baldur.
 
-Elle l'a évoqué souvent, bien que brièvement. Il paraissait attirer les ennuis, mais je me fie à elle pour avoir eu le bon sens de rester à l'écart. Elle semblait vraiment engagée vis à vis de lui, pourtant.
+Elle l'a Ã©voquÃ© souvent, bien que briÃ¨vement. Il paraissait attirer les ennuis, mais je me fie Ã  elle pour avoir eu le bon sens de rester Ã  l'Ã©cart. Elle semblait vraiment engagÃ©e vis Ã  vis de lui, pourtant.
 
 25 Eleinte 1358
 
-J'ai passé la nuit au Jongleur Jovial à Beregost. Un mercenaire ivre a insisté pour essayer mon katana - par n'importe quel bout. Je l'ai distrait en priant l'aubergiste d'amener des échantillons de plusieurs de ses barriques, et de veuiller à les renouveler régulièrement.
+J'ai passÃ© la nuit au Jongleur Jovial Ã  Beregost. Un mercenaire ivre a insistÃ© pour essayer mon katana - par n'importe quel bout. Je l'ai distrait en priant l'aubergiste d'amener des Ã©chantillons de plusieurs de ses barriques, et de veuiller Ã  les renouveler rÃ©guliÃ¨rement.
 
-Avant de disparaître quelque part sous la table pour, je pense, la majeure partie de la semaine, l'homme a marmonné des choses alarmantes à propos du chahut là-bas à la Porte de Baldur. Je ne peux qu'espérer que Tamoko n'y ait pas été impliquée.
+Avant de disparaÃ®tre quelque part sous la table pour, je pense, la majeure partie de la semaine, l'homme a marmonnÃ© des choses alarmantes Ã  propos du chahut lÃ -bas Ã  la Porte de Baldur. Je ne peux qu'espÃ©rer que Tamoko n'y ait pas Ã©tÃ© impliquÃ©e.
 
-Selon le gentilhomme, tout le monde est maintenant excité comme une puce à propos d'une personne nommée <CHARNAME>, qui a éliminé ce Sarevok et ses sbires. Cependant il a poursuivi en pontifiant que quelque chose ne collait pas à propos de <CHARNAME> non plus, de sorte que cette nouvelle célébrité de la ville dérapera exactement comme la précédente. Apparemment il aurait aperçu une fois aussi bien Sarevok que <CHARNAME>, de loin... à travers la foule... peut-être... aussi doit-il savoir de quoi il parle.
+Selon le gentilhomme, tout le monde est maintenant excitÃ© comme une puce Ã  propos d'une personne nommÃ©e <CHARNAME>, qui a Ã©liminÃ© ce Sarevok et ses sbires. Cependant il a poursuivi en pontifiant que quelque chose ne collait pas Ã  propos de <CHARNAME> non plus, de sorte que cette nouvelle cÃ©lÃ©britÃ© de la ville dÃ©rapera exactement comme la prÃ©cÃ©dente. Apparemment il aurait aperÃ§u une fois aussi bien Sarevok que <CHARNAME>, de loin... Ã  travers la foule... peut-Ãªtre... aussi doit-il savoir de quoi il parle.
 
 8 Marpenoth 1358
 
-J'ai battu les rues de la Porte de Baldur au cours des derniers jours et nuits. Le siège du Trône de Fer est dans un état de désordre embarrassant. J'ai trouvé l'auberge que Tamoko mentionnait comme son dernier recours : miteuse, s'adonnant à la contrebande, indigne d'elle. Je l'ai repérée dans le registre de l'aubergiste sous un faux nom, avec une créance en attente depuis le 12 Flammerige. J'ai filé avant que l'homme ne pense à me faire payer.
+J'ai battu les rues de la Porte de Baldur au cours des derniers jours et nuits. Le siÃ¨ge du TrÃ´ne de Fer est dans un Ã©tat de dÃ©sordre embarrassant. J'ai trouvÃ© l'auberge que Tamoko mentionnait comme son dernier recours : miteuse, s'adonnant Ã  la contrebande, indigne d'elle. Je l'ai repÃ©rÃ©e dans le registre de l'aubergiste sous un faux nom, avec une crÃ©ance en attente depuis le 12 Flammerige. J'ai filÃ© avant que l'homme ne pense Ã  me faire payer.
 
 10 Marpenoth 1358
 
-J'ai entendu deux soldats du Poing Enflammé parler de <CHARNAME>, qui sans aucune aide a tué ce cinglé de Sarevok et tous ses partisans. Ils ont poursuivi en décrivant ses yeux enflammés, sa voix tonitruante et sa foulée de sept lieux. Je suis parti.  
+J'ai entendu deux soldats du Poing EnflammÃ© parler de <CHARNAME>, qui sans aucune aide a tuÃ© ce cinglÃ© de Sarevok et tous ses partisans. Ils ont poursuivi en dÃ©crivant ses yeux enflammÃ©s, sa voix tonitruante et sa foulÃ©e de sept lieux. Je suis parti.  
 
 11 Marpenoth 1358
 
-(Un morceau de papier déchiré d'un livre de comptes, marqué du symbole de Kelemvor, est plié entre les pages du journal):
+(Un morceau de papier dÃ©chirÃ© d'un livre de comptes, marquÃ© du symbole de Kelemvor, est pliÃ© entre les pages du journal):
 
 HUMAIN FEMELLE ; AGE APPROX. 30 ; KARA-TURANE ?
 --  ALLEE PRES DU PORTAIL DU DRAGON NOIR
@@ -511,130 +511,130 @@ ENTERREE
 
 13 Marpenoth 1358
 
-Sarevok tout comme <CHARNAME> peut l'avoir tuée. Mais elle avait foi en Sarevok à cette époque, et Sarevok est hors de portée de ma vengeance. 
+Sarevok tout comme <CHARNAME> peut l'avoir tuÃ©e. Mais elle avait foi en Sarevok Ã  cette Ã©poque, et Sarevok est hors de portÃ©e de ma vengeance. 
 
 15 Marpenoth 1358
 
-La ville célébrait un festival quelconque et j'ai aperçu <CHARNAME> de loin à proximité du Palais Ducal. <PRO_HESHE> ne semblait pas être quelqu'un en mesure de tuer ma soeur.
+La ville cÃ©lÃ©brait un festival quelconque et j'ai aperÃ§u <CHARNAME> de loin Ã  proximitÃ© du Palais Ducal. <PRO_HESHE> ne semblait pas Ãªtre quelqu'un en mesure de tuer ma soeur.
 
 16 Marpenoth 1358
 
-J'ai rêvé de Tamoko, comme cela m'arrive souvent maintenant, mais je ne m'en souviens que très peu. Mais son visage reste gravé sous mes paupières, comme une rémanence du soleil.
+J'ai rÃªvÃ© de Tamoko, comme cela m'arrive souvent maintenant, mais je ne m'en souviens que trÃ¨s peu. Mais son visage reste gravÃ© sous mes paupiÃ¨res, comme une rÃ©manence du soleil.
 
 18 Marpenoth 1358
 
-Quelqu'un m'a repéré. Une femme au teint blême m'a interpellé cette nuit dans la taverne où j'étais assis, à observer <CHARNAME>.
+Quelqu'un m'a repÃ©rÃ©. Une femme au teint blÃªme m'a interpellÃ© cette nuit dans la taverne oÃ¹ j'Ã©tais assis, Ã  observer <CHARNAME>.
 
-'Tu es le jeune homme talentueux qui pose tant de questions à propos de <CHARNAME>,' a-t-elle dit en faisant avancer son décolleté vers moi, provoquant en moi une sensation de froid. 'Ne t'inquiète pas, tes voeux les plus sombres seront exaucés d'ici peu. Il te suffit de faire exactement ce que je te dirai.'
+'Tu es le jeune homme talentueux qui pose tant de questions Ã  propos de <CHARNAME>,' a-t-elle dit en faisant avancer son dÃ©colletÃ© vers moi, provoquant en moi une sensation de froid. 'Ne t'inquiÃ¨te pas, tes voeux les plus sombres seront exaucÃ©s d'ici peu. Il te suffit de faire exactement ce que je te dirai.'
 
-Elle m'a ordonné de la suivre dans la nuit glaciale, le long de ruelles humides jusqu'à ce que nous arrivions à l'endroit où la cité oublie ses morts sans nom. Là, elle m'a conduit à une tombe parmi des rangées et des rangées d'autres, chacune étant recyclée au fur et à mesure que les anciens occupants se décomposent. Celle-là était ouverte.
+Elle m'a ordonnÃ© de la suivre dans la nuit glaciale, le long de ruelles humides jusqu'Ã  ce que nous arrivions Ã  l'endroit oÃ¹ la citÃ© oublie ses morts sans nom. LÃ , elle m'a conduit Ã  une tombe parmi des rangÃ©es et des rangÃ©es d'autres, chacune Ã©tant recyclÃ©e au fur et Ã  mesure que les anciens occupants se dÃ©composent. Celle-lÃ  Ã©tait ouverte.
 
-La femme a ouvert le cercueil de pacotille, et à l'intérieur reposait Tamoko, repliée sur elle-même comme un enfantdans son sommeil. Morte.
+La femme a ouvert le cercueil de pacotille, et Ã  l'intÃ©rieur reposait Tamoko, repliÃ©e sur elle-mÃªme comme un enfantdans son sommeil. Morte.
 
 20 Marpenoth 1358
 
-Bodhi travaille pour un homme masqué appelé Irenicus, du moins en théorie. Ils m'assurent que c'est <CHARNAME> qui a tué ma soeur. Et que je tiendrai ma vengeance - mais qu'auparavant je devrai livrer <CHARNAME> à Irenicus. En vie.
+Bodhi travaille pour un homme masquÃ© appelÃ© Irenicus, du moins en thÃ©orie. Ils m'assurent que c'est <CHARNAME> qui a tuÃ© ma soeur. Et que je tiendrai ma vengeance - mais qu'auparavant je devrai livrer <CHARNAME> Ã  Irenicus. En vie.
 
 22 Marpenoth 1358
 
-Je n'ai plus besoin de rêver de mirages : j'ai la réalité, le visage de Tamoko figé dans une sérénité surnaturelle que même la pourriture ne peut troubler. Elle ne s'était pas décomposée ; elle ne part pas.
+Je n'ai plus besoin de rÃªver de mirages : j'ai la rÃ©alitÃ©, le visage de Tamoko figÃ© dans une sÃ©rÃ©nitÃ© surnaturelle que mÃªme la pourriture ne peut troubler. Elle ne s'Ã©tait pas dÃ©composÃ©e ; elle ne part pas.
 
-Il n'y a qu'un seul moyen d'être certain. Et, même si je me trompe, personne n'est innocent. D'une façon ou d'une autre, elle sera vengée.
+Il n'y a qu'un seul moyen d'Ãªtre certain. Et, mÃªme si je me trompe, personne n'est innocent. D'une faÃ§on ou d'une autre, elle sera vengÃ©e.
 
 23 Marpenoth 1358
 
-Irenicus a exigé de moi un serment - une quête - alors j'ai prêté serment. Je le sens à peine à présent ; c'est juste un pincement à la base de mon crâne.
+Irenicus a exigÃ© de moi un serment - une quÃªte - alors j'ai prÃªtÃ© serment. Je le sens Ã  peine Ã  prÃ©sent ; c'est juste un pincement Ã  la base de mon crÃ¢ne.
 
 8 Alturiak 1359
 
-<CHARNAME> et son groupe ont été capturés. Le sang a été versé, mais Irenicus a enfermé ma proie aussi loin de moi que possible et la tentative de lui faire comprendre - ou de lui imposer - mon point de vue s'est révélée très éprouvante physiquement.
+<CHARNAME> et son groupe ont Ã©tÃ© capturÃ©s. Le sang a Ã©tÃ© versÃ©, mais Irenicus a enfermÃ© ma proie aussi loin de moi que possible et la tentative de lui faire comprendre - ou de lui imposer - mon point de vue s'est rÃ©vÃ©lÃ©e trÃ¨s Ã©prouvante physiquement.
 
-Cependant Irenicus a promis que mon oeil droit recouvrerait la vue dans quelques jours et m'a ordonné d'appliquer la patience nécessaire à mon esprit de vengeance. Nous nous dirigeons vers le sud.
+Cependant Irenicus a promis que mon oeil droit recouvrerait la vue dans quelques jours et m'a ordonnÃ© d'appliquer la patience nÃ©cessaire Ã  mon esprit de vengeance. Nous nous dirigeons vers le sud.
 
 15 Ches 1359
 
 A Athkatla. Manifestement cette forteresse souterraine ne fut pas construite en un jour.
 
-Depuis que nous sommes arrivés, Irenicus a été occupé à faire bon usage de ses nouveaux invités. Il ne supporterait pas que je me mette en travers de son travail et je n'ai pas fait l'erreur de m'introduire à nouveau furtivement pour glisser un oeil.
+Depuis que nous sommes arrivÃ©s, Irenicus a Ã©tÃ© occupÃ© Ã  faire bon usage de ses nouveaux invitÃ©s. Il ne supporterait pas que je me mette en travers de son travail et je n'ai pas fait l'erreur de m'introduire Ã  nouveau furtivement pour glisser un oeil.
 
-Les cris me portent sur les nerfs, aussi j'ai traîné dans les rues pour m'empêcher de penser à ce qui se passe au-dessous.  Quoi qu'il leur fasse, je souhaiterais qu'il se dépêche. 
+Les cris me portent sur les nerfs, aussi j'ai traÃ®nÃ© dans les rues pour m'empÃªcher de penser Ã  ce qui se passe au-dessous.  Quoi qu'il leur fasse, je souhaiterais qu'il se dÃ©pÃªche. 
 
 20 Ches 1359
 
-Bodhi a passé son temps à s'implanter dans les rues de la ville, traquant les Voleurs de l'Ombre. Cependant, elle aussi avait sans aucun doute commencé cette tâche auparavant.
+Bodhi a passÃ© son temps Ã  s'implanter dans les rues de la ville, traquant les Voleurs de l'Ombre. Cependant, elle aussi avait sans aucun doute commencÃ© cette tÃ¢che auparavant.
 
-J'essaie d'éviter ces escarmouches courtes et brutales. Je ressens même le besoin de m'en dissocier d'une certaine manière.
+J'essaie d'Ã©viter ces escarmouches courtes et brutales. Je ressens mÃªme le besoin de m'en dissocier d'une certaine maniÃ¨re.
 
 26 Ches 1359
 
-Irenicus ne m'accorde pas beaucoup d'attention et j'ai réussi à étudier certains de ses papiers que, je crois, je n'étais jamais censé lire.  Il y a beaucoup de notes à propos de <CHARNAME> et de son 'potentiel'. Auparavant, j'étais trop fou de douleur pour m'interroger sur ses motivations.
+Irenicus ne m'accorde pas beaucoup d'attention et j'ai rÃ©ussi Ã  Ã©tudier certains de ses papiers que, je crois, je n'Ã©tais jamais censÃ© lire.  Il y a beaucoup de notes Ã  propos de <CHARNAME> et de son 'potentiel'. Auparavant, j'Ã©tais trop fou de douleur pour m'interroger sur ses motivations.
 
 27 Ches 1359
 
-Une autre note que j'ai trouvée : une missive du Trône de Fer, avec des ordres aux officiels de La Porte de Baldur de trouver et exécuter tous les partisans et ex-partisans de Sarevok Anchev qui auraient survécu à l'assaut de <CHARNAME>. Le Trône ne tolère aucun double jeu.
+Une autre note que j'ai trouvÃ©e : une missive du TrÃ´ne de Fer, avec des ordres aux officiels de La Porte de Baldur de trouver et exÃ©cuter tous les partisans et ex-partisans de Sarevok Anchev qui auraient survÃ©cu Ã  l'assaut de <CHARNAME>. Le TrÃ´ne ne tolÃ¨re aucun double jeu.
 
-La liste inclut, sans se limiter à eux, Winski Perorate, Angelo Dosan, l'ogre Tazok, un conjurateur nommé Semaj, Cythandria, et Tamoko.
+La liste inclut, sans se limiter Ã  eux, Winski Perorate, Angelo Dosan, l'ogre Tazok, un conjurateur nommÃ© Semaj, Cythandria, et Tamoko.
 
 18 Tarsakh 1359
 
-Finalement Irenicus a des plans pour moi - et pour <CHARNAME>. Il veut amener <CHARNAME> dans une poursuite de dupe vers son prochain repaire, une sorte de test en grandeur nature de ce potentiel présumé - et il veut que je m'infiltre dans son groupe, de façon à ce que je surveille leur progression.
+Finalement Irenicus a des plans pour moi - et pour <CHARNAME>. Il veut amener <CHARNAME> dans une poursuite de dupe vers son prochain repaire, une sorte de test en grandeur nature de ce potentiel prÃ©sumÃ© - et il veut que je m'infiltre dans son groupe, de faÃ§on Ã  ce que je surveille leur progression.
 
-Bien entendu, je devrai, moi aussi, rester d'abord un moment dans une cage, pour plus de crédibilité.
+Bien entendu, je devrai, moi aussi, rester d'abord un moment dans une cage, pour plus de crÃ©dibilitÃ©.
 
 25 Tarsakh 1359
 
-D'une manière générale, c'est une mauvaise idée que de prêter serment de quête quand vous avez de la peine à la place d'une cervelle et de jambes.
+D'une maniÃ¨re gÃ©nÃ©rale, c'est une mauvaise idÃ©e que de prÃªter serment de quÃªte quand vous avez de la peine Ã  la place d'une cervelle et de jambes.
 
 
-(L'élément qui suit fut manifestement écrit précipitamment et laissé sans date :)
+(L'Ã©lÃ©ment qui suit fut manifestement Ã©crit prÃ©cipitamment et laissÃ© sans date :)
 
-Même si les événements ne se sont pas produits exactement comme Irenicus l'avait planifié, l'homme est un maître. A part l'évasion prématurée de <CHARNAME>, tout s'est mis en place par la suite avec une précision effrayante.
+MÃªme si les Ã©vÃ©nements ne se sont pas produits exactement comme Irenicus l'avait planifiÃ©, l'homme est un maÃ®tre. A part l'Ã©vasion prÃ©maturÃ©e de <CHARNAME>, tout s'est mis en place par la suite avec une prÃ©cision effrayante.
 
-Je crois que <CHARNAME> a effectivement tué Tamoko. Je ne peux pas en être sûr mais au sein du groupe de <CHARNAME>, j'ai eu de nombreuses opportunités d'évaluer son comportement, et ça semble vraisemblable. Alors est-ce ma vengeance - cette rage incertaine, impuissante a-t-elle le goût de la victoire ?
+Je crois que <CHARNAME> a effectivement tuÃ© Tamoko. Je ne peux pas en Ãªtre sÃ»r mais au sein du groupe de <CHARNAME>, j'ai eu de nombreuses opportunitÃ©s d'Ã©valuer son comportement, et Ã§a semble vraisemblable. Alors est-ce ma vengeance - cette rage incertaine, impuissante a-t-elle le goÃ»t de la victoire ?
 
-Même si je ne ressens aucun triomphe, cela n'a aucun effet sur les événements à venir. Nous ferons voile vers Spellhold cette nuit. Sur le navire les quartiers seront bien trop dangereux, aussi je ferais mieux de me débarrasser de ces preuves."
+MÃªme si je ne ressens aucun triomphe, cela n'a aucun effet sur les Ã©vÃ©nements Ã  venir. Nous ferons voile vers Spellhold cette nuit. Sur le navire les quartiers seront bien trop dangereux, aussi je ferais mieux de me dÃ©barrasser de ces preuves."
 
 
-C'est le dernier élément du journal. Environ un tiers des pages demeurent vierges.~ 
-@1002 = ~Yoshimo n'a pas été très consciencieux dans la tenue d'un journal. Les premières pages sont remplies de notes fortuites sur des tâches accomplies, des récompenses obtenues, des amitiés acquises et des ennemis embrouillés. Entre les pages sont rangées quelques lettres, écrites sur du beau papier d'une main féminine et élégante, accompagnées de remarques amusées griffonnées dans les marges.
+C'est le dernier Ã©lÃ©ment du journal. Environ un tiers des pages demeurent vierges.~ 
+@1002 = ~Yoshimo n'a pas Ã©tÃ© trÃ¨s consciencieux dans la tenue d'un journal. Les premiÃ¨res pages sont remplies de notes fortuites sur des tÃ¢ches accomplies, des rÃ©compenses obtenues, des amitiÃ©s acquises et des ennemis embrouillÃ©s. Entre les pages sont rangÃ©es quelques lettres, Ã©crites sur du beau papier d'une main fÃ©minine et Ã©lÃ©gante, accompagnÃ©es de remarques amusÃ©es griffonnÃ©es dans les marges.
 
-Des inscriptions plus régulières, bien que toujours peu ordonnées, commencent il y a un peu plus d'un an.
+Des inscriptions plus rÃ©guliÃ¨res, bien que toujours peu ordonnÃ©es, commencent il y a un peu plus d'un an.
 
 "29 Mirtul 1358
 
-J'ai relu quelques vieilles lettres ; il y a trois ans que je n'ai pas vu Tamoko ? Ca ne peut pas être vrai.
+J'ai relu quelques vieilles lettres ; il y a trois ans que je n'ai pas vu Tamoko ? Ca ne peut pas Ãªtre vrai.
 
-'L'Affable' prendra la mer à marée haute. La nièce du capitaine est dotée d'un enthousiasme très gênant pour les articles importés. Je suppose qu'il est vain d'espérer qu'elle n'ait pas le pied marin et que je n'aie pas à rester dans ma cabine pour l'éviter. L'officier en second semble être un tricheur professionnel.
+'L'Affable' prendra la mer Ã  marÃ©e haute. La niÃ¨ce du capitaine est dotÃ©e d'un enthousiasme trÃ¨s gÃªnant pour les articles importÃ©s. Je suppose qu'il est vain d'espÃ©rer qu'elle n'ait pas le pied marin et que je n'aie pas Ã  rester dans ma cabine pour l'Ã©viter. L'officier en second semble Ãªtre un tricheur professionnel.
 
 13 Eleinte 1358
 
-Athkatla est toujours aussi agréablement cupide mais des mouchards minutieusement désintéressés patrouillent autour de mon auberge en lançant de sales regards dans ma direction. La guilde des voleurs juge manifestement que j'ai de nouveau abusé de son hospitalité. Peut-être devrais-je m'appliquer à trouver Tamoko, pour une fois.
+Athkatla est toujours aussi agrÃ©ablement cupide mais des mouchards minutieusement dÃ©sintÃ©ressÃ©s patrouillent autour de mon auberge en lanÃ§ant de sales regards dans ma direction. La guilde des voleurs juge manifestement que j'ai de nouveau abusÃ© de son hospitalitÃ©. Peut-Ãªtre devrais-je m'appliquer Ã  trouver Tamoko, pour une fois.
 
 18 Eleinte 1358
 
-Il est insensé de se diriger vers les montages de nuit ; j'ai donc attendu le bon moment à Crimmor en écoutant les bavardages en ville. A ma surprise, j'ai entendu quelques voyageurs parler de ce Sarevok que Tamoko a mentionné. De grandes espérances, des connexions avec le Trône de Fer, un beau personnage, ayant un côté sombre - le même homme. On dirait qu'il a causé une sorte d'émoi à la Porte de Baldur.
+Il est insensÃ© de se diriger vers les montages de nuit ; j'ai donc attendu le bon moment Ã  Crimmor en Ã©coutant les bavardages en ville. A ma surprise, j'ai entendu quelques voyageurs parler de ce Sarevok que Tamoko a mentionnÃ©. De grandes espÃ©rances, des connexions avec le TrÃ´ne de Fer, un beau personnage, ayant un cÃ´tÃ© sombre - le mÃªme homme. On dirait qu'il a causÃ© une sorte d'Ã©moi Ã  la Porte de Baldur.
 
-Elle l'a évoqué souvent, bien que brièvement. Il paraissait attirer les ennuis, mais je me fie à elle pour avoir eu le bon sens de rester à l'écart. Elle semblait vraiment engagée vis à vis de lui, pourtant.
+Elle l'a Ã©voquÃ© souvent, bien que briÃ¨vement. Il paraissait attirer les ennuis, mais je me fie Ã  elle pour avoir eu le bon sens de rester Ã  l'Ã©cart. Elle semblait vraiment engagÃ©e vis Ã  vis de lui, pourtant.
 
 25 Eleinte 1358
 
-J'ai passé la nuit au Jongleur Jovial à Beregost. Un mercenaire ivre a insisté pour essayer mon katana - par n'importe quel bout. Je l'ai distrait en priant l'aubergiste d'amener des échantillons de plusieurs de ses barriques, et de veuiller à les renouveler régulièrement.
+J'ai passÃ© la nuit au Jongleur Jovial Ã  Beregost. Un mercenaire ivre a insistÃ© pour essayer mon katana - par n'importe quel bout. Je l'ai distrait en priant l'aubergiste d'amener des Ã©chantillons de plusieurs de ses barriques, et de veuiller Ã  les renouveler rÃ©guliÃ¨rement.
 
-Avant de disparaître quelque part sous la table pour, je pense, la majeure partie de la semaine, l'homme a marmonné des choses alarmantes à propos du chahut là-bas à la Porte de Baldur. Je ne peux qu'espérer que Tamoko n'y ait pas été impliquée.
+Avant de disparaÃ®tre quelque part sous la table pour, je pense, la majeure partie de la semaine, l'homme a marmonnÃ© des choses alarmantes Ã  propos du chahut lÃ -bas Ã  la Porte de Baldur. Je ne peux qu'espÃ©rer que Tamoko n'y ait pas Ã©tÃ© impliquÃ©e.
 
-Selon le gentilhomme, tout le monde est maintenant excité comme une puce à propos d'une personne nommée <CHARNAME>, qui a éliminé ce Sarevok et ses sbires. Cependant il a poursuivi en pontifiant que quelque chose ne collait pas à propos de <CHARNAME> non plus, de sorte que cette nouvelle célébrité de la ville dérapera exactement comme la précédente. Apparemment il aurait aperçu une fois aussi bien Sarevok que <CHARNAME>, de loin... à travers la foule... peut-être... aussi doit-il savoir de quoi il parle.
+Selon le gentilhomme, tout le monde est maintenant excitÃ© comme une puce Ã  propos d'une personne nommÃ©e <CHARNAME>, qui a Ã©liminÃ© ce Sarevok et ses sbires. Cependant il a poursuivi en pontifiant que quelque chose ne collait pas Ã  propos de <CHARNAME> non plus, de sorte que cette nouvelle cÃ©lÃ©britÃ© de la ville dÃ©rapera exactement comme la prÃ©cÃ©dente. Apparemment il aurait aperÃ§u une fois aussi bien Sarevok que <CHARNAME>, de loin... Ã  travers la foule... peut-Ãªtre... aussi doit-il savoir de quoi il parle.
 
 8 Marpenoth 1358
 
-J'ai battu les rues de la Porte de Baldur au cours des derniers jours et nuits. Le siège du Trône de Fer est dans un état de désordre embarrassant. J'ai trouvé l'auberge que Tamoko mentionnait comme son dernier recours : miteuse, s'adonnant à la contrebande, indigne d'elle. Je l'ai repérée dans le registre de l'aubergiste sous un faux nom, avec une créance en attente depuis le 12 Flammerige. J'ai filé avant que l'homme ne pense à me faire payer.
+J'ai battu les rues de la Porte de Baldur au cours des derniers jours et nuits. Le siÃ¨ge du TrÃ´ne de Fer est dans un Ã©tat de dÃ©sordre embarrassant. J'ai trouvÃ© l'auberge que Tamoko mentionnait comme son dernier recours : miteuse, s'adonnant Ã  la contrebande, indigne d'elle. Je l'ai repÃ©rÃ©e dans le registre de l'aubergiste sous un faux nom, avec une crÃ©ance en attente depuis le 12 Flammerige. J'ai filÃ© avant que l'homme ne pense Ã  me faire payer.
 
 10 Marpenoth 1358
 
-J'ai entendu deux soldats du Poing Enflammé parler de <CHARNAME>, qui sans aucune aide a tué ce cinglé de Sarevok et tous ses partisans. Ils ont poursuivi en décrivant ses yeux enflammés, sa voix tonitruante et sa foulée de sept lieux. Je suis parti.  
+J'ai entendu deux soldats du Poing EnflammÃ© parler de <CHARNAME>, qui sans aucune aide a tuÃ© ce cinglÃ© de Sarevok et tous ses partisans. Ils ont poursuivi en dÃ©crivant ses yeux enflammÃ©s, sa voix tonitruante et sa foulÃ©e de sept lieux. Je suis parti.  
 
 11 Marpenoth 1358
 
-(Un morceau de papier déchiré d'un livre de comptes, marqué du symbole de Kelemvor, est plié entre les pages du journal):
+(Un morceau de papier dÃ©chirÃ© d'un livre de comptes, marquÃ© du symbole de Kelemvor, est pliÃ© entre les pages du journal):
 
 HUMAIN FEMELLE ; AGE APPROX. 30 ; KARA-TURANE ?
 --  ALLEE PRES DU PORTAIL DU DRAGON NOIR
@@ -645,130 +645,130 @@ ENTERREE
 
 13 Marpenoth 1358
 
-Sarevok tout comme <CHARNAME> peut l'avoir tuée. Mais elle avait foi en Sarevok à cette époque, et Sarevok est hors de portée de ma vengeance. 
+Sarevok tout comme <CHARNAME> peut l'avoir tuÃ©e. Mais elle avait foi en Sarevok Ã  cette Ã©poque, et Sarevok est hors de portÃ©e de ma vengeance. 
 
 15 Marpenoth 1358
 
-La ville célébrait un festival quelconque et j'ai aperçu <CHARNAME> de loin à proximité du Palais Ducal. <PRO_HESHE> ne semblait pas être quelqu'un en mesure de tuer ma soeur.
+La ville cÃ©lÃ©brait un festival quelconque et j'ai aperÃ§u <CHARNAME> de loin Ã  proximitÃ© du Palais Ducal. <PRO_HESHE> ne semblait pas Ãªtre quelqu'un en mesure de tuer ma soeur.
 
 16 Marpenoth 1358
 
-J'ai rêvé de Tamoko, comme cela m'arrive souvent maintenant, mais je ne m'en souviens que très peu. Mais son visage reste gravé sous mes paupières, comme une rémanence du soleil.
+J'ai rÃªvÃ© de Tamoko, comme cela m'arrive souvent maintenant, mais je ne m'en souviens que trÃ¨s peu. Mais son visage reste gravÃ© sous mes paupiÃ¨res, comme une rÃ©manence du soleil.
 
 18 Marpenoth 1358
 
-Quelqu'un m'a repéré. Une femme au teint blême m'a interpellé cette nuit dans la taverne où j'étais assis, à observer <CHARNAME>.
+Quelqu'un m'a repÃ©rÃ©. Une femme au teint blÃªme m'a interpellÃ© cette nuit dans la taverne oÃ¹ j'Ã©tais assis, Ã  observer <CHARNAME>.
 
-'Tu es le jeune homme talentueux qui pose tant de questions à propos de <CHARNAME>,' a-t-elle dit en faisant avancer son décolleté vers moi, provoquant en moi une sensation de froid. 'Ne t'inquiète pas, tes voeux les plus sombres seront exaucés d'ici peu. Il te suffit de faire exactement ce que je te dirai.'
+'Tu es le jeune homme talentueux qui pose tant de questions Ã  propos de <CHARNAME>,' a-t-elle dit en faisant avancer son dÃ©colletÃ© vers moi, provoquant en moi une sensation de froid. 'Ne t'inquiÃ¨te pas, tes voeux les plus sombres seront exaucÃ©s d'ici peu. Il te suffit de faire exactement ce que je te dirai.'
 
-Elle m'a ordonné de la suivre dans la nuit glaciale, le long de ruelles humides jusqu'à ce que nous arrivions à l'endroit où la cité oublie ses morts sans nom. Là, elle m'a conduit à une tombe parmi des rangées et des rangées d'autres, chacune étant recyclée au fur et à mesure que les anciens occupants se décomposent. Celle-là était ouverte.
+Elle m'a ordonnÃ© de la suivre dans la nuit glaciale, le long de ruelles humides jusqu'Ã  ce que nous arrivions Ã  l'endroit oÃ¹ la citÃ© oublie ses morts sans nom. LÃ , elle m'a conduit Ã  une tombe parmi des rangÃ©es et des rangÃ©es d'autres, chacune Ã©tant recyclÃ©e au fur et Ã  mesure que les anciens occupants se dÃ©composent. Celle-lÃ  Ã©tait ouverte.
 
-La femme a ouvert le cercueil de pacotille, et à l'intérieur reposait Tamoko, repliée sur elle-même comme un enfantdans son sommeil. Morte.
+La femme a ouvert le cercueil de pacotille, et Ã  l'intÃ©rieur reposait Tamoko, repliÃ©e sur elle-mÃªme comme un enfantdans son sommeil. Morte.
 
 20 Marpenoth 1358
 
-Bodhi travaille pour un homme masqué appelé Irenicus, du moins en théorie. Ils m'assurent que c'est <CHARNAME> qui a tué ma soeur. Et que je tiendrai ma vengeance - mais qu'auparavant je devrai livrer <CHARNAME> à Irenicus. En vie.
+Bodhi travaille pour un homme masquÃ© appelÃ© Irenicus, du moins en thÃ©orie. Ils m'assurent que c'est <CHARNAME> qui a tuÃ© ma soeur. Et que je tiendrai ma vengeance - mais qu'auparavant je devrai livrer <CHARNAME> Ã  Irenicus. En vie.
 
 22 Marpenoth 1358
 
-Je n'ai plus besoin de rêver de mirages : j'ai la réalité, le visage de Tamoko figé dans une sérénité surnaturelle que même la pourriture ne peut troubler. Elle ne s'était pas décomposée ; elle ne part pas.
+Je n'ai plus besoin de rÃªver de mirages : j'ai la rÃ©alitÃ©, le visage de Tamoko figÃ© dans une sÃ©rÃ©nitÃ© surnaturelle que mÃªme la pourriture ne peut troubler. Elle ne s'Ã©tait pas dÃ©composÃ©e ; elle ne part pas.
 
-Il n'y a qu'un seul moyen d'être certain. Et, même si je me trompe, personne n'est innocent. D'une façon ou d'une autre, elle sera vengée.
+Il n'y a qu'un seul moyen d'Ãªtre certain. Et, mÃªme si je me trompe, personne n'est innocent. D'une faÃ§on ou d'une autre, elle sera vengÃ©e.
 
 23 Marpenoth 1358
 
-Irenicus a exigé de moi un serment - une quête - alors j'ai prêté serment. Je le sens à peine à présent ; c'est juste un pincement à la base de mon crâne.
+Irenicus a exigÃ© de moi un serment - une quÃªte - alors j'ai prÃªtÃ© serment. Je le sens Ã  peine Ã  prÃ©sent ; c'est juste un pincement Ã  la base de mon crÃ¢ne.
 
 8 Alturiak 1359
 
-<CHARNAME> et son groupe ont été capturés. Le sang a été versé, mais Irenicus a enfermé ma proie aussi loin de moi que possible et la tentative de lui faire comprendre - ou de lui imposer - mon point de vue s'est révélée très éprouvante physiquement.
+<CHARNAME> et son groupe ont Ã©tÃ© capturÃ©s. Le sang a Ã©tÃ© versÃ©, mais Irenicus a enfermÃ© ma proie aussi loin de moi que possible et la tentative de lui faire comprendre - ou de lui imposer - mon point de vue s'est rÃ©vÃ©lÃ©e trÃ¨s Ã©prouvante physiquement.
 
-Cependant Irenicus a promis que mon oeil droit recouvrerait la vue dans quelques jours et m'a ordonné d'appliquer la patience nécessaire à mon esprit de vengeance. Nous nous dirigeons vers le sud.
+Cependant Irenicus a promis que mon oeil droit recouvrerait la vue dans quelques jours et m'a ordonnÃ© d'appliquer la patience nÃ©cessaire Ã  mon esprit de vengeance. Nous nous dirigeons vers le sud.
 
 15 Ches 1359
 
 A Athkatla. Manifestement cette forteresse souterraine ne fut pas construite en un jour.
 
-Depuis que nous sommes arrivés, Irenicus a été occupé à faire bon usage de ses nouveaux invités. Il ne supporterait pas que je me mette en travers de son travail et je n'ai pas fait l'erreur de m'introduire à nouveau furtivement pour glisser un oeil.
+Depuis que nous sommes arrivÃ©s, Irenicus a Ã©tÃ© occupÃ© Ã  faire bon usage de ses nouveaux invitÃ©s. Il ne supporterait pas que je me mette en travers de son travail et je n'ai pas fait l'erreur de m'introduire Ã  nouveau furtivement pour glisser un oeil.
 
-Les cris me portent sur les nerfs, aussi j'ai traîné dans les rues pour m'empêcher de penser à ce qui se passe au-dessous.  Quoi qu'il leur fasse, je souhaiterais qu'il se dépêche. 
+Les cris me portent sur les nerfs, aussi j'ai traÃ®nÃ© dans les rues pour m'empÃªcher de penser Ã  ce qui se passe au-dessous.  Quoi qu'il leur fasse, je souhaiterais qu'il se dÃ©pÃªche. 
 
 20 Ches 1359
 
-Bodhi a passé son temps à s'implanter dans les rues de la ville, traquant les Voleurs de l'Ombre. Cependant, elle aussi avait sans aucun doute commencé cette tâche auparavant.
+Bodhi a passÃ© son temps Ã  s'implanter dans les rues de la ville, traquant les Voleurs de l'Ombre. Cependant, elle aussi avait sans aucun doute commencÃ© cette tÃ¢che auparavant.
 
-J'essaie d'éviter ces escarmouches courtes et brutales. Je ressens même le besoin de m'en dissocier d'une certaine manière.
+J'essaie d'Ã©viter ces escarmouches courtes et brutales. Je ressens mÃªme le besoin de m'en dissocier d'une certaine maniÃ¨re.
 
 26 Ches 1359
 
-Irenicus ne m'accorde pas beaucoup d'attention et j'ai réussi à étudier certains de ses papiers que, je crois, je n'étais jamais censé lire.  Il y a beaucoup de notes à propos de <CHARNAME> et de son 'potentiel'. Auparavant, j'étais trop fou de douleur pour m'interroger sur ses motivations.
+Irenicus ne m'accorde pas beaucoup d'attention et j'ai rÃ©ussi Ã  Ã©tudier certains de ses papiers que, je crois, je n'Ã©tais jamais censÃ© lire.  Il y a beaucoup de notes Ã  propos de <CHARNAME> et de son 'potentiel'. Auparavant, j'Ã©tais trop fou de douleur pour m'interroger sur ses motivations.
 
 27 Ches 1359
 
-Une autre note que j'ai trouvée : une missive du Trône de Fer, avec des ordres aux officiels de La Porte de Baldur de trouver et exécuter tous les partisans et ex-partisans de Sarevok Anchev qui auraient survécu à l'assaut de <CHARNAME>. Le Trône ne tolère aucun double jeu.
+Une autre note que j'ai trouvÃ©e : une missive du TrÃ´ne de Fer, avec des ordres aux officiels de La Porte de Baldur de trouver et exÃ©cuter tous les partisans et ex-partisans de Sarevok Anchev qui auraient survÃ©cu Ã  l'assaut de <CHARNAME>. Le TrÃ´ne ne tolÃ¨re aucun double jeu.
 
-La liste inclut, sans se limiter à eux, Winski Perorate, Angelo Dosan, l'ogre Tazok, un conjurateur nommé Semaj, Cythandria, et Tamoko.
+La liste inclut, sans se limiter Ã  eux, Winski Perorate, Angelo Dosan, l'ogre Tazok, un conjurateur nommÃ© Semaj, Cythandria, et Tamoko.
 
 18 Tarsakh 1359
 
-Finalement Irenicus a des plans pour moi - et pour <CHARNAME>. Il veut amener <CHARNAME> dans une poursuite de dupe vers son prochain repaire, une sorte de test en grandeur nature de ce potentiel présumé - et il veut que je m'infiltre dans son groupe, de façon à ce que je surveille leur progression.
+Finalement Irenicus a des plans pour moi - et pour <CHARNAME>. Il veut amener <CHARNAME> dans une poursuite de dupe vers son prochain repaire, une sorte de test en grandeur nature de ce potentiel prÃ©sumÃ© - et il veut que je m'infiltre dans son groupe, de faÃ§on Ã  ce que je surveille leur progression.
 
-Bien entendu, je devrai, moi aussi, rester d'abord un moment dans une cage, pour plus de crédibilité.
+Bien entendu, je devrai, moi aussi, rester d'abord un moment dans une cage, pour plus de crÃ©dibilitÃ©.
 
 25 Tarsakh 1359
 
-D'une manière générale, c'est une mauvaise idée que de prêter serment de quête quand vous avez de la peine à la place d'une cervelle et de jambes.
+D'une maniÃ¨re gÃ©nÃ©rale, c'est une mauvaise idÃ©e que de prÃªter serment de quÃªte quand vous avez de la peine Ã  la place d'une cervelle et de jambes.
 
 
-(L'élément qui suit fut manifestement écrit précipitamment et laissé sans date :)
+(L'Ã©lÃ©ment qui suit fut manifestement Ã©crit prÃ©cipitamment et laissÃ© sans date :)
 
-Même si les événements ne se sont pas produits exactement comme Irenicus l'avait planifié, l'homme est un maître. A part l'évasion prématurée de <CHARNAME>, tout s'est mis en place par la suite avec une précision effrayante.
+MÃªme si les Ã©vÃ©nements ne se sont pas produits exactement comme Irenicus l'avait planifiÃ©, l'homme est un maÃ®tre. A part l'Ã©vasion prÃ©maturÃ©e de <CHARNAME>, tout s'est mis en place par la suite avec une prÃ©cision effrayante.
 
-Je ne suis pas plus près de découvrir si je tiens ma vengeance - cette sombre incertitude ? J'ai réussi à me faire une place dans l'entourage de <CHARNAME>, en effet... et je ne sais pas si <PRO_HESHE> a tué Tamoko, je n'en sais rien. Les meurtriers potentiels abondent. J'ai une dette envers certains d'entre eux. 
+Je ne suis pas plus prÃ¨s de dÃ©couvrir si je tiens ma vengeance - cette sombre incertitude ? J'ai rÃ©ussi Ã  me faire une place dans l'entourage de <CHARNAME>, en effet... et je ne sais pas si <PRO_HESHE> a tuÃ© Tamoko, je n'en sais rien. Les meurtriers potentiels abondent. J'ai une dette envers certains d'entre eux. 
 
-Malgré tout ça ne fait aucune différence, n'est-ce pas ? Nous faisons voile vers Spellhold cette nuit. Mais que je sois damné si je laisse quiconque trouver cette preuve de désespoir sur moi."
+MalgrÃ© tout Ã§a ne fait aucune diffÃ©rence, n'est-ce pas ? Nous faisons voile vers Spellhold cette nuit. Mais que je sois damnÃ© si je laisse quiconque trouver cette preuve de dÃ©sespoir sur moi."
 
 
-C'est le dernier élément du journal. Environ un tiers des pages demeurent vierges.~
-@1003 = ~Yoshimo n'a pas été très consciencieux dans la tenue d'un journal. Les premières pages sont remplies de notes fortuites sur des tâches accomplies, des récompenses obtenues, des amitiés acquises et des ennemis embrouillés. Entre les pages sont rangées quelques lettres, écrites sur du beau papier d'une main féminine et élégante, accompagnées de remarques amusées griffonnées dans les marges.
+C'est le dernier Ã©lÃ©ment du journal. Environ un tiers des pages demeurent vierges.~
+@1003 = ~Yoshimo n'a pas Ã©tÃ© trÃ¨s consciencieux dans la tenue d'un journal. Les premiÃ¨res pages sont remplies de notes fortuites sur des tÃ¢ches accomplies, des rÃ©compenses obtenues, des amitiÃ©s acquises et des ennemis embrouillÃ©s. Entre les pages sont rangÃ©es quelques lettres, Ã©crites sur du beau papier d'une main fÃ©minine et Ã©lÃ©gante, accompagnÃ©es de remarques amusÃ©es griffonnÃ©es dans les marges.
 
-Des inscriptions plus régulières, bien que toujours peu ordonnées, commencent il y a un peu plus d'un an.
+Des inscriptions plus rÃ©guliÃ¨res, bien que toujours peu ordonnÃ©es, commencent il y a un peu plus d'un an.
 
 "29 Mirtul 1358
 
-J'ai relu quelques vieilles lettres ; il y a trois ans que je n'ai pas vu Tamoko ? Ca ne peut pas être vrai.
+J'ai relu quelques vieilles lettres ; il y a trois ans que je n'ai pas vu Tamoko ? Ca ne peut pas Ãªtre vrai.
 
-'L'Affable' prendra la mer à marée haute. La nièce du capitaine est dotée d'un enthousiasme très gênant pour les articles importés. Je suppose qu'il est vain d'espérer qu'elle n'ait pas le pied marin et que je n'aie pas à rester dans ma cabine pour l'éviter. L'officier en second semble être un tricheur professionnel.
+'L'Affable' prendra la mer Ã  marÃ©e haute. La niÃ¨ce du capitaine est dotÃ©e d'un enthousiasme trÃ¨s gÃªnant pour les articles importÃ©s. Je suppose qu'il est vain d'espÃ©rer qu'elle n'ait pas le pied marin et que je n'aie pas Ã  rester dans ma cabine pour l'Ã©viter. L'officier en second semble Ãªtre un tricheur professionnel.
 
 13 Eleinte 1358
 
-Athkatla est toujours aussi agréablement cupide mais des mouchards minutieusement désintéressés patrouillent autour de mon auberge en lançant de sales regards dans ma direction. La guilde des voleurs juge manifestement que j'ai de nouveau abusé de son hospitalité. Peut-être devrais-je m'appliquer à trouver Tamoko, pour une fois.
+Athkatla est toujours aussi agrÃ©ablement cupide mais des mouchards minutieusement dÃ©sintÃ©ressÃ©s patrouillent autour de mon auberge en lanÃ§ant de sales regards dans ma direction. La guilde des voleurs juge manifestement que j'ai de nouveau abusÃ© de son hospitalitÃ©. Peut-Ãªtre devrais-je m'appliquer Ã  trouver Tamoko, pour une fois.
 
 18 Eleinte 1358
 
-Il est insensé de se diriger vers les montages de nuit ; j'ai donc attendu le bon moment à Crimmor en écoutant les bavardages en ville. A ma surprise, j'ai entendu quelques voyageurs parler de ce Sarevok que Tamoko a mentionné. De grandes espérances, des connexions avec le Trône de Fer, un beau personnage, ayant un côté sombre - le même homme. On dirait qu'il a causé une sorte d'émoi à la Porte de Baldur.
+Il est insensÃ© de se diriger vers les montages de nuit ; j'ai donc attendu le bon moment Ã  Crimmor en Ã©coutant les bavardages en ville. A ma surprise, j'ai entendu quelques voyageurs parler de ce Sarevok que Tamoko a mentionnÃ©. De grandes espÃ©rances, des connexions avec le TrÃ´ne de Fer, un beau personnage, ayant un cÃ´tÃ© sombre - le mÃªme homme. On dirait qu'il a causÃ© une sorte d'Ã©moi Ã  la Porte de Baldur.
 
-Elle l'a évoqué souvent, bien que brièvement. Il paraissait attirer les ennuis, mais je me fie à elle pour avoir eu le bon sens de rester à l'écart. Elle semblait vraiment engagée vis à vis de lui, pourtant.
+Elle l'a Ã©voquÃ© souvent, bien que briÃ¨vement. Il paraissait attirer les ennuis, mais je me fie Ã  elle pour avoir eu le bon sens de rester Ã  l'Ã©cart. Elle semblait vraiment engagÃ©e vis Ã  vis de lui, pourtant.
 
 25 Eleinte 1358
 
-J'ai passé la nuit au Jongleur Jovial à Beregost. Un mercenaire ivre a insisté pour essayer mon katana - par n'importe quel bout. Je l'ai distrait en priant l'aubergiste d'amener des échantillons de plusieurs de ses barriques, et de veuiller à les renouveler régulièrement.
+J'ai passÃ© la nuit au Jongleur Jovial Ã  Beregost. Un mercenaire ivre a insistÃ© pour essayer mon katana - par n'importe quel bout. Je l'ai distrait en priant l'aubergiste d'amener des Ã©chantillons de plusieurs de ses barriques, et de veuiller Ã  les renouveler rÃ©guliÃ¨rement.
 
-Avant de disparaître quelque part sous la table pour, je pense, la majeure partie de la semaine, l'homme a marmonné des choses alarmantes à propos du chahut là-bas à la Porte de Baldur. Je ne peux qu'espérer que Tamoko n'y ait pas été impliquée.
+Avant de disparaÃ®tre quelque part sous la table pour, je pense, la majeure partie de la semaine, l'homme a marmonnÃ© des choses alarmantes Ã  propos du chahut lÃ -bas Ã  la Porte de Baldur. Je ne peux qu'espÃ©rer que Tamoko n'y ait pas Ã©tÃ© impliquÃ©e.
 
-Selon le gentilhomme, tout le monde est maintenant excité comme une puce à propos d'une personne nommée <CHARNAME>, qui a éliminé ce Sarevok et ses sbires. Cependant il a poursuivi en pontifiant que quelque chose ne collait pas à propos de <CHARNAME> non plus, de sorte que cette nouvelle célébrité de la ville dérapera exactement comme la précédente. Apparemment il aurait aperçu une fois aussi bien Sarevok que <CHARNAME>, de loin... à travers la foule... peut-être... aussi doit-il savoir de quoi il parle.
+Selon le gentilhomme, tout le monde est maintenant excitÃ© comme une puce Ã  propos d'une personne nommÃ©e <CHARNAME>, qui a Ã©liminÃ© ce Sarevok et ses sbires. Cependant il a poursuivi en pontifiant que quelque chose ne collait pas Ã  propos de <CHARNAME> non plus, de sorte que cette nouvelle cÃ©lÃ©britÃ© de la ville dÃ©rapera exactement comme la prÃ©cÃ©dente. Apparemment il aurait aperÃ§u une fois aussi bien Sarevok que <CHARNAME>, de loin... Ã  travers la foule... peut-Ãªtre... aussi doit-il savoir de quoi il parle.
 
 8 Marpenoth 1358
 
-J'ai battu les rues de la Porte de Baldur au cours des derniers jours et nuits. Le siège du Trône de Fer est dans un état de désordre embarrassant. J'ai trouvé l'auberge que Tamoko mentionnait comme son dernier recours : miteuse, s'adonnant à la contrebande, indigne d'elle. Je l'ai repérée dans le registre de l'aubergiste sous un faux nom, avec une créance en attente depuis le 12 Flammerige. J'ai filé avant que l'homme ne pense à me faire payer.
+J'ai battu les rues de la Porte de Baldur au cours des derniers jours et nuits. Le siÃ¨ge du TrÃ´ne de Fer est dans un Ã©tat de dÃ©sordre embarrassant. J'ai trouvÃ© l'auberge que Tamoko mentionnait comme son dernier recours : miteuse, s'adonnant Ã  la contrebande, indigne d'elle. Je l'ai repÃ©rÃ©e dans le registre de l'aubergiste sous un faux nom, avec une crÃ©ance en attente depuis le 12 Flammerige. J'ai filÃ© avant que l'homme ne pense Ã  me faire payer.
 
 10 Marpenoth 1358
 
-J'ai entendu deux soldats du Poing Enflammé parler de <CHARNAME>, qui sans aucune aide a tué ce cinglé de Sarevok et tous ses partisans. Ils ont poursuivi en décrivant ses yeux enflammés, sa voix tonitruante et sa foulée de sept lieux. Je suis parti.  
+J'ai entendu deux soldats du Poing EnflammÃ© parler de <CHARNAME>, qui sans aucune aide a tuÃ© ce cinglÃ© de Sarevok et tous ses partisans. Ils ont poursuivi en dÃ©crivant ses yeux enflammÃ©s, sa voix tonitruante et sa foulÃ©e de sept lieux. Je suis parti.  
 
 11 Marpenoth 1358
 
-(Un morceau de papier déchiré d'un livre de comptes, marqué du symbole de Kelemvor, est plié entre les pages du journal):
+(Un morceau de papier dÃ©chirÃ© d'un livre de comptes, marquÃ© du symbole de Kelemvor, est pliÃ© entre les pages du journal):
 
 HUMAIN FEMELLE ; AGE APPROX. 30 ; KARA-TURANE ?
 --  ALLEE PRES DU PORTAIL DU DRAGON NOIR
@@ -779,151 +779,151 @@ ENTERREE
 
 13 Marpenoth 1358
 
-Sarevok tout comme <CHARNAME> peut l'avoir tuée. Mais elle avait foi en Sarevok à cette époque, et Sarevok est hors de portée de ma vengeance. 
+Sarevok tout comme <CHARNAME> peut l'avoir tuÃ©e. Mais elle avait foi en Sarevok Ã  cette Ã©poque, et Sarevok est hors de portÃ©e de ma vengeance. 
 
 15 Marpenoth 1358
 
-La ville célébrait un festival quelconque et j'ai aperçu <CHARNAME> de loin à proximité du Palais Ducal. <PRO_HESHE> ne semblait pas être quelqu'un en mesure de tuer ma soeur.
+La ville cÃ©lÃ©brait un festival quelconque et j'ai aperÃ§u <CHARNAME> de loin Ã  proximitÃ© du Palais Ducal. <PRO_HESHE> ne semblait pas Ãªtre quelqu'un en mesure de tuer ma soeur.
 
 16 Marpenoth 1358
 
-J'ai rêvé de Tamoko, comme cela m'arrive souvent maintenant, mais je ne m'en souviens que très peu. Mais son visage reste gravé sous mes paupières, comme une rémanence du soleil.
+J'ai rÃªvÃ© de Tamoko, comme cela m'arrive souvent maintenant, mais je ne m'en souviens que trÃ¨s peu. Mais son visage reste gravÃ© sous mes paupiÃ¨res, comme une rÃ©manence du soleil.
 
 18 Marpenoth 1358
 
-Quelqu'un m'a repéré. Une femme au teint blême m'a interpellé cette nuit dans la taverne où j'étais assis, à observer <CHARNAME>.
+Quelqu'un m'a repÃ©rÃ©. Une femme au teint blÃªme m'a interpellÃ© cette nuit dans la taverne oÃ¹ j'Ã©tais assis, Ã  observer <CHARNAME>.
 
-'Tu es le jeune homme talentueux qui pose tant de questions à propos de <CHARNAME>,' a-t-elle dit en faisant avancer son décolleté vers moi, provoquant en moi une sensation de froid. 'Ne t'inquiète pas, tes voeux les plus sombres seront exaucés d'ici peu. Il te suffit de faire exactement ce que je te dirai.'
+'Tu es le jeune homme talentueux qui pose tant de questions Ã  propos de <CHARNAME>,' a-t-elle dit en faisant avancer son dÃ©colletÃ© vers moi, provoquant en moi une sensation de froid. 'Ne t'inquiÃ¨te pas, tes voeux les plus sombres seront exaucÃ©s d'ici peu. Il te suffit de faire exactement ce que je te dirai.'
 
-Elle m'a ordonné de la suivre dans la nuit glaciale, le long de ruelles humides jusqu'à ce que nous arrivions à l'endroit où la cité oublie ses morts sans nom. Là, elle m'a conduit à une tombe parmi des rangées et des rangées d'autres, chacune étant recyclée au fur et à mesure que les anciens occupants se décomposent. Celle-là était ouverte.
+Elle m'a ordonnÃ© de la suivre dans la nuit glaciale, le long de ruelles humides jusqu'Ã  ce que nous arrivions Ã  l'endroit oÃ¹ la citÃ© oublie ses morts sans nom. LÃ , elle m'a conduit Ã  une tombe parmi des rangÃ©es et des rangÃ©es d'autres, chacune Ã©tant recyclÃ©e au fur et Ã  mesure que les anciens occupants se dÃ©composent. Celle-lÃ  Ã©tait ouverte.
 
-La femme a ouvert le cercueil de pacotille, et à l'intérieur reposait Tamoko, repliée sur elle-même comme un enfantdans son sommeil. Morte.
+La femme a ouvert le cercueil de pacotille, et Ã  l'intÃ©rieur reposait Tamoko, repliÃ©e sur elle-mÃªme comme un enfantdans son sommeil. Morte.
 
 20 Marpenoth 1358
 
-Bodhi travaille pour un homme masqué appelé Irenicus, du moins en théorie. Ils m'assurent que c'est <CHARNAME> qui a tué ma soeur. Et que je tiendrai ma vengeance - mais qu'auparavant je devrai livrer <CHARNAME> à Irenicus. En vie.
+Bodhi travaille pour un homme masquÃ© appelÃ© Irenicus, du moins en thÃ©orie. Ils m'assurent que c'est <CHARNAME> qui a tuÃ© ma soeur. Et que je tiendrai ma vengeance - mais qu'auparavant je devrai livrer <CHARNAME> Ã  Irenicus. En vie.
 
 22 Marpenoth 1358
 
-Je n'ai plus besoin de rêver de mirages : j'ai la réalité, le visage de Tamoko figé dans une sérénité surnaturelle que même la pourriture ne peut troubler. Elle ne s'était pas décomposée ; elle ne part pas.
+Je n'ai plus besoin de rÃªver de mirages : j'ai la rÃ©alitÃ©, le visage de Tamoko figÃ© dans une sÃ©rÃ©nitÃ© surnaturelle que mÃªme la pourriture ne peut troubler. Elle ne s'Ã©tait pas dÃ©composÃ©e ; elle ne part pas.
 
-Il n'y a qu'un seul moyen d'être certain. Et, même si je me trompe, personne n'est innocent. D'une façon ou d'une autre, elle sera vengée.
+Il n'y a qu'un seul moyen d'Ãªtre certain. Et, mÃªme si je me trompe, personne n'est innocent. D'une faÃ§on ou d'une autre, elle sera vengÃ©e.
 
 23 Marpenoth 1358
 
-Irenicus a exigé de moi un serment - une quête - alors j'ai prêté serment. Je le sens à peine à présent ; c'est juste un pincement à la base de mon crâne.
+Irenicus a exigÃ© de moi un serment - une quÃªte - alors j'ai prÃªtÃ© serment. Je le sens Ã  peine Ã  prÃ©sent ; c'est juste un pincement Ã  la base de mon crÃ¢ne.
 
 8 Alturiak 1359
 
-<CHARNAME> et son groupe ont été capturés. Le sang a été versé, mais Irenicus a enfermé ma proie aussi loin de moi que possible et la tentative de lui faire comprendre - ou de lui imposer - mon point de vue s'est révélée très éprouvante physiquement.
+<CHARNAME> et son groupe ont Ã©tÃ© capturÃ©s. Le sang a Ã©tÃ© versÃ©, mais Irenicus a enfermÃ© ma proie aussi loin de moi que possible et la tentative de lui faire comprendre - ou de lui imposer - mon point de vue s'est rÃ©vÃ©lÃ©e trÃ¨s Ã©prouvante physiquement.
 
-Cependant Irenicus a promis que mon oeil droit recouvrerait la vue dans quelques jours et m'a ordonné d'appliquer la patience nécessaire à mon esprit de vengeance. Nous nous dirigeons vers le sud.
+Cependant Irenicus a promis que mon oeil droit recouvrerait la vue dans quelques jours et m'a ordonnÃ© d'appliquer la patience nÃ©cessaire Ã  mon esprit de vengeance. Nous nous dirigeons vers le sud.
 
 15 Ches 1359
 
 A Athkatla. Manifestement cette forteresse souterraine ne fut pas construite en un jour.
 
-Depuis que nous sommes arrivés, Irenicus a été occupé à faire bon usage de ses nouveaux invités. Il ne supporterait pas que je me mette en travers de son travail et je n'ai pas fait l'erreur de m'introduire à nouveau furtivement pour glisser un oeil.
+Depuis que nous sommes arrivÃ©s, Irenicus a Ã©tÃ© occupÃ© Ã  faire bon usage de ses nouveaux invitÃ©s. Il ne supporterait pas que je me mette en travers de son travail et je n'ai pas fait l'erreur de m'introduire Ã  nouveau furtivement pour glisser un oeil.
 
-Les cris me portent sur les nerfs, aussi j'ai traîné dans les rues pour m'empêcher de penser à ce qui se passe au-dessous.  Quoi qu'il leur fasse, je souhaiterais qu'il se dépêche. 
+Les cris me portent sur les nerfs, aussi j'ai traÃ®nÃ© dans les rues pour m'empÃªcher de penser Ã  ce qui se passe au-dessous.  Quoi qu'il leur fasse, je souhaiterais qu'il se dÃ©pÃªche. 
 
 20 Ches 1359
 
-Bodhi a passé son temps à s'implanter dans les rues de la ville, traquant les Voleurs de l'Ombre. Cependant, elle aussi avait sans aucun doute commencé cette tâche auparavant.
+Bodhi a passÃ© son temps Ã  s'implanter dans les rues de la ville, traquant les Voleurs de l'Ombre. Cependant, elle aussi avait sans aucun doute commencÃ© cette tÃ¢che auparavant.
 
-J'essaie d'éviter ces escarmouches courtes et brutales. Je ressens même le besoin de m'en dissocier d'une certaine manière.
+J'essaie d'Ã©viter ces escarmouches courtes et brutales. Je ressens mÃªme le besoin de m'en dissocier d'une certaine maniÃ¨re.
 
 26 Ches 1359
 
-Irenicus ne m'accorde pas beaucoup d'attention et j'ai réussi à étudier certains de ses papiers que, je crois, je n'étais jamais censé lire.  Il y a beaucoup de notes à propos de <CHARNAME> et de son 'potentiel'. Auparavant, j'étais trop fou de douleur pour m'interroger sur ses motivations.
+Irenicus ne m'accorde pas beaucoup d'attention et j'ai rÃ©ussi Ã  Ã©tudier certains de ses papiers que, je crois, je n'Ã©tais jamais censÃ© lire.  Il y a beaucoup de notes Ã  propos de <CHARNAME> et de son 'potentiel'. Auparavant, j'Ã©tais trop fou de douleur pour m'interroger sur ses motivations.
 
 27 Ches 1359
 
-Une autre note que j'ai trouvée : une missive du Trône de Fer, avec des ordres aux officiels de La Porte de Baldur de trouver et exécuter tous les partisans et ex-partisans de Sarevok Anchev qui auraient survécu à l'assaut de <CHARNAME>. Le Trône ne tolère aucun double jeu.
+Une autre note que j'ai trouvÃ©e : une missive du TrÃ´ne de Fer, avec des ordres aux officiels de La Porte de Baldur de trouver et exÃ©cuter tous les partisans et ex-partisans de Sarevok Anchev qui auraient survÃ©cu Ã  l'assaut de <CHARNAME>. Le TrÃ´ne ne tolÃ¨re aucun double jeu.
 
-La liste inclut, sans se limiter à eux, Winski Perorate, Angelo Dosan, l'ogre Tazok, un conjurateur nommé Semaj, Cythandria, et Tamoko.
+La liste inclut, sans se limiter Ã  eux, Winski Perorate, Angelo Dosan, l'ogre Tazok, un conjurateur nommÃ© Semaj, Cythandria, et Tamoko.
 
 18 Tarsakh 1359
 
-Finalement Irenicus a des plans pour moi - et pour <CHARNAME>. Il veut amener <CHARNAME> dans une poursuite de dupe vers son prochain repaire, une sorte de test en grandeur nature de ce potentiel présumé - et il veut que je m'infiltre dans son groupe, de façon à ce que je surveille leur progression.
+Finalement Irenicus a des plans pour moi - et pour <CHARNAME>. Il veut amener <CHARNAME> dans une poursuite de dupe vers son prochain repaire, une sorte de test en grandeur nature de ce potentiel prÃ©sumÃ© - et il veut que je m'infiltre dans son groupe, de faÃ§on Ã  ce que je surveille leur progression.
 
-Bien entendu, je devrai, moi aussi, rester d'abord un moment dans une cage, pour plus de crédibilité.
+Bien entendu, je devrai, moi aussi, rester d'abord un moment dans une cage, pour plus de crÃ©dibilitÃ©.
 
 25 Tarsakh 1359
 
-D'une manière générale, c'est une mauvaise idée que de prêter serment de quête quand vous avez de la peine à la place d'une cervelle et de jambes.
+D'une maniÃ¨re gÃ©nÃ©rale, c'est une mauvaise idÃ©e que de prÃªter serment de quÃªte quand vous avez de la peine Ã  la place d'une cervelle et de jambes.
 
 
-(L'élément qui suit fut manifestement écrit précipitamment et laissé sans date :)
+(L'Ã©lÃ©ment qui suit fut manifestement Ã©crit prÃ©cipitamment et laissÃ© sans date :)
 
-Même si les événements ne se sont pas produits exactement comme Irenicus l'avait planifié, l'homme est un maître. A part l'évasion prématurée de <CHARNAME>, tout s'est mis en place par la suite avec une précision effrayante.
+MÃªme si les Ã©vÃ©nements ne se sont pas produits exactement comme Irenicus l'avait planifiÃ©, l'homme est un maÃ®tre. A part l'Ã©vasion prÃ©maturÃ©e de <CHARNAME>, tout s'est mis en place par la suite avec une prÃ©cision effrayante.
 
-J'ai réussi à me faire une place dans l'entourage de <CHARNAME>, et dans ses bonnes grâces aussi, je pense. Nous aurions pu être camarades. Et il se pourrait bien qu'<PRO_HESHE> n'ait pas tué Tamoko.
+J'ai rÃ©ussi Ã  me faire une place dans l'entourage de <CHARNAME>, et dans ses bonnes grÃ¢ces aussi, je pense. Nous aurions pu Ãªtre camarades. Et il se pourrait bien qu'<PRO_HESHE> n'ait pas tuÃ© Tamoko.
 
-Et l'horreur et la honte dans l'histoire, c'est que ça ne fait aucune différence maintenant. Il n'y a aucun moyen d'arrêter ce qui a été mis en branle, nous faisons voile vers Spellhold cette nuit. Mais que je sois damné si je laisse quiconque trouver cette chronique du déshonneur sur moi... Ilmater aide-moi."
+Et l'horreur et la honte dans l'histoire, c'est que Ã§a ne fait aucune diffÃ©rence maintenant. Il n'y a aucun moyen d'arrÃªter ce qui a Ã©tÃ© mis en branle, nous faisons voile vers Spellhold cette nuit. Mais que je sois damnÃ© si je laisse quiconque trouver cette chronique du dÃ©shonneur sur moi... Ilmater aide-moi."
 
 
-C'est le dernier élément du journal. Environ un tiers des pages demeurent vierges.~
+C'est le dernier Ã©lÃ©ment du journal. Environ un tiers des pages demeurent vierges.~
 @1004 = ~Journal de Yoshimo~
-@1005 = ~Cette lame courte, d'à peine un plein pied de long, semble distinctement Kara-Turane mais elle est manifestement de mauvaise qualité. L'équilibre est légèrement faussé, la soie enroulée autour de la poignée commence à se détacher, et le fil s'est émoussé depuis longtemps. Des traces d'inscriptions ornementales orientales demeurent ici et là sur la garde.
+@1005 = ~Cette lame courte, d'Ã  peine un plein pied de long, semble distinctement Kara-Turane mais elle est manifestement de mauvaise qualitÃ©. L'Ã©quilibre est lÃ©gÃ¨rement faussÃ©, la soie enroulÃ©e autour de la poignÃ©e commence Ã  se dÃ©tacher, et le fil s'est Ã©moussÃ© depuis longtemps. Des traces d'inscriptions ornementales orientales demeurent ici et lÃ  sur la garde.
 
 PARAMETRES :
 
 TAC0 : -1
-Dégâts : 1D8 - 1
-Type de dégâts : perforant
+DÃ©gÃ¢ts : 1D8 - 1
+Type de dÃ©gÃ¢ts : perforant
 Poids : 3
 Facteur de Vitesse : 2
-Type de compétence : Cimeterre/Wakizashi/Ninja-To
-Type : arme à 1 main
-Force nécessaire : 5
+Type de compÃ©tence : Cimeterre/Wakizashi/Ninja-To
+Type : arme Ã  1 main
+Force nÃ©cessaire : 5
 Inutilisable par :
  Druide
  Clerc
  Mage
  Belluaire~
 
-@1298  = ~Sarevok ne put s'établir nulle part pendant les années qui suivirent sa résurrection par <CHARNAME>. A lui seul, il aurait mis en déroute une armée d'orques à Berdusk, mais sa puissance et sa férocité terrifièrent autant les habitants que les envahisseurs. Il arriva à Port-Ponant en conquérant, renversant tout sur son passage avant de mystérieusement disparaître quelques semaines plus tard. Ses actes furent diversement interprétés, mais tous s'accordèrent à dire que Sarevok était une âme torturée, à la limite de la vie et de la mort, incapable de fixer sa volonté sur l'un de ces deux états. La légende prétend qu'il serait alors parti seul à l'assaut des Abysses, à moins qu'il n'ait décidé de mettre un terme à ses souffrances. En vérité, il se retira à Kara-Tur pour y enterrer Tamoko la guerrière, le seul amour de sa vie, à l'endroit qu'elle avait choisi jadis.  Il n'en revint jamais... enfin, d'après les légendes.~
-@1300 = ~Venez, fidèles. Ressentez mon étreinte glacée. Embrassez la mort...~
+@1298  = ~Sarevok ne put s'Ã©tablir nulle part pendant les annÃ©es qui suivirent sa rÃ©surrection par <CHARNAME>. A lui seul, il aurait mis en dÃ©route une armÃ©e d'orques Ã  Berdusk, mais sa puissance et sa fÃ©rocitÃ© terrifiÃ¨rent autant les habitants que les envahisseurs. Il arriva Ã  Port-Ponant en conquÃ©rant, renversant tout sur son passage avant de mystÃ©rieusement disparaÃ®tre quelques semaines plus tard. Ses actes furent diversement interprÃ©tÃ©s, mais tous s'accordÃ¨rent Ã  dire que Sarevok Ã©tait une Ã¢me torturÃ©e, Ã  la limite de la vie et de la mort, incapable de fixer sa volontÃ© sur l'un de ces deux Ã©tats. La lÃ©gende prÃ©tend qu'il serait alors parti seul Ã  l'assaut des Abysses, Ã  moins qu'il n'ait dÃ©cidÃ© de mettre un terme Ã  ses souffrances. En vÃ©ritÃ©, il se retira Ã  Kara-Tur pour y enterrer Tamoko la guerriÃ¨re, le seul amour de sa vie, Ã  l'endroit qu'elle avait choisi jadis.  Il n'en revint jamais... enfin, d'aprÃ¨s les lÃ©gendes.~
+@1300 = ~Venez, fidÃ¨les. Ressentez mon Ã©treinte glacÃ©e. Embrassez la mort...~
 @1301 = ~Le meurtre d'Acton Balthis.
 
-Haer'Dalis vient d'être accusé d'avoir assassiné le Seigneur Acton Balthis, un membre éminent de la haute société d'Athkatla. Nous devons découvrir la vérité. Parler à l'inspecteur-chef Brega pourrait être un bon début.~
+Haer'Dalis vient d'Ãªtre accusÃ© d'avoir assassinÃ© le Seigneur Acton Balthis, un membre Ã©minent de la haute sociÃ©tÃ© d'Athkatla. Nous devons dÃ©couvrir la vÃ©ritÃ©. Parler Ã  l'inspecteur-chef Brega pourrait Ãªtre un bon dÃ©but.~
 @1302 = ~Le meurtre d'Acton Balthis.
 
-Nous avons rendu visite à Haer'Dalis en prison. Il nous a conseillé d'aller voir le manoir du Seigneur Balthis au Pont et de parler à l'inspecteur-chef Brega. Pendant ce temps-là, la garde prépare l'exécution. Nous n'avons que trois jours pour prouver l'innocence d'Haer'Dalis.~
+Nous avons rendu visite Ã  Haer'Dalis en prison. Il nous a conseillÃ© d'aller voir le manoir du Seigneur Balthis au Pont et de parler Ã  l'inspecteur-chef Brega. Pendant ce temps-lÃ , la garde prÃ©pare l'exÃ©cution. Nous n'avons que trois jours pour prouver l'innocence d'Haer'Dalis.~
 @1303 = ~Le meurtre d'Acton Balthis.
 
-Pip, un majordome du manoir du Seigneur Balthis, nous a dit qu'Haer'Dalis était très intéressé par le buste de Sunie, situé dans le manoir. Un collectionneur d'objets d'art de la Promenade, Quataris, en saura peut-être davantage.~
+Pip, un majordome du manoir du Seigneur Balthis, nous a dit qu'Haer'Dalis Ã©tait trÃ¨s intÃ©ressÃ© par le buste de Sunie, situÃ© dans le manoir. Un collectionneur d'objets d'art de la Promenade, Quataris, en saura peut-Ãªtre davantage.~
 @1304 = ~Le meurtre d'Acton Balthis.
 
-L'inspecteur-chef Brega nous a dit qu'Haer'Dalis était également soupçonné de vol. Le buste de Sunie a disparu du manoir du Seigneur Balthis, au Pont. Quataris, un collectionneur d'objets d'art à la Promenade, en sait peut-être plus. Haer'Dalis sera exécuté dans trois jours si nous ne nous dépêchons pas !~
+L'inspecteur-chef Brega nous a dit qu'Haer'Dalis Ã©tait Ã©galement soupÃ§onnÃ© de vol. Le buste de Sunie a disparu du manoir du Seigneur Balthis, au Pont. Quataris, un collectionneur d'objets d'art Ã  la Promenade, en sait peut-Ãªtre plus. Haer'Dalis sera exÃ©cutÃ© dans trois jours si nous ne nous dÃ©pÃªchons pas !~
 @1305 = ~Le meurtre d'Acton Balthis.
 
-Quataris a avoué avoir loué les services d'un voleur pour dérober le buste de Sunie du manoir. L'inspecteur-chef Brega aura besoin de ses aveux écrits.~
+Quataris a avouÃ© avoir louÃ© les services d'un voleur pour dÃ©rober le buste de Sunie du manoir. L'inspecteur-chef Brega aura besoin de ses aveux Ã©crits.~
 @1306 = ~Le meurtre d'Acton Balthis.
 
-J'ai tué Quataris et trouvé le buste de Sunie sur son corps. Il faut que l'inspecteur-chef Brega voit ça.~
+J'ai tuÃ© Quataris et trouvÃ© le buste de Sunie sur son corps. Il faut que l'inspecteur-chef Brega voit Ã§a.~
 @1307 = ~Le meurtre d'Acton Balthis.
 
-L'inspecteur-chef Brega a signé un acte judiciaire attestant l'innocence d'Haer'Dalis. Maintenant, je peux le sortir de prison.~
+L'inspecteur-chef Brega a signÃ© un acte judiciaire attestant l'innocence d'Haer'Dalis. Maintenant, je peux le sortir de prison.~
 @1308 = ~Le meurtre d'Acton Balthis.
 
-Haer'Dalis m'a donné une idée : trouver le véritable meurtrier en l'attirant à nouveau au domaine du Seigneur Balthis. Si les rumeurs lancées par Haer'Dalis ont déjà atteint ses oreilles, le voleur devrait y être. L'inspecteur-chef Brega nous récompensera probablement généreusement par la suite.~
+Haer'Dalis m'a donnÃ© une idÃ©e : trouver le vÃ©ritable meurtrier en l'attirant Ã  nouveau au domaine du Seigneur Balthis. Si les rumeurs lancÃ©es par Haer'Dalis ont dÃ©jÃ  atteint ses oreilles, le voleur devrait y Ãªtre. L'inspecteur-chef Brega nous rÃ©compensera probablement gÃ©nÃ©reusement par la suite.~
 @1309 = ~Le meurtre d'Acton Balthis.
 
-Nous avons annoncé la mort du véritable meurtrier à l'inspecteur-chef Brega, qui en a été très content.~
+Nous avons annoncÃ© la mort du vÃ©ritable meurtrier Ã  l'inspecteur-chef Brega, qui en a Ã©tÃ© trÃ¨s content.~
 @1310 = ~Le meurtre d'Acton Balthis.
 
-Haer'Dalis a été exécuté.~ 
+Haer'Dalis a Ã©tÃ© exÃ©cutÃ©.~ 
 
 @1311 = ~Ce composant n'est pas disponible pour BG2EE.~
-@1312 = ~La Mère Matrone a été d'une grande aide pour l'instant, bien que ce soit uniquement parce que c'est dans son propre intérêt, je suis sûr. Quoi qu'il en soit elle n'est qu'un moyen pour parvenir à mes fins. Lorsque j'aurai atteint mon but, ils pourront moisir dans leurs trous souterrains jusqu'à la fin de temps, je m'en fiche. Le portail est en place et je pourrai aller là-bas dès que je me serai occupé de quelques petits détails ici.
+@1312 = ~La MÃ¨re Matrone a Ã©tÃ© d'une grande aide pour l'instant, bien que ce soit uniquement parce que c'est dans son propre intÃ©rÃªt, je suis sÃ»r. Quoi qu'il en soit elle n'est qu'un moyen pour parvenir Ã  mes fins. Lorsque j'aurai atteint mon but, ils pourront moisir dans leurs trous souterrains jusqu'Ã  la fin de temps, je m'en fiche. Le portail est en place et je pourrai aller lÃ -bas dÃ¨s que je me serai occupÃ© de quelques petits dÃ©tails ici.
 
-Saemon Havarian s'est déjà enfui, comme prévu. Il ne s'est sans doute pas senti en sécurité ici maintenant qu'il ne m'était plus utile. Ma soeur était déçue, elle était impatiente de donner la chasse à cet imbécile dès qu'elle en aurait terminé avec <CHARNAME>. C'est vraiment intéressant de voir à quel point sa soif de sang a grandi. Elle a exprimé le désir de retourner dans son ancien repaire d'Athkatla maintenant que le cas de <CHARNAME> est réglé et j'ai accepté de la laisser partir dès que nos affaires avec les drows seront achevées. Plus loin cet objet maudit sera de mon ancien foyer, le mieux ce sera pour mes plans et il n'y a personne d'autre à qui je peux le confier. Ce serait un vrai problème si cet idiot d'Elhan venait à mettre la main dessus. J'aurais souhaité pouvoir simplement le détruire mais les choses ne sont jamais aussi simples avec ces vieux artefacts.
+Saemon Havarian s'est dÃ©jÃ  enfui, comme prÃ©vu. Il ne s'est sans doute pas senti en sÃ©curitÃ© ici maintenant qu'il ne m'Ã©tait plus utile. Ma soeur Ã©tait dÃ©Ã§ue, elle Ã©tait impatiente de donner la chasse Ã  cet imbÃ©cile dÃ¨s qu'elle en aurait terminÃ© avec <CHARNAME>. C'est vraiment intÃ©ressant de voir Ã  quel point sa soif de sang a grandi. Elle a exprimÃ© le dÃ©sir de retourner dans son ancien repaire d'Athkatla maintenant que le cas de <CHARNAME> est rÃ©glÃ© et j'ai acceptÃ© de la laisser partir dÃ¨s que nos affaires avec les drows seront achevÃ©es. Plus loin cet objet maudit sera de mon ancien foyer, le mieux ce sera pour mes plans et il n'y a personne d'autre Ã  qui je peux le confier. Ce serait un vrai problÃ¨me si cet idiot d'Elhan venait Ã  mettre la main dessus. J'aurais souhaitÃ© pouvoir simplement le dÃ©truire mais les choses ne sont jamais aussi simples avec ces vieux artefacts.
 
-Mes négociations avec les rakshasa se sont bien passées, même s'ils ne vont probablement pas se montrer plus fiables que les drows dès que ce ne sera plus dans leur intérêt. Maintenant que j'y pense, c'est amusant qu'en dehors de Bodhi, mon seul allié véritablement fiable se soit avéré être ce Nizidramanii'yt. Il semble vraiment se préoccuper uniquement de nourriture et de trésors et il va probablement faire tout ce que je lui demande aussi longtemps que les récompenses arriveront. Un esprit si simple pour une si grande bête, mais il s'est montré très utile pour moi en effet.
+Mes nÃ©gociations avec les rakshasa se sont bien passÃ©es, mÃªme s'ils ne vont probablement pas se montrer plus fiables que les drows dÃ¨s que ce ne sera plus dans leur intÃ©rÃªt. Maintenant que j'y pense, c'est amusant qu'en dehors de Bodhi, mon seul alliÃ© vÃ©ritablement fiable se soit avÃ©rÃ© Ãªtre ce Nizidramanii'yt. Il semble vraiment se prÃ©occuper uniquement de nourriture et de trÃ©sors et il va probablement faire tout ce que je lui demande aussi longtemps que les rÃ©compenses arriveront. Un esprit si simple pour une si grande bÃªte, mais il s'est montrÃ© trÃ¨s utile pour moi en effet.
 
-Assez perdu de temps avec ces pensées sans suite. Bodhi devrait en avoir terminé là-bas maintenant et le moment de quitter ce lieu de folie est proche. Bientôt j'aurai ce qui aurait dû me revenir il y a longtemps !~
+Assez perdu de temps avec ces pensÃ©es sans suite. Bodhi devrait en avoir terminÃ© lÃ -bas maintenant et le moment de quitter ce lieu de folie est proche. BientÃ´t j'aurai ce qui aurait dÃ» me revenir il y a longtemps !~
 
 @1313 = ~Le meurtre d'Acton Balthis, par Kulyok~
 @1314 = ~Interjections restaurees, par CamDawg et Angel~
@@ -1021,91 +1021,91 @@ Utilisation de"
 @-1062= " et "
 @2000 = ~Pouvoirs de l'Enfant de Bhaal
 
-<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
-Soin de masse (Nécromancie)
+<CHARNAME> a acquis la capacitÃ©, utilisable une fois par jour : 
+Soin de masse (NÃ©cromancie)
 
-Portée : Champ visuel du lanceur
-Durée : permanente 
+PortÃ©e : Champ visuel du lanceur
+DurÃ©e : permanente 
 Temps d'incantation : 1
 Zone d'effet : rayon de 6 m
 Jet de Sauvegarde : Aucun 
 
-Lorsqu'il utilise cette capacité, l'enfant de Bhaal doit se concentrer sur les visages de ses compagnons et sur l'unité du groupe. Une fois l'incantation achevée, tous les membres du groupe dans un rayon de 6 m reçoivent 2d8 points de vie + 2 / niveau. Ce soin concerne également : la fatigue, le poison, la maladie, la cécité et la surdité.~
+Lorsqu'il utilise cette capacitÃ©, l'enfant de Bhaal doit se concentrer sur les visages de ses compagnons et sur l'unitÃ© du groupe. Une fois l'incantation achevÃ©e, tous les membres du groupe dans un rayon de 6 m reÃ§oivent 2d8 points de vie + 2 / niveau. Ce soin concerne Ã©galement : la fatigue, le poison, la maladie, la cÃ©citÃ© et la surditÃ©.~
 @2001 = ~Pouvoirs de l'Enfant de Bhaal
 
-<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
-Régénération (Nécromancie)
+<CHARNAME> a acquis la capacitÃ©, utilisable une fois par jour : 
+RÃ©gÃ©nÃ©ration (NÃ©cromancie)
 
-Portée : Contact
-Durée : 1 round par tranche de 2 niveaux
+PortÃ©e : Contact
+DurÃ©e : 1 round par tranche de 2 niveaux
 Temps d'incantation : 7
-Zone d'effet : Créature ciblée
+Zone d'effet : CrÃ©ature ciblÃ©e
 Jet de Sauvegarde : Aucun 
 
-Cette puissante capacité permet à l'Enfant de Bhaal de prodiguer la capacité de régénération à une créature. Toutes ses blessures seront guéries et même les membres sectionnés repousseront grâce à ce sort. Le bénéficiaire récupérera 3 points de vie par seconde. La durée du sort est fixée à un nombre maximum de rounds égal à la moitié du niveau du lanceur. Par exemple, un prêtre de 14ème niveau régénérera ainsi 18 points de vie par round pendant 7 rounds.~
+Cette puissante capacitÃ© permet Ã  l'Enfant de Bhaal de prodiguer la capacitÃ© de rÃ©gÃ©nÃ©ration Ã  une crÃ©ature. Toutes ses blessures seront guÃ©ries et mÃªme les membres sectionnÃ©s repousseront grÃ¢ce Ã  ce sort. Le bÃ©nÃ©ficiaire rÃ©cupÃ©rera 3 points de vie par seconde. La durÃ©e du sort est fixÃ©e Ã  un nombre maximum de rounds Ã©gal Ã  la moitiÃ© du niveau du lanceur. Par exemple, un prÃªtre de 14Ã¨me niveau rÃ©gÃ©nÃ©rera ainsi 18 points de vie par round pendant 7 rounds.~
 @2002 = ~Pouvoirs de l'Enfant de Bhaal
 
-<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
+<CHARNAME> a acquis la capacitÃ©, utilisable une fois par jour : 
 Puiser dans la puissance divine (Invocation)
 
-Portée : 0 
-Durée : 1 tour
+PortÃ©e : 0 
+DurÃ©e : 1 tour
 Temps d'incantation : 1
 Zone d'effet : lanceur
 Jet de Sauvegarde : Aucun 
 
-L'enfant de Bhaal sollicite l'essence de son père pour augmenter ses pouvoirs pendant une courte durée. Sa Force, sa Constitution et sa Dextérité gagnent alors 1 point par 3 niveaux du lanceur. Un lanceur du 3ème niveau verra ainsi ses caractéristiques gagner 1 point, alors qu'un lanceur du 12ème niveau les verra augmenter de +4.~
+L'enfant de Bhaal sollicite l'essence de son pÃ¨re pour augmenter ses pouvoirs pendant une courte durÃ©e. Sa Force, sa Constitution et sa DextÃ©ritÃ© gagnent alors 1 point par 3 niveaux du lanceur. Un lanceur du 3Ã¨me niveau verra ainsi ses caractÃ©ristiques gagner 1 point, alors qu'un lanceur du 12Ã¨me niveau les verra augmenter de +4.~
 @2003 = ~Pouvoirs de l'Enfant de Bhaal
 
-<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
-Souffle de Bhaal (Nécromancie)
+<CHARNAME> a acquis la capacitÃ©, utilisable une fois par jour : 
+Souffle de Bhaal (NÃ©cromancie)
 
-Portée : 7 mètres
-Durée : 1 tour
+PortÃ©e : 7 mÃ¨tres
+DurÃ©e : 1 tour
 Temps d'incantation : 1
-Zone d'effet : 1 créature
+Zone d'effet : 1 crÃ©ature
 Jet de Sauvegarde : Annule
 
-Cette capacité permet à l'enfant de Bhaal d'envelopper la victime dans le souffle vicié de son père. Cette dernière peut échapper à l'empoisonnement si elle réussit un jet de sauvegarde contre la mort. Les effets dépendent du niveau du lanceur :
+Cette capacitÃ© permet Ã  l'enfant de Bhaal d'envelopper la victime dans le souffle viciÃ© de son pÃ¨re. Cette derniÃ¨re peut Ã©chapper Ã  l'empoisonnement si elle rÃ©ussit un jet de sauvegarde contre la mort. Les effets dÃ©pendent du niveau du lanceur :
 
-Niveaux 7 à 9 : 2D8 +2 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
-Niveaux 10 à 12 : 3D8 +3 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
-Niveaux 13 à 14 : 4D8 +4 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
-Niveaux 15 à 16 : 6D8 +5 / round, lenteur pendant 24 secondes, -2 au jet de sauvegarde
-Niveaux 17 à 21 : 8D8 +6 / round, lenteur pendant 24 secondes, -4 au jet de sauvegarde
-Niveau 25 et plus : 8D8 +6 / round, lenteur pendant 36 secondes, -4 au jet de sauvegarde, un groupe entier de cibles est affecté~
+Niveaux 7 Ã  9 : 2D8 +2 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
+Niveaux 10 Ã  12 : 3D8 +3 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
+Niveaux 13 Ã  14 : 4D8 +4 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
+Niveaux 15 Ã  16 : 6D8 +5 / round, lenteur pendant 24 secondes, -2 au jet de sauvegarde
+Niveaux 17 Ã  21 : 8D8 +6 / round, lenteur pendant 24 secondes, -4 au jet de sauvegarde
+Niveau 25 et plus : 8D8 +6 / round, lenteur pendant 36 secondes, -4 au jet de sauvegarde, un groupe entier de cibles est affectÃ©~
 @2004 = ~Pouvoirs de l'Enfant de Bhaal
 
-<CHARNAME> a gagné la Protection Permanente Contre le Plan Négatif (par exemple, <CHARNAME> ne peut se faire drainer ses niveaux) et 5% de résistance magique.~
+<CHARNAME> a gagnÃ© la Protection Permanente Contre le Plan NÃ©gatif (par exemple, <CHARNAME> ne peut se faire drainer ses niveaux) et 5% de rÃ©sistance magique.~
 @2005 = ~Pouvoirs de l'Enfant de Bhaal
 
-<CHARNAME>  a acquis la capacité, utilisable une fois par jour : 
-Main de Bhaal (Nécromancie)
+<CHARNAME>  a acquis la capacitÃ©, utilisable une fois par jour : 
+Main de Bhaal (NÃ©cromancie)
 
-Portée : lanceur
-Durée : 1 round par tranche de 5 niveaux
+PortÃ©e : lanceur
+DurÃ©e : 1 round par tranche de 5 niveaux
 Temps d'incantation : 1
 Jet de Sauvegarde : Aucun 
 
-Cette capacité permet à l'Enfant de Bhaal d'infliger des dégâts supplémentaires en mêlée avec l'arme de son choix (mains nues, épée, etc...) et d'absorber une partie de l'énergie vitale volée à la cible. L'effet varie en fonction du niveau du lanceur :
-Niveau 10 : 2 rounds, 4 points de dégâts supplémentaires, 4 points de vie guéris
-Niveau 15 : 3 rounds, 6 points de dégâts supplémentaires, 6 points de vie guéris
-Niveau 20 : 4 rounds, 8 points de dégâts supplémentaires, 8 points de vie guéris
-Niveau 25 : 5 rounds, 10 points de dégâts supplémentaires, 10 points de vie guéris
-Niveau 30 : 6 rounds, 12 points de dégâts supplémentaires, 12 points de vie guéris~
+Cette capacitÃ© permet Ã  l'Enfant de Bhaal d'infliger des dÃ©gÃ¢ts supplÃ©mentaires en mÃªlÃ©e avec l'arme de son choix (mains nues, Ã©pÃ©e, etc...) et d'absorber une partie de l'Ã©nergie vitale volÃ©e Ã  la cible. L'effet varie en fonction du niveau du lanceur :
+Niveau 10 : 2 rounds, 4 points de dÃ©gÃ¢ts supplÃ©mentaires, 4 points de vie guÃ©ris
+Niveau 15 : 3 rounds, 6 points de dÃ©gÃ¢ts supplÃ©mentaires, 6 points de vie guÃ©ris
+Niveau 20 : 4 rounds, 8 points de dÃ©gÃ¢ts supplÃ©mentaires, 8 points de vie guÃ©ris
+Niveau 25 : 5 rounds, 10 points de dÃ©gÃ¢ts supplÃ©mentaires, 10 points de vie guÃ©ris
+Niveau 30 : 6 rounds, 12 points de dÃ©gÃ¢ts supplÃ©mentaires, 12 points de vie guÃ©ris~
 @2006 = ~Pouvoirs de l'Enfant de Bhaal
 
-<CHARNAME>  a acquis la capacité, utilisable une fois par jour : 
-Résurrection (Nécromancie)
+<CHARNAME>  a acquis la capacitÃ©, utilisable une fois par jour : 
+RÃ©surrection (NÃ©cromancie)
 
-Portée : Contact
-Durée : permanent
+PortÃ©e : Contact
+DurÃ©e : permanent
 Temps d'incantation : 1
-Zone d'effet : Créature ciblée
+Zone d'effet : CrÃ©ature ciblÃ©e
 Jet de Sauvegarde : Aucun
 
-Tout comme le sort de 5ème niveau de prêtre Rappel à la vie, Résurrection ramène un personnage à la vie. Il est cependant ressuscité avec le maximum de ses points de vie.~
+Tout comme le sort de 5Ã¨me niveau de prÃªtre Rappel Ã  la vie, RÃ©surrection ramÃ¨ne un personnage Ã  la vie. Il est cependant ressuscitÃ© avec le maximum de ses points de vie.~
 @2007 = ~Pouvoirs de l'Enfant de Bhaal
 
-<CHARNAME> a gagné 25% de résistance aux dégâts physiques (par exemple aux dégâts tranchants, perforants, contondants et aux Projectiles).~
+<CHARNAME> a gagnÃ© 25% de rÃ©sistance aux dÃ©gÃ¢ts physiques (par exemple aux dÃ©gÃ¢ts tranchants, perforants, contondants et aux Projectiles).~
 
