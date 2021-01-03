@@ -12,14 +12,16 @@ BEGIN
   BEGIN
     COPY ~%MOD_FOLDER%/portraits/NYOSHIEM.BMP~ ~override/NYOSHIEM.BMP~          
     COPY ~%MOD_FOLDER%/portraits/NYOSHIES.BMP~ ~override/NYOSHIES.BMP~
-  END
+	  COPY ~%MOD_FOLDER%/portraits/NYOSHIML.BMP~ ~override/NYOSHIML.BMP~ 
+END
   ELSE
   BEGIN
     COPY ~%MOD_FOLDER%/portraits/NYOSHIMM.BMP~ ~override/NYOSHIMM.BMP~          
     COPY ~%MOD_FOLDER%/portraits/NYOSHIMS.BMP~ ~override/NYOSHIMS.BMP~
     COPY ~%MOD_FOLDER%/portraits/NYOSHIMM.BMP~ ~portraits/NYOSHIMM.BMP~
     COPY ~%MOD_FOLDER%/portraits/NYOSHIMS.BMP~ ~portraits/NYOSHIMS.BMP~
+    COPY ~%MOD_FOLDER%/portraits/NYOSHIML.BMP~ ~override/NYOSHIML.BMP~ 
+	  COPY ~%MOD_FOLDER%/portraits/NYOSHIML.BMP~ ~portraits/NYOSHIML.BMP~ 
   END
 END	// setup_original_yoshimo_portrait
-
 
