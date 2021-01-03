@@ -6,12 +6,12 @@ BEGIN
   /////////////////////////////////////////////////////
   /////////////////////////////////////////////////////
 
-  COPY ~%mod_root%/ubnull.itm~ ~override/ubgorje.xxx~ //null file to identify this component
+  COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubgorje.xxx~ //null file to identify this component
 
   ADD_JOURNAL EXISTING TITLE (#74322) @30 @88 USING ~%tra_loc%/%LANGUAGE%/ubdialog.tra~
 
-  EXTEND_TOP ~AR1401.bcs~ ~%mod_root%/gorje/U!1401.baf~  /* Temple Ruins */
-  EXTEND_TOP ~AR0406.bcs~ ~%mod_root%/gorje/U!0406.baf~  /* Copper Coronet */
+  EXTEND_TOP ~AR1401.bcs~ ~%MOD_FOLDER%/gorje/U!1401.baf~  /* Temple Ruins */
+  EXTEND_TOP ~AR0406.bcs~ ~%MOD_FOLDER%/gorje/U!0406.baf~  /* Copper Coronet */
 
   COPY_EXISTING ~gorje.cre~ ~override/gorje.cre~
     WRITE_BYTE    ~0x2f~      ~0x53~               /* fix hair and skin color */
@@ -23,9 +23,9 @@ BEGIN
     WRITE_BYTE    ~0x2f~      ~0x53~               /* fix hair and skin color */
     WRITE_BYTE    ~0x32~      ~0x4f~
 
-  COMPILE ~%mod_root%/gorje/gorje.d~
-          ~%mod_root%/gorje/scdur.d~
-          ~%mod_root%/gorje/u!dwarvs.d~
+  COMPILE ~%MOD_FOLDER%/gorje/gorje.d~
+          ~%MOD_FOLDER%/gorje/scdur.d~
+          ~%MOD_FOLDER%/gorje/u!dwarvs.d~
   USING   ~%tra_loc%/%s/ubdialog.tra~
 END	// setup_extended_illithium_quest
 

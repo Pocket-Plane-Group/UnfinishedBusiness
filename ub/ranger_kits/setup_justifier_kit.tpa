@@ -8,14 +8,14 @@ BEGIN
 
   /* AUTHOR   ~andyr@gibberlings3.net~ */
 
-  COPY ~%mod_root%/ranger_kits/A#justif.2DA~ ~override/A#justif.2DA~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#justif.2DA~ ~override/A#justif.2DA~
 
   COPY_EXISTING ~SPCL331.SPL~ ~override/A#just01.SPL~
     WRITE_LONG 0x9e 10
     WRITE_LONG 0xce 10
 
-  COPY ~%mod_root%/ranger_kits/A#just02.SPL~ ~override/A#just02.SPL~
-       ~%mod_root%/ranger_kits/A#justns.SPL~ ~override/A#justns.SPL~
+  COPY ~%MOD_FOLDER%/ranger_kits/A#just02.SPL~ ~override/A#just02.SPL~
+       ~%MOD_FOLDER%/ranger_kits/A#justns.SPL~ ~override/A#justns.SPL~
     SAY NAME1 #-1
     SAY NAME2 #-1
 

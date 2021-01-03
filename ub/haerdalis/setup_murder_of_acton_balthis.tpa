@@ -6,17 +6,17 @@ BEGIN
   /////////////////////////////////
   /////////////////////////////////
 
-  COPY ~%mod_root%/ubnull.itm~ ~override/ubhaer.xxx~ //null file to identify this component
+  COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubhaer.xxx~ //null file to identify this component
 
   ADD_JOURNAL @1301 @1302 @1303 @1304 @1305 @1306 @1307 @1308 @1309 @1310
 
-  COMPILE ~%mod_root%/haerdalis/haerdalis.d~
+  COMPILE ~%MOD_FOLDER%/haerdalis/haerdalis.d~
   USING   ~%tra_loc%/%s/haerdalis.tra~
 
-  COMPILE	~%mod_root%/haerdalis/o#halieu.baf~
-  	~%mod_root%/haerdalis/o#hapri.baf~
-  	~%mod_root%/haerdalis/o#hajan.baf~
-  	~%mod_root%/haerdalis/o#hahaer.baf~
+  COMPILE	~%MOD_FOLDER%/haerdalis/o#halieu.baf~
+  	~%MOD_FOLDER%/haerdalis/o#hapri.baf~
+  	~%MOD_FOLDER%/haerdalis/o#hajan.baf~
+  	~%MOD_FOLDER%/haerdalis/o#hahaer.baf~
 
   REPLACE_TRIGGER_TEXT ~hapip~    ~"haction"~      ~"hacton"~ // Stolen from the Fixpack, yay!
 
@@ -27,11 +27,11 @@ BEGIN
   COPY_EXISTING haquat.cre override
     ADD_CRE_ITEM misc6g #0 #0 #0 NONE INV1
 
-  EXTEND_TOP ~AR0506.bcs~    ~%mod_root%/haerdalis/AR0506.baf~
-  EXTEND_TOP ~AR1005.bcs~    ~%mod_root%/haerdalis/AR1005.baf~
-  EXTEND_TOP ~AR0700.bcs~    ~%mod_root%/haerdalis/AR0700.baf~
-  EXTEND_TOP ~Haerdali.bcs~  ~%mod_root%/haerdalis/Haerdali.baf~
-  EXTEND_TOP ~initrg13.bcs~  ~%mod_root%/haerdalis/initrg13.baf~
+  EXTEND_TOP ~AR0506.bcs~    ~%MOD_FOLDER%/haerdalis/AR0506.baf~
+  EXTEND_TOP ~AR1005.bcs~    ~%MOD_FOLDER%/haerdalis/AR1005.baf~
+  EXTEND_TOP ~AR0700.bcs~    ~%MOD_FOLDER%/haerdalis/AR0700.baf~
+  EXTEND_TOP ~Haerdali.bcs~  ~%MOD_FOLDER%/haerdalis/Haerdali.baf~
+  EXTEND_TOP ~initrg13.bcs~  ~%MOD_FOLDER%/haerdalis/initrg13.baf~
 
   COPY_EXISTING ~amng1.cre~ ~override/o#halie1.cre~
     WRITE_ASCII 0x248 ~o#halie1~   #8  // override

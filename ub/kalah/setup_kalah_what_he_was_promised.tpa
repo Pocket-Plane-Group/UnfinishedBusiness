@@ -8,7 +8,7 @@ BEGIN
 
   /* AUTHOR ~Andyr, andyr@gibberlings3.net~ */
 
-  COPY ~%mod_root%/ubnull.itm~ ~override/ubkalah.xxx~ //null file to identify this component
+  COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubkalah.xxx~ //null file to identify this component
 
   ADD_JOURNAL @254 @256 @258 @260 @262 @271 @344 @350 USING ~%tra_loc%/%LANGUAGE%/ubdialog.tra~
 
@@ -18,57 +18,57 @@ BEGIN
     SAY NAME1 @67
     SAY NAME2 @67
 
-  COPY ~%mod_root%/Kalah/U!KGen.SPL~ ~override/U!KGen.SPL~
+  COPY ~%MOD_FOLDER%/Kalah/U!KGen.SPL~ ~override/U!KGen.SPL~
     SAY NAME1 @40
     SAY NAME2 @40
 
-  COPY ~%mod_root%/Kalah/U!KGen.EFF~  ~override/U!KGen.EFF~
-  COPY ~%mod_root%/Kalah/U!KLamp.BAM~ ~override/U!KLamp.BAM~
+  COPY ~%MOD_FOLDER%/Kalah/U!KGen.EFF~  ~override/U!KGen.EFF~
+  COPY ~%MOD_FOLDER%/Kalah/U!KLamp.BAM~ ~override/U!KLamp.BAM~
 
-  COPY ~%mod_root%/Kalah/U!KBot1.ITM~ ~override/U!KBot1.ITM~
+  COPY ~%MOD_FOLDER%/Kalah/U!KBot1.ITM~ ~override/U!KBot1.ITM~
     SAY NAME1 @41
     SAY NAME2 @41
     SAY DESC @42
 
-  COPY ~%mod_root%/Kalah/U!KBot2.ITM~ ~override/U!KBot2.ITM~
+  COPY ~%MOD_FOLDER%/Kalah/U!KBot2.ITM~ ~override/U!KBot2.ITM~
     SAY NAME1 @41
     SAY NAME2 @41
     SAY DESC @43
 
-  COPY ~%mod_root%/Kalah/U!KGirl.CRE~ ~override/U!KGirl.CRE~
+  COPY ~%MOD_FOLDER%/Kalah/U!KGirl.CRE~ ~override/U!KGirl.CRE~
     SAY NAME1 @44
     SAY NAME2 @44
 
-  COPY ~%mod_root%/Kalah/U!KJaf.CRE~  ~override/U!KJaf.CRE~
+  COPY ~%MOD_FOLDER%/Kalah/U!KJaf.CRE~  ~override/U!KJaf.CRE~
     SAY NAME1 @45
     SAY NAME2 @45
 
-  COPY ~%mod_root%/Kalah/U!Krais.CRE~ ~override/U!Krais.CRE~
+  COPY ~%MOD_FOLDER%/Kalah/U!Krais.CRE~ ~override/U!Krais.CRE~
     SAY NAME1 #9282
     SAY NAME2 #9282
 
-  COPY ~%mod_root%/Kalah/U!Kdead.CRE~ ~override/U!Kdead.CRE~
+  COPY ~%MOD_FOLDER%/Kalah/U!Kdead.CRE~ ~override/U!Kdead.CRE~
     SAY NAME1 @46
     SAY NAME2 @46
 
-  COPY ~%mod_root%/Kalah/U!Kgen.CRE~  ~override/U!Kgen.CRE~
+  COPY ~%MOD_FOLDER%/Kalah/U!Kgen.CRE~  ~override/U!Kgen.CRE~
     SAY NAME1 #2880
     SAY NAME2 #2880
 
-  COMPILE EVALUATE_BUFFER ~%mod_root%/Kalah/U!KGirl.BAF~
-                          ~%mod_root%/Kalah/U!Ktalk.BAF~
-                          ~%mod_root%/Kalah/U!Kjaf.BAF~
-                          ~%mod_root%/Kalah/U!Kdead.BAF~
-                          ~%mod_root%/Kalah/U!KGirl.D~
-                          ~%mod_root%/Kalah/U!Kjaf.D~
-                          ~%mod_root%/Kalah/U!Kgen.D~
-                          ~%mod_root%/Kalah/U!Kdead.D~
-                          ~%mod_root%/Kalah/U!Krais.D~
-                          ~%mod_root%/Kalah/U!KImoen.d~
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/Kalah/U!KGirl.BAF~
+                          ~%MOD_FOLDER%/Kalah/U!Ktalk.BAF~
+                          ~%MOD_FOLDER%/Kalah/U!Kjaf.BAF~
+                          ~%MOD_FOLDER%/Kalah/U!Kdead.BAF~
+                          ~%MOD_FOLDER%/Kalah/U!KGirl.D~
+                          ~%MOD_FOLDER%/Kalah/U!Kjaf.D~
+                          ~%MOD_FOLDER%/Kalah/U!Kgen.D~
+                          ~%MOD_FOLDER%/Kalah/U!Kdead.D~
+                          ~%MOD_FOLDER%/Kalah/U!Krais.D~
+                          ~%MOD_FOLDER%/Kalah/U!KImoen.d~
   USING   ~%tra_loc%/%s/ubdialog.tra~
 
-  EXTEND_TOP ~AR0700.bcs~ ~%mod_root%/Kalah/U!K0700.baf~
-  EXTEND_TOP ~AR0022.bcs~ ~%mod_root%/Kalah/U!K0022.baf~
+  EXTEND_TOP ~AR0700.bcs~ ~%MOD_FOLDER%/Kalah/U!K0700.baf~
+  EXTEND_TOP ~AR0022.bcs~ ~%MOD_FOLDER%/Kalah/U!K0022.baf~
 END	// setup_kalah_what_he_was_promised
 
 

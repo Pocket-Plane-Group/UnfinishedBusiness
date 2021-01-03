@@ -6,7 +6,7 @@ BEGIN
   ////////////////////////////////
   ////////////////////////////////
 
-  COMPILE ~%mod_root%/crane/u!ccrane.d~
+  COMPILE ~%MOD_FOLDER%/crane/u!ccrane.d~
   USING   ~%tra_loc%/%s/ubdialog.tra~
 
   STRING_SET ~We haven't given a thought to that since we talked with you. We realized that we were the only ones that mattered, ~ ~We haven't given a thought to that since we talked with you. We realized that we were the only ones that mattered.~ /* Kulyok */
@@ -16,10 +16,10 @@ BEGIN
     READ_ASCII 0x94 area_script
   BUT_ONLY
 
-  EXTEND_TOP ~%area_script%.bcs~ ~%mod_root%/crane/AR0021.baf~
+  EXTEND_TOP ~%area_script%.bcs~ ~%MOD_FOLDER%/crane/AR0021.baf~
 
   /* Crooked Crane, Level Two */
-  EXTEND_TOP ar0022.bcs ~%mod_root%/crane/u!0022.baf~
+  EXTEND_TOP ar0022.bcs ~%MOD_FOLDER%/crane/u!0022.baf~
 END	// setup_crooked_crane
 
 

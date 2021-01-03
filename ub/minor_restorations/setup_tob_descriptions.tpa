@@ -6,7 +6,7 @@ BEGIN
   ////////////////////////////////////
   ////////////////////////////////////
 
-  COPY ~%mod_root%/ubnull.itm~ ~override/ubtobitm.xxx~ //null file to identify this component
+  COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubtobitm.xxx~ //null file to identify this component
 
   COPY_EXISTING ~FIGURE01.itm~ ~override/FIGURE01.itm~
     SAY IDENTIFIED_DESC @74
