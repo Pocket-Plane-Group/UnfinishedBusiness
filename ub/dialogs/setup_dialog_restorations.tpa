@@ -143,11 +143,11 @@ BEGIN
   BUT_ONLY_IF_IT_CHANGES 
 
   //Simyaz and the Silver Sword in the Underdark.
-  <<<<<<<<ub/udsimyaz_reaction.d
+  <<<<<<<<.../ub/udsimyaz_reaction.d
   REPLACE_TRIGGER_TEXT udsimyaz ~ReactionGT(LastTalkedToBy,FRIENDLY_UPPER)~ ~Reaction(LastTalkedToBy,FRIENDLY_UPPER)~
   >>>>>>>>
 
-  COMPILE ~%MOD_FOLDER%/udsimyaz_reaction.d~
+  COMPILE ~.../ub/udsimyaz_reaction.d~
   USING   ~%MOD_FOLDER%/ubnull.tra~
 
 
