@@ -1,7 +1,8 @@
-*.tp?	text
-*.baf	text
-*.2da	text
-*.d	text
+*.tp?	text eol=crlf
+*.tra	text eol=crlf
+*.baf	text eol=crlf
+*.2da	text eol=crlf
+*.d	text eol=crlf
 *.ini	text eol=crlf
 *.txt	text eol=crlf
 *.htm	text eol=crlf

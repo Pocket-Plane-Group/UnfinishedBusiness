@@ -8,11 +8,9 @@ The Unfinished Business mod is one of the oldest mods for Baldur's Gate 2 and re
 
 ## Version History
 
-Version 28.1
-- Updated French translation, thanks to Jazira
-- Fix Yoshimo's original portrait not being displayed
-
 Version 28
+- Updated WeiDU to version 247.
+- Updated French translation, thanks to Jazira.
 - Updated Russian translation, thanks to yota13 & Arcanecoast Team.
 - The Jade Hound Figurine from Minsc's quest has a charge when you get it.
 - UB will no longer restore Shazzellim +1 if QuestPack has already done so.
@@ -21,6 +19,7 @@ Version 28
 - Implemented encapsulation and immutabilty.
 - Added conditions to ensure components only get installed on compatible games.
 - The restored ranger kits are now compatible with EE games.
+- Fix Yoshimo's original portrait not being displayed.
 
 Version 27
 - Updated WeiDU to version 246.
