@@ -16,7 +16,7 @@
 @16   = ~Alors, ces squelettes et tout le reste... Ce sont vos serviteurs ?~
 @17   = ~Enchanté. Je dois y aller, maintenant.~ ~Enchantée. Je dois y aller, maintenant.~
 @18   = ~Pourquoi es-tu ici ?~
-@19   = ~De l'illithium !!?? Il t'l'a dit ?? Le triple imbécile ! L' asticot plein d'alcool ! Le bougre d'idiot de drow de lambin ! Où est-il ? Je vais faire sauter sa tête vide et m'en servir comme pot de chambre !! ( Pas foutu de me sauver, mais il hésite pas à indiquer cet endroit à une bande de saletés d'la surface...)~
+@19   = ~De l'illithium ?! Il t'l'a dit ?! Le triple imbécile ! L'asticot plein d'alcool ! Le bougre d'idiot de drow de lambin ! Où est-il ? Je vais faire sauter sa tête vide et m'en servir comme pot de chambre !!! (Pas foutu de me sauver, mais il hésite pas à indiquer cet endroit à une bande de saletés d'la surface...)~
 @20   = ~Alors l'illithium est bien ici. Du calme, j'en veux juste un peu et je m'en vais.~
 @21   = ~Ton frère est à la Couronne de Cuivre. Il déprime d'avoir perdu sa caverne aux trésors. Comment se fait-il que tu sois toujours ici, avec tous ces monstres dans les environs ?~
 @22   = ~À moins qu'tu sois aussi miro qu'un rat des cavernes, et aussi épais que du granit, tu dois avoir remarqué qu'ces ruines ont été envahies par une bande de bêtes. Quelqu'chose d'énorme s'est établi en-dessous d'nous, et a pris le contrôle de ma mine. Moi, chuis là et j'cherche un moyen d'sortir. La voie est libre derrière ? J'peux m'en aller en toute sécurité ?~
@@ -24,7 +24,7 @@
 @24   = ~Désolé, j'ai déjà eu du mal à ne pas me faire voir. À moins que tu veuilles te frayer un chemin par la force, tu peux pas sortir d'ici.~ ~Désolée, j'ai déjà eu du mal à ne pas me faire voir. À moins que tu veuilles te frayer un chemin par la force, tu peux pas sortir d'ici.~
 @25   = ~La voie est libre, tu peux t'enfuir.~
 @26   = ~Ça avait pas l'air d'êtr' le genre à aimer la conversation, si tu vois c'que j'veux dire. Il s'est ouvert un chemin par les flammes et s'est établi là en-dessous. J'le laisse tranquille, et j'en suis bien content. Maintenant, dis-moi, il y a une façon de quitter c'tte foutue prison sans danger ?~
-@27   = ~Ca t'fait marrer, hein, vermine d'la surface ? Gorje, abandonné par ce tas d'excréments de drow qui se fait passer pour son frère. Sacrément drôle, espèce de salopard. C'est à cause d'mes "serviteurs" qu'cette caverne a plus aucune valeur. Nos voies d'expédition sont bloquées, à moins qu't'aies ouvert un chemin jusqu'à la porte.~ ~Ca t'fait marrer, hein, vermine d'la surface ? Gorje, abandonné par ce tas d'excréments de drow qui se fait passer pour son frère. Sacrément drôle, espèce de saloparde. C'est à cause d'mes "serviteurs" qu'cette caverne a plus aucune valeur. Nos voies d'expédition sont bloquées, à moins qu't'aies ouvert un chemin jusqu'à la porte.~
+@27   = ~Ça t'fait marrer, hein, vermine d'la surface ? Gorje, abandonné par ce tas d'excréments de drow qui se fait passer pour son frère. Sacrément drôle, espèce de salopard. C'est à cause d'mes "serviteurs" qu'cette caverne a plus aucune valeur. Nos voies d'expédition sont bloquées, à moins qu't'aies ouvert un chemin jusqu'à la porte.~ ~Ça t'fait marrer, hein, vermine d'la surface ? Gorje, abandonné par ce tas d'excréments de drow qui se fait passer pour son frère. Sacrément drôle, espèce de saloparde. C'est à cause d'mes "serviteurs" qu'cette caverne a plus aucune valeur. Nos voies d'expédition sont bloquées, à moins qu't'aies ouvert un chemin jusqu'à la porte.~
 @28   = ~Unger est encore plus idiot qu'toi pour penser qu'un incompétent d'la surface comme toi pourrait m'venir en aide. Mais si t'en es pas capable, alors je le ferai moi-même. C'est toujours mieux que de rester ici à sentir ta puanteur !~ ~Unger est encore plus idiot qu'toi pour penser qu'une incompétente d'la surface comme toi pourrait me venir en aide. Mais si t'en es pas capable, alors je le ferai moi-même. C'est toujours mieux que de rester ici à sentir ta puanteur !~
 @29   = ~Sérieux ?! Sacrés feux de l'enfer, mon idiot d'frangin a fait un bon choix pour une fois ?! Dans ce cas, je m'en vais le trouver, l'imbécile. Et je t'conseille de partir d'cette saleté d'endroit avant qu'la bête du dessous te trouve et te mange pour son déjeuner. Qui sait ? Elle trouvera peut-être que t'es croustillant, et qu'tu fais l'affaire comme encas.~ ~Sérieux ?! Sacrés feux de l'enfer, mon idiot d'frangin a fait un bon choix pour une fois ?! Dans ce cas, je m'en vais le trouver, l'imbécile. Et je t'conseille de partir d'cette saleté d'endroit avant qu'la bête du dessous te trouve et te mange pour son déjeuner. Qui sait ? Elle trouvera peut-être que t'es croustillante, et qu'tu fais l'affaire comme encas.~
 @30   = ~S'attirer les services de Sire Sarles pour le temple.
@@ -40,8 +40,8 @@ J'ai retrouvé Gorje, le frère d'Unger. Espérons seulement qu'il respectera notre
 @38   = ~Tu m'as bien compris, duergar. Tu devrais écouter ce que j'ai à dire. J'ai besoin d'illithium.~
 @39   = ~Pas besoin de se fâcher, je ne voulais pas te manquer de respect. C'est Jerlia qui m'envoie. J'ai besoin d'illithium.~
 @40   = ~Toutes mes excuses, je m'en vais.~
-@41   = ~Dégage, mon frère. J'ai rien à te dire, même si t'es de la bonne taille.~ ~Dégage, ma soeur. J'ai rien à te dire, même si t'es de la bonne taille.~
-@42   = ~Et j'sais pourquoi. T'es pas plus mon frère qu'un drow le serait.~ ~Et j'sais pourquoi. T'es pas plus ma soeur qu'une drow le serait.~
+@41   = ~Dégage, mon frère. J'ai rien à te dire, même si t'es de la bonne taille.~ ~Dégage, ma sœur. J'ai rien à te dire, même si t'es de la bonne taille.~
+@42   = ~Et j'sais pourquoi. T'es pas plus mon frère qu'un drow le serait.~ ~Et j'sais pourquoi. T'es pas plus ma sœur qu'une drow le serait.~
 @43   = ~Désolé de t'avoir dérangé. Je te laisse tranquille.~
 @44   = ~Tes paroles veulent rien dire. Garde-les pour toi, car tu tireras rien d'moi.~
 @45   = ~Ah, vraiment ? Sacrés feux de l'enfer ! Je crois que je vais devoir parler à la petite dame. Tu as bien dû la payer assez pour qu'elle puisse partager avec moi. Elle va voir que c'est ce qu'il y a de mieux à faire, la traîtresse, si elle connaît ses affaires.~
@@ -58,7 +58,7 @@ J'ai retrouvé Gorje, le frère d'Unger. Espérons seulement qu'il respectera notre
 @56   = ~Oh, des dieux d'la surface... J'm'en fiche. Ça pourrait aussi bien être pour la gloire d'la chaise sur laquelle chuis assis. Je pourrais passer la journée à t'expliquer pourquoi j'me fiche et d'toi et d'ton dieu, mais ça serait inutile. Même pas d'quoi passer le temps entre deux verres.~
 @57   = ~Je connais Talos. Je dois admettre que pour un dieu de la surface, il a quelques idées intéressantes. Elles ne me concernent pas du tout, mais elles sont intéressantes.~
 @58   = ~Tu penses aller crier sur les toits que chuis un duergar, dans l'espoir d'me faire changer d'idée ? Tu penses peut-être engager un crieur public ? Ça te donnera foutrement rien. Personne ici fera un geste contre moi, et t'attireras jamais l'attention sur moi. En plus, ça te donnerait toujours rien. À part peut-être entraîner un peu le bruit énervant qui te sert de voix.~
-@59   = ~Oh, parce que maintenant tu veux être mon ami ? Par pure bonté ? T'as trouvé une place pour un gars comme moi dans ton grand coeur tout flasque ?? Pourquoi j'devrais me donner la peine de t'écouter ?~
+@59   = ~Oh, parce que maintenant tu veux être mon ami ? Par pure bonté ? T'as trouvé une place pour un gars comme moi dans ton grand cœur tout flasque ?! Pourquoi j'devrais me donner la peine de t'écouter ?~
 @60   = ~Je ne voudrais pas blesser un simple marchand. Où puis-je trouver de l'aide ?~
 @61   = ~Si tu pouvais régler ton problème, tu aurais déjà de l'illithium. Que peux-tu faire ?~
 @62   = ~Peut-être, mais j'peux rien y faire. J'peux pas te donner c'que tu veux, et j'ai aucun moyen de changer ça. Et aussi, j'ai aucune raison de penser que tu pourrais vouloir m'aider.~
@@ -96,19 +96,19 @@ Unger Hilldark m'a dit que son dernier chargement d'illithium n'était pas arrivé
 @92   = ~Oui, et sans ton aide, espèce de sac de crottin de drow peureux. Tu engages ces sacrés "aventuriers" d'la surface, pendant que toi, tu restes à boire ta bière et à gémir comme une femme !~
 @93   = ~Espèce d'ingrat ! Je n'aurais jamais dû leur dire où tu étais ! J'aurais dû te laisser pourrir dans ton maudit trou ! Alors, où est l'illithium ?!~
 @94   = ~L'illithium ?~
-@95   = ~Oui, l'illithium, espèce de kobold sans cervelle ! L'illithium !! Tu sais, le dernier chargement que tu devais me livrer ? Pour qu'on puisse faire un peu d'argent et renouveler les pots-de-vin ? Cet illithium-là !?~
+@95   = ~Oui, l'illithium, espèce de kobold sans cervelle ! L'illithium !!! Tu sais, le dernier chargement que tu devais me livrer ? Pour qu'on puisse faire un peu d'argent et renouveler les pots-de-vin ? Cet illithium-là !?~
 @96   = ~Oh... Hem... L'illithium. Et oui. Eh bien, mon frère, voici ce qui s'est passé. Y' en avait plus. J'ai exploré la mine de fond en comble, et j'en ai pas trouvé une seule once. Quelqu'un l'a mise à sac avant notre arrivée. Au moins, tu as toujours le dernier envoi.~
 @97   = ~Désolé d'interrompre cette charmante réunion de famille, mais qu'en est-il de l'illithium ?~
 @98   = ~Alors, toi tu n'en as pas, et toi non plus ? Où vais-je trouver de l'illithium ?~
 @99   = ~Alors j'ai fait tout ce chemin, risqué ma vie, et vous n'avez pas d'illithium ?~
-@100  = ~Pas d'illithium ?! Il n'en reste plus ?! J'ai un commerce dont je dois m'occuper, et tu oses revenir ici sans illithium ! Espèce de tas d'excréments de troll ! Tu vas me ruiner ! J'avais besoin de ce chargement, et tu as le culot de te faire capturer et enfermer quelque part, ce qui m'a forcé à engager ces surfacins amoureux des arbres pour te secourir, et tu n'as même pas eu la décence de mourir plutôt que de revenir ici sans illithium !!~
+@100  = ~Pas d'illithium ?! Il n'en reste plus ?! J'ai un commerce dont je dois m'occuper, et tu oses revenir ici sans illithium ! Espèce de tas d'excréments de troll ! Tu vas me ruiner ! J'avais besoin de ce chargement, et tu as le culot de te faire capturer et enfermer quelque part, ce qui m'a forcé à engager ces surfacins amoureux des arbres pour te secourir, et tu n'as même pas eu la décence de mourir plutôt que de revenir ici sans illithium !!!~
 @101  = ~Mais ch'te dis qu'il en restait plus. Mais t'as encore la dernière livraison, non ? Celle que j't'ai envoyée il y a quelques semaines ?~
 @102  = ~Donc tu as de l'illithium ? Pourtant tu disais que tu n'en avais pas ?~
 @103  = ~Et où est cet illithium ? Je t'ai dis que j'en avais besoin !~
 @104  = ~Comme j'te l'ai déjà dit, je n'ai pas d'illithium en ce moment. Son chargement devait regarnir mes stocks.~
 @105  = ~T'as déjà réussi à vendre toute la cargaison ?~
 @106  = ~Euh... Pas exactement. La cargaison est plutôt... perdue. Euh, volée, plus exactement.~
-@107  = ~VOLÉE ?!! Et tu m'accuses de ne plus en trouver quand y'en a plus ! Espèce d'ordure d'illithild ! On t'as volé 200 livres d'illithium ?!!~
+@107  = ~VOLÉE ?! Et tu m'accuses de ne plus en trouver quand y'en a plus ! Espèce d'ordure d'illithild ! On t'as volé 200 livres d'illithium ?!~
 @108  = ~On considère ces imbéciles comme une menace ? Ils arrivent à peine à garder leur précieux métal dans le même endroit.~
 @109  = ~Sauvez-moi de la folie des duergars. Après tous ces pleurnichements, j'ai besoin d'une bière !~
 @110  = ~Pff. On s'est baladé partout dans ce donjon pour rien ! <CHARNAME>, quelle perte de temps.~
@@ -175,8 +175,8 @@ J'ai trouvé les ouvriers des égouts et récupéré le Fléau des Araignées. Je dois 
 @165  = ~Je peux peut-être nous aider tous les deux. Il est très important que je le trouve. Se pourrait-il que vous sachiez où il a pu s'enfuir ?~
 @166  = ~Je suis touché. Où puis-je le trouver ?~
 @167  = ~Sa famille possède quelques terres dans les Collines d'Umar, à l'est. Je ne suis pas sûre, mais je pense qu'il a fui dans les bois par là-bas.~
-@168  = ~Si vous le voyez, s'il vous plaît, dites-lui... Non, je suis désolée mais je ne peux vous en dire plus. Mon coeur souffre pour mon bien-aimé Valygar. S'il vous plaît, vérifiez qu'il va bien. Je voudrais être seule à présent.~
-@169  = ~Valygar ?!! Valygar, est-ce vraiment toi ?~
+@168  = ~Si vous le voyez, s'il vous plaît, dites-lui... Non, je suis désolée mais je ne peux vous en dire plus. Mon cœur souffre pour mon bien-aimé Valygar. S'il vous plaît, vérifiez qu'il va bien. Je voudrais être seule à présent.~
+@169  = ~Valygar ?! Valygar, est-ce vraiment toi ?~
 @170  = ~Suna Seni ! Oh, comme j'ai espéré revoir ton visage magnifique à nouveau ! Tu m'as tellement manquée depuis que j'ai fuis la ville. Je suis désolé d'avoir dû te quitter si soudainement et sans explications. Je souffre à l'idée de t'avoir blessée.~
 @171  = ~Oh, Valygar, je m'en moque. Je comprends ; j'ai parlé à Hervo quand j'ai appris ta disparition. Maudits mages ! Leur politique de sorcellerie est un fléau pour cette ville. Je suis si heureuse de voir que tu n'as rien !~
 @172  = ~Oui, mon amour, je vais bien. <CHARNAME> m'a rendu visite dans ma cabane et m'a proposé son aide dans ma quête contre Lavok.~
@@ -189,11 +189,11 @@ J'ai trouvé les ouvriers des égouts et récupéré le Fléau des Araignées. Je dois 
 @179  = ~<CHARNAME> ! Attends, s'il te plaît ! Je dois te parler.~
 @180  = ~Suna Seni, que fais-tu dans cet endroit maudit ? Pourquoi aides-tu ce mage ?~
 @181  = ~C'est ce dont je voudrais te parler. Je... Je voudrais m'excuser pour mes actions.~
-@182  = ~Des excuses ??? Je suis intrigué... continue, s'il te plaît.~ ~Des excuses ??? Je suis intriguée... continue, s'il te plaît.~
-@183  = ~Des excuses... ha ! Ca devrait être marrant.~
+@182  = ~Des excuses ?! Je suis intrigué... continue, s'il te plaît.~ ~Des excuses ?! Je suis intriguée... continue, s'il te plaît.~
+@183  = ~Des excuses... ha ! Ça devrait être marrant.~
 @184  = ~Il est vrai que j'ai travaillé pour Irenicus. Un jour, il n'y a pas si longtemps, un messager est venu me trouver, me disant qu'un puissant mage désirait mes services. Il avait entendu parlé de mon passage à l'armée et sentait que j'étais la personne qu'il fallait pour le travail qu'il avait à proposer.~
-@185  = ~Ma rencontre avec le mage fut tout sauf banale. Il m'a tout dit sur les Rejetons de Bhaal et du mal qui les suivait. Ce n'est qu'après notre rencontre à la Couronne de Cuivre que j'ai appris son intention de vous capturer, <CHARNAME>. J'aurais dû faire mes propres recherches au lieu d'accepter son histoire telle quelle, mais il m'avait promis 50000 pièces d'or si je réussissais, ce qui est plus d'argent que ce que je n'en avais jamais rêvé, et j'ai donc accepté sa proposition.~
-@186  = ~50000 ???! Tu m'avais dit qu'il ne t'avait offert que 5000.~
+@185  = ~Ma rencontre avec le mage fut tout sauf banale. Il m'a tout dit sur les Rejetons de Bhaal et du mal qui les suivait. Ce n'est qu'après notre rencontre à la Couronne de Cuivre que j'ai appris son intention de vous capturer, <CHARNAME>. J'aurais dû faire mes propres recherches au lieu d'accepter son histoire telle quelle, mais il m'avait promis 50 000 pièces d'or si je réussissais, ce qui est plus d'argent que ce que je n'en avais jamais rêvé, et j'ai donc accepté sa proposition.~
+@186  = ~50 000 ?! Tu m'avais dit qu'il ne t'avait offert que 5000.~
 @187  = ~Je t'ai menti, Valygar, car je connaissais ta méfiance à l'égard des mages. Si je t'avais dit le vrai prix, tu m'aurais interdit d'accepter le travail. Puis tu as quitté la cité et je me suis immergée dans mon travail. Irenicus peut être très persuasif...~
 @188  = ~Je suis désolé de te quitter, mon amour. Si seulement j'avais su, alors j'aurais pourchassé ce mage moi-même. Il semblerait que la malédiction de ma famille pèse plus lourdement que ce que je ne le pensais.~
 @189  = ~Aussi expérimenté que tu sois, Valygar, ce mage est trop puissant. Il t'aurait tué comme il le voulait. Je viens à peine d'apprendre ses plans et ils ne sont rien moins que déments.~
@@ -216,7 +216,7 @@ J'ai trouvé les ouvriers des égouts et récupéré le Fléau des Araignées. Je dois 
 @206  = ~Je viens maintenant vous offrir mon assistance. Irenicus doit être arrêté ! Si vous me le permettez, j'aimerais me joindre à votre groupe et me venger de cet homme qui ne m'a raconté que des mensonges !~
 @207  = ~Très bien, mon amour. Je t'attendrai chez toi sur les quais. Mais avant de partir, je pense pouvoir vous aider malgré tout.~
 @208  = ~Les autres aliénés, ici, ont d'immenses pouvoirs encore intacts. Relâchez-les et ils se joindront à vous dans votre combat contre Irenicus. Vous devriez aussi trouver ce balourd, Saemon Havarian. Il traîne quelque part dans ces couloirs. Aussi méprisable soit-il, il peut vous aider à trouver Irenicus.~
-@209  = ~Valygar, prend cette épée qui est la possession la plus chère à mon coeur. Utilise-la dans ta quête pour détruire ce démon...~
+@209  = ~Valygar, prend cette épée qui est la possession la plus chère à mon cœur. Utilise-la dans ta quête pour détruire ce démon...~
 @210  = ~Je dois partir avant qu'on ne découvre ma trahison. Valygar, prend soin de toi, et reviens-moi vite je t'en prie.~
 @211  = ~Pourchasser Valygar Corthala.
 
@@ -239,31 +239,31 @@ Hervo a mentionné que Valygar avait de nombreux amis dans l'armée Amnienne de l'
 @225  = ~Oui, Kalah est mort même si le rakshasa est parti.~
 @226  = ~Silence, esclave. Tu es là pour servir *ma* volonté. Je suis ton maître, à présent...~
 @227  = ~Ah, il ne reste plus qu'à s'occuper du souhait final.~
-@228  = ~Un souhait ? Je pensais que les génies devaient accorder trois voeux à chacun de leurs maîtres.~
+@228  = ~Un souhait ? Je pensais que les génies devaient accorder trois vœux à chacun de leurs maîtres.~
 @229  = ~Kahla en aurait donc utilisé deux pour lui-même, alors. Qu'a-t-il souhaité ?~
 @230  = ~Mettons-nous au travail, alors...~
 @231  = ~Le mot magique qui m'appelle hors de la lampe ne marche que trois fois, après quoi je suis à nouveau prisonnier et retourne en possession de cet infernal rakshasa, avec un nouveau mot de son choix.~
 @232  = ~Kalah a en effet fait deux souhaits, quoiqu'il semblerait que cela ne lui ait pas fait beaucoup de bien. Dommage. Pour un primaire, il était intéressant.~
 @233  = ~La société semble avoir fait de sa race une exception, entraînant son malheur et sa fin finale. Mais je m'égare. Tu voulais savoir ce qu'il avait souhaité...~
-@234  = ~Son premier voeu fut de pouvoir obtenir le respect des autres, je lui ai donc accordé un anneau que tu as récupéré, je suppose.~
+@234  = ~Son premier vœu fut de pouvoir obtenir le respect des autres, je lui ai donc accordé un anneau que tu as récupéré, je suppose.~
 @235  = ~Il avait ainsi le pouvoir d'influencer les autres mais ne savait pas comment le faire. Les gens lui prêtaient plus d'attention, mais cela voulait seulement dire qu'ils se moquaient plus violemment de lui lorsque sa magie échouait.~
 @236  = ~D'où son second souhait, prononcé sous la colère. Il voulait le pouvoir d'un sorcier, comme celui d'un ogre-mage. Je lui en ai donc donné le pouvoir et le corps...~
-@237  = ~Quoique cela ne l'a pas aidé non plus, comme tu l'as vu. En fait, je m'y attendais lorsque je t'ai posée l'énigme dans la tente. Ce qui veut dire, mortel, que le dernier voeu est pour toi.~
-@238  = ~Quel sera ton voeu, alors ?~
-@239  = ~Kalah n'a pas mérité la mort pour ses erreurs. Mon voeu est que tu le ramènes à la vie, pour qu'il puisse apprendre de ses erreurs.~
-@240  = ~Kalah n'aurait pas dû mourir pour ses crimes. Mon voeu est que tu le ramènes d'entre les morts.~
-@241  = ~Tu dis que tu dois continuer de servir cette rakshasa ? Mon voeu est donc pour ta liberté.~
+@237  = ~Quoique cela ne l'a pas aidé non plus, comme tu l'as vu. En fait, je m'y attendais lorsque je t'ai posée l'énigme dans la tente. Ce qui veut dire, mortel, que le dernier vœu est pour toi.~
+@238  = ~Quel sera ton vœu, alors ?~
+@239  = ~Kalah n'a pas mérité la mort pour ses erreurs. Mon vœu est que tu le ramènes à la vie, pour qu'il puisse apprendre de ses erreurs.~
+@240  = ~Kalah n'aurait pas dû mourir pour ses crimes. Mon vœu est que tu le ramènes d'entre les morts.~
+@241  = ~Tu dis que tu dois continuer de servir cette rakshasa ? Mon vœu est donc pour ta liberté.~
 @242  = ~Je souhaite que tu emprisonnes l'esprit de Kalah... pour toujours.~
 @243  = ~Je souhaite qu'Imoen soit ici, à mes côtés...~
 @244  = ~Je souhaite que le mage Jon Irenicus soit mort.~
-@245  = ~Jafir m'a peut-être échappé mais je voudrais qu'il soit mort. Pour mon dernier voeu, achève sa vie dans l'agonie.~
+@245  = ~Jafir m'a peut-être échappé mais je voudrais qu'il soit mort. Pour mon dernier vœu, achève sa vie dans l'agonie.~
 @246  = ~Je souhaiterais devenir le nouveau propriétaire de la lampe, pour que je puisse choisir un nouveau mot de commande et faire plus de souhaits !~
-@247  = ~Je vais choisir un voeu pour moi même.~
+@247  = ~Je vais choisir un vœu pour moi même.~
 @248  = ~Ton souhait est un ordre...~
 @249  = ~Attends !~
 @250  = ~Etrange, vraiment. Mon pouvoir ne semble pas être capable d'exaucer ce souhait.~
-@251  = ~Il semblerait que je doive t'accorder un autre voeu à la place.~
-@252  = ~Ah, je suis désolé, mortel ! Il est interdit de souhaiter d'autres voeux... Même si beaucoup ont essayé, néanmoins.~
+@251  = ~Il semblerait que je doive t'accorder un autre vœu à la place.~
+@252  = ~Ah, je suis désolé, mortel ! Il est interdit de souhaiter d'autres vœux... Même si beaucoup ont essayé, néanmoins.~
 @253  = ~J'utiliserai donc mon pouvoir pour restaurer la vie de Kalah. Adieu donc, aventuriers !~
 @254  = ~Kalah ressuscité.
 
@@ -275,15 +275,15 @@ Nous avons découverts le mot de commande pour la lampe du génie et nous avons es
 @257  = ~Tu ferais cela pour moi ? Je te remercie, mortel... Je peux enfin rentrer chez moi !~ ~Tu ferais cela pour moi ? Je te remercie, mortelle... Je peux enfin rentrer chez moi !~
 @258  = ~Libération du génie
 
-Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé le dernier voeu pour le libérer de l'emprise de la lampe.~
+Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé le dernier vœu pour le libérer de l'emprise de la lampe.~
 @259  = ~Une requête morbide, mortel, mais c'est fait ! Je vais maintenant te laisser.~
 @260  = ~La damnation de Kalah
 
-Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé le dernier voeu pour damner l'âme de Kalah pour l'éternité. Il n'aura point de repos.~
-@261  = ~Vous n'êtes pas les seuls qui apprécieront ce moment, mortels... Quoique je resterai lié à la lampe sur sa carcasse. Le voeu a été exaucé. Adieu !~
+Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé le dernier vœu pour damner l'âme de Kalah pour l'éternité. Il n'aura point de repos.~
+@261  = ~Vous n'êtes pas les seuls qui apprécieront ce moment, mortels... Quoique je resterai lié à la lampe sur sa carcasse. Le vœu a été exaucé. Adieu !~
 @262  = ~Le trépas de Jafir.
 
-Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé le dernier voeu pour tuer Jafir d'un manière pour le moins déplaisante.~
+Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé le dernier vœu pour tuer Jafir d'un manière pour le moins déplaisante.~
 @263  = ~Choisis avec sagesse, mortel ! Mais aie conscience qu'un souhait insensé te laissera sur ta faim...~
 @264  = ~Laisse-moi réfléchir...~
 @265  = ~H-hé ! Vous là ! Vous êtes les aventuriers qui ont sauvé le cirque, non ? Attendez ! Il faut que je vous parle !~
@@ -296,11 +296,11 @@ Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé 
 
 Après avoir libéré le cirque, une fille du nom de Myara nous a approché. Elle nous a donné une lampe, prétendant qu'elle était magique et la source du pouvoir de Kalah. Kalah l'a apparemment reçue d'un marchand nommé Jafir résidant au Crâne Tordu.~
 @272  = ~Vous êtes vilains aussi !~
-@273  = ~Je ... je voyage avec le cirque.~
+@273  = ~Je... je voyage avec le cirque.~
 @274  = ~Je m'appelle Myara. S'il vous plaît, j'ai quelque chose à vous dire, je crois que c'est important !~
 @275  = ~Vous me reconnaissez, mademoiselle Aérie ?~
 @276  = ~Mais bien sûr, petite ! <CHARNAME>, voici Myara. Qu'as-tu à nous dire ?~
-@277  = ~Alors qu'on arrivait à Athkatla, j'ai vu Kalah partir en cachette un jour pendant qu'on s'installait. Je... heu... ne voulais pas faire mes corvées alors je l'ai suivi.~
+@277  = ~Alors qu'on arrivait à Athkatla, j'ai vu Kalah partir en cachette un jour pendant qu'on s'installait. Je... euh... ne voulais pas faire mes corvées alors je l'ai suivi.~
 @278  = ~Bah ! Telle est l'éthique du travail de nos jours.~
 @279  = ~Il est allé au Crâne Tordu près des portes et a parlé à un marchant nommé Jafir. Jafir lui a vendu une lampe magique et a promis à Kalah qu'il pourrait obtenir ce qu'il voulait grâce à elle !~
 @280  = ~Je... je n'ai pas aimé Jafir. Quelque chose en lui me donnait des frissons dans le dos...~
@@ -329,7 +329,7 @@ Après avoir libéré le cirque, une fille du nom de Myara nous a approché. Elle no
 @303  = ~Vous amenez maintenant la lampe à moi et pourquoi ? Vous ne savez pas comment percer son secret. Il existe un mot de commande, Primaires, et c'est là la clef de la lampe.~
 @304  = ~Et dans le cas où vous seriez suffisamment stupides pour essayer de me faire mal pour l'avoir, voyez ma vraie nature !~
 @305  = ~Je... Qu'est-ce que cela ? Suis-je à nouveau vivant ?~
-@306  = ~Oui, Kalah. Nous avons utilisé le dernier voeu pour te ramener à la vie, dans l'espoir que tu pourrais en vivre une meilleure.~
+@306  = ~Oui, Kalah. Nous avons utilisé le dernier vœu pour te ramener à la vie, dans l'espoir que tu pourrais en vivre une meilleure.~
 @307  = ~Je voulais seulement être respecté, je... je m'y suis mal pris. Je le vois maintenant. Je ne sais pas comment vous remercier... J'ai vu les erreurs que j'ai commises.~
 @308  = ~Tout le monde mérite une deuxième chance, Kalah. Prends soin de toi.~
 @309  = ~Je le ferai, je le ferai... Je vais partir, recommencer à zéro, quelque part où ma race est acceptée. Une fois encore, je vous remercie de m'avoir accordé une deuxième chance.~
@@ -339,13 +339,13 @@ Après avoir libéré le cirque, une fille du nom de Myara nous a approché. Elle no
 @313  = ~Joli travail de m' avoir piqué mon illithium et de l'avoir laissé se tirer. J'imagine qu'il va aller à Esmeltaran ou ailleurs et tuera un paquet de gosses. C'est beau d'avoir fait ça, "héros". Il est temps pour moi et mon frangin de quitter c'te maudite cité. Viens, Gorje.~
 @314  = ~Hé, Vous l'avez fait ! Bon débarras pour ce sac à ordures visqueux. Quant à vous, hors d'ici ! Je n'ai rien de plus pour vous. Il est temps pour moi et mon frangin de quitter c'te maudite cité. Viens, Gorje.~
 @315  = ~Cette cabane semble avoir été habitée récemment, mais pour l'instant il n'y a aucun signe de son occupant.~
-@316  = ~Suna... non ! Suna !!~
+@316  = ~Suna... non ! Suna !!!~
 @317  = ~Suna Seni était une femme courageuse, Valygar, et je partage ta peine. Je partage aussi aussi ton désir de vengeance, alors allons débusquer une bonne fois pour toute le démon qui est à l'origine de notre douleur.~
 @318  = ~Cela est honteux. J'enrage de voir une fin aussi tragique pour cette si belle dame. C'est le temps de la séparation j'imagine. Allons-nous en.~
 @319  = ~Ne pleurons pas ceux qui sont tombés, rôdeur. La mort fait partie de la vie. Je ne l'ai que trop bien appris. Poursuivons la recherche de ce monstre : Irenicus.~
 @320  = ~Je suis d'accord. La mort de Suna sera un lourd fardeau à porter, mais je ne laisserai pas Irenicus affaiblir mon esprit. Il doit payer pour tous ses crimes !~
 @321  = ~Tes paroles froides et dures apportent peu de consolation à mon cœur brisé, <CHARNAME>, mais tu as cependant raison. Nous devons nous hâter. Partons.~
-@322  = ~Evasion de l' Asile
+@322  = ~Evasion de l'Asile
 
 Après le Labyrinthe, j'ai à nouveau rencontré Suna Seni. Elle s'est excusée pour ses actes et a pris conscience du véritable mal qu'était Irenicus. Elle m'a donné un conseil : si je dois combattre Irenicus, j'aurai besoin d'une armée, et il en existe une dans l'Asile... les mages prisonniers. Bien sûr, je serais fou de les libérer, mais elle pourrait avoir raison. Suna Seni est morte pour nous aider, et sa mort ne doit pas être vaine.~
 @323  = ~J'ai bien peur de ne pas vivre assez longtemps pour pouvoir vous aider dans votre combat contre Irenicus...~
@@ -375,6 +375,6 @@ Nous avons trouvé le mot qui commande la fiole du génie, et essayé d'utiliser le
 @345  = ~J'ai besoin que vous l'obteniez et que vous me l'ameniez ici. Je le détruirai, et restaurerai l'équilibre dans les sous-sols de la cité. Si trop d'araignées mouraient, les vermines se multiplieraient. Les exterminateurs ne pensent pas à ça.~
 @346  = ~Je n'ai aucun maître, et le seul à qui je dois quelque chose ne connaît pas mon plan. Non, ceci ne lui apportera finalement rien de bon.~
 @349  = ~Ohh, n'y a-t-il aucun endroit pour être tranquille dans cette ville ?~
-@350 = ~Libération du génie
+@350  = ~Libération du génie
 
-Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé le dernier voeu.~
+Nous avons découvert le mot de commande pour la lampe du génie et avons utilisé le dernier vœu.~

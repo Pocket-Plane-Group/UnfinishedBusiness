@@ -1,7 +1,7 @@
 @24   = ~Epée d'agilité d'Arbane
 Une des nombreuses armes portant le nom du premier magicien ayant découvert comment enchanter une lame de cette manière. Celle-ci était l'arme du hors-la-loi Garno, et nombre de clercs moururent par le fil de cette épée. Garno perdit toute foi en les divinités lorsque sa propre famille fut brûlée sur le bûcher par des clercs de Loviatar, et il passa sa vie à chercher sa vengeance. En dépit de sa haine concentrée sur les dévôts, on pense que c'est à l'initiative d'un dieu du chaos que Garno a acquis cette arme, enchanté par les ravages que causa le jeune homme.
 
-PARAMETRES :
+PARAMÈTRES :
 
 Capacité d'équipement : Le porteur est immunisé à l'immobilisation des personnes et à l'étourdissement
 Capacité Spéciale : Une fois par jour, le porteur peut utiliser hâte pendant douze secondes.
@@ -18,7 +18,7 @@ Force Requise: 5
 @33   = ~Cimeterre +1, Shazzelim
 Ce cimeterre est plutôt de mauvaise qualité mais sous sa surface sommeille un grand pouvoir maléfique. Créé dans le but unique de tuer des ménestrels, Shazzelim est plus que capable de remplir sa tâche. A chaque coup de la lame, un barde doit réussir un jet de sauvegarde contre les sorts sous peine de mourir. Forgée par les sorciers rouges de Thay, l'épée a aussi la capacité de vocalise, et c'est pour cette raison qu'elle a souvent été laissée entre les mains des guerriers-mages au service des sorciers. Inutile de dire que la possession d'un tel objet risque de rendre son propriétaire plutôt mal vu des ménestrels.
 
-PARAMETRES :
+PARAMÈTRES :
 
 Capacité d'équipement :
  Vocalisé
@@ -38,7 +38,7 @@ Force Requise : 10
 @34   = ~Quand on l'utilise, cette baguette émet une nasse de fils longs et gluants comme ceux d'une toile d'araignée, mais en beaucoup plus résistants. Les créatures prises dans ce filet infernal ou qui le touchent tout simplement sont collées par les fibres gluantes du réseau.
 Tous ceux qui passent dans la zone d'effet doivent effectuer un jet de sauvegarde contre les sorts avec un malus de -5. Si le jet de sauvegarde est réussi, la créature peut se mouvoir comme elle le désire dans la zone d'effet. En cas d'échec, la créature est collée à la toile et ne peut plus se mouvoir. Ce test doit être effectué à chaque round tant que dure la toile d'araignée.
 
-PARAMETRES :
+PARAMÈTRES :
 
 Effet : Immobilise les créatures qui manquent leur jet de sauvegarde contre les sorts à -5.
 Portée : 20 mètres
@@ -54,13 +54,13 @@ Quand cette statuette est utilisée, elle provoque une métamorphose étonnante che
 
 On ne sait si cette figurine merveilleuse permet à l'utilisateur de canaliser l'esprit d'un légendaire guerrier, ou si elle déchaîne simplement la furie primaire instinctive se trouvant dans l'esprit de l'utilisateur.
 
-PARAMETRES :
+PARAMÈTRES :
 
 Utilisable une fois par jour
  Durée : 4 rounds
  Classe d'Armure : -5
  Hâte sur l'utilisateur 
- Deux attaques par round avec une épée courte +4 comme si l' utilisateur possèdait deux points dans la compétence du maniement de l'épée courte.
+ Deux attaques par round avec une épée courte +4 comme si l'utilisateur possèdait deux points dans la compétence du maniement de l'épée courte.
 ~
 @75   = ~Fléau de l'adversaire +5
 
@@ -72,13 +72,13 @@ Cependant le pouvoir du Fléau de l'adversaire ne suffit pas à contenir les sombr
 
 La légende soutient que les pouvoirs considérables du Fléau de l'adversaire sont fortement accrus quand l'épée est unie au Fourreau enchanté de Fflar, son propriétaire d'origine. 
 
-PARAMETRES :
+PARAMÈTRES :
 
 Capacité d'équipement : +1 à tous les jets de sauvegarde
 Capacité de combat : chaque attaque réussie lance une Absorbtion Mineure de Larloch sur la cible (pas de jet de sauvegarde) 
 
 TAC0 : +5
-Dégâts : 2D4 +5, +6 aux dégâts contre les morts-vivants, les métamorphes, et toutes les créatures extra-planaires (démons, planétaires, etc) 
+Dégâts : 2D4 +5, +6 aux dégâts contre les morts-vivants, les métamorphes, et toutes les créatures extra-planaires (démons, planétaires, etc.) 
 Type de dégâts : tranchant
 Poids : 5
 Facteur de vitesse : 3
@@ -94,11 +94,11 @@ Les rumeurs et les légendes se répandirent rapidement au sujet de l'invincible I
 
 Le sadisme d'Ixil et sa sauvagerie contribuèrent à soutenir ces allégations. On racontait que pendant la bataille, le fer de la Pointe d'Ixil, sa puissante lance, se détachait pour clouer ses adversaires au sol et qu'un nouveau fer se reformait par magie au bout de la lance. Souvent au cours du combat, Ixil se serait arrêté pour savourer les débattements impuissants d'un ennemi empalé par la pointe de la lance... semblant se délecter de l'horrible agonie de son ennemi. 
 
-Le Seigneur de Guerre fut finalement défait quand il fut pris au piège en attaquant un contingent de puissants clercs et de Chevaliers de l'Ordre du Coeur Radieux se faisant passer pour de simples pélerins. Les témoins de la bataille affirmèrent qu'Ixil n'avait pas été tué, mais avait en réalité été banni vers un plan extérieur des Enfers grâce à la magie divine de l'Ordre. 
+Le Seigneur de Guerre fut finalement défait quand il fut pris au piège en attaquant un contingent de puissants clercs et de Chevaliers de l'Ordre du Cœur Radieux se faisant passer pour de simples pélerins. Les témoins de la bataille affirmèrent qu'Ixil n'avait pas été tué, mais avait en réalité été banni vers un plan extérieur des Enfers grâce à la magie divine de l'Ordre. 
 
 Bien que le corps d'Ixil n'ait jamais été retrouvé, la Pointe d'Ixil, sa lance effrayante, symbole de sa puissance, fut récupérée. Dans le but de détruire l'artefact, elle fut brisée en plusieurs morceaux, qui furent dispersés dans les Terres du Sud.
 
-PARAMETRES : 
+PARAMÈTRES : 
 
 Capacité d'équipement : action libre permanente 
 Capacité de combat : la victime doit réussir un jet de sauvegarde à chaque attaque réussie, ou être immobilisée pendant 3 rounds en subissant 1D6 +5 de dégâts supplémentaires par round. 
@@ -124,7 +124,7 @@ Nysrogh s'avança pour s'approprier le gourdin dont le champion s'était délesté p
 
 Le gourdin de bois non taillé brûle encore de l'esprit enragé du démon éternellement piégé par les puissants enchantements placés sur l'arme. Parfois cependant, le courroux du démon parvient à s'échapper dans une violente explosion. 
 
-PARAMETRES :
+PARAMÈTRES :
 
 Capacités de combat :
  30% de chances que la cible subisse 15 points supplémentaires de dégâts de feu quand l'attaque porte 
@@ -148,7 +148,7 @@ L'Etoile des tempêtes possède déjà de formidables capacités qui ont été amélioré
 Malgré sa taille massive, l'Etoile des tempêtes est curieusement légère, la rendant particulièrement facile à manier pendant un combat. Elle crépite d'arcs d'électricité spectaculaires bien qu'inoffensifs quand elle est brandie : une manifestation visible des puissants enchantements électriques contenus dans la tête de l'arme. 
 
 
-PARAMETRES : 
+PARAMÈTRES : 
 
 Capacité d'équipement : +20% de résistance à l'électricité 
 Capacité de combat : 5% de chances de lancer Chaîne d'Eclairs sur la cible à chaque attaque réussie 
@@ -172,9 +172,9 @@ Désespérant de venger ses fils, Argeld ne pouvait pourtant pas envoyer davantage
 
 Mais Glimred était impatient, sa soif de vengeance ne pouvait pas être retardée, et il disparut dans les pronfondeurs des Montagnes de la Marche avant que le travail ne soit achevé. Personne ne le revit. Le désespoir et la mort présumée de son seul fils survivant furent de trop pour Argeld, qui eut le cœur brisé et mourut de chagrin. 
 
-Leur chef mort et leur héros Glimred disparu, les nains surent qu'il ne restait que peu de temps avant que leur clan ne fût submergé par leurs ennemis de l'Ombreterre. Avant de disparaître de la surface de Féérune, le clan vendit le bouclier au plus offrant - bien que les forgerons nains aient toujours refusé de divulguer le nom du mystérieux acheteur. 
+Leur chef mort et leur héros Glimred disparu, les nains surent qu'il ne restait que peu de temps avant que leur clan ne fût submergé par leurs ennemis de l'Ombreterre. Avant de disparaître de la surface de Féérune, le clan vendit le bouclier au plus offrant, bien que les forgerons nains aient toujours refusé de divulguer le nom du mystérieux acheteur. 
 
-PARAMETRES : 
+PARAMÈTRES : 
 
 Capacités : +10% de résistance au feu, au froid, à l'acide et au poison 
 
@@ -185,9 +185,9 @@ Force nécessaire : 10
 @99  = ~Epée Sainte Lame : Carsomyr
 Carsomyr est une arme légendaire, sans doute l'une des lames les plus puissantes jamais forgées dans Féérune, mais les détails de son origine et de son histoire ont été intentionnellement perdus, pour que ceux-ci ne fassent pas oublier l'importance des conflits actuels. Cette épée contient l'essence même de la vertu, et en exige autant du paladin qui souhaite la faire sienne. Les pouvoirs maléfiques dans les Royaumes craignent réellement cette arme qui peut résister sans effort à leurs magies, et d'un mot les dissiper. Carsomyr a aussi une inimitié particulière pour les forces du mal et du chaos, qui doivent craindre des dégâts supplémentaires si elles la croisent en combat.
 
-Même une Sainte Lame comme Carsomyr devient encore plus puissante combinée à l'Oeil de Tyr.
+Même une Sainte Lame comme Carsomyr devient encore plus puissante combinée à l'Œil de Tyr.
 
-PARAMETRES :
+PARAMÈTRES :
 
 Capacités d'équipement :
  50 % de résistance à la magie
@@ -210,7 +210,7 @@ Force nécessaire : 14
 
 L'ajout de la cinquième et dernière tête à ce fléau créé par les maléfiques Rakshasas lui permet d'atteindre enfin son potentiel ultime de destruction.
 
-PARAMETRES :
+PARAMÈTRES :
 
 Capacités d'équipement :
  Action libre
@@ -232,7 +232,7 @@ Force nécessaire : 13
 
 Ce fléau à quatre têtes inflige des dégâts de poison, de feu, de froid et d'acide. Si la cinquième tête du Fléau de l'Eternité venait à être retrouvée, qui pourrait prévoir les pouvoirs extraordinaires qui seraient déchaînés ?
 
-PARAMETRES :
+PARAMÈTRES :
 
 Capacité de combat :
  33 % de chances à chaque coup réussi de ralentir la cible (pas de jet de sauvegarde)
@@ -250,7 +250,7 @@ Force nécessaire : 13
 
 Ce fléau à quatre têtes inflige des dégâts d'électricité, de feu, de froid et d'acide. Si la cinquième tête du Fléau de l'Eternité venait à être retrouvée, qui pourrait prévoir les pouvoirs extraordinaires qui seraient déchaînés ?
 
-PARAMETRES :
+PARAMÈTRES :
 
 Capacité de combat :
  33 % de chances à chaque coup réussi de ralentir la cible (pas de jet de sauvegarde)
@@ -266,10 +266,10 @@ Force nécessaire : 13
 ~
 @1005 = ~Cette lame courte, d'à peine un plein pied de long, semble distinctement Kara-Turane mais elle est manifestement de mauvaise qualité. L'équilibre est légèrement faussé, la soie enroulée autour de la poignée commence à se détacher, et le fil s'est émoussé depuis longtemps. Des traces d'inscriptions ornementales orientales demeurent ici et là sur la garde.
 
-PARAMETRES :
+PARAMÈTRES :
 
 TAC0 : -1
-Dégâts : 1D8 - 1
+Dégâts : 1D8 -1
 Type de dégâts : perforant
 Poids : 3
 Facteur de Vitesse : 2
