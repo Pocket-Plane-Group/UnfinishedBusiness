@@ -6,7 +6,7 @@ call "%~dp0..\ModPackaging\utilities\ie_games.bat"
 
 REM /* MODIFY: set the values of the 3 variables below to reflect the current mod version */
 set "mod_name=Unfinished Business"
-set "mod_version=v28"
+set "mod_version=v29"
 set mod_folder=ub
 
 REM /* MODIFY: list here which IE games the mod is compatible with, from this list of possibilities: */
