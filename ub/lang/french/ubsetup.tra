@@ -1009,6 +1009,8 @@ faudra editer le fichier weidu.conf et reinstaller vos mods.
 @-1050= "Japonais"
 @-1051= "Coreen"
 @-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
 
 @-1060= "
 Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
@@ -1018,6 +1020,10 @@ Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe c
 @-1061= "
 Utilisation de"
 @-1062= " et "
+
+@-1063= "INSTALLATION ABANDONNEE"
+@-1064= "Abandon de l'installation de ["
+@-1065= "], retour à l'etat anterieur"
 @2000 = ~Pouvoirs de l'Enfant de Bhaal
 
 <CHARNAME> a acquis la capacité, utilisable une fois par jour : 
