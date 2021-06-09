@@ -1018,4 +1018,113 @@ Like the 5th level spell Raise Dead, Resurrection will return a character back t
 
 <CHARNAME> has gained 25% resistance to physical damage (i.e., slashing, piercing, crushing and missile damage).~
 
+/*
+  NOTE FOR TRANSLATORS
+
+  These are the original BG1 names and descriptions of several unique itmes
+  that BG2 repurposed into more generic ones.  Please use the appropriate
+  string from BG1 if possible.
+*/
+@3000 = ~Battleaxe of Mauletar~
+@3001 = ~Battle axe +2: "Battleaxe of Mauletar"
+
+During the Tethyr civil war, the Battleaxe of Mauletar was in the possession of the house of Ossyind. This noble family was betrayed while trying to flee the country, and Mauletar, lead guard and personal friend, took up the axe and sacrificed himself to buy enough time for his companions to flee. His battle cry was favored by the gods, and was echoed across the lands as a symbol of devoted friendship and loyalty. Thus, the magical axe was used to uphold these virtues, to be used against those who lacked honor and courage.
+
+STATISTICS:
+
+Damage: 1D8 + 2
+Damage Type:  Slashing
+THAC0: +2
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Axe
+Type: 1-handed
+Not Usable by:
+ Cleric
+ Druid
+ Mage
+ Thief~
+@3002 = ~Krotan's Skullcrusher~
+@3003 = ~Mace +2: "Krotan's Skullcrusher"
+
+Even the hordes have their heroes, and while they are vilified in civilized company, their deeds are sometimes impressive nonetheless.  Krotan was an exceptionally intelligent orc, as far as orcs go, who commanded an ever-shifting legion of ogres, orcs, hobgoblins, and other assorted beasties during the Year of the Lost Lady, 1241DR. It was in this year that a group of orc bandits allegedly kidnapped and killed a Tethyrian noblewoman, and the response from authorities was a genocidal slaughter of orcs throughout the south in her memory. Krotan mounted a defense that ensured his people were not entirely destroyed; though they were displaced. Krotan himself fell near the end of the conflict, and his head was mounted outside the graveyard where the young lady was buried. As a point of interest, orcs called this time the "Year of Pushing Too Far."
+
+STATISTICS:
+
+Damage: 1D6 + 3
+Damage Type: Crushing
+THAC0: +2
+Weight: 7
+Speed Factor: 5
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable by:
+ Druid
+ Mage~
+@3004 = ~Suryris' Blade~
+@3005 = ~Halberd +2: "Suryris' Blade"
+
+Suryris, a white minotaur who traveled the Orsraun mountains in Turmish, lived for nothing but the thrill of combat, and encouraged warriors to challenge him for his magical weapon: a powerful halberd. Despite his aggressive nature, he was an honorable combatant and never slew opponents he could overpower. Suryris met his superior only once, in a battle that lasted hours and had the minotaur often fearing defeat. The contest ended when his opponent's sword broke, but Suryis knew he likely would have been bested had it continued. He presented his weapon to the astonished man, who thereafter told of this noble creature to anyone who would listen.
+
+STATISTICS:
+
+Damage: 1D10 + 2
+Damage Type: Piercing
+THAC0: +2
+Weight: 12
+Speed Factor: 7
+Proficiency Type: Spear
+Type: 2-handed
+Not Usable by:
+ Cleric
+ Druid
+ Mage
+ Thief~
+@3006 = ~Plate of the Dark~
+@3007 = ~Full plate armor +1: "Plate of the Dark"
+
+Dark Lord Hertious, undead Warlord of Bane, wore this enchanted armor for over five hundred years. During this time he was rumored to dwell in a castle somewhere within the Earthfast Mountains. How his armor moved to other lands without him is not certain, though the separation of the two was surely unpleasant. Weighing half as much as normal full plate, it provides greater protection.
+
+STATISTICS:
+
+Armor Class: 0
+Weight: 35
+Not Usable by:
+ Bard
+ Druid
+ Mage
+ Thief~
+@3008 = ~The Practical Defense~
+@3009 = ~Plate Mail +3: "The Practical Defense"
+
+The traveling adventurer could ask for no better a suit of armor in all the land. Specially commissioned by Bolhur "Thunderaxe" at GREAT expense, this suit was his most prized, even if not his most ornate. Eminently practical, Bolhur demanded armor that would offer superior protection while hampering him in the least. By "hampering" he did not just mean in movement or weight, though this suit is just over one-third the weight of normal plate mail: his ideal suit should also be able to withstand the rigors of his wanderings with little maintenance. This is not to say that Bolhur "Thunderaxe" neglected his armors (to say as such would get your ears boxed) but the regime of spit and polish required for a "gentleman's" suit was beyond his caring. Save the tassels and gilding of Full Plate for kings and heads of state; a working dwarf cares more for utility than looks.
+
+STATISTICS:
+
+Armor Class: 0
+Weight: 18
+Not Usable by:
+ Bard
+ Druid
+ Mage
+ Thief~
+@3010 = ~The Whistling Sword~
+@3011 = ~Short sword +2: "The Whistling Sword"
+
+Amidst the plains of the Eastern Shaar there lived a small human blacksmith, whose nearly dwarven height did not do his soul justice. Though a skilled weaponsmith, his true gift was his ability to whistle a heartfelt song that could cause a grown man to cry like a newborn. Only a reclusive mage shared and enjoyed time with the diminutive man, however, as others could only see his small size as a source of amusement. Deaf to the smith's song because of their own prejudices, their ridicule slowly grew into cruel torment which eventually persuaded the light-hearted man to leave his home forever. Before he left he forged this weapon as a gift for his one friend, who also enchanted it during the making. Thus the blade sweetly whistles to its wielder when unsheathed. It was not long after that the mage also deserted the small town in disgust, taking the sword with him on his journeys.
+
+STATISTICS:
+
+Damage: 1D6 + 2
+Damage Type: Piercing
+THAC0: +2
+Weight: 2
+Speed Factor: 1
+Proficiency Type: Small Swords
+Type: 1-handed
+Not Usable by:
+ Cleric
+ Druid
+ Mage~
+
 

@@ -275,3 +275,37 @@ Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type:  1-handed
 Requires: 5 Strength
 ~
+
+/*
+  NOTE FOR TRANSLATORS
+
+  These are the original BGEE names and descriptions of several unique itmes
+  that BG2EE repurposed into more generic ones.  Please use the appropriate
+  string from BGEE possible.
+*/
+@3008 = ~The Practical Defense +3~
+@3009 = ~The traveling adventurer could ask for no better a suit of armor in all the land. Specially commissioned by Bolhur "Thunderaxe" at GREAT expense, this suit was his most prized, even if not his most ornate. Eminently practical, Bolhur demanded armor that would offer superior protection while hampering him in the least. By "hampering" he did not just mean in movement or weight, though this suit is just over one-third the weight of normal plate mail: His ideal suit should also be able to withstand the rigors of his wanderings with little maintenance. This is not to say that Bolhur "Thunderaxe" neglected his armors (to say as such would get your ears boxed) but the regime of spit and polish required for a "gentleman's" suit was beyond his caring. Save the tassels and gilding of full plate for kings and heads of state; a working dwarf cares more for utility than looks.
+
+STATISTICS:
+
+Armor Class: 0 (-3 vs. slashing)
+Requires:
+ 11 Strength
+
+Weight: 18~
+@3010 = ~The Whistling Sword +2~
+@3011 = ~Amidst the plains of the Eastern Shaar there lived a small human blacksmith, whose nearly dwarven height did not do his soul justice. Though a skilled weaponsmith, his true gift was his ability to whistle a heartfelt song that could cause a grown man to cry like a newborn. Only a reclusive Mage shared and enjoyed time with the diminutive man, however, as others could only see his small size as a source of amusement. Deaf to the smith's song because of their own prejudices, their ridicule slowly grew into cruel torment which eventually persuaded the light-hearted man to leave his home forever. Before he left he forged this weapon as a gift for his one friend, who also enchanted it during the making. Thus the blade sweetly whistles to its wielder when unsheathed. It was not long after that the Mage also deserted the small town in disgust, taking the sword with him on his journeys.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d6+2 (piercing)
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 4 Strength
+
+Weight: 2~
+
+

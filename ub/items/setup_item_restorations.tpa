@@ -160,20 +160,41 @@ BEGIN
     END
 
 
-  // Restore import02.2da on non-EE games
+  // Old engine only:
+  // - Restore unique BG1 +2 weapon names/descriptions.
+  // - Restore import02.2da in Chateau Irenicus (EE already does this).
 
   ACTION_IF ENGINE_IS "bg2 tob"
   BEGIN
+    // Restore BG1 names and descriptions of repurposed items.
+
+    COPY_EXISTING "ax1h03.itm" "override"
+      SAY NAME2 @3000
+      SAY IDENTIFIED_DESC @3001
+
+    COPY_EXISTING "blun11.itm" "override"
+      SAY NAME2 @3002
+      SAY IDENTIFIED_DESC @3003
+
+    COPY_EXISTING "halb03.itm" "override"
+      SAY NAME2 @3004
+      SAY IDENTIFIED_DESC @3005
+
+    COPY_EXISTING "plat05.itm" "override"
+      SAY NAME2 @3006
+      SAY IDENTIFIED_DESC @3007
+
+    COPY_EXISTING "sw1h06.itm" "override"
+      SAY NAME2 ~Varscona~ // No need to translate
+
+
     // Sanitized import list with items not already in BG2.
+
     COPY "%MOD_FOLDER%/items/import02.2da" "override"
 
-    // Restore proper name and description to Krotan's Skullcrusher
-    COPY_EXISTING "blun11.itm" "override"
-      SAY NAME2 #103012
-      SAY IDENTIFIED_DESC #103013
-      BUT_ONLY_IF_IT_CHANGES
 
     // Add import02 to Chateau Irenicus
+
     COPY_EXISTING "ar0602.bcs" "override"
       DECOMPILE_AND_PATCH
       BEGIN
@@ -183,6 +204,108 @@ BEGIN
           ActionOverride("Table3",TakeItemListPartyNum("IMPORT02",1))~
       END
   END
+
+
+  /* Plate of the Dark */
+
+  // Put on Tazok in Firkraag's lair
+  COPY_EXISTING "tazok.cre" "override"
+    REPLACE_CRE_ITEM "plat05" #0 #0 #0 "unstealable" "armor"
+    BUT_ONLY_IF_IT_CHANGES
+
+
+  /* The Practical Defense */
+
+  // Restore BG1 name/desc (yes, even in EE)
+
+  COPY_EXISTING "plat08.itm" "override"
+    SAY NAME2 @3008
+    SAY IDENTIFIED_DESC @3009
+
+  // Add to Trademeet nobleman merchant's inventory.
+  COPY_EXISTING "trmer02.sto" "override"
+    ADD_STORE_ITEM "plat05" AFTER "plat10" #0 #0 #0 "identified" #1
+
+
+  /* The Whistling Sword */
+
+  // This one is already found in AR0303, Maelar's guildhouse.
+  // All we have to do is eliminate the multiple copies, see below.
+
+  // Restore BG1 name/desc (yes, even in EE)
+
+  COPY_EXISTING "sw1h09.itm" "override"
+    SAY NAME2 @3010
+    SAY IDENTIFIED_DESC @3011
+
+
+  // Replace duplicate copies of BG1 unique items with generic versions.
+
+  COPY_EXISTING "ar2210.are" "override"
+    LAUNCH_PATCH_FUNCTION REPLACE_AREA_ITEM
+      STR_VAR
+      old_item	= "sw1h09"
+      new_item	= "sw1h29"
+    END
+
+    BUT_ONLY_IF_IT_CHANGES
+
+
+  COPY_EXISTING "deckass1.cre"	"override"
+		"calaha.cre"	"override"
+		"sarkis02.cre"	"override"
+		"sarkis03.cre"	"override"
+		"sarcpt01.cre"	"override"
+		"vvcat.cre"	"override"
+		"hgskl02.cre"	"override"
+		"c6kach.cre"	"override"
+		"sargrd05.cre"	"override"
+		"sargrd09.cre"	"override"
+		"arkanisg.cre"	"override"
+                "vvarkan.cre"	"override"
+		"hlketta.cre"	"override"
+		"hlketta2.cre"	"override"
+		"teltief2.cre"	"override"
+		"ammerc07.cre"	"override"
+		"gordeck6.cre"	"override"
+		"gordeck7.cre"	"override"
+		"gordeck8.cre"	"override"
+		"gordeck9.cre"	"override"
+		"gordecka.cre"	"override"
+    REPLACE_CRE_ITEM "sw1h29" #0 #0 #0 "none" "weapon1" EQUIP
+    BUT_ONLY_IF_IT_CHANGES
+
+
+  COPY_EXISTING "ysfire02.cre"	"override"
+    REPLACE_CRE_ITEM "ax1h11" #0 #0 #0 "none" "weapon1" EQUIP
+    BUT_ONLY_IF_IT_CHANGES
+
+
+  COPY_EXISTING "senorc02.cre"	"override"
+                "senorc04.cre"	"override"
+		"ammerc08.cre"	"override"
+		"ammerc09.cre"	"override"
+    REPLACE_CRE_ITEM "sw1h29" #0 #0 #0 "none" "weapon2"
+    BUT_ONLY_IF_IT_CHANGES
+
+
+  COPY_EXISTING "sengua04.cre"	"override"
+    REPLACE_CRE_ITEM "ax1h11" #0 #0 #0 "none" "weapon1" EQUIP
+    REPLACE_CRE_ITEM "plat14" #0 #0 #0 "none" "armor"
+    BUT_ONLY_IF_IT_CHANGES
+
+
+  COPY_EXISTING "deckwar1.cre"	"override"
+    REPLACE_CRE_ITEM "sw1h29" #0 #0 #0 "undroppable" "weapon1" EQUIP
+    REPLACE_CRE_ITEM "sw1h29" #0 #0 #0 "undroppable" "shield" EQUIP
+    REPLACE_CRE_ITEM "plat14" #0 #0 #0 "undroppable" "armor"
+    BUT_ONLY_IF_IT_CHANGES
+
+
+  COPY_EXISTING "bazliz03.cre"	"override"
+                "bazliz04.cre"	"override"
+    REPLACE_CRE_ITEM "plat14" #0 #0 #0 "none" "armor"
+    BUT_ONLY_IF_IT_CHANGES
 END	// setup_item_restorations
 
 
