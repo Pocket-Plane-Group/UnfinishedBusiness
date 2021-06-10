@@ -1,0 +1,22 @@
+IF
+  NumTimesTalkedTo(0)
+  See([PC])
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  Allegiance(Myself, NEUTRAL)
+  Or(2)
+    AttackedBy([GOODCUTOFF], DEFAULT)
+    Global("UBSpidersAttack", "MYAREA", 1)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@142)
+    EraseJournalEntry(@146)
+    SetGlobal("UBSpidersAttack", "MYAREA", 1)
+    Enemy()
+END
+
+

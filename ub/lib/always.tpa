@@ -37,6 +37,7 @@ BEGIN
 
   INCLUDE "%MOD_FOLDER%/lib/tob2soa.tph"
   INCLUDE "%MOD_FOLDER%/lib/fl#add_kit_ee.tph"
+  INCLUDE "%MOD_FOLDER%/lib/ub_toolkit.tph"
 END
 
 

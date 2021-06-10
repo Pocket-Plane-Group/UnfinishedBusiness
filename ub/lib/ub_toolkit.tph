@@ -1,0 +1,31 @@
+DEFINE_PATCH_FUNCTION DELETE_ITEM_HEADER_NUM
+  INT_VAR header	= 0
+BEGIN
+  READ_SHORT 0x0068 ab_count
+
+  PATCH_IF header < ab_count
+  BEGIN
+    // Nuke header effects
+    LAUNCH_PATCH_FUNCTION DELETE_EFFECT
+      INT_VAR
+      check_global	= 0
+      header
+    END
+
+    // Adjust header count
+    WRITE_SHORT 0x0068 ab_count - 1
+
+    // Delete unused bytes and reindex
+    READ_LONG 0x0064 ab_offset
+    READ_LONG 0x006a fx_offset
+
+    DELETE_BYTES (ab_offset + (header * 0x38)) 0x38
+    
+    PATCH_IF fx_offset > ab_offset
+    BEGIN
+      WRITE_LONG 0x006a (fx_offset - 0x38)
+    END
+  END
+END
+
+

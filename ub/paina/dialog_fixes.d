@@ -16,7 +16,7 @@ END
 
 REPLACE SPPAIN
 IF ~OR(2) Global("ReceivedSpiderBane","GLOBAL",0)
-!PartyHasItem("U!SPBANE")~ THEN BEGIN 19 // from:
+!PartyHasItem("ubspbane")~ THEN BEGIN 19 // from:
   SAY @143
   IF ~~ THEN EXIT
 END
@@ -24,9 +24,9 @@ END
 
 REPLACE SPPAIN
 IF ~Global("ReceivedSpiderBane","GLOBAL",1) 
-PartyHasItem("U!SPBANE")~ THEN BEGIN 20 // from:
+PartyHasItem("ubspbane")~ THEN BEGIN 20 // from:
   SAY #33665
-  IF ~~ THEN DO ~TakePartyItem("U!SPBANE")
+  IF ~~ THEN DO ~TakePartyItem("ubspbane")
 SetGlobal("ReturnedSpiderBane","GLOBAL",1) 
 EraseJournalEntry(@142)
 EraseJournalEntry(@146)
@@ -38,7 +38,7 @@ REPLACE_STATE_TRIGGER SPHURG 0 ~Global("SentByPaina","GLOBAL",1)~
 REPLACE_STATE_TRIGGER SPJEAG 0 ~Global("SentByPaina","GLOBAL",1)~
 REPLACE_STATE_TRIGGER SPHURG 16 ~Global("AskSpiderBane","GLOBAL",1)~
 REPLACE_STATE_TRIGGER SPJEAG 11 ~Global("AskSpiderBane","GLOBAL",1)~
-REPLACE_STATE_TRIGGER SPPAIN 0 ~NumTimesTalkedTo(0)~
+REPLACE_STATE_TRIGGER SPPAIN 0 ~NumTimesTalkedTo(0) Global("UBSpidersAttack", "MYAREA", 0)~
 REPLACE_STATE_TRIGGER SPBENE 0 ~True()~
 REPLACE_STATE_TRIGGER SPPHIL 0 ~True()~
 REPLACE_STATE_TRIGGER SPSAMAR 0 ~True()~
@@ -50,7 +50,7 @@ ALTER_TRANS SPPAIN
 BEGIN 0 END	// State
 BEGIN 1 END	// Transaction
 BEGIN
-  "TRIGGER"	~GlobalGT("Chapter", "GLOBALS", %bg2_chapter_2%)~
+  "TRIGGER"	~Or(2) Global("WorkingForBodhi","GLOBAL",1) Global("AranJob","GLOBAL",3)~
 END
 
 
@@ -59,7 +59,7 @@ END
 /////////////
 
 EXTEND_BOTTOM SPHURG 15
-  IF ~~ THEN DO ~GiveItemCreate("U!SPBANE",LastTalkedToBy,0,0,0)
+  IF ~~ THEN DO ~GiveItemCreate("ubspbane",LastTalkedToBy,0,0,0)
 SetGlobal("ReceivedSpiderBane","GLOBAL",1)
 ActionOverride("SPJEAG",EscapeArea())
 EscapeArea()~ UNSOLVED_JOURNAL @146 EXIT
@@ -88,6 +88,7 @@ EXTEND_BOTTOM SPPAIN 18
 ActionOverride("SPPhil",ReallyForceSpell(Myself,SPIDER_CHANGE))
 ActionOverride("SPSamar",ReallyForceSpell(Myself,SPIDER_CHANGE))
 ActionOverride("SPTredd",ReallyForceSpell(Myself,SPIDER_CHANGE))
+SetGlobal("UBSpidersAttack", "MYAREA", 1)
 Enemy()~ EXIT
 END
 

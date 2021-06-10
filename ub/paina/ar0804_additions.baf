@@ -1,0 +1,14 @@
+IF
+  Global("UBSpawnSpiders", "MYAREA", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("UBSpawnSpiders", "MYAREA", 1)
+    CreateCreature("spspid05", [649.269], 0)
+    CreateCreature("spspid05", [701.293], 0)
+    CreateCreature("spspid06", [858.426], 4)
+    CreateCreature("spspid06", [856.474], 2)
+    CreateCreature("spspid07", [531.247], 0)
+    CreateCreature("spspid07", [451.314], 14)
+END
+
+

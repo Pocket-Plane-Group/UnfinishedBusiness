@@ -8,24 +8,57 @@ BEGIN
 
   COPY ~%MOD_FOLDER%/ubnull.itm~ ~override/ubpaina.xxx~ //null file to identify this component
 
+
   ADD_JOURNAL @142 @145 @146 USING ~%tra_loc%/%LANGUAGE%/ubdialog.tra~
 
-  EXTEND_TOP ~AR0701.bcs~ ~%MOD_FOLDER%/paina/U!0701.baf~     /* Temple District Sewers */
 
-  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/paina/u!paina.d~
+  EXTEND_TOP ~AR0701.bcs~ ~%MOD_FOLDER%/paina/ar0701_additions.baf~     /* Temple District Sewers */
+
+
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/paina/dialog_fixes.d~
   USING   ~%tra_loc%/%s/ubdialog.tra~
 
-  COPY ~%MOD_FOLDER%/paina/u!spbane.itm~ ~override/u!spbane.itm~
+
+  COPY ~%MOD_FOLDER%/paina/ubspbane.itm~ ~override/ubspbane.itm~
     SAY NAME1 #10291
     SAY NAME2 #10291
     SAY UNIDENTIFIED_DESC @39
     SAY IDENTIFIED_DESC @39
 
-  COPY ~%MOD_FOLDER%/paina/WAND14.ITM~ ~override/WAND14.ITM~       /* Web Sack */
+
+  COPY_EXISTING ~wand14.itm~ ~override~       /* Web Sack */
     SAY IDENTIFIED_DESC @34
+
+    LAUNCH_PATCH_FUNCTION DELETE_ITEM_HEADER_NUM
+      INT_VAR
+      header		= 1
+    END
+
 
   //Does not need .TRAifying as only pertinent to English game version.
   STRING_SET ~I here you might have a sword I seek. It should have spider-like patterns on it.~ ~I hear you might have a sword I seek. It should have spider-like patterns on it.~
+
+
+  /* Restore Pai'na 's spiders (Angel) */
+
+  COMPILE "%MOD_FOLDER%/paina/ubsppain.baf"
+          "%MOD_FOLDER%/paina/ubspspid.baf"
+    USING   ~%tra_loc%/%s/ubdialog.tra~
+
+    
+  COPY_EXISTING "spspid05.cre" "override"
+                "spspid06.cre" "override"
+                "spspid07.cre" "override"
+    WRITE_BYTE 0x0270 IDS_OF_SYMBOL("ea" "neutral")
+    WRITE_ASCII SCRIPT_OVERRIDE "ubspspid" #8
+    WRITE_ASCII SCRIPT_RACE "wdasight" #8
+
+
+  COPY_EXISTING "sppain.cre" "override"
+    WRITE_ASCII SCRIPT_OVERRIDE "ubsppain" #8
+
+
+  EXTEND_TOP ~AR0804.bcs~ ~%MOD_FOLDER%/paina/ar0804_additions.baf~     /* Pai'Na's lair */
 END	// setup_spiders_bane_quest
 
 

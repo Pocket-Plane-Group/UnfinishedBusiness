@@ -1,0 +1,12 @@
+IF
+  Allegiance(Myself, NEUTRAL)
+  Or(2)
+    AttackedBy([GOODCUTOFF], DEFAULT)
+    Global("UBSpidersAttack", "MYAREA", 1)
+THEN
+  RESPONSE #100
+    SetGlobal("UBSpidersAttack", "MYAREA", 1)
+    Enemy()
+END
+
+
