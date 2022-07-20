@@ -12,6 +12,7 @@ Version 29
 - Documented the fact that UB v28 or higher requires WeiDU 247 or higher.
 - Added a missing translation string to the German translation.
 - Revised Item Restorations, added Plate of the Dark and The Practical Defense.
+- Updated Czech translation, thanks to Edvin.
 
 Version 28
 - Updated WeiDU to version 247.
