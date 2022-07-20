@@ -44,8 +44,6 @@ BEGIN
     WRITE_ASCII   0x30 "BH3B4" #8
   COPY ~%MOD_FOLDER%/bhaalpowers/bh3b1.eff~  ~override/bh3b5.eff~
     WRITE_ASCII   0x30 "BH3B5" #8
-  COPY ~%MOD_FOLDER%/bhaalpowers/bh3b1.eff~  ~override/balth01a.eff~ //Balthazar can now have Hand of Murder?
-    WRITE_ASCII   0x30 "BALTH01A" #8
 END	// setup_bhaalpowers
 
 

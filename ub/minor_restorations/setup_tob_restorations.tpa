@@ -21,14 +21,29 @@ BEGIN
   END
 
   // Restored Quiver of Plenty icons
-  COPY_EXISTING ~QUIVER01.itm~ ~override~
-                ~QUIVER03.itm~ ~override~
-    WRITE_ASCII 0x3a "IQUIVER0" #8
-    WRITE_ASCII 0x44 "GQUIVER0" #8
+  ACTION_IF NOT ENGINE_IS "BG2EE"
+  BEGIN
+    // Restore inventory icon and ground icon for Quivers of Plenty
+    COPY_EXISTING ~QUIVER01.itm~ ~override~
+                  ~QUIVER03.itm~ ~override~
+      WRITE_ASCII 0x3a "IQUIVER0" #8
+      WRITE_ASCII 0x44 "GQUIVER0" #8
 
-  COPY_EXISTING ~QUIVER02.itm~ ~override~
-                ~QUIVER04.itm~ ~override~
-    WRITE_ASCII 0x44 "GQUIVER0" #8
+    // Restore ground icon for Cases of Plenty
+    COPY_EXISTING ~QUIVER02.itm~ ~override~
+                  ~QUIVER04.itm~ ~override~
+      WRITE_ASCII 0x44 "GQUIVER0" #8
+  END
+  ELSE
+  BEGIN
+    // EE already used 1PP fixes for inventory icons, restore only ground icon
+    COPY_EXISTING ~QUIVER01.itm~ ~override~
+                  ~QUIVER03.itm~ ~override~
+    		  ~QUIVER02.itm~ ~override~
+                  ~QUIVER04.itm~ ~override~
+      WRITE_ASCII 0x44 "GQUIVER0" #8
+  END
+
 
   // Cold Mistress in Saradush
   <<<<<<<< .../ub/ding0/coldmiss/ar0500.baf
@@ -66,6 +81,21 @@ BEGIN
   EXTEND_TOP ~AR5000.BCS~ ~.../ub/ding0/coldmiss/ar0500.baf~
 
   COMPILE ~.../ub/ding0/coldmiss/dialog.d~
+
+
+  // Balthasar's "Solar Stance!!" is missing its
+  // intended flaming fists effect
+  // due to a missing effect file.
+
+  ACTION_IF NOT FILE_EXISTS_IN_GAME "balth01b.eff"
+  BEGIN
+    CREATE EFF VERSION V2.0 "balth01b"
+      WRITE_LONG 0x0010 146
+      WRITE_LONG 0x0014 2
+      WRITE_LONG 0x0020 1
+      WRITE_SHORT 0x0024 1
+      WRITE_ASCII 0x0030 "balth01b" #8
+  END
 END	// setup_tob_restorations
 
 

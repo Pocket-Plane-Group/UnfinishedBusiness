@@ -1,12 +1,4 @@
 IF
-  Global("DetectableSpells","GLOBAL",0)
-THEN
-  RESPONSE #100
-    SetGlobal("DetectableSpells","GLOBAL",1)
-    ApplySpellRES("SPDETECT",Player1)
-END
-
-IF
   GlobalGT("Bhaal25Dream1","GLOBAL",0)
   Dead("chalpc01")
   Dead("chtaz01")
