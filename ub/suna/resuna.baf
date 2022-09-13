@@ -18,7 +18,7 @@ END
 IF
 	Detect("Valygar")
 	InParty("Valygar")
-	!StateCheck("Valgar",CD_STATE_NOTVALID)
+	!StateCheck("Valygar",CD_STATE_NOTVALID)
 	Global("SunaTalkedValygar","LOCALS",0)
 THEN
 	RESPONSE #100
