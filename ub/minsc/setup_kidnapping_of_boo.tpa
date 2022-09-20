@@ -127,7 +127,7 @@ BEGIN
         parameter1	= ~-1~
         parameter2	= 0
         STR_VAR
-        resource	= ~%RESOURCE_RES%~
+        resource	= ~%SOURCE_RES%~
       END
 END	// setup_kidnapping_of_boo
 
