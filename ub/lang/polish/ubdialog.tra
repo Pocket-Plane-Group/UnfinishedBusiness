@@ -108,7 +108,7 @@ Unger Ciemne Wzgórze powiedzia³ mi, ¿e jego ostatnie dostawa nie dotar³a. Mia³a 
 @104 = ~Jak ju¿ mówi³em naziemcze, nie mam obecnie ilitu. Jego dostawa mia³a uzupe³niæ moje zapasy.~
 @105 = ~Tak wiêc zd¹¿y³eœ ju¿ sprzedaæ ca³y ³adunek?~
 @106 = ~Eee... niezupe³nie. £adunel... zagin¹³. Eee, zosta³ skradziony.~
-@107 = ~SKRADZIONY?!! I ty wrzeszczysz na mnie, ¿e nie znalaz³em wiêcej ilitu! Ty worku wnêtrznoœci illithildów! Ty kupo ghnoju sukkubusa! Mia³eœ 200 funtów ilitu i pozwolis³eœ go sobie UKRAŒÆ?!!~
+@107 = ~SKRADZIONY?!! I ty wrzeszczysz na mnie, ¿e nie znalaz³em wiêcej ilitu! Ty worku wnêtrznoœci illithildów! Ty kupo gnoju sukkubusa! Mia³eœ 200 funtów ilitu i pozwoli³eœ go sobie UKRAŒÆ?!!~
 @108 = ~I my mamy rozwa¿aæ groŸby tych g³upców? Oni ledwo mog¹ utrzymaæ ich cenny metal w jednym miejscu.~
 @109 = ~Uratujcie mnie od g³upoty tych duergarów. Po tym wszystkim muszê napiæ siê piwa!~
 @110 = ~Ugh. W³óczyliœmy siê po tamtych lochach bez powodu! <CHARNAME>, to by³a taka strata czasu.~
@@ -150,7 +150,7 @@ Pai'Na, dziwna w³adczyni druidów ¿yj¹ca pod dzielnic¹ cmentarn¹, poprosi³a mnie 
 @144 = ~Powracasz i masz ze sob¹ z³e ostrze, które zabi³o tak wielu! Masz moj¹ wdziêcznoœæ! Oœmiono¿ny ród nie bêdzie ciê ju¿ wiêcej k³opota³.~
 @145 = ~Odzyskaj Zgubê Paj¹ka dla Pai'Na.
 
-Zwróci³em miecz znany jako Zguba Paj¹ka Pai'Na. Mam nadziejê, aczkolwiek, ¿e jeœli ma racjê, to zwrócenie miecza przyniesie korzyœæ obywatelom Athkatli.~
+Zwróci³em Pai'Na miecz znany jako Zguba Paj¹ka. Mam nadziejê, ¿e ma racjê i ¿e zwrócenie miecza przyniesie korzyœæ obywatelom Athkatli.~
 @146 = ~Odzyskaj Zgubê Paj¹ka dla Pai'Na.
 
 Znalaz³em oczyszczaczy kana³ów i zdoby³em Zgubê Paj¹ka. Muszê odszukaæ Pai'Na jeszcze raz w jej kryjówce pod dzielnic¹ cmentarn¹.~
@@ -160,32 +160,32 @@ Znalaz³em oczyszczaczy kana³ów i zdoby³em Zgubê Paj¹ka. Muszê odszukaæ Pai'Na je
 @150 = ~Co taka piêkna kobieta robi w miejscu takim jak to? Byæ mo¿e mogê postawiæ ci drinka.~
 @151 = ~Witaj, pani. Co sprowadza ciê do Miedzianego Diademu?~
 @152 = ~Powiedziano mi, ¿e mo¿esz mi pomóc. Szukam cz³owieka o imieniu Valygar Corthala. Jego lokaj mówi³, ¿e ty mo¿esz wiedzieæ gdzie siê podziewa...~
-@153 = ~Co wiesz o cz³owieku znanum jako Valygar Corthala?~
+@153 = ~Co wiesz o cz³owieku znanym jako Valygar Corthala?~
 @154 = ~Nie, dziêki. Pójdê ju¿.~
 @155 = ~Czy Salvanas przys³a³ ciê byœ teraz ty mi dokucza³? Przysiêgam, wy poszukiwacze przygód wszyscy jesteœcie tacy sami. Zostaw mnie w spokoju zanim nie rozwalê ci g³owy o stó³.~
 @156 = ~Jeœli musisz wiedzieæ, zabijam czas przed spotkaniem z moim pracodawc¹. Jeœli nie masz nic przeciwko, to mam wiele do przemyœlenia, i doceniê trochê samotnoœci. Jeœli szukasz rozrywki to byæ mo¿e powinieneœ porozmawiaæ z barmanem.~
 @157 = ~Niech tak bêdzie.~
 @158 = ~Znowu ty? Czego chcesz?~
 @159 = ~Powiedziano mi, ¿e mo¿esz mi pomóc. Szukam cz³owieka o imieniu Valygar Corthala. Jego lokaj mówi³, ¿e ty mo¿esz wiedzieæ gdzie siê podziewa...~
-@160 = ~V... Valygar?  Ja... nigdy o nim nie s³ysza³am!~
+@160 = ~V... Valygar? Ja... nigdy o nim nie s³ysza³am!~
 @161 = ~Jesteœ pewna? Jego lokaj mówi³, ¿e znasz go dobrze. Naprawdê przyda mi siê twoja pomoc.~
 @162 = ~K³amiesz! Dlaczego zaprzeczasz, ¿e nie znasz tego cz³owieka?~
 @163 = ~Domyœlam siê, ¿e nie otrzymam ¿adnych odpowiedzi. Dobrego dnia!~
 @164 = ~Bardzo dobrze. Tak, znam Valygara. Byliœmy... przyjació³mi. Nie, nie... byliœmy wiêcej ni¿ tylko przyjació³mi. Kocha³am go bardziej ni¿ kogokolwiek innego. Odg³os jego imienia sprawia mi taki ból...~
 @165 = ~Byæ mo¿e, mogê pomóc nam obojgu. To naprawdê wa¿ne abym go odnalaz³. Wiesz mo¿e gdzie mo¿e siê teraz znajdowaæ?~
 @166 = ~Jestem wzruszony. Gdzie mogê go znaleŸæ?~
-@167 = ~Jego rodzina posiada kawa³ek ziemi na Wzgórzach Umar na wschód st¹dt. Nie jestem pewna, ale wydaje mi siê, ¿e uda³ siê do tamtejszej dziczy.~
-@168 = ~Jeœli spotkasz go, proszê powiedz mu... Nie. Przepraszam, nie mogêdalej o tym mówiæ. Moje serce ubolewa nad mom kochanym Valygarem. Proszê, upewnij siê tylko, ¿e nic mu nie jest. Chcia³abym teraz zostaæ sama.~
-@169 = ~Valygar?!!  Valygar, czy to naprawdê ty?~
-@170 = ~Suna Seni!  Och, jak strasznie nie têskni³em by ujrzeæ raz jeszcze twoj¹ przepiêkn¹ twarz! Têskni³em za tob¹ odk¹d opuœci³em miasto. Przepraszam, ¿e musia³em ciê zostawiæ tak nagle bez wyjaœnienia. Œwiadomoœæ, ¿e mog³em ciê skrzywdziæ, zadawa³a mojej duszy ból wiêkszy ni¿ mo¿esz sobie wyobraziæ.~
+@167 = ~Jego rodzina posiada kawa³ek ziemi na Wzgórzach Umar na wschód st¹d. Nie jestem pewna, ale wydaje mi siê, ¿e uda³ siê do tamtejszej dziczy.~
+@168 = ~Jeœli spotkasz go, proszê powiedz mu... Nie. Przepraszam, nie mogê dalej o tym mówiæ. Moje serce ubolewa nad moim kochanym Valygarem. Proszê, upewnij siê tylko, ¿e nic mu nie jest. Chcia³abym teraz zostaæ sama.~
+@169 = ~Valygar?!! Valygar, czy to naprawdê ty?~
+@170 = ~Suna Seni! Och, jak strasznie nie têskni³em by ujrzeæ raz jeszcze twoj¹ przepiêkn¹ twarz! Têskni³em za tob¹ odk¹d opuœci³em miasto. Przepraszam, ¿e musia³em ciê zostawiæ tak nagle bez wyjaœnienia. Œwiadomoœæ, ¿e mog³em ciê skrzywdziæ, zadawa³a mojej duszy ból wiêkszy ni¿ mo¿esz sobie wyobraziæ.~
 @171 = ~Och, Valygarze, nie dbam o to. Rozumiem - rozmawia³am z Hervo, kiedy nie widzia³am ciê od kilku dni. Ci przeklêci czarodzieje! Ich polityczne czarowanie jest skaz¹ na tym mieœcie. Jestem taka szczêœliwa, ¿e nic ci siê nie sta³o!~
 @172 = ~Tak, moja mi³oœci, czujê siê dobrze. <CHARNAME> z³o¿y³ mi wizytê w mojej chatce i zaproponowa³ sw¹ pomoc by powstrzymaæ Lavoka.~
-@173 = ~C... Czy powiedzia³eœ <CHARNAME>?  Valygar, nie mo¿esz siê sprzymierzaæ siê t¹ istot¹. <PRO_HESHE> jest z³em--pomiotem Bhaala! Nie mo¿na ufaæ <PRO_HIMHER>!~
-@174 = ~Suna, wiele podró¿owa³em z <CHARNAME>, i wiem, ¿e  <PRO_HESHE> jest dzieckiem Bhaala, ale ufam <PRO_HIMHER> ca³kowicie.~
-@175 = ~Nie! Valygarze, proszê, b³agam ciê. Ten <PRO_MANWOMAN> - nie mo¿esz z <PRO_HIMHER> podró¿owaæ!~
-@176 = ~Suna, czy coœ jest nie tak? Nie widzia³em nigdy byœ taka bardzo os¹dza³a kogoœ. Dlaczego <CHARNAME> nie cieszy siê twoim zaufaniem?~
+@173 = ~C... Czy powiedzia³eœ <CHARNAME>? Valygar, nie mo¿esz siê sprzymierzaæ siê t¹ istot¹. On<PRO_HESHE> jest z³em--pomiotem Bhaala! Nie mo¿na ufaæ j<PRO_HIMHER>!~
+@174 = ~Suna, wiele podró¿owa³em z <CHARNAME>, i wiem, ¿e on<PRO_HESHE> jest dzieckiem Bhaala, ale ufam j<PRO_HIMHER> ca³kowicie.~
+@175 = ~Nie! Valygarze, proszê, b³agam ciê. Ten mê¿czyzna - nie mo¿esz z nim podró¿owaæ!~ ~Nie! Valygarze, proszê, b³agam ciê. Ta kobieta - nie mo¿esz z ni¹ podró¿owaæ!~
+@176 = ~Suna, czy coœ jest nie tak? Nie widzia³em nigdy byœ kogokolwiek tak stanowczo os¹dza³a. Dlaczego <CHARNAME> nie cieszy siê twoim zaufaniem?~
 @177 = ~Ja... nie mogê o tym mówiæ. Przykro mi. Muszê odejœæ. Byæ mo¿e zobaczymy siê nied³ugo, moja mi³oœci. Do zobaczenia...~
-@178 = ~Suna!  Suna, czekaj!!!~
+@178 = ~Suna! Suna, zaczekaj!!!~
 @179 = ~<CHARNAME>! Zaczekaj, proszê! Muszê z tob¹ pomówiæ.~
 @180 = ~Suna Seni, co robisz w tym przeklêtym miejscu? Dlaczego pomagasz temu czarodziejowi?~
 @181 = ~To o tym chcia³am pomówiæ z tob¹. Ja... ja chcê przeprosiæ za moje dzia³ania.~
@@ -199,15 +199,15 @@ Znalaz³em oczyszczaczy kana³ów i zdoby³em Zgubê Paj¹ka. Muszê odszukaæ Pai'Na je
 @189 = ~Jakimkolwiek nieby³byœ wojownikiem, Valygarze, czarodziej by³by i tak potê¿niejszy. Zabi³by ciê gdyby chcia³. Zd¹¿y³am tylko dowiedzieæ siê jakie s¹ jego plany i muszê rzec, ¿e s¹ to plany maniaka.~
 @190 = ~Uda³o mu siê zawrzeæ sojusz z mrocznymi elfami z Ust Natha. Planuje inwazjê na powierzchniê--wojnê pomiêdzy elfami.~
 @191 = ~Nie mów wiêcej o tym, albo pozbêdê siê ciebie tak jak pozby³em siê Z³odziei Cienia.~
-@192 = ~Nie rozumiem, <CHARNAME>. Zna³em Suna Seni przez wiele lat i nigdy nie widzia³em aby tak siê zachowywa³a. To wydaje siê tak, jakby do koñca nie by³a sob¹...~
+@192 = ~Nie rozumiem, <CHARNAME>. Zna³em Sunê Seni przez wiele lat i nigdy nie widzia³em aby tak siê zachowywa³a. To wydaje siê tak, jakby do koñca nie by³a sob¹...~
 @193 = ~W porz¹dku, Valygarze. Przyzwyczi³em siê do takich reakcji ludzi, kiedy dowiaduj¹ siê o moim pochodzeniu. Powiedz mi jak ty i Suna Seni poznaliœcie siê?~
 @194 = ~Co wiesz o tej kobiecie? Mów, ³owco!~
 @195 = ~Poznaliœmy siê wiele lat temu, zanim sta³em siê zwiadowc¹ amnijskiej armii. Pewnego dnia wraca³em do Athkatli z Wzgórz Umar. By³a wtedy na zwiadach i wziê³a mnie za bandytê.~
 @196 = ~Kiedy zda³a sobie sprawê, ¿e jestem tylko wêdrowcem, zaczêliœmy rozmawiaæ i zauwa¿yliœmy, ¿e mamy ze sob¹ wiele wspólnego. Dotrzymywaliœmy sobie towarzystwa podczas powrotu do Athkatli i spêdziliœmy razem du¿o czasu w mieœcie.~
-@197 = ~Pewnego dnia skontaktowa³ siê z ni¹ potê¿ny czarodziej, nie zna³em jego imienia. Szczerze mówi¹c, nigdy nie pozna³em jego imienia, lub tego dlaczego interesowa³ siê Sun¹, dlaczego zosta³em zmuszony opuœciæ miasto.~
-@198 = ~Cokolwiek... Mam lepsze rzeczy do robienia ni¿ stare mi³osne historie. IdŸmy.~
+@197 = ~Pewnego dnia skontaktowa³ siê z ni¹ potê¿ny czarodziej. Nigdy nie pozna³em jego imienia ani powodu dlaczego tak bardzo interesowa³ siê Sun¹. Niestety nie mog³em ju¿ jej o to zapytaæ, bo nied³ugo potem zosta³em zmuszony do ucieczki z miasta.~
+@198 = ~Wszystko mi jedno... Mam lepsze rzeczy do robienia ni¿ stare mi³osne historie. ChodŸmy.~
 @199 = ~Byæ mo¿e spotkamy j¹ ponownie i poznamy przyczyny jej dzia³añ.~
-@200 = ~Byæ mo¿e...  Powinniœmy udaæ siê w dalsz¹ drogê. Obawiam siê, mamy d³ug¹ drogê przed sob¹.~
+@200 = ~Byæ mo¿e... Powinniœmy iœæ dalej. Obawiam siê, mamy d³ug¹ drogê przed sob¹.~
 @201 = ~Niech tak bêdzie. Nie ma sensu rozpamiêtywaæ przesz³oœci. Opuœæmy to miejsce.~
 @202 = ~Nie! Suna Seni, nie jesteœ tu d³u¿ej bezpieczna. Irenicus zabije ciê, gdy odkryje twoj¹ zdradê. Proszê, b³agam ciê, powróæ do Athkatli, gdzie bêdziesz bezpieczna.~
 @203 = ~Jak ja nienawidzê dzieliæ towarzystwa z ukochan¹ osob¹. Modlê siê, ¿e powróci bezpiecznie do miasta, i ¿e Irenicus bêdzie zbyt zajêty by zemœciæ siê na niej. ChodŸmy i znajdŸmy czarodzieja!~
@@ -339,7 +339,7 @@ Po uwolnieniu cyrkowego namiotu zaczepi³a mnie dziewczynka o imieniu Myara. Da³a
 @313 = ~Niez³a robota, zabraæ mój ilit i puœciæ go wolno. Przypuszczam, ¿e uda siê do Esmeltaran lub gdzieœ indziej i zabije zgrajê dzieciaków. NieŸle, bohaterze. Czas abym opuœci³ to paskudne miasto. ChodŸ, Gorje.~
 @314 = ~Tak, no wiêc macie co chcieliœcie. Niez³a robota, wy przymulone worki œmieci. OdejdŸcie precz. Nie mam nic wiêcej dla was. Czas abym opuœci³ to paskudne miasto. ChodŸ, Gorje.~
 @315 = ~Chata wygl¹da jakby by³a zamieszkana, ale nie ma w niej obecnie ¿adnych mieszkañców.~
-@316 = ~Suna... nie.  Suna!!~
+@316 = ~Suna... nie. Suna!!~
 @317 = ~Suna Seni by³a dzielna dzieln¹ kobiet¹, Valygar, wiedz wiêc, ¿e podzielam twój smutek. Podzielam tak¿e twoj¹ ¿¹dzê zemsty, znajdŸmy wiêc biesa stoj¹cego za tym wszystkim i skoñczmy znim.~
 @318 = ~Co¿ to za szkoda. Przykro mi widzieæ tak tragiczny upadek takiej piêknej kobiety. Powinniœmy ju¿ jednak ruszaæ.~
 @319 = ~Nie rozpaczajmy nad umar³ymi, ³owco. Œmieræ jest czêœci¹ ¿ycia-- Nauczy³em siê tego a¿ za dobrze. Kontynuujmy nasze poszukiwania i odszukajmy demona, który za tym stoi, Irenicusa.~ ~Nie rozpaczajmy nad umar³ymi, ³owco. Œmieræ jest czêœci¹ ¿ycia-- Nauczy³am siê tego a¿ za dobrze. Kontynuujmy nasze poszukiwania i odszukajmy demona, który za tym stoi, Irenicusa.~
@@ -355,7 +355,7 @@ Po ucieczce z labiryntu znów natknêliœmy siê na Sunê Seni. Przeprosi³a za swoje 
 @327 = ~Wiem, moja mi³oœci, ale musia³am upewniæ siê, ¿e powiedzie wam siê wasza walka z Irenicusem, poza tym i tak sam zabi³by mnie zanim zd¹¿y³abym opuœciæ tê wyspê.~
 @328 = ~Geas zosta³ z³amany, ale dziêki temu mogê umrzeæ w spokoju. Przytul mnie, moja mi³oœci, ostatni raz...~
 @329 = ~<CHARNAME>, Irenicus musi zostaæ powstrzymany! Zemszczê siê. Suna Seni zaryzykowa³a w³asne ¿ycie by nas ocaliæ i jej œmieræ nie mo¿e pozostaæ niepomszczona.~
-@330 = ~Twoje ¿ycie jest w niebezpieczeñstwie, Irenicusie, za to co uczyni³eœ Sunie Seni.  Pomszczê jej œmieræ!~
+@330 = ~Twoje ¿ycie jest w niebezpieczeñstwie, Irenicusie, za to co uczyni³eœ Sunie Seni. Pomszczê jej œmieræ!~
 @331 = ~ - mówi³, ¿e mogê...~
 @332 = ~Uh...~
 @333 = ~D - Dlaczego tu jestem? Co siê sta³o?~
