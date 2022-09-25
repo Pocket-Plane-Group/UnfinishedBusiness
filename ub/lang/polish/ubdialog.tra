@@ -150,7 +150,7 @@ Pai'Na, dziwna w³adczyni druidów ¿yj¹ca pod dzielnic¹ cmentarn¹, poprosi³a mnie 
 @144 = ~Powracasz i masz ze sob¹ z³e ostrze, które zabi³o tak wielu! Masz moj¹ wdziêcznoœæ! Oœmiono¿ny ród nie bêdzie ciê ju¿ wiêcej k³opota³.~
 @145 = ~Odzyskaj Zgubê Paj¹ka dla Pai'Na.
 
-Zwróci³em miecz znany jako Zguba Paj¹ka Pai'Na. Mam nadziejê, ¿e jeœli ma racjê, to zwrócenie miecza przyniesie korzyœæ obywatelom Athkatli.~
+Zwróci³em Pai'Na miecz znany jako Zguba Paj¹ka. Mam nadziejê, ¿e ma racjê i ¿e zwrócenie miecza przyniesie korzyœæ obywatelom Athkatli.~
 @146 = ~Odzyskaj Zgubê Paj¹ka dla Pai'Na.
 
 Znalaz³em oczyszczaczy kana³ów i zdoby³em Zgubê Paj¹ka. Muszê odszukaæ Pai'Na jeszcze raz w jej kryjówce pod dzielnic¹ cmentarn¹.~
@@ -199,15 +199,15 @@ Znalaz³em oczyszczaczy kana³ów i zdoby³em Zgubê Paj¹ka. Muszê odszukaæ Pai'Na je
 @189 = ~Jakimkolwiek nieby³byœ wojownikiem, Valygarze, czarodziej by³by i tak potê¿niejszy. Zabi³by ciê gdyby chcia³. Zd¹¿y³am tylko dowiedzieæ siê jakie s¹ jego plany i muszê rzec, ¿e s¹ to plany maniaka.~
 @190 = ~Uda³o mu siê zawrzeæ sojusz z mrocznymi elfami z Ust Natha. Planuje inwazjê na powierzchniê--wojnê pomiêdzy elfami.~
 @191 = ~Nie mów wiêcej o tym, albo pozbêdê siê ciebie tak jak pozby³em siê Z³odziei Cienia.~
-@192 = ~Nie rozumiem, <CHARNAME>. Zna³em Suna Seni przez wiele lat i nigdy nie widzia³em aby tak siê zachowywa³a. To wydaje siê tak, jakby do koñca nie by³a sob¹...~
+@192 = ~Nie rozumiem, <CHARNAME>. Zna³em Sunê Seni przez wiele lat i nigdy nie widzia³em aby tak siê zachowywa³a. To wydaje siê tak, jakby do koñca nie by³a sob¹...~
 @193 = ~W porz¹dku, Valygarze. Przyzwyczi³em siê do takich reakcji ludzi, kiedy dowiaduj¹ siê o moim pochodzeniu. Powiedz mi jak ty i Suna Seni poznaliœcie siê?~
 @194 = ~Co wiesz o tej kobiecie? Mów, ³owco!~
 @195 = ~Poznaliœmy siê wiele lat temu, zanim sta³em siê zwiadowc¹ amnijskiej armii. Pewnego dnia wraca³em do Athkatli z Wzgórz Umar. By³a wtedy na zwiadach i wziê³a mnie za bandytê.~
 @196 = ~Kiedy zda³a sobie sprawê, ¿e jestem tylko wêdrowcem, zaczêliœmy rozmawiaæ i zauwa¿yliœmy, ¿e mamy ze sob¹ wiele wspólnego. Dotrzymywaliœmy sobie towarzystwa podczas powrotu do Athkatli i spêdziliœmy razem du¿o czasu w mieœcie.~
-@197 = ~Pewnego dnia skontaktowa³ siê z ni¹ potê¿ny czarodziej, nie zna³em jego imienia. Szczerze mówi¹c, nigdy nie pozna³em jego imienia, lub tego dlaczego interesowa³ siê Sun¹, dlaczego zosta³em zmuszony opuœciæ miasto.~
+@197 = ~Pewnego dnia skontaktowa³ siê z ni¹ potê¿ny czarodziej. Nigdy nie pozna³em jego imienia ani powodu dlaczego tak bardzo interesowa³ siê Sun¹. Niestety nie mog³em ju¿ jej o to zapytaæ, bo nied³ugo potem zosta³em zmuszony do ucieczki z miasta.~
 @198 = ~Cokolwiek... Mam lepsze rzeczy do robienia ni¿ stare mi³osne historie. IdŸmy.~
 @199 = ~Byæ mo¿e spotkamy j¹ ponownie i poznamy przyczyny jej dzia³añ.~
-@200 = ~Byæ mo¿e...  Powinniœmy udaæ siê w dalsz¹ drogê. Obawiam siê, mamy d³ug¹ drogê przed sob¹.~
+@200 = ~Byæ mo¿e... Powinniœmy iœæ dalej. Obawiam siê, mamy d³ug¹ drogê przed sob¹.~
 @201 = ~Niech tak bêdzie. Nie ma sensu rozpamiêtywaæ przesz³oœci. Opuœæmy to miejsce.~
 @202 = ~Nie! Suna Seni, nie jesteœ tu d³u¿ej bezpieczna. Irenicus zabije ciê, gdy odkryje twoj¹ zdradê. Proszê, b³agam ciê, powróæ do Athkatli, gdzie bêdziesz bezpieczna.~
 @203 = ~Jak ja nienawidzê dzieliæ towarzystwa z ukochan¹ osob¹. Modlê siê, ¿e powróci bezpiecznie do miasta, i ¿e Irenicus bêdzie zbyt zajêty by zemœciæ siê na niej. ChodŸmy i znajdŸmy czarodzieja!~
