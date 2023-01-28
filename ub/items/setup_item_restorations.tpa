@@ -224,7 +224,7 @@ BEGIN
 
   // Add to Trademeet nobleman merchant's inventory.
   COPY_EXISTING "trmer02.sto" "override"
-    ADD_STORE_ITEM "plat05" AFTER "plat10" #0 #0 #0 "identified" #1
+    ADD_STORE_ITEM "plat08" AFTER "plat10" #0 #0 #0 "identified" #1
 
 
   /* The Whistling Sword */
