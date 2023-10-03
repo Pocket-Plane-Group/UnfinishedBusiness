@@ -35,64 +35,64 @@ LANGUAGE
          ~English~
          ~english~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
 LANGUAGE
          ~French (graoumf and Les D'Oghmatiques)~
          ~french~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
          ~ub/lang/french/ubsetup.tra~
-         ~weidu_external/lang/french/ubsetup.tra~
+         ~weidu_external/lang/ub/french/ubsetup.tra~
 LANGUAGE
          ~Polski (Yarpen, Cahir)~
          ~polish~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
          ~ub/lang/polish/ubsetup.tra~
-         ~weidu_external/lang/polish/ubsetup.tra~
+         ~weidu_external/lang/ub/polish/ubsetup.tra~
 LANGUAGE
          ~Deutsch (Rosenranken.de)~
          ~german~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
          ~ub/lang/german/ubsetup.tra~
-         ~weidu_external/lang/german/ubsetup.tra~
+         ~weidu_external/lang/ub/german/ubsetup.tra~
 LANGUAGE
          ~Español (Clan DLAN)~
          ~spanish~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
          ~ub/lang/spanish/ubsetup.tra~
-         ~weidu_external/lang/spanish/ubsetup.tra~
+         ~weidu_external/lang/ub/spanish/ubsetup.tra~
 LANGUAGE
          ~Czech (Edvin)~
          ~czech~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
          ~ub/lang/czech/ubsetup.tra~
-         ~weidu_external/lang/czech/ubsetup.tra~
+         ~weidu_external/lang/ub/czech/ubsetup.tra~
 LANGUAGE
          ~Russian (Alex&AERIE.RU, BigMF, Hawkmoon, Regharrr. Updated by Prowler)~
          ~russian~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
          ~ub/lang/russian/ubsetup.tra~
-         ~weidu_external/lang/russian/ubsetup.tra~
+         ~weidu_external/lang/ub/russian/ubsetup.tra~
 LANGUAGE
          ~Chinese (Scar_kun)~
          ~chinese~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
          ~ub/lang/chinese/ubsetup.tra~
-         ~weidu_external/lang/chinese/ubsetup.tra~
+         ~weidu_external/lang/ub/chinese/ubsetup.tra~
 
 LANGUAGE
          ~Italian (Giuseppe Cali, Ilot)~
          ~italian~
          ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/english/ubsetup.tra~
+         ~weidu_external/lang/ub/english/ubsetup.tra~
          ~ub/lang/italian/ubsetup.tra~
-         ~weidu_external/lang/italian/ubsetup.tra~
+         ~weidu_external/lang/ub/italian/ubsetup.tra~
 
 
 ///////////////////////////

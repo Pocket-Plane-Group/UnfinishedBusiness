@@ -13,6 +13,7 @@ Version 29
 - Added a missing translation string to the German translation.
 - Revised Item Restorations, added Plate of the Dark and The Practical Defense.
 - Updated Czech translation, thanks to Edvin.
+- Fixed a bug that could cause a crash on non-English installations.
 
 Version 28
 - Updated WeiDU to version 247.
