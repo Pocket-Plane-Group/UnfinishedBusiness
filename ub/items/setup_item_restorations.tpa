@@ -88,13 +88,6 @@ BEGIN
   COPY_EXISTING scrolls.sto override // The Pen and Parchment Store
     ADD_STORE_ITEM ~scrl1r~ BEFORE scrl1t #1 #0 #0 IDENTIFIED #5
 
-  /* Boots of the West */
-  COPY ~%MOD_FOLDER%/items/misc8j.itm~ override
-    SAY NAME1             #43877
-    SAY NAME2             #43877
-    SAY UNIDENTIFIED_DESC #43878
-    SAY IDENTIFIED_DESC   #43878
-
   /* Umar Hills, places the Boots of the West on Derrick */
   COPY_EXISTING valran01.cre override
     ADD_CRE_ITEM misc8j #0 #0 #0 NONE BOOTS
