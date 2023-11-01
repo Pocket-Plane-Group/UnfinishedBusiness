@@ -58,7 +58,7 @@ LANGUAGE
          ~ub/lang/german/ubsetup.tra~
          ~weidu_external/lang/ub/german/ubsetup.tra~
 LANGUAGE
-         ~Español (Clan DLAN)~
+         ~Spanish (Clan DLAN)~
          ~spanish~
          ~ub/lang/english/ubsetup.tra~
          ~weidu_external/lang/ub/english/ubsetup.tra~
@@ -80,11 +80,11 @@ LANGUAGE
          ~weidu_external/lang/ub/russian/ubsetup.tra~
 LANGUAGE
          ~Chinese (Scar_kun)~
-         ~chinese~
-         ~ub/lang/english/ubsetup.tra~
-         ~weidu_external/lang/ub/english/ubsetup.tra~
-         ~ub/lang/chinese/ubsetup.tra~
-         ~weidu_external/lang/ub/chinese/ubsetup.tra~
+         ~schinese~
+         ~ub/lang/schinese/ubsetup.tra~
+         ~weidu_external/lang/ub/schinese/ubsetup.tra~
+         ~ub/lang/schinese/ubsetup.tra~
+         ~weidu_external/lang/ub/schinese/ubsetup.tra~
 
 LANGUAGE
          ~Italian (Giuseppe Cali, Ilot)~
