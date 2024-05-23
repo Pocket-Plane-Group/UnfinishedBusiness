@@ -79,11 +79,12 @@ LANGUAGE
          ~ub/lang/russian/ubsetup.tra~
          ~weidu_external/lang/ub/russian/ubsetup.tra~
 LANGUAGE
-         ~Chinese (Scar_kun, evalcony)~
+         ~Simplified Chinese~ //(Translation: scar_kun reviser: good0593£¬marijuana£¬moon_cloud£¬distance20£¬Piedelo£¬saladingiao)
          ~schinese~
          ~ub/lang/schinese/ubsetup.tra~
          ~weidu_external/lang/ub/schinese/ubsetup.tra~
-         ~ub/lang/schinese/ubsetup.tra~
+		 ~ub/lang/schinese/setup-%WEIDU_OS%.tra~
+         //~ub/lang/schinese/ubsetup.tra~
          ~weidu_external/lang/ub/schinese/ubsetup.tra~
 
 LANGUAGE
