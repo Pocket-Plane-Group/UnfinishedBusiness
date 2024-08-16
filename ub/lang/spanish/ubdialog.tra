@@ -752,6 +752,11 @@ Hemos encontrado un comando en la botella del Genio y hemos usado nuestro último
 
 @346 = ~No tengo amo, y a quién le debo no sabe de mis planes. No, esto no le beneficiará en lo más mínimo.~
 
+/* @347 = ~Ah sí, el tono es como se describe. Eres <CHARNAME>, ¿verdad? <CHARNAME> de Baldur's Gate cuyo padre es Gorion.~
+@348 = ~Nadie me envió, pero estoy aquí debido a alguien y su interés en ti. Tengo una deuda con ese alguien, y la pagaré a través de ti.~ */
+
+@349 = ~Vaya, ¿No hay lugar para estar solo en esta ciudad?~
+
 @350 = ~Genio liberado.
 
 
