@@ -83,7 +83,7 @@ LANGUAGE
          ~schinese~
          ~ub/lang/schinese/ubsetup.tra~
          ~weidu_external/lang/ub/schinese/ubsetup.tra~
-		 ~ub/lang/schinese/setup-%WEIDU_OS%.tra~
+		 ~ub/lang/schinese/install.tra~
          //~ub/lang/schinese/ubsetup.tra~
          ~weidu_external/lang/ub/schinese/ubsetup.tra~
 
