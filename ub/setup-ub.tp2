@@ -82,9 +82,8 @@ LANGUAGE
          ~Simplified Chinese~ //(Translation: scar_kun reviser: good0593£¬marijuana£¬moon_cloud£¬distance20£¬Piedelo£¬saladingiao)
          ~schinese~
          ~ub/lang/schinese/ubsetup.tra~
-         ~weidu_external/lang/ub/schinese/ubsetup.tra~
-		 ~ub/lang/schinese/setup-%WEIDU_OS%.tra~
-         //~ub/lang/schinese/ubsetup.tra~
+         ~ub/lang/schinese/prompts.tra~
+		 ~ub/lang/schinese/install.tra~
          ~weidu_external/lang/ub/schinese/ubsetup.tra~
 
 LANGUAGE
