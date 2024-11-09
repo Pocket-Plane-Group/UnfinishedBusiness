@@ -18,13 +18,13 @@ END
 
 
 IF
-	Global("SlumsMugging","AR0400",0)
+	Global("SpawnMugger2","AR0400",0)
 	OR(2)
 	TimeLT(4)
 	TimeGT(22)
 THEN
 	RESPONSE #100
-		SetGlobal("SlumsMugging","AR0400",1)
+		SetGlobal("SpawnMugger2","AR0400",1)
 		CreateCreature("mugger2",[1435.602],8)
 		CreateCreature("mugger4",[1437.604],8)
 		CreateCreature("Slvic01",[1434.605],8)
