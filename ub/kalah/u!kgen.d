@@ -27,7 +27,7 @@ END
 IF ~~ THEN BEGIN GenWishes
 SAY @238
 IF ~OR(2) CheckStatGT(LastTalkedToBy,12,WIS) CheckStatGT(LastTalkedToBy,12,INT)~ THEN REPLY @239 GOTO RaiseKalah
-IF ~OR(2) CheckStatLT(LastTalkedToBy,13,WIS) CheckStatLT(LastTalkedToBy,13,INT)~ THEN REPLY @240 GOTO DeadKalah
+IF ~CheckStatLT(LastTalkedToBy,13,WIS) CheckStatLT(LastTalkedToBy,13,INT)~ THEN REPLY @240 GOTO DeadKalah
 IF ~~ THEN REPLY @241 GOTO FreeGenie
 IF ~~ THEN REPLY @242 GOTO SoulKalah
 IF ~GlobalLT("Chapter","GLOBAL", %bg2_chapter_4%) !Global("C#IM_ImoenStays","GLOBAL",1) OR(2) CheckStatGT(LastTalkedToBy,12,WIS) CheckStatGT(LastTalkedToBy,12,INT)~ THEN REPLY @342 GOTO Failed
