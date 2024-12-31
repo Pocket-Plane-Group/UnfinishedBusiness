@@ -277,3 +277,33 @@ Type de compétence : Cimeterre/Wakizashi/Ninja-To
 Type : arme à 1 main
 Force nécessaire : 5
 ~
+
+/*
+  NOTE FOR TRANSLATORS
+
+  These are the original BGEE names and descriptions of several unique itmes
+  that BG2EE repurposed into more generic ones.  Please use the appropriate
+  string from BGEE possible.
+*/
+@3008 = ~La Défense pratique +3~
+@3009 = ~L'aventurier voyageur ne pourrait trouver meilleure armure. Tout spécialement fabriquée à GRANDS frais pour Bolhur « Hachetonnerre », elle était la plus précieuse de ses armures, bien que n'étant pas la plus ouvragée. Éminemment pratique, Bolhur exigeait d'une armure une protection maximale pour une gêne minimale. Par « gêne », il n'entendait pas seulement facilité de mouvement ou poids : l'armure idéale devait pouvoir résister aux rigueurs de ses errances sans nécessiter pour autant beaucoup d'entretien. Non pas que Bolhur « Hachetonnerre » négligeât ses armures (une telle insinuation se payait alors d'une bonne claque), mais disons que la pratique du cracher-astiquer que requiert une armure de « gentilhomme » ne faisait pas partie de ses préoccupations. Sans parler des pompons et dorures des armures de plates complètes propres aux rois et aux chefs d'état : un nain actif accorde plus d'importance à l'aspect pratique qu'à l'esthétique.
+
+PARAMÈTRES :
+
+Classe d'armure : 0 (-3 contre les armes tranchantes)
+
+Poids : 18~
+@3010 = ~L'Épée qui siffle +2~
+@3011 = ~Au milieu des plaines du Shaar Oriental, vivait un petit forgeron humain. La taille de cet homme, proche de celle des nains, ne reflétait pas sa grandeur d'âme. C'était un forgeron d'armes très adroit, mais il avait surtout le don de siffler une mélodie émouvante qui faisait pleurer les adultes comme des nouveau-nés. Seul un mage solitaire partageait son temps avec le petit homme et appréciait sa compagnie, car les autres ne voyaient dans sa petite taille qu'une source de moquerie. Les préjugés les rendaient sourds à la chanson du forgeron. Leurs railleries se transformèrent en un cruel supplice qui persuada finalement l'homme au cœur léger de quitter à tout jamais sa maison. Avant de partir, il forgea cette arme pour l'offrir à son vieil ami, qui lui jeta un sort pendant sa fabrication. À présent, la lame émet un sifflement doux à l'oreille de quiconque la dégaine. Peu après, le mage quitta également la petite ville, écœuré, emportant l'épée dans son voyage.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d6 +2 (perforant)
+Facteur de vitesse : 1
+Type de compétence : épée courte
+Type : arme à une main
+Nécessite :
+ 4 en Force
+
+Poids : 2~

@@ -1114,3 +1114,111 @@ Tout comme le sort de 5ème niveau de prêtre Rappel à la vie, Résurrection ramène
 
 <CHARNAME> a gagné 25% de résistance aux dégâts physiques (par exemple aux dégâts tranchants, perforants, contondants et aux Projectiles).~
 
+/*
+  NOTE FOR TRANSLATORS
+
+  These are the original BG1 names and descriptions of several unique itmes
+  that BG2 repurposed into more generic ones.  Please use the appropriate
+  string from BG1 if possible.
+*/
+@3000 = ~Hache de Mauletar +2~
+@3001 = ~Durant la guerre civile de Téthyr, la Hache de Mauletar était entre les mains de la maison d'Ossyind. Cette famille de nobles fut trahie alors qu'elle essayait de fuir le pays. Mauletar, garde en chef et ami personnel de la famille, se saisit de la hache d'armes et se sacrifia pour laisser le temps à ses compagnons de s'enfuir. Son cri de bataille eut la faveur des dieux et est devenu depuis lors dans ces contrées un symbole parfait d'amitié dévouée et de loyauté. C'est pourquoi la hache d'armes magique fut utilisée pour répandre ces vertus et doit servir contre ceux qui manquent d'honneur et de courage.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 5
+Type de compétence : hache
+Type : arme à une main
+Nécessite :
+ 10 en Force
+
+Poids : 5
+Inutilisable par :
+ Clerc
+ Druide
+ Mage
+ Voleur~
+@3002 = ~Brise-crânes de Krotan +2~
+@3003 = ~Même les hordes ont leurs héros et, s'ils sont peu appréciés dans les sociétés civilisées, certains de leurs faits d'armes n'en sont pas moins impressionnants. Krotan, un orque d'une intelligence exceptionnelle pour sa race, commandait une légion formée d'ogres, d'orques, de hobgobelins et autres créatures du même type pendant l'Année de la Dame Morte, 1 241. Cette année-là, un groupe de bandits orques aurait enlevé et tué une femme de la noblesse téthyrienne, et en guise de représailles, les autorités massacrèrent tous les orques vivant dans le sud. Krotan organisa des forces de défense pour protéger son peuple qui, déjà chassé de ses terres, était menacé d'anéantissement. Krotan lui-même tomba dans les derniers jours du conflit et sa tête fut exposée à l'extérieur du cimetière où était enterrée la jeune femme. Fait intéressant, les orques appelèrent cette période « l'Année des Abus ».
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d6 +3 (contondant)
+Facteur de vitesse : 5
+Type de compétence : masse d'armes
+Type : arme à une main
+Nécessite :
+ 10 en Force
+
+Poids : 7
+Inutilisable par :
+ Druide
+ Mage~
+@3004 = ~Lame de Suryris +2~
+@3005 = ~Suryris était un minotaure blanc qui voyageait à travers les Orsraunes de Turmish. Il vivait pour le seul plaisir du combat et incitait les guerriers à le défier pour lui ravir son arme magique, une puissante hallebarde. Malgré sa nature agressive, c'était un combattant honnête et il ne tuait jamais les adversaires auxquels il était supérieur. Suryris ne rencontra son supérieur qu'une seule fois, dans un combat qui dura des heures et au cours duquel il craignit souvent d'être vaincu. Le duel prit fin lorsque l'épée de son adversaire se rompit. Suryris savait cependant que s'il s'était prolongé, il aurait probablement été battu. Il a alors offert son arme à l'homme stupéfait. Plus tard, ce dernier parla de cette noble créature à qui voulait l'entendre.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d10 +2 (perforant ou tranchant)
+Facteur de vitesse : 7
+Type de compétence : hallebarde
+Type : arme à deux mains
+Nécessite :
+ 11 en Force
+
+Poids : 12
+Inutilisable par :
+ Clerc
+ Druide
+ Mage
+ Voleur~
+@3006 = ~Armure de plates complète des ténèbres +1~
+@3007 = ~Le Seigneur des Ténèbres Hertious, l'immortel Seigneur de Guerre de Baine, a porté cette armure pendant plus de cinq-cents ans. Pendant cette période, il aurait habité un château quelque part au milieu des Montagnes du Jeûne. On ne sait pas exactement comment son armure a pu passer entre des mains étrangères, mais la séparation fut probablement des plus désagréables.
+
+PARAMÈTRES :
+
+Classe d'armure : 0 (-4 contre les armes tranchantes, -3 contre les armes perforantes et les projectiles)
+Nécessite :
+ 15 en Force
+
+Poids : 35
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+@3008 = ~La Défense pratique +3~
+@3009 = ~L'aventurier voyageur ne pourrait trouver meilleure armure. Tout spécialement fabriquée à GRANDS frais pour Bolhur « Hachetonnerre », elle était la plus précieuse de ses armures, bien que n'étant pas la plus ouvragée. Éminemment pratique, Bolhur exigeait d'une armure une protection maximale pour une gêne minimale. Par « gêne », il n'entendait pas seulement facilité de mouvement ou poids : l'armure idéale devait pouvoir résister aux rigueurs de ses errances sans nécessiter pour autant beaucoup d'entretien. Non pas que Bolhur « Hachetonnerre » négligeât ses armures (une telle insinuation se payait alors d'une bonne claque), mais disons que la pratique du cracher-astiquer que requiert une armure de « gentilhomme » ne faisait pas partie de ses préoccupations. Sans parler des pompons et dorures des armures de plates complètes propres aux rois et aux chefs d'état : un nain actif accorde plus d'importance à l'aspect pratique qu'à l'esthétique.
+
+PARAMÈTRES :
+
+Classe d'armure : 0 (-3 contre les armes tranchantes)
+
+Poids : 18
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+@3010 = ~L'Épée qui siffle +2~
+@3011 = ~Au milieu des plaines du Shaar Oriental, vivait un petit forgeron humain. La taille de cet homme, proche de celle des nains, ne reflétait pas sa grandeur d'âme. C'était un forgeron d'armes très adroit, mais il avait surtout le don de siffler une mélodie émouvante qui faisait pleurer les adultes comme des nouveau-nés. Seul un mage solitaire partageait son temps avec le petit homme et appréciait sa compagnie, car les autres ne voyaient dans sa petite taille qu'une source de moquerie. Les préjugés les rendaient sourds à la chanson du forgeron. Leurs railleries se transformèrent en un cruel supplice qui persuada finalement l'homme au cœur léger de quitter à tout jamais sa maison. Avant de partir, il forgea cette arme pour l'offrir à son vieil ami, qui lui jeta un sort pendant sa fabrication. À présent, la lame émet un sifflement doux à l'oreille de quiconque la dégaine. Peu après, le mage quitta également la petite ville, écœuré, emportant l'épée dans son voyage.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d6 +2 (perforant)
+Facteur de vitesse : 1
+Type de compétence : épée courte
+Type : arme à une main
+Nécessite :
+ 4 en Force
+
+Poids : 2
+Inutilisable par :
+ Clerc
+ Druide
+ Mage~
