@@ -41,13 +41,6 @@ BEGIN
 END
 
 
-// Handle charsets for EE games
-
-LAUNCH_ACTION_FUNCTION handle_charsets_immutably
-  RET	tra_loc
-END
-
-
 // Load EE-specific translation strings if needed.
 
 ACTION_IF ENGINE_IS "bgee bg2ee"

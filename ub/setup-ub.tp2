@@ -20,7 +20,7 @@ ALWAYS
   OUTER_SPRINT tra_setup "ubsetup"
   OUTER_SPRINT ini_file "ub"
 
-  INCLUDE "%MOD_FOLDER%/lib/sfo_immutable.tph"
+  INCLUDE "%MOD_FOLDER%/lib/sfo_immutable.tpa"
 
   INCLUDE "%MOD_FOLDER%/lib/always.tpa"
 END

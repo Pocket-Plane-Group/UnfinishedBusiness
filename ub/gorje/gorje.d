@@ -61,19 +61,23 @@ END
 
 IF ~~ THEN BEGIN 10 // from: 9.2 8.0 7.0 6.1
   SAY @28
-  IF ~~ THEN DO ~EscapeArea()
-SetGlobal("UBGorjeCC","GLOBAL",1)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("UBGorjeCC","GLOBAL",1) EscapeArea()~
+    UNSOLVED_JOURNAL @30
+    EXIT
 END
 
 IF ~~ THEN BEGIN 11 // from: 9.1 8.1 7.1 6.2
   SAY @29
   IF ~~ THEN DO ~SetGlobal("UBGorjeCC","GLOBAL",1) EscapeArea()~
-UNSOLVED_JOURNAL @30 EXIT
+    UNSOLVED_JOURNAL @30
+    EXIT
 END
 
 IF ~~ THEN BEGIN 12 // from: 5.0
   SAY @31
-  IF ~~ THEN DO ~EscapeArea() 
-SetGlobal("UBGorjeCC","GLOBAL",1)~ UNSOLVED_JOURNAL @30 EXIT
+  IF ~~ THEN DO ~SetGlobal("UBGorjeCC","GLOBAL",1) EscapeArea()~
+    UNSOLVED_JOURNAL @30
+    EXIT
 END
+
+

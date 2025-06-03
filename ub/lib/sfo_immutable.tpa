@@ -222,7 +222,7 @@ ACTION_IF !VARIABLE_IS_SET SFO_reserved_immutable_initialise BEGIN // only do th
    END
 
    ACTION_IF !VARIABLE_IS_SET rel_iconv_path BEGIN
-      OUTER_SPRINT rel_iconv_path "lang/iconv"
+      OUTER_SPRINT rel_iconv_path "%tra_base%/iconv"
    END
 
    ACTION_IF !VARIABLE_IS_SET base_language BEGIN
