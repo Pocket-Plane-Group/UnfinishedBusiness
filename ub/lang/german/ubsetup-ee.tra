@@ -12,30 +12,40 @@ Waffenfertigkeit: Kurzschwert
 Waffentyp: Einhändig 
 Mindeststärke: 5
 ~ 
-@33   = ~Krummsäbel +1, Shazzellim
-Dieser Krummsäbel ist von recht schlechter Qualität, aber hinter seinem unscheinbarem Äußeren verbirgt sich eine große, böse Macht. Shazzellim wurde nur zu dem Zweck gefertigt, Harfner zu töten, und ist für diese Aufgabe bestens geeignet. Wird ein Barde von dieser Klinge getroffen, muss er einen Rettungswurf gegen Zauber bestehen oder sterben. Der Krummsäbel wurde von den Roten Magiern von Tay angefertigt und verfügt außerdem über die Fähigkeit Wortloses Zaubern. Deswegen wird er oft an Kriegermagier in den Diensten der Roten Magier vergeben. Es erübrigt sich fast zu sagen, dass man sich als Träger dieser Waffe bei den Harfnern nicht gerade beliebt macht.
+@33   = ~Dieser Krummsäbel ist von recht schlechter Qualität, aber hinter seinem unscheinbaren Äußeren verbirgt sich eine große, böse Macht. Shazzellim wurde nur zu dem Zweck gefertigt, Harfner zu töten, und ist für diese Aufgabe bestens geeignet. Wird ein Barde von dieser Klinge getroffen, muss er einen Rettungswurf gegen Zauber bestehen oder sterben. Der Krummsäbel wurde von den Roten Magiern von Tay angefertigt und verfügt außerdem über die Fähigkeit „Wortloses Zaubern“. Deswegen wird er oft an Kriegermagier in den Diensten der Roten Magier vergeben. Es erübrigt sich fast zu sagen, dass man sich als Träger dieser Waffe bei den Harfnern nicht gerade beliebt macht.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-Besondere Fähigkeiten: er Träger verfügt über die Fähigkeit "Wortloses Zaubern". Wird ein Barde mit dem Krummsäbel getroffen, muss er einen Rettungswurf -4 gegen Zauber bestehen oder sterben.
-ETW0: -1
-Schaden: 1W8+1 (Klingenwaffe)
-Gewicht: 3
+Wird ein Barde getroffen, stirbt dieser sofort (Rettungswurf -4 gg. Zauber).
+Auf dem Träger liegt Wortloses Zaubern.
+
+ETW0-Bonus: -1
+Schaden: 1W8 +1 (Klinge)
 Initiativefaktor: 4
-Waffenfertigkeit: Krummsäbel/Wakizashi/Ninja-To
-Waffentyp: Einhändig
-~
-@34   = ~Wenn dieser Stab benutzt wird, werden Gegner von starken Fäden festgehalten, die wie Spinnfäden, aber viel stärker und länger sind.  Wesen, die in ihnen gefangen sind oder sie einfach nur berührt haben, bleiben an den klebrigen Fäden hängen.  Jeder im Gebiet, in dem der Zauber ausgesprochen wurde, muss einen Rettungswurf -5 gegen Zauber bestehen. Wenn der Wurf erfolgreich war, ist das Wesen frei und kann das Gebiet verlassen. Wenn er versagt, ist das Wesen in den Spinnfäden gefangen und kann sich nicht bewegen. 
+Fertigkeit: Krummsäbel/Wakizashi/Ninjato
+Typ: 1-händig
+Mindeststärke: 10
+
+Gewicht: 3~
+@34   = ~Wenn dieser Stab benutzt wird, werden Gegner von starken Fäden festgehalten, die wie Spinnfäden, aber viel stärker und länger sind. Wesen, die in ihnen gefangen sind oder sie einfach nur berührt haben, bleiben an den klebrigen Fäden hängen. Jeder im Gebiet, in dem der Zauber ausgesprochen wurde, muss einen Rettungswurf -5 gegen Zauber bestehen. Wenn der Wurf erfolgreich war, ist das Wesen frei und kann das Gebiet verlassen. Wenn er versagt, ist das Wesen in den Spinnfäden gefangen und kann sich nicht bewegen.
 In jeder Runde, in der das Wesen in den Spinnfäden gefangen ist, muss es einen Rettungswurf bestehen, oder es kann sich weiterhin nicht bewegen.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
-Effekt:  Hält das Ziel fest, bis ein Rettungswurf -5 gegen Zauber gelungen ist. 
-Reichweite:  60 Fuß
-Gebiet des Effektes: Besonders
-Rettungswurf: Besonders
-Dauer:  1 Runde 
-~
+Netz
+ Reichweite: 18 m
+ Dauer: 1 Runde
+ Bereich: 1 Wesen
+ Rettungswurf: Ja (-5 gg. Zauber)
+
+Mindestintelligenz: 9
+
+Gewicht: 1~
+@39   = ~Das einstmals mächtige Schwert Spinnenfluch liegt jetzt zerbrochen in Euren Händen. Nachdem die städtischen Arbeiter es zweckentfremdet hatten, ist es jetzt nur noch für diejenige Person von Wert, die nach ihm sucht - Pai'Na.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
 @74   = ~Shakti-Statuette
 
 Es gibt starke Hinweise darauf, dass dieser Gegenstand von einem mächtigen Wu Jen in den geheimnisvollen Landen im Osten Faerûns gefertigt wurde, denn die Statuette ist eine äußerst detaillierte Nachbildung eines wilden Kriegers aus Kara-Tur in voller Kampfkleidung.
@@ -221,17 +231,39 @@ Waffenfertigkeit: Flegel/Morgenstern
 Waffentyp: Einhändig
 Mindeststärke: 13
 ~
-@1005 = ~Diese kurze Klinge, kaum 30 cm lang, sieht eindeutig nach Kara-Turan aus, ist aber  offensichtlich von schlechter Verarbeitung. Das Gleichgewicht weicht etwas ab, die um den Griff gewickelte Seide ist locker, und die Schneide ist lange stumpf. Spuren einer reich verzierten morgenländischen Inschrift blieben hier und dort auf dem Handschutz.
+@1005 = ~Diese kurze Klinge, kaum 30 cm lang, sieht eindeutig nach Kara-Turan aus, ist aber offensichtlich von schlechter Verarbeitung. Das Gleichgewicht weicht etwas ab, die um den Griff gewickelte Seide ist locker, und die Schneide ist lange stumpf. Spuren einer reich verzierten morgenländischen Inschrift blieben hier und dort auf dem Handschutz.
 
 EIGENSCHAFTEN:
 
-ETW0 :-1
-Schaden: 1W8 -1
-Schadensart: durchbohren
-Gewicht: 3
-Geschwindigkeitsfaktor: 2
-Fertigkeit: Scimitar/Wakizashi/Ninja-To
+ETW0-Malus: +1
+Schaden: 1W8 -1 (Stich)
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel/Wakizashi/Ninjato
 Typ: 1-händig
-MIndeststärke: 5
+Mindeststärke: 5
 
-~
+Gewicht: 3~
+
+@3008 = ~Die praktische Verteidigung +3~
+@3009 = ~Im ganzen Land gibt es keine bessere Rüstung für den umherreisenden Abenteurer. Diese Rüstung, eine äußerst teure Sonderanfertigung für Bolhur „Donneraxt“, war seine kostbarste, wenn auch nicht die mit den meisten Verzierungen. Sie ist unheimlich praktisch, denn Bolhur verlangte nach Rüstungen, die hochwertigen Schutz boten und ihn dennoch in keiner Weise behinderten. Und „behindern“ bezog er dabei nicht nur auf seine Bewegungsfreiheit oder das Gewicht, auch wenn diese Rüstung deutlich leichter ist als ein normaler Plattenpanzer. Seine ideale Rüstung sollte den Härten seiner Streifzüge nämlich auch mit möglichst wenig Wartungsaufwand standhalten. Das soll nun aber nicht heißen, dass Bolhur „Donneraxt“ seine Rüstungen vernachlässigte – wagtet Ihr, dies zu behaupten, würdet Ihr Euch großen Ärger einhandeln. Aber an der normalen Pflege einer „herrschaftlichen“ Rüstung mit Spucke und Politur konnte er keinen richtigen Gefallen finden. Und dann erst die Quasten und Verzierungen eines Prunkharnischs, wie sie von Königen und Staatsoberhäuptern getragen werden – einem arbeitenden Zwerg ist der Nutzen wichtiger als das Aussehen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+RK-Bonus: -3 gg. Klingenwaffen
+Mindeststärke: 11
+
+Gewicht: 18~
+@3010 = ~Das pfeifende Schwert +2~
+@3011 = ~In den Ebenen des Östlichen Shaar lebte ein kleiner Schmied von der Rasse der Menschen, dessen fast zwergenhafter Wuchs seiner Seele nicht gerecht wurde. Er war zwar ein versierter Waffenschmied, aber seine eigentliche Fähigkeit bestand darin, ein gefühlvolles Lied zu pfeifen, das einen gestandenen Mann dazu bringen konnte, wie ein Kind zu weinen. Nur ein zurückgezogen lebender Magier verbrachte seine Zeit mit dem Kleinwüchsigen, während die anderen sich lediglich über seine geringe Körpergröße lustig machten. Das Lied des Schmieds stieß bei ihnen wegen ihrer Vorurteile auf taube Ohren, und ihr Spott steigerte sich mit der Zeit in grausame Quälerei, sodass der Mann sich schließlich dazu gedrängt sah, sein Zuhause für immer zu verlassen. Vor seinem Aufbruch schmiedete er noch diese Waffe als Geschenk für seinen Freund, der sie bei der Herstellung verzauberte. So pfeift die Klinge ihrem Träger eine süße Melodie, wenn sie aus der Scheide gezogen wird. Nur kurze Zeit später verließ auch der Magier angewidert die kleine Stadt, wobei er das Schwert auf seine Reisen mitnahm.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -2
+Schaden: 1W6 +2 (Stich)
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 4
+
+Gewicht: 2~

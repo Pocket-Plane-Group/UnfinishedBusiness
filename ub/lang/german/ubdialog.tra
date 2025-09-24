@@ -1,55 +1,55 @@
 @1    = ~Ich konnte es nicht ertragen, Euch gehen zu sehen. Ihr wart unterhaltsam, aber das Spiel ist vorbei. Ein letztes Mal sollen sich unsere Wege im Blute treffen!~ [J#Bodhi]
-@2    = ~ Und wieder treffen wir uns, Kind des Bhaal. Ihr seid langsam. Vielleicht sollte ich Euch dazu anregen, schneller zu laufen.~ 
+@2    = ~Und wieder treffen wir uns, Kind des Bhaal. Ihr seid langsam. Vielleicht sollte ich Euch dazu anregen, schneller zu laufen.~
 @3    = ~Gut gemacht, Kind des Bhaal. Rennt schneller, vielleicht entkommt Ihr dann von hier!~ 
 @4    = ~Bei Abbathors ungewaschenem Hintern! Wer im Namen aller Höllen seid Ihr?~ 
 @5    = ~Ihr müsst dieser Gorje sein, von dem Unger sprach. Ich komme im Auftrag Eures Bruders.~ 
 @6    = ~Dies ist nicht Eure Angelegenheit. Geht auf die Seite!~ 
-@7    = ~Ich bin <GABBER>.  Wer seid Ihr?~ 
-@8    = ~Dieser Dreck schnüffelnde Idiot! Er hat Euch geschickt, um mich zu retten? Klingt nach ihm, diesem verdammten hirnlosen Narren.  Kann nicht mal eine Axt nehmen und die dreckige Arbeit selber machen, stattdessen überlässt er es Oberweltlern.~ 
+@7    = ~Ich bin <GABBER>. Wer seid Ihr?~ 
+@8    = ~Dieser Dreck schnüffelnde Idiot! Er hat Euch geschickt, um mich zu retten? Klingt nach ihm, diesem verdammten hirnlosen Narren. Kann nicht mal eine Axt nehmen und die dreckige Arbeit selber machen, stattdessen überlässt er es Oberweltlern.~ 
 @9    = ~Nein. Ich suche nach Illithium.~ 
 @10   = ~Uhh ... ja.~ 
-@11   = ~Oh ... denkt Ihr?  Schaut, dies ist mein Anteil für Euch!  Ihr könnt Euch zur Bestie begeben und sie mit Eurem Fleisch füttern!~ 
+@11   = ~Oh ... denkt Ihr? Schaut, dies ist mein Anteil für Euch! Ihr könnt Euch zur Bestie begeben und sie mit Eurem Fleisch füttern!~ 
 @12   = ~Die Bestie?~ 
-@13   = ~Fein.  Ich gehe.~ 
-@14   = ~Den wären wir los, Oberflächenabschaum!   Ihr könnt Euch einen neuen Platz zum Verstecken suchen.  Euer Gestank betäubt mir die Sinne!~ 
-@15   = ~Der Name ist Gorje Dunkelhügel.  Dieser Ort gehört mir und meinem nichtsnutzigen kiesköpfigen Bruder Unger.~ 
+@13   = ~Fein. Ich gehe.~ 
+@14   = ~Den wären wir los, Oberflächenabschaum! Ihr könnt Euch einen neuen Platz zum Verstecken suchen. Euer Gestank betäubt mir die Sinne!~ 
+@15   = ~Der Name ist Gorje Dunkelhügel. Dieser Ort gehört mir und meinem nichtsnutzigen kiesköpfigen Bruder Unger.~ 
 @16   = ~Die ganzen Skelette und so weiter sind Eure Diener?~ 
 @17   = ~Nett, Euch zu treffen. Ich gehe jetzt.~ 
 @18   = ~Warum seid Ihr hier?~ 
-@19   = ~Illithium!!??  Er hat es Euch gesagt? Dieser Idiot??  Dieser vermaledeite Arsch! Dieser biersaufende Wurmzüchter!  Der hat's wohl mit 'nem Drow getrieben!  Wo ist er? Ich werde ihm seinen Kopf abschlagen und ihn als Nachttopf benutzen!!  (Will mich nicht retten, aber erzählt diesem Haufen dreckfressender Oberweltlern, wo ich zu finden bin ... )~ 
+@19   = ~Illithium!!?? Er hat es Euch gesagt? Dieser Idiot?? Dieser vermaledeite Arsch! Dieser biersaufende Wurmzüchter! Der hat's wohl mit 'nem Drow getrieben! Wo ist er? Ich werde ihm seinen Kopf abschlagen und ihn als Nachttopf benutzen!! (Will mich nicht retten, aber erzählt diesem Haufen dreckfressender Oberweltlern, wo ich zu finden bin ...)~ 
 @20   = ~Also hier ist das Illithium. Entspannt Euch, ich brauche nur ein bisschen und dann mache ich mich wieder auf den Weg.~ 
 @21   = ~Euer Bruder ist in der Kupferkrone und sehnt sich nach seiner verlorenen Höhle des Reichtums. Warum seid Ihr noch immer hier drinnen bei den ganzen Monstern?~ 
 @22   = ~Selbst wenn Ihr blind wie eine Höhlenratte und stur wie Granit seid, müsstet Ihr trotzdem bemerkt haben, dass diese Ruinen von einer Gruppe Bestien gestürmt worden ist. Irgendwas hat sich aufgemacht und die Kontrolle über meine Mine übernommen. Ich habe immer gehofft, einen Weg hinaus zu finden. Ist der Weg hinter Euch sicher? Ist es ein sicherer Weg nach draußen?~ 
 @23   = ~Was ist dieses große Ding, von dem Ihr da sprecht?~ 
-@24   = ~Es tut mir leid. Ich bin selber den Biestern gerade so entkommen.  Ihr müsst Euch den Weg selbst freikämpfen, um fliehen zu können.~ 
+@24   = ~Es tut mir leid. Ich bin selber den Biestern gerade so entkommen. Ihr müsst Euch den Weg selbst freikämpfen, um fliehen zu können.~ 
 @25   = ~Der Weg ist sicher. Ihr könnt fliehen.~ 
-@26   = ~Es machte nicht gerade den Eindruck, dass man mit ihm reden könnte.  Es brannte sich seinen Weg durch die Erde und hat sich in einem Raum unter uns niedergelassen.  Ich bin damit zufrieden, es in Ruhe zu lassen.  Nun sagt mir, gibt es einen sicheren Weg aus diesem Gefängnis nach draußen?~ 
-@27   = ~Ihr findet diese Sache wohl komisch, Oberweltler? Gorje, verlassen von diesem feigen Stück Drowscheiße, das sich als sein Bruder ausgibt. Wahnsinnig witzig, Blödmann.  Meine "Diener" sind der Grund, weshalb unsere Höhle wertlos ist.  Unsere Handelsroute ist geschlossen, bis Ihr Euch einen Weg zum Ausgang gebuddelt habt. ~ 
+@26   = ~Es machte nicht gerade den Eindruck, dass man mit ihm reden könnte. Es brannte sich seinen Weg durch die Erde und hat sich in einem Raum unter uns niedergelassen. Ich bin damit zufrieden, es in Ruhe zu lassen. Nun sagt mir, gibt es einen sicheren Weg aus diesem Gefängnis nach draußen?~ 
+@27   = ~Ihr findet diese Sache wohl komisch, Oberweltler? Gorje, verlassen von diesem feigen Stück Drowscheiße, das sich als sein Bruder ausgibt. Wahnsinnig witzig, Blödmann. Meine "Diener" sind der Grund, weshalb unsere Höhle wertlos ist. Unsere Handelsroute ist geschlossen, bis Ihr Euch einen Weg zum Ausgang gebuddelt habt. ~ 
 @28   = ~Unger ist wohl ein größerer Narr als Ihr, wenn er wirklich denkt, dass so ein unfähiger Oberweltler wie Ihr mich retten könnte ... wenn es denn eine Möglichkeit gibt, mich zu retten, dann mache ich es selber. Besser als hier zu bleiben bei Eurem Gestank!~
-@29   = ~Meint Ihr das ernst?  Blutige Höllenfeuer, mein idiotischer Bruder hat mal was richtig gemacht?  In diesem Fall mache ich mich auf, den Kiesschlucker zu suchen.  Und ich sage, dass Ihr diesen verfluchten Ort besser verlassen solltet, bevor das Biest Euch findet und zu einem Imbiss verarbeitet. Wer weiß, nachher denkt es noch, Ihr wärt knusprig und würdet gut mit Ketchup schmecken.~ 
-@30   = ~Sir Sarles und das Kunstwerk für den Tempel. 
+@29   = ~Meint Ihr das ernst? Blutige Höllenfeuer, mein idiotischer Bruder hat mal was richtig gemacht? In diesem Fall mache ich mich auf, den Kiesschlucker zu suchen. Und ich sage, dass Ihr diesen verfluchten Ort besser verlassen solltet, bevor das Biest Euch findet und zu einem Imbiss verarbeitet. Wer weiß, nachher denkt es noch, Ihr wärt knusprig und würdet gut mit Ketchup schmecken.~ 
+@30   = ~Sir Sarles und das Kunstwerk für den Tempel
 
 Ich fand Ungers verloren Bruder Gorje. Hoffentlich hält er sich an unsere Übereinkunft und gibt uns das, was wir benötigen.~
-@31   = ~Ihr seid zu spät. Das letzte Illithium von diesem verfluchten Ort ist fort. Was die Plünderer nicht aus den alten Wänden bekamen, habe ich diesem dummen Bruder geschickt.  Ihr könnt Euch gerne umsehen, aber ich habe ziemlich gründlich gesucht.  Ich gehe, um meinen idiotischen Bruder zu finden.  Ich würde vorschlagen, dass Ihr diesen verfluchten Ort so schnell wie möglich verlasst.  Ansonsten werdet Ihr wahrscheinlich den Tod in den Fängen der Bestie finden.~ 
-@32   = ~ Stört mich nicht, Zwerg. Ich habe heute Morgen keine sonderlich gute Laune.~ 
-@33   = ~ Was starrt Ihr so? Ist nicht verboten, ein Zwerg zu sein, soweit ich weiß. Wendet Eure Augen von mir ab und platziert sie lieber an einem sichereren Ort. ~ 
-@34   = ~ Ahh, aber Ihr seid kein gewöhnlicher Zwerg, oder? ...~ 
-@35   = ~Kein Grund für Feindseligkeiten, Jerlia hat mich geschickt. Ich möchte mit Euch über Illithium reden.~ 
-@36   = ~ Tut mir leid, wenn ich Euch gestört habe, aber Ihr schient schon vorher verstört gewesen zu sein.~ 
-@37   = ~ Mir gefällt Euer Tonfall nicht. Wenn Ihr was zu sagen habt, dann spuckt es aus, bevor sich Euere Zähne draußen umschauen können!~ 
-@38   = ~ Ihr habt mich gehört, Duergar. Ihr solltet meinen Worten lauschen! Ich brauche Illithium.~ 
-@39   = ~ Kein Grund wütend zu werden, ich hab's nicht böse gemeint. Jerlia hat mich geschickt. Ich brauche Illithium.~ 
-@40   = ~ Ich entschuldige mich zutiefst. Ich werde jetzt gehen.~ 
-@41   = ~ Zieht weiter, 'Verwandter'. Ich habe Euch nichts zu sagen, obwohl Ihr die richtige Größe habt.~ 
-@42   = ~ Und ich weiß auch warum. Ihr seid genauso wenig mit mir verwandt wie die Drow es sind. ~
-@43   = ~ Tut mir Leid, wenn ich Euch gestört habe. Ich werde Euch jetzt in Ruhe lassen. ~
-@44   = ~ Eure Worte sind nichts. Behaltet sie für Euch, sie sind alles, was Ihr von mir bekommen werdet. ~ 
-@45   = ~Hat sie?  Blutige Höllenfeuer, Ich muss mich mit dem Mädel mal unterhalten. Ich gehe davon aus, dass Ihr ihr genug bezahlt habt, dass sie in der Lage ist, mit mir zu teilen. Sie wird es sicher auch für klug halten, das zu tun.~ 
-@46   = ~ Ihr sucht also Illithium, ja? Ich hab keines und ich werde auch in nächster Zeit keines bekommen. So, jetzt, wo das erledigt ist, lebt wohl.~ 
-@47   = ~ Bitte. Es ist für den Ruhm von Lathander, dass ich mit Euch spreche.~ 
-@48   = ~ Es ist der Ruhm des Helm, dem ich diene. Bitte überdenkt es nochmals.~ 
-@49   = ~ Ich diene dem Zorn des Talos. Überdenkt das bitte noch mal, bevor er uns am Ende beide bestraft.~ 
-@50   = ~ Wartet. Das könnte sehr profitabel für Euch werden. Wollt Ihr es Euch nicht noch mal überlegen?~ 
+@31   = ~Ihr seid zu spät. Das letzte Illithium von diesem verfluchten Ort ist fort. Was die Plünderer nicht aus den alten Wänden bekamen, habe ich diesem dummen Bruder geschickt. Ihr könnt Euch gerne umsehen, aber ich habe ziemlich gründlich gesucht. Ich gehe, um meinen idiotischen Bruder zu finden. Ich würde vorschlagen, dass Ihr diesen verfluchten Ort so schnell wie möglich verlasst. Ansonsten werdet Ihr wahrscheinlich den Tod in den Fängen der Bestie finden.~ 
+@32   = ~Stört mich nicht, Zwerg. Ich habe heute Morgen keine sonderlich gute Laune.~
+@33   = ~Was starrt Ihr so? Ist nicht verboten, ein Zwerg zu sein, soweit ich weiß. Wendet Eure Augen von mir ab und platziert sie lieber an einem sichereren Ort. ~
+@34   = ~Ahh, aber Ihr seid kein gewöhnlicher Zwerg, oder? ...~
+@35   = ~Kein Grund für Feindseligkeiten, Jerlia hat mich geschickt. Ich möchte mit Euch über Illithium reden.~
+@36   = ~Tut mir leid, wenn ich Euch gestört habe, aber Ihr scheint schon vorher verstört gewesen zu sein.~
+@37   = ~Mir gefällt Euer Tonfall nicht. Wenn Ihr was zu sagen habt, dann spuckt es aus, bevor sich Eure Zähne draußen umschauen können!~
+@38   = ~Ihr habt mich gehört, Duergar. Ihr solltet meinen Worten lauschen! Ich brauche Illithium.~
+@39   = ~Kein Grund wütend zu werden, ich hab's nicht böse gemeint. Jerlia hat mich geschickt. Ich brauche Illithium.~
+@40   = ~Ich entschuldige mich zutiefst. Ich werde jetzt gehen.~
+@41   = ~Zieht weiter, 'Verwandter'. Ich habe Euch nichts zu sagen, obwohl Ihr die richtige Größe habt.~
+@42   = ~Und ich weiß auch warum. Ihr seid genauso wenig mit mir verwandt wie die Drow es sind.~
+@43   = ~Tut mir Leid, wenn ich Euch gestört habe. Ich werde Euch jetzt in Ruhe lassen.~
+@44   = ~Eure Worte sind nichts. Behaltet sie für Euch, sie sind alles, was Ihr von mir bekommt.~
+@45   = ~Hat sie? Blutige Höllenfeuer, ich muss mich mit dem Mädel mal unterhalten. Ich gehe davon aus, dass Ihr ihr genug bezahlt habt, dass sie in der Lage ist, mit mir zu teilen. Sie wird es sicher auch für klug halten, das zu tun.~ 
+@46   = ~Ihr sucht also Illithium, ja? Ich hab keines und ich werde auch in nächster Zeit keines bekommen. So, jetzt, wo das erledigt ist, lebt wohl.~
+@47   = ~Bitte. Es ist für den Ruhm von Lathander, dass ich mit Euch spreche.~
+@48   = ~Es ist der Ruhm des Helm, dem ich diene. Bitte überdenkt es nochmals.~
+@49   = ~Ich diene dem Zorn des Talos. Überdenkt das bitte noch mal, bevor er uns am Ende beide bestraft.~
+@50   = ~Wartet. Das könnte sehr profitabel für Euch werden. Wollt Ihr es Euch nicht noch mal überlegen?~
 @51   = ~Ich denke, Ihr bleibt und redet, Duergar! Ihr wollt doch nicht, dass ich laut werde, oder?~ 
 @52   = ~Das ist egal, Narr. Ich HABE kein Illithium. So einfach ist das. Meine Quelle ist unerreichbar und Ihr kriegt keins. Ihr könnt Euch gerne aufregen, aber helfen tut das auch nicht.~ 
 @53   = ~Das hört sich so an, als wäre das keine geplante Knappheit. Wo ist das Problem?~ 
@@ -58,7 +58,7 @@ Ich fand Ungers verloren Bruder Gorje. Hoffentlich hält er sich an unsere Überei
 @56   = ~Eure Götter bedeuten mir wenig. Kann genauso gut für die Ehre des Stuhles, auf dem ich sitze, sein. Ich könnt immer weiter darüber herziehen, wie wenig mich Euer Schicksal oder das, was Ihr anbetet, interessiert, aber das ist sinnlos...~ 
 @57   = ~Ich kenne Talos. Viele interessante Ideen. Beeindruckt mich überhaupt nicht, aber ist schon interessant.~ 
 @58   = ~Ihr habt vor, zu verkünden, dass ich Duergar bin, in der Hoffnung, dass ich meinen Tonfall ändere? Hier drinnen würde sich niemand gegen mich stellen und nach draußen ans Licht kriegt Ihr mich nie. Außerdem ist es sinnlos.~ 
-@59   = ~Oh, jetzt wollt Ihr also mit mir Freundschaft schließen? Keine Güte im deinem Herzen?  Finde einen Platz für jemanden wie mich in deinem sentimentalen Herzen?  Warum sollte ich mich überhaupt um Euch kümmern?~
+@59   = ~Oh, jetzt wollt Ihr also mit mir Freundschaft schließen? Warum sollte ich mich überhaupt um Euch kümmern?~
 @60   = ~Ich habe kein Interesse daran, einem einfachen Händler etwas zu Leide zu tun. Wo sonst könntet Ihr Hilfe bekommen?~
 @61   = ~Ihr könnt Euer Problem nicht beheben, sonst hättet Ihr Illithium. Was könnt Ihr sonst tun?~
 @62   = ~Das glaube ich, aber ich kann nichts dagegen tun. Ich kann das, was Ihr braucht nicht beschaffen und habe auch nicht die Möglichkeit das zu ändern. Des weiteren habe ich keinen Grund zu glauben, dass Ihr mir helfen werdet.~
@@ -67,7 +67,7 @@ Ich fand Ungers verloren Bruder Gorje. Hoffentlich hält er sich an unsere Überei
 @65   = ~Nirgends. Dieser Ort ist selbst zu den armseligen Zwergen in den Hügeln und Bergen unfreundlich. Nun gut, Narr, Ihr wollt an meinem Problem teilhaben, dann werde ich es Euch sagen.~ 
 @66   = ~Nichts. An diesem Ort gibt es nur sehr wenig Gelegenheit für händlerische Tätigkeiten, selbst wenn man ein Hügel- oder Bergzwerg ist. Nun gut, Narr, Ihr wollt an meinem Problem teilhaben, dann werde ich es Euch sagen.~ 
 @67   = ~Wenn Ihr Illithium wollt, müsst Ihr darauf warten. Wir bauen es tief unter Tage ab, eine sehr gefährliche Angelegenheit. Selbst, wenn die Produktion normal verläuft, ist es sehr selten.~ 
-@68   = ~Aber das sind alles sinnlose Informationen, denn meine letzte Lieferung ist bis jetzt nicht angekommen! Mein idiotischer Bruder, dieser kieselköpfige Halbling, sollte die letzte Lieferung der Saison verschiffen, aber ich habe seit Wochen nichts mehr von ihm gehört. Der Narr sollte besser tot sein, sonst bringe ich ihn eigenhändig um!~ 
+@68   = ~Aber das sind alles sinnlose Informationen, denn meine letzte Lieferung ist bis jetzt nicht angekommen! Mein idiotischer Bruder, dieser kieselköpfige Schwachkopf, sollte mir die letzte Ladung der Saison liefern, aber ich habe seit Wochen nichts mehr von ihm gehört. Der Narr sollte besser tot sein, sonst bringe ich ihn eigenhändig um!~ 
 @69   = ~Vielleicht kann ich uns beiden helfen. Wenn ich zustimme, Euren Bruder zu finden, und ich erfolgreich bin, würdet Ihr mir das Illithium geben, das ich brauche?~ 
 @70   = ~Bah! Ich halte nichts von Euch oder Eurer wertlosen Sippschaft. Ich werde andere Mittel finden, um das zu kriegen, was ich brauche.~ 
 @71   = ~Wo kann ich Euren verlorenen Bruder finden?~ 
@@ -75,7 +75,7 @@ Ich fand Ungers verloren Bruder Gorje. Hoffentlich hält er sich an unsere Überei
 @73   = ~Hallo, Narr! Haltet Euch von mir fern, ja?! Ist für uns beide am gesündesten.~ 
 @74   = ~Man befahl mir, mit Euch zu reden, Duergar.~ 
 @75   = ~Typisch für diese Stadt. Ich bin nur ein armer Geschäftsmann, aber ich werde schon für ein beschattetes Gesicht eingesperrt. Dieser Bastard, der mich ausgeraubt hat, sieht wie ein Bergzwerg aus, und schon wird er mit offenen Armen empfangen.~ 
-@76   = ~Sie könnten sich gar nicht vorstellen, was das für'n Teufel ist. Nachdem ich ihn eingestellt hatte, habe ich raus gefunden, was er gemacht hat. Das ist wohl auch der Grund, warum er mich reingelegt hat und abgehauen ist.  Diebischer Bastard...~ 
+@76   = ~Sie könnten sich gar nicht vorstellen, was das für'n Teufel ist. Nachdem ich ihn eingestellt hatte, habe ich raus gefunden, was er gemacht hat. Das ist wohl auch der Grund, warum er mich reingelegt hat und abgehauen ist. Diebischer Bastard...~ 
 @77   = ~Macht Euch mal keine Sorgen. Zeigt mir nur mal die richtige Richtung.~ 
 @78   = ~Ja, er ist bestimmt ganz fürchterlich. Also, wo ist er denn nun?~ 
 @79   = ~Ja, ja, das Leben ist ungerecht! Ich werde mich um ihn kümmern.~ 
@@ -84,20 +84,19 @@ Ich fand Ungers verloren Bruder Gorje. Hoffentlich hält er sich an unsere Überei
 @82   = ~Er wird sich nicht viel bewegen. Als ich ihn getroffen habe, war er auf der Flucht aus Baldurs Tor. Oh, Ihr werdet wohl auch seinen Namen wollen.~ 
 @83   = ~Der Name ist Neb. Er hat wohl einige Familien weinend zurückgelassen, was man so hört. Erzählt seinem Leichnam, dass Unger Dunkelhügel Euch geschickt hat.~ 
 @84   = ~Wartet, Ihr wart doch die Person, die nach Neb gefragt hat, oder? Tolle Arbeit, mein Illithium zu nehmen und ihn gehen zu lassen.~ 
-@85   = ~Ich denke mal, Ihr habt wohl noch nicht davon gehört, dass er losgezogen ist und drüben in Esmeltaran ne ganze Horde Kinder umgebracht hat, was?! Bewegt sich schnell, ja. Toll gemacht, Held! Du hast dein Metall, und das Scheusal geht jetzt weiter morden.  Brilliant.~ 
+@85   = ~Ich denke mal, Ihr habt wohl noch nicht davon gehört, dass er losgezogen ist und drüben in Esmeltaran ne ganze Horde Kinder umgebracht hat, was?! Bewegt sich schnell, ja. Toll gemacht, Held! Du hast dein Metall, und das Scheusal geht jetzt weiter morden. Brilliant.~ 
 @86   = ~Wenn Ihr Eure Haut für meinen nutzlosen Bruder riskieren wollt, dann soll es so sein. Er wird sich wahrscheinlich unter der Oberfläche eines Tempels weit im Osten verstecken. Vermutlich hat sich der Trottel den ganzen verdammten Ort auf seinen dämlichen Schädel fallen lassen. Findet den Bastard, und ich werde Euch das Erz geben. Hier, ich werde Euch den Ort auf eurer Karte zeigen.~ 
 @87   = ~Gut. Ich werde tun was ich kann, um uns beiden zu helfen.~ 
-@88   = ~Überzeugt Sir Sarles, für den Tempel zu arbeiten
-
+@88   = ~Sir Sarles und das Kunstwerk für den Tempel
 
 Unger Dunkelhügel erzählte mir, dass seine letzte Ladung Illithium nicht angekommen ist. Die Ladung sollte von Ungers Bruder Gorje überbracht werden, aber er wird schon seit Wochen vermisst. Ich habe mich bereit erklärt, nach Gorje in den Ruinen des Tempels eines toten Gottes zu suchen, und wenn ich erfolgreich sein sollte, hat Unger versprochen, mir das nötige Illithium zu geben.~ 
 @89   = ~Wenn ich genau überlege, habe ich Besseres zu tun, als nach vermissten Zwergen zu suchen. Ich werde nun gehen.~ 
 @90   = ~Wie's Euch gefällt. Fort mit dir, Narr.~ 
 @91   = ~Ah, mein guter, netter, vertrottelter Bruder ist zurückgekehrt.~ 
-@92   = ~Aye, und dass ganz ohne deine Hilfe, du feiger Sack voll Drowmist.  Du hast diese verfluchten Oberweltler-"Abenteurer" angeheuert, um mich herauszuhauen, während du hier rum sitzt und dein Bier trinkst und wie ein olles Weib jammerst!~  
-@93   = ~Du undankbarer Bastard!  Ich hätte ihnen nicht erzählen sollen, wo du steckst!  Hätte dich in diesem gottverlassenen Loch verrecken lassen sollen!  Nun, wo ist das Illithium?!~ 
+@92   = ~Aye, und dass ganz ohne deine Hilfe, du feiger Sack voll Drowmist. Du hast diese verfluchten Oberweltler-"Abenteurer" angeheuert, um mich herauszuhauen, während du hier rum sitzt und dein Bier trinkst und wie ein olles Weib jammerst!~
+@93   = ~Du undankbarer Bastard! Ich hätte ihnen nicht erzählen sollen, wo du steckst! Hätte dich in diesem gottverlassenen Loch verrecken lassen sollen! Nun, wo ist das Illithium?!~ 
 @94   = ~Das Illithium?~ 
-@95   = ~Aye, das Illithium, du kieselhirniger Kobold!  Das Illithium!!  Du weißt, die letzte Lieferung, die du versprochen hast zu liefern?  Sodass wir ein bisschen Geld machen und die Bestechungsgelder zurückzahlen können?  Das Illithium!?~ 
+@95   = ~Aye, das Illithium, du kieselhirniger Kobold! Das Illithium!! Du weißt, die letzte Lieferung, die du versprochen hast zu liefern? Sodass wir ein bisschen Geld machen und die Bestechungsgelder zurückzahlen können? Das Illithium!?~ 
 @96   = ~Oh... äh... Illithium. Jo. Nun, Bruder, es war so. Da war kein Illithium mehr. Ich durchsuchte die ganze Mine, aber habe nicht eine einzige Unze gefunden. Irgendjemand hat unsere Mine geplündert. Wenigstens hast du die letzte Lieferung.~ 
 @97   = ~Ich möchte eure Familien Angelegenheiten ungern stören, aber was ist nun mit dem Illithium?~ 
 @98   = ~Also Ihr habt es nicht, und Ihr auch nicht? Wo kriege ich nun mein Illithium her?~ 
@@ -123,42 +122,42 @@ Unger Dunkelhügel erzählte mir, dass seine letzte Ladung Illithium nicht angekom
 @118  = ~Gebt nicht mir die Schuld dafür! Ich habe Euch erzählt, dass es da nichts mehr zu holen gibt. Mein Mangel an Illithium ist die Schuld meines schweineköpfigen Bruders.~ 
 @119  = ~Wie wurde es gestohlen? Hast du vergessen, die Schattendiebe zu bezahlen? Oder hast du es einfach draußen auf der Ebene liegen lassen, wie einen Haufen Goblinrotz, der du bist?~ 
 @120  = ~Ne, es war eine interne Angelegenheit. Der Zwerg, den ich angeheuert habe, mir beim Transport zu helfen, hat die ganze Ladung mitgenommen, dieser verdorbene Bastard!~ 
-@121  = ~Er!? Ich hätte dir gleich sagen können, dass er so etwas in der Richtung versucht hätte! Warte, es scheint, als hätte ich eine Offenbarung!  Göttliche Erinnerung, sozusagen. Ich habe dir erzählt, er wäre in Schwierigkeiten. Zu verschlagen ... auf der Flucht. Aber du hast gesagt, dass er zu günstig sei, um sich das entgehen zu lassen. Hat sich wirklich gelohnt, hä? Ein verfluchter Feigling hat sich mit all unseren Waren davon gemacht!~ 
+@121  = ~Er!? Ich hätte dir gleich sagen können, dass er so etwas in der Richtung versucht hätte! Warte, es scheint, als hätte ich eine Offenbarung! Göttliche Erinnerung, sozusagen. Ich habe dir erzählt, er wäre in Schwierigkeiten. Zu verschlagen ... auf der Flucht. Aber du hast gesagt, dass er zu günstig sei, um sich das entgehen zu lassen. Hat sich wirklich gelohnt, hä? Ein verfluchter Feigling hat sich mit all unseren Waren davon gemacht!~ 
 @122  = ~Ich kann es nicht glauben. Deine Inkompetenz ist unglaublich! Ich würde lieber Steine in Erdkoloss-Höhlen ausbuddeln, als mich noch länger mit dieser Sache zu befassen. Der ganze Profit weg!~ 
 @123  = ~Halt deine verfluchte Klappe. Wenn du eine bessere Quelle gefunden hättest... zum Teufel damit. Macht ja jetzt auch nichts mehr. Wir müssen jetzt erst mal eine neue Quelle und einen neuen Transportweg finden. Um zu Eurem Illithium zurückzukehren, Oberweltler, ich glaube, ich kann euch immer noch helfen, und diesen Bastard zurückholen... wenn ihr noch interessiert seit.~ 
 @124  = ~Nach alldem, ja!~ 
 @125  = ~Ich stimme Eurem Bruder zu - Ihr seid inkompetent. Ich werde eine andere Quelle finden.~ 
 @126  = ~Niemand hat dich darum gebeten. Nun halt deine Klappe!~ 
 @127  = ~Nein, ich habe im Augenblick nichts. Ich habe mich auf die Lieferung des ollen Trollhirns verlassen.~ 
-@128  = ~Und wenn ich es dir erzählt hätte, hättest du mir dann noch geholfen?  Nein?  Ich denke nicht.~ 
+@128  = ~Und wenn ich es dir erzählt hätte, hättest du mir dann noch geholfen? Nein? Ich denke nicht.~ 
 @129  = ~Dann verpiss dich jetzt.~ 
 @130  = ~Ay, <GIRLBOY>, so treffen wir uns wieder.~ 
 @131  = ~Wegen all den Bestien dort unten, und kein Lebenszeichen von meinem Bruder, das ist der Grund, warum ich immer noch hier bin.~ 
-@132  = ~Tatsächlich, Unger hält sich in der Kupferkrone in Athkatla auf.  Er erzählte mir, wie ich Euch und das verlorene Illithium finden kann.~ 
+@132  = ~Tatsächlich, Unger hält sich in der Kupferkrone in Athkatla auf. Er erzählte mir, wie ich Euch und das verlorene Illithium finden kann.~ 
 @133  = ~Warum geht Ihr nicht? Der Weg zur Tür ist nun für die nächste Zeit von Ungeheuern gesäubert.~ 
 @134  = ~Ich fürchte, dass Ihr hier festsitzt. Ich habe es ja kaum lebendig hierhin geschafft.~ 
-@135  = ~Oh, denkt Ihr?!  Schaut, Ihr tunnelraubender Kieslutscher, dies ist mein Revier! Ihr könnt Euch direkt verziehen und an die Bestien dort unter uns verfüttern!~ 
+@135  = ~Oh, denkt Ihr?! Schaut, Ihr tunnelraubender Kieslutscher, dies ist mein Revier! Ihr könnt Euch direkt verziehen und an die Bestien dort unter uns verfüttern!~ 
 @136  = ~Gut. Ich gehe.~ 
 @137  = ~Oh, denkt Ihr?! Geht und knutscht einen Baum, Elf, dies ist mein Revier! Ihr könnt jetzt gehen und Euch an die Bestien unter uns verfüttern!~ 
 @138  = ~Sprich mit mir, du Idiot von einem Bruder. Ich habe dir nichts mehr zu sagen.~ 
 @139  = ~Gorje Dunkelhügel ist mein Name. Ich besitze diesen Ort mit meinem kieselhirnigen Bruder, Unger.~ 
 @140  = ~Schön, Euch zu treffen. Ich werde nun gehen.~ 
-@141  = ~Diese Klinge wird Spinnenfluch genannt, and sie ist in den Händen der Arbeiter, die die Leitungen und Kanäle reinigen.  Sie arbeiten in den Kanälen unter dem Tempelbezirk.  Geht.~ 
-@142  = ~Findet das Schwert Spinnenfluch für Pai'Na. 
+@141  = ~Diese Klinge wird Spinnenfluch genannt und sie ist in den Händen der Arbeiter, die die Leitungen und Kanäle reinigen. Sie arbeiten in den Kanälen unter dem Tempelbezirk. Geht.~
+@142  = ~Findet das Schwert Spinnenfluch für Pai'Na
 
-Pai'Na, eine seltsame Druidin, die unter dem Friedhofsviertel lebt, hat mich gebeten, das Schwert Spinnenfluch für sie zu besorgen.  Sie glaubt, dass es im Besitz der Stadtarbeiter ist, die in den Kanälen unter dem Tempelbezirk arbeiten.~ 
+Pai'Na, eine seltsame Druidin, die unter dem Friedhofsviertel lebt, hat mich gebeten, das Schwert Spinnenfluch für sie zu besorgen. Sie glaubt, dass es im Besitz der Stadtarbeiter ist, die in den Kanälen unter dem Tempelbezirk arbeiten.~ 
 @143  = ~Kehrt nicht ohne das verfluchte Schwert Spinnenfluch zurück. Sucht in den Kanälen unter dem Tempelbezirk. Dies ist eine einfache Aufgabe.~ 
-@144  = ~Ihr seid zurückgekehrt, und Ihr habt die boshafte Klinge mitgebracht, die schon so vielen zum Verhängnis wurde!  Ihr habt meine Dankbarkeit!  Es soll nie wieder die Achtbeinigen peinigen.~ 
-@145  = ~ Findet das Schwert Spinnenfluch für Pai'Na. 
+@144  = ~Ihr seid zurückgekehrt, und Ihr habt die boshafte Klinge mitgebracht, die schon so vielen zum Verhängnis wurde! Ihr habt meine Dankbarkeit! Es soll nie wieder die Achtbeinigen peinigen.~ 
+@145  = ~Findet das Schwert Spinnenfluch für Pai'Na
 
 Ich habe das Schwert Spinnenfluch Pai'Na gebracht. Ich hoffe, dass sie recht hat und dass die Rückkehr des Schwertes von Vorteil für die Bürger von Atkatla ist.~ 
-@146  = ~Findet das Schwert Spinnenfluch für Pai'Na. 
+@146  = ~Findet das Schwert Spinnenfluch für Pai'Na
 
 Ich habe die Kanalarbeiter gefunden und das Schwert Spinnenfluch erworben. Ich muss noch einmal Pai'Na in ihrem Bau unter dem Friedhofsviertel aufsuchen.~ 
 @147  = ~Irenicus, wartet. Bitte tut Valygar nichts. Er weiß nicht, was für eine Bedrohung <CHARNAME> geworden ist.~ 
 @148  = ~Sehr gut, Meister. Ich werde tun, was Ihr verlangt.~ 
-@149  = ~Ist da etwas, womit ich dir helfen könnte, <SIRMAAM>?~ 
-@150  = ~Was macht eine schöne Frau wie Ihr an einem solchen Ort?  Vielleicht kann ich Euch zu einen Drink einladen?~
+@149  = ~Ist da etwas, womit ich Euch helfen könnte, <SIRMAAM>?~ 
+@150  = ~Was macht eine schöne Frau wie Ihr an einem solchen Ort? Vielleicht kann ich Euch zu einen Drink einladen?~
 @151  = ~Grüße, Gnä' Frau. Was bringt Euch zur Kupferkrone?~ 
 @152  = ~Mir wurde gesagt, dass Ihr in der Lage seid, mir zu helfen. Ich suche einen Mann namens Valygar Corthala. Sein Butler sagte, dass Ihr wissen könntet, wo er sich gerade aufhält....~ 
 @153  = ~Was wisst Ihr über einen Mann namens Valygar Corthala?~ 
@@ -179,13 +178,13 @@ Ich habe die Kanalarbeiter gefunden und das Schwert Spinnenfluch erworben. Ich m
 @168  = ~Wenn Ihr ihn seht, sagt ihm, dass ... Nein. Es tut mir leid, aber ich kann nicht darüber sprechen. Mein Herz schmerzt zu sehr wegen meines geliebten Valygar. Bitte vergewissert Euch, dass es ihm gut geht. Und nun, lasst mich bitte allein.~ 
 @169  = ~Valygar?!! Valygar, seid Ihr es wirklich?~ 
 @170  = ~Suna Seni! Oh, Ihr wisst gar nicht, wie ich mich danach sehnte, Euer schönes Gesicht wieder zu sehen! Ich habe Euch so sehr vermisst. Ich bedauere, dass ich Euch so plötzlich und ohne Erklärung verlassen musste. Es schmerzt in meiner Seele, zu wissen, Euch verletzt zu haben.~ 
-@171  = ~Oh, Valygar, ich weiss - ich sprach mit Hervo, nachdem ich mehrere Tage von Euch nichts hörte. Diese verdammten Magier! Ihre politische Hexerei liegt wie ein Fluch auf dieser Stadt. Ich bin so froh, zu sehen, dass es Euch gut geht!~ 
-@172  = ~Ja, meine Liebste, mir geht es gut. <CHARNAME> hat mich in meiner Hütte aufgesucht und mir angeboten, mich bei der Suche nach Lavok zu unterstützen.~ 
-@173  = ~Habt ... habt Ihr das wirklich <CHARNAME> zugesagt? Valygar, Ihr dürft Euch nicht mit diesem Mann verbünden. Er ist böse - ein Kind Bhaals! Ihr könnt ihm nicht vertrauen!~ ~Habt ... habt Ihr das wirklich <CHARNAME> zugesagt? Valygar, Ihr dürft Euch nicht mit dieser Frau verbünden. Sie ist böse - ein Kind Bhaals! Ihr könnt ihr nicht vertrauen!~
+@171  = ~Oh, Valygar, ich weiß - ich sprach mit Hervo, nachdem ich mehrere Tage von Euch nichts hörte. Diese verdammten Magier! Ihre politische Hexerei liegt wie ein Fluch auf dieser Stadt. Ich bin so froh, Euch zu sehen!~ 
+@172  = ~Ja, meine Liebste, mir geht es gut. <CHARNAME> hat mir angeboten, mich bei der Suche nach Lavok zu unterstützen.~ 
+@173  = ~Mit ... mit <CHARNAME> habt Ihr Euch eingelassen? Valygar, Ihr dürft Euch nicht mit diesem Mann verbünden. Er ist böse - ein Kind Bhaals! Ihr könnt ihm nicht vertrauen!~ ~Mit ... mit <CHARNAME> habt Ihr Euch eingelassen? Valygar, Ihr dürft Euch nicht mit dieser Frau verbünden. Sie ist böse - ein Kind Bhaals! Ihr könnt ihr nicht vertrauen!~
 @174  = ~Suna, ich bin weit mit <CHARNAME> gereist und ich weiß, dass <PRO_HESHE> ein Kind von Bhaal ist, aber ich würde <PRO_HIMHER> mein Leben anvertrauen.~ 
 @175  = ~Nein! Valygar, bitte, ich bitte Euch. Reist nicht mit <CHARNAME>!~ 
 @176  = ~Suna, ist etwas nicht in Ordnung? Ihr fällt doch sonst nicht so schnell ein Urteil über andere. Warum misstraut Ihr <CHARNAME> so?~ 
-@177  = ~Ich ... ich kann es nicht erklären. Ich bedauere. Ich muss gehen.  Vielleicht sehe ich Euch bald wieder. Auf Wiedersehen ...~ 
+@177  = ~Ich ... ich kann es nicht erklären. Ich bedauere. Ich muss gehen. Vielleicht sehe ich Euch bald wieder. Auf Wiedersehen ...~ 
 @178  = ~Suna! Suna, wartet!!!~ 
 @179  = ~<CHARNAME>! Bitte wartet. Ich muss mit Euch sprechen.~ 
 @180  = ~Suna Seni, was tut Ihr an diesem verwunschenen Ort? Warum helft Ihr diesem Magier?~ 
@@ -197,14 +196,14 @@ Ich habe die Kanalarbeiter gefunden und das Schwert Spinnenfluch erworben. Ich m
 @186  = ~50.000???! Ihr sagtet mir, dass er Euch nur 5.000 anbot.~ 
 @187  = ~Ich habe Euch belogen, Valygar, weil ich von Euerem Misstrauen gegenüber den Magiern wusste. Wenn ich Euch den wahren Preis gesagt hätte, hättet Ihr mich davon abgehalten den Auftrag zu akzeptieren. Dann habt Ihr die Stadt verlassen und ich widmete mich meiner Arbeit. Irenicus kann sehr überzeugend sein ...~ 
 @188  = ~Ich bedauere es, Euch zu verlassen, meine Liebe. Wenn ich das nur gewusst hätte, hätte ich den Magier selbst zur Strecke gebracht. Es scheint, dass der Fluch meiner Familie tiefer sitzt, als ich zunächst befürchtet hatte.~ 
-@189  = ~Dieser Magier kann nicht getötet werden, auch nicht wenn es sich dabei um einen so geschickten Krieger wie Euch handelt, Valygar. Er ist zu mächtig. Er hätte Euch sicher getötet. Ich habe erst kürzlich  von seinen Plänen gehört. Er hat die Grenze zum Wahnsinn längst überschritten.~ 
+@189  = ~Dieser Magier kann nicht getötet werden, auch nicht wenn es sich dabei um einen so geschickten Krieger wie Euch handelt, Valygar. Er ist zu mächtig. Er hätte Euch sicher getötet. Ich habe erst kürzlich von seinen Plänen gehört. Er hat die Grenze zum Wahnsinn längst überschritten.~ 
 @190  = ~Er hat ein Bündnis mit den Drow von Ust Natha geschlossen und plant eine Invasion auf der Oberfläche - einen Krieg unter den Elfen.~ 
-@191  = ~ Sprecht nicht weiter darüber, oder ich werde Euch so los, wie ich schon die Schattendiebe losgeworden bin.~ 
-@192  = ~ Ich verstehe nicht, <CHARNAME>. Ich habe Suna Seni viele Jahre gekannt, und sie hat sich noch nie so benommen. Es ist, als wäre sie nicht sie selbst ...~ 
-@193  = ~ Es ist schon in Ordnung, Valygar. Ich bin an die Reaktionen von Leuten, die von meinem Erbe hören, gewöhnt. Sagt mir, wo habt Ihr Euch mit Suna Seni getroffen?~ 
+@191  = ~Sprecht nicht weiter darüber, oder ich werde Euch so los, wie ich schon die Schattendiebe losgeworden bin.~ 
+@192  = ~Ich verstehe das nicht, <CHARNAME>. Ich kenne Suna Seni schon viele Jahre und sie hat sich noch nie so benommen. Es ist, als wäre sie nicht sie selbst ...~ 
+@193  = ~Es ist schon in Ordnung, Valygar. Ich bin an die Reaktionen von Leuten, die von meinem Erbe hören, gewöhnt. Sagt mir, wo habt Ihr Euch mit Suna Seni getroffen?~ 
 @194  = ~Was wisst Ihr von dieser Frau? Redet, Waldläufer!~ 
-@195  = ~Wir trafen uns vor vielen Jahren, bevor ich ein Pfadfinder im Militär von Amn wurde. Eines Tages war ich auf dem Weg von den Umarhügeln zurück nach Athkatla. Sie war als Aufklärerin unterwegs und verwechselte mich mit einem Banditen.~ 
-@196  = ~Als sie merkte, dass ich lediglich ein Reisender war, begannen wir zu reden und fanden, dass wir viel gemein hatten. Wir traten die Reise zurück nach Athkatla zusammen an und verbrachten anschließend viel Zeit miteinander in der Stadt.~ 
+@195  = ~Wir trafen uns vor vielen Jahren, bevor ich Kundschafter im Militär von Amn wurde. Ich traf sie eines Tages, als ich auf der Rückreise nach Athkatla war. Sie verwechselte mich mit einem Banditen und wollte mich erledigen.~ 
+@196  = ~Als sie merkte, dass ich lediglich ein Reisender war, begannen wir zu reden und merkten, dass wir viel gemein hatten. So reisten wir zurück nach Athkatla und verbrachten anschließend viel Zeit miteinander.~ 
 @197  = ~Eines Tages wandte sich ein mächtiger Zauberer an sie. Ich kannte seinen Namen nicht. Mich verwunderte nur, dass er so an Suna interessiert war. Leider konnte ich sie nicht mehr danach fragen, denn ich war kurz darauf gezwungen, aus der Stadt zu flüchten.~
 @198  = ~Wie auch immer ... Ich habe bessere Dinge zu tun, als Mitleid erregenden alten Liebesgeschichten zuzuhören. Lasst uns gehen.~ 
 @199  = ~Vielleicht treffen wir sie wieder, und sie kann uns sagen, warum sie das alles tat.~ 
@@ -219,21 +218,21 @@ Ich habe die Kanalarbeiter gefunden und das Schwert Spinnenfluch erworben. Ich m
 @208  = ~Die Insassen hier haben viel Kraft. Macht Euch diese im Kampf gegen Irenicus zunutze. Ihr solltet auch nach diesem Rüpel Saemon Havarian suchen. Er hält sich irgendwo in diesen Hallen auf. So verabscheuungswürdig er auch sein mag, er kann Euch sicher bei der Suche nach Irenicus helfen.~ 
 @209  = ~Valygar, nehmt dieses Schwert, meinen liebsten Besitz. Verwendet es auf Euerer Suche, um diesen Dämon zu besiegen...~ 
 @210  = ~Ich muss gehen, bevor mein Verrat entdeckt wird. Valygar, bitte passt auf Euch auf und kehrt bald in meine wartenden und offenen Arme zurück.~ 
-@211  = ~Die Jagd auf Valygar Corthala. 
+@211  = ~Die Jagd auf Valygar Corthala
 
 Llarsh, der Schriftführer, erwähnte, dass die Familie Corthala Land in den Umarhügeln besitzt.~ 
-@212  = ~Hm. Es verblüfft mich wirklich. Seine Familie besitzt ein Stück Land im Osten, aber ich fürchte, dass ich nicht weiß, wo. Ihr solltet bei Suna Seni, der Waldläuferin, nachfragen, deren Freund er war. Sie besucht die Kupferkrone ziemlich häufig. Ist dies hilfreich??~ 
-@213  = ~Die Jagd auf Valygar Corthala. 
+@212  = ~Hm. Es verblüfft mich wirklich. Seine Familie besitzt ein Stück Land im Osten, aber ich fürchte, dass ich nicht weiß, wo. Ihr solltet bei Suna Seni, der Waldläuferin, nachfragen, deren Freund er war. Sie besucht die Kupferkrone ziemlich häufig. Hilft Euch das weiter?~
+@213  = ~Die Jagd auf Valygar Corthala
 
 Hervo erwähnte, dass Valygar zahlreiche Freunde beim Militär von Amn hatte. Er erinnerte sich an eine Frau namens Suna Seni, die wahrscheinlich in der Kupferkrone zu finden ist.~ 
-@214  = ~Ich erinnere mich unter anderen an eine gute Freundin von ihm - eine Waldläuferin namens Suna Seni. Sie verkehrt des öfteren in der Kupferkrone ... Vielleicht solltet Ihr bei ihr nachfragen. Ist dies hilfreich?~ 
+@214  = ~Ich erinnere mich unter anderen an eine gute Freundin von ihm - eine Waldläuferin namens Suna Seni. Sie verkehrt des öfteren in der Kupferkrone ... Vielleicht solltet Ihr bei ihr nachfragen. Hilft Euch das weiter?~
 @215  = ~Ich sorge mich wenig um Eure Liebe zu diesem Mann, Suna Seni. Sie hat Euer Urteil schon einmal beeinflusst; ich lasse dies nicht wieder geschehen. Er hat sich entschieden und muss nun die Konsequenzen tragen.~
 @216  = ~Ah, also kamt Ihr doch. Ich dachte, dass der Tod dieser Närrin Euch mehr stören würde...~ 
 @217  = ~Mich stören? Ha! Ihr habt nur die schmutzige Arbeit für mich getan. Suna Seni hat mich verraten.~ 
 @218  = ~Suna Seni? Ihr habt sie getötet? Warum?~
 @219  = ~Sie verriet den Meister. Wir nahmen an, dass Ihr in der Anstalt sterben würdet, aber sie half Euch, zu entkommen. Aber wir kümmerten uns um diese Angelegenheit: die Verräterin ist tot, und Ihr seid im Begriff, ihr ins Reich der Schatten zu folgen...~
 @220  = ~Ihr schon wieder... warum habt Ihr mich gerufen?~
-@221  = ~Wir wollten unseren letzten  Wunsch dazu nutzen, Euch wieder zum Leben zu erwecken, nicht...~
+@221  = ~Wir wollten unseren letzten Wunsch dazu nutzen, Euch wieder zum Leben zu erwecken, nicht...~
 @222  = ~Genug! Könnt Ihr mich nicht einmal im Tode in Ruhe lassen? Ich werde Euch mit meiner Macht zerstören!~
 @223  = ~Was ist das?! Meine Magie versagt? Ist das schon wieder einer Eurer Tricks? Egal, dann werde ich Euch eben mit meinen bloßen Händen zerstören!~
 @224  = ~Ah, die Abenteurer aus dem Zirkuszelt. Seid gegrüßt, Sterbliche. Ihr seid weder Kalah noch der verachtenswerte Rakshasa. Ich entnehme daraus, dass einer von beiden nicht mehr am Leben ist.~
@@ -254,7 +253,7 @@ Hervo erwähnte, dass Valygar zahlreiche Freunde beim Militär von Amn hatte. Er e
 @239  = ~Kalah hat für seine Missetaten nicht den Tod verdient. Bringt ihn ins Leben zurück, damit er aus seinen Fehlern lernt.~
 @240  = ~Kalah hätte nicht für seine Verbrechen sterben müssen. Mein Wunsch ist es, dass Ihr ihn wieder von den Toten zurückholt.~
 @241  = ~Ihr sagt, Ihr müsstet weiter diesem Rakshasa dienen? Dann wünsche ich Euch die Freiheit.~
-@242  = ~Ich wünsche, dass Ihr Kalahs Seele einsperrt...  für immer.~
+@242  = ~Ich wünsche, dass Ihr Kalahs Seele einsperrt... für immer.~
 @243  = ~Ich wünsche, dass Imoen an meiner Seite ist...~
 @244  = ~Ich wünsche, dass der Magier Jon Irenicus tot ist.~
 @245  = ~Jafir mag mir entkommen sein, aber ich würde ihn trotzdem gerne tot sehen. Mein letzter Wunsch ist, dass Ihr sein Leben auf eine qualvolle Art beendet.~
@@ -266,23 +265,23 @@ Hervo erwähnte, dass Valygar zahlreiche Freunde beim Militär von Amn hatte. Er e
 @251  = ~Es scheint, Sterbliche, als müsste ich Euch einen anderen Wunsch gewähren.~
 @252  = ~Ah, es tut mir leid, Sterbliche. Sich mehr Wünsche zu wünschen, ist verboten... obwohl schon viele es versucht haben.~
 @253  = ~Meine Kräfte werden Kalah wieder zum Leben erwecken. Gehabt Euch wohl, Abenteurer!~
-@254  = ~Kalah wieder zum Leben erweckt.
+@254  = ~Kalahs magische Lampe
 
 Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letzten Wunsch dazu benutzt, Kalah wieder zum Leben zu erwecken.~
-@255  = ~Ihr wünscht, dass Kalah von den Toten zurückkehrt? Seid vorsichtig -  ein wütender Geist kann eine gefährliche Sache sein. Ich weiß nicht, ob es das war, was Ihr gemeint habt, aber es ist die Formulierung, die zählt. Gehabt Euch wohl, Abenteurer!~
-@256  = ~Kalah untot?
+@255  = ~Ihr wünscht, dass Kalah von den Toten zurückkehrt? Seid vorsichtig - ein wütender Geist kann eine gefährliche Sache sein. Ich weiß nicht, ob es das war, was Ihr gemeint habt, aber es ist die Formulierung, die zählt. Gehabt Euch wohl, Abenteurer!~
+@256  = ~Kalahs magische Lampe
 
 Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und versuchten, Kalah das Leben zurückzugeben. Aber leider formulierten wir den Wunsch nicht richtig und beschworen seinen untoten Geist, der uns angriff.~
 @257  = ~Ihr würdet das für mich tun? Ich danke Euch, Sterbliche... Endlich kann ich nach Hause zurückkehren!~
-@258  = ~Einen Dschinn befreit.
+@258  = ~Kalahs magische Lampe
 
 Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letzten Wunsch dazu benutzt, den Dschinn aus seiner Gefangenschaft in der Lampe zu befreien.~
 @259  = ~Eine grausige Forderung, Sterbliche, aber sie ist erfüllt! Ich werde Euch jetzt verlassen.~
-@260  = ~Kalahs Verdammnis.
+@260  = ~Kalahs magische Lampe
 
 Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letzten Wunsch dazu benutzt, Kalahs Seele in Ewigkeit zu verdammen. Er wird keine Ruhe finden.~
 @261  = ~Ihr seid nicht die einzigen, die diesen Augenblick genießen werden, Sterbliche... Obwohl ich an die Lampe bei seiner Leiche gebunden bleibe. Gleichwohl, der Wunsch wurde geäußert. Lebt wohl!~
-@262  = ~Jafirs Ende.
+@262  = ~Kalahs magische Lampe
 
 Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letzten Wunsch dazu benutzt, Jafir auf sehr unangenehme Weise zu töten.~
 @263  = ~Dann wählt weise, Sterbliche! Aber gebt acht - ein Wunsch, dem es an Weisheit fehlt, bringt Unglück über den, der ihn äußert...~
@@ -293,7 +292,7 @@ Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letz
 @268  = ~Ich nehme von Kindern keine Befehle entgegen. Geh weg!~
 @269  = ~Ich habe keine Zeit, tut mir leid...~
 @270  = ~Klar doch! Ich bin froh, wenn ich helfen konnte... Ich hoffe, Ihr findet heraus, was Jafir vorhatte! Armer Kalah... Er war so nett, er wollte nur ein paar Freunde...~
-@271  = ~Eine magische Lampe?
+@271  = ~Kalahs magische Lampe
 
 Nachdem wir das Zirkuszelt befreit hatten, sprach uns ein Mädchen namens Myara angesprochen. Sie gab uns eine Lampe, von der sie behauptete, sie sei magisch und die Quelle von Kalahs Kraft gewesen. Kalah erhielt sie anscheinend von einem Händler namens Jafir, der sich im "Krummen Kranich" im Stadttorviertel aufhält.~
 @272  = ~Aah! Ihr seid auch böse Leute!~
@@ -340,19 +339,19 @@ Nachdem wir das Zirkuszelt befreit hatten, sprach uns ein Mädchen namens Myara a
 @313  = ~Toll gemacht, mein Illithium zu nehmen und ihn gehen zu lassen. Wird wohl nach Esmeltaran oder irgendwohin gehen und 'ne Reihe Kinder töten. Klasse, "Held". Wird Zeit für mich und meinen Bruder, diese miese Stadt zu verlassen. Komm, Gorje.~
 @314  = ~Aye, das habt Ihr. Ein Glück, dass der schleimige Drecksack weg ist. Macht's gut jetzt. Ich hab nichts mehr für Euch. Wird Zeit für mich und meinen Bruder, diese miese Stadt zu verlassen. Komm, Gorje.~
 @315  = ~Diese Hütte scheint in letzter Zeit bewohnt gewesen zu sein, doch könnt Ihr ihren Bewohner nicht entdecken.~
-@316  = ~Suna... nein.  Suna!!~
+@316  = ~Suna... nein. Suna!!~
 @317  = ~Suna Seni war eine tapfere Frau, Valygar, und ich teile Eure Trauer. Genauso teile ich Euren Wunsch nach Vergeltung, deshalb lasst uns das Monster, das für unseren Schmerz verantwortlich ist, suchen und vernichten, ein für alle Mal.~
-@318  = ~Wirklich, es ist eine Schande. Ich hasse es, wenn eine so schöne Frau ein solch tragisches Ende erleidet. So ist das Leben.  Lasst uns weitergehn.~
+@318  = ~Wirklich, es ist eine Schande. Ich hasse es, wenn eine so schöne Frau ein solch tragisches Ende erleidet. So ist das Leben. Lasst uns weitergehn.~
 @319  = ~Lasst uns nicht um die Toten weinen, Waldläufer. Der Tod ist ein Teil des Lebens... Ich habe das nur zu gut lernen müssen. Lasst uns unsere Suche nach dem Dämon Irenicus fortsetzen.~
 @320  = ~Einverstanden. Mit Sunas Tod werde ich eine große Last zu tragen haben, aber ich werde nicht zulassen, dass Irenicus meinen Mut bricht. Er wird für seine Verbrechen bezahlen!~
 @321  = ~Eure kaltherzigen Worte helfen meinem gebrochen Herzen nicht, aber Ihr habt Recht, <CHARNAME>. Wir müssen unseren Weg fortsetzen. Lasst uns weitergehen.~
-@322  = ~Die Flucht aus dem Heim.
+@322  = ~Die Flucht aus dem Heim
 
 Nachdem wir dem Irrgarten entkommen waren, trafen wir wieder auf Suna Seni. Sie entschuldigte sich für ihre Taten, da sie das wahrhaft Böse in Irenicus' Plan erkannt hatte. Sie gab mir folgenden Hinweis: Sollte ich vorhaben, Irenicus herauszufordern, würde ich eine Armee brauchen, und hier in der Zauberfeste sei eine ... die eingesperrten Magier. Natürlich wäre es verrückt, die zu befreien, aber sie könnte recht haben. Suna Seni starb für die Hilfe, die sie uns gab, und ihr Tod soll nicht vergeblich sein.~
 @323  = ~Ich fürchte, ich werde nicht mehr lang genug leben, um Euch bei Eurem Kampf gegen Irenicus eine Hilfe zu sein...~
 @324  = ~Was meint Ihr? Was ist geschehen?~
 @325 = ~Bald nachdem ich mich entschloss, für Irenicus zu arbeiten, wurde ich mit einem Geas belegt. Mir wurde versichert, dass dieser für mich nur dann tödlich wäre, sollte ich <CHARNAME> bereitwillig helfen.~
-@326  = ~Nein!  Suna, warum helft Ihr uns jetzt? Damit habt Ihr Euren eigenen Tod besiegelt!~
+@326  = ~Nein! Suna, warum helft Ihr uns jetzt? Damit habt Ihr Euren eigenen Tod besiegelt!~
 @327  = ~Ich weiß, mein Geliebter, aber ich musste sicher sein, dass Ihr in Eurem Kampf gegen Irenicus erfolgreich sein werdet, und ich fürchte, dass er mich sowieso getötet hätte, bevor ich diese Insel hätte verlassen können.~
 @328  = ~Der Geas ist gebrochen, aber ich kann nun in Frieden sterben. Haltet mich noch einmal, Geliebter, ein letztes Mal...~
 @329  = ~<CHARNAME>, Irenicus muss aufgehalten werden. Ich werde meine Rache bekommen. Suna Seni hat ihr Leben riskiert, um unsere zu retten. Ihr Tod darf nicht vergebens sein.~
@@ -371,12 +370,12 @@ Nachdem wir dem Irrgarten entkommen waren, trafen wir wieder auf Suna Seni. Sie 
 @341  = ~Ja... ich werde sicher heimkommen. Bitte tut das nie wieder! Mami würde ausrasten...~
 @342  = ~Ich wünsche, dass Imoen, meine Freundin aus Kindertagen, hier an meiner Seite ist...~
 @343  = ~Imoen sagt ihr? Ein interessanter Name... Lasst uns sehen, wen meine Magie bringt!~
-@344  = ~Imoen. Naja, *eine* Imoen.
+@344  = ~Kalahs magische Lampe
 
-Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letzten Wunsch dazu benutzt, Imoen zu uns zu holen. Jedoch beschwor der Spruch nicht meine treue Freundin, sondern ein Mädchen, das auf denselben Namen hört.~
-@345 = ~ Ich brauche Euch, um es zu bekommen und hierher zu bringen. Ich werde es anschliessend vernichten, damit das Gleichgewicht unter der Stadt wiederhergestellt wird. Wenn es nämlich zu wenige Spinnen gibt, dann erhebt sich das Ungeziefer. Leider bedenken das  die Kanalarbeiter nicht. ~
+Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letzten Wunsch dazu benutzt, Imoen zu uns zu holen. Jedoch beschwor der Spruch nicht meine treue Freundin, sondern ein Mädchen, das auf den selben Namen hört.~
+@345 = ~Ich brauche Euch, um es zu bekommen und hierher zu bringen. Ich werde es anschliessend vernichten, damit das Gleichgewicht unter der Stadt wiederhergestellt wird. Wenn es nämlich zu wenige Spinnen gibt, dann erhebt sich das Ungeziefer. Leider bedenken das die Kanalarbeiter nicht.~
 @346 = ~Ich habe keinen Herrn, und der, dem ich schuldig bin, weiß nichts von meinem Plan. Nein, dies wird ihm in keiner Weise nützen.~
 @349 = ~Ugh, gibt es in dieser Stadt keinen Ort, um allein zu sein?~
-@350 = ~Einen Dschinn befreit.
+@350 = ~Kalahs magische Lampe
 
-Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letzten Wunsch dazu benutzt.~
+Wir haben das Befehlswort für die Lampe des Dschinns herausgefunden und den letzten Wunsch dazu benutzt, dem Dschinn die Freiheit zu schenken.~
