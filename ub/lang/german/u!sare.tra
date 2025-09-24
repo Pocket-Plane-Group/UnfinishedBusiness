@@ -51,12 +51,12 @@
 @47 = ~Ihr scheint zielstrebig genug, um erfolgreich zu sein. Lasst uns Eure Suche dann fortsetzen.~
 @48 = ~Schade darum. Lasst uns dann weitergehen, so dass wir am Ende des Tages auf Eure bemerkenswerte Geschichte trinken können.~
 @49 = ~Überhaupt nicht. Euer Überleben ist natürlich ein Kompliment an Euren gesunden Verstand.~
-@50 = ~Die Dinge sind nie so einfach, dass Ihr nur das tun könntet, was denen recht ist, um die Ihr Euch sorgt, stimmt's?  Aber das darf Euch nicht von Eurer Absicht ablenken. Lasst uns unsere Suche fortsetzen.~
+@50 = ~Die Dinge sind nie so einfach, dass Ihr nur das tun könntet, was denen recht ist, um die Ihr Euch sorgt, stimmt's? Aber das darf Euch nicht von Eurer Absicht ablenken. Lasst uns unsere Suche fortsetzen.~
 @51 = ~Ich glaube das auch... Hals über Kopf in Streit einzutauchen wäre überraschend verführerisch, nicht wahr? Selbst wenn das gewöhnlich überhaupt keine Hilfe ist. Also lasst uns versuchen, bei dieser Aufgabe nicht den Kopf zu verlieren.~
-@52 = ~Ah, ja. Hütet Euch vor der Blindheit derjeniger, die folgen würden, und dem verwerflichen Köder von denjenigen, die anführen würden. Vielen Dank, dass Ihr mir wieder nachgebt, Charname.~
+@52 = ~Ah, ja. Hütet Euch vor der Blindheit derjeniger, die folgen würden, und dem verwerflichen Köder von denjenigen, die anführen würden. Vielen Dank, dass Ihr mir wieder nachgebt, <CHARNAME>.~
 @53 = ~Ihr könnt noch Mitgefühl spüren, trotz allem, was Ihr durchstehen musstet? Das ist bemerkenswert - viele hätten den Weg des Zynikers eingeschlagen. Vielen Dank, dass Ihr mir wieder nachgebt.~
 @54 = ~Wahr genug, mein Freund - und wenn Ihr tatsächlich im Stande seid, an diesem unvoreingenommen Gespür bei diesen Schwierigkeiten festzuhalten, verbeuge ich mich vor Euch. Lasst uns dann zur Rettung der schönen Jungfrau zurückkehren.~ ~Wahr genug, meine Freundin - und wenn Ihr tatsächlich im Stande seid, an diesem unvoreingenommen Gespür bei diesen Schwierigkeiten festzuhalten, verbeuge ich mich vor Euch. Lasst uns dann zur Rettung der schönen Jungfrau zurückkehren.~
-@55 = ~Selbst obwohl sie Euch wie einen Hund erlegt hatten, zeigtet Ihr in Eurem Herzen Gnade? Ein echtes Anzeichen von Charakter, <Charname>, wenn Ihr mir erlaubt, das zu sagen. Vielen Dank, dass Ihr mir wieder nachgebt.~
+@55 = ~Selbst obwohl sie Euch wie einen Hund erlegt hatten, zeigtet Ihr in Eurem Herzen Gnade? Ein echtes Anzeichen von Charakter, <CHARNAME>, wenn Ihr mir erlaubt, das zu sagen. Vielen Dank, dass Ihr mir wieder nachgebt.~
 @56 = ~Yoshimo, sagt Ihr? Ich glaube, Ihr kennt diesen Mann. Er kam vor ein paar Wochen hierher, als es Nacht wurde, und schien in großer Bestürzung zu sein, wollte aber nicht mitteilen, was ihn quälte.~
 @57 = ~Er spendete eine wesentliche Summe Gold und bat, dass ich bestimmte persönliche Gegenstände hier lagerte - er würde es vorziehen, nicht mit ihnen, oder wegen ihnen, gefangen zu werden, sagte er.~
 @58 = ~Das hat ihm wenig genutzt.~
@@ -101,7 +101,7 @@
 @299 = ~Gut. Lasst mich dann seine Dinge holen...~
 @97 = ~Hier. Ich hoffe, dass Ihr findet, was Ihr sucht. Lebt wohl!~
 @98 = ~Wie Ihr wünscht, <BROTHERSISTER>. Lebt wohl!~
-@99 = ~Das tue ich.~
+@99 = ~Ja, das tue ich.~
 @100 = ~Wirklich eindrucksvoll.~
 @101 = ~Was ist?~
 @102 = ~Wenn es der Kampf ist, von dem Ihr sprecht, glaube ich das nicht.~
@@ -168,7 +168,7 @@
 @163 = ~Abgesehen von Eurer Fähigkeit, jeden niederzuschlagen, der sich Euch widersetzen würde, worüber soll man sich sonst Sorgen machen? Ihr habt ein Hindernis weniger auf Eurem Weg, *das* ist von Bedeutung. Stellt also sicher, dass Ihr den Weg gut gewählt habt.~
 @164 = ~Vielleicht augenblicklich ein Hindernis weniger, aber was ist mit den Angehörigen der Gefallenen?~
 @165 = ~Wenn Ihr Konsequenzen wollt, nehmt mich zum Beispiel. Ich hätte Euch nie verfolgt - wenn Ihr nicht Gorion ermordet hättet. Ihr habt selbst Euren eigenen Untergang verursacht.~
-@166 = ~Das ist das, was Ihr denkt, aber Ihr neigt dazu, am Ende zu bekommen, was Ihr  verdient. Ihr werdet sehen.~
+@166 = ~Das ist das, was Ihr denkt, aber Ihr neigt dazu, am Ende zu bekommen, was Ihr verdient. Ihr werdet sehen.~
 @167 = ~Das eine grobe Philosophie, aber ich glaube, dass sie Euren Zweck erfüllt.~
 @168 = ~Ihr wisst nicht, wovon Ihr sprecht. Lasst mich jetzt in Ruhe.~
 @169 = ~Warum? Was sollte Euch hindern? Ihr spürt die Erregung des Kampfs; ich habe es an Euch erkannt. Und eine höfliche Bitte wird die Hindernisse nicht aus Eurem Weg beseitigen, das wisst Ihr.~
@@ -225,7 +225,7 @@
 @220 = ~Was denkt Ihr? Ich tötete sie. Sie hatte es auch verdient, obwohl Ihr und Euer Einfluss sicher nicht hilfreich waren.~
 @221 = ~Nicht so schnell, wenn ich bitten darf. Tamoko stellte sich gegen Euch, und jetzt ist sie tot. Ich vermag es zu wissen. Und ich bin daran *interessiert*, zu wissen, wie es geschah.~
 @222 = ~Ihr habt sie nicht getötet?~
-@223 = ~Vielleicht habe ich es nicht. Oder vielleicht habe ich es. Das ist jetzt irgendwie  so lange her. Macht es einen Unterschied, wenn sie unter der unbedeutenden Menge war?~
+@223 = ~Vielleicht habe ich es nicht. Oder vielleicht habe ich es. Das ist jetzt irgendwie so lange her. Macht es einen Unterschied, wenn sie unter der unbedeutenden Menge war?~
 @224 = ~Nein. Und insofern sagte sie, Ihr und ich seien verschieden. Ich weigerte mich, sie zu töten, nur weil sie mir im Weg war; Ihr hättet keine solchen Schuldgefühle gehabt. Deshalb kümmert sie sich nicht mehr darum, was aus Euch geworden ist. Sie gab mir ihren Segen, Euch aufzuhalten, koste es, was es wolle.~
 @225 = ~"Hütet Euch vor der Blindheit derer, die Euch folgen würden, und der verwerflichen Lockung derer, die führen würden." Das ist es, was sie mir sagte, bevor sie es mir überließ, mich mit Euch so zu befassen, wie ich es für angebracht hielt.~
 @300 = ~Ganz unvorstellbar für Euch, stimmt's? Ich weiß nicht, wer sie von ihrem Elend erlöste, aber ich war es nicht.~

@@ -16,10 +16,10 @@
 @15   = ~Boo's Reste.~ 
 @16   = ~Es gibt hier nichts von Interesse. Ihr findet nur die Reste von Boo's letztem Mahl.~ 
 @17   = ~Boo~ 
-@18   = ~Boo ist ein kuscheliger kleiner Hamster.  Während Minsk glaubt, dass Boo ein Miniaturriesenweltraumhamster ist, seid Ihr Euch ziemlich sicher, dass das winzige Nagetier nur ein normaler Hamster ist. 
+@18   = ~Boo ist ein kuscheliger kleiner Hamster. Während Minsk glaubt, dass Boo ein Miniaturriesenweltraumhamster ist, seid Ihr Euch ziemlich sicher, dass das winzige Nagetier nur ein normaler Hamster ist. 
 
 Eine Nebenwirkung der kürzlichen Entführung Boos ist es, dass er jetzt auf magische Weise wasserresistent bis zu 50 Fuß ist.~ 
-@19   = ~Habt Ihr Euren Tierbegleiter verloren, oder seid Ihr Eures Vertrauten einfach nur überdrüssig?  Kommt zu "Smethy's Hochwertige Haustiere"!  (Werbeanzeige autorisiert durch Aljaf den Wahnsinnig Originellen.)~ 
+@19   = ~Habt Ihr Euren Tierbegleiter verloren, oder seid Ihr Eures Vertrauten einfach nur überdrüssig? Kommt zu "Smethy's Hochwertige Haustiere"! (Werbeanzeige autorisiert durch Aljaf den Wahnsinnig Originellen.)~ 
 @20   = ~Die Suna Seni/Valygar-Beziehung~ 
 @21   = ~Suna Seni~ 
 @22   = ~Maharadscha~ 
@@ -49,12 +49,11 @@ Tiermeistern~
 @29   = ~Wiederherstellung: Zufallsbegegnungen~
 @30   = ~Wiederherstellung: Gegenstände~
 @31   = ~Wolfpelztasche~
-@32   = ~Die raue Tasche wurde aus dem Fell eines großen Wolfes geschaffen. In ihr könnt ihr einige Sachen verstauen, die ihr auf euren Reisen gefunden habt. 
+@32   = ~Die raue Tasche wurde aus dem Fell eines großen Wolfes geschaffen. In ihr könnt ihr einige Sachen verstauen, die ihr auf euren Reisen gefunden habt.
 
-SPEZIFISCHE EIGENSCHAFTEN: 
+EIGENSCHAFTEN:
 
-Kapazität: 10 Gegenstände 
-Gewicht: 5~ 
+Gewicht: 10~
 @33   = ~Krummsäbel +1, Shazzellim
 Dieser Krummsäbel ist von recht schlechter Qualität, aber hinter seinem unscheinbarem Äußeren verbirgt sich eine große, böse Macht. Shazzellim wurde nur zu dem Zweck gefertigt, Harfner zu töten, und ist für diese Aufgabe bestens geeignet. Wird ein Barde von dieser Klinge getroffen, muss er einen Rettungswurf gegen Zauber bestehen oder sterben. Der Krummsäbel wurde von den Roten Magiern von Tay angefertigt und verfügt außerdem über die Fähigkeit Wortloses Zaubern. Deswegen wird er oft an Kriegermagier in den Diensten der Roten Magier vergeben. Es erübrigt sich fast zu sagen, dass man sich als Träger dieser Waffe bei den Harfnern nicht gerade beliebt macht.
 
@@ -95,7 +94,7 @@ Barde~
 @39   = ~Spinnenfluch
 Das einstmals mächtige Schwert Spinnenfluch liegt jetzt zerbrochen in Euren Händen. Nachdem die städtischen Arbeiter es zweckentfremdet hatten, ist es jetzt nur noch für diejenige Person von Wert, die nach ihm sucht - Pai'Na.~
 @40   = ~Lampe reiben~
-@41   = ~Dschinnenlampe~
+@41   = ~Dschinnlampe~
 @42   = ~Dies sieht wie eine kleine gewöhnliche Bronzeflasche aus, wie sie für Öl benutzt werden.
 
 Das Mädchen Myara glaubt, dass es in Wirklichkeit eine magische Lampe ist, welche das Geheimnis zu Kalahs Macht birgt. Allerdings scheint es nicht auszureichen, an ihr zu reiben...~
@@ -115,16 +114,16 @@ Legt die Lampe in den Quickslot und klickt sie an, um den Dschinn zu rufen.~
 @52   = ~Korrigierte "Schöpfungen" Xzars~
 @53   = ~Korrigierte Namen und Biographien der Charaktere~
 @54   = ~Wiederhergestellte kleinere Dialoge~
-@55   = ~Die Begegnung mit Grauhand~
-@56   = ~Grauhand~
+@55   = ~Die Begegnung mit Greyhand~
+@56   = ~Greyhand~
 @57   = ~Neckeith der Ausrufer~
 @58   = ~Schattendieb-Assassine~
 @59   = ~Schattendieb-Bogenschütze~
 @60   = ~Schattendieb-Straßenräuber~
 @61   = ~Schattendieb-Schläger~
 @62   = ~Schattendieb-Wache~
-@63   = ~Schattendieb-Inquisitor~
-@64   = ~Schattendieb-Kampfmagier~
+@63   = ~Schattendieb-Inquisitorin~
+@64   = ~Schattendieb-Kampfmagierin~
 @65   = ~Amon von der Purpurnen Bruderschaft~
 @66   = ~Wiederhergestellte Höllenkreaturen, von SimDing0~
 @67   = ~Imoen Cartesen~
@@ -332,14 +331,14 @@ Nachteile:
 -  Sein maximaler Charisma-Wert ist 2 Punkte niedriger als der eines normalen Angehörigen seiner Rasse.~
 @95   = ~Thron des Bhaal: Kleine Wiederherstellungen~
 @96   = ~Dieser Schritt kann einen Moment dauern...~
-@97   = ~Stiefel der beschleunigten Abreise~
+@97   = ~Stiefel des schnellen Rückzugs~
 @98   = ~Diese Stiefel wurden in längst vergangener Zeit von einer halbelfischen Bannwirkerin hergestellt, die von ihren (wenigen) Freunden "Phenuel die Seherin" genannt wurde, von ihren (vielen) verstimmten Kunden aber "Phaenuel der Scharlatan". Sie trieb sich regelmäßig in Athkatla, Handelstreff und den anderen Handelszentren Amns herum und ging mit ihren Waren hausieren. Sie bot eine Anzahl von Tränken an, die alles mögliche bewirkten: von der Heilung von Warzen an diversen Körperstellen bis zu Liebestränken.
 
 Allerdings war sie unglücklicherweise zwar recht geschickt darin, ihre Waren anzupreisen, ihre Fähigkeiten in der Trankherstellung aber ließen eine Menge zu wünschen übrig, und nach einiger Zeit mußte sie die ein oder andere Stadt meiden, um dem verärgerten Mob zu entgehen. Sie beschloß, daß Schutzmaßnahmen ein kluger Gedanke wären, und stellte diese Stiefel her, die sich als ausgesprochen nützlich erwiesen, um faule Früchte und andere wenig appetitliche Geschosse zu vermeiden, die recht häufig in ihre Richtung unterwegs waren.
 
 Phenuel und ihre Stiefel wurden eines Abends in Nashkell getrennt, als sie sich schon zur Nachtruhe zurückgezogen hatte. Einigen Kunden gelang es, sie ausfindig zu machen, und sie mußte nur mit dem Nachtgewand bekleidet durchs Fenster fliehen. Wenig überraschend, wagte sie es nicht, zurückzukommen und die Stiefel zu holen, und man hat sie seither noch nicht wieder gesehen. Dasselbe galt für die Stiefel - bis jetzt...
 
-SPEZIFISCHE EIGENSCHAFTEN:
+EIGENSCHAFTEN:
 
 Der Träger kann die Macht der Stiefel aktivieren, wann er will. Sie verleihen 20 Sekunden lang einen Bonus von +6 auf alle Rettungswürfe und verbessern die Rüstungsklasse um 8. Der Träger kann während dieser Zeit jedoch nicht angreifen, keine Zauber wirken, keine Diebesfähigkeiten einsetzen und sich nicht im Schatten verstecken.
 
@@ -487,13 +486,13 @@ Das eine oder andere Fest wurde in der Stadt gefeiert, und ich sah <CHARNAME> au
 
 16 Marpenoth, 1358
 
-Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an  den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
+Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
 
 18 Marpenoth, 1358
 
 Ich wurde bemerkt. Eine blasse Frau in schwarzem Leder hielt mich heute Abend in der Taverne an, wo ich saß und <CHARNAME> beobachtete.
 
-'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure  leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
+'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
 
 Sie bot mir an, ihr in die kühle Nacht zu folgen, und die feuchten Gassen entlang, bis wir zu dem Ort kamen, wo die Stadt ihre namenlosen Toten vergisst. Dort zeigte sie auf ein Grab unter Reihen von Gräbern, jedes wiederverwendet, wenn die alte Einwohner verrottet sind. Dieses eine war ausgehoben. 
 
@@ -517,7 +516,7 @@ Irenicus forderte ein Fluchgelübde von mir - ein Geas - also schwor ich es. Ich 
 
 <CHARNAME> und <PRO_HISHER>e Gruppe wurden gefangen genommen. Blut wurde vergossen, aber Irenicus hat mein gejagtes Objekt so weit weg von mir wie möglich eingesperrt und zu versuchen, ihm meinen Standpunkt darzulegen - oder aufzuzwingen - erwies sich als leibhaftig höchst unklug.
 
-Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge  zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
+Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
 
 15 Ches, 1359
 
@@ -622,13 +621,13 @@ Das eine oder andere Fest wurde in der Stadt gefeiert, und ich sah <CHARNAME> au
 
 16 Marpenoth, 1358
 
-Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an  den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
+Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
 
 18 Marpenoth, 1358
 
 Ich wurde bemerkt. Eine blasse Frau in schwarzem Leder hielt mich heute Abend in der Taverne an, wo ich saß und <CHARNAME> beobachtete.
 
-'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure  leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
+'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
 
 Sie bot mir an, ihr in die kühle Nacht zu folgen, und die feuchten Gassen entlang, bis wir zu dem Ort kamen, wo die Stadt ihre namenlosen Toten vergisst. Dort zeigte sie auf ein Grab unter Reihen von Gräbern, jedes wiederverwendet, wenn die alte Einwohner verrottet sind. Dieses eine war ausgehoben. 
 
@@ -652,7 +651,7 @@ Irenicus forderte ein Fluchgelübde von mir - ein Geas - also schwor ich es. Ich 
 
 <CHARNAME> und <PRO_HISHER>e Gruppe wurden gefangen genommen. Blut wurde vergossen, aber Irenicus hat mein gejagtes Objekt so weit weg von mir wie möglich eingesperrt und zu versuchen, ihm meinen Standpunkt darzulegen - oder aufzuzwingen - erwies sich als leibhaftig höchst unklug.
 
-Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge  zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
+Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
 
 15 Ches, 1359
 
@@ -757,13 +756,13 @@ Das eine oder andere Fest wurde in der Stadt gefeiert, und ich sah <CHARNAME> au
 
 16 Marpenoth, 1358
 
-Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an  den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
+Ich träumte von Tamoko, wie ich es jetzt häufig tue, aber ich erinnere mich sehr wenig an den Traum. Nur ihr Gesicht ist unter meine Augenlider eingeprägt, wie ein Nachbild der Sonne.
 
 18 Marpenoth, 1358
 
 Ich wurde bemerkt. Eine blasse Frau in schwarzem Leder hielt mich heute Abend in der Taverne an, wo ich saß und <CHARNAME> beobachtete.
 
-'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure  leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
+'Ihr seid der talentierte junge Mann, der so viele Fragen über <CHARNAME> gestellt hat' sagte sie und schob ihren kalten Ausschnitt an mich. 'Macht Euch keine Sorgen, Eure leidenschaftlichen Wünsche werden in Kürze erfüllt. Ihr müsst nur genau tun, was ich Euch sage.'
 
 Sie bot mir an, ihr in die kühle Nacht zu folgen, und die feuchten Gassen entlang, bis wir zu dem Ort kamen, wo die Stadt ihre namenlosen Toten vergisst. Dort zeigte sie auf ein Grab unter Reihen von Gräbern, jedes wiederverwendet, wenn die alte Einwohner verrottet sind. Dieses eine war ausgehoben. 
 
@@ -787,7 +786,7 @@ Irenicus forderte ein Fluchgelübde von mir - ein Geas - also schwor ich es. Ich 
 
 <CHARNAME> und <PRO_HISHER>e Gruppe wurden gefangen genommen. Blut wurde vergossen, aber Irenicus hat mein gejagtes Objekt so weit weg von mir wie möglich eingesperrt und zu versuchen, ihm meinen Standpunkt darzulegen - oder aufzuzwingen - erwies sich als leibhaftig höchst unklug.
 
-Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge  zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
+Irenicus versprach jedoch, dass das Sehen in ein paar Tagen in mein rechtes Auge zurückkehren würde und befahl mir, Geduld für meine Rachsucht aufzubringen. Wir gehen nach Süden.
 
 15 Ches, 1359
 
@@ -835,18 +834,18 @@ Und der Schrecken und die Schande sind, dass jetzt es keinen Unterschied macht. 
 
 Das ist der letzte Eintrag in das Tagebuch. Ungefähr ein Drittel der Seiten bleibt leer.~
 @1004 = ~Yoshimos Tagebuch~
-@1005 = ~Diese kurze Klinge, kaum 30 cm lang, sieht eindeutig nach Kara-Turan aus, ist aber  offensichtlich von schlechter Verarbeitung. Das Gleichgewicht weicht etwas ab, die um den Griff gewickelte Seide ist locker, und die Schneide ist lange stumpf. Spuren einer reich verzierten morgenländischen Inschrift blieben hier und dort auf dem Handschutz.
+@1005 = ~Diese kurze Klinge, kaum 30 cm lang, sieht eindeutig nach Kara-Turan aus, ist aber offensichtlich von schlechter Verarbeitung. Das Gleichgewicht weicht etwas ab, die um den Griff gewickelte Seide ist locker, und die Schneide ist lange stumpf. Spuren einer reich verzierten morgenländischen Inschrift blieben hier und dort auf dem Handschutz.
 
 EIGENSCHAFTEN:
 
-ETW0 :-1
+ETW0: -1
 Schaden: 1W8 -1
 Schadensart: durchbohren
 Gewicht: 3
 Geschwindigkeitsfaktor: 2
 Fertigkeit: Scimitar/Wakizashi/Ninja-To
 Typ: 1-händig
-MIndeststärke: 5
+Mindeststärke: 5
 
 Kann nicht verwendet werden von:
   Druiden
@@ -887,7 +886,21 @@ We delivered the news of the real murderer's demise to Chief Inspector Brega, wh
 @1310 = ~The Murder of Acton Balthis.
 
 Haer'Dalis has been executed.~
-@1311 = ~This component is not available for BG2EE.~@2000 = ~Bhaalspross-Fähigkeiten
+@1311 = ~This component is not available for BG2EE.~
+@1312 = ~Ich konnte diesem Idioten Wanev die Portalformel samt Schlüssel in das Unterreich abnehmen. Sobald hier alle Angelegenheiten abgeschlossen sind, werde ich meiner Rache einen großen Schritt näher sein.
+
+Die Mutter Oberin war bis jetzt äußerst nützlich für meine Pläne, auch wenn sie ihre eigenen Interessen dabei verfolgt. Wie wir uns doch gleichen in unserem Streben nach Rache und Macht. Doch am Ende wird das bedeutungslos sein - sie ist nur Mittel zum Zweck. Wenn ich an meinem Ziel bin, können sie in ihren Untergrundlöchern bis in alle Ewigkeiten vorrotten.
+
+Wie erwartet, ist Saemon Havarian längst geflohen. Er hat Angst, weil er ahnt, dass er mir jetzt nicht mehr von Nutzen ist. Meine Schwester war darüber sehr verärgert. Sie wird sich seiner annehmen, sobald sie mit <CHARNAME> fertig ist. Es ist wirklich interessant, wie sehr ihr Blutdurst gewachsen ist. Sie möchte bald nach Athkatla zurückzukehren, sobald unser Geschäft mit den Drow abgeschlossen ist.
+
+Je weiter sich dieses verfluchte Artefakt von meiner alten Heimat entfernt, desto besser ist es für meine Pläne. Zumal ich es niemand anderen als Bhodi anvertrauen kann. Es käme einer Katastrophe gleich, wenn dieser Narr Elhan es in seine Finger bekäme. Leider konnte ich es nicht einfach zerstören, derart alte Artefakte sträuben sich beharrlich gegen einfache Lösungen.
+
+Meine Verhandlungen mit den Rakshasa waren erfolgreich. Allerdings werden sie sich genauso wie die Drow als unzuverlässig erweisen, da ihr Interesse nur von kurzer Dauer ist. Interessanterweise hat sich neben Bohdi dieser Nizidramanii'yt als mein einzig zuverlässiger Verbündeter herausgestellt. Er schert sich allein um Essen und Schätze, egal wonach ich ihn bitte. Er wird wahrscheinlich alles tun, was ich von ihm verlange, solange seine Belohnung nicht ausbleibt. Was für ein Spatzenhirn in einem derart großen Schädel. Allerdings war seine Unterstützung für mich bis jetzt höchst wertvoll.
+
+Aber genug dieser abschweifenden Gedanken. Es wird Zeit, diesen wahnsinnigen Ort hinter sich zu lassen. Bald werde ich mir das holen, was mir seit langem hätte gehören müssen!~
+@1313 = ~Der Mörder von Acton Balthis, von Kulyok~
+
+@2000 = ~Bhaalspross-Fähigkeiten
 
 <CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
 
@@ -910,7 +923,7 @@ Zeitaufwand: 7
 Wirkungsbereich: Das berührte Wesen
 Rettungswurf: Nein
 
-Mit Hilfe dieser mächtigen Fähigkeit verleiht das Bhaalkind einem Wesen die Fähigkeit, zu regenerieren. Erlittene Verletzungen heilen, und selbst verlorene Gliedmassen bilden sich neu. Die Fähigkeit regeneriert 3 Trefferpunkte pro Sekunde.   Die Wirkung hält an für eine Runde pro zwei Stufen des Bhaalsprosses oder bis sie gebannt wird.  Auf Stufe 14 regeneriert ein Charakter beispielsweise sieben Runden lang jeweils 18 Trefferpunkte.~
+Mit Hilfe dieser mächtigen Fähigkeit verleiht das Bhaalkind einem Wesen die Fähigkeit, zu regenerieren. Erlittene Verletzungen heilen, und selbst verlorene Gliedmassen bilden sich neu. Die Fähigkeit regeneriert 3 Trefferpunkte pro Sekunde. Die Wirkung hält an für eine Runde pro zwei Stufen des Bhaalsprosses oder bis sie gebannt wird. Auf Stufe 14 regeneriert ein Charakter beispielsweise sieben Runden lang jeweils 18 Trefferpunkte.~
 @2002 = ~Bhaalspross-Fähigkeiten
 
 <CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
