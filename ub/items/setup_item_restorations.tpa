@@ -24,7 +24,7 @@ BEGIN
   /* QuestPack has a similar component in Alternative Harpers/Xzar Plot,	*/
   /* so making sure not to do this twice.					*/
 
-  ACTION_IF NOT MOD_IS_INSTALLED "setup-d0questpack" 2
+  ACTION_IF NOT MOD_IS_INSTALLED "setup-d0questpack" 6
   BEGIN
     COPY_EXISTING sw1h50.itm  override
       WRITE_LONG 0x1e (THIS | BIT2)  /* Restrict Good-aligned */
