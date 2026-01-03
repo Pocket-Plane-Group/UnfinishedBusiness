@@ -1,4 +1,4 @@
-@0    = ~Il furto di Boo di Cliffette~
+@0    = ~Il rapimento di Boo di Cliffette~
 @1    = ~Billy~
 @2    = ~Delag~
 @3    = ~Eforf~
@@ -15,7 +15,7 @@
 @14   = ~Questo è un piccolo criceto appena ricoperto di peluria. Sebbene Minsc creda che questo sia Boo, il suo criceto spaziale in miniatura, tu sai che in realtà si tratta di un sostituto del roditore, da te messo diabolicamente nella sacca di Minsc.~
 @15   = ~Avanzi di Boo~
 @16   = ~Qui non c'è nient'altro che gli avanzi dell'ultimo pasto di Boo.~
-@19   = ~Perso un compagno animale o stanco del tuo famiglio? Vieni allo Smethy's Prestige Pets! (Pubblicità autorizzata da Aljaf the Originally Insane)~
+@19   = ~Perso un compagno animale o stanco del tuo famiglio? Vieni da Animali Prestigiosi di Smethy! (Pubblicità autorizzata da Aljaf L'Originale Pazzo)~
 @20   = ~La relazione tra Suna Seni/Valygar~
 @21   = ~Suna Seni~
 @22   = ~Maharajah~
@@ -99,9 +99,9 @@ Bardo~
 @38   = ~Lellyn~
 @39   = ~Rovina dei Ragni
 
-Un tempo una potente spada, Flagello dei Ragni ora giace rotta tra le tue mani. Totalmente rovinata dal cattivo uso dei lavoratori della città, è di poco valore per chiunque ad eccezione della sola persona che la cerca - Pai'Na.~
+Un tempo una potente spada, Flagello dei Ragni ora giace rotta tra le tue mani. Totalmente rovinata dal cattivo uso degli operai della città, è di poco valore per chiunque ad eccezione della sola persona che la cerca - Pai'Na.~
 @40   = ~Strofina la Lampada~
-@41   = ~Lampada del genio~
+@41   = ~Lampada del Genio~
 @42   = ~Sembra una piccola e normale lampada, come quelle utilizzate per contenere l'olio.
 
 Myara crede che sia magica e che contenga al suo interno il segreto del potere di Kalah. Ad ogni modo, nessun tipo di strofinamento sembra in grado di attivarla...~
@@ -142,7 +142,7 @@ Per usarla, mettila in uno slot degli oggetti rapidi e selezionala.~
 @73   = ~Estesa la descrizione degli oggetti di ToB~
 @74   = ~Statuetta Shakti
 
-E' evidente che quest'oggetto è stato realizzato da un potente Wu Jen nelle misteriose terre ad est di Faerun, visto che la statuetta è una complessa e particolareggiata copia di un feroce guerriero di Kara Tur indossante delle vesti da battaglia.
+È evidente che quest'oggetto è stato realizzato da un potente Wu Jen nelle misteriose terre ad est di Faerun, visto che la statuetta è una complessa e particolareggiata copia di un feroce guerriero di Kara Tur indossante delle vesti da battaglia.
 Quando ci si appella al suo potere, questa statuetta provoca un'incredibile metamorfosi in colui che la usa, trasformandolo temporaneamente in un furioso gladiatore armato di spada corta in entrambe le mani.
 Non è chiaro se questa meravigliosa statuetta permetta a chi se ne serve di incanalare lo spirito di un leggendario guerriero o se liberi semplicemente i primordiali istinti selvaggi sepolti nelle profondità della psiche del possessore.
 
@@ -156,13 +156,13 @@ Utilizzabile una volta al giorno
 
 Non Utilizzabile Da:
 Guerriero~
-@75   = ~Foebane +5
+@75   = ~Flagello dei Nemici +5
 
-L'arcimago Demron forgiò questa magica spada bastarda per l'eroe elfico Fflar, capitano di Myth Drannor. La più potente tra le sei simili lame incantate da Demron, Foebane può risucchiare l'essenza vitale dei suoi avversari ad ogni colpo e trasferire quest'energia a chi la brandisce. Alcuni credono che la capacità di rubare l'anima altrui abbia maledetto la lama; creata come arma di rettitudine e di giustizia, quella di Foebane è una sinistra storia di morte e di uccisioni.
+L'arcimago Demron forgiò questa magica spada bastarda per l'eroe elfico Fflar, capitano di Myth Drannor. La più potente tra le sei simili lame incantate da Demron, Flagello dei Nemici può risucchiare l'essenza vitale dei suoi avversari ad ogni colpo e trasferire quest'energia a chi la brandisce. Alcuni credono che la capacità di rubare l'anima altrui abbia maledetto la lama; creata come arma di rettitudine e di giustizia, quella di Flagello dei Nemici è una sinistra storia di morte e di uccisioni.
 
-Ad inaugurare la spada fu proprio il sangue di Demron, visto che un ladro si sarebbe servito dell'appena forgiata arma per segnare la prematura morte dell'arcimago - sebbene il ladro non sia sopravvissuto all'incontro. In seguito all'uccisione di Demron, Foebane venne recuperata e portata all'eroe elfico Fflar per servirsene nella difesa di Myth Drannor, la maggiore tra le città elfiche. Persino il potere di questa lama non fu sufficiente a fronteggiare le pericolose orde che avevano invaso la roccaforte. Quando Myth Drannor cadde, il capitano Fflar conobbe un'orribile e raccapricciante fine e la stessa Foebane andò perduta sotto le rovine di quella città un tempo grandiosa.
+Ad inaugurare la spada fu proprio il sangue di Demron, visto che un ladro si sarebbe servito dell'appena forgiata arma per segnare la prematura morte dell'arcimago - sebbene il ladro non sia sopravvissuto all'incontro. In seguito all'uccisione di Demron, Flagello dei Nemici venne recuperata e portata all'eroe elfico Fflar per servirsene nella difesa di Myth Drannor, la maggiore tra le città elfiche. Persino il potere di questa lama non fu sufficiente a fronteggiare le pericolose orde che avevano invaso la roccaforte. Quando Myth Drannor cadde, il capitano Fflar conobbe un'orribile e raccapricciante fine e la stessa Flagello dei Nemici andò perduta sotto le rovine di quella città un tempo grandiosa.
 
-Secondo una leggenda, i considerevoli poteri di Foebane aumenterebbero quando la lama viene riunita al magico Fodero di Fflar, il suo originario possessore.  
+Secondo una leggenda, i considerevoli poteri di Flagello dei Nemici aumenterebbero quando la lama viene riunita al magico Fodero di Fflar, il suo originario possessore.  
 
 STATISTICHE:
 
@@ -218,7 +218,7 @@ Ladro~
 
 Una favola di Amn racconta la storia di Nysrogh, un potente abitante dei piani inferiori rilasciato nella nazione in questione da una sbadata stregona di nome Unileth. Completamente immune a qualsiasi arma utilizzata contro di lui, Nysrogh infuriò per tutta Amn e Unileth si ripromise di porre fine alla minaccia che aveva liberato.
 
-Servendosi della sua conoscenza delle debolezze dei demoni, costruì un'eccezionale clava per sconfiggere Nysrogh e la diede ad un valoroso ma anonimo cavaliere perchè fosse il suo campione. Questi lanciò una sfida al Nysrogh, il quale accettò prontamente sicuro che non sarebbe stato ferito da qualsiasi arma conosciuta nei Reami. I due s'incontrarono sul campo di battaglia e, davanti allo sguardo feroce del demone, il campione di Unileth lasciò cadere immediatamente la sua arma e fuggì terrorizzato. Nysrogh cercò di prendere la clava abbandonata dal guerriero come simbolo della sua vittoria ma, non appena l'artiglio del demone toccò l'arma, questa rilasciò un incantesimo di Imprigionamento per il quale era del tutto impreparato.
+Servendosi della sua conoscenza delle debolezze dei demoni, costruì un'eccezionale clava per sconfiggere Nysrogh e la diede ad un valoroso ma anonimo cavaliere perché fosse il suo campione. Questi lanciò una sfida al Nysrogh, il quale accettò prontamente sicuro che non sarebbe stato ferito da qualsiasi arma conosciuta nei Reami. I due s'incontrarono sul campo di battaglia e, davanti allo sguardo feroce del demone, il campione di Unileth lasciò cadere immediatamente la sua arma e fuggì terrorizzato. Nysrogh cercò di prendere la clava abbandonata dal guerriero come simbolo della sua vittoria ma, non appena l'artiglio del demone toccò l'arma, questa rilasciò un incantesimo di Imprigionamento per il quale era del tutto impreparato.
  
 La trappola di Unileth aveva funzionato e il demone che non poteva essere ferito da nessuna arma venne intrappolato per sempre all'interno della magica clava.  
 
@@ -301,13 +301,13 @@ Per un determinato Giustiziere, nessun incarico è troppo difficile, nessun nemic
 Devono essere di allineamento Legale Buono.
 
 Vantaggi:
--  +10% all'abilità Nascondersi nelle ombre
--  +1 al fattore velocità e alla Thaco ogni dieci livelli
+-  +10% all'abilità Nascondersi tra le Ombre
+-  +1 al fattore velocità e alla THAC0 ogni dieci livelli
 
 Svantaggi:
--  Non accede all'abilità Charma Animali
+-  Non accede all'abilità Charmare Animali
 -  Non può essere biclassato
--  Il lancio d'incantesimi è limitato a:
+-  Il lancio degli incantesimi è limitato a:
 "Cura Ferite Leggere" e "Armatura della Fede" una volta al giorno dal livello 8
 "Fortuna" e "Rimuovi Paura" una volta al giorno dal livello 10
 "Rivolgersi alla Santa Potenza" una volta al giorno dal livello 12~
@@ -325,7 +325,7 @@ Svantaggi:
 A causa della loro natura primitiva, i Selvaggi non possono essere di allineamento Legale. In qualità di Ranger, sono limitati agli allineamenti buoni.
 
 Vantaggi:
--  +10% all'abilità Nascondersi nelle ombre.
+-  +10% all'abilità Nascondersi tra le Ombre.
 -  Ottiene +1 alla CA al primo livello ed un ulteriore bonus di +1 alla Classe Armatura ogni 5 livelli.
 -  Può cadere in preda ad una Furia Selvaggia una volta al giorno ogni dieci livelli. Lo stato di rabbia dura per 60 secondi e garantisce un bonus di +2 al colpire, al danno e alla CA, più l'immunità a charme, paralisi, paura, labirinto, imprigionamento, lentezza e sonno. Ottiene anche 15 punti ferita temporanei.
 -  Può lanciare "Richiamo della Foresta" una volta al giorno. Servendosene, evoca un compagno animale che combatterà al suo fianco per 3 round + 1 per ogni livello. Le creature evocate diventano più potenti a livelli maggiori.
@@ -339,7 +339,7 @@ Svantaggi:
 @96  = ~Questa fase potrebbe richiedere qualche istante...~
 @97  = ~Stivali della Partenza Fulminea~
 @98  = ~Questi stivali vennero forgiati in tempi antichi dalla maga mezzelfa conosciuta come Phenuel la Veggente dai suoi (pochi) amici e Phenuel la Ciarlatana dai suoi (numerosi) contrariati clienti. Una personalità ormai nota ad Athkatla, a Trademeet e negli altri centri mercantili dell'Amn, era una venditrice ambulante di prodotti da lei stessa realizzati - una serie di pozioni che, invece di curare le verruche nelle varie parti del corpo di colui che la beveva, lo facevano cadere innamorato. 
-Sfortunatamente, mentre se la cavava abbastanza bene nella vendita, la sua abilità nell'incantare le pozioni lasciava molto a desiderare e, col passare del tempo, si rese conto di doversi trasferire di città in città sempre più spesso per salvarsi dalle folle infuriate. Decidendo infine di salvaguardarsi per ragioni di prudenza, creò questi stivali che si rivelarono molto utili nell'evitare frutta marcia e altri meno gradevoli proiettili che le venivano lanciati addosso un pò troppo frequentemente.
+Sfortunatamente, mentre se la cavava abbastanza bene nella vendita, la sua abilità nell'incantare le pozioni lasciava molto a desiderare e, col passare del tempo, si rese conto di doversi trasferire di città in città sempre più spesso per salvarsi dalle folle infuriate. Decidendo infine di salvaguardarsi per ragioni di prudenza, creò questi stivali che si rivelarono molto utili nell'evitare frutta marcia e altri meno gradevoli proiettili che le venivano lanciati addosso un po' troppo frequentemente.
 Phenuel e gli stivali vennero separati l'una dagli altri una notte a Nashkel quando, dopo essersi preparata per andare a dormire, degli individui cercarono di acchiapparla. La maga fu costretta a dileguarsi con la sola camicia da notte attraverso la finestra. Particolare per nulla sorprendente, non osò ritornare indietro per recuperare gli stivali e non è stata vista nei paraggi da molto. Per questo motivo, nessuno ebbe più modo di portare gli stivali in questione, almeno fin'ora...
 
 
@@ -374,7 +374,7 @@ Tipo: A due mani
 Richiede: Forza 14
 Utilizzabile da:
 Paladino~
-@100  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. E' stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
+@100  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. È stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
 
 Con l'aggiunta della quinta ed ultima testa a quest'oggetto creato dalla crudele razza dei Rakshasa, il vero potenziale del Mazzafrusto delle Ere è stato infine concretizzato.
 
@@ -401,7 +401,7 @@ Mago
 Ladro
 Monaco
 Addestratore di Animali~
-@101  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. E' stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
+@101  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. È stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
 
 Questo mazzafrusto a quattro teste arreca danni da fuoco, freddo, acido e veleno. Se la quinta testa del Mazzafrusto delle Ere venisse ritrovata, renderebbe questo incredibile oggetto ancora più potente.
 
@@ -424,7 +424,7 @@ Mago
 Ladro
 Monaco
 Addestratore di Animali~
-@102  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. E' stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
+@102  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. È stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
 
 Questo mazzafrusto a quattro teste arreca danni da fuoco, freddo, acido ed elettricità. Se la quinta testa del Mazzafrusto delle Ere venisse ritrovata, renderebbe questo incredibile oggetto ancora più potente.
 
@@ -482,7 +482,7 @@ Secondo quell'uomo, ora come ora tutti sono agitati per ciò che una persona di n
 
 8 Marpenoth, 1358
 
-Ho settacciato le strade di Baldur's Gate negli ultimi giorni e nelle ultime notti. Il quartier generale del Trono di Ferro è in uno stato di caos imbarazzante. Ho trovato la taverna menzionata da Tamoko come sua ultima risorsa: squallida, utilizzata per il contrabbando, indegna di lei. L'ho individuata nel registro dei clienti dell'oste sotto falso nome, con un conto non saldato risalente al 12 Flamerule. Sono sgattaiolato via prima che l'oste pensasse di farmi pagare.
+Ho setacciato le strade di Baldur's Gate negli ultimi giorni e nelle ultime notti. Il quartier generale del Trono di Ferro è in uno stato di caos imbarazzante. Ho trovato la taverna menzionata da Tamoko come sua ultima risorsa: squallida, utilizzata per il contrabbando, indegna di lei. L'ho individuata nel registro dei clienti dell'oste sotto falso nome, con un conto non saldato risalente al 12 Flamerule. Sono sgattaiolato via prima che l'oste pensasse di farmi pagare.
 
 10 Marpenoth, 1358
 
@@ -516,7 +516,7 @@ Ho sognato Tamoko, come spesso mi capita ultimamente, ma ricordo molto poco del 
 Sono stato informato. Una donna pallida con un vestito di pelle nera mi ha fermato nella taverna dov'ero seduto, guardando <CHARNAME>.
 
 "Tu sei quel giovane uomo dotato che ha posto così tante domande su <CHARNAME>" ha detto avvicinando la sua provocante scollatura verso di me. "Non preoccuparti: i tuoi desideri ti verranno garantiti tra poco. Devi solo fare esattamente ciò che ti dico".
-A notte inoltrata, mi ha offerto di seguirla per degli umidi vicoli finchè siamo giunti nel posto dove la città dimentica i suoi morti senza nome. Lì mi ha indicato una tomba in mezzo a file e file di lapidi, ciascuna delle quali viene riutilizzata non appena il suo vecchio occupante imputridisce. Una sola non era chiusa. 
+A notte inoltrata, mi ha offerto di seguirla per degli umidi vicoli finché siamo giunti nel posto dove la città dimentica i suoi morti senza nome. Lì mi ha indicato una tomba in mezzo a file e file di lapidi, ciascuna delle quali viene riutilizzata non appena il suo vecchio occupante imputridisce. Una sola non era chiusa. 
 
 La donna ha aperto la bara e al suo interno giaceva Tamoko, rannicchiata come una bambina. Morta.
 
@@ -536,7 +536,7 @@ Irenicus mi ha chiesto un giuramento - una costrizione - a cui ho acconsentito. 
 
 8 Alturiak, 1359
 
-<CHARNAME> e la sua compagnia sono stati catturati. E' stato sparso del sangue, ma Irenicus ha imprigionato la mia preda il più lontano possibile da me e cercare di impormi su di lui si è rivelata un'idea fisicamente infelice.
+<CHARNAME> e la sua compagnia sono stati catturati. È stato sparso del sangue, ma Irenicus ha imprigionato la mia preda il più lontano possibile da me e cercare di impormi su di lui si è rivelata un'idea fisicamente infelice.
 
 Irenicus mi ha promesso, tuttavia, che la vista dovrebbe ritornarmi in pochi giorni nell'occhio destro e mi ha ordinato di somministrare al mio desiderio di vendetta la dovuta pazienza. Ci stiamo dirigendo verso sud.
 
@@ -650,7 +650,7 @@ Ho sognato Tamoko, come spesso mi capita ultimamente, ma ricordo molto poco del 
 Sono stato informato. Una donna pallida con un vestito di pelle nera mi ha fermato nella taverna dov'ero seduto, guardando <CHARNAME>.
 
 "Tu sei quel giovane uomo dotato che ha posto così tante domande su <CHARNAME>" ha detto avvicinando la sua provocante scollatura verso di me. "Non preoccuparti: i tuoi desideri ti verranno garantiti tra poco. Devi solo fare esattamente ciò che ti dico".
-A notte inoltrata, mi ha offerto di seguirla per degli umidi vicoli finchè siamo giunti nel posto dove la città dimentica i suoi morti senza nome. Lì mi ha indicato una tomba in mezzo a file e file di lapidi, ciascuna delle quali viene riutilizzata non appena il suo vecchio occupante imputridisce. Una sola non era chiusa. 
+A notte inoltrata, mi ha offerto di seguirla per degli umidi vicoli finché siamo giunti nel posto dove la città dimentica i suoi morti senza nome. Lì mi ha indicato una tomba in mezzo a file e file di lapidi, ciascuna delle quali viene riutilizzata non appena il suo vecchio occupante imputridisce. Una sola non era chiusa. 
 
 La donna ha aperto la bara e al suo interno giaceva Tamoko, rannicchiata come una bambina. Morta.
 
@@ -670,7 +670,7 @@ Irenicus mi ha chiesto un giuramento - una costrizione - a cui ho acconsentito. 
 
 8 Alturiak, 1359
 
-<CHARNAME> e la sua compagnia sono stati catturati. E' stato sparso del sangue, ma Irenicus ha imprigionato la mia preda il più lontano possibile da me e cercare di impormi su di lui si è rivelata un'idea fisicamente infelice.
+<CHARNAME> e la sua compagnia sono stati catturati. È stato sparso del sangue, ma Irenicus ha imprigionato la mia preda il più lontano possibile da me e cercare di impormi su di lui si è rivelata un'idea fisicamente infelice.
 
 Irenicus mi ha promesso, tuttavia, che la vista dovrebbe ritornarmi in pochi giorni nell'occhio destro e mi ha ordinato di somministrare al mio desiderio di vendetta la dovuta pazienza. Ci stiamo dirigendo verso sud.
 
@@ -764,9 +764,9 @@ Ho sentito un gruppo di mercenari del Pugno Fiammante parlare di <CHARNAME>, di 
 FEMMINA UMANA; ETA' APPROSSIMATIVA 30 ANNI; PROVENIENTE DA KARA-TUR?
 --  RITROVATA NEI PRESSI DEL PORTALE DEL DRAGONE NERO
 --  NESSUN SEGNO DI VIOLENZA, DI MALATTIA O DI DECOMPOSIZIONE; MORTE PER MAGIA?
---  CORAZZA COMPLETA CON INCISE LE INSEGNE DI BANE; DECORAZIONI ORIENTALI FILIGRANATE IN ORO ALL'ALTEZZA DEL CUORE; VENDUTA ALLO STREGONE SUNDRIES PER 17.000 PEZZI D'ORO
+--  CORAZZA COMPLETA CON INCISE LE INSEGNE DI BANE; DECORAZIONI ORIENTALI FILIGRANATE IN ORO ALL'ALTEZZA DEL CUORE; VENDUTA ALLO STREGONE DI CHINCAGLIERIE PER 17.000 PEZZI D'ORO
 
-BURIED
+SEPOLTA
 
 13 Marpenoth, 1358
 
@@ -785,7 +785,7 @@ Ho sognato Tamoko, come spesso mi capita ultimamente, ma ricordo molto poco del 
 Sono stato informato. Una donna pallida con un vestito di pelle nera mi ha fermato nella taverna dov'ero seduto, guardando <CHARNAME>.
 
 "Tu sei quel giovane uomo dotato che ha posto così tante domande su <CHARNAME>" ha detto avvicinando la sua provocante scollatura verso di me. "Non preoccuparti: i tuoi desideri ti verranno garantiti tra poco. Devi solo fare esattamente ciò che ti dico".
-A notte inoltrata, mi ha offerto di seguirla per degli umidi vicoli finchè siamo giunti nel posto dove la città dimentica i suoi morti senza nome. Lì mi ha indicato una tomba in mezzo a file e file di lapidi, ciascuna delle quali viene riutilizzata non appena il suo vecchio occupante imputridisce. Una sola non era chiusa. 
+A notte inoltrata, mi ha offerto di seguirla per degli umidi vicoli finché siamo giunti nel posto dove la città dimentica i suoi morti senza nome. Lì mi ha indicato una tomba in mezzo a file e file di lapidi, ciascuna delle quali viene riutilizzata non appena il suo vecchio occupante imputridisce. Una sola non era chiusa. 
 
 La donna ha aperto la bara e al suo interno giaceva Tamoko, rannicchiata come una bambina. Morta.
 
@@ -805,7 +805,7 @@ Irenicus mi ha chiesto un giuramento - una costrizione - a cui ho acconsentito. 
 
 8 Alturiak, 1359
 
-<CHARNAME> e la sua compagnia sono stati catturati. E' stato sparso del sangue, ma Irenicus ha imprigionato la mia preda il più lontano possibile da me e cercare di impormi su di lui si è rivelata un'idea fisicamente infelice.
+<CHARNAME> e la sua compagnia sono stati catturati. È stato sparso del sangue, ma Irenicus ha imprigionato la mia preda il più lontano possibile da me e cercare di impormi su di lui si è rivelata un'idea fisicamente infelice.
 
 Irenicus mi ha promesso, tuttavia, che la vista dovrebbe ritornarmi in pochi giorni nell'occhio destro e mi ha ordinato di somministrare al mio desiderio di vendetta la dovuta pazienza. Ci stiamo dirigendo verso sud.
 
@@ -855,7 +855,7 @@ L'orrore e la vergogna di ciò che adesso sta per accadere non fa alcuna differen
 
 Questa è l'ultima nota nel diario. Rimangono vuote circa una trentina di pagine.~
 @1004 = ~Diario di Yoshimo~
-@1005 = ~Questa spada corta, lunga a mala pena 30 centimetri, sembra essere di Kara-Tur, ma ovviamente è di scarsa fattura. Il baricentro della spada è un pò spostato rispetto a quello che dovrebbe essere, la seta che avvolge l'impugnatura si sta allentando e la lama non è più affilata. Tracce di un'iscrizione orientale restano sparse qua e là.
+@1005 = ~Questa spada corta, lunga a mala pena 30 centimetri, sembra essere di Kara-Tur, ma ovviamente è di scarsa fattura. Il baricentro della spada è un po' spostato rispetto a quello che dovrebbe essere, la seta che avvolge l'impugnatura si sta allentando e la lama non è più affilata. Tracce di un'iscrizione orientale restano sparse qua e là.
 
 STATISTICHE:
 
@@ -877,7 +877,7 @@ Addestratore di animali~
 @1300  = ~Avanti, fedeli. Apritevi al mio gelido abbraccio. Accogliete la morte...~
 @1301  = ~L’Assassinio di Acton Balthis.
 
-Haer'Dalis é stato appena accusato dell’assassinio di Lord Acton Balthis, un membro molto importante della società di Amn. Dobbiamo scoprire quale sia la verità prima che sia troppo tardi. Parlare con il Capo Ispettore Brega potrebbe essere un buon inizio.~
+Haer'Dalis è stato appena accusato dell’assassinio di Lord Acton Balthis, un membro molto importante della società di Amn. Dobbiamo scoprire quale sia la verità prima che sia troppo tardi. Parlare con il Capo Ispettore Brega potrebbe essere un buon inizio.~
 @1302  = ~L’Assassinio di Acton Balthis.
 
 Siamo andati a trovare Haer'Dalis in prigione. Ci ha consigliato di andare a visitare la tenuta di Lord Balthis al Quartiere del Ponte e parlare con il Capo Ispettore Brega. Nel frattempo le guardie stanno preparando l’esecuzione. Abbiamo circa tre giorni per provare l’innocenza di Haer'Dalis.~
@@ -886,7 +886,7 @@ Siamo andati a trovare Haer'Dalis in prigione. Ci ha consigliato di andare a vis
 Pip, un domestico nella tenuta di Balthis, ci ha detto che Haer'Dalis era molto interessato al busto di Sune che si trova nella tenuta. Un collezionista d’arte della Passeggiata di Waukeen, Quataris, potrebbe saperne di più su questa faccenda.~
 @1304  = ~L’Assassinio di Acton Balthis.
 
-Il Capo Ispettore Brega ci ha detto che Haer'Dalis é sospettato anche di furto. Il busto di Sune é scomparso dalla tenuta di Lord Balthis nel Quartiere del Ponte. Un collezionista di arte della Passeggiata di Waukeen, Quataris, potrebbe saperne di più. Haer'Dalis sarà giustiziato entro tre giorni, dobbiamo affrettarci!~
+Il Capo Ispettore Brega ci ha detto che Haer'Dalis è sospettato anche di furto. Il busto di Sune è scomparso dalla tenuta di Lord Balthis nel Quartiere del Ponte. Un collezionista di arte della Passeggiata di Waukeen, Quataris, potrebbe saperne di più. Haer'Dalis sarà giustiziato entro tre giorni, dobbiamo affrettarci!~
 @1305  = ~L’Assassinio di Acton Balthis.
 
 Quataris ha confessato di aver assunto un ladro per rubare il busto di Sune dalla tenuta. Il Capo Ispettore Brega avrà bisogno di una confessione scritta.~
@@ -904,8 +904,8 @@ Haer'Dalis mi ha dato un’idea: per catturare il vero assassino attirandolo nuova
 Abbiamo dato la notizia della morte del vero assassino al Capo Ispettore Brega, lui è stato molto felice.~
 @1310 = ~L’Assassinio di Acton Balthis.
 
-Haer'Dalis é stato giudiziato.~
-@1311 = ~Questo componente non é disponibile per BG2EE.~
+Haer'Dalis è stato giudiziato.~
+@1311 = ~Questo componente non è disponibile per BG2EE.~
 @2000 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
@@ -955,7 +955,7 @@ Raggio d'azione: 6 metri
 Durata: 1 turno
 Tempo di lancio: 1
 Area d'effetto: 1 creatura
-Tiro-salvezza: Neg.
+Tiro-salvezza: Nega gli effetti
 
 Con questo incantesimo, la progenie di Bhaal può porre il malvagio marchio di suo padre su una vittima, avvelenando chi fallisce un tiro-salvezza contro Morte. Gli effetti dipendono dal livello del personaggio e sono descritti qui di seguito:
 

@@ -16,8 +16,8 @@
 @20   = ~Vivick, in questo modo non andiamo da nessuna parte. Sembri avere un certo ascendente su questo bambino. Fallo parlare.~
 @21   = ~Ti lascerò nelle mani di Minsc, bamboccio!~
 @22   = ~Non farmi del male! Ti dirò tutto! Ho - Ho venduto il vostro piccolo criceto ad un uomo simpatico. Penso che si chiami Smethy.~
-@23   = ~Tu lì, <MANWOMAN>! Faresti meglio a spiegarmi perchè quel beota nel tuo gruppo sta importunando questo povero bambino!~
-@24   = ~Faresti meglio a spiegarmi perchè proteggi dei piccoli ladri!~
+@23   = ~Tu lì, uomo! Faresti meglio a spiegarmi perché quel beota nel tuo gruppo sta importunando questo povero bambino!~~Tu lì, donna! Faresti meglio a spiegarmi perché quel beota nel tuo gruppo sta importunando questo povero bambino!~
+@24   = ~Faresti meglio a spiegarmi perché proteggi dei piccoli ladri!~
 @25   = ~Importunando il bambino? Non facciamo cose simili! Il ragazzo ha rubato qualcosa di... prezioso per noi. Beh, prezioso per Minsc.~
 @26   = ~Spostati, ho un collo da strozzare!~
 @27   = ~Okay okay, calmiamoci tutti. Dirò a Billy di spiegarti dove si trova il tuo ratto, se mi darai un buon motivo per farlo.~
@@ -54,13 +54,13 @@
 @58   = ~Bene. Colpisci agli occhi, Minsc!~
 @59   = ~Così ora sei pronto a combattere? Andiamo!~
 @60   = ~Finalmente ci siamo! Andremo là vicino al muro, eh? Non voglio che nessun altro venga colpito per sbaglio.~
-@61   = ~Ahh, 50 monete d'oro, per favore. E' una figata combattere con te, soprattutto perchè così ottengo un pò di denaro per una birra! Stasera mi sgolo, ragazzi!~
+@61   = ~Ahh, 50 monete d'oro, per favore. È una figata combattere con te, soprattutto perché così ottengo un po' di denaro per una birra! Stasera mi sgolo, ragazzi!~
 @62   = ~Quanto a te, torna per una nuova sfida una volta che ti sei curato.~
-@63   = ~Ahh, bene, hai perso ma almeno non sei morto. E' una figata combattere con te, soprattutto perchè mi fa fare una bella figura con i ragazzi!~
-@64   = ~Tu... Tu stai attaccando il vecchio Smethy? Ma perchè?!~
-@65   = ~Billy ti ha portato qui... E' per quel criceto, vero?~
-@66   = ~Non avrei dovuto comprare quella bestiola da lui. Non ne ho ricavato nemmeno un granchè. Suppongo che tu voglia sapere dove sia. No, non guardarmi in quel modo.~
-@67   = ~Guarda, l'ho venduto ad una ragazza di nome Eleanya nel Quartiere Governativo. E' una persona stravagante e ha detto che avrebbe preso il criceto per una nuotata. Chi sono io per non essere d'accordo? Questo è tutto ciò che so, lo giuro!~
+@63   = ~Ahh, bene, hai perso ma almeno non sei morto. È una figata combattere con te, soprattutto perché mi fa fare una bella figura con i ragazzi!~
+@64   = ~Tu... Tu stai attaccando il vecchio Smethy? Ma perché?!~
+@65   = ~Billy ti ha portato qui... È per quel criceto, vero?~
+@66   = ~Non avrei dovuto comprare quella bestiola da lui. Non ne ho ricavato nemmeno un granché. Suppongo che tu voglia sapere dove sia. No, non guardarmi in quel modo.~
+@67   = ~Guarda, l'ho venduto ad una ragazza di nome Eleanya nel Quartiere Governativo. È una persona stravagante e ha detto che avrebbe preso il criceto per una nuotata. Chi sono io per non essere d'accordo? Questo è tutto ciò che so, lo giuro!~
 @68   = ~Io... Io penso che sia tempo che tu te ne vada.~
 @69   = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
@@ -82,7 +82,7 @@ Il ragazzino che ha rubato Boo ci ha portati in uno strano negozio di un halflin
 @84   = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
 Il ragazzino che ha rubato Boo ci ha portati in uno strano negozio di un halfling chiamato Smethy o, come ci ha rivelato, Smethyethyldiethylether il Magnifico. Sembra che siamo arrivati troppo tardi e che Boo sia stato venduto ad una nobildonna chiamata Eleanya. Dobbiamo trovare Eleanya nel Quartiere Governativo, dove sta insegnando a Boo a nuotare. Qualcosa mi dice che non dovremmo indugiare troppo nella nostra ricerca...~
-@85   = ~Mi stai - Mi stai attaccando? Il piccolo vecchio Smethy?! Aiu-~
+@85   = ~Mi stai - Mi stai attaccando? Il piccolo vecchio Smethy?! Aiu...~
 @86   = ~Aiutatemi! Oh, per gli dei, questi animali non sono capaci di aiutarmi! Aieeee!!~
 @87   = ~Ci sono! Ti farò fuori magicamente!! Sì, non sono certo il gentile proprietario di un negozio di animali! Effettivamente sono un arcimago...~
 @88   = ~Io sono Smethyethyldiethylether il Magnifico! La gente dice che avrei dovuto fare l'alchimista, ma tu non puoi permetterti una pozione, dico bene?~
@@ -117,21 +117,21 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @115  = ~Le mie scuse e i miei ringraziamenti, lady De'Lyl.~
 @116  = ~"Misero" è la parola giusta. Puoi essere intelligente... E anche piuttosto affascinante, ma a mio Padre non piacerebbe se prendessi tre o quattro malattie.~
 @117  = ~Non è niente! Una semplice bazzecola per la mia considerevole forza magica!~
-@118  = ~Anche se la vostra forza magica avrebbe bisogno di un pò di mira... Ho visto chiaramente che avete colpito Minsc, non Boo, con il vostro incantesimo.~
+@118  = ~Anche se la vostra forza magica avrebbe bisogno di un po' di mira... Ho visto chiaramente che avete colpito Minsc, non Boo, con il vostro incantesimo.~
 @119  = ~Sarà come dite. Ad ogni modo, avete mancato Boo con l'ultimo incantesimo.~
 @120  = ~Considera il mio "dono" al tuo amico ranger un regalo sufficiente.~
 @121  = ~Un regalo per Minsc? Che cosa gli avete fatto?! L'avreste dovuto lanciare su Boo!~
 @122  = ~Aspettate. Stavate lanciando l'incantesimo su Boo, no? Che cos'è questo "regalo" per Minsc?~
 @123  = ~Tu insulti un membro della famiglia De'Lyl? Uno estremamente dotato nelle arti magiche?~
-@124  = ~Avete dimenticato "estremamente dotato in arroganza ed idiozia". Restituitemi il criceto, Signora, altrimenti morirete. E' abbastanza chiaro?~
+@124  = ~Avete dimenticato "estremamente dotato in arroganza ed idiozia". Restituitemi il criceto, Signora, altrimenti morirete. È abbastanza chiaro?~
 @125  = ~Calmatevi. Voglio solo sapere cosa state facendo al criceto.~
 @126  = ~Calmatevi, lady. Che cosa state facendo al criceto?~
 @127  = ~Ma il criceto appartiene a Minsc, qui.~
 @128  = ~Non voglio venire alle mani, ma dovremo combattere se continuate a trattenere Boo dal suo legittimo proprietario!~
 @129  = ~Cosa-~
 @130  = ~Cosa significa questo?! Non posso far nuotare il mio criceto senza dover fare i conti con avventurieri rompiscatole?~
-@131  = ~Sarei interessato a sapere perchè volete far nuotare un criceto.~
-@132  = ~Devo chiedervelo - perchè volete far nuotare un criceto?~
+@131  = ~Sarei interessato a sapere perché volete far nuotare un criceto.~
+@132  = ~Devo chiedervelo - perché volete far nuotare un criceto?~
 @133  = ~Datemi il criceto, Signora, e nessuno si farà male.~
 @134  = ~No, non potete. Cambiate il vostro tono immediatamente o vi rompo IO.~
 @135  = ~E con quale autorità mi minacci? No, aspetta, non m'importa. Vattene immediatamente, altrimenti chiamerò la mia guardia ad occuparsi di te.~
@@ -170,7 +170,7 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @168  = ~Puoi farne ciò che vuoi. Chincaglierie, per la maggior parte.~
 @169  = ~Un diamante... (Yawn). Immagino che tu voglia anche farmi indossare dei pantaloni dorati sotto il mio vestito, visto che anche quelli erano di moda l'anno scorso.~
 @170  = ~Ma se qualcuno può essere retrospettivo, quel qualcuno è un De'Lyl. Indosserò un diamante stasera. Naturalmente, questo significa che non devo portare tutte queste altre gemme... Mi appesantiscono soltanto. Le vuoi, non è così?~
-@171  = ~Una perla... Perchè non mi chiedi di diventare una pescatrice e aprire le ostriche, in aggiunta? Le perle sono al di sotto di me.~
+@171  = ~Una perla... Perché non mi chiedi di diventare una pescatrice e aprire le ostriche, in aggiunta? Le perle sono al di sotto di me.~
 @172  = ~Anche se creano un meraviglioso contrasto con la mia pelle. E se significa che non devo portare tutte queste altre gemme... Allora così sia. Le vuoi, vero?~
 @173  = ~Una pietra ioun... Sì, mi farà sembrare rigenerata. Inoltre non puoi mai sapere con certezza che genere di malignità gli ospiti stanno pianificando con incantesimi o simili. Indosserò una pietra ioun stasera.~
 @174  = ~Uno smeraldo... Sì, uno smeraldo renderebbe più vivace il colore dei miei occhi - sei stato bravo ad accorgertene! Uno smeraldo mi starà benissimo.~
@@ -185,7 +185,7 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @183  = ~Ecco, prendi questo giocattolo. Il piccolo criceto se n'è affezionato e detesto vedere degli amici separati. Quanto a te, tutto ciò che ora devi fare è un approfondito studio delle norme dell'etichetta e forse anche un lungo bagno. Allora potresti persino essere adatto come guardia dei De'Lyl o come governante - questo è senza dubbio un privilegio.~
 @184  = ~Ma non mirare troppo in alto. Non è bene superare se stessi.~
 @185  = ~Non sei poi così male come persona, sebbene alcune delle risposte alle mie domande fossero... spaventose per non dire altro. Ma suppongo che non tutti abbiano ricevuto la mia educazione.~
-@186  = ~In effetti, mi chiedo perchè "Boo" dovrebbe finire nelle mani di uno con così poca intelligenza come te. Non importa. Me ne lavo le mani. Letteralmente. Tu, Signore, devi veramente insegnare un pò di toilette a questo criceto.~
+@186  = ~In effetti, mi chiedo perché "Boo" dovrebbe finire nelle mani di uno con così poca intelligenza come te. Non importa. Me ne lavo le mani. Letteralmente. Tu, Signore, devi veramente insegnare un po' di toilette a questo criceto.~
 @187  = ~Buon giorno.~
 @188  = ~Non ti restituirò Boo. Non sarebbe al sicuro nelle mani di un imbecille come te. Le tue risposte alle mie domande sono state, francamente parlando, spaventose.~
 @189  = ~Mi hai fatto sprecare fin troppo tempo. Buon giorno.~
@@ -211,7 +211,7 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @209  = ~Siimi grato, visto che non ti riduco in cenere per avermi chiamato "graziosa", stupido gorilla figlio di una scimmia. Non toccherei il tuo criceto nemmeno se fosse l'ultimo roditore nel Faerun!~
 @210  = ~Mi dispiace, mia cara signorina, ti ho fatto piangere. Adesso Minsc ti darà un grande eroico abbraccio e ti farà sentire meglio!~
 @211  = ~Lasciami immediatamente, sgorbio dalla puzza di banana di un- un- (Sto balbettando? Dei, penso di star balbettando.)~
-@212  = ~Vedi? Minsc ti ha fatto sentire meglio. Ooh, sei rossa quasi come la tua tunica! Ma sto divagando. Boo! Oh Boo, Dove sei? Chi ti ha preso? E' stato... E' stato...~
+@212  = ~Vedi? Minsc ti ha fatto sentire meglio. Ooh, sei rossa quasi come la tua tunica! Ma sto divagando. Boo! Oh Boo, Dove sei? Chi ti ha preso? È stato... È stato...~
 @213  = ~Sei stato tu, <CHARNAME>! Per tutto questo tempo hai invidiato Minsc per il suo rapporto con il grande Boo! Desideri tenerti il titolo di Grande Eroe tutto per te!~
 @214  = ~Stai scherzando.~
 @215  = ~Sì, sì, sono stato io. Senti che compiaciuta risata!~
@@ -222,10 +222,10 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @220  = ~Non verrò esaminato da capo a piedi in questo modo! Fatti gli affari tuoi, idiota dalla testa di legno!~
 @221  = ~Che temperamento! Sprigiona fuoco da tutti i pori e non ha timore a sputare in un occhio! Mi ricorda le donne guerriere della mia terra natia! Se soltanto il piccolo Boo fosse qui ad ammirarti. Ah, dolce signorina, quasi mi fai piangere.~
 @222  = ~E mettiti pure a piangere! Stammi ad una certa distanza prima che ti lanci una palla infuocata! (Un simile tormento devo sopportare! Il dolore dietro ai miei occhi cresce a dismisura!)~
-@223  = ~Cosa!? Perchè mi fissi così, zotico?!~
+@223  = ~Cosa!? Perché mi fissi così, zotico?!~
 @224  = ~Hai dei bei lineamenti, anche se mi sono familiari. Sei forse la sorella di Edwin? Eppure sei migliore di lui per le tue buone maniere.~
 @225  = ~Io SONO Edwin, sciocco pagliaccio! Non riesci a capirlo?!~
-@226  = ~Non me ne intendo di filosofia. Tu sei Edwin? Ah, come Minsc è Boo e Boo è Minsc perchè ci sosteniamo a vicenda. Ti piacciono i criceti? Penso che Boo ti piacerebbe. Se fosse qui, sarebbe sicuramente arrossito, mia graziosa signorina!~
+@226  = ~Non me ne intendo di filosofia. Tu sei Edwin? Ah, come Minsc è Boo e Boo è Minsc perché ci sosteniamo a vicenda. Ti piacciono i criceti? Penso che Boo ti piacerebbe. Se fosse qui, sarebbe sicuramente arrossito, mia graziosa signorina!~
 @227  = ~Quindi... Minsc ti reciterà una poesia, va bene?~
 @228  = ~Nooo, per favore, noooo!!~
 @229  = ~Oh, non protestare così. Minsc non se ne preoccupa - Boo vorrebbe che lo facessi.~
@@ -238,7 +238,7 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @236  = ~Qualcuno deve sapere... Qualcuno deve aver visto! Dobbiamo rintracciare Boo anche se dovessimo ispezionare lo sterco di ogni criceto in questa grande città!~
 @237  = ~Uhhh... Minsc, Non penso che sia sterco di criceto...~
 @238  = ~No, Minsc! Non toccarlo! Non è sterco di criceto!~
-@239  = ~Hai ragione, Aerie. I miei occhi non vedono come dovrebbero. E'... E' colpa della luce fioca. (Sniff)~
+@239  = ~Hai ragione, Aerie. I miei occhi non vedono come dovrebbero. E'... È colpa della luce fioca. (Sniff)~
 @240  = ~A me sembra che ci sia una luce abbagliante.~
 @241  = ~Oh, taci, Jan.~
 @242  = ~Minsc, puoi asciugarti gli occhi sulla mia manica se - se vuoi.~
@@ -246,26 +246,26 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @244  = ~Beh, questa è bella. A quale parte? All'uncino? Alla scimitarra?~
 @245  = ~Sei un insolente, piccolo gnomo! Forse sono allergico a TE!! Mi asciugherò il naso sulla tua malvagità e ti spedirò a calci nella tua minuscola casa dove non ti burlerai più di Minsc!!~
 @246  = ~Beh, assicurati solo di non farmi atterrare sopra il mio campo di rape. Nulla è peggio dello spreco di una buona rapa... Ad eccezione dello stufato fuoriuscito di rape. Il solo pensiero mi fa piangere, mi fa... Aerie, vieni qui? ~
-@247  = ~Co - cosa stai facendo, Jan? Stai cercando di soffiarti il naso sulla mia manica?! Ick! Và via!!~
+@247  = ~Co - cosa stai facendo, Jan? Stai cercando di soffiarti il naso sulla mia manica?! Ick! Va' via!!~
 @248  = ~Ah, sei crudele con un vecchio gnomo, Aerie.~
 @249  = ~Non interrompermi. Sto pensando.~
 @250  = ~Har! Sei un pensatore adesso, Delag? Una tale vista renderebbe la tua mammina orgogliosa se non stessi mentendo.~
 @251  = ~Non sto mentendo, ma ORA sto pensando di sfasciarti la testa. O di provare a fare un nodo con la tua lingua.~
-@252  = ~Zitti, voi due! Presto ci sbatterano fuori se continuate a fare baccano!~
+@252  = ~Zitti, voi due! Presto ci sbatteranno fuori se continuate a fare baccano!~
 @253  = ~Quei nobili hanno ragione. Ci si riscalda qui al secondo piano. Se il proprietario della taverna non chiude a chiave le porte di sotto, questo è un problema suo.~
 @254  = ~Puoi esserti riscaldato, Eforf, ma preferirei che il proprietario della taverna non chiudesse a chiave i suoi barili.~
 @255  = ~Ah, hai ragione, Sten. Una buona birra mi riscalderebbe subito.~
-@256  = ~Una birra ci starebbe. Perchè siamo di nuovo nella stanza degli effemminati?~
+@256  = ~Una birra ci starebbe. Perché siamo di nuovo nella stanza degli effeminati?~
 @257  = ~Di preciso non lo so.~
 @258  = ~Delag pensa che abbiamo preso una direzione sbagliata nelle scale.~
-@259  = ~Maledetto "sù" e "giù"! Quale era quale?~
+@259  = ~Maledetto "su" e "giù"! Quale era quale?~
 @260  = ~Ah, in ogni caso qui c'è calduccio e le tette delle nobildonne si guardano comunque volentieri.~
 @261  = ~Quindi... In qualsiasi caso tu sei a posto, Vivick, eh?~
 @262  = ~Delag pensa che dovresti dargli una bella mazzata.~
-@263  = ~Naww, rilassati, Vivick, dò io una bella mazzata a Delag.~
+@263  = ~Naww, rilassati, Vivick, do io una bella mazzata a Delag.~
 @264  = ~Sarò io a riempire di mazzate TE, mascalzone!~
 @265  = ~Oi! Assesto mazzate a chi voglio! Tu, calmati!~
-@266  = ~D'accordo! D'accordo! Questo basta e avanza! E' stata una bella zuffa e mi avete riempito abbastanza di mazzate.~
+@266  = ~D'accordo! D'accordo! Questo basta e avanza! È stata una bella zuffa e mi avete riempito abbastanza di mazzate.~
 @267  = ~Billy, apri quel buco nella tua testa e dì a queste persone cos'è successo al loro toporagno.~
 @268  = ~Toporagno? No, Boo è un criceto!~
 @269  = ~Billy?~
@@ -280,10 +280,10 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @278  = ~Oh, no! Vi lasceremo al vostro lavoro. E se mi è concesso dirlo, la tua magia sta avendo buoni risultati.~
 @279  = ~E saluti a Lord De'Lyl.~
 @280  = ~Perdonateci ancora per avervi interrotta, Lady De'Lyl.~
-@281  = ~E' un bene che abbiamo tenuto d'occhio questo distretto di Athkatla.~
+@281  = ~È un bene che abbiamo tenuto d'occhio questo distretto di Athkatla.~
 @282  = ~Già.~
 @283  = ~Hai compiuto un gran bel lavoro liberando questo distretto da Eleanya De'Lyl.~
-@284  = ~Non siamo in grado di ringraziarti abbastanza. E' stata decisamente una piccola peste.~
+@284  = ~Non siamo in grado di ringraziarti abbastanza. È stata decisamente una piccola peste.~
 @285  = ~Piccola.~
 @286  = ~Come possiamo ringraziarti per il tuo impegno?~
 @287  = ~Non accettare nulla di ciò che questi stregoni ti offrono. Ogni ricompensa che possano offrire sarà carica di ulteriori motivi.~
@@ -302,7 +302,7 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @300  = ~10.000 monete d'oro? Non c'è da meravigliarsi se sembri così cencioso. Dovremmo parlare con Corneil di questo.~
 @301  = ~Nel frattempo, ti aiuteremo con... 1000 monete d'oro? Basteranno?~
 @302  = ~Andranno bene.~
-@303  = ~Ecco qui. Non spenderli tutti in una volta. Se proprio devi, usali per andarti a lavare anzichè per ubriacarti, d'accordo?~
+@303  = ~Ecco qui. Non spenderli tutti in una volta. Se proprio devi, usali per andarti a lavare anziché per ubriacarti, d'accordo?~
 @304  = ~Addio.~
 @305  = ~Certo, proprio come avevo pensato. *1000* monete d'oro.~
 @306  = ~Una somma ragionevole. I prezzi di Corneil sono ben dentro il giusto.~
@@ -316,7 +316,7 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @314  = ~Sì.~
 @315  = ~Se questo è ciò che desideri. Addio.~
 @316  = ~Se è così che vuoi che sia. Non c'è da meravigliarsi che i deviati corrano per le strade quando la semplice popolazione è così... sgradevole.~
-@317  = ~Sebbene non sia un grande amante dei bambini, specialmente di quelli sporchi come questo, non posso permetterti di attaccare un innocente ragazzo! Adesso lascialo o i miei compagni ed io combatteremo contro di te! Ti insegneremo un pò di buone maniere, noi!~
+@317  = ~Sebbene non sia un grande amante dei bambini, specialmente di quelli sporchi come questo, non posso permetterti di attaccare un innocente ragazzo! Adesso lascialo o i miei compagni ed io combatteremo contro di te! Ti insegneremo un po' di buone maniere, noi!~
 @318  = ~Yah, non pensare che non lo faremo!~
 @319  = ~Yeh, l'hai detto, Vivick.~
 @320  = ~Delag dice che dovresti vergognarti di aver attaccato un bambino.~
@@ -330,7 +330,7 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @328  = ~Basta parlare, ragazzi! Tirate fuori le spade!~
 @329  = ~Ora cos'è questa storia del furto? Non commetteremo bravate, eh, ragazzo? Spiegati!~
 @330  = ~Io... Uh-~
-@331  = ~Qualcuno mi spieghi qualcosa! Tu, <MANWOMAN>, perchè stai inseguendo questo ragazzo?~
+@331  = ~Qualcuno mi spieghi qualcosa! Tu, <MANWOMAN>, perché stai inseguendo questo ragazzo?~
 @332  = ~Vorrei sentire questo moccioso ammettere il suo crimine!~
 @333  = ~Minsc? Vuoi spiegare?~
 @334  = ~Il nostro -uh- criceto è stato rubato. Un criceto di nome Boo.~
@@ -348,14 +348,14 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @346  = ~HEHEHEHEEEHEEE!!~
 @347  = ~Voi... Voi tutti osate RIDERE dello stato in cui si trova Minsc?!!~
 @348  = ~RRAAARRR-~
-@349  = ~RRAARRRRGG-~
+@349  = ~RRAARRRRGG...~
 @350  = ~RRAAARRRGGHHHH!! SENTITE la collera di Minsc che ribolle nelle sue vene!! GUARDATE la furia berserker divampare negli occhi di Minsc!!~
-@351  = ~ASSAGGIATE la lama della giustizia che si abbatte sulle vostre malvage risate!!! Sfoderate le vostre spade!! Minsc e il suo grande amico dispensatore di calci nel sedere <CHARNAME> abbatteranno ognuno dei vostri ripugnanti sorrisi con una forza eroica!! RRAAARRRRGHHHH!!!~
+@351  = ~ASSAGGIATE la lama della giustizia che si abbatte sulle vostre malvagie risate!!! Sfoderate le vostre spade!! Minsc e il suo grande amico dispensatore di calci nel sedere <CHARNAME> abbatteranno ognuno dei vostri ripugnanti sorrisi con una forza eroica!! RRAAARRRRGHHHH!!!~
 @352  = ~CALCI NEL SEDERE PER-~
 @353  = ~Calmati, Minsc! Non dobbiamo spargere necessariamente del sangue.~
 @354  = ~Basta, Minsc! Ucciderli non ci aiuterà a trovare Boo.~
 @355  = ~Andiamo, Minsc! Boo sarebbe orgoglioso delle tue azioni.~
-@356  = ~Beh, diciamocelo - Mi sto annoiando fin dentro il cranio quassù. Dacci un combattimento decente e, se vinci, farò parlare Billy. Se perdi, mi avrai comunque dato un pò d'intrattenimento. Che ne dici?~
+@356  = ~Beh, diciamocelo - Mi sto annoiando fin dentro il cranio quassù. Dacci un combattimento decente e, se vinci, farò parlare Billy. Se perdi, mi avrai comunque dato un po' d'intrattenimento. Che ne dici?~
 @357  = ~Sì! Minsc combatterà come non ha mai fatto prima! Boo è sul fronte!!~
 @358  = ~Aspetta, Minsc! Permetterai al tuo grande eroico amico di partecipare alla difesa dell'onore di Boo?~
 @359  = ~Buona fortuna, Minsc.~
@@ -383,11 +383,11 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @381  = ~ANCHE TU SEI CATTIVO, SIGNORE!!~
 @382  = ~Buon per te che te ne sei accorto. Ti darò io una bella percossa se non mi dici cos'è successo al topo di questo tizio.~
 @383  = ~CRICETO!~
-@384  = ~E' lo stesso.~
+@384  = ~È lo stesso.~
 @385  = ~Non diresti questo, malvagio, se potessi sentire lo sguardo penetrante di Boo centrato sul tuo petto!~
 @386  = ~Centrato sulle mie caviglie, direi. Smettila di interrompermi, a meno che tu non voglia più il tuo topo indietro.~
-@387  = ~(E' così difficile ricordarsi che Boo è un GIGANTE CRICETO SPAZIALE?!)~
-@388  = ~(E' il colmo! Adesso questo ridicolo idiota mi sta imitando! Ma forse è un segno della sua adulazione. Sì, dev'essere così.)~
+@387  = ~(È così difficile ricordarsi che Boo è un GIGANTE CRICETO SPAZIALE?!)~
+@388  = ~(È il colmo! Adesso questo ridicolo idiota mi sta imitando! Ma forse è un segno della sua adulazione. Sì, dev'essere così.)~
 @389  = ~Dunque, Billy?~
 @390  = ~Oh, va bene. Io - Io ho venduto quel vostro piccolo criceto ad un simpatico halfling. Credo si chiami Smethy.~
 @391  = ~Hai VENDUTO Boo?! Ad un simpatico halfling?!~
@@ -407,24 +407,24 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @405  = ~Insolente monellaccio!~
 @406  = ~Ah, quel bambino deve ancora imparare le buone maniere. Malgrado ciò, è un'ottima fonte di articoli, su questo non posso criticarlo.~
 @407  = ~Ora, stanchi avventurieri... Volete dare un'occhiata ad un compagno animale o due? Un'affettuosa zampa che vi sia di conforto durante i vostri viaggi?~
-@408  = ~Questo posto è oltraggioso!! Perchè questi animali sono chiusi in gabbie così piccole? Stai negando loro il diritto a sgambettare spensieratamente! Minsc libererà tutti questi animali da quest'uomo malvagio!~
+@408  = ~Questo posto è oltraggioso!! Perché questi animali sono chiusi in gabbie così piccole? Stai negando loro il diritto a sgambettare spensieratamente! Minsc libererà tutti questi animali da quest'uomo malvagio!~
 @409  = ~Tu, mucca, assaggerai ancora una volta dolci trifogli! Tu, coniglio, agiterai la tua coda godendoti le selvagge praterie! Tu, gallina, deporrai nuovamente le tue uova in posti inopportuni! Minsc lo giura!~
-@410  = ~Concordo, Minsc. E' un tormento per la natura quando le sue creature sono chiuse in delle gabbie.~
-@411  = ~Ti tormenterò io in un secondo se non chiudi quella bocca da effemminato. Anche se chiamarti "effemminato" sarebbe una buona cosa.~
+@410  = ~Concordo, Minsc. È un tormento per la natura quando le sue creature sono chiuse in delle gabbie.~
+@411  = ~Ti tormenterò io in un secondo se non chiudi quella bocca da effeminato. Anche se chiamarti "effeminato" sarebbe una buona cosa.~
 @412  = ~Ehi tu, grande amico! Qui i soli animali che sono nelle gabbie sono quelli che ho acquistato. Vedi Chowder lì? Avrebbe mangiato il povero Flufftail in un sol boccone se non lo avessi messo in una gabbia. Ora, non sto dicendo che gatti e conigli non possano essere amici, ma tra di loro ci sono un sacco di problemi su cui lavorare.~
 @413  = ~Hmm... Se Boo fosse qui, sarebbe d'accordo con te. Diverse volte la sua furia è stata frenata dall'occhiataccia di un gatto. Molto bene, Minsc non distruggerà queste gabbie e non riempirà di calci il tuo didietro.~
 @414  = ~Mi fa piacere sentirlo.~
 @415  = ~Aspetta un momento. Che posto è questo?~
-@416  = ~Dove siamo? Perchè non c'è un'uscita? Come siamo finiti qui?~
+@416  = ~Dove siamo? Perché non c'è un'uscita? Come siamo finiti qui?~
 @417  = ~Ecco qui il tuo Boo, signore.~
 @418  = ~Oh, che giorno gioioso! Boo è tornato ad abbracciare Minsc! Ma aspetta-~
-@419  = ~Questo... Questo non sembra Boo. Perchè il pelo è così grigio? Perchè cerca di liberarsi dalla mano di Minsc?~
-@420  = ~Il suo pelo è grigio perchè si è spaventato stando senza di te, Minsc.~
+@419  = ~Questo... Questo non sembra Boo. Perché il pelo è così grigio? Perché cerca di liberarsi dalla mano di Minsc?~
+@420  = ~Il suo pelo è grigio perché si è spaventato stando senza di te, Minsc.~
 @421  = ~Credo che sia Boo, Minsc. Stai dubitando della mia intelligenza?~
-@422  = ~E' -err- è davvero Boo, Minsc. Non ti fidi di me?~
+@422  = ~È -err- è davvero Boo, Minsc. Non ti fidi di me?~
 @423  = ~Nessuna uscita? Davvero, questa è una cosa di cui non mi sono mai accorto prima! Dannati costruttori di negozi, dimenticarsi la porta!~
-@424  = ~Heh, il vecchio Smethy sta scherzando. Non c'è alcuna porta, ma una magica sì. Tengo la chiave dell'uscita e dell'entrata, e altrettanto fà Billy, perchè mi aiuta moltissimo con questo negozio. Questo è tutto ciò che hai bisogno di sapere. Per quanto riguarda il negozio...~
-@425  = ~Questo posto è lo Smethy's Prestige Pets, dedito alla ricerca di un compagno animale per chiunque, dagli halfling ai mezz'orchi, dagli elfi ai nani, dagli umani ai - beh, ad altri umani, penso.~
+@424  = ~Heh, il vecchio Smethy sta scherzando. Non c'è alcuna porta, ma una magica sì. Tengo la chiave dell'uscita e dell'entrata, e altrettanto fa Billy, perché mi aiuta moltissimo con questo negozio. Questo è tutto ciò che hai bisogno di sapere. Per quanto riguarda il negozio...~
+@425  = ~Questo posto è Animali Prestigiosi di Smethy, dedito alla ricerca di un compagno animale per chiunque, dagli halfling ai mezz'orchi, dagli elfi ai nani, dagli umani ai - beh, ad altri umani, penso.~
 @426  = ~Oggi sono incredibilmente felice di provvedere ai bisogni di un simile ranger!~
 @427  = ~Come sai che Minsc è un ranger? Devi essere intelligente quasi come Boo o persino come <CHARNAME>!~
 @428  = ~Semplice deduzione, mio caro amico amante degli animali. Ora, chi è questo Boo?~
@@ -432,21 +432,21 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @430  = ~Gigante? Sto diventando vecchio - non riesco a vedere un criceto qui, gigante o meno che sia.~
 @431  = ~No, Boo è un criceto spaziale gigante *in miniautura*!~
 @432  = ~Io... Capisco. E tu stai cercando un piccolo amico per Boo, forse? Un'amorevole giovane cricetina, pronta a diventare la madre di tanti picoli Boo?~
-@433  = ~NO! Boo NON è pronto a fare da papà, anche se ora che ci penso, dei piccoli Boo sarebbero davvero graziosi... Ma no! Sono qui perchè Boo è scomparso! E - e TU ce l'hai! Probabilmente stai creando piccoli Boo dal mio Boo proprio adesso! Restituiscimelo immediatamente!~
+@433  = ~NO! Boo NON è pronto a fare da papà, anche se ora che ci penso, dei piccoli Boo sarebbero davvero graziosi... Ma no! Sono qui perché Boo è scomparso! E - e TU ce l'hai! Probabilmente stai creando piccoli Boo dal mio Boo proprio adesso! Restituiscimelo immediatamente!~
 @434  = ~Credi che io abbia il tuo criceto? Aspetta... Billy mi ha venduto un piccolo criceto carino meno di un'ora fa.~
 @435  = ~Vorremmo comprare Boo, *a qualsiasi condizione* (wink, wink). Saremmo disposti ad offrirti un buon prezzo.~
 @436  = ~Ti compreremo Boo, caro halfling. (*Qualsiasi* criceto andrà bene - l'importante è che assomigli a Boo, se hai capito cosa intendo). 200 monete d'oro per te, mio buon halfling.~
 @437  = ~Un piccolo criceto carino? Forse si tratta di Boo.~
 @438  = ~Che ne pensi, Minsc? Potrebbe essere Boo?~
 @439  = ~Beh, sì, immagino che <CHARNAME> non si sbagli, ma...~
-@440  = ~No, questo non è Boo! <CHARNAME>! Per - perchè hai detto una simile bugia al povero Minsc?!~
+@440  = ~No, questo non è Boo! <CHARNAME>! Per - perché hai detto una simile bugia al povero Minsc?!~
 @441  = ~<CHARNAME>! Questa è una cosa terribile da fare! Non dovresti illudere un amico! Minsc, questo *non* è il tuo criceto.~
 @442  = ~Non permetterò una simile slealtà, <CHARNAME>! Spero che questo fosse uno scherzo, anche se il tuo senso dell'umorismo è decisamente sgradevole. Minsc, questo non è il tuo criceto. <CHARNAME>, per ragioni che non comprendo, ti sta mentendo.~
-@443  = ~Non posso credere che il mio grande amico <CHARNAME> menta a Minsc! Ma può <CHARNAME> spiegarmi perchè Boo sta correndo in questo modo?~
-@444  = ~E' ancora spaventato. Si calmerà.~
+@443  = ~Non posso credere che il mio grande amico <CHARNAME> menta a Minsc! Ma può <CHARNAME> spiegarmi perché Boo sta correndo in questo modo?~
+@444  = ~È ancora spaventato. Si calmerà.~
 @445  = ~Forse gli manca la sua ruota, Minsc.~
 @446  = ~Probabilmente è disperato per essere tornato di nuovo all'avventura. Te lo assicuro, questo *è* Boo.~
-@447  = ~Non c'è un criceto più carino di Boo! Ma non ti ha detto di appartenere già a Minsc? Perchè avrebbe fatto una cosa simile?~
+@447  = ~Non c'è un criceto più carino di Boo! Ma non ti ha detto di appartenere già a Minsc? Perché avrebbe fatto una cosa simile?~
 @448  = ~Beh, se si trattava di scegliere tra la prospettiva di trascorrere i suoi giorni con un umano stordito o con una cricetina in calore, tu che cosa avresti scelto, idiota fanfarone? No, aspetta, Korgan non vuole la tua risposta a questa domanda. O meglio, non da *te*.~
 @449  = ~Quello ERA il tuo criceto? Il compagno animale di un ranger, addirittura! Che grande e nobile creatura! Se lo avessi saputo, non lo avrei comprato da Billy. Anche se è stato un affare, per una moneta d'oro.~
 @450  = ~Una moneta d'oro? Questo è quanto vale Boo per te?!~
@@ -462,38 +462,38 @@ Un piccolo errore da parte mia ha portato alla partenza del nostro grande amico 
 @460  = ~Quindi... Questo *è* Boo? Io.. Mi dispiace, <CHARNAME>, per aver detto che mentivi. Sono così felice, caro Minsc, che Boo sia tornato.~
 @461  = ~Potrei essermi sbagliato? Ma immagino che Minsc saprebbe di sicuro se non fosse Boo.~
 @462  = ~Dopo tutto non stavi mentendo, <CHARNAME>. Mi scuso per lo scoppio di prima. Forse è la fievole luce a far sì che Boo mi sembri diverso. Proseguiamo, mio buon Minsc. Sono contento che il valoroso Boo sia ritornato con noi.~
-@463  = ~Il dramma si è concluso? Bene. Ti lascio andare, allora. E ricorda, se avessi mai bisogno di un compagno animale, lo Smethy's Prestige Pets è il posto in cui andare!~
+@463  = ~Il dramma si è concluso? Bene. Ti lascio andare, allora. E ricorda, se avessi mai bisogno di un compagno animale, Animali Prestigiosi di Smethy è il posto in cui andare!~
 @464  = ~Erm, sempre che tu riesca a trovarlo, naturalmente.~
 @465  = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
-Ho indotto Minsc a credere che il criceto del negozio fosse il suo compagno animale, Boo. Con un pò di fortuna, non si renderà mai conto che non è il suo criceto. Il mio gruppo ora è libero dai suoi attacchi isterici e mi auguro che adesso viaggeremo relativamente in pace.~
+Ho indotto Minsc a credere che il criceto del negozio fosse il suo compagno animale, Boo. Con un po' di fortuna, non si renderà mai conto che non è il suo criceto. Il mio gruppo ora è libero dai suoi attacchi isterici e mi auguro che adesso viaggeremo relativamente in pace.~
 @466  = ~L'hai macchinato fin dall'inizio?! Minsc sbagliava a credere che tu fossi un eroe! Non sei un eroe! Tu sei un FETENTE MALVAGIO!~
 @467  = ~Rarrrghhh!! Tu grondi di malvagità! Minsc vendicherà Boo, sì! Ti ridurrà in mille piccoli pezzettini! RARRRRRGHHHH!!!~
 @468  = ~Era solo una questione di tempo prima che queste scimmie cedessero ai loro istinti primitivi. Beh, Edwin Odesseiron non disdegna dell'intrattenimento quando viene offerto. (Ma badate alla saliva, folli. Questa tunica si deve lavare a mano).~
 @469  = ~Un Boo, il ranger, un Minsc e il suo criceto.
 
 Minsc ha scoperto che lo pseudo-Boo non è Boo. L'oltraggiato ranger si è rivolto contro di me e sono stato costretto ad ucciderlo. Il mio gruppo sarà più debole con la sua perdita e farei meglio ad evitare simili giochi in futuro.~
-@481  = ~E' la perfida ragazza di cui parlava l'halfing?~
+@481  = ~È la perfida ragazza di cui parlava l'halfing?~
 @470  = ~Non... Non è il vero Boo? Io... Sono stato tradito? Da <CHARNAME>?~
 @471  = ~Ah, non essere così sorpreso, stupido demente.~
 @472  = ~Quindi dopo tutto non era lo stesso criceto. Questo è il genere di comportamento che mi aspetterei da dei domestici, non da te, <CHARNAME>!~
-@473  = ~Boo... Piccolo Boo... E' ancora perduto... Lo devo trovare! Devo trovarlo e dirgli quanto Minsc sia dispiaciuto per averlo scambiato per un altro criceto! C'è un solo Boo!~
+@473  = ~Boo... Piccolo Boo... È ancora perduto... Lo devo trovare! Devo trovarlo e dirgli quanto Minsc sia dispiaciuto per averlo scambiato per un altro criceto! C'è un solo Boo!~
 @474  = ~Minsc! N-noi andremo a cercalo proprio adesso! Mi-mi dispiace lasciarti in questo modo, <CHARNAME>, ma io.. Non posso più viaggiare con te. Forse... Forse ci incontreremo ancora.~
-@475  = ~Sì! Troveremo Boo, il VERO Boo, SENZA IL TUO AIUTO! Stà in guardia dai denti cricetosi della giustizia, <CHARNAME>, perchè un giorno ti MORDERANNO!~
+@475  = ~Sì! Troveremo Boo, il VERO Boo, SENZA IL TUO AIUTO! Sta in guardia dai denti cricetosi della giustizia, <CHARNAME>, perché un giorno ti MORDERANNO!~
 @476  = ~Beh, non posso biasimarlo per essersene andato. Hai mostrato mancanza di giudizio a riguardo, <CHARNAME>. Spero che i tuoi piani per il resto del gruppo non non includano altri "scherzi" simili.~
 @477  = ~Un elfo, il ranger, un Minsc e il suo criceto.
 
-Minsc ha scoperto che lo pseudo-Boo non è Boo. L'oltraggiato ranger ha lasciato il mio gruppo e, peggio ancora, ha portato con sè l'elfo cherico Aerie. Il mio gruppo sarà più debole con la loro perdita e farei meglio ad evitare simili giochi in futuro.~
+Minsc ha scoperto che lo pseudo-Boo non è Boo. L'oltraggiato ranger ha lasciato il mio gruppo e, peggio ancora, ha portato con sé l'elfo cherico Aerie. Il mio gruppo sarà più debole con la loro perdita e farei meglio ad evitare simili giochi in futuro.~
 @478  = ~Addio, <CHARNAME>. Io... Non so cosa pensare di te! Sei peggio di uno scoiattolo! No, ancora peggio! Minsc troverà Boo e insieme lanceremo noci in abbondanza sulla testa di <CHARNAME>! Così dice Minsc!~
 @479  = ~Hmph. Un gioco costoso, <CHARNAME>, quando avresti potuto affettare quel piccolo ratto.~
 @480  = ~Un Boo, il ranger, un Minsc e il suo criceto.
 
 Minsc ha scoperto che lo pseudo-Boo non è Boo. L'oltraggiato ranger ha lasciato il mio gruppo e dubito che saremo capaci di riacquistare la sua fiducia. Il mio gruppo sarà più debole con la sua perdita e farei meglio ad evitare simili giochi in futuro.~
-@481  = ~E' la perfida ragazza di cui parlava l'halfing?~
-@482  = ~E' carina - forse persino più carina della sorella di Edwin!~
+@481  = ~È la perfida ragazza di cui parlava l'halfing?~
+@482  = ~È carina - forse persino più carina della sorella di Edwin!~
 @483  = ~(Questo - questo non può essere! Sto... Sto perdendo il mio bell'aspetto? Investi in creme facciali, Edwin, *subito*.)~
 @484  = ~Come può il male avere una faccia così carina?~
-@485  = ~E' carina. Come può il male avere una faccia così carina?~
+@485  = ~È carina. Come può il male avere una faccia così carina?~
 @486  = ~Io - io non sono estranea a simili illusioni... Ma non penso sia malvagia, Minsc.~
 @487  = ~Una graziosa signorina come lei non può essere totalmente malvagia, anche se sta facendo nuotare Boo. Mi avvicinerò a lei cautamente, ma in maniera amichevole.~
 @488  = ~E poi le salterai addosso, mio caro segugio? Hai un certo colorito sulle tue guance - non devi nascondere il tuo desiderio... Lascialo libero e goditi le sue dolci carezze.~
@@ -501,13 +501,13 @@ Minsc ha scoperto che lo pseudo-Boo non è Boo. L'oltraggiato ranger ha lasciato 
 @490  = ~Come il leopardo che approccia la sua preda.~
 @491  = ~Che cosa stai insinuando? Minsc ha soltanto detto che è carina!~
 @492  = ~A quanto pare, questo idiota sperimenta la sua prima opportunità. Immagino che sia una benedizione il fatto che sia incompetente nelle astuzie della seduzione, altrimenti il mondo sarebbe pieno di scimmie.~
-@493  = ~Potrà essere attraente, ma ti consiglio di prestare attenzione, Minsc. Posso sentire la magia che corconda questa donna persino da dove mi trovo.~
+@493  = ~Potrà essere attraente, ma ti consiglio di prestare attenzione, Minsc. Posso sentire la magia che circonda questa donna persino da dove mi trovo.~
 @494  = ~La prudenza è la miglior cosa qui. Prima è meglio scoprire cosa sta facendo.~
 @495  = ~Penso che dovremmo limitarci a chiederle di Boo. Forse riuscirai a fare appello al lato comprensivo del suo carattere.~
 @496  = ~Minsc, non dimenticarti che questa malvagia ragazza ha preso il tuo criceto. Forse dovremmo prendere Boo con la forza.~
 @497  = ~Puoi aver ragione, <CHARNAME>. Ma qualcosa di lei mi ricorda Dynaheir... Non penso che sia così malvagia.~
 @498  = ~Andiamo, piccolo criceto, nuota! Non ho usato così tanta magia su di te inutilmente...~
-@499  = ~O forse E' malvagia, dopo tutto! TU, LAGGIU'!~
+@499  = ~O forse È malvagia, dopo tutto! TU, LAGGIU'!~
 @500  = ~Chi, io?~
 @501  = ~Sì, tu! Allontanati dalla fontana e metti il criceto dove possa vederlo, signorina!~
 @502  = ~Farò così, <CHARNAME>. Boo approverebbe una simile franchezza.~
@@ -527,7 +527,7 @@ Minsc ha scoperto che lo pseudo-Boo non è Boo. L'oltraggiato ranger ha lasciato 
 Viene con la carrozza,
 La carrozza non ne ha bisogno
 Tuttavia la carrozza non andrebbe senza.~
-@516  = ~E' difficile. Hmmm. Forse la risposta è cavallo, <CHARNAME>? (Andiamo, Boo, sussurra la risposta a Minsc. No? Sì, suppongo che barare sia da malvagi. Quanto sei nobile, Boo!)~
+@516  = ~È difficile. Hmmm. Forse la risposta è cavallo, <CHARNAME>? (Andiamo, Boo, sussurra la risposta a Minsc. No? Sì, suppongo che barare sia da malvagi. Quanto sei nobile, Boo!)~
 @517  = ~Cavallo.~
 @518  = ~Ruota.~
 @519  = ~Conducente.~
@@ -537,7 +537,7 @@ Tuttavia la carrozza non andrebbe senza.~
 @523  = ~Un mephit chiamato Noober.~
 @524  = ~La carrozza non andrebbe senza? La risposta siete voi, Lady De'Lyl.~
 @525  = ~Insisti ad essere sciocco? Non sprecherò il mio tempo in questo modo! Addio!~
-@526  = ~Non te ne andrai finchè Boo non sarà nelle mie mani, malvagia signorina!~
+@526  = ~Non te ne andrai finché Boo non sarà nelle mie mani, malvagia signorina!~
 @527  = ~Smettila di chiamarmi così... Stai attento!~
 @528  = ~Restituiscimi Boo ADESSO. Ti sto avvisando!~
 @529  = ~(Sniff!) Non lo restituirò ad un degenere come te, niente affatto. Io piaccio al Piccolo Poot, perciò resterà qui con me!~
@@ -551,7 +551,7 @@ Tuttavia la carrozza non andrebbe senza.~
 @537  = ~Voi, Lady De'Lyl.~
 @538  = ~Beh, tu non sei molto versato, anche se il tuo pensiero era adeguato. La risposta era "rumore". (Sniff) Ho risposto correttamente a questo enigma quando non avevo altro che cinque anni. Faresti meglio a buttare i tuoi stivali da avventuriero e leggere di più.~
 @539  = ~La risposta era "rumore"? Sìì! Segna un punto per il mago rosso!~
-@540  = ~"Non andrebbe senza"... Haha! Beh, hai un pò di spirito. Te lo concedo, anche se la risposta era "rumore".~
+@540  = ~"Non andrebbe senza"... Haha! Beh, hai un po' di spirito. Te lo concedo, anche se la risposta era "rumore".~
 @541  = ~"Rumore" è corretto. Hmm, forse ti ho sottovalutato.~
 @542  = ~Sìì! Segna un punto per il mago rosso!~
 @543  = ~Sei più intelligente di quanto il tuo aspetto suggerisce. Ti darò un consiglio, <MANWOMAN>. Fatti un bagno. Lo strato di sporco incrostato sulla tua pelle non ti è di vantaggio.~
@@ -570,15 +570,15 @@ Tuttavia la carrozza non andrebbe senza.~
 @556  = ~Io quando ammiro la vostra bellezza.~
 @557  = ~Qualsiasi uomo che abbia la possibilità di imbattersi nella vostra bellezza.~
 @558  = ~Stai andando piuttosto bene.~
-@559  = ~Sììì! Edwin Odesseiron, oggi sei sensazionale! (Perchè, quando non lo sono?)~
-@560  = ~(Arrosisce) Credo che stai iniziando a piacermi, <CHARNAME>, sai? La tua risposta mi andrà bene, anche se quella corretta era "cavolo", naturalmente.~
+@559  = ~Sììì! Edwin Odesseiron, oggi sei sensazionale! (Perché, quando non lo sono?)~
+@560  = ~(Arrossisce) Credo che stai iniziando a piacermi, <CHARNAME>, sai? La tua risposta mi andrà bene, anche se quella corretta era "cavolo", naturalmente.~
 @561  = ~Come ultima domanda, mi discosterò dalla norma. Stasera dovrò partecipare ad un banchetto in cui verrò presentata a diversi nobili. Che gemma dovrei indossare con il mio abito?~
 @562  = ~Penso che un rubino o un zircone sarebbe adatto. Red Tears se preferite o forse un granato. Qualcosa che si abbini alla mia veste. (Io, dopo tutto, verrò scelto come vostro partner per questo incontro.)~
 @563  = ~Hmm, sei così graziosa da non aver bisogno di una gemma. Ma visto che sei una strega, staresti ancora meglio con una Lacrima di Laeral. Sono l'ultima pazzia della moda a Rashemen. Ma non nel senso berserker, anche se questo è il miglior genere di pazzia.~
 @564  = ~Un diamante potrebbe soddisfare una persona appariscente come voi. Zietta una volta cercò di farmene indossare una collana. Non rimase stupita quando la donai ad un orfanotrofio.~
 @565  = ~A me... A me piace l'idea di una perla. Bianca e lucente... Come... Come... Oh, non importa.~
 @566  = ~Mia Signora, la malinconica bellezza di una pietra ioun dal colorito roseo metterebbe notevolmente in risalto la lucentezza della vostra pelle. Inoltre, una simile pietra ha anche il potere di proteggere il suo portatore dai pericoli.~
-@567  = ~Solo io potevo avere la sfortuna di viaggiare con un gruppo di simili idioti. Non vedete il mucchio di gioielli di cui parla? Se possiede la metà di quelle gemme, io dico di ammazzarla e di saccheggiare il suo corpo. Korgan è il solo a vedere dove si può fare un pò d'oro.~
+@567  = ~Solo io potevo avere la sfortuna di viaggiare con un gruppo di simili idioti. Non vedete il mucchio di gioielli di cui parla? Se possiede la metà di quelle gemme, io dico di ammazzarla e di saccheggiare il suo corpo. Korgan è il solo a vedere dove si può fare un po' d'oro.~
 @568  = ~Quindi, che gemma dovrei indossare?~
 @569  = ~Una gemma rossa, come un granato.~
 @570  = ~Una gemma incolore che celi la vostra magia, come una Lacrima di Laeral.~
@@ -595,7 +595,7 @@ Tuttavia la carrozza non andrebbe senza.~
 @581  = ~Non ho bisogno di questa piccola borsa, quindi. Prendila e mettici dentro i tuoi averi. Forse ti divertirai a metterci dentro sassolini e gingilli, hmm?~
 @582  = ~A meno che le tue parole non siano sincere, penso che tu mi stia adulando. Ma comunque hai ragione. Non ho bisogno che nessuna di queste gemme mi appesantisca. In fin dei conti, non è necessario che appaia troppo bella.~
 @583  = ~Forse potresti farmi un favore e prenderle. Oggettini seccanti, ma posso sempre ottenerne di più.~
-@584  = ~Un tale tesoro riempirebbe lo stomaco di tutti i mendicanti in città! Covertito in denaro e poi in cibo, intendo.~
+@584  = ~Un tale tesoro riempirebbe lo stomaco di tutti i mendicanti in città! Convertito in denaro e poi in cibo, intendo.~
 @585  = ~Heh. Penso che Korgan farà presto una visitina a questi Delil.~
 @586  = ~Le domande sono state sufficienti? Minsc pensa che le domande siano state sufficienti.~
 @587  = ~Addio.~
@@ -606,7 +606,7 @@ Tuttavia la carrozza non andrebbe senza.~
 @592  = ~Hai sentito cosa ho detto! Boo dice che non ha mai visto un malvagio così insolente!~
 @593  = ~Un punto in più per la tua curiosità. Osserva quello che sarà il primo criceto marino nel Faerun! Non appena il mio incantesimo avrà effetto. Al momento non sembra gradire l'acqua.~
 @594  = ~NO! Boo è già un criceto spaziale! Come potrebbe essere anche un criceto marino?!~
-@595  = ~Il tuo criceto... è un criceto spaziale? Hmmm, questo spiegherebbe perchè il mio incantesimo sta avendo qualche problema...~
+@595  = ~Il tuo criceto... è un criceto spaziale? Hmmm, questo spiegherebbe perché il mio incantesimo sta avendo qualche problema...~
 @596  = ~Ne ho abbastanza! Adesso dateci il criceto, Eleanya. Non voglio ricorrere alla forza, ma lo farò se devo.~
 @597  = ~Questa storia conferma il fatto che voi, Lady De'Lyl, siete la più grande idiota che io abbia mai ucciso. Addio.~
 @598  = ~Sì, siete molto intelligente e ambiziosa. Potreste ridarci Boo? Ne potreste facilmente comprare un altro. Ecco, vi darò persino il denaro.~
@@ -623,7 +623,7 @@ Tuttavia la carrozza non andrebbe senza.~
 @609  = ~Non c'è alcun modo per riavere il nostro criceto? Non desidero combattere contro di voi.~
 @610  = ~Hmm. Hai l'aspetto di uno che potrebbe apprezzare ciò che sto cercando di far qui...~
 @611  = ~Dapprima lascia che mi presenti. Mi chiamo Eleanya De'Lyl.~
-@612  = ~De'Lyl? E' un nome nobile, ma non ho mai sentito parlare di voi.~
+@612  = ~De'Lyl? È un nome nobile, ma non ho mai sentito parlare di voi.~
 @613  = ~(Snort!) Naturalmente no! La mia famiglia non si mescola con dei rozzi popolani.~
 @614  = ~Rozzi popolani? Io sono Nalia De'Arnise! Se siete stata in città per un certo periodo di tempo, *dovete* aver sentito parlare della mia famiglia!~
 @615  = ~Come ho detto, i De'Lyl non si mescolano con dei rozzi popolani.~
@@ -643,7 +643,7 @@ Tuttavia la carrozza non andrebbe senza.~
 @629  = ~Questo criceto è MIO. Ho investito una gran quantità di tempo su di lui e non me lo porterai via!~
 @630  = ~Ma - ma Boo è di Minsc! Boo appartiene a nessun altro tranne che a Minsc!~
 @631  = ~Stai dicendo cose senza senso, uomo. Cos'è questo "Boo" di cui parli?~
-@632  = ~Boo è il criceto che stai tenendo! E' il migliore e più caro amico di Minsc. Oh, per favore, restituiscimi Boo! A Minsc manca così tanto!~
+@632  = ~Boo è il criceto che stai tenendo! È il migliore e più caro amico di Minsc. Oh, per favore, restituiscimi Boo! A Minsc manca così tanto!~
 @633  = ~Posso - posso crederci? Minsc ha riottenuto il suo Boo? Il piccolo Boo dice che è così, per cui dev'essere vero. Oh Boo, mi sei mancato!~
 @634  = ~Ancora una volta i miei polmoni sono pieni di gioia! La primavera è tornata sul mio sentiero! Mi sento così vigoroso che presto abbatterò tutti, anche se Boo dice che non è un buon modo per farsi degli amici.~
 @635  = ~Cosa - cosa c'è, Boo? Sta per giungere il grande grido di battaglia di un criceto, copriti le orecchie, <CHARNAME>, Boo ha bisogno di urlare a squarciagola!~
@@ -655,18 +655,18 @@ Oh, giorno gioioso! Boo è ritornato da Minsc e il nostro amico ranger è ritornat
 @639  = ~Alt! Ci sono state abbastanza morti oggi. Quattro vite sono il prezzo di un criceto?~
 @640  = ~Ecco, prenditelo se lo desideri così tanto. Che il sangue dei De'Lyl sulle tue mani ti perseguiti fino alla fine dei tuoi giorni.~
 @641  = ~Oh, Boo, mi sei mancato così tanto! <CHARNAME> e Minsc hanno fatto un sacco di cose in tua assenza, alcune non così eroiche.~
-@642  = ~Ti coprirò gli occhiolini, Boo, fino a quando non avremo lasciato questo posto. Minsc è dispiaciuto che questi uomini siano dovuti morire perchè tu fossi di nuovo al sicuro tra le sue braccia.~
-@643  = ~Cosa dici, Boo? Dice "grazie" a <CHARNAME>. Mi togli un peso dal cuore, Boo, quando parli in questo modo. Non saremo mai più divisi un'altra volta! Forza, <CHARNAME>, proseguiamo e cerchiamo qualche malvagio a cui dare un pò di calci nel sedere. Minsc e Boo sono di nuovo pronti!~
+@642  = ~Ti coprirò gli occhiolini, Boo, fino a quando non avremo lasciato questo posto. Minsc è dispiaciuto che questi uomini siano dovuti morire perché tu fossi di nuovo al sicuro tra le sue braccia.~
+@643  = ~Cosa dici, Boo? Dice "grazie" a <CHARNAME>. Mi togli un peso dal cuore, Boo, quando parli in questo modo. Non saremo mai più divisi un'altra volta! Forza, <CHARNAME>, proseguiamo e cerchiamo qualche malvagio a cui dare un po' di calci nel sedere. Minsc e Boo sono di nuovo pronti!~
 @644  = ~Criceti ed eroi.
 
 Dopo una battaglia con una prepotente nobile e le sue guardie, Boo è ritornato da Minsc. Anche il nostro amico ranger è ritornato normale, ancora più forte dopo il suo calvario. Non penso che Boo si allontanerà dalla vista o dallo zaino di Minsc un'altra volta.~
 @645  = ~Completamente intenzionale (ahem). Io... Ho deciso che non varrebbe la pena creare un criceto marino solo per darlo a voi. Sì. Quindi lancerò un incantesimo alternativo - cautamente, te lo assicuro. Ma questo incantesimo si rivelerà senza dubbio utile nelle mani del tuo grande amico qui.~
-@646  = ~Se in futuro dovesse perdere il suo criceto, scoprirà di avere la capacità di crearne uno nuovo per sè.~
+@646  = ~Se in futuro dovesse perdere il suo criceto, scoprirà di avere la capacità di crearne uno nuovo per sé.~
 @647  = ~Non c'è criceto che possa sostituire Boo tranne Boo stesso!~
 @648  = ~Sì, sì. Anche se scoprirai che questo è più utile di quel piccolo. Quanto lo nutri?~
 @649  = ~Boo dice non abbastanza! Ma è quello che Boo dice sempre.~
 @650  = ~Ma adesso pensiamo ad un nome per un secondo Boo. Boo-due? Booboo? Boo deaux?~
-@651  = ~Lascerò a te questo esercizio intellettuale. Per quanto riguarda la sottoscritta, devo scovare quel negozio di animali un'altra volta. Mi auguro di avere un pò di tempo prima che il banchetto inizi. Addio!~
+@651  = ~Lascerò a te questo esercizio intellettuale. Per quanto riguarda la sottoscritta, devo scovare quel negozio di animali un'altra volta. Mi auguro di avere un po' di tempo prima che il banchetto inizi. Addio!~
 @652  = ~Ahh, questo è un bel posto per un'avventura, vero Boo? Ci sono tanti buchi per un criceto dove mettere il naso, specialmente per uno in miniatura come te!~
 @653  = ~Boo?~
 @654  = ~Boo? Dove sei?~
@@ -683,35 +683,35 @@ Dopo una battaglia con una prepotente nobile e le sue guardie, Boo è ritornato d
 @665  = ~<CHARNAME>!! Non abbiamo ancora guardato sotto ogni pesce nei Moli!! Dobbiamo andarci subito!~
 @666  = ~Boo potrebbe essere nelle mani di un malvagio pirata mentre parliamo!! Prima mi hai detto che l'avremmo trovato, ma il mio taschino è ancora freddo per la mancanza di Boo!!~
 @667  = ~Ci andremo proprio adesso.~
-@668  = ~Siamo stati soltanto sfortunati fin'ora. Pazienta ancora un pò.~
+@668  = ~Siamo stati soltanto sfortunati fin'ora. Pazienta ancora un po'.~
 @669  = ~Chiudi quella botola di bocca. Non lo cercheremo.~
-@670  = ~Tu non sei un amico, <CHARNAME>! Hai l'odore di un malvagio che non cerca i criceti! Sappi che quando avrò trovato Boo, torneremo e ti daremo un pò di calci nel sedere, poi ti somministreremo il profumo della bontà!!~
+@670  = ~Tu non sei un amico, <CHARNAME>! Hai l'odore di un malvagio che non cerca i criceti! Sappi che quando avrò trovato Boo, torneremo e ti daremo un po' di calci nel sedere, poi ti somministreremo il profumo della bontà!!~
 @671  = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
 Abbiamo rinviato troppo a lungo la nostra ricerca del criceto di Minsc e il nostro amico ranger ci ha lasciati, giurando solennemente di trovare Boo per conto suo. Spero di imbattermi ancora una volta in Minsc nel corso dei nostri viaggi - spero riunito al suo Boo.~
-@672  = ~Dobbiamo fare in fretta e controllare ogni fontana, <CHARNAME>. Boo è in pericolo! O sott'acqua. E' messo male in entrambi i casi.~
+@672  = ~Dobbiamo fare in fretta e controllare ogni fontana, <CHARNAME>. Boo è in pericolo! O sott'acqua. È messo male in entrambi i casi.~
 @673  = ~Te! Minsc si ricorda di te! Tu stavi guardando Boo, ragazzino! Lo sai!!~
 @674  = ~Ah, Boo, è bello che tu sia ritornato. Inoltre, con il peso che hai messo su, sei tornato più che mai!~
 @675  = ~Hai finito di intrattenerti con Boo? Abbiamo una missione da compiere e tu stai rallentando il gruppo.~
 @676  = ~Minsc, io... Ho una confessione da farti.~
 @677  = ~Buon giorno, Boo! Buon giorno, Piccoli Boo!~
-@678  = ~Aspetta - perchè Boo ha dei Piccoli Boo? Boo, c'è qualcosa che non mi hai detto?!~
+@678  = ~Aspetta - perché Boo ha dei Piccoli Boo? Boo, c'è qualcosa che non mi hai detto?!~
 @679  = ~No, Boo è un maschietto. Me l'ha ripetuto diverse volte! Questo significa... Questo significa che... Questo non è Boo!!~
-@680  = ~<CHARNAME>, mi avevi detto che questo era Boo! Hai tradito Minsc? Il tuo più fedele amico? Perchè?~
+@680  = ~<CHARNAME>, mi avevi detto che questo era Boo! Hai tradito Minsc? Il tuo più fedele amico? Perché?~
 @681  = ~Solo per vedere l'espressione che adesso hai sulla faccia.~
 @682  = ~Che posso dire? Ero annoiato.~
 @683  = ~Ero stufo marcio delle tue frequenti urla e della tua idiozia. Sbarazzarmi del tuo criceto era il primo passo per sbarazzarmi di TE.~
 @684  = ~Ne ho abbastanza di questi giochi puerili! Mi sono spesso chiesto come me la sarei cavata contro di te. Prepara le tue armi, Minsc! Vediamo cosa sai fare SENZA Boo!~
-@685  = ~E' stato uno scherzo... andato male. Ho comprato un normale criceto da Smethy. Per quel che può significare, mi dispiace, Minsc.~
+@685  = ~È stato uno scherzo... andato male. Ho comprato un normale criceto da Smethy. Per quel che può significare, mi dispiace, Minsc.~
 @686  = ~NO! Questo non accadrà! Minsc non morirà senza il suo Boo!~
 @687  = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
 Minsc ha lasciato il mio gruppo dopo aver visto la morte in faccia troppo spesso. Pare che la mancanza di Boo abbia diminuito tanto il suo coraggio quanto la sua forza. Dubito che lo vedrò di nuovo e la mia speranza è che ritrovi Boo.~
-@688  = ~Perchè... Perchè mi hai portato in questo posto di pirati? Sicuramente Boo non può aver viaggiato per tempeste e per mari.~
+@688  = ~Perché... Perché mi hai portato in questo posto di pirati? Sicuramente Boo non può aver viaggiato per tempeste e per mari.~
 @689  = ~Negli anfratti più profondi del mio cuore so che Boo è qui. Fidati.~
 @690  = ~Beh, adesso sei qui e non c'è modo di tornare indietro. Dimenticati di Boo, cosa che avresti dovuto fare già da diverso tempo.~
 @691  = ~Boo? Di che stai parlando, uomo?~
-@692  = ~Tappati la bocca a meno che non la chiuda io per te. Dimenticati il tuo criceto e canta una canzone di mare o due... Arrr, l'aria di mare mi fà di un bene!~
+@692  = ~Tappati la bocca a meno che non la chiuda io per te. Dimenticati il tuo criceto e canta una canzone di mare o due... Arrr, l'aria di mare mi fa di un bene!~
 @693  = ~NO! Mi sono fidato della parola di <CHARNAME> troppo a lungo e Boo non è ancora ritornato indietro! Questo... Questo non mi lascia altra scelta che andarmene e cercare Boo da solo. Minsc NUOTERA' le numerose leghe che lo separano da Athkatla per Boo!~
 @694  = ~Hmmm, portando così tanto, Minsc sprofonderà sicuramente. Prenderesti la mia spada, <CHARNAME>? Oh, prenditi tutto! Minsc si metterà alla ricerca soltanto con la sua maglia e i suoi pantaloni e forse portando qualcosa di galleggiante. Tale è il mio zelo per Boo!~
 @695  = ~Dimenticarmi di Boo?! Penso che l'aria di mare non ti abbia fatto bene e che la tua testa sia diventata troppo salata! Tu... Tu sei diventato malvagio, <CHARNAME>! Non sapevo che il sale ti avrebbe portato a fare simili cose! Si tratta di un effetto collaterale, senza dubbio!~
@@ -719,19 +719,19 @@ Minsc ha lasciato il mio gruppo dopo aver visto la morte in faccia troppo spesso
 @697  = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
 Minsc mi ha attaccato quando siamo arrivati a Brynnlaw! Forse le mie dure parole a proposito del suo criceto erano troppo per il grande ranger. In ogni caso, l'ho ucciso e, a meno che le storie dei pirati sui fantasmi siano vere, non mi annoierà più.~
-@698  = ~Di cosa sto parlando? <CHARNAME>, te lo sei dimenticato? Sto parlando del mio criceto scomparso. E' grande più o meno così e si chiama Boo.~
+@698  = ~Di cosa sto parlando? <CHARNAME>, te lo sei dimenticato? Sto parlando del mio criceto scomparso. È grande più o meno così e si chiama Boo.~
 @699  = ~Gli piacciono le noci e lunghe corse sulla sua ruota...~
-@700  = ~Oh. <CHARNAME> stava scherzando. Molto divertente come scherzo, anche se Minsc non riderà FINCHE' NON RIAVRA' BOO INDIETRO!!~
+@700  = ~Oh. <CHARNAME> stava scherzando. Molto divertente come scherzo, anche se Minsc non riderà FINCHÈ NON RIAVRA' BOO INDIETRO!!~
 @701  = ~Guarda in faccia alla realtà, Minsc, e dimenticati di Boo. Se n'è andato. Di questo ne sono sicuro - tra te e lui c'è un oceano ora.~
-@702  = ~Non ascoltare <CHARNAME>, piccolo Boo. E' solo un pò scontroso perchè sente la mancanza della dolce Imoen. Anch'io ero piuttosto irascibile quando eri scomparso.~
-@703  = ~Non ascoltare <CHARNAME>, piccolo Boo. E' solo un pò scontroso. Anche se sarebbe meglio se tu non mangiassi nuovamente le tue noci sopra la sua testa. Le briciole nei capelli non sono mai di moda, neanche a Rashemen.~
+@702  = ~Non ascoltare <CHARNAME>, piccolo Boo. È solo un po' scontroso perché sente la mancanza della dolce Imoen. Anch'io ero piuttosto irascibile quando eri scomparso.~
+@703  = ~Non ascoltare <CHARNAME>, piccolo Boo. È solo un po' scontroso. Anche se sarebbe meglio se tu non mangiassi nuovamente le tue noci sopra la sua testa. Le briciole nei capelli non sono mai di moda, neanche a Rashemen.~
 @704  = ~Minsc e Boo ascolteranno la tua confessione. Spero che non sia un gesto molto malvagio. Parla lentamente, in modo tale da poter chiudere le orecchie di Boo se necessario.~
 @705  = ~Oh, non importa.~
 @706  = ~Questo... Questo non è il vero Boo. Ti ho ingannato e mi dispiace.~
 @707  = ~Questo non è il vero Boo! Te ne ho messo un altro davanti! Haha! Dovresti vedere che faccia hai proprio adesso!~
 @708  = ~Non... Non è il vero Boo? Hai ingannato Minsc? E RIDI così malvagiamente di questo?~
 @709  = ~Questo è al di là del male! Questo rende la malvagità del mago rosso rosa a confronto! E tu...~
-@710  = ~<CHARNAME>, ti comporti in modo strano. Ma immagino che sia perchè sei così gioioso per il ritorno di Boo, vero?~
+@710  = ~<CHARNAME>, ti comporti in modo strano. Ma immagino che sia perché sei così gioioso per il ritorno di Boo, vero?~
 @711  = ~Minsc... è dispiaciuto per aver dubitato di te in questo modo. Mi viene una crisi di nervi quando penso che Boo è senza il suo Minsc e che sto avendo un prurito da armatura. Diamoci da fare per cercarlo.~
 @712  = ~Mi sbagliavo su di te, <CHARNAME>!! Tu non sei un eroe! Abbandoni piccoli criceti scomparsi in grandi città!~
 @713  = ~Dimmi sinceramente, hai intenzione di riunire Minsc e Boo?~
@@ -744,7 +744,7 @@ Minsc mi ha attaccato quando siamo arrivati a Brynnlaw! Forse le mie dure parole
 @720  = ~E... E tu non l'hai detto a Minsc? L'hai ingannato così volentieri? Che cosa direbbe Boo di fronte ad un simile comportamento?~
 @721  = ~Direbbe... Direbbe... COSA??! Direbbe che ha voglia di una noce, ma Boo a volte si lascia andare a queste golosità.~
 @722  = ~Oh, Minsc è deluso da <CHARNAME>! Tradito dal suo unico amico al mondo oltre a Boo... Ma tu non sei più un amico!~
-@723  = ~A te... A te Boo non è mai piaciuto?! Per questo lasceresti Boo nelle mani di un fetido malvagio? Perchè venga versata della birra sulla sua pelliccia e viva in delle catapecchie? Tu-~
+@723  = ~A te... A te Boo non è mai piaciuto?! Per questo lasceresti Boo nelle mani di un fetido malvagio? Perché venga versata della birra sulla sua pelliccia e viva in delle catapecchie? Tu-~
 @724  = ~Sei il più scellerato dei mali... Hai tradito Minsc... Hai tradito BOO!!~
 @725  = ~Un simile male dev'essere distrutto! MINSC distruggerà un simile male! Nel nome di Boo!~
 @726  = ~RrrRRRAARRGGGHHHHHHHHHHH!!! Per i criceti di ovunque!!~
@@ -754,10 +754,10 @@ Oggi sono stato costretto ad uccidere Minsc dopo che è caduto in preda ad un'ira
 @728  = ~Ti avverto, <CHARNAME>! Da questo momento in poi, quando non starò cercando Boo, starò tenendo d'occhio il tuo didietro!~
 @729  = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
-Minsc diventa più turbato di minuto in minuto dal momento che non abbiamo ancora trovato il suo criceto. Temo che lascerà il gruppo e che cercherà Boo per conto suo se dovessimo indugiare più a lungo. Minsc ha accenato al fatto che ha visto Boo per l'ultima volta vicino ai marinai e ai pirati. Forse dovremmo investigare alla taverna il Dono del Mare nei Moli.~
+Minsc diventa più turbato di minuto in minuto dal momento che non abbiamo ancora trovato il suo criceto. Temo che lascerà il gruppo e che cercherà Boo per conto suo se dovessimo indugiare più a lungo. Minsc ha accennato al fatto che ha visto Boo per l'ultima volta vicino ai marinai e ai pirati. Forse dovremmo investigare alla taverna il Dono del Mare nei Moli.~
 @730  = ~No!! Boo non fuggirebbe da Minsc, non importa quanto terribile sia la puzza nel suo zaino! Inoltre, la sacca di Minsc odora soltanto del formaggio di Boo e lui non gli presta attenzione. No, Boo è stato rapito!!~
 @731  = ~No!! Minsc ha controllato la sua armatura completamente, davanti e indietro e in basso e in alto! No, Boo è stato rapito!!~
-@732  = ~Tu... Desidereresti che accada una simile cosa al piccolo Boo! E' possibile che <CHARNAME> avesse un didietro malvagio e che Minsc non se ne sia mai accorto? Questo mi fa pensare che dovrò guardare più da vicino il didietro dei miei futuri compagni di viaggio!~
+@732  = ~Tu... Desidereresti che accada una simile cosa al piccolo Boo! È possibile che <CHARNAME> avesse un didietro malvagio e che Minsc non se ne sia mai accorto? Questo mi fa pensare che dovrò guardare più da vicino il didietro dei miei futuri compagni di viaggio!~
 @733  = ~Non viaggerò più con te, <CHARNAME>! Minsc troverà Boo PER CONTO SUO!~
 @734  = ~Minsc non scherza *mai* su Boo! Sulle donnole, forse! Su Boo, MAI!~
 @735  = ~Calmati, Minsc. Ti aiuteremo a trovare il tuo Boo.~
@@ -775,7 +775,7 @@ Minsc diventa più turbato di minuto in minuto dal momento che non abbiamo ancora
 @747  = ~Tu... Tu non aiuterai Minsc a trovare il suo Boo? Permetteresti che due grandi eroi restino separati? Non posso crederci!~
 @748  = ~Oh, va bene, Minsc, andremo a cercare quel dannato criceto.~
 @749  = ~Spiacente, Minsc. Dovrai cercarlo per conto tuo.~
-@750  = ~Minsc troverà Boo SENZA l'aiuto di <CHARNAME>! Minsc è abbastanza eroico da trovare Boo per conto suo! Mantieni saldi i tuoi baffi, Boo, Minsc will beat a valiant path to your paws!~
+@750  = ~Minsc troverà Boo SENZA l'aiuto di <CHARNAME>! Minsc è abbastanza eroico da trovare Boo per conto suo! Mantieni saldi i tuoi baffi, Boo, Minsc percorrerà un coraggioso cammino verso le tue zampe!~
 @751  = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
 Minsc ha lasciato il mio gruppo furioso dopo che gli ho detto che dobbiamo partire. Il ranger non capiva come io potessi andarmene mentre il suo criceto rimaneva ancora scomparso e se n'è andato infuriato, declamando a squarcia gola il fatto che avrebbe cercato Boo. Non penso che lo rivedrò ancora.~
@@ -783,7 +783,7 @@ Minsc ha lasciato il mio gruppo furioso dopo che gli ho detto che dobbiamo parti
 @753  = ~A Minsc... (Sniff)... A Minsc manca il suo piccolo Boo.~
 @754  = ~Dov'è finito, oh dov'è finito il mio piccolo Boo?
 
-E' accaduto un tragico evento! Minsc ha scoperto che il suo criceto Boo è scomparso e il grande ranger si sente distrutto. Gli ho promesso che perlustreremo i Moli alla ricerca di indizi sulla sua scomparsa, dal momento che questo è l'ultimo posto dove Minsc ricorda di averlo visto.~
+È accaduto un tragico evento! Minsc ha scoperto che il suo criceto Boo è scomparso e il grande ranger si sente distrutto. Gli ho promesso che perlustreremo i Moli alla ricerca di indizi sulla sua scomparsa, dal momento che questo è l'ultimo posto dove Minsc ricorda di averlo visto.~
 @755  = ~Cercare di meno! Trovare di più! Così dicono Minsc e... Minsc!!~
 @756  = ~Quanto a lungo? Un terribile pirata potrebbe costringere Boo a bere una birra proprio mentre parliamo! Tu ed io sappiamo che Boo è troppo giovane per simili cose! Ai Moli, ADESSO, <CHARNAME>, altrimenti i miei stivali conosceranno il tuo didietro!~
 @757  = ~CALCI NEL SEDE-~
@@ -796,32 +796,32 @@ E' accaduto un tragico evento! Minsc ha scoperto che il suo criceto Boo è scompa
 @764  = ~Ma - ma Boo non corre mai sulla strada! Ha dei piedini sensibili! Penso che questo non sia Boo! Picc - er, grande criceto grigio, sei quello che <CHARNAME> sostiene tu sia?~
 @765  = ~Ma sembra così grosso. Boo non è mai stato così grosso...~
 @766  = ~Smethy probabilmente lo nutre più di quanto tu faccia. Inoltre, è rimasto senza l'esercizio del combattimento.~
-@767  = ~Beh, Boo *è* un criceto spaziale gigante. E' giusto che sia grosso, no?~
+@767  = ~Beh, Boo *è* un criceto spaziale gigante. È giusto che sia grosso, no?~
 @768  = ~NO! Boo è un criceto spaziale gigante IN MINIATURA!! Penso - penso che tu stia mentendo a Minsc! Picc - er, grande criceto grigio! Ha ragione <CHARNAME> quando dice che sei Boo?~
 @769  = ~Capisco. Perciò tu dici di non essere Boo? E <CHARNAME> insiste ancora! Questo vorrebbe dire-~
 @770  = ~Questo vorrebbe dire che <CHARNAME> è un... Un bugiardo...~
-@771  = ~Cosa - cosa sta ribollendo nel sangue di Minsc? Perchè all'improvviso Minsc vede rosso? E' perchè <CHARNAME> è diventato malvagio!! <PRO_HESHE> ha mentito a Minsc e lo ha pure tradito!~
+@771  = ~Cosa - cosa sta ribollendo nel sangue di Minsc? Perché all'improvviso Minsc vede rosso? È perché <CHARNAME> è diventato malvagio!! <PRO_HESHE> ha mentito a Minsc e lo ha pure tradito!~
 @772  = ~E il povero - il povero Boo resta ancora scomparso... Penserà che Minsc lo abbia abbandonato! Ohh Boo, non ti biasimerò se sei diventato un malvagio pirata o un marinaio ubriaco mentre Minsc era via...~
 @773  = ~Andrò a cercare Boo PROPRIO ADESSO! Andrò a cercare Boo PROPRIO ADESSO! Potrebbe star agitando una scimitarrina o cantando una canzone marinaresca mentre parliamo! Ohh, A Minsc manca così tanto...~
 @774  = ~<CHARNAME>! Questa non è la fine! 774Troverò Boo! Insieme ti affetteremo in tanti piccoli pezzi malvagi e Boo camminerà con la sua gamba di legno sui tuoi resti!~
 @775  = ~Idiota! Attaccarlo non ci porterà alcun vantaggio! Non capisci che non abbiamo possibilità di salvezza se non cooperiamo? Onestamente, ti comporti peggio di un folle, a volte!~
-@776  = ~Così quel grosso idiota se n'è finalemente andato. In aggiunta, quella mocciosa senza tetto lo ha seguito! Dovrei stringerti la mano, <CHARNAME>, per aver eliminato due fave con un piccione.~
-@777  = ~Così quel grosso idiota se n'è finalemente andato. Forse non ci vorrà molto prima che segua la sua ex-strega concimando il terreno. Uno può solo sperare.~
-@778  = ~Giochetto da bamibini. O temibile capo, hai bisogno dell'aiuto di Edwin? (Ugh, posso quasi sentire l'eco delle rotelle arrugginite che cercano di girare nella sua testa ottusa.)~
+@776  = ~Così quel grosso idiota se n'è finalmente andato. In aggiunta, quella mocciosa senza tetto lo ha seguito! Dovrei stringerti la mano, <CHARNAME>, per aver eliminato due fave con un piccione.~
+@777  = ~Così quel grosso idiota se n'è finalmente andato. Forse non ci vorrà molto prima che segua la sua ex-strega concimando il terreno. Uno può solo sperare.~
+@778  = ~Giochetto da bambini. O temibile capo, hai bisogno dell'aiuto di Edwin? (Ugh, posso quasi sentire l'eco delle rotelle arrugginite che cercano di girare nella sua testa ottusa.)~
 @779  = ~Ebbene? (Sii paziente, sii paziente, <CHARNAME> sta facendo spazio per un nuovo pensiero nella sua zucca piccola come una bacca.)~
 @780  = ~Dimmi la risposta, Edwin.~
 @781  = ~La risposta è "cavallo".~
 @782  = ~Oh, non affaticare il tuo cervello pensando ad una coerente risposta alla mia domanda. Un grugnito sarà sufficiente. (Chi avrebbe mai pensato che sarei diventato così fluente nel parlare la lingua delle scimmie? Mia Madre ne sarebbe.. scontenta.)~
 @783  = ~Grunt.~
 @784  = ~Edwin, dimmi soltanto la risposta.~
-@785  = ~E' "cavolo". (Sì, quello a cui la tua zucca così spassosa assomiglia.)~
+@785  = ~È "cavolo". (Sì, quello a cui la tua zucca così spassosa assomiglia.)~
 @786  = ~(Ma non abbastanza semplice, sembra.) <CHARNAME>, devo immaginare che tu richieda di nuovo il mio aiuto? (Quale sarà il prossimo, allacciare la fibbia della sua cintura ogni giorno?)~
 @787  = ~Oh! (Sob!) Non posso credere che tu abbia fatto una cosa.. Una cosa così orribile, <CHARNAME>! Sottrarre qualcosa di così prezioso da Minsc! Io... Non prenderò più parte a tutto questo!~
 @788  = ~Un elfo, il ranger, un Minsc e il suo criceto.
 
 Minsc ha scoperto che lo pseudo-Boo non è Boo. L'oltraggiato ranger si è rivolto contro di me e sono stato costretto ad ucciderlo. In aggiunta ai miei guai, il chierico-mago Aerie ha lasciato di conseguenza la mia compagnia. Il mio gruppo sarà più debole con la loro perdita e farei meglio ad evitare simili giochi in futuro.~
 @789  = ~Oh! Povero, povero Minsc! C-come hai potuto fargli questo, <CHARNAME>?~
-@790  = ~Pensavo che sarebbe stato divertente. E lo E' STATO. Dimmi, hai qualche animaletto?~
+@790  = ~Pensavo che sarebbe stato divertente. E lo È STATO. Dimmi, hai qualche animaletto?~
 @791  = ~Mi dispiace, Aerie, il mio scherzetto è stato terribilmente sbagliato. Dubito che mi perdonerà, ma spero sinceramente che ritrovi il suo criceto.~
 @792  = ~Era solo uno scherzo, teso a farti ridere. Minsc l'ha preso più seriamente di quanto pensassi avrebbe fatto e così anche tu.~
 @793  = ~S-stai ancora scherzando? In un momento come questo? Minsc ha perso... Ha perso qualcosa di prezioso per lui... E tu r-ridi all'idea! Avevo una migliore opinione di te, <CHARNAME>. Io... Mi sbagliavo.~
@@ -843,6 +843,6 @@ Minsc ha scoperto che lo pseudo-Boo non è Boo. L'oltraggiato ranger si è rivolto
 @809  = ~Immagino che andrà bene.~
 @810  = ~Aspetta un momento! Non voglio i tuoi ripugnanti favori!~
 
-@811  = ~Questo non è il Quartiere Governativo! L'halfling deve aver confuso il suo incan-~
+@811  = ~Questo non è il Quartiere Governativo! L'halfling deve aver confuso il suo incan...~
 @812  = ~Aspetta, <CHARNAME>! Minsc crede di aver sentito i passi di un fetido male tra gli alberi! O forse ne sente l'odore! Di qualsiasi senso si stia servendo, Minsc pensa che dovremmo prepararci per la battaglia!~
 

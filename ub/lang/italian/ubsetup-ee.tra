@@ -12,8 +12,8 @@ THAC0: Bonus +3
 Danno: 1D6 +3
 Tipo di Danno: Perforante
 Peso: 2
-Fattore Velocità: 1
-Tipo di Capacità: Spada Corta
+Fattore-velocità: 1
+Tipo di Competenza: Spada Corta
 Tipo: A una mano
 Richiede: Forza 5
 ~
@@ -33,8 +33,8 @@ THAC0: Bonus +1
 Danno: 1D8 +1
 Tipo di Danno: Da taglio
 Peso: 3
-Fattore Velocità: 4
-Tipo di Capacità: Scimitarra/Wakizashi/Ninja-To
+Fattore-velocità: 4
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
 Tipo: A una mano
 Richiede: Forza 10
 ~
@@ -50,7 +50,7 @@ Durata: 1 turno
 ~
 @74   = ~Statuetta Shakti
 
-E' evidente che quest'oggetto è stato realizzato da un potente Wu Jen nelle misteriose terre ad est di Faerun, visto che la statuetta è una complessa e particolareggiata copia di un feroce guerriero di Kara Tur indossante delle vesti da battaglia.
+È evidente che quest'oggetto è stato realizzato da un potente Wu Jen nelle misteriose terre ad est di Faerun, visto che la statuetta è una complessa e particolareggiata copia di un feroce guerriero di Kara Tur indossante delle vesti da battaglia.
 Quando ci si appella al suo potere, questa statuetta provoca un'incredibile metamorfosi in colui che la usa, trasformandolo temporaneamente in un furioso gladiatore armato di spada corta in entrambe le mani.
 Non è chiaro se questa meravigliosa statuetta permetta a chi se ne serve di incanalare lo spirito di un leggendario guerriero o se liberi semplicemente i primordiali istinti selvaggi sepolti nelle profondità della psiche del possessore.
 
@@ -63,13 +63,13 @@ Consente di attaccare due volte ogni round con una spada corta +4 (come se si po
 Utilizzabile una volta al giorno
 
 ~
-@75   = ~Foebane +5
+@75   = ~Flagello dei Nemici +5
 
-L'arcimago Demron forgiò questa magica spada bastarda per l'eroe elfico Fflar, capitano di Myth Drannor. La più potente tra le sei simili lame incantate da Demron, Foebane può risucchiare l'essenza vitale dei suoi avversari ad ogni colpo e trasferire quest'energia a chi la brandisce. Alcuni credono che la capacità di rubare l'anima altrui abbia maledetto la lama; creata come arma di rettitudine e di giustizia, quella di Foebane è una sinistra storia di morte e di uccisioni.
+L'arcimago Demron forgiò questa magica spada bastarda per l'eroe elfico Fflar, capitano di Myth Drannor. La più potente tra le sei simili lame incantate da Demron, Flagello dei Nemici può risucchiare l'essenza vitale dei suoi avversari ad ogni colpo e trasferire quest'energia a chi la brandisce. Alcuni credono che la capacità di rubare l'anima altrui abbia maledetto la lama; creata come arma di rettitudine e di giustizia, quella di Flagello dei Nemici è una sinistra storia di morte e di uccisioni.
 
-Ad inaugurare la spada fu proprio il sangue di Demron, visto che un ladro si sarebbe servito dell'appena forgiata arma per segnare la prematura morte dell'arcimago - sebbene il ladro non sia sopravvissuto all'incontro. In seguito all'uccisione di Demron, Foebane venne recuperata e portata all'eroe elfico Fflar per servirsene nella difesa di Myth Drannor, la maggiore tra le città elfiche. Persino il potere di questa lama non fu sufficiente a fronteggiare le pericolose orde che avevano invaso la roccaforte. Quando Myth Drannor cadde, il capitano Fflar conobbe un'orribile e raccapricciante fine e la stessa Foebane andò perduta sotto le rovine di quella città un tempo grandiosa.
+Ad inaugurare la spada fu proprio il sangue di Demron, visto che un ladro si sarebbe servito dell'appena forgiata arma per segnare la prematura morte dell'arcimago - sebbene il ladro non sia sopravvissuto all'incontro. In seguito all'uccisione di Demron, Flagello dei Nemici venne recuperata e portata all'eroe elfico Fflar per servirsene nella difesa di Myth Drannor, la maggiore tra le città elfiche. Persino il potere di questa lama non fu sufficiente a fronteggiare le pericolose orde che avevano invaso la roccaforte. Quando Myth Drannor cadde, il capitano Fflar conobbe un'orribile e raccapricciante fine e la stessa Flagello dei Nemici andò perduta sotto le rovine di quella città un tempo grandiosa.
 
-Secondo una leggenda, i considerevoli poteri di Foebane aumenterebbero quando la lama viene riunita al magico Fodero di Fflar, il suo originario possessore.  
+Secondo una leggenda, i considerevoli poteri di Flagello dei Nemici aumenterebbero quando la lama viene riunita al magico Fodero di Fflar, il suo originario possessore.  
 
 STATISTICHE:
 
@@ -83,8 +83,8 @@ THACO: Bonus +5
 Danno: 2D4 +5, +6 danni contro non morti, mutaforma e tutte le creature extra-planari (demoni, planetari, ecc.) 
 Tipo di Danno: Da taglio
 Peso: 5
-Fattore Velocità: 3
-Tipo di Capacità: Spada Bastarda
+Fattore-velocità: 3
+Tipo di Competenza: Spada Bastarda
 Tipo: A una mano
 Richiede: Forza 11
 ~
@@ -109,8 +109,8 @@ THAC0: Bonus +6
 Danno: 1D6 +6 
 Tipo di Danno: Perforante 
 Peso: 5 
-Fattore Velocità: 2 
-Tipo di Capacità: Lancia 
+Fattore-velocità: 2 
+Tipo di Competenza: Lancia 
 Tipo: A due mani 
 Richiede: Forza 5
 ~
@@ -118,7 +118,7 @@ Richiede: Forza 5
 
 Una favola di Amn racconta la storia di Nysrogh, un potente abitante dei piani inferiori rilasciato nella nazione in questione da una sbadata stregona di nome Unileth. Completamente immune a qualsiasi arma utilizzata contro di lui, Nysrogh infuriò per tutta Amn e Unileth si ripromise di porre fine alla minaccia che aveva liberato.
 
-Servendosi della sua conoscenza delle debolezze dei demoni, costruì un'eccezionale clava per sconfiggere Nysrogh e la diede ad un valoroso ma anonimo cavaliere perchè fosse il suo campione. Questi lanciò una sfida al Nysrogh, il quale accettò prontamente sicuro che non sarebbe stato ferito da qualsiasi arma conosciuta nei Reami. I due s'incontrarono sul campo di battaglia e, davanti allo sguardo feroce del demone, il campione di Unileth lasciò cadere immediatamente la sua arma e fuggì terrorizzato. Nysrogh cercò di prendere la clava abbandonata dal guerriero come simbolo della sua vittoria ma, non appena l'artiglio del demone toccò l'arma, questa rilasciò un incantesimo di Imprigionamento per il quale era del tutto impreparato.
+Servendosi della sua conoscenza delle debolezze dei demoni, costruì un'eccezionale clava per sconfiggere Nysrogh e la diede ad un valoroso ma anonimo cavaliere perché fosse il suo campione. Questi lanciò una sfida al Nysrogh, il quale accettò prontamente sicuro che non sarebbe stato ferito da qualsiasi arma conosciuta nei Reami. I due s'incontrarono sul campo di battaglia e, davanti allo sguardo feroce del demone, il campione di Unileth lasciò cadere immediatamente la sua arma e fuggì terrorizzato. Nysrogh cercò di prendere la clava abbandonata dal guerriero come simbolo della sua vittoria ma, non appena l'artiglio del demone toccò l'arma, questa rilasciò un incantesimo di Imprigionamento per il quale era del tutto impreparato.
  
 La trappola di Unileth aveva funzionato e il demone che non poteva essere ferito da nessuna arma venne intrappolato per sempre all'interno della magica clava.  
 
@@ -132,8 +132,8 @@ THAC0: Bonus +5
 Danno: 1D6 +5, +5 danni da fuoco
 Tipo di Danno: Contundente
 Peso: 1
-Fattore Velocità: 4
-Tipo di Capacità: Clava
+Fattore-velocità: 4
+Tipo di Competenza: Clava
 Tipo: A una mano
 Richiede: Forza 5
 ~
@@ -155,8 +155,8 @@ THACO: Bonus +5
 Danno: 1D6 +6, +1D6 danni da elettricità 
 Tipo di Danno: Contundente 
 Peso: 4 
-Fattore Velocità: 2 
-Tipo di Capacità: Mazza 
+Fattore-velocità: 2 
+Tipo di Competenza: Mazza 
 Tipo: A una mano 
 Richiede: Forza 10 
 ~
@@ -194,12 +194,12 @@ THAC0: Bonus +6
 Danno: 1D12 +6
 Tipo di Danno: Da taglio
 Peso: 6
-Fattore Velocità: 4
-Tipo di Capacità: Spada a due mani 
+Fattore-velocità: 4
+Tipo di Competenza: Spada a due mani 
 Tipo: A due mani
 Richiede: Forza 14
 ~
-@100  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. E' stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
+@100  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. È stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
 
 Con l'aggiunta della quinta ed ultima testa a quest'oggetto creato dalla crudele razza dei Rakshasa, il vero potenziale del Mazzafrusto delle Ere è stato infine concretizzato.
 
@@ -216,12 +216,12 @@ THAC0: Bonus +5
 Danno: 1D6 +6, +2 danni da acido, +2 danni da freddo, +2 danni da fuoco, +2 danni da veleno, +2 danni da elettricità
 Tipo di Danno: Contundente
 Peso: 8
-Fattore Velocità: 2
-Tipo di Capacità: Flagello/Mazzafrusto
+Fattore-velocità: 2
+Tipo di Competenza: Flagello/Mazzafrusto
 Tipo: A una mano
 Richiede: Forza 13
 ~
-@101  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. E' stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
+@101  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. È stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
 
 Questo mazzafrusto a quattro teste arreca danni da fuoco, freddo, acido e veleno. Se la quinta testa del Mazzafrusto delle Ere venisse ritrovata, renderebbe questo incredibile oggetto ancora più potente.
 
@@ -234,12 +234,12 @@ THAC0: Bonus +4
 Danno: 1D6 +5, +1 danno da fuoco, +1 danno da freddo, +1 da acido, +1 da veleno
 Tipo di Danno: Contundente
 Peso: 9
-Fattore Velocità: 3
-Tipo di Capacità: Flagello/Mazzafrusto
+Fattore-velocità: 3
+Tipo di Competenza: Flagello/Mazzafrusto
 Tipo: A una mano
 Richiede: Forza 13
 ~
-@102  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. E' stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
+@102  = ~Questo mazzafrusto è stato di proprietà di Lord Arnise per un certo periodo, un cimelio della sua avventurosa giovinezza. È stato tenuto smontato, le sue singole parti sono state immagazzinate in luoghi separati ed è stato usato solo per le emergenze più gravi. Lord Arnise era ben cosciente del magico potere che irradiava l'arma una volta montata correttamente. Una scia di distruzione l'ha seguita nella storia fino a riportarla ai proprietari originali. Il mazzafrusto è stato creato dai bellicosi Rakshasa, una razza di spiriti vendicativi desiderosi di carne umana, che lo usarono come un'arma adattabile ed appropriata per molte battaglie. Durante una caccia particolarmente violenta il mazzafrusto fu smarrito, per poi essere recuperato grazie all'affinità magica dei Rakshasa che riconobbero le sue potenti emanazioni. Si resero conto che l'arma era giunta nelle mani di un grande guerriero umano e la battaglia che ne seguì fu davvero epica. Da allora è stato usato dai Rakshasa come esca, "perdendolo" più volte. Oggetti potenti attirano persone potenti e la gente potente offre le battaglie più gloriose.
 
 Questo mazzafrusto a quattro teste arreca danni da fuoco, freddo, acido ed elettricità. Se la quinta testa del Mazzafrusto delle Ere venisse ritrovata, renderebbe questo incredibile oggetto ancora più potente.
 
@@ -252,13 +252,13 @@ THAC0: Bonus +4
 DaNNO: 1D6 +5, +1 danno da fuoco, +1 danno da freddo, +1 danno da acido, +1 danno da elettricità
 Tipo di Danno: Contundente
 Peso: 9
-Fattore Velocità: 3
-Tipo di Capacità: Flagello/Mazzafrusto
+Fattore-velocità: 3
+Tipo di Competenza: Flagello/Mazzafrusto
 Tipo: A una mano
 Richiede: Forza 13
 ~
 
-@1005 = ~Questa spada corta, lunga a mala pena 30 centimetri, sembra essere di Kara-Tur, ma ovviamente è di scarsa fattura. Il baricentro della spada è un pò spostato rispetto a quello che dovrebbe essere, la seta che avvolge l'impugnatura si sta allentando e la lama non è più affilata. Tracce di un'iscrizione orientale restano sparse qua e là.
+@1005 = ~Questa spada corta, lunga a mala pena 30 centimetri, sembra essere di Kara-Tur, ma ovviamente è di scarsa fattura. Il baricentro della spada è un po' spostato rispetto a quello che dovrebbe essere, la seta che avvolge l'impugnatura si sta allentando e la lama non è più affilata. Tracce di un'iscrizione orientale restano sparse qua e là.
 
 STATISTICHE:
 
@@ -266,8 +266,8 @@ THAC0: -1
 Danno: 1D8 - 1
 Tipo di Danno: Perforante
 Peso: 3
-Fattore Velocità: 2
-Tipo di Capacità: Scimitarra/Wakizashi/Ninja-To
+Fattore-velocità: 2
+Tipo di Competenza: Scimitarra/Wakizashi/Ninja-To
 Tipo: A una mano
 Richiede: Forza 5
 ~
